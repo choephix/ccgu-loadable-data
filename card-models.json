@@ -1,19 +1,5 @@
 [
   {
-    "id": 291,
-    "slug": "TEST",
-    "type": 0,
-    "power": 0,
-    "priority": 0,
-    "rarity": 0,
-    "status": 0,
-    "name": "",
-    "description": "",
-    "tags": [
-      "grand"
-    ]
-  },
-  {
     "id": 860,
     "slug": "",
     "type": 0,
