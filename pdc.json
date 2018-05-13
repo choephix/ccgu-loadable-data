@@ -37,6 +37,15 @@
   },
   {
     "origin": "film/kaiju",
+    "name": "Creature from the black lagoon",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "2e80530d-7b88-447e-9cb3-789f01290af6"
+  },
+  {
+    "origin": "film/kaiju",
     "name": "[Daikyojû] Gappa",
     "notes_character": "",
     "notes_cardstats": "",
@@ -54,51 +63,6 @@
     "guid": "1cd0a9a7-c486-4ebd-bf5e-8c9494c4ab73"
   },
   {
-    "origin": "film/kaiju",
-    "name": "Creature from the black lagoon",
-    "notes_character": "",
-    "notes_cardstats": "",
-    "tags": [],
-    "faction": "",
-    "guid": "2e80530d-7b88-447e-9cb3-789f01290af6"
-  },
-  {
-    "origin": "folk-literature/beowulf",
-    "name": "The Dragon* (original dragon)",
-    "notes_character": "the original dragon\nhttps://www.google.com/url?q=https://en.wikipedia.org/wiki/The_dragon_(Beowulf)&sa=D&ust=1523847179732000&usg=AFQjCNHa8TZKPepok-cSCWoPoYZuKbE-rA",
-    "notes_cardstats": "",
-    "tags": [],
-    "faction": "green",
-    "guid": "2762059e-5e01-483f-8e16-5c463213c03f"
-  },
-  {
-    "origin": "folk-literature/beowulf",
-    "name": "niceras/nicoras...",
-    "notes_character": "",
-    "notes_cardstats": "",
-    "tags": [],
-    "faction": "",
-    "guid": "97dd7c78-9278-44a8-827c-97653378979b"
-  },
-  {
-    "origin": "folk-literature/beowulf",
-    "name": "Wiglaf",
-    "notes_character": "original dragon slayer \n(assist-dragon-slayer?)",
-    "notes_cardstats": "",
-    "tags": [],
-    "faction": "",
-    "guid": "7212d9d9-1f2a-4341-99da-643f4ac8653c"
-  },
-  {
-    "origin": "folk-literature/beowulf",
-    "name": "Grendel⭐",
-    "notes_character": "",
-    "notes_cardstats": "",
-    "tags": [],
-    "faction": "green",
-    "guid": "89c06c17-9b52-4bf1-97f5-379300957c17"
-  },
-  {
     "origin": "folk-literature/beowulf",
     "name": "Beowulf",
     "id": 0,
@@ -112,6 +76,42 @@
     "tags": [],
     "faction": "green",
     "guid": "bca86900-552a-4c3c-a451-387b7e093469"
+  },
+  {
+    "origin": "folk-literature/beowulf",
+    "name": "niceras/nicoras...",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "97dd7c78-9278-44a8-827c-97653378979b"
+  },
+  {
+    "origin": "folk-literature/beowulf",
+    "name": "Grendel⭐",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "green",
+    "guid": "89c06c17-9b52-4bf1-97f5-379300957c17"
+  },
+  {
+    "origin": "folk-literature/beowulf",
+    "name": "Wiglaf",
+    "notes_character": "original dragon slayer \n(assist-dragon-slayer?)",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "7212d9d9-1f2a-4341-99da-643f4ac8653c"
+  },
+  {
+    "origin": "folk-literature/beowulf",
+    "name": "The Dragon* (original dragon)",
+    "notes_character": "the original dragon\nhttps://www.google.com/url?q=https://en.wikipedia.org/wiki/The_dragon_(Beowulf)&sa=D&ust=1523847179732000&usg=AFQjCNHa8TZKPepok-cSCWoPoYZuKbE-rA",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "green",
+    "guid": "2762059e-5e01-483f-8e16-5c463213c03f"
   },
   {
     "origin": "folklore/american",
@@ -151,15 +151,6 @@
   },
   {
     "origin": "folklore/western",
-    "name": "Headless Horseman (dup)",
-    "notes_character": "ewen",
-    "notes_cardstats": "",
-    "tags": [],
-    "faction": "",
-    "guid": "72865d74-93b6-42a7-ade0-5eec47680da7"
-  },
-  {
-    "origin": "folklore/western",
     "name": "Golden Apple (item)",
     "notes_character": "",
     "notes_cardstats": "",
@@ -175,6 +166,15 @@
     "tags": [],
     "faction": "",
     "guid": "4c3a81b8-b668-4480-886a-efb9f4c7762f"
+  },
+  {
+    "origin": "folklore/western",
+    "name": "Headless Horseman (dup)",
+    "notes_character": "ewen",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "72865d74-93b6-42a7-ade0-5eec47680da7"
   },
   {
     "origin": "folklore/western/arthurian",
@@ -241,6 +241,15 @@
   },
   {
     "origin": "folklore/western/arthurian/*",
+    "name": "Morgan Le Fay",
+    "notes_character": "https://pin.it/5ynijdifcbnt2r",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "26a67b14-1216-4b0d-aeb9-f5f3b8e5d6ff"
+  },
+  {
+    "origin": "folklore/western/arthurian/*",
     "name": "King Arthur",
     "notes_character": "",
     "notes_cardstats": "",
@@ -256,15 +265,6 @@
     "tags": [],
     "faction": "",
     "guid": "58329f77-6469-492f-9f07-33924186995a"
-  },
-  {
-    "origin": "folklore/western/arthurian/*",
-    "name": "Morgan Le Fay",
-    "notes_character": "https://pin.it/5ynijdifcbnt2r",
-    "notes_cardstats": "",
-    "tags": [],
-    "faction": "",
-    "guid": "26a67b14-1216-4b0d-aeb9-f5f3b8e5d6ff"
   },
   {
     "origin": "folklore/western/arthurian/*",
@@ -304,28 +304,12 @@
   },
   {
     "origin": "folklore/western/grimm",
-    "name": "Big Bad Wolf",
+    "name": "Little Briar Rose / Sleeping Beauty",
     "notes_character": "",
     "notes_cardstats": "",
     "tags": [],
     "faction": "",
-    "guid": "ec90ecdf-b76a-43ff-8b6a-d1bf21cdcc7e"
-  },
-  {
-    "origin": "folklore/western/grimm",
-    "name": "Thumbelina",
-    "id": 37,
-    "guid": "e0ad0ae0-431f-4969-bfc9-c2ee050fe71b",
-    "notes_cardstats": "harassing mia?"
-  },
-  {
-    "origin": "folklore/western/grimm",
-    "name": "Rapunzel",
-    "notes_character": "",
-    "notes_cardstats": "",
-    "tags": [],
-    "faction": "",
-    "guid": "7c8641a8-2805-4727-a0d8-2ef1d9d99a85"
+    "guid": "19716839-0ab9-48b1-ad67-37163c868a21"
   },
   {
     "origin": "folklore/western/grimm",
@@ -338,12 +322,12 @@
   },
   {
     "origin": "folklore/western/grimm",
-    "name": "Cinderella",
+    "name": "Rapunzel",
     "notes_character": "",
     "notes_cardstats": "",
     "tags": [],
     "faction": "",
-    "guid": "407d4d68-706b-4068-9cd6-7856335e18a8"
+    "guid": "7c8641a8-2805-4727-a0d8-2ef1d9d99a85"
   },
   {
     "origin": "folklore/western/grimm",
@@ -353,6 +337,22 @@
     "tags": [],
     "faction": "",
     "guid": "efdb5127-fda0-4b79-99e2-711f0ef495da"
+  },
+  {
+    "origin": "folklore/western/grimm",
+    "name": "Cinderella",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "407d4d68-706b-4068-9cd6-7856335e18a8"
+  },
+  {
+    "origin": "folklore/western/grimm",
+    "name": "Thumbelina",
+    "id": 37,
+    "guid": "e0ad0ae0-431f-4969-bfc9-c2ee050fe71b",
+    "notes_cardstats": "harassing mia?"
   },
   {
     "origin": "folklore/western/grimm",
@@ -383,12 +383,12 @@
   },
   {
     "origin": "folklore/western/grimm",
-    "name": "Little Briar Rose / Sleeping Beauty",
+    "name": "Frog King/Prince",
     "notes_character": "",
     "notes_cardstats": "",
     "tags": [],
     "faction": "",
-    "guid": "19716839-0ab9-48b1-ad67-37163c868a21"
+    "guid": "27321ee5-b89d-412e-8fc3-a34107022913"
   },
   {
     "origin": "folklore/western/grimm",
@@ -401,12 +401,12 @@
   },
   {
     "origin": "folklore/western/grimm",
-    "name": "Frog King/Prince",
+    "name": "Big Bad Wolf",
     "notes_character": "",
     "notes_cardstats": "",
     "tags": [],
     "faction": "",
-    "guid": "27321ee5-b89d-412e-8fc3-a34107022913"
+    "guid": "ec90ecdf-b76a-43ff-8b6a-d1bf21cdcc7e"
   },
   {
     "origin": "folklore/western/grimm",
@@ -434,42 +434,6 @@
     "tags": [],
     "faction": "",
     "guid": "201e50b6-391e-41b7-a764-ffe770309a77"
-  },
-  {
-    "origin": "history/pirates",
-    "name": "Cpt Edward Teach/Blackbeard",
-    "notes_character": "",
-    "notes_cardstats": "",
-    "tags": [],
-    "faction": "",
-    "guid": "3b77d448-adc5-496f-a079-55887f50daad"
-  },
-  {
-    "origin": "history/pirates",
-    "name": "Cpt John Rackam/Calico Jack",
-    "notes_character": "Cpt John Rackam",
-    "notes_cardstats": "supports mary read and anne bonney",
-    "tags": [],
-    "faction": "",
-    "guid": "d6c73652-f2ab-4625-b2e2-86d4021a92c9"
-  },
-  {
-    "origin": "history/pirates",
-    "name": "\"Black Sam\" Bellamy",
-    "notes_character": "",
-    "notes_cardstats": "",
-    "tags": [],
-    "faction": "",
-    "guid": "f04f605c-3af6-4d99-9af1-3449e900e885"
-  },
-  {
-    "origin": "history/pirates",
-    "name": "Cpt Charles Vane",
-    "notes_character": "",
-    "notes_cardstats": "",
-    "tags": [],
-    "faction": "",
-    "guid": "0df9d776-4961-4ef5-8588-bb20c5d941e2"
   },
   {
     "origin": "history/pirates",
@@ -509,6 +473,60 @@
   },
   {
     "origin": "history/pirates",
+    "name": "Cpt Edward Teach/Blackbeard",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "3b77d448-adc5-496f-a079-55887f50daad"
+  },
+  {
+    "origin": "history/pirates",
+    "name": "Cpt John Rackam/Calico Jack",
+    "notes_character": "Cpt John Rackam",
+    "notes_cardstats": "supports mary read and anne bonney",
+    "tags": [],
+    "faction": "",
+    "guid": "d6c73652-f2ab-4625-b2e2-86d4021a92c9"
+  },
+  {
+    "origin": "history/pirates",
+    "name": "\"Black Sam\" Bellamy",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "f04f605c-3af6-4d99-9af1-3449e900e885"
+  },
+  {
+    "origin": "history/pirates",
+    "name": "Cpt Charles Vane",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "0df9d776-4961-4ef5-8588-bb20c5d941e2"
+  },
+  {
+    "origin": "history/pirates",
+    "name": "Sir Henry Morgan/The Terrible",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "7cfa89ba-38b1-4e00-bfc7-d7dd82e673ef"
+  },
+  {
+    "origin": "history/pirates",
+    "name": "Mary Read",
+    "notes_character": "",
+    "notes_cardstats": "supports calico jack and anne bonney",
+    "tags": [],
+    "faction": "",
+    "guid": "98146b65-b10c-421b-a4ed-8d2f45120533"
+  },
+  {
+    "origin": "history/pirates",
     "name": "Cpt Kidd",
     "notes_character": "",
     "notes_cardstats": "",
@@ -535,24 +553,6 @@
     "guid": "22c8541e-975a-4d35-b9ee-a282a94e7abb"
   },
   {
-    "origin": "history/pirates",
-    "name": "Sir Henry Morgan/The Terrible",
-    "notes_character": "",
-    "notes_cardstats": "",
-    "tags": [],
-    "faction": "",
-    "guid": "7cfa89ba-38b1-4e00-bfc7-d7dd82e673ef"
-  },
-  {
-    "origin": "history/pirates",
-    "name": "Mary Read",
-    "notes_character": "",
-    "notes_cardstats": "supports calico jack and anne bonney",
-    "tags": [],
-    "faction": "",
-    "guid": "98146b65-b10c-421b-a4ed-8d2f45120533"
-  },
-  {
     "origin": "literature",
     "name": "Nathaniel \"Natty\" Bumppo",
     "notes_character": "",
@@ -560,6 +560,78 @@
     "tags": [],
     "faction": "",
     "guid": "ffc0e3e4-e631-495d-9b8b-1ed367660dd7"
+  },
+  {
+    "origin": "literature",
+    "name": "The Invisible Man",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "ac36bcc1-0cd3-4a36-8b14-4db0e42f2614"
+  },
+  {
+    "origin": "literature",
+    "name": "Gulliver",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "0fb0e984-0903-456f-9be6-0e4f3195bb7a"
+  },
+  {
+    "origin": "literature",
+    "name": "Pinocchio",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "b9b12579-ece6-4ae5-8793-028260283496"
+  },
+  {
+    "origin": "literature",
+    "name": "Van Helsing",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "86b71983-f1ae-466f-a749-8f7a0690ecd2"
+  },
+  {
+    "origin": "literature",
+    "name": "White Fang⭐",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "86721570-46c3-4bf9-a40b-54e0e64ea707"
+  },
+  {
+    "origin": "literature",
+    "name": "Robinson Crusoe",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "fe1c0bc4-8e9f-4a25-9306-b44f33c5567c"
+  },
+  {
+    "origin": "literature",
+    "name": "Captain Nemo",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "ca887c74-6023-4299-9e76-d30418dedf10"
+  },
+  {
+    "origin": "literature",
+    "name": "Pocahontas",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "58eab8b3-702f-48ff-a057-7a7d4123b01c"
   },
   {
     "origin": "literature",
@@ -652,96 +724,6 @@
     "guid": "39dfda6e-885c-4b8d-955e-02d307a32bfa"
   },
   {
-    "origin": "literature",
-    "name": "The Invisible Man",
-    "notes_character": "",
-    "notes_cardstats": "",
-    "tags": [],
-    "faction": "",
-    "guid": "ac36bcc1-0cd3-4a36-8b14-4db0e42f2614"
-  },
-  {
-    "origin": "literature",
-    "name": "Gulliver",
-    "notes_character": "",
-    "notes_cardstats": "",
-    "tags": [],
-    "faction": "",
-    "guid": "0fb0e984-0903-456f-9be6-0e4f3195bb7a"
-  },
-  {
-    "origin": "literature",
-    "name": "Pinocchio",
-    "notes_character": "",
-    "notes_cardstats": "",
-    "tags": [],
-    "faction": "",
-    "guid": "b9b12579-ece6-4ae5-8793-028260283496"
-  },
-  {
-    "origin": "literature",
-    "name": "Van Helsing",
-    "notes_character": "",
-    "notes_cardstats": "",
-    "tags": [],
-    "faction": "",
-    "guid": "86b71983-f1ae-466f-a749-8f7a0690ecd2"
-  },
-  {
-    "origin": "literature",
-    "name": "White Fang⭐",
-    "notes_character": "",
-    "notes_cardstats": "",
-    "tags": [],
-    "faction": "",
-    "guid": "86721570-46c3-4bf9-a40b-54e0e64ea707"
-  },
-  {
-    "origin": "literature",
-    "name": "Robinson Crusoe",
-    "notes_character": "",
-    "notes_cardstats": "",
-    "tags": [],
-    "faction": "",
-    "guid": "fe1c0bc4-8e9f-4a25-9306-b44f33c5567c"
-  },
-  {
-    "origin": "literature",
-    "name": "Captain Nemo",
-    "notes_character": "",
-    "notes_cardstats": "",
-    "tags": [],
-    "faction": "",
-    "guid": "ca887c74-6023-4299-9e76-d30418dedf10"
-  },
-  {
-    "origin": "literature",
-    "name": "Pocahontas",
-    "notes_character": "",
-    "notes_cardstats": "",
-    "tags": [],
-    "faction": "",
-    "guid": "58eab8b3-702f-48ff-a057-7a7d4123b01c"
-  },
-  {
-    "origin": "literature/aliceinwonderland",
-    "name": "Alice",
-    "notes_character": "",
-    "notes_cardstats": "",
-    "tags": [],
-    "faction": "",
-    "guid": "1ede7564-a46f-4122-9f0e-3decce177347"
-  },
-  {
-    "origin": "literature/aliceinwonderland",
-    "name": "White Rabbit,",
-    "notes_character": "",
-    "notes_cardstats": "",
-    "tags": [],
-    "faction": "",
-    "guid": "9a52e697-9d26-44bc-a39e-906f6f8fe91d"
-  },
-  {
     "origin": "literature/aliceinwonderland",
     "name": "the big bug",
     "notes_character": "",
@@ -749,15 +731,6 @@
     "tags": [],
     "faction": "",
     "guid": "5464e1ef-c0bd-4068-bffd-b0106f922271"
-  },
-  {
-    "origin": "literature/aliceinwonderland",
-    "name": "Mad Hatter",
-    "notes_character": "",
-    "notes_cardstats": "",
-    "tags": [],
-    "faction": "",
-    "guid": "8357e375-6420-4ee4-9e54-cd5955b82a1a"
   },
   {
     "origin": "literature/aliceinwonderland",
@@ -770,12 +743,57 @@
   },
   {
     "origin": "literature/aliceinwonderland",
+    "name": "Mad Hatter",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "8357e375-6420-4ee4-9e54-cd5955b82a1a"
+  },
+  {
+    "origin": "literature/aliceinwonderland",
+    "name": "Alice",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "1ede7564-a46f-4122-9f0e-3decce177347"
+  },
+  {
+    "origin": "literature/aliceinwonderland",
     "name": "Cheshire Cat",
     "notes_character": "",
     "notes_cardstats": "",
     "tags": [],
     "faction": "",
     "guid": "32e447ff-fc7e-45d6-b56f-9548deb2a612"
+  },
+  {
+    "origin": "literature/aliceinwonderland",
+    "name": "White Rabbit,",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "9a52e697-9d26-44bc-a39e-906f6f8fe91d"
+  },
+  {
+    "origin": "literature/andersen",
+    "name": "Naked King",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "9d19caa1-9124-4149-be64-350d9a4308b6"
+  },
+  {
+    "origin": "literature/andersen",
+    "name": "Ugly Duckling",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "b5e56857-651f-4d9b-b9b7-3117bc30f6c0"
   },
   {
     "origin": "literature/andersen",
@@ -803,24 +821,6 @@
     "tags": [],
     "faction": "",
     "guid": "e6c81f3b-05a1-4f06-a106-31ac304c8098"
-  },
-  {
-    "origin": "literature/andersen",
-    "name": "Naked King",
-    "notes_character": "",
-    "notes_cardstats": "",
-    "tags": [],
-    "faction": "",
-    "guid": "9d19caa1-9124-4149-be64-350d9a4308b6"
-  },
-  {
-    "origin": "literature/andersen",
-    "name": "Ugly Duckling",
-    "notes_character": "",
-    "notes_cardstats": "",
-    "tags": [],
-    "faction": "",
-    "guid": "b5e56857-651f-4d9b-b9b7-3117bc30f6c0"
   },
   {
     "origin": "literature/andersen/nightingale",
@@ -869,15 +869,6 @@
   },
   {
     "origin": "literature/frankenstein",
-    "name": "Frankenstein's Monster",
-    "notes_character": "",
-    "notes_cardstats": "",
-    "tags": [],
-    "faction": "",
-    "guid": "4f0b8ae8-333e-42c4-9ecd-46d148e2fdbf"
-  },
-  {
-    "origin": "literature/frankenstein",
     "name": "Frankenstein's Monster's Bride",
     "notes_character": "",
     "notes_cardstats": "",
@@ -893,6 +884,15 @@
     "tags": [],
     "faction": "",
     "guid": "f5cd655e-dbd3-4908-86a5-bc352f3a6118"
+  },
+  {
+    "origin": "literature/frankenstein",
+    "name": "Frankenstein's Monster",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "4f0b8ae8-333e-42c4-9ecd-46d148e2fdbf"
   },
   {
     "origin": "literature/jekyll",
@@ -1022,15 +1022,6 @@
   },
   {
     "origin": "literature/sherlockholmes",
-    "name": "Mycroft Holmes",
-    "notes_character": "",
-    "notes_cardstats": "",
-    "tags": [],
-    "faction": "",
-    "guid": "bd5b43b8-b74a-4aa5-9acb-9b075743cfb4"
-  },
-  {
-    "origin": "literature/sherlockholmes",
     "name": "Irene Adler",
     "notes_character": "",
     "notes_cardstats": "",
@@ -1099,6 +1090,15 @@
     "guid": "6b246c23-481a-4d2a-805b-a6c08637db6a"
   },
   {
+    "origin": "literature/sherlockholmes",
+    "name": "Mycroft Holmes",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "bd5b43b8-b74a-4aa5-9acb-9b075743cfb4"
+  },
+  {
     "origin": "literature/tarzan",
     "name": "Tarzan",
     "notes_character": "",
@@ -1154,6 +1154,15 @@
   },
   {
     "origin": "literature/treasureisland",
+    "name": "Cpt Flint (parrot)",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "1d211d32-a91e-4632-a373-16dc915b5a7f"
+  },
+  {
+    "origin": "literature/treasureisland",
     "name": "Long John Silver",
     "notes_character": "",
     "notes_cardstats": "",
@@ -1169,15 +1178,6 @@
     "tags": [],
     "faction": "",
     "guid": "6c606337-1971-4655-b60b-6fad3a5273f9"
-  },
-  {
-    "origin": "literature/treasureisland",
-    "name": "Cpt Flint (parrot)",
-    "notes_character": "",
-    "notes_cardstats": "",
-    "tags": [],
-    "faction": "",
-    "guid": "1d211d32-a91e-4632-a373-16dc915b5a7f"
   },
   {
     "origin": "literature/twain",
@@ -1196,15 +1196,6 @@
     "tags": [],
     "faction": "",
     "guid": "61fcfe60-16ad-40f7-8dbc-8e882b36f664"
-  },
-  {
-    "origin": "literature/wizardofoz",
-    "name": "winged monkeys...",
-    "notes_character": "",
-    "notes_cardstats": "",
-    "tags": [],
-    "faction": "",
-    "guid": "2eea4a72-22a8-4380-b36e-097f9d8e2efc"
   },
   {
     "origin": "literature/wizardofoz",
@@ -1280,6 +1271,15 @@
   },
   {
     "origin": "literature/wizardofoz",
+    "name": "winged monkeys...",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "2eea4a72-22a8-4380-b36e-097f9d8e2efc"
+  },
+  {
+    "origin": "literature/wizardofoz",
     "name": "The Wicked Which of the East",
     "notes_character": "",
     "notes_cardstats": "",
@@ -1307,15 +1307,6 @@
   },
   {
     "origin": "myth",
-    "name": "Atlantis (place)",
-    "notes_character": "",
-    "notes_cardstats": "",
-    "tags": [],
-    "faction": "",
-    "guid": "bc439e46-2c71-43dd-ab68-39bc0741127e"
-  },
-  {
-    "origin": "myth",
     "name": "Kraken",
     "notes_character": "",
     "notes_cardstats": "",
@@ -1331,6 +1322,15 @@
     "tags": [],
     "faction": "",
     "guid": "8792bdfc-c756-4a77-b603-a6e019dddbc6"
+  },
+  {
+    "origin": "myth",
+    "name": "Atlantis (place)",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "bc439e46-2c71-43dd-ab68-39bc0741127e"
   },
   {
     "origin": "myth/biblical",
@@ -1370,15 +1370,6 @@
   },
   {
     "origin": "myth/modern",
-    "name": "Sasquash/Bigfoot",
-    "notes_character": "",
-    "notes_cardstats": "",
-    "tags": [],
-    "faction": "",
-    "guid": "8a30019a-e8e0-4fa6-b5fe-9246f33a7047"
-  },
-  {
-    "origin": "myth/modern",
     "name": "Lochness Monster",
     "notes_character": "",
     "notes_cardstats": "",
@@ -1394,6 +1385,15 @@
     "tags": [],
     "faction": "",
     "guid": "17a2a338-5255-4da1-92ef-de9ca5bdbaf8"
+  },
+  {
+    "origin": "myth/modern",
+    "name": "Sasquash/Bigfoot",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "8a30019a-e8e0-4fa6-b5fe-9246f33a7047"
   },
   {
     "origin": "myth/modern",
@@ -1833,15 +1833,6 @@
   },
   {
     "origin": "mythology/greek/god",
-    "name": "Zeus",
-    "notes_character": "",
-    "notes_cardstats": "",
-    "tags": [],
-    "faction": "",
-    "guid": "6bf507bb-f703-4e92-89af-921eba75e301"
-  },
-  {
-    "origin": "mythology/greek/god",
     "name": "Ares",
     "notes_character": "",
     "notes_cardstats": "",
@@ -1857,6 +1848,15 @@
     "tags": [],
     "faction": "",
     "guid": "0289afa0-4e11-493f-b780-022f51e8fcce"
+  },
+  {
+    "origin": "mythology/greek/god",
+    "name": "Zeus",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "6bf507bb-f703-4e92-89af-921eba75e301"
   },
   {
     "origin": "mythology/greek/hero",
