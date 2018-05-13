@@ -1469,7 +1469,7 @@
   },
   {
     "id": 32,
-    "name": null,
+    "name": "El Variablo",
     "power": 0,
     "description": "Increase my power by %10 while @wall is in play on your side.",
     "rarity": 0,
