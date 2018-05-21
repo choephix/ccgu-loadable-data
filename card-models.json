@@ -1,5 +1,17 @@
 [
   {
+    "id": 873,
+    "slug": "turn-end-1",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "Activate after opposite enemy unit attacks. \nEnd the enemy's turn immeadiately.",
+    "tags": []
+  },
+  {
     "id": 860,
     "slug": "",
     "type": 0,
