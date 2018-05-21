@@ -418,6 +418,24 @@
     "guid": "4c3a81b8-b668-4480-886a-efb9f4c7762f"
   },
   {
+    "origin": "folklore",
+    "name": "Richard the Lionheart",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "0e337799-ae4e-4aba-8226-d517cb2fc3dc"
+  },
+  {
+    "origin": "folklore",
+    "name": "Robin Hood",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "cb6293d3-3319-4446-9cfb-13a7016dd834"
+  },
+  {
     "origin": "history/pirates",
     "name": "\"Black Sam\" Bellamy",
     "notes_character": "",
@@ -830,24 +848,6 @@
     "tags": [],
     "faction": "",
     "guid": "4bdf697c-5e6c-42ce-82fa-d7aff558a21c"
-  },
-  {
-    "origin": "folklore",
-    "name": "Robin Hood",
-    "notes_character": "",
-    "notes_cardstats": "",
-    "tags": [],
-    "faction": "",
-    "guid": "cb6293d3-3319-4446-9cfb-13a7016dd834"
-  },
-  {
-    "origin": "folklore",
-    "name": "Richard the Lionheart",
-    "notes_character": "",
-    "notes_cardstats": "",
-    "tags": [],
-    "faction": "",
-    "guid": "0e337799-ae4e-4aba-8226-d517cb2fc3dc"
   },
   {
     "origin": "literature/sherlockholmes",
@@ -1995,24 +1995,6 @@
   },
   {
     "origin": "pdsh",
-    "name": "Green Lama",
-    "notes_character": "",
-    "notes_cardstats": "",
-    "tags": [],
-    "faction": "",
-    "guid": "95338db4-cfcc-42e4-be85-975ea5014cb0"
-  },
-  {
-    "origin": "pdsh",
-    "name": "Captain Battle",
-    "notes_character": "",
-    "notes_cardstats": "",
-    "tags": [],
-    "faction": "",
-    "guid": "44598121-92f2-4eb1-a044-dd9402e268bb"
-  },
-  {
-    "origin": "pdsh",
     "name": "Black Terror (Nedor)",
     "notes_character": "",
     "notes_cardstats": "",
@@ -2040,12 +2022,30 @@
   },
   {
     "origin": "pdsh",
+    "name": "Captain Battle",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "44598121-92f2-4eb1-a044-dd9402e268bb"
+  },
+  {
+    "origin": "pdsh",
     "name": "Conan the Barbarian",
     "notes_character": "",
     "notes_cardstats": "",
     "tags": [],
     "faction": "",
     "guid": "c11fe6e8-e999-4174-887a-0558446afd2f"
+  },
+  {
+    "origin": "pdsh",
+    "name": "Green Lama",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "95338db4-cfcc-42e4-be85-975ea5014cb0"
   },
   {
     "origin": "pdsh",
