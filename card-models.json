@@ -1,5 +1,19 @@
 [
   {
+    "id": 931,
+    "slug": "dep",
+    "type": 0,
+    "power": 15,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "Every time the enemy takes damage, I lose power equal to that damage",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
     "id": 873,
     "slug": "turn-end-1",
     "type": 1,
