@@ -141,13 +141,175 @@
     "guid": "4dc4fe47-2040-43f0-a4ec-42214da701ee"
   },
   {
-    "origin": "folklore/eatern",
+    "origin": "folklore/eatern/1001nights",
     "name": "Sinbad",
     "notes_character": "",
     "notes_cardstats": "",
     "tags": [],
     "faction": "",
     "guid": "97735295-8a0a-4c1b-abfa-c323fef1767e"
+  },
+  {
+    "origin": "folklore/eatern/1001nights",
+    "name": "Ali Baba",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "3f9ef5ee-b121-49a6-ade2-31ead462c663"
+  },
+  {
+    "origin": "folklore/eatern/1001nights",
+    "name": "Cassim (Ali Baba brother)",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "cdec55d6-1cd2-4ccf-8596-170ff15e8cb5"
+  },
+  {
+    "origin": "folklore/eatern/1001nights",
+    "name": "Morgiana",
+    "notes_character": "Morgiana or Marjanah or Micaela Ben (Arabic: مرجانة‎)",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "98c907cc-35f9-4b87-87db-4669c26cb90c"
+  },
+  {
+    "origin": "folklore/eatern/1001nights",
+    "name": "Scheherazade 💡",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "0fab0455-9f8d-46be-9ff8-5a4a83157c5d"
+  },
+  {
+    "origin": "folklore/eatern/1001nights",
+    "name": "",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "ba60db25-9595-42a2-807e-3fc7119069e3"
+  },
+  {
+    "origin": "folklore/eatern/1001nights",
+    "name": "",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "78dbe7d2-5d7e-4d95-9fad-ce5cdfeb12dc"
+  },
+  {
+    "origin": "folklore/eatern/1001nights",
+    "name": "",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "2934d75c-34f9-4536-a725-3ab9829e855f"
+  },
+  {
+    "origin": "folklore/eatern/1001nights",
+    "name": "",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "90e1e54b-85e2-4b69-b284-6726217d9000"
+  },
+  {
+    "origin": "folklore/eatern/1001nights",
+    "name": "",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "3cf785f9-d495-43f1-b961-b7612b4ac2d4"
+  },
+  {
+    "origin": "folklore/eatern/1001nights",
+    "name": "",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "b6d442c3-d46e-4d1f-9bbf-c1939df3120a"
+  },
+  {
+    "origin": "folklore/eatern/1001nights",
+    "name": "",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "473c975e-baee-4142-8045-56151f7d18e9"
+  },
+  {
+    "origin": "folklore/eatern/1001nights",
+    "name": "",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "b026d597-5858-4641-8820-d2fcd38fc4c1"
+  },
+  {
+    "origin": "folklore/eatern/1001nights",
+    "name": "",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "7d0b5448-af4c-4754-9145-acb157f68019"
+  },
+  {
+    "origin": "folklore/eatern/1001nights",
+    "name": "",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "0a2c7844-6e42-4e0a-a4af-90f52274f9e0"
+  },
+  {
+    "origin": "folklore/eatern/1001nights",
+    "name": "",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "00896239-7473-47f6-8688-44850027068b"
+  },
+  {
+    "origin": "folklore/eatern/1001nights",
+    "name": "",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "b9a01bf0-89f7-46f5-8aa2-6e0f082444e3"
+  },
+  {
+    "origin": "folklore/eatern/1001nights",
+    "name": "",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "217b69f7-1000-427f-ad6b-fe1cad18a7aa"
+  },
+  {
+    "origin": "folklore/eatern/1001nights",
+    "name": "",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "eb4be24d-db13-44f1-8ee8-cf06c7ef4acc"
   },
   {
     "origin": "folklore/western/arthurian/*",
