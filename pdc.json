@@ -142,12 +142,39 @@
   },
   {
     "origin": "folklore/eatern/1001nights",
-    "name": "Sinbad (Sindbad) the Sailer",
+    "name": "",
     "notes_character": "",
     "notes_cardstats": "",
     "tags": [],
     "faction": "",
-    "guid": "97735295-8a0a-4c1b-abfa-c323fef1767e"
+    "guid": "217b69f7-1000-427f-ad6b-fe1cad18a7aa"
+  },
+  {
+    "origin": "folklore/eatern/1001nights",
+    "name": "",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "b9a01bf0-89f7-46f5-8aa2-6e0f082444e3"
+  },
+  {
+    "origin": "folklore/eatern/1001nights",
+    "name": "",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "eb4be24d-db13-44f1-8ee8-cf06c7ef4acc"
+  },
+  {
+    "origin": "folklore/eatern/1001nights",
+    "name": "Adiliyah (place, ruins)",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "2934d75c-34f9-4536-a725-3ab9829e855f"
   },
   {
     "origin": "folklore/eatern/1001nights",
@@ -169,30 +196,12 @@
   },
   {
     "origin": "folklore/eatern/1001nights",
-    "name": "Morgiana",
-    "notes_character": "Morgiana or Marjanah or Micaela Ben (Arabic: مرجانة‎)",
-    "notes_cardstats": "",
-    "tags": [],
-    "faction": "",
-    "guid": "98c907cc-35f9-4b87-87db-4669c26cb90c"
-  },
-  {
-    "origin": "folklore/eatern/1001nights",
-    "name": "Scheherazade 💡",
+    "name": "Ja'far",
     "notes_character": "",
     "notes_cardstats": "",
     "tags": [],
     "faction": "",
-    "guid": "0fab0455-9f8d-46be-9ff8-5a4a83157c5d"
-  },
-  {
-    "origin": "folklore/eatern/1001nights",
-    "name": "Zumurrud",
-    "notes_character": "",
-    "notes_cardstats": "",
-    "tags": [],
-    "faction": "",
-    "guid": "ba60db25-9595-42a2-807e-3fc7119069e3"
+    "guid": "b026d597-5858-4641-8820-d2fcd38fc4c1"
   },
   {
     "origin": "folklore/eatern/1001nights",
@@ -205,15 +214,6 @@
   },
   {
     "origin": "folklore/eatern/1001nights",
-    "name": "Adiliyah (place, ruins)",
-    "notes_character": "",
-    "notes_cardstats": "",
-    "tags": [],
-    "faction": "",
-    "guid": "2934d75c-34f9-4536-a725-3ab9829e855f"
-  },
-  {
-    "origin": "folklore/eatern/1001nights",
     "name": "Maruf/Ma'aruf",
     "notes_character": "",
     "notes_cardstats": "",
@@ -223,39 +223,12 @@
   },
   {
     "origin": "folklore/eatern/1001nights",
-    "name": "Sinbad (Hindbad) the Porter",
-    "notes_character": "",
+    "name": "Morgiana",
+    "notes_character": "Morgiana or Marjanah or Micaela Ben (Arabic: مرجانة‎)",
     "notes_cardstats": "",
     "tags": [],
     "faction": "",
-    "guid": "3cf785f9-d495-43f1-b961-b7612b4ac2d4"
-  },
-  {
-    "origin": "mythology/greek",
-    "name": "Bellerophon",
-    "notes_character": "kills the chimera",
-    "notes_cardstats": "",
-    "tags": [],
-    "faction": "",
-    "guid": "b6d442c3-d46e-4d1f-9bbf-c1939df3120a"
-  },
-  {
-    "origin": "mythology/greek",
-    "name": "chimera",
-    "notes_character": "",
-    "notes_cardstats": "",
-    "tags": [],
-    "faction": "",
-    "guid": "473c975e-baee-4142-8045-56151f7d18e9"
-  },
-  {
-    "origin": "folklore/eatern/1001nights",
-    "name": "Ja'far",
-    "notes_character": "",
-    "notes_cardstats": "",
-    "tags": [],
-    "faction": "",
-    "guid": "b026d597-5858-4641-8820-d2fcd38fc4c1"
+    "guid": "98c907cc-35f9-4b87-87db-4669c26cb90c"
   },
   {
     "origin": "folklore/eatern/1001nights",
@@ -267,49 +240,40 @@
     "guid": "7d0b5448-af4c-4754-9145-acb157f68019"
   },
   {
-    "origin": "mythology",
-    "name": "Hippocampus ",
+    "origin": "folklore/eatern/1001nights",
+    "name": "Scheherazade 💡",
     "notes_character": "",
     "notes_cardstats": "",
     "tags": [],
     "faction": "",
-    "guid": "0a2c7844-6e42-4e0a-a4af-90f52274f9e0"
-  },
-  {
-    "origin": "mythology/greek",
-    "name": "Polyphemus ",
-    "notes_character": "",
-    "notes_cardstats": "",
-    "tags": [],
-    "faction": "",
-    "guid": "00896239-7473-47f6-8688-44850027068b"
+    "guid": "0fab0455-9f8d-46be-9ff8-5a4a83157c5d"
   },
   {
     "origin": "folklore/eatern/1001nights",
-    "name": "",
+    "name": "Sinbad (Hindbad) the Porter",
     "notes_character": "",
     "notes_cardstats": "",
     "tags": [],
     "faction": "",
-    "guid": "b9a01bf0-89f7-46f5-8aa2-6e0f082444e3"
+    "guid": "3cf785f9-d495-43f1-b961-b7612b4ac2d4"
   },
   {
     "origin": "folklore/eatern/1001nights",
-    "name": "",
+    "name": "Sinbad (Sindbad) the Sailer",
     "notes_character": "",
     "notes_cardstats": "",
     "tags": [],
     "faction": "",
-    "guid": "217b69f7-1000-427f-ad6b-fe1cad18a7aa"
+    "guid": "97735295-8a0a-4c1b-abfa-c323fef1767e"
   },
   {
     "origin": "folklore/eatern/1001nights",
-    "name": "",
+    "name": "Zumurrud",
     "notes_character": "",
     "notes_cardstats": "",
     "tags": [],
     "faction": "",
-    "guid": "eb4be24d-db13-44f1-8ee8-cf06c7ef4acc"
+    "guid": "ba60db25-9595-42a2-807e-3fc7119069e3"
   },
   {
     "origin": "folklore/western/arthurian/*",
@@ -2066,6 +2030,33 @@
     "guid": "6f274718-f1be-4540-847c-5a26516f151e"
   },
   {
+    "origin": "mythology/greek",
+    "name": "Bellerophon",
+    "notes_character": "kills the chimera",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "b6d442c3-d46e-4d1f-9bbf-c1939df3120a"
+  },
+  {
+    "origin": "mythology/greek",
+    "name": "chimera",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "473c975e-baee-4142-8045-56151f7d18e9"
+  },
+  {
+    "origin": "mythology/greek",
+    "name": "Polyphemus ",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "00896239-7473-47f6-8688-44850027068b"
+  },
+  {
     "origin": "mythology/irish",
     "name": "Diarmuid Ua Duibhne",
     "notes_character": "",
@@ -2127,6 +2118,15 @@
     "tags": [],
     "faction": "",
     "guid": "b5458da0-8475-474b-9e5d-5cee422a626d"
+  },
+  {
+    "origin": "mythology",
+    "name": "Hippocampus ",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "0a2c7844-6e42-4e0a-a4af-90f52274f9e0"
   },
   {
     "origin": "mythology",
