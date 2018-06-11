@@ -142,7 +142,7 @@
   },
   {
     "origin": "folklore/eatern/1001nights",
-    "name": "Sinbad",
+    "name": "Sinbad (Sindbad) the Sailer",
     "notes_character": "",
     "notes_cardstats": "",
     "tags": [],
@@ -187,7 +187,7 @@
   },
   {
     "origin": "folklore/eatern/1001nights",
-    "name": "",
+    "name": "Zumurrud",
     "notes_character": "",
     "notes_cardstats": "",
     "tags": [],
@@ -196,7 +196,7 @@
   },
   {
     "origin": "folklore/eatern/1001nights",
-    "name": "",
+    "name": "Javan ",
     "notes_character": "",
     "notes_cardstats": "",
     "tags": [],
@@ -205,7 +205,7 @@
   },
   {
     "origin": "folklore/eatern/1001nights",
-    "name": "",
+    "name": "Adiliyah (place, ruins)",
     "notes_character": "",
     "notes_cardstats": "",
     "tags": [],
@@ -214,7 +214,7 @@
   },
   {
     "origin": "folklore/eatern/1001nights",
-    "name": "",
+    "name": "Maruf/Ma'aruf",
     "notes_character": "",
     "notes_cardstats": "",
     "tags": [],
@@ -223,7 +223,7 @@
   },
   {
     "origin": "folklore/eatern/1001nights",
-    "name": "",
+    "name": "Sinbad (Hindbad) the Porter",
     "notes_character": "",
     "notes_cardstats": "",
     "tags": [],
@@ -231,17 +231,17 @@
     "guid": "3cf785f9-d495-43f1-b961-b7612b4ac2d4"
   },
   {
-    "origin": "folklore/eatern/1001nights",
-    "name": "",
-    "notes_character": "",
+    "origin": "mythology/greek",
+    "name": "Bellerophon",
+    "notes_character": "kills the chimera",
     "notes_cardstats": "",
     "tags": [],
     "faction": "",
     "guid": "b6d442c3-d46e-4d1f-9bbf-c1939df3120a"
   },
   {
-    "origin": "folklore/eatern/1001nights",
-    "name": "",
+    "origin": "mythology/greek",
+    "name": "chimera",
     "notes_character": "",
     "notes_cardstats": "",
     "tags": [],
@@ -250,7 +250,7 @@
   },
   {
     "origin": "folklore/eatern/1001nights",
-    "name": "",
+    "name": "Ja'far",
     "notes_character": "",
     "notes_cardstats": "",
     "tags": [],
@@ -259,7 +259,7 @@
   },
   {
     "origin": "folklore/eatern/1001nights",
-    "name": "",
+    "name": "Rayhan",
     "notes_character": "",
     "notes_cardstats": "",
     "tags": [],
@@ -267,8 +267,8 @@
     "guid": "7d0b5448-af4c-4754-9145-acb157f68019"
   },
   {
-    "origin": "folklore/eatern/1001nights",
-    "name": "",
+    "origin": "mythology",
+    "name": "Hippocampus ",
     "notes_character": "",
     "notes_cardstats": "",
     "tags": [],
@@ -276,8 +276,8 @@
     "guid": "0a2c7844-6e42-4e0a-a4af-90f52274f9e0"
   },
   {
-    "origin": "folklore/eatern/1001nights",
-    "name": "",
+    "origin": "mythology/greek",
+    "name": "Polyphemus ",
     "notes_character": "",
     "notes_cardstats": "",
     "tags": [],
