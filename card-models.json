@@ -1,5 +1,17 @@
 [
   {
+    "id": 822,
+    "slug": "sensho",
+    "type": 0,
+    "power": 7,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "Cannot begin attack if there is no opposing enemy creature",
+    "tags": []
+  },
+  {
     "id": 931,
     "slug": "dep",
     "type": 0,
