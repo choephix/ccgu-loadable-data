@@ -1,5 +1,17 @@
 [
   {
+    "id": 572,
+    "slug": "",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "When opposing enemy $unit with 10 power or above, when it begins a direct attack.",
+    "tags": []
+  },
+  {
     "id": 822,
     "slug": "sensho",
     "type": 0,
