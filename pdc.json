@@ -1,6 +1,15 @@
 [
   {
     "origin": "-random",
+    "name": "MEGATESTOR",
+    "notes_character": "",
+    "notes_cardstats": "",
+    "tags": [],
+    "faction": "",
+    "guid": "94e39264-7f3a-4466-8cb5-2f154ff793ae"
+  },
+  {
+    "origin": "-random",
     "name": "chinese zodiac",
     "notes_character": "Rat – 鼠 (子) (Yang, 1st Trine, Fixed Element Water)\nOx – 牛 (丑) (Yin, 2nd Trine, Fixed Element Earth)\nTiger – 虎 (寅) (Yang, 3rd Trine, Fixed Element Wood)\nRabbit – 兔 (卯) (Yin, 4th Trine, Fixed Element Wood)\nDragon – 龍 (辰) (Yang, 1st Trine, Fixed Element Earth)\nSnake – 蛇 (巳) (Yin, 2nd Trine, Fixed Element Fire)\nHorse – 馬 (午) (Yang, 3rd Trine, Fixed Element Fire)\nGoat – 羊 (未) (Yin, 4th Trine, Fixed Element Earth)\nMonkey – 猴 (申) (Yang, 1st Trine, Fixed Element Metal)\nRooster – 雞 (酉) (Yin, 2nd Trine, Fixed Element Metal)\nDog – 狗 (戌) (Yang, 3rd Trine, Fixed Element Earth)\nPig – 豬 (亥) (Yin, 4th Trine, Fixed Element Water)",
     "notes_cardstats": "",
