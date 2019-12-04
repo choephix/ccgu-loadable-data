@@ -4203,7 +4203,7 @@
     "status": 0,
     "name": "WTF Paul",
     "description": "I cannot be used as a tribute.\nI die at the end of your turn.\rI do not suffer summon exhaustion",
-    "tags": []
+    "tags": ["rush"]
   },
   {
     "id": 3277,
@@ -4239,7 +4239,7 @@
     "status": 0,
     "name": "Lost Paul",
     "description": "I cannot be used for a tribute.\nI cannot attack the enemy directly.\rI do not suffer summon exhaustion.\rI die after my attack regardless of success.",
-    "tags": []
+    "tags": ["rush"]
   },
   {
     "id": 3280,
@@ -4251,7 +4251,7 @@
     "status": 0,
     "name": "Lightning Paul",
     "description": "Cannot be summoned on a field with no opposing enemy creature.\nI cannot be used for a tribute.\rI do not suffer summon exhaustion.",
-    "tags": []
+    "tags": ["rush"]
   },
   {
     "id": 3281,
@@ -4299,7 +4299,7 @@
     "status": 0,
     "name": "Lightning Paul",
     "description": "I cannot be summoned while there are other friendly creatures in play.\nI die at the end of your turn.\rI do not suffer from summon exhaustion.",
-    "tags": []
+    "tags": ["rush"]
   },
   {
     "id": 3285,
