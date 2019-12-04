@@ -122,7 +122,7 @@
     "slugs": [
       "drawdraw",
       "traphole",
-      "wall",
+      "--producer",
       "berserker",      
       "paulgrand",
       "relokill",
@@ -135,6 +135,7 @@
       "--miller",
       "--unkillable-barny",
       "--unbreakable",
+      "wall",
 
       "ed",
       "edd",
