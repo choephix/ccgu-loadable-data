@@ -1,14 +1,14 @@
 [
   {
     "id": 572,
-    "slug": "",
+    "slug": "bosstrap",
     "type": 1,
     "power": 0,
     "priority": 0,
     "rarity": 0,
     "status": 0,
     "name": "",
-    "description": "When opposing enemy $unit with 10 power or above, when it begins a direct attack.",
+    "description": "When opposing enemy $unit with 10 power or above, when it begins a direct attack - destroy it.",
     "tags": []
   },
   {
@@ -20,7 +20,7 @@
     "rarity": 0,
     "status": 0,
     "name": "",
-    "description": "Cannot begin attack if there is no opposing enemy creature",
+    "description": "Cannot begin attack while there is no opposing enemy creature",
     "tags": []
   },
   {
