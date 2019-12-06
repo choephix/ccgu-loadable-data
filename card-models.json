@@ -1,5 +1,41 @@
 [
   {
+    "id": 3303,
+    "slug": "--flappy-bird",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Flappy Bird",
+    "description": "Can both attack and move before exhausting.",
+    "tags": ["swift"]
+  },
+  {
+    "id": 3612,
+    "slug": "--doubleattacker",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Double Attacker",
+    "description": "After I finish an attack, if I am still in play I automatically perform another attack.",
+    "tags": ["doubleatk"]
+  },
+  {
+    "id": 3266,
+    "slug": "--swapper2",
+    "type": 0,
+    "power": 3,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "The Swapper",
+    "description": "I can relocate to an occupied creature field on your side, by swapping places with the creature there. This does not count as relocation for the other creature.",
+    "tags": ["swapper"]
+  },
+  {
     "id": 572,
     "slug": "bosstrap",
     "type": 1,
@@ -4060,18 +4096,6 @@
     "tags": []
   },
   {
-    "id": 3303,
-    "slug": "--flappy-bird",
-    "type": 0,
-    "power": 2,
-    "priority": 0,
-    "rarity": 0,
-    "status": 0,
-    "name": "Flappy Bird",
-    "description": "Can both attack and move before exhausting.",
-    "tags": []
-  },
-  {
     "id": 3440,
     "slug": "--ace1-lvl1",
     "type": 0,
@@ -7824,18 +7848,6 @@
     "tags": [
       "sneak"
     ]
-  },
-  {
-    "id": 3612,
-    "slug": "--doubleattacker",
-    "type": 0,
-    "power": 2,
-    "priority": 0,
-    "rarity": 0,
-    "status": 0,
-    "name": "doubleattacker",
-    "description": "After I finish an attack, if I am still in play I automatically perform another attack.",
-    "tags": []
   },
   {
     "id": 3649,
