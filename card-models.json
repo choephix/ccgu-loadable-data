@@ -371,7 +371,7 @@
     "guid": "06b8606f-71a7-89ad-186e-a27e5c4de311"
   },
   {
-    "id": 1074,
+    "id": 1076,
     "slug": "e5fb2497",
     "type": 0,
     "description": "On deploy: gain 5 lp\nOn death by combat: lose 15lp",
@@ -3871,7 +3871,7 @@
     "guid": "8de0504f-d097-4141-2cd1-b4a29b448b2b"
   },
   {
-    "id": 3328,
+    "id": 3840,
     "slug": "--time-lord",
     "type": 0,
     "description": "When I enter play:\nIf possible both players take the bottom cards in their grave until they have 4 cards in their hands.",
@@ -3901,7 +3901,7 @@
     "guid": "40d665ac-fea0-6997-e643-4d5e1c5c87f9"
   },
   {
-    "id": 3329,
+    "id": 3841,
     "slug": "--nuke-virus",
     "type": 0,
     "description": "Combat-Flip:\nDestroy attacking creature and this card, but deal damage to yourself equal to enemy creature's power at the time of death.",
@@ -3931,7 +3931,7 @@
     "guid": "f27c8444-010c-475e-a7e7-954b62b2a0ec"
   },
   {
-    "id": 3330,
+    "id": 3842,
     "slug": "--doe3",
     "type": 0,
     "description": "",
@@ -3959,7 +3959,7 @@
     "guid": "3059cf18-3bce-ac54-0e88-b16e0e56a1e5"
   },
   {
-    "id": 3331,
+    "id": 3843,
     "slug": "--rowlock",
     "type": 1,
     "description": "#persistent\nActivate at the start of the enemy's turn if you have no creatures in play. All empty enemy fields are locked until the end of their turn.",
@@ -3987,7 +3987,7 @@
     "guid": "7f2038db-7255-eca0-0b5e-92dce144a2c3"
   },
   {
-    "id": 3332,
+    "id": 3844,
     "slug": "--token-summoner4",
     "type": 0,
     "description": "When I die, summon a 0 power token creature in my place.",
@@ -4045,7 +4045,7 @@
     "guid": "321fd70e-10da-a512-6806-ffc61a85f18c"
   },
   {
-    "id": 3334,
+    "id": 3846,
     "slug": "--depowering-gas",
     "type": 1,
     "description": "#persistent\nActivate when opposing enemy creature attacks. It becomes immobile. -2POW before this and every subsequent attack. Destroy this card when it leaves its field.",
@@ -4279,7 +4279,7 @@
     "guid": "e9150e38-ab00-7ffe-82b7-3432223efa0f"
   },
   {
-    "id": 3342,
+    "id": 3598,
     "slug": "--deathdraw",
     "type": 0,
     "description": "When I die - draw 2 cards.",
@@ -4307,7 +4307,7 @@
     "guid": "15f64461-95cc-c62e-ca23-11dc1495fba7"
   },
   {
-    "id": 3343,
+    "id": 3599,
     "slug": "--man-of_honor",
     "type": 0,
     "description": "I cannot attack if there is no opposing enemy creature.",
@@ -4482,7 +4482,7 @@
   },
   {
     "id": 3098,
-    "slug": "--trampoline",
+    "slug": "--trampoline-0.yl6pqf4ilz0.5hrbes4ipo3",
     "type": 0,
     "description": "Combat-Flip:\nReturn attacking creature to its controller's hand.\rDie",
     "tags": [
@@ -7858,7 +7858,7 @@
   },
   {
     "id": 3227,
-    "slug": "--unexpected-assistance",
+    "slug": "--unexpected-assistance-0.84n6mqxae9s0.9n7d75i96sr",
     "type": 1,
     "description": "#persistent\nActivate when an opposing enemy creature is summoned and you have no creature the same column. Move that creature to your side. At the end of your turn destroy me. When I am destroyed, return affected creature to its owner's hand.",
     "tags": [],
@@ -8782,7 +8782,7 @@
   },
   {
     "id": 3260,
-    "slug": "--depowering-gas",
+    "slug": "--depowering-gas-0.ixw87m3hpq0.lxj5iyyvcz",
     "type": 1,
     "description": "Activate when opposing enemy creature attacks. Any enemy creature on this column is immobile and gets -1POW at the beginning of this and each subsequent attack. Destroy this card when the opposing enemy field is empty.",
     "tags": [],
@@ -9008,7 +9008,7 @@
   },
   {
     "id": 3270,
-    "slug": "--token-summoner",
+    "slug": "--token-summoner-0.mf7d39a2hrc0.eey7ifwfjjg",
     "type": 0,
     "description": "When I die and enter the graveyard - summon 0 power tokens on each of your empty creature fields",
     "tags": [],
@@ -9769,34 +9769,6 @@
     "power": 4,
     "name": "Honorable Soldier B",
     "guid": "06a44854-b0af-e428-1537-9e7a923fbce4"
-  },
-  {
-    "id": 3298,
-    "slug": "--overlyattached-spirit",
-    "type": 0,
-    "description": "I cannot be summoned while you have no creatures in play.\nWhen I am summoned, life-link me to all other friendly creatures.\rWhen they die, I die.",
-    "tags": [],
-    "rarity": 0,
-    "pdc": null,
-    "status": 0,
-    "priority": 0,
-    "effects": {
-      "flip": {
-        "condition": null,
-        "perform": null
-      },
-      "active": {
-        "condition": null,
-        "perform": null
-      },
-      "passive": {
-        "condition": null,
-        "perform": null
-      }
-    },
-    "power": 7,
-    "name": "Overly-Attached Spirit*",
-    "guid": "e29cd7a9-022a-20e1-4155-fe3ce43c3ec1"
   },
   {
     "id": 3299,
@@ -13023,34 +12995,6 @@
     "power": 0,
     "name": "Trap-Trap",
     "guid": "53287d54-043a-dcbd-b52c-e4d1b2728bee"
-  },
-  {
-    "id": 3266,
-    "slug": "--swapper2",
-    "type": 0,
-    "description": "I can relocate to an occupied creature field on your side, by swapping places with the creature there. This does not count as relocation for the other creature.",
-    "tags": [],
-    "rarity": 0,
-    "pdc": null,
-    "status": 0,
-    "priority": 0,
-    "effects": {
-      "flip": {
-        "condition": null,
-        "perform": null
-      },
-      "active": {
-        "condition": null,
-        "perform": null
-      },
-      "passive": {
-        "condition": null,
-        "perform": null
-      }
-    },
-    "power": 3,
-    "name": "The Swapper",
-    "guid": "c8541474-62cf-3e82-7baf-f36eb17c1ca1"
   },
   {
     "id": 3624,
@@ -17398,7 +17342,7 @@
   },
   {
     "id": 3130,
-    "slug": "--crippler",
+    "slug": "--crippler-0.gqf1wc0wyp50.3v0cw28e366",
     "type": 0,
     "description": "Safe-Flip:\nIf possible, decrease opposing enemy creature's power by 5.",
     "tags": [
