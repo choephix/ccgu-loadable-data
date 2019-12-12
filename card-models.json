@@ -21,6 +21,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "guid": "eed4c9e2-1f79-01f7-1113-d2b4772c6173",
@@ -50,6 +53,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 2,
@@ -80,6 +86,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 2,
@@ -110,6 +119,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 3,
@@ -138,6 +150,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -166,6 +181,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 7,
@@ -196,6 +214,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 15,
@@ -224,6 +245,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -252,6 +276,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 9,
@@ -280,6 +307,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -308,6 +338,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -336,6 +369,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -364,6 +400,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -392,6 +431,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 5,
@@ -422,6 +464,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -452,6 +497,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -480,6 +528,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -511,6 +562,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 7,
@@ -542,6 +596,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 9,
@@ -570,6 +627,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -598,6 +658,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 1,
@@ -628,6 +691,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 5,
@@ -656,6 +722,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -684,6 +753,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -712,6 +784,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -740,6 +815,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -770,6 +848,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 1,
@@ -798,6 +879,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 6,
@@ -828,6 +912,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -856,6 +943,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -884,6 +974,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 2,
@@ -912,6 +1005,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -942,6 +1038,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 1,
@@ -972,6 +1071,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -1000,6 +1102,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -1030,6 +1135,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -1058,6 +1166,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 2,
@@ -1086,6 +1197,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 2,
@@ -1114,6 +1228,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 2,
@@ -1142,6 +1259,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "drawdraw",
@@ -1171,6 +1291,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "drawnecro",
@@ -1200,6 +1323,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "OP!",
@@ -1229,6 +1355,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "nameless-804e",
@@ -1258,6 +1387,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "nameless-804c",
@@ -1289,6 +1421,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "nameless-804b",
@@ -1318,6 +1453,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "relokill",
@@ -1349,6 +1487,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "lockhead",
@@ -1378,6 +1519,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "Balanced Antitrap",
@@ -1409,6 +1553,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "traplode",
@@ -1440,6 +1587,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "chickeng1",
@@ -1469,6 +1619,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "toxicmine",
@@ -1498,6 +1651,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "autoatk",
@@ -1527,6 +1683,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "quickgiver-0",
@@ -1556,6 +1715,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "quickgiver-g",
@@ -1585,6 +1747,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "quickgiver-1",
@@ -1614,6 +1779,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "needsmotivation",
@@ -1645,6 +1813,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "eggshell",
@@ -1676,6 +1847,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "Lonely Golem",
@@ -1707,6 +1881,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "Compromising Anna",
@@ -1738,6 +1915,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "Epic Tortoise",
@@ -1769,6 +1949,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "Sloth Wyrm",
@@ -1798,6 +1981,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "killonattack",
@@ -1827,6 +2013,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "free-jimmy",
@@ -1856,6 +2045,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "nosneaking",
@@ -1885,6 +2077,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "punishtrap",
@@ -1914,6 +2109,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "Fury",
@@ -1945,6 +2143,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "Cowardly Giant",
@@ -1974,6 +2175,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "Antisocial Knight",
@@ -2005,6 +2209,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "flipouch",
@@ -2034,6 +2241,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "vampirefang",
@@ -2065,6 +2275,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "spearhead",
@@ -2096,6 +2309,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "honoraro",
@@ -2125,6 +2341,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "nimbleguard",
@@ -2154,6 +2373,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "elijah",
@@ -2183,6 +2405,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "joshua",
@@ -2214,6 +2439,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "cardfactory1",
@@ -2245,6 +2473,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "Fate Forward",
@@ -2278,6 +2509,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "fragmine",
@@ -2311,6 +2545,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "Another Fucking Shield",
@@ -2343,6 +2580,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "Another Fucking Shield",
@@ -2372,6 +2612,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "Warrior-Hen",
@@ -2403,6 +2646,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "Grand Traitor",
@@ -2432,6 +2678,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "Man of Honor",
@@ -2463,6 +2712,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "Expolosive Mech",
@@ -2494,6 +2746,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "Grand-Paul",
@@ -2525,6 +2780,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "Dual Force Spirit",
@@ -2554,6 +2812,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "Aramis",
@@ -2583,6 +2844,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "Porthos",
@@ -2612,6 +2876,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "Athos",
@@ -2641,6 +2908,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "berserker",
@@ -2670,6 +2940,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "mercenery",
@@ -2702,6 +2975,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "wall",
@@ -2734,6 +3010,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "kamikazejoe",
@@ -2766,6 +3045,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "harassingmia",
@@ -2795,6 +3077,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "Jane Doe",
@@ -2824,6 +3109,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "John Doe",
@@ -2853,6 +3141,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "Random Dude",
@@ -2882,6 +3173,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "mirrorforce",
@@ -2911,6 +3205,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "tripwire",
@@ -2940,6 +3237,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "traphole",
@@ -2971,6 +3271,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "flippers",
@@ -3002,6 +3305,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "grand10",
@@ -3031,6 +3337,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "generic5",
@@ -3060,6 +3369,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "-kami",
@@ -3089,6 +3401,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "-killany",
@@ -3118,6 +3433,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "-infinitemana",
@@ -3147,6 +3465,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "-muchdraw",
@@ -3178,6 +3499,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "The Wild One (G)",
@@ -3209,6 +3533,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "The Wild One (Incognito)",
@@ -3238,6 +3565,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "Go Wild!",
@@ -3267,6 +3597,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "The Wild One",
@@ -3304,6 +3637,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "El Variablo",
@@ -3335,6 +3671,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "token-5",
@@ -3366,6 +3705,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "token-4",
@@ -3397,6 +3739,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "token-3",
@@ -3428,6 +3773,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "token-2",
@@ -3459,6 +3807,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "token-1",
@@ -3490,6 +3841,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "token-0",
@@ -3521,6 +3875,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "name": "token",
@@ -3550,6 +3907,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -3578,6 +3938,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 8,
@@ -3606,6 +3969,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 3,
@@ -3634,6 +4000,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -3662,6 +4031,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 7,
@@ -3692,6 +4064,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 14,
@@ -3722,6 +4097,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 8,
@@ -3752,6 +4130,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 10,
@@ -3780,6 +4161,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -3808,6 +4192,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -3836,6 +4223,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -3864,6 +4254,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -3894,6 +4287,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 10,
@@ -3901,7 +4297,7 @@
     "guid": "40d665ac-fea0-6997-e643-4d5e1c5c87f9"
   },
   {
-    "id": 2066,
+    "id": 2050,
     "slug": "--nuke-virus",
     "type": 0,
     "description": "Combat-Flip:\nDestroy attacking creature and this card, but deal damage to yourself equal to enemy creature's power at the time of death.",
@@ -3924,6 +4320,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 1,
@@ -3952,6 +4351,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 5,
@@ -3980,6 +4382,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -4008,6 +4413,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -4038,6 +4446,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 14,
@@ -4066,6 +4477,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -4096,6 +4510,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -4126,6 +4543,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 14,
@@ -4156,6 +4576,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 2,
@@ -4186,6 +4609,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 8,
@@ -4214,6 +4640,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 3,
@@ -4242,6 +4671,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 9,
@@ -4272,6 +4704,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 9,
@@ -4300,6 +4735,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 3,
@@ -4307,7 +4745,7 @@
     "guid": "15f64461-95cc-c62e-ca23-11dc1495fba7"
   },
   {
-    "id": 2064,
+    "id": 2048,
     "slug": "--man-of_honor",
     "type": 0,
     "description": "I cannot attack if there is no opposing enemy creature.",
@@ -4328,6 +4766,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 7,
@@ -4356,6 +4797,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 5,
@@ -4384,6 +4828,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 5,
@@ -4414,6 +4861,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -4444,6 +4894,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -4474,6 +4927,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 1,
@@ -4504,6 +4960,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 3,
@@ -4534,6 +4993,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -4564,6 +5026,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 1,
@@ -4594,6 +5059,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 1,
@@ -4624,6 +5092,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 2,
@@ -4654,6 +5125,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -4684,6 +5158,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 2,
@@ -4714,6 +5191,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 3,
@@ -4744,6 +5224,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 8,
@@ -4774,6 +5257,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 9,
@@ -4804,6 +5290,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -4834,6 +5323,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 6,
@@ -4864,6 +5356,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 7,
@@ -4894,6 +5389,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 2,
@@ -4924,6 +5422,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -4954,6 +5455,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 3,
@@ -4984,6 +5488,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 3,
@@ -5014,6 +5521,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 3,
@@ -5044,6 +5554,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -5074,6 +5587,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 8,
@@ -5104,6 +5620,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -5134,6 +5653,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -5164,6 +5686,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 3,
@@ -5194,6 +5719,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 1,
@@ -5224,6 +5752,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 2,
@@ -5254,6 +5785,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -5284,6 +5818,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 2,
@@ -5312,6 +5849,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 2,
@@ -5342,6 +5882,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -5370,6 +5913,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 9,
@@ -5400,6 +5946,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 11,
@@ -5430,6 +5979,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 14,
@@ -5460,6 +6012,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 9,
@@ -5490,6 +6045,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -5520,6 +6078,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -5550,6 +6111,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 13,
@@ -5580,6 +6144,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 15,
@@ -5610,6 +6177,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 12,
@@ -5640,6 +6210,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 9,
@@ -5670,6 +6243,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 9,
@@ -5700,6 +6276,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 10,
@@ -5730,6 +6309,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 8,
@@ -5760,6 +6342,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 3,
@@ -5790,6 +6375,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 13,
@@ -5820,6 +6408,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 10,
@@ -5850,6 +6441,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -5880,6 +6474,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 12,
@@ -5910,6 +6507,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 6,
@@ -5940,6 +6540,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 13,
@@ -5970,6 +6573,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 13,
@@ -6000,6 +6606,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 5,
@@ -6030,6 +6639,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 10,
@@ -6060,6 +6672,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 8,
@@ -6090,6 +6705,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 14,
@@ -6120,6 +6738,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 15,
@@ -6150,6 +6771,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 14,
@@ -6180,6 +6804,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 14,
@@ -6210,6 +6837,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 7,
@@ -6240,6 +6870,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 13,
@@ -6270,6 +6903,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 14,
@@ -6300,6 +6936,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 13,
@@ -6330,6 +6969,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 5,
@@ -6360,6 +7002,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -6390,6 +7035,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 9,
@@ -6420,6 +7068,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 7,
@@ -6450,6 +7101,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 6,
@@ -6480,6 +7134,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 15,
@@ -6510,6 +7167,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 14,
@@ -6540,6 +7200,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 1,
@@ -6570,6 +7233,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 13,
@@ -6600,6 +7266,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 8,
@@ -6630,6 +7299,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 13,
@@ -6660,6 +7332,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 11,
@@ -6690,6 +7365,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 7,
@@ -6720,6 +7398,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 13,
@@ -6748,6 +7429,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 3,
@@ -6778,6 +7462,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 7,
@@ -6808,6 +7495,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 15,
@@ -6838,6 +7528,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -6868,6 +7561,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 16,
@@ -6898,6 +7594,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 16,
@@ -6928,6 +7627,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 16,
@@ -6958,6 +7660,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 7,
@@ -6988,6 +7693,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 9,
@@ -7018,6 +7726,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 9,
@@ -7048,6 +7759,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -7078,6 +7792,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -7108,6 +7825,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -7138,6 +7858,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 5,
@@ -7168,6 +7891,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 16,
@@ -7198,6 +7924,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 12,
@@ -7228,6 +7957,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 9,
@@ -7258,6 +7990,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 9,
@@ -7288,6 +8023,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 9,
@@ -7318,6 +8056,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 9,
@@ -7346,6 +8087,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -7374,6 +8118,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -7402,6 +8149,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -7430,6 +8180,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -7458,6 +8211,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -7486,6 +8242,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -7514,6 +8273,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -7542,6 +8304,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -7570,6 +8335,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -7598,6 +8366,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -7626,6 +8397,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -7654,6 +8428,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -7682,6 +8459,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -7710,6 +8490,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -7738,6 +8521,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -7766,6 +8552,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -7794,6 +8583,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -7822,6 +8614,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -7850,6 +8645,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -7878,6 +8676,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -7906,6 +8707,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -7934,6 +8738,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -7962,6 +8769,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -7990,6 +8800,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -8018,6 +8831,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -8046,6 +8862,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -8074,6 +8893,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -8102,6 +8924,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -8130,6 +8955,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -8158,6 +8986,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -8186,6 +9017,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -8214,6 +9048,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -8242,6 +9079,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -8270,6 +9110,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -8298,6 +9141,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -8326,6 +9172,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -8354,6 +9203,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -8382,6 +9234,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -8410,6 +9265,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -8438,6 +9296,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -8466,6 +9327,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -8494,6 +9358,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -8522,6 +9389,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -8550,6 +9420,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -8578,6 +9451,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -8606,6 +9482,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -8634,6 +9513,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -8662,6 +9544,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -8690,6 +9575,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -8718,6 +9606,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -8746,6 +9637,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -8774,6 +9668,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -8802,6 +9699,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -8830,6 +9730,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -8858,6 +9761,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 5,
@@ -8886,6 +9792,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -8916,6 +9825,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 7,
@@ -8944,6 +9856,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -8972,6 +9887,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -9000,6 +9918,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -9028,6 +9949,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 3,
@@ -9056,6 +9980,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 6,
@@ -9084,6 +10011,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 1,
@@ -9112,6 +10042,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 9,
@@ -9140,6 +10073,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -9170,6 +10106,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 7,
@@ -9198,6 +10137,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -9226,6 +10168,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 3,
@@ -9256,6 +10201,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -9286,6 +10234,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -9314,6 +10265,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 8,
@@ -9342,6 +10296,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 6,
@@ -9370,6 +10327,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 7,
@@ -9400,6 +10360,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 2,
@@ -9428,6 +10391,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -9456,6 +10422,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -9484,6 +10453,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 6,
@@ -9512,6 +10484,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -9540,6 +10515,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -9568,6 +10546,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -9596,6 +10577,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 7,
@@ -9624,6 +10608,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 5,
@@ -9652,6 +10639,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 12,
@@ -9680,6 +10670,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 10,
@@ -9708,6 +10701,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 1,
@@ -9736,6 +10732,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -9764,6 +10763,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -9792,6 +10794,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -9820,6 +10825,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -9848,6 +10856,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 8,
@@ -9876,6 +10887,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -9904,6 +10918,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -9932,6 +10949,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 6,
@@ -9960,6 +10980,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -9988,6 +11011,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -10016,6 +11042,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -10044,6 +11073,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -10072,6 +11104,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 2,
@@ -10100,6 +11135,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -10128,6 +11166,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -10156,6 +11197,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -10184,6 +11228,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 6,
@@ -10212,6 +11259,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 3,
@@ -10240,6 +11290,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 3,
@@ -10268,6 +11321,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 3,
@@ -10296,6 +11352,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 2,
@@ -10324,6 +11383,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 3,
@@ -10352,6 +11414,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 2,
@@ -10380,6 +11445,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -10408,6 +11476,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -10436,6 +11507,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 8,
@@ -10464,6 +11538,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 3,
@@ -10492,6 +11569,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 6,
@@ -10520,6 +11600,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -10548,6 +11631,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 1,
@@ -10576,6 +11662,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -10604,6 +11693,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 1,
@@ -10632,6 +11724,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 1,
@@ -10660,6 +11755,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 3,
@@ -10688,6 +11786,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -10716,6 +11817,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -10744,6 +11848,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -10772,6 +11879,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 7,
@@ -10800,6 +11910,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 2,
@@ -10828,6 +11941,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -10856,6 +11972,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 5,
@@ -10884,6 +12003,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 1,
@@ -10912,6 +12034,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -10940,6 +12065,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 3,
@@ -10968,6 +12096,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -10996,6 +12127,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 1,
@@ -11024,6 +12158,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 2,
@@ -11052,6 +12189,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 5,
@@ -11080,6 +12220,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -11108,6 +12251,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -11136,6 +12282,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 3,
@@ -11164,6 +12313,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 3,
@@ -11192,6 +12344,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 5,
@@ -11220,6 +12375,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -11248,6 +12406,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 2,
@@ -11276,6 +12437,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 3,
@@ -11304,6 +12468,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 3,
@@ -11332,6 +12499,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 3,
@@ -11360,6 +12530,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 1,
@@ -11388,6 +12561,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -11416,6 +12592,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 5,
@@ -11444,6 +12623,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -11472,6 +12654,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -11500,6 +12685,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 8,
@@ -11528,6 +12716,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 7,
@@ -11556,6 +12747,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 1,
@@ -11584,6 +12778,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 3,
@@ -11612,6 +12809,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 7,
@@ -11640,6 +12840,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 5,
@@ -11670,6 +12873,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 13,
@@ -11698,6 +12904,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 6,
@@ -11726,6 +12935,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 7,
@@ -11754,6 +12966,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 8,
@@ -11782,6 +12997,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 5,
@@ -11810,6 +13028,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 6,
@@ -11838,6 +13059,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -11866,6 +13090,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -11894,6 +13121,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 8,
@@ -11922,6 +13152,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -11950,6 +13183,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -11978,6 +13214,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 5,
@@ -12006,6 +13245,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 2,
@@ -12036,6 +13278,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 2,
@@ -12066,6 +13311,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -12094,6 +13342,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 5,
@@ -12122,6 +13373,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -12150,6 +13404,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 5,
@@ -12178,6 +13435,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 1,
@@ -12206,6 +13466,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 2,
@@ -12234,6 +13497,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -12262,6 +13528,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -12290,6 +13559,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 6,
@@ -12320,6 +13592,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 12,
@@ -12348,6 +13623,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -12376,6 +13654,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -12404,6 +13685,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -12434,6 +13718,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 15,
@@ -12464,6 +13751,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 7,
@@ -12494,6 +13784,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 7,
@@ -12524,6 +13817,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 14,
@@ -12554,6 +13850,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 11,
@@ -12584,6 +13883,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 9,
@@ -12612,6 +13914,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -12640,6 +13945,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 3,
@@ -12668,6 +13976,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 2,
@@ -12698,6 +14009,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 7,
@@ -12728,6 +14042,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 9,
@@ -12758,6 +14075,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 8,
@@ -12786,6 +14106,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -12816,6 +14139,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 7,
@@ -12846,6 +14172,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -12874,6 +14203,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -12902,6 +14234,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 1,
@@ -12932,6 +14267,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 15,
@@ -12962,6 +14300,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 14,
@@ -12990,6 +14331,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -13018,6 +14362,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 3,
@@ -13046,6 +14393,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 9,
@@ -13074,6 +14424,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -13102,6 +14455,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 7,
@@ -13130,6 +14486,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -13158,6 +14517,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 3,
@@ -13186,6 +14548,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 3,
@@ -13214,6 +14579,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 5,
@@ -13242,6 +14610,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 3,
@@ -13270,6 +14641,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -13298,6 +14672,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -13326,6 +14703,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -13354,6 +14734,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -13382,6 +14765,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 3,
@@ -13410,6 +14796,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 5,
@@ -13438,6 +14827,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 3,
@@ -13468,6 +14860,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 2,
@@ -13498,6 +14893,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 1,
@@ -13528,6 +14926,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -13558,6 +14959,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 2,
@@ -13588,6 +14992,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -13618,6 +15025,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 3,
@@ -13648,6 +15058,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -13678,6 +15091,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 8,
@@ -13708,6 +15124,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 7,
@@ -13738,6 +15157,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 3,
@@ -13768,6 +15190,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 2,
@@ -13798,6 +15223,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -13828,6 +15256,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 1,
@@ -13858,6 +15289,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 2,
@@ -13888,6 +15322,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 3,
@@ -13918,6 +15355,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -13948,6 +15388,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 12,
@@ -13978,6 +15421,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 1,
@@ -14006,6 +15452,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -14034,6 +15483,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -14062,6 +15514,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 5,
@@ -14090,6 +15545,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -14118,6 +15576,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -14146,6 +15607,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -14176,6 +15640,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 3,
@@ -14204,6 +15671,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -14234,6 +15704,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 3,
@@ -14264,6 +15737,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 2,
@@ -14294,6 +15770,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 2,
@@ -14322,6 +15801,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 2,
@@ -14350,6 +15832,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 2,
@@ -14378,6 +15863,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 2,
@@ -14406,6 +15894,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 2,
@@ -14434,6 +15925,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 2,
@@ -14462,6 +15956,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 2,
@@ -14490,6 +15987,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 2,
@@ -14518,6 +16018,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 2,
@@ -14548,6 +16051,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 8,
@@ -14578,6 +16084,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 8,
@@ -14606,6 +16115,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 6,
@@ -14634,6 +16146,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 8,
@@ -14662,6 +16177,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -14690,6 +16208,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -14718,6 +16239,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 1,
@@ -14748,6 +16272,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 6,
@@ -14776,6 +16303,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -14804,6 +16334,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -14834,6 +16367,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -14862,6 +16398,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -14890,6 +16429,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -14920,6 +16462,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 1,
@@ -14950,6 +16495,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -14978,6 +16526,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 2,
@@ -15006,6 +16557,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 2,
@@ -15034,6 +16588,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 2,
@@ -15062,6 +16619,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 2,
@@ -15092,6 +16652,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 2,
@@ -15120,6 +16683,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -15150,6 +16716,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 3,
@@ -15180,6 +16749,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 7,
@@ -15208,6 +16780,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -15238,6 +16813,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 1,
@@ -15268,6 +16846,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 1,
@@ -15296,6 +16877,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -15326,6 +16910,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 2,
@@ -15356,6 +16943,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 2,
@@ -15386,6 +16976,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -15416,6 +17009,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 3,
@@ -15446,6 +17042,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 2,
@@ -15474,6 +17073,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -15502,6 +17104,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -15530,6 +17135,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -15558,6 +17166,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -15586,6 +17197,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -15614,6 +17228,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -15642,6 +17259,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -15670,6 +17290,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -15698,6 +17321,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -15726,6 +17352,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -15754,6 +17383,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -15782,6 +17414,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -15810,6 +17445,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -15838,6 +17476,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -15868,6 +17509,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 9,
@@ -15898,6 +17542,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 9,
@@ -15926,6 +17573,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -15954,6 +17604,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -15982,6 +17635,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -16010,6 +17666,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -16038,6 +17697,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -16066,6 +17728,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -16094,6 +17759,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -16122,6 +17790,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -16150,6 +17821,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -16180,6 +17854,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 2,
@@ -16210,6 +17887,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 9,
@@ -16240,6 +17920,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 10,
@@ -16270,6 +17953,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -16300,6 +17986,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -16330,6 +18019,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 7,
@@ -16360,6 +18052,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 9,
@@ -16388,6 +18083,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -16418,6 +18116,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 15,
@@ -16446,6 +18147,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -16474,6 +18178,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -16502,6 +18209,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -16532,6 +18242,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 5,
@@ -16560,6 +18273,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -16590,6 +18306,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -16620,6 +18339,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 9,
@@ -16648,6 +18370,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -16676,6 +18401,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -16704,6 +18432,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 5,
@@ -16734,6 +18465,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -16762,6 +18496,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -16790,6 +18527,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -16818,6 +18558,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -16848,6 +18591,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 8,
@@ -16878,6 +18624,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 6,
@@ -16906,6 +18655,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 2,
@@ -16936,6 +18688,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 3,
@@ -16966,6 +18721,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 3,
@@ -16994,6 +18752,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -17022,6 +18783,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -17050,6 +18814,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -17078,6 +18845,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -17106,6 +18876,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -17134,6 +18907,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -17164,6 +18940,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -17192,6 +18971,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -17220,6 +19002,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -17250,6 +19035,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 13,
@@ -17278,6 +19066,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 8,
@@ -17306,6 +19097,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -17334,6 +19128,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -17364,6 +19161,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 2,
@@ -17394,6 +19194,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 7,
@@ -17424,6 +19227,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -17454,6 +19260,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -17484,6 +19293,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -17512,6 +19324,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 3,
@@ -17540,6 +19355,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -17570,6 +19388,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 6,
@@ -17598,6 +19419,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -17628,6 +19452,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 1,
@@ -17658,6 +19485,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 1,
@@ -17688,6 +19518,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 2,
@@ -17718,6 +19551,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -17748,6 +19584,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -17778,6 +19617,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -17806,6 +19648,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 6,
@@ -17834,6 +19679,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 4,
@@ -17862,6 +19710,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -17892,6 +19743,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -17920,6 +19774,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
@@ -17948,6 +19805,9 @@
       "passive": {
         "condition": null,
         "perform": null
+      },
+      "deploy": {
+        "condition": null
       }
     },
     "power": 0,
