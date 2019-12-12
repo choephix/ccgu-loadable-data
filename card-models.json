@@ -3871,7 +3871,7 @@
     "guid": "8de0504f-d097-4141-2cd1-b4a29b448b2b"
   },
   {
-    "id": 3840,
+    "id": 2051,
     "slug": "--time-lord",
     "type": 0,
     "description": "When I enter play:\nIf possible both players take the bottom cards in their grave until they have 4 cards in their hands.",
@@ -3901,7 +3901,7 @@
     "guid": "40d665ac-fea0-6997-e643-4d5e1c5c87f9"
   },
   {
-    "id": 3841,
+    "id": 2050,
     "slug": "--nuke-virus",
     "type": 0,
     "description": "Combat-Flip:\nDestroy attacking creature and this card, but deal damage to yourself equal to enemy creature's power at the time of death.",
@@ -4279,7 +4279,7 @@
     "guid": "e9150e38-ab00-7ffe-82b7-3432223efa0f"
   },
   {
-    "id": 3598,
+    "id": 2049,
     "slug": "--deathdraw",
     "type": 0,
     "description": "When I die - draw 2 cards.",
@@ -4307,7 +4307,7 @@
     "guid": "15f64461-95cc-c62e-ca23-11dc1495fba7"
   },
   {
-    "id": 3599,
+    "id": 2048,
     "slug": "--man-of_honor",
     "type": 0,
     "description": "I cannot attack if there is no opposing enemy creature.",
