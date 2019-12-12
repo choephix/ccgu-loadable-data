@@ -1,10 +1,9 @@
 [
   {
     "id": 1088,
-    "guid": "eed4c9e2-1f79-01f7-1113-d2b4772c6173",
     "slug": "shisno",
     "type": 0,
-    "description": "I am card",
+    "description": "[n.] Skunk's poo's poo",
     "tags": [],
     "rarity": 0,
     "pdc": null,
@@ -23,7 +22,9 @@
         "condition": null,
         "perform": null
       }
-    }
+    },
+    "guid": "eed4c9e2-1f79-01f7-1113-d2b4772c6173",
+    "name": "shisno"
   },
   {
     "id": 3303,
