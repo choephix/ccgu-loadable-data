@@ -287,7 +287,7 @@
   },
   {
     "id": 871,
-    "slug": "mindctrl-345",
+    "slug": "wheezy-mussel",
     "type": 1,
     "description": "When opposing grand unit is deployed, while you have no unit on your side - take control of that unit until the end of your turn",
     "tags": [],
@@ -380,7 +380,7 @@
   },
   {
     "id": 1075,
-    "slug": "06b8606f",
+    "slug": "viral-kob",
     "type": 0,
     "description": "On deploy: gain 2lp\nOn death by combat: lose 2lp",
     "tags": [],
@@ -411,7 +411,7 @@
   },
   {
     "id": 1076,
-    "slug": "e5fb2497",
+    "slug": "smelly-olingo",
     "type": 0,
     "description": "On deploy: gain 5 lp\nOn death by combat: lose 15lp",
     "tags": [],
@@ -442,7 +442,7 @@
   },
   {
     "id": 944,
-    "slug": "da8d5fe9",
+    "slug": "skeptical-aztecant",
     "type": 1,
     "description": "On opp atk vs ally - destroy both; both players take dmg equal to enemy unit's pwr",
     "tags": [
@@ -475,7 +475,7 @@
   },
   {
     "id": 912,
-    "slug": "39f7caae",
+    "slug": "gluey-cuckoo",
     "type": 0,
     "description": "Combat-flip: if no allies - kill opposing unit",
     "tags": [
@@ -508,7 +508,7 @@
   },
   {
     "id": 913,
-    "slug": "b34fccee",
+    "slug": "giant-woodcock",
     "type": 0,
     "description": "While there are no allies - pwr is 13",
     "tags": [],
@@ -573,7 +573,7 @@
   },
   {
     "id": 899,
-    "slug": "92220cfe",
+    "slug": "obese-kiwi",
     "type": 0,
     "description": "At enemy tyrn start - destroy opposite face-up trap.",
     "tags": [
@@ -638,7 +638,7 @@
   },
   {
     "id": 849,
-    "slug": "8cb52eaa",
+    "slug": "irradiated-pika",
     "type": 0,
     "description": "At the start of your opponent's turn - opposite enemy unit loses 3 power",
     "tags": [],
@@ -733,7 +733,7 @@
   },
   {
     "id": 866,
-    "slug": "fb36dcc2",
+    "slug": "cottony-verdin",
     "type": 1,
     "description": "After direct attack against you on this lane finishes, deploy a token (5 power)",
     "tags": [],
@@ -764,7 +764,7 @@
   },
   {
     "id": 865,
-    "slug": "a416dbf8",
+    "slug": "unliterary-equestrian",
     "type": 1,
     "description": "If possible, after direct attack against you on this lane finishes, deploy a token and raise its power by the damage amount",
     "tags": [],
@@ -826,7 +826,7 @@
   },
   {
     "id": 896,
-    "slug": "ab5ea2a0",
+    "slug": "repairable-mongrel",
     "type": 0,
     "description": "combat-flip: all ally units gain 2 power",
     "tags": [
@@ -923,7 +923,7 @@
   },
   {
     "id": 833,
-    "slug": "54a4abd9",
+    "slug": "abased-nilgai",
     "type": 0,
     "description": "adjecent units have +3 power",
     "tags": [],
@@ -954,7 +954,7 @@
   },
   {
     "id": 832,
-    "slug": "5ca29706",
+    "slug": "buoyant-pewee",
     "type": 0,
     "description": "adjecent units have +2 power",
     "tags": [],
@@ -985,7 +985,7 @@
   },
   {
     "id": 864,
-    "slug": "beee108e",
+    "slug": "pennywise-mussel",
     "type": 1,
     "description": "when opp unit atks - set its power to exactly 10",
     "tags": [],
@@ -1082,7 +1082,7 @@
   },
   {
     "id": 1536,
-    "slug": "a8bcec64",
+    "slug": "literate-puffer",
     "type": 0,
     "description": "+3 power, while there is an opposing enemy trap",
     "tags": [],
@@ -1146,7 +1146,7 @@
   },
   {
     "id": 1602,
-    "slug": "37f4d8b7",
+    "slug": "busying-steer",
     "type": 0,
     "description": "+1 power for each trap on either side.",
     "tags": [],
@@ -1177,7 +1177,7 @@
   },
   {
     "id": 1601,
-    "slug": "ef46053d",
+    "slug": "lost-beaver",
     "type": 0,
     "description": "+2 power for each enemy trap",
     "tags": [],
@@ -1208,7 +1208,7 @@
   },
   {
     "id": 1600,
-    "slug": "b5d484ef",
+    "slug": "mild-whooper",
     "type": 0,
     "description": "+2 power for each friendly trap",
     "tags": [],
