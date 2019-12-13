@@ -1,5 +1,39 @@
 [
   {
+    "id": 820,
+    "guid": "2c064020-07e5-d2da-ed69-734025104d9f",
+    "name": "The Swapper",
+    "slug": "--swapper2",
+    "type": 0,
+    "description": "",
+    "tags": [
+      "swapper"
+    ],
+    "rarity": 0,
+    "pdc": null,
+    "status": 0,
+    "priority": 0,
+    "effects": {
+      "flip": {
+        "condition": null,
+        "perform": null
+      },
+      "active": {
+        "condition": null,
+        "perform": null
+      },
+      "passive": {
+        "condition": null,
+        "perform": null
+      },
+      "deploy": {
+        "condition": null
+      }
+    },
+    "power": 3,
+    "lore": "I can relocate to an occupied creature field on your side, by swapping places with the creature there. This does not count as relocation for the other creature."
+  },
+  {
     "id": 49,
     "slug": "shisno",
     "type": 0,
@@ -31,10 +65,10 @@
     "lore": "[n.] Skunk's poo's poo"
   },
   {
-    "id": 3303,
+    "id": 819,
     "slug": "--flappy-bird",
     "type": 0,
-    "description": "Can both attack and move before exhausting.",
+    "description": "",
     "tags": [
       "swift"
     ],
@@ -61,7 +95,8 @@
     },
     "power": 2,
     "name": "Flappy Bird",
-    "guid": "a9fb5b3c-0c8a-a10c-6a8c-8ed91952bc46"
+    "guid": "a9fb5b3c-0c8a-a10c-6a8c-8ed91952bc46",
+    "lore": "Can both attack and move before exhausting.\n"
   },
   {
     "id": 3612,
@@ -257,7 +292,7 @@
     "guid": "98bd4313-2b41-243a-d422-9c5886f115ee"
   },
   {
-    "id": 837,
+    "id": 886,
     "slug": "cocky-hermitcrab",
     "type": 0,
     "description": "At the start of your turn, if there is no opposing enemy unit - I move to the enemy side.\n\n(so, this will always be on the other side? wtf?)",
@@ -3992,7 +4027,7 @@
     "guid": "989b2337-9bee-8897-7556-f12e091d7eb3"
   },
   {
-    "id": 2823,
+    "id": 835,
     "slug": "handy-tina",
     "type": 0,
     "description": "When I am summoned, both players draw a card",
@@ -10909,7 +10944,8 @@
     },
     "power": 4,
     "name": "Spying James",
-    "guid": "6df4249c-c165-b329-a9c7-4df9d6d96749"
+    "guid": "6df4249c-c165-b329-a9c7-4df9d6d96749",
+    "lore": "duplicate"
   },
   {
     "id": 3305,
@@ -11005,7 +11041,7 @@
     "guid": "2f2f474a-e268-7bfb-81a2-f69188d45516"
   },
   {
-    "id": 3308,
+    "id": 806,
     "slug": "--producer",
     "type": 0,
     "description": "My power is raised by 1 for each card in your hand",
