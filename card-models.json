@@ -226,7 +226,7 @@
     "guid": "6d824970-48a8-e2b8-573b-5875b0acdb58"
   },
   {
-    "id": 873,
+    "id": 823,
     "slug": "turn-end-1",
     "type": 1,
     "description": "Activate after opposite enemy unit attacks. \nEnd the enemy's turn immeadiately.",
@@ -288,7 +288,7 @@
     "guid": "176de02e-08e7-baa2-da9f-74a6d673276b"
   },
   {
-    "id": 871,
+    "id": 854,
     "slug": "wheezy-mussel",
     "type": 1,
     "description": "When opposing grand unit is deployed, while you have no unit on your side - take control of that unit until the end of your turn",
@@ -860,7 +860,7 @@
     "guid": "ab5ea2a0-609c-2e95-d2ce-6b6d6675814d"
   },
   {
-    "id": 775,
+    "id": 791,
     "slug": "reversepiercing",
     "type": 1,
     "description": "opposite enemy unit has piercing\nuntil the end of the turn",
@@ -1304,8 +1304,8 @@
     "guid": "8cc4afa4-1276-5506-1c7d-aa1052afd931"
   },
   {
-    "id": 815,
-    "slug": "sew",
+    "id": 807,
+    "slug": "taunt",
     "type": 1,
     "description": "Activate when opposing enemy unit is deployed and force it to attack.",
     "tags": [],
@@ -1336,8 +1336,8 @@
     "guid": "bdaf0351-9f2b-859c-d4e7-7b35dcae8645"
   },
   {
-    "id": 798,
-    "slug": "hop",
+    "id": 777,
+    "slug": "indoctronate",
     "type": 1,
     "description": "Activate when an enemy unit is deployed and the opposing unit field is empty. Move the unit there.",
     "tags": [],
@@ -1400,7 +1400,7 @@
     "guid": "74173d35-8c68-61f7-e9e4-ccbd3a80479b"
   },
   {
-    "id": 811,
+    "id": 859,
     "slug": "effaceable-kissingbug",
     "type": 0,
     "description": "#Grand On death: enemy is healed for %10 hp",
@@ -1434,7 +1434,7 @@
     "guid": "0150cb46-5ae5-249d-32b3-fe089acf39fd"
   },
   {
-    "id": 780,
+    "id": 775,
     "slug": "relokill",
     "type": 1,
     "description": "Activate when opposing enemy unit starts relocation. Kill it.",
@@ -1466,7 +1466,7 @@
     "guid": "da48f14f-3dc3-a7ee-9ba9-647e14ab1c4b"
   },
   {
-    "id": 793,
+    "id": 873,
     "slug": "lockhead",
     "type": 0,
     "description": "#Grand The opposing enemy field is locked while I am in play",
@@ -1500,7 +1500,7 @@
     "guid": "40f5ad39-e42a-2ce3-da35-de0c94835e17"
   },
   {
-    "id": 797,
+    "id": 825,
     "slug": "trapbomb",
     "type": 1,
     "description": "Activate when opposing enemy $trap activates. Before the effect, destroy it and all units on my lane.",
@@ -1532,7 +1532,7 @@
     "guid": "9d559a67-558f-c648-b17c-a6c6da4dae1d"
   },
   {
-    "id": 777,
+    "id": 889,
     "slug": "traplode",
     "type": 0,
     "description": "#Grand Before any trap on either side activates - destroy it. If so, I die at the end of that turn.",
@@ -1566,7 +1566,7 @@
     "guid": "875977e2-407a-791e-f59c-e0846bdd7ddb"
   },
   {
-    "id": 809,
+    "id": 811,
     "slug": "chickeng1",
     "type": 0,
     "description": "#Grand When opposing enemy unit attacks, I return to your hand. The attack continues.",
@@ -1600,7 +1600,7 @@
     "guid": "0227eaaf-1a18-94d7-1430-4f9842b92784"
   },
   {
-    "id": 776,
+    "id": 792,
     "slug": "toxicmine",
     "type": 1,
     "description": "Activate when opposing enemy unit is deployed. Decrease its power by",
@@ -1632,7 +1632,7 @@
     "guid": "e3b41aa1-0f98-ec62-7c2b-2f8414025180"
   },
   {
-    "id": 772,
+    "id": 804,
     "slug": "autoatk",
     "type": 0,
     "description": "I perform a free attack when deployed",
@@ -1696,11 +1696,13 @@
     "guid": "76cc8056-ce49-b965-46dd-0cb2729930b5"
   },
   {
-    "id": 820,
+    "id": 855,
     "slug": "quickgiver-g",
     "type": 0,
     "description": "When I am $deployed - end your turn.\nWhenever any other $unit is about to be $deployed, give it Storm until turn end.",
-    "tags": [],
+    "tags": [
+      "grand"
+    ],
     "rarity": 0,
     "pdc": -1,
     "status": 12,
@@ -1728,7 +1730,7 @@
     "guid": "45b03f7f-e7a8-9b14-9975-fd32ea1699f2"
   },
   {
-    "id": 804,
+    "id": 839,
     "slug": "quickgiver-1",
     "type": 0,
     "description": "When I am $deployed - end your turn.\nWhenever any other $unit is about to be $deployed, give it Storm until turn end.",
@@ -1792,10 +1794,10 @@
     "guid": "08d74cf3-5b04-b6f5-e4cc-014bacdbd687"
   },
   {
-    "id": 788,
+    "id": 818,
     "slug": "eggshell",
     "type": 0,
-    "description": "Use me as surprise tribute.",
+    "description": "",
     "tags": [
       "rush"
     ],
@@ -1823,10 +1825,11 @@
     "name": "eggshell",
     "power": 0,
     "c": "",
-    "guid": "c7bfa796-fdc8-b69e-659d-d2d29bfb0824"
+    "guid": "c7bfa796-fdc8-b69e-659d-d2d29bfb0824",
+    "lore": "Use me as surprise tribute."
   },
   {
-    "id": 794,
+    "id": 874,
     "slug": "lonely-golem",
     "type": 0,
     "description": "#Grand The moment there are no other $friendly $units - I $die.",
@@ -1860,7 +1863,7 @@
     "guid": "3ec56f92-b1d2-8cf7-0e79-3cea3fbdada3"
   },
   {
-    "id": 810,
+    "id": 858,
     "slug": "compromiser1",
     "type": 0,
     "description": "#Grand I do not need a $tribute to be $deployed if there are no $friendly $units $in-play.",
@@ -1894,7 +1897,7 @@
     "guid": "252316fc-4e93-ae68-6206-f37455c84f1d"
   },
   {
-    "id": 827,
+    "id": 843,
     "slug": "epic-tortoise",
     "type": 0,
     "description": "#Grand After I $attack, I am $asleep until your next turn-end.",
@@ -1928,7 +1931,7 @@
     "guid": "9e0d7038-111c-a964-291c-c92bd4a68c4e"
   },
   {
-    "id": 826,
+    "id": 842,
     "slug": "sloth-wyrm",
     "type": 0,
     "description": "#Grand I am $asleep for three turns after being deployed.",
@@ -1962,7 +1965,7 @@
     "guid": "54906067-1fd6-f6bb-cd8d-4b03141e3efe"
   },
   {
-    "id": 782,
+    "id": 776,
     "slug": "killonattack",
     "type": 1,
     "description": "Activate after opposing enemy $unit finishes a direct attack. $Kill it.",
@@ -1994,7 +1997,7 @@
     "guid": "e649a142-6fe2-e540-60e4-3615f222370a"
   },
   {
-    "id": 773,
+    "id": 789,
     "slug": "free-jimmy",
     "type": 0,
     "description": "Activate when I am deployed. Raise your $AP by %1.",
@@ -2026,7 +2029,7 @@
     "guid": "d733ae6a-414f-023c-4992-e99fea422de6"
   },
   {
-    "id": 796,
+    "id": 793,
     "slug": "nosneaking",
     "type": 1,
     "description": "Activate when opposing enemy $unit is $deployed face-down. Flip it face-up, ignoring any flip-effects.",
@@ -2058,7 +2061,7 @@
     "guid": "c595fe6f-0a86-87e4-c498-425c4ee9d4cf"
   },
   {
-    "id": 814,
+    "id": 809,
     "slug": "punishtrap",
     "type": 1,
     "description": "Activate when opposing enemy $trap activates. Deal %3 damage to opponent.",
@@ -2090,7 +2093,7 @@
     "guid": "958fd1de-37dd-a09e-e656-33eb7efd4e00"
   },
   {
-    "id": 799,
+    "id": 824,
     "slug": "fury",
     "type": 1,
     "description": "Activate when you are dealt direct damage by the opposing enemy $unit.\nDestroy all enemy $units with $power lower than that damage.",
@@ -2122,7 +2125,7 @@
     "guid": "a9169ca5-1e24-f72f-d437-270bbfcd594a"
   },
   {
-    "id": 795,
+    "id": 875,
     "slug": "cowardly-giant",
     "type": 0,
     "description": "#Grand After I am attacked by enemy $unit, if I'm still in play, I return to my owner's hand.",
@@ -2188,7 +2191,7 @@
     "guid": "0e0640e1-917e-9491-34ca-bb8f8a8a4e45"
   },
   {
-    "id": 769,
+    "id": 785,
     "slug": "flipouch",
     "type": 0,
     "description": "Flip: Take %1 damage.",
@@ -2288,7 +2291,7 @@
     "guid": "1dceec66-3bae-a21b-2d2c-dac0160cbc43"
   },
   {
-    "id": 779,
+    "id": 891,
     "slug": "honoraro",
     "type": 0,
     "description": "#Grand Adjacent friendly $units's power is raised by %2.",
@@ -2322,7 +2325,7 @@
     "guid": "c67cb778-6bc1-80de-8192-fdb60c2090e8"
   },
   {
-    "id": 786,
+    "id": 801,
     "slug": "nimbleguard",
     "type": 0,
     "description": "When an enemy $unit is $deployed, if possible, move me in front of it.",
@@ -2354,7 +2357,7 @@
     "guid": "e156e58b-3903-0196-a55c-cef515c0dcdd"
   },
   {
-    "id": 770,
+    "id": 802,
     "slug": "elijah",
     "type": 0,
     "description": "My $power is raised by %4 during the enemy's turn",
@@ -2386,7 +2389,7 @@
     "guid": "390fa875-b747-ccf3-2b6e-d53911fb821c"
   },
   {
-    "id": 771,
+    "id": 788,
     "slug": "joshua",
     "type": 0,
     "description": "My $power is raised by %3 during your turn.",
@@ -2418,7 +2421,7 @@
     "guid": "a90dcc70-cc81-5e0b-58db-d1141ab907d0"
   },
   {
-    "id": 778,
+    "id": 890,
     "slug": "cardfactory1",
     "type": 0,
     "description": "#Grand Draw a card at the end of your turn",
@@ -2452,7 +2455,7 @@
     "guid": "c54d0143-a59e-714a-6778-3ce5b96fb831"
   },
   {
-    "id": 528,
+    "id": 786,
     "slug": "fateforward",
     "type": 0,
     "description": "Combat-Flip: Both $players draw %2 cards",
@@ -2486,7 +2489,7 @@
     "guid": "175c9ca8-d248-7609-c6af-0c09f2094056"
   },
   {
-    "id": 768,
+    "id": 784,
     "slug": "fragmine",
     "type": 0,
     "description": "I die after $combat",
@@ -2659,7 +2662,7 @@
     "guid": "00badf76-e490-b5e6-9b31-a3986978ca5e"
   },
   {
-    "id": 515,
+    "id": 771,
     "slug": "man-of-honor",
     "type": 0,
     "description": "I cannot attack if there is no opposing enemy $unit",
@@ -2889,7 +2892,7 @@
     "guid": "f39e47ff-3ee3-e857-cd52-a375575da950"
   },
   {
-    "id": 513,
+    "id": 769,
     "slug": "berserker",
     "type": 0,
     "description": "I attack automatically on at the start of your turn.\nThis counts as a manual attack to my $action-exhaustion.",
@@ -2921,7 +2924,7 @@
     "guid": "880e607b-9629-b54e-5e35-2789092bac94"
   },
   {
-    "id": 514,
+    "id": 770,
     "slug": "mercenery",
     "type": 0,
     "description": "Take %1 direct damage every time I begin an attack.",
@@ -2988,7 +2991,7 @@
     "guid": "77f9e416-704f-41da-b8b2-8a04225a76f8"
   },
   {
-    "id": 560,
+    "id": 822,
     "slug": "kamikazejoe",
     "type": 0,
     "description": "I automatically attack when $deployed. I die after $combat.",
@@ -3023,7 +3026,7 @@
     "guid": "da1d63dc-c3a5-7c69-49c4-148a17a842e0"
   },
   {
-    "id": 512,
+    "id": 768,
     "slug": "harassingmia",
     "type": 0,
     "description": "I return to your hand at the end of your turn.",
@@ -4755,7 +4758,7 @@
     "guid": "15f64461-95cc-c62e-ca23-11dc1495fba7"
   },
   {
-    "id": 2112,
+    "id": 1022,
     "slug": "--man-of_honor",
     "type": 0,
     "description": "I cannot attack if there is no opposing enemy creature.",
@@ -4783,7 +4786,8 @@
     },
     "power": 7,
     "name": "Man of Honor",
-    "guid": "8dc335aa-06d2-b3ef-4553-bddddd781cf6"
+    "guid": "8dc335aa-06d2-b3ef-4553-bddddd781cf6",
+    "lore": "(duplicate of man-of-honor)"
   },
   {
     "id": 3423,
