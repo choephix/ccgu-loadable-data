@@ -3,7 +3,7 @@
     "id": 49,
     "slug": "shisno",
     "type": 0,
-    "description": "[n.] Skunk's poo's poo",
+    "description": "",
     "tags": [],
     "rarity": 0,
     "pdc": null,
@@ -27,7 +27,8 @@
       }
     },
     "guid": "eed4c9e2-1f79-01f7-1113-d2b4772c6173",
-    "name": "shisno"
+    "name": "shisno",
+    "lore": "[n.] Skunk's poo's poo"
   },
   {
     "id": 3303,
@@ -3059,7 +3060,7 @@
     "id": 259,
     "slug": "doe2",
     "type": 0,
-    "description": "Just a gal",
+    "description": "",
     "tags": [],
     "rarity": 0,
     "pdc": -1,
@@ -3085,13 +3086,14 @@
     "name": "Jane Doe",
     "power": 5,
     "c": "",
-    "guid": "d4b66f78-61e7-9b08-7e92-4be3e9b22e05"
+    "guid": "d4b66f78-61e7-9b08-7e92-4be3e9b22e05",
+    "lore": "Just a gal"
   },
   {
     "id": 258,
     "slug": "doe1",
     "type": 0,
-    "description": "Just a guy",
+    "description": "",
     "tags": [],
     "rarity": 0,
     "pdc": -1,
@@ -3117,13 +3119,14 @@
     "name": "John Doe",
     "power": 5,
     "c": "",
-    "guid": "502b3b60-a6b9-9266-e0be-b1bb7c2be69a"
+    "guid": "502b3b60-a6b9-9266-e0be-b1bb7c2be69a",
+    "lore": "Just a guy"
   },
   {
     "id": 257,
     "slug": "doe0",
     "type": 0,
-    "description": "No one knows his name. No one ever asked him either.",
+    "description": "",
     "tags": [],
     "rarity": 0,
     "pdc": -1,
@@ -3149,7 +3152,8 @@
     "name": "Random Dude",
     "power": 5,
     "c": "",
-    "guid": "c16dbe43-b08f-f7d5-2751-98d5e967b7c6"
+    "guid": "c16dbe43-b08f-f7d5-2751-98d5e967b7c6",
+    "lore": "No one knows his name. No one ever asked him either."
   },
   {
     "id": 525,
@@ -3351,7 +3355,7 @@
     "id": 1,
     "slug": "-kami",
     "type": 0,
-    "description": "op af",
+    "description": "",
     "tags": [],
     "rarity": 0,
     "pdc": null,
@@ -3377,7 +3381,8 @@
     "name": "-kami",
     "power": 0,
     "c": "",
-    "guid": "bb69140b-2741-9583-211c-11c9530119be"
+    "guid": "bb69140b-2741-9583-211c-11c9530119be",
+    "lore": "op af"
   },
   {
     "id": 20,
@@ -3479,7 +3484,7 @@
     "id": 4,
     "slug": "-wildgrand",
     "type": 0,
-    "description": "-- Whatever you wish, dude.... --",
+    "description": "",
     "tags": [
       "grand"
     ],
@@ -3507,13 +3512,14 @@
     "name": "The Wild One (G)",
     "power": 0,
     "c": "",
-    "guid": "cf181319-3efd-47f6-8763-91456ada4de8"
+    "guid": "cf181319-3efd-47f6-8763-91456ada4de8",
+    "lore": "-- Whatever you wish, dude.... --"
   },
   {
     "id": 3,
     "slug": "-wildsneak",
     "type": 0,
-    "description": "-- Whatever you wish, dude.... --",
+    "description": "",
     "tags": [
       "sneak"
     ],
@@ -3541,13 +3547,14 @@
     "name": "The Wild One (Incognito)",
     "power": 0,
     "c": "",
-    "guid": "656603c1-faf2-adbd-b788-c09377274053"
+    "guid": "656603c1-faf2-adbd-b788-c09377274053",
+    "lore": "-- Whatever you wish, dude.... --"
   },
   {
     "id": 5,
     "slug": "-wildtrap",
     "type": 1,
-    "description": "-- Whatever you wish, dude.... --",
+    "description": "",
     "tags": [],
     "rarity": 0,
     "pdc": -1,
@@ -3573,13 +3580,14 @@
     "name": "Go Wild!",
     "power": 0,
     "c": "",
-    "guid": "5ff639d9-708d-32c5-c7d6-8a2084f11adb"
+    "guid": "5ff639d9-708d-32c5-c7d6-8a2084f11adb",
+    "lore": "-- Whatever you wish, dude.... --"
   },
   {
     "id": 2,
     "slug": "-wildunit",
     "type": 0,
-    "description": "-- Whatever you wish, dude.... --",
+    "description": "",
     "tags": [],
     "rarity": 0,
     "pdc": -1,
@@ -3605,7 +3613,8 @@
     "name": "The Wild One",
     "power": 0,
     "c": "",
-    "guid": "e2f0d6e2-9212-6a9e-7b29-9e24413baa5c"
+    "guid": "e2f0d6e2-9212-6a9e-7b29-9e24413baa5c",
+    "lore": "-- Whatever you wish, dude.... --"
   },
   {
     "id": 48,
