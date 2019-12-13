@@ -1,0 +1,29 @@
+---
+tags:
+- Name: Sneak
+  Description: I am $deployed $face-down.
+- Name: Grand
+  Description: I require a $tribute to be $deployed.
+- Name: Token
+  Description: Token
+- Name: NoAttack
+  Description: Cannot attack.
+- Name: NoRelocate
+  Description: Cannot $relocate.
+- Name: NoMove
+  Description: Cannot be moved.
+- Name: Invulnerable
+  Description: Cannot die.
+- Name: Incorporeal
+  Description: Attacks against me become direct attacks.
+- Name: Quick
+  Description: I can attack or $relocate the turn I was $deployed.
+- Name: Swift
+  Description: I can attack AND $relocate in the same turn.
+- Name: Swapper
+  Description: I can swap places with friendly $units on relocation.
+- Name: Piercing
+  Description: In combat, the difference between me and a weaker enemy creature is
+    dealt as direct-damage.
+- Name: BadTribute
+  Description: I cannot be $tributed to $deploy a $grand $unit.
