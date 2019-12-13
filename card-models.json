@@ -255,10 +255,10 @@
     "guid": "98bd4313-2b41-243a-d422-9c5886f115ee"
   },
   {
-    "id": 860,
+    "id": 837,
     "slug": "176de02e",
     "type": 0,
-    "description": "At the start of your turn, if there is no opposing enemy unit - I move to the enemy side.",
+    "description": "At the start of your turn, if there is no opposing enemy unit - I move to the enemy side.\n\n(so, this will always be on the other side? wtf?)",
     "tags": [],
     "rarity": 2,
     "pdc": null,
@@ -702,7 +702,7 @@
   },
   {
     "id": 882,
-    "slug": "d168768c",
+    "slug": "interlay",
     "type": 1,
     "description": "After your unit is destroyed, deploy the first unit found in the enemy graveyard",
     "tags": [],
@@ -795,7 +795,7 @@
   },
   {
     "id": 881,
-    "slug": "e6e083d3",
+    "slug": "fasten",
     "type": 1,
     "description": "After direct attack against you on this lane finishes, deploy the first unit found in your graveyard",
     "tags": [],
@@ -890,7 +890,7 @@
   },
   {
     "id": 880,
-    "slug": "d6d24108",
+    "slug": "invite",
     "type": 1,
     "description": "Activate at opp turn start, while there you both have units on this lane.\nSet the power of ally unit on this lane to exactly 8 while there is an opposite enemy unit\nWhen there is no enemy unit on this lane, destroy this trap.",
     "tags": [
