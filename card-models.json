@@ -1,5 +1,67 @@
 [
   {
+    "id": 830,
+    "guid": "d39e281e-94f1-ba2d-1deb-975d899e1f5e",
+    "slug": "--charger",
+    "name": "charger",
+    "type": 0,
+    "description": "My power is raised by 1 every time I am relocated.",
+    "tags": [],
+    "rarity": 0,
+    "pdc": null,
+    "status": 0,
+    "priority": 0,
+    "effects": {
+      "flip": {
+        "condition": null,
+        "perform": null
+      },
+      "active": {
+        "condition": null,
+        "perform": null
+      },
+      "passive": {
+        "condition": null,
+        "perform": null
+      },
+      "deploy": {
+        "condition": null
+      }
+    },
+    "power": 3
+  },
+  {
+    "id": 829,
+    "guid": "44372e4e-629c-387c-6162-e52dccc7029c",
+    "slug": "--handy",
+    "name": "Flashforward",
+    "type": 0,
+    "description": "When I am summoned, you draw 2 cards and the enemy draws 3 cards.",
+    "tags": [],
+    "rarity": 0,
+    "pdc": null,
+    "status": 0,
+    "priority": 0,
+    "effects": {
+      "flip": {
+        "condition": null,
+        "perform": null
+      },
+      "active": {
+        "condition": null,
+        "perform": null
+      },
+      "passive": {
+        "condition": null,
+        "perform": null
+      },
+      "deploy": {
+        "condition": null
+      }
+    },
+    "power": 5
+  },
+  {
     "id": 820,
     "guid": "2c064020-07e5-d2da-ed69-734025104d9f",
     "name": "The Swapper",
@@ -1797,7 +1859,7 @@
     "guid": "1edaafe8-aa09-6eb3-cf35-778f72fb0d7a"
   },
   {
-    "id": 803,
+    "id": 805,
     "slug": "needsmotivation",
     "type": 0,
     "description": "Increase my $power by %2 for every $friendly adjacent $unit.",
@@ -2194,7 +2256,7 @@
     "guid": "c4e29441-a2d6-5d2e-e90d-67c1d4b90213"
   },
   {
-    "id": 787,
+    "id": 803,
     "slug": "antisocial-knight",
     "type": 0,
     "description": "My power is decreased by %3 for every other friendly $unit $in-play.",
@@ -9789,7 +9851,7 @@
     "guid": "1e46acbf-5415-1d88-5df9-3d81d69d481a"
   },
   {
-    "id": 3615,
+    "id": 3790,
     "slug": "--handy",
     "type": 0,
     "description": "When I am summoned, you draw 2 cards and the enemy draws 3 cards.",
@@ -14857,7 +14919,7 @@
     "guid": "f4aca24b-ed9f-d42f-01c4-b64ad1e50ead"
   },
   {
-    "id": 3631,
+    "id": 3791,
     "slug": "--charger",
     "type": 0,
     "description": "My power is raised by 1 every time I am relocated.",
@@ -15020,7 +15082,7 @@
     "guid": "578ce449-ef5c-aa32-a11d-a524e49e024b"
   },
   {
-    "id": 3134,
+    "id": 774,
     "slug": "--loneshield",
     "type": 0,
     "description": "All combat damage against me becomes zero if there are no other friendly creatures.",
@@ -15284,7 +15346,7 @@
     "guid": "cdcd74a9-158b-7117-a9c4-4732b4f7cc14"
   },
   {
-    "id": 3079,
+    "id": 787,
     "slug": "--unkillable-barny",
     "type": 0,
     "description": "IN-GRAVE\nAt the beginning of your turn, if I am the topmost card in your grave, i return to your hand.",
@@ -16395,7 +16457,7 @@
     "guid": "69e94d75-3b59-c2c5-3551-5b0e401031ee"
   },
   {
-    "id": 3094,
+    "id": 790,
     "slug": "--nona",
     "type": 0,
     "description": "Safe-Flip:\nRaise my power by 6.",
