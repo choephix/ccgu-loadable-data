@@ -1997,7 +1997,7 @@
     "guid": "e649a142-6fe2-e540-60e4-3615f222370a"
   },
   {
-    "id": 789,
+    "id": 820,
     "slug": "free-jimmy",
     "type": 0,
     "description": "Activate when I am deployed. Raise your $AP by %1.",
@@ -15507,8 +15507,8 @@
     "guid": "3a418778-d88e-8579-2696-b38ebacadb12"
   },
   {
-    "id": 3264,
-    "slug": "--flappy-bird2",
+    "id": 806,
+    "slug": "honorable-flappy-bird",
     "type": 0,
     "description": "I can both attack and move before exhausting, but I cannot attack while there is no opposing enemy creature.",
     "tags": [],
@@ -15534,7 +15534,7 @@
       }
     },
     "power": 5,
-    "name": "Flappy Bird 2",
+    "name": "Flappy Bird of Honor",
     "guid": "8b81fdc3-3224-14b9-7c8a-67141ffe168c"
   },
   {
