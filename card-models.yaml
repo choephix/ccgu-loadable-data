@@ -89,7 +89,7 @@
   lore: I can relocate to an occupied creature field on your side, by swapping
     places with the creature there. This does not count as relocation for the
     other creature.
-- id: 49
+- id: 48
   slug: shisno
   type: 0
   description: ""
@@ -3298,7 +3298,7 @@
   c: ""
   guid: bb69140b-2741-9583-211c-11c9530119be
   lore: op af
-- id: 20
+- id: 36
   slug: -killany
   type: 1
   description: kill first unit deployed
@@ -3328,7 +3328,7 @@
   power: 0
   c: ""
   guid: eb3f4da9-c209-1305-0dd4-7cae6cc9f4de
-- id: 19
+- id: 35
   slug: -infinitemana
   type: 0
   description: +1AP on any deployment. die on turn start.
@@ -3358,7 +3358,7 @@
   power: 0
   c: ""
   guid: e38ded56-fac0-f396-5349-5731f7267cba
-- id: 18
+- id: 34
   slug: -muchdraw
   type: 0
   description: Draw 6 cards when I am deployed.
@@ -3514,7 +3514,7 @@
   c: ""
   guid: e2f0d6e2-9212-6a9e-7b29-9e24413baa5c
   lore: -- Whatever you wish, dude.... --
-- id: 48
+- id: 33
   slug: -elvariablo
   type: 0
   description: Increase my power by %10 while @wall is in play on your side.
