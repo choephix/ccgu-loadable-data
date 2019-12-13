@@ -161,7 +161,7 @@
     "guid": "53828163-ed73-e387-3634-8cf87831dff2"
   },
   {
-    "id": 822,
+    "id": 1023,
     "slug": "sensho",
     "type": 0,
     "description": "Cannot begin attack while there is no opposing enemy creature",
@@ -189,7 +189,8 @@
     },
     "power": 7,
     "name": "sensho",
-    "guid": "1b791f5c-5beb-3c99-cf5d-66c92260e761"
+    "guid": "1b791f5c-5beb-3c99-cf5d-66c92260e761",
+    "lore": "(duplicate of man-of-honor)"
   },
   {
     "id": 931,
@@ -257,7 +258,7 @@
   },
   {
     "id": 837,
-    "slug": "176de02e",
+    "slug": "cocky-hermitcrab",
     "type": 0,
     "description": "At the start of your turn, if there is no opposing enemy unit - I move to the enemy side.\n\n(so, this will always be on the other side? wtf?)",
     "tags": [],
@@ -859,7 +860,7 @@
     "guid": "ab5ea2a0-609c-2e95-d2ce-6b6d6675814d"
   },
   {
-    "id": 835,
+    "id": 775,
     "slug": "reversepiercing",
     "type": 1,
     "description": "opposite enemy unit has piercing\nuntil the end of the turn",
@@ -1304,7 +1305,7 @@
   },
   {
     "id": 815,
-    "slug": "nameless-804f",
+    "slug": "sew",
     "type": 1,
     "description": "Activate when opposing enemy unit is deployed and force it to attack.",
     "tags": [],
@@ -1336,7 +1337,7 @@
   },
   {
     "id": 798,
-    "slug": "nameless-804e",
+    "slug": "hop",
     "type": 1,
     "description": "Activate when an enemy unit is deployed and the opposing unit field is empty. Move the unit there.",
     "tags": [],
@@ -1367,8 +1368,8 @@
     "guid": "ecf87384-4b2b-ceed-ffb1-c510eea1a14e"
   },
   {
-    "id": 819,
-    "slug": "nameless-804c",
+    "id": 834,
+    "slug": "wandering-kyle",
     "type": 0,
     "description": "On death: enemy is healed for %4 hp",
     "tags": [],
@@ -1400,7 +1401,7 @@
   },
   {
     "id": 811,
-    "slug": "nameless-804b",
+    "slug": "effaceable-kissingbug",
     "type": 0,
     "description": "#Grand On death: enemy is healed for %10 hp",
     "tags": [
@@ -1427,7 +1428,7 @@
         "condition": null
       }
     },
-    "name": "nameless-804b",
+    "name": "",
     "power": 14,
     "c": "",
     "guid": "0150cb46-5ae5-249d-32b3-fe089acf39fd"
@@ -1599,7 +1600,7 @@
     "guid": "0227eaaf-1a18-94d7-1430-4f9842b92784"
   },
   {
-    "id": 781,
+    "id": 776,
     "slug": "toxicmine",
     "type": 1,
     "description": "Activate when opposing enemy unit is deployed. Decrease its power by",
@@ -2221,7 +2222,7 @@
     "guid": "b3dba8a0-17b9-532b-e7ac-e4922eb429e2"
   },
   {
-    "id": 802,
+    "id": 800,
     "slug": "vampirefang",
     "type": 0,
     "description": "Any direct damage I deal in $combat, is added to your $health.",
@@ -2253,7 +2254,7 @@
     "guid": "e8d29482-9996-f3ed-a02b-f0c4219e8c5a"
   },
   {
-    "id": 818,
+    "id": 816,
     "slug": "spearhead",
     "type": 0,
     "description": "",
@@ -2451,7 +2452,7 @@
     "guid": "c54d0143-a59e-714a-6778-3ce5b96fb831"
   },
   {
-    "id": 513,
+    "id": 528,
     "slug": "fateforward",
     "type": 0,
     "description": "Combat-Flip: Both $players draw %2 cards",
@@ -2521,7 +2522,7 @@
     "guid": "76fbd7d3-ade6-5f68-6c2b-4814e6ca0a31"
   },
   {
-    "id": 817,
+    "id": 852,
     "slug": "shield2",
     "type": 0,
     "description": "Combat-Flip: Die",
@@ -2557,7 +2558,7 @@
     "guid": "311479cf-24a0-c52f-2268-d6a13c3b8272"
   },
   {
-    "id": 816,
+    "id": 836,
     "slug": "shield1",
     "type": 0,
     "description": "",
@@ -2592,7 +2593,7 @@
     "guid": "da5b6bf6-d80b-f451-0727-b9f59eaa4df4"
   },
   {
-    "id": 821,
+    "id": 838,
     "slug": "token-summoner4",
     "type": 0,
     "description": "When I die, $deploy @token0 in my place",
@@ -2658,7 +2659,7 @@
     "guid": "00badf76-e490-b5e6-9b31-a3986978ca5e"
   },
   {
-    "id": 519,
+    "id": 515,
     "slug": "man-of-honor",
     "type": 0,
     "description": "I cannot attack if there is no opposing enemy $unit",
@@ -2792,7 +2793,7 @@
     "guid": "59c4a343-fa1b-c70d-62cf-67fed3f9cd70"
   },
   {
-    "id": 532,
+    "id": 642,
     "slug": "eddy",
     "type": 0,
     "description": "When I am $deployed, if possible:\rIf @ed is in play, add @edd from your deck to your hand.\rIf @edd is in play, add @ed from your deck to your hand",
@@ -2824,7 +2825,7 @@
     "guid": "267d5d43-78de-5f28-8534-d6b17aec55b2"
   },
   {
-    "id": 531,
+    "id": 641,
     "slug": "edd",
     "type": 0,
     "description": "When I am $deployed, if possible:\rIf @ed is in play, add @eddy from your deck to your hand.\rIf @eddy is in play, add @ed from your deck to your hand",
@@ -2856,7 +2857,7 @@
     "guid": "2e474360-6292-7ef6-0c95-2b0c786aba0c"
   },
   {
-    "id": 530,
+    "id": 640,
     "slug": "ed",
     "type": 0,
     "description": "When I am $deployed, if possible:\rIf @edd is in play, add @eddy from your deck to your hand.\rIf @eddy is in play, add @edd from your deck to your hand",
@@ -2888,7 +2889,7 @@
     "guid": "f39e47ff-3ee3-e857-cd52-a375575da950"
   },
   {
-    "id": 515,
+    "id": 513,
     "slug": "berserker",
     "type": 0,
     "description": "I attack automatically on at the start of your turn.\nThis counts as a manual attack to my $action-exhaustion.",
@@ -2920,7 +2921,7 @@
     "guid": "880e607b-9629-b54e-5e35-2789092bac94"
   },
   {
-    "id": 517,
+    "id": 514,
     "slug": "mercenery",
     "type": 0,
     "description": "Take %1 direct damage every time I begin an attack.",
@@ -2952,7 +2953,7 @@
     "guid": "913c9737-eac3-206b-f5e5-a9ba7968fa0d"
   },
   {
-    "id": 518,
+    "id": 817,
     "slug": "wall",
     "type": 0,
     "description": "",
@@ -2987,7 +2988,7 @@
     "guid": "77f9e416-704f-41da-b8b2-8a04225a76f8"
   },
   {
-    "id": 516,
+    "id": 560,
     "slug": "kamikazejoe",
     "type": 0,
     "description": "I automatically attack when $deployed. I die after $combat.",
@@ -3022,7 +3023,7 @@
     "guid": "da1d63dc-c3a5-7c69-49c4-148a17a842e0"
   },
   {
-    "id": 514,
+    "id": 512,
     "slug": "harassingmia",
     "type": 0,
     "description": "I return to your hand at the end of your turn.",
