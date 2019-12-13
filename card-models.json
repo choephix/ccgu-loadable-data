@@ -97,7 +97,7 @@
     "guid": "f72d220f-ed76-72ac-648c-e1ef7b2744ec"
   },
   {
-    "id": 3266,
+    "id": 773,
     "slug": "--swapper2",
     "type": 0,
     "description": "I can relocate to an occupied creature field on your side, by swapping places with the creature there. This does not count as relocation for the other creature.",
@@ -226,7 +226,7 @@
     "guid": "6d824970-48a8-e2b8-573b-5875b0acdb58"
   },
   {
-    "id": 823,
+    "id": 824,
     "slug": "turn-end-1",
     "type": 1,
     "description": "Activate after opposite enemy unit attacks. \nEnd the enemy's turn immeadiately.",
@@ -860,7 +860,7 @@
     "guid": "ab5ea2a0-609c-2e95-d2ce-6b6d6675814d"
   },
   {
-    "id": 791,
+    "id": 792,
     "slug": "reversepiercing",
     "type": 1,
     "description": "opposite enemy unit has piercing\nuntil the end of the turn",
@@ -1304,7 +1304,7 @@
     "guid": "8cc4afa4-1276-5506-1c7d-aa1052afd931"
   },
   {
-    "id": 807,
+    "id": 808,
     "slug": "taunt",
     "type": 1,
     "description": "Activate when opposing enemy unit is deployed and force it to attack.",
@@ -1336,7 +1336,7 @@
     "guid": "bdaf0351-9f2b-859c-d4e7-7b35dcae8645"
   },
   {
-    "id": 777,
+    "id": 778,
     "slug": "indoctronate",
     "type": 1,
     "description": "Activate when an enemy unit is deployed and the opposing unit field is empty. Move the unit there.",
@@ -1434,7 +1434,7 @@
     "guid": "0150cb46-5ae5-249d-32b3-fe089acf39fd"
   },
   {
-    "id": 775,
+    "id": 776,
     "slug": "relokill",
     "type": 1,
     "description": "Activate when opposing enemy unit starts relocation. Kill it.",
@@ -1500,7 +1500,7 @@
     "guid": "40f5ad39-e42a-2ce3-da35-de0c94835e17"
   },
   {
-    "id": 825,
+    "id": 826,
     "slug": "trapbomb",
     "type": 1,
     "description": "Activate when opposing enemy $trap activates. Before the effect, destroy it and all units on my lane.",
@@ -1600,7 +1600,7 @@
     "guid": "0227eaaf-1a18-94d7-1430-4f9842b92784"
   },
   {
-    "id": 792,
+    "id": 793,
     "slug": "toxicmine",
     "type": 1,
     "description": "Activate when opposing enemy unit is deployed. Decrease its power by",
@@ -1965,7 +1965,7 @@
     "guid": "54906067-1fd6-f6bb-cd8d-4b03141e3efe"
   },
   {
-    "id": 776,
+    "id": 777,
     "slug": "killonattack",
     "type": 1,
     "description": "Activate after opposing enemy $unit finishes a direct attack. $Kill it.",
@@ -1997,7 +1997,7 @@
     "guid": "e649a142-6fe2-e540-60e4-3615f222370a"
   },
   {
-    "id": 820,
+    "id": 789,
     "slug": "free-jimmy",
     "type": 0,
     "description": "Activate when I am deployed. Raise your $AP by %1.",
@@ -2029,7 +2029,7 @@
     "guid": "d733ae6a-414f-023c-4992-e99fea422de6"
   },
   {
-    "id": 793,
+    "id": 794,
     "slug": "nosneaking",
     "type": 1,
     "description": "Activate when opposing enemy $unit is $deployed face-down. Flip it face-up, ignoring any flip-effects.",
@@ -2061,7 +2061,7 @@
     "guid": "c595fe6f-0a86-87e4-c498-425c4ee9d4cf"
   },
   {
-    "id": 809,
+    "id": 810,
     "slug": "punishtrap",
     "type": 1,
     "description": "Activate when opposing enemy $trap activates. Deal %3 damage to opponent.",
@@ -2093,7 +2093,7 @@
     "guid": "958fd1de-37dd-a09e-e656-33eb7efd4e00"
   },
   {
-    "id": 824,
+    "id": 825,
     "slug": "fury",
     "type": 1,
     "description": "Activate when you are dealt direct damage by the opposing enemy $unit.\nDestroy all enemy $units with $power lower than that damage.",
@@ -2991,7 +2991,7 @@
     "guid": "77f9e416-704f-41da-b8b2-8a04225a76f8"
   },
   {
-    "id": 822,
+    "id": 823,
     "slug": "kamikazejoe",
     "type": 0,
     "description": "I automatically attack when $deployed. I die after $combat.",
@@ -3930,7 +3930,7 @@
     "guid": "7d41f504-7d39-2206-5921-d540a8c3a7f6"
   },
   {
-    "id": 2821,
+    "id": 791,
     "slug": "all-out-johhny",
     "type": 0,
     "description": "At the end of your turn discard all cards in your hand",
@@ -10004,7 +10004,7 @@
     "guid": "88dcde4f-7256-261b-29d6-73b8dc2a9f62"
   },
   {
-    "id": 3273,
+    "id": 775,
     "slug": "--fatal-spirit",
     "type": 0,
     "description": "I cannot move.\nWhen this creature is killed by an enemy creature - destroy that enemy creature.",
@@ -10877,7 +10877,8 @@
     },
     "power": 8,
     "name": "All Out Joe",
-    "guid": "97475749-a4ef-2dbd-06fa-2ac18bad8350"
+    "guid": "97475749-a4ef-2dbd-06fa-2ac18bad8350",
+    "lore": "duplicate"
   },
   {
     "id": 3302,
@@ -15507,7 +15508,7 @@
     "guid": "3a418778-d88e-8579-2696-b38ebacadb12"
   },
   {
-    "id": 806,
+    "id": 807,
     "slug": "honorable-flappy-bird",
     "type": 0,
     "description": "I can both attack and move before exhausting, but I cannot attack while there is no opposing enemy creature.",
@@ -19672,7 +19673,7 @@
     "guid": "48bee335-b741-25b3-f373-0eebd88e8a84"
   },
   {
-    "id": 2820,
+    "id": 772,
     "slug": "spy-joe",
     "type": 0,
     "description": "While I am in play - opponent keeps the top card in his deck face-up at all times.",
