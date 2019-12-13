@@ -1,0 +1,147 @@
+---
+cardSections:
+- subsections:
+  - funcIndex: 0
+    header: ERROR CARD (id=0) // DEVELOPMENT/QA ONLY HELPER-CARDS // CARDS FOR MESSING
+      AROUND
+  - funcIndex: 0
+    header: All token cards
+  - funcIndex: 5
+    header: Unobtainable cards (used for special events and some AI decks) - 1/2
+  - funcIndex: 5
+    header: Unobtainable cards (used for special events and some AI decks) - 2/2
+- subsections:
+  - funcIndex: 10
+    header: Generic cards (no active special effects)
+  - funcIndex: 0
+    header: Super-Basic Set
+  - funcIndex: 0
+    header: "..."
+  - funcIndex: 0
+    header: "..."
+- subsections:
+  - funcIndex: 4
+    header: v2 Classics
+  - funcIndex: 0
+    header: "..."
+  - funcIndex: 0
+    header: "..."
+  - funcIndex: 0
+    header: "..."
+- subsections:
+  - funcIndex: 4
+    header: New, Imported
+  - funcIndex: 13
+    header: "..."
+  - funcIndex: 7
+    header: "..."
+  - funcIndex: 4
+    header: "(duplicates)"
+- subsections:
+  - funcIndex: 4
+    header: New shit ⚡
+  - funcIndex: 18
+    header: Normal <> Grand Alternatives
+  - funcIndex: 4
+    header: "..."
+  - funcIndex: 4
+    header: "..."
+- subsections:
+  - funcIndex: 16
+    header: "From OneNote \U0001F636"
+  - funcIndex: 10
+    header: "From OneNote \U0001F61D"
+  - funcIndex: 10
+    header: "..."
+  - funcIndex: 3
+    header: "..."
+- subsections:
+  - funcIndex: 16
+    header: "Conditional Power \U0001F53B\U0001F53A"
+  - funcIndex: 16
+    header: "Dynamic Power \U0001F53A\U0001F53B"
+  - funcIndex: 16
+    header: "Growers \U0001F53A⌚"
+  - funcIndex: 16
+    header: "Power-Up on deploy ⭐\U0001F53A"
+- subsections:
+  - funcIndex: 0
+    header: ''
+  - funcIndex: 17
+    header: "Evolvers \U0001F480⭐(\U0001F53A)"
+  - funcIndex: 15
+    header: "Ritual Type ⚡⭐(\U0001F53A)"
+  - funcIndex: 1
+    header: "..."
+- subsections:
+  - funcIndex: 0
+    header: "\U0001F3B1"
+  - funcIndex: 11
+    header: "⚡"
+  - funcIndex: 3
+    header: "⭐"
+  - funcIndex: 3
+    header: "\U0001F31E"
+- subsections:
+  - funcIndex: 8
+    header: "..."
+  - funcIndex: 8
+    header: "..."
+  - funcIndex: 3
+    header: "..."
+  - funcIndex: 15
+    header: "..."
+- subsections:
+  - funcIndex: 6
+    header: "..."
+  - funcIndex: 3
+    header: "..."
+  - funcIndex: 6
+    header: "..."
+  - funcIndex: 11
+    header: "..."
+- subsections:
+  - funcIndex: 5
+    header: Old Cards (v2 Google Documents) - 1/4
+  - funcIndex: 5
+    header: Old Cards (v2 Google Documents) - 2/4
+  - funcIndex: 5
+    header: Old Cards (v2 Google Documents) - 3/4
+  - funcIndex: 5
+    header: Old Cards (v2 Google Documents) - 4/4
+- subsections:
+  - funcIndex: 0
+    header: Old Card Ideas (AS3 v2) - 1/8
+  - funcIndex: 2
+    header: Old Card Ideas (AS3 v2) - 2/8
+  - funcIndex: 3
+    header: Old Card Ideas (AS3 v2) - 3/8
+  - funcIndex: 0
+    header: Old Card Ideas (AS3 v2) - 4/8
+- subsections:
+  - funcIndex: 0
+    header: Old Card Ideas (AS3 v2) - 5/8
+  - funcIndex: 0
+    header: Old Card Ideas (AS3 v2) - 6/8
+  - funcIndex: 0
+    header: Old Card Ideas (AS3 v2) - 7/8
+  - funcIndex: 0
+    header: Old Card Ideas (AS3 v2) - 8/8
+- subsections:
+  - funcIndex: 0
+    header: "..."
+  - funcIndex: 3
+    header: "..."
+  - funcIndex: 0
+    header: "..."
+  - funcIndex: 0
+    header: "..."
+- subsections:
+  - funcIndex: 0
+    header: "Just Fucking Trash \U0001F5D1"
+  - funcIndex: 0
+    header: Just non-functional ideas (maybe good names, or weird shit)
+  - funcIndex: 0
+    header: "..."
+  - funcIndex: 0
+    header: "..."
