@@ -189,6 +189,7 @@
     other creature.
   tags:
     - swapper
+    - sneak
   rarity: 0
   pdc: null
   status: 0
@@ -3542,9 +3543,13 @@
       ? perform
       ? allowedLots
     passive:
-      ? condition
-      ? perform
-      ? allowedLots
+      condition: |-
+        g.player.units.some(
+          u => u.slug==="wall" )
+      perform: |-
+        g.pass.raisePower(
+          g.fx.card.pass,10)
+      allowedLots: null
     deploy:
       ? condition
   name: El Variablo
