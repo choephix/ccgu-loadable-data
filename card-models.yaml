@@ -1,4 +1,4 @@
-- id: 854
+- id: 884
   slug: flipouch
   type: 0
   description: "Flip: Take 1 damage."
@@ -419,7 +419,7 @@
   power: 15
   name: dep
   guid: 6d824970-48a8-e2b8-573b-5875b0acdb58
-- id: 824
+- id: 840
   slug: turn-end-1
   type: 1
   description: |-
@@ -1031,7 +1031,7 @@
   power: 1
   name: ab5ea2a0
   guid: ab5ea2a0-609c-2e95-d2ce-6b6d6675814d
-- id: 792
+- id: 856
   slug: reversepiercing
   type: 1
   description: |-
@@ -1455,7 +1455,7 @@
   power: 0
   c: ""
   guid: 8cc4afa4-1276-5506-1c7d-aa1052afd931
-- id: 808
+- id: 857
   slug: taunt
   type: 1
   description: Activate when opposing enemy unit is deployed and force it to attack.
@@ -1485,7 +1485,7 @@
   power: 0
   c: ""
   guid: bdaf0351-9f2b-859c-d4e7-7b35dcae8645
-- id: 778
+- id: 872
   slug: indoctronate
   type: 1
   description: Activate when an enemy unit is deployed and the opposing unit field is
@@ -1577,7 +1577,7 @@
   power: 14
   c: ""
   guid: 0150cb46-5ae5-249d-32b3-fe089acf39fd
-- id: 776
+- id: 888
   slug: relokill
   type: 1
   description: Activate when opposing enemy unit starts relocation. Kill it.
@@ -1638,7 +1638,7 @@
   power: 0
   c: ""
   guid: 40f5ad39-e42a-2ce3-da35-de0c94835e17
-- id: 826
+- id: 842
   slug: trapbomb
   type: 1
   description: Activate when opposing enemy $trap activates. Before the effect, destroy it
@@ -1701,7 +1701,7 @@
   power: 0
   c: ""
   guid: 875977e2-407a-791e-f59c-e0846bdd7ddb
-- id: 811
+- id: 886
   slug: chickeng1
   type: 0
   description: "#Grand When opposing enemy unit attacks, I return to your hand. The attack
@@ -1733,7 +1733,7 @@
   power: 14
   c: ""
   guid: 0227eaaf-1a18-94d7-1430-4f9842b92784
-- id: 793
+- id: 873
   slug: toxicmine
   type: 1
   description: Activate when opposing enemy unit is deployed. Decrease its power by
@@ -2078,7 +2078,7 @@
   power: 15
   c: ""
   guid: 54906067-1fd6-f6bb-cd8d-4b03141e3efe
-- id: 777
+- id: 889
   slug: killonattack
   type: 1
   description: Activate after opposing enemy $unit finishes a direct attack. $Kill it.
@@ -2108,7 +2108,7 @@
   power: 0
   c: ""
   guid: e649a142-6fe2-e540-60e4-3615f222370a
-- id: 817
+- id: 824
   slug: free-jimmy
   type: 0
   description: Activate when I am deployed. Raise your $AP by %1.
@@ -2138,7 +2138,7 @@
   power: 2
   c: ""
   guid: d733ae6a-414f-023c-4992-e99fea422de6
-- id: 794
+- id: 874
   slug: nosneaking
   type: 1
   description: Activate when opposing enemy $unit is $deployed face-down. Flip it face-up,
@@ -2169,7 +2169,7 @@
   power: 0
   c: ""
   guid: c595fe6f-0a86-87e4-c498-425c4ee9d4cf
-- id: 810
+- id: 858
   slug: punishtrap
   type: 1
   description: Activate when opposing enemy $trap activates. Deal %3 damage to opponent.
@@ -2199,7 +2199,7 @@
   power: 0
   c: ""
   guid: 958fd1de-37dd-a09e-e656-33eb7efd4e00
-- id: 825
+- id: 841
   slug: fury
   type: 1
   description: |-
@@ -2497,7 +2497,7 @@
   power: 3
   c: ""
   guid: 390fa875-b747-ccf3-2b6e-d53911fb821c
-- id: 820
+- id: 808
   slug: joshua
   type: 0
   description: My $power is raised by %3 during your turn.
@@ -5927,7 +5927,7 @@
   power: 11
   name: Jake
   guid: cbc81463-7c38-69e6-dac0-574ebaae9c68
-- id: 3140
+- id: 3137
   slug: --cowardly-giant
   type: 0
   description: After I am attacked by enemy creature, if I'm still in play, I return to my
@@ -5958,7 +5958,7 @@
   power: 14
   name: Cowardly Giant
   guid: 7ee60017-2de4-aedb-8e04-e6fb78f80b97
-- id: 3141
+- id: 3142
   slug: --miller
   type: 0
   description: At the end of your opponent's turn deal damage to them equal to the number
@@ -6517,7 +6517,7 @@
   power: 13
   name: Impatient Goeff
   guid: 0497bb01-07c1-e3aa-edfb-a00713f59db5
-- id: 3142
+- id: 3193
   slug: --paulgrand2
   type: 0
   description: I do not suffer summon exhaustion.
@@ -6919,7 +6919,7 @@
   power: 0
   name: The Good King
   guid: b9984ff4-6298-fb4a-bb12-77dd94afc041
-- id: 3138
+- id: 3141
   slug: --piercing-george
   type: 0
   description: Every time I battle an enemy creature, the power difference is dealt as
@@ -7256,7 +7256,7 @@
   power: 7
   name: drawrager
   guid: a8af39b5-e951-e5a8-6bc0-0ad0a49b858e
-- id: 3169
+- id: 816
   slug: --grandegrand
   type: 0
   description: I can only be summoned by tributing another grand-creature
@@ -14945,7 +14945,7 @@
   power: 0
   name: bomb2
   guid: bb757a5a-ddfa-73e6-9da0-0526faf78c3e
-- id: 3136
+- id: 3140
   slug: --berserker
   type: 0
   description: I will attack automatically at the begining of your turn, but it will
@@ -15071,7 +15071,7 @@
   power: 0
   name: No-Flippers!
   guid: 3a418778-d88e-8579-2696-b38ebacadb12
-- id: 816
+- id: 883
   slug: honorable-flappy-bird
   type: 0
   description: I can both attack and move before exhausting, but I cannot attack while
@@ -16170,7 +16170,7 @@
   power: 2
   name: Forbidden Spirit 3
   guid: 55ef873d-2099-ec7c-c46d-cd262688d11e
-- id: 790
+- id: 788
   slug: stunner
   type: 0
   description: |-
@@ -16184,9 +16184,21 @@
   priority: 0
   effects:
     flip:
-      ? manner
-      ? condition
-      ? perform
+      manner: combat
+      condition: null
+      perform: "let me = g.fx.card\r
+
+        let foe = g.get.opposingUnit( me )\r
+
+        let tag = Tag.NOATTACK\r
+
+        if ( ! foe ) return\r
+
+        g.op.addTempFx( foe, \r
+
+        \  gt => gt.pass.addTag( foe, tag ),\r
+
+        \  gt => gt.event.type === \"TurnEnd\" )"
     active:
       ? eventName
       ? eventStatus
@@ -17396,7 +17408,7 @@
   power: 9
   name: --
   guid: 67c0bf8c-bb8d-8f86-08d0-f51643d36767
-- id: 3193
+- id: 3136
   slug: --grandgrandpaul
   type: 0
   description: |-
@@ -17795,7 +17807,7 @@
   power: 0
   name: Crowd-Powered
   guid: 35bf3d89-85d3-2fe2-71bd-de40ff122c97
-- id: 3137
+- id: 3138
   slug: --mario
   type: 0
   description: After I attack if possible I relocate to the field on the right, else if
