@@ -1,3 +1,39 @@
+- slug: kamikazejoe
+  guid: da1d63dc-c3a5-7c69-49c4-148a17a842e0
+  id: 773
+  type: 0
+  description: I die after attacking
+  lore: ""
+  notes: ""
+  tags:
+    &a1
+    - rush
+    - notribute
+  rarity: 0
+  status: 3
+  priority: 8
+  effects:
+    flip:
+      ? manner
+      ? condition
+      ? perform
+    active:
+      eventName: UnitAttack
+      eventStatus: ended
+      condition: "g.event.card === g.fx.card "
+      perform: g.op.kill( g.fx.card )
+      allowedLots:
+        - unit-field
+    passive:
+      ? condition
+      ? perform
+      ? allowedLots
+    deploy:
+      ? condition
+  pdc: -1
+  name: kamikazejoe
+  power: 2
+  c: ""
 - id: 885
   slug: --unbreakable--2
   type: 0
@@ -6,7 +42,7 @@
 
     At the beginning of your turn, if I am the topmost card in your grave, i return to your hand.
   tags:
-    &a1
+    &a2
     - sneak
   rarity: 0
   pdc: null
@@ -2511,10 +2547,10 @@
   power: 4
   c: ""
   guid: 175c9ca8-d248-7609-c6af-0c09f2094056
-- id: 784
+- id: 775
   slug: fragmine
   type: 0
-  description: I die after $combat
+  description: I die after combat
   tags:
     - sneak
     - noattack
@@ -2529,11 +2565,14 @@
       ? condition
       ? perform
     active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
+      eventName: UnitAttackCombat
+      eventStatus: ended
+      condition: |-
+        g.event.attacker === g.fx.card || 
+        g.event.defender === g.fx.card
+      perform: g.op.kill( g.fx.card )
+      allowedLots:
+        - unit-field
     passive:
       ? condition
       ? perform
@@ -2893,7 +2932,7 @@
   power: 4
   c: ""
   guid: f39e47ff-3ee3-e857-cd52-a375575da950
-- id: 770
+- id: 771
   slug: berserker
   type: 0
   description: |-
@@ -2910,11 +2949,11 @@
       ? condition
       ? perform
     active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
+      eventName: TurnBegin
+      eventStatus: ended
+      condition: g.event.player === g.fx.card.controller
+      perform: g.op.forceManualAttack( g.fx.card )
+      allowedLots: null
     passive:
       ? condition
       ? perform
@@ -2925,10 +2964,10 @@
   power: 6
   c: ""
   guid: 880e607b-9629-b54e-5e35-2789092bac94
-- id: 817
+- id: 774
   slug: mercenery
   type: 0
-  description: Take %1 direct damage every time I begin an attack.
+  description: Take 1 direct damage every time I begin an attack.
   tags: []
   rarity: 0
   pdc: -1
@@ -2940,11 +2979,12 @@
       ? condition
       ? perform
     active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
+      eventName: UnitAttack
+      eventStatus: began
+      condition: "g.event.card === g.fx.card "
+      perform: g.op.damage( g.player, 1 )
+      allowedLots:
+        - unit-field
     passive:
       ? condition
       ? perform
@@ -2987,13 +3027,11 @@
   power: 7
   c: ""
   guid: 77f9e416-704f-41da-b8b2-8a04225a76f8
-- id: 807
-  slug: kamikazejoe
+- id: 887
+  slug: kamikazejoe-original
   type: 0
   description: I automatically attack when $deployed. I die after $combat.
-  tags:
-    - rush
-    - notribute
+  tags: *a1
   rarity: 0
   pdc: -1
   status: 3
@@ -3019,7 +3057,7 @@
   power: 2
   c: ""
   guid: da1d63dc-c3a5-7c69-49c4-148a17a842e0
-- id: 816
+- id: 772
   slug: harassingmia
   type: 0
   description: I return to your hand at the end of your turn.
@@ -3036,11 +3074,12 @@
       ? condition
       ? perform
     active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
+      eventName: TurnEnd
+      eventStatus: ended
+      condition: "true"
+      perform: g.op.addToHand( g.fx.card, g.player )
+      allowedLots:
+        - unit-field
     passive:
       ? condition
       ? perform
@@ -9685,7 +9724,7 @@
   power: 6
   name: Blood Mercenary
   guid: 88dcde4f-7256-261b-29d6-73b8dc2a9f62
-- id: 775
+- id: 784
   slug: fatal-spirit
   type: 0
   description: >-
@@ -14460,7 +14499,7 @@
   power: 2
   name: Trapster
   guid: 578ce449-ef5c-aa32-a11d-a524e49e024b
-- id: 774
+- id: 807
   slug: loneshield
   type: 0
   description: All combat damage against me becomes zero if there are no other friendly
@@ -14713,14 +14752,14 @@
   power: 0
   name: Fateweaver
   guid: cdcd74a9-158b-7117-a9c4-4732b4f7cc14
-- id: 771
+- id: 770
   slug: unkillable-barny
   type: 0
   description: >-
     IN-GRAVE
 
     At the beginning of your turn, if I am the topmost card in your grave, i return to your hand.
-  tags: *a1
+  tags: *a2
   rarity: 0
   pdc: null
   status: 0
@@ -14972,7 +15011,7 @@
   power: 0
   name: No-Flippers!
   guid: 3a418778-d88e-8579-2696-b38ebacadb12
-- id: 773
+- id: 817
   slug: honorable-flappy-bird
   type: 0
   description: I can both attack and move before exhausting, but I cannot attack while
@@ -18999,7 +19038,7 @@
   power: 6
   name: linko-2
   guid: 48bee335-b741-25b3-f373-0eebd88e8a84
-- id: 772
+- id: 816
   slug: spy-joe
   type: 0
   description: While I am in play - opponent keeps the top card in his deck face-up at all
