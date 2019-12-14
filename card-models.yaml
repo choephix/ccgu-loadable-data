@@ -57,7 +57,7 @@
   name: Flashforward
   power: 5
 - id: 820
-  slug: --swapper2
+  slug: swapper
   type: 0
   description: ""
   tags:
@@ -119,7 +119,7 @@
   name: shisno
   lore: "[n.] Skunk's poo's poo"
 - id: 819
-  slug: --flappy-bird
+  slug: flappy-bird
   type: 0
   description: ""
   tags:
@@ -181,12 +181,10 @@
   power: 2
   name: Double Attacker
   guid: f72d220f-ed76-72ac-648c-e1ef7b2744ec
-- id: 773
-  slug: --swapper2-0.1l5y24g7o5x0.god2nj3f1jp
+- id: 821
+  slug: flip-swapper
   type: 0
-  description: I can relocate to an occupied creature field on your side, by swapping
-    places with the creature there. This does not count as relocation for the
-    other creature.
+  description: ""
   tags:
     - swapper
     - sneak
@@ -214,6 +212,10 @@
   power: 3
   name: The Swapper
   guid: 2c064020-07e5-d2da-ed69-734025104d9f
+  lore: >
+    I can relocate to an occupied creature field on your side, by swapping
+    places with the creature there. This does not count as relocation for the
+    other creature.
 - id: 572
   slug: bosstrap
   type: 1
@@ -611,8 +613,8 @@
   power: 0
   name: b34fccee
   guid: b34fccee-8660-6ca6-dbf1-5f5573af96d8
-- id: 915
-  slug: Piercer7
+- id: 823
+  slug: piercer7
   type: 0
   description: ""
   tags:
@@ -2929,7 +2931,7 @@
   power: 7
   c: ""
   guid: 77f9e416-704f-41da-b8b2-8a04225a76f8
-- id: 823
+- id: 807
   slug: kamikazejoe
   type: 0
   description: I automatically attack when $deployed. I die after $combat.
@@ -9628,7 +9630,7 @@
   name: Blood Mercenary
   guid: 88dcde4f-7256-261b-29d6-73b8dc2a9f62
 - id: 775
-  slug: --fatal-spirit
+  slug: fatal-spirit
   type: 0
   description: >-
     I cannot move.
@@ -10600,7 +10602,7 @@
   name: Trap-Powered
   guid: 2f2f474a-e268-7bfb-81a2-f69188d45516
 - id: 806
-  slug: --producer
+  slug: producer
   type: 0
   description: My power is raised by 1 for each card in your hand
   tags: []
@@ -14403,7 +14405,7 @@
   name: Trapster
   guid: 578ce449-ef5c-aa32-a11d-a524e49e024b
 - id: 774
-  slug: --loneshield
+  slug: loneshield
   type: 0
   description: All combat damage against me becomes zero if there are no other friendly
     creatures.
@@ -14910,7 +14912,7 @@
   power: 0
   name: No-Flippers!
   guid: 3a418778-d88e-8579-2696-b38ebacadb12
-- id: 807
+- id: 773
   slug: honorable-flappy-bird
   type: 0
   description: I can both attack and move before exhausting, but I cannot attack while
@@ -15729,7 +15731,7 @@
   name: Jack
   guid: 69e94d75-3b59-c2c5-3551-5b0e401031ee
 - id: 790
-  slug: --nona
+  slug: nona
   type: 0
   description: |-
     Safe-Flip:
