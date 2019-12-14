@@ -2758,7 +2758,7 @@
   power: 14
   c: ""
   guid: 00badf76-e490-b5e6-9b31-a3986978ca5e
-- id: 819
+- id: 803
   slug: man-of-honor
   type: 0
   description: I cannot attack if there is no opposing enemy $unit
@@ -2779,9 +2779,10 @@
       ? perform
       ? allowedLots
     passive:
-      ? condition
-      ? perform
-      ? allowedLots
+      condition: "! g.get.opposingUnit( g.fx.card )"
+      perform: g.pass.addTag( g.fx.card, Tag.NOATTACK )
+      allowedLots:
+        - unit-field
     deploy:
       ? condition
   name: Man of Honor
