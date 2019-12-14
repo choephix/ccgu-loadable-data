@@ -1875,7 +1875,7 @@
   power: 0
   c: ""
   guid: e3b41aa1-0f98-ec62-7c2b-2f8414025180
-- id: 821
+- id: 825
   slug: autoatk
   type: 0
   description: I perform a free attack when deployed
