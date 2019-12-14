@@ -1,17 +1,15 @@
-- slug: unkillable-barny--222
-  guid: daf9dcb2-0b3e-772b-1538-1d88ab4dafcf
-  id: 885
+- id: 885
+  slug: --unbreakable--2
   type: 0
   description: >-
     IN-GRAVE
 
     At the beginning of your turn, if I am the topmost card in your grave, i return to your hand.
-  lore: ""
-  notes: ""
   tags:
     &a1
     - sneak
   rarity: 0
+  pdc: null
   status: 0
   priority: 0
   effects:
@@ -31,7 +29,9 @@
       ? allowedLots
     deploy:
       ? condition
-  pdc: null
+  guid: daf9dcb2-0b3e-772b-1538-1d88ab4dafcf
+  lore: ""
+  notes: ""
   power: 1
   name: Unkillable Barny
 - id: 830
@@ -14713,7 +14713,7 @@
       ? condition
       ? perform
     active:
-      eventName: null
+      eventName: u
       eventStatus: null
       condition: ""
       perform: ""
