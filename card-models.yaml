@@ -2011,7 +2011,7 @@
   power: 2
   c: ""
   guid: 1edaafe8-aa09-6eb3-cf35-778f72fb0d7a
-- id: 805
+- id: 809
   slug: needsmotivation
   type: 0
   description: Increase my $power by %2 for every $friendly adjacent $unit.
