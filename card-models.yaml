@@ -1,4 +1,4 @@
-- id: 884
+- id: 868
   slug: flipouch
   type: 0
   description: "Flip: Take 1 damage."
@@ -15,7 +15,7 @@
     flip:
       manner: combat
       condition: null
-      perform: ""
+      perform: g.op.damage( g.player, 1 )
     active:
       ? eventName
       ? eventStatus
