@@ -56,7 +56,7 @@
   guid: 44372e4e-629c-387c-6162-e52dccc7029c
   name: Flashforward
   power: 5
-- id: 820
+- id: 836
   slug: swapper
   type: 0
   description: ""
@@ -118,7 +118,7 @@
   guid: eed4c9e2-1f79-01f7-1113-d2b4772c6173
   name: shisno
   lore: "[n.] Skunk's poo's poo"
-- id: 819
+- id: 835
   slug: flappy-bird
   type: 0
   description: ""
@@ -181,7 +181,7 @@
   power: 2
   name: Double Attacker
   guid: f72d220f-ed76-72ac-648c-e1ef7b2744ec
-- id: 821
+- id: 837
   slug: flip-swapper
   type: 0
   description: ""
@@ -276,7 +276,7 @@
   name: sensho
   guid: 1b791f5c-5beb-3c99-cf5d-66c92260e761
   lore: (duplicate of man-of-honor)
-- id: 931
+- id: 949
   slug: dep
   type: 0
   description: Every time the enemy takes damage, I lose power equal to that damage
@@ -337,7 +337,7 @@
   power: 0
   name: turn-end-1
   guid: 98bd4313-2b41-243a-d422-9c5886f115ee
-- id: 886
+- id: 918
   slug: cocky-hermitcrab
   type: 0
   description: >-
@@ -371,7 +371,7 @@
   power: 9
   name: 176de02e
   guid: 176de02e-08e7-baa2-da9f-74a6d673276b
-- id: 854
+- id: 902
   slug: wheezy-mussel
   type: 1
   description: When opposing grand unit is deployed, while you have no unit on your side -
@@ -401,7 +401,7 @@
   power: 0
   name: mindctrl-345
   guid: 7f7d2a0e-8d12-1cb1-b8fb-8d270595d32f
-- id: 885
+- id: 917
   slug: dxm-traphole-open
   type: 1
   description: |-
@@ -432,7 +432,7 @@
   power: 0
   name: dxm-traphole-open
   guid: fdb6ca44-b032-8732-ae4f-5e1a4c4e330f
-- id: 869
+- id: 916
   slug: dxm-traphole
   type: 1
   description: When opp unit with power higher or equal to your lp attacks - destroy it
@@ -554,7 +554,7 @@
   power: 0
   name: da8d5fe9
   guid: da8d5fe9-e1e5-9a73-7840-afeae0c60da6
-- id: 912
+- id: 945
   slug: gluey-cuckoo
   type: 0
   description: "Combat-flip: if no allies - kill opposing unit"
@@ -584,7 +584,7 @@
   power: 0
   name: 39f7caae
   guid: 39f7caae-fc55-186f-bac5-eae46fbde29f
-- id: 913
+- id: 948
   slug: giant-woodcock
   type: 0
   description: While there are no allies - pwr is 13
@@ -613,7 +613,7 @@
   power: 0
   name: b34fccee
   guid: b34fccee-8660-6ca6-dbf1-5f5573af96d8
-- id: 823
+- id: 839
   slug: piercer7
   type: 0
   description: ""
@@ -644,7 +644,7 @@
   power: 7
   name: Piercer7
   guid: ed636295-2f0d-3889-b427-8e603cfa23b3
-- id: 899
+- id: 950
   slug: obese-kiwi
   type: 0
   description: At enemy tyrn start - destroy opposite face-up trap.
@@ -675,7 +675,7 @@
   power: 9
   name: 92220cfe
   guid: 92220cfe-7278-4ad5-9ab5-0eb8f6cf504e
-- id: 867
+- id: 915
   slug: Poweruptrib
   type: 1
   description: >-
@@ -709,7 +709,7 @@
   power: 0
   name: Poweruptrib
   guid: bad44863-b607-86ee-c27e-45ee15304210
-- id: 849
+- id: 904
   slug: irradiated-pika
   type: 0
   description: At the start of your opponent's turn - opposite enemy unit loses 3 power
@@ -738,7 +738,7 @@
   power: 1
   name: 8cb52eaa
   guid: 8cb52eaa-2cfa-bc38-c707-68ee01fee688
-- id: 848
+- id: 905
   slug: powerdown-1
   type: 0
   description: On deploy - opposite enemy unit loses 6 power
@@ -768,7 +768,7 @@
   power: 5
   name: powerdown-1
   guid: e3408a9d-23a7-7c8e-a252-7aa5cc2a32c7
-- id: 882
+- id: 930
   slug: interlay
   type: 1
   description: After your unit is destroyed, deploy the first unit found in the enemy
@@ -798,7 +798,7 @@
   power: 0
   name: d168768c
   guid: d168768c-2363-2cf9-e031-231ae5b6f749
-- id: 866
+- id: 914
   slug: cottony-verdin
   type: 1
   description: After direct attack against you on this lane finishes, deploy a token (5
@@ -828,7 +828,7 @@
   power: 0
   name: fb36dcc2
   guid: fb36dcc2-cd2e-5dce-5124-dd660a1afded
-- id: 865
+- id: 913
   slug: unliterary-equestrian
   type: 1
   description: If possible, after direct attack against you on this lane finishes, deploy a
@@ -858,7 +858,7 @@
   power: 0
   name: a416dbf8
   guid: a416dbf8-fffd-011a-5cc7-806d3ccfb198
-- id: 881
+- id: 929
   slug: fasten
   type: 1
   description: After direct attack against you on this lane finishes, deploy the first unit
@@ -888,7 +888,7 @@
   power: 0
   name: e6e083d3
   guid: e6e083d3-006b-d1ae-ef2a-6294e4f9d7e2
-- id: 896
+- id: 946
   slug: repairable-mongrel
   type: 0
   description: "combat-flip: all ally units gain 2 power"
@@ -949,7 +949,7 @@
   power: 6
   name: reversepiercing
   guid: 636a38f9-f6a2-3f05-aed0-303e3501a308
-- id: 880
+- id: 928
   slug: invite
   type: 1
   description: >-
@@ -984,7 +984,7 @@
   power: 0
   name: d6d24108
   guid: d6d24108-f70f-2dd5-dc89-f7f248b7bfe0
-- id: 833
+- id: 897
   slug: abased-nilgai
   type: 0
   description: adjecent units have +3 power
@@ -1013,7 +1013,7 @@
   power: 0
   name: 54a4abd9
   guid: 54a4abd9-1376-79a1-5c5a-fa48680b95a6
-- id: 832
+- id: 896
   slug: buoyant-pewee
   type: 0
   description: adjecent units have +2 power
@@ -1042,7 +1042,7 @@
   power: 2
   name: 5ca29706
   guid: 5ca29706-f35f-bc47-78fc-d1400ff9760f
-- id: 864
+- id: 912
   slug: pennywise-mussel
   type: 1
   description: when opp unit atks - set its power to exactly 10
@@ -1403,7 +1403,7 @@
   power: 0
   c: ""
   guid: ecf87384-4b2b-ceed-ffb1-c510eea1a14e
-- id: 834
+- id: 898
   slug: wandering-kyle
   type: 0
   description: "On death: enemy is healed for %4 hp"
@@ -1433,7 +1433,7 @@
   power: 7
   c: ""
   guid: 74173d35-8c68-61f7-e9e4-ccbd3a80479b
-- id: 859
+- id: 923
   slug: effaceable-kissingbug
   type: 0
   description: "#Grand On death: enemy is healed for %10 hp"
@@ -1494,7 +1494,7 @@
   power: 0
   c: ""
   guid: da48f14f-3dc3-a7ee-9ba9-647e14ab1c4b
-- id: 873
+- id: 937
   slug: lockhead
   type: 0
   description: "#Grand The opposing enemy field is locked while I am in play"
@@ -1556,7 +1556,7 @@
   power: 0
   c: ""
   guid: 9d559a67-558f-c648-b17c-a6c6da4dae1d
-- id: 889
+- id: 953
   slug: traplode
   type: 0
   description: "#Grand Before any trap on either side activates - destroy it. If so, I die
@@ -1711,7 +1711,7 @@
   power: 0
   c: ""
   guid: 76cc8056-ce49-b965-46dd-0cb2729930b5
-- id: 855
+- id: 903
   slug: quickgiver-g
   type: 0
   description: >-
@@ -1745,7 +1745,7 @@
   power: 7
   c: ""
   guid: 45b03f7f-e7a8-9b14-9975-fd32ea1699f2
-- id: 839
+- id: 900
   slug: quickgiver-1
   type: 0
   description: >-
@@ -1808,7 +1808,7 @@
   power: 3
   c: ""
   guid: 08d74cf3-5b04-b6f5-e4cc-014bacdbd687
-- id: 818
+- id: 834
   slug: eggshell
   type: 0
   description: ""
@@ -1840,7 +1840,7 @@
   c: ""
   guid: c7bfa796-fdc8-b69e-659d-d2d29bfb0824
   lore: Use me as surprise tribute.
-- id: 874
+- id: 938
   slug: lonely-golem
   type: 0
   description: "#Grand The moment there are no other $friendly $units - I $die."
@@ -1871,7 +1871,7 @@
   power: 13
   c: ""
   guid: 3ec56f92-b1d2-8cf7-0e79-3cea3fbdada3
-- id: 858
+- id: 922
   slug: compromiser1
   type: 0
   description: "#Grand I do not need a $tribute to be $deployed if there are no $friendly
@@ -1903,7 +1903,7 @@
   power: 8
   c: ""
   guid: 252316fc-4e93-ae68-6206-f37455c84f1d
-- id: 843
+- id: 907
   slug: epic-tortoise
   type: 0
   description: "#Grand After I $attack, I am $asleep until your next turn-end."
@@ -1934,7 +1934,7 @@
   power: 14
   c: ""
   guid: 9e0d7038-111c-a964-291c-c92bd4a68c4e
-- id: 842
+- id: 906
   slug: sloth-wyrm
   type: 0
   description: "#Grand I am $asleep for three turns after being deployed."
@@ -2118,7 +2118,7 @@
   power: 0
   c: ""
   guid: a9169ca5-1e24-f72f-d437-270bbfcd594a
-- id: 875
+- id: 939
   slug: cowardly-giant
   type: 0
   description: "#Grand After I am attacked by enemy $unit, if I'm still in play, I return
@@ -2241,7 +2241,7 @@
   power: 2
   c: ""
   guid: e8d29482-9996-f3ed-a02b-f0c4219e8c5a
-- id: 816
+- id: 832
   slug: spearhead
   type: 0
   description: ""
@@ -2272,7 +2272,7 @@
   power: 1
   c: ""
   guid: 1dceec66-3bae-a21b-2d2c-dac0160cbc43
-- id: 891
+- id: 955
   slug: honoraro
   type: 0
   description: "#Grand Adjacent friendly $units's power is raised by %2."
@@ -2393,7 +2393,7 @@
   power: 3
   c: ""
   guid: a90dcc70-cc81-5e0b-58db-d1141ab907d0
-- id: 890
+- id: 954
   slug: cardfactory1
   type: 0
   description: "#Grand Draw a card at the end of your turn"
@@ -2488,7 +2488,7 @@
   power: 10
   c: ""
   guid: 76fbd7d3-ade6-5f68-6c2b-4814e6ca0a31
-- id: 852
+- id: 919
   slug: shield2
   type: 0
   description: "Combat-Flip: Die"
@@ -2521,7 +2521,7 @@
   power: 7
   c: ""
   guid: 311479cf-24a0-c52f-2268-d6a13c3b8272
-- id: 836
+- id: 880
   slug: shield1
   type: 0
   description: ""
@@ -2553,7 +2553,7 @@
   power: 5
   c: ""
   guid: da5b6bf6-d80b-f451-0727-b9f59eaa4df4
-- id: 838
+- id: 901
   slug: token-summoner4
   type: 0
   description: When I die, $deploy @token0 in my place
@@ -2899,7 +2899,7 @@
   power: 6
   c: ""
   guid: 913c9737-eac3-206b-f5e5-a9ba7968fa0d
-- id: 817
+- id: 833
   slug: wall
   type: 0
   description: ""
@@ -3863,7 +3863,7 @@
   power: 3
   name: handy-mike
   guid: 989b2337-9bee-8897-7556-f12e091d7eb3
-- id: 835
+- id: 899
   slug: handy-tina
   type: 0
   description: When I am summoned, both players draw a card
