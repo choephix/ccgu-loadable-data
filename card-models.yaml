@@ -7282,7 +7282,9 @@
       ? perform
       ? allowedLots
     deploy:
-      ? condition
+      condition: |-
+        let tribute = lot_to.topCard
+        tribute && ! tribute.hasTag( Tag.GRAND )
   power: 13
   name: GrandeGrand
   guid: fac22f2a-3ea6-f226-48d7-9fabc80c0163
