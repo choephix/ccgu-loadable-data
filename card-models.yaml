@@ -2108,7 +2108,7 @@
   power: 0
   c: ""
   guid: e649a142-6fe2-e540-60e4-3615f222370a
-- id: 789
+- id: 803
   slug: free-jimmy
   type: 0
   description: Activate when I am deployed. Raise your $AP by %1.
@@ -2263,10 +2263,10 @@
   power: 14
   c: ""
   guid: c4e29441-a2d6-5d2e-e90d-67c1d4b90213
-- id: 803
+- id: 789
   slug: antisocial-knight
   type: 0
-  description: My power is decreased by %3 for every other friendly $unit $in-play.
+  description: My power is decreased by 3 for every other friendly $unit $in-play.
   tags: []
   rarity: 0
   pdc: -1
@@ -2284,9 +2284,16 @@
       ? perform
       ? allowedLots
     passive:
-      ? condition
-      ? perform
-      ? allowedLots
+      condition: "true"
+      perform: |-
+        let me = g.fx.card
+        let units = g.player.units
+        let allies = units.filter( c => c !== me )
+        g.pass.lowerPower( me, allies.length * 3 )
+      allowedLots:
+        - unit-field
+        - hand
+        - grave
     deploy:
       ? condition
   name: Antisocial Knight
@@ -2490,7 +2497,7 @@
   power: 3
   c: ""
   guid: 390fa875-b747-ccf3-2b6e-d53911fb821c
-- id: 788
+- id: 820
   slug: joshua
   type: 0
   description: My $power is raised by %3 during your turn.
