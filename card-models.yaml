@@ -1455,7 +1455,7 @@
   power: 0
   c: ""
   guid: 8cc4afa4-1276-5506-1c7d-aa1052afd931
-- id: 857
+- id: 818
   slug: taunt
   type: 1
   description: Activate when opposing enemy unit is deployed and force it to attack.
@@ -1470,11 +1470,15 @@
       ? condition
       ? perform
     active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: |-
+        let me = g.fx.card
+        let target = g.event.card
+        g.faq.isOpposingLane( me, target )
+          && target.isFaceUp
+      perform: g.op.forceAttack( g.event.card )
+      allowedLots: null
     passive:
       ? condition
       ? perform
@@ -1800,7 +1804,7 @@
   power: 4
   c: ""
   guid: 9d9d8250-25d2-e17b-5fc6-7dc75993e29c
-- id: 783
+- id: 778
   slug: quickgiver-0
   type: 1
   description: "#Persistent. Activate when $enemy's turn begins. When you deploy a unit on
@@ -3008,7 +3012,7 @@
       eventName: TurnBegin
       eventStatus: ended
       condition: g.event.player === g.fx.card.controller
-      perform: g.op.forceManualAttack( g.fx.card )
+      perform: g.op.forceAttack( g.fx.card )
       allowedLots:
         - unit-field
     passive:
