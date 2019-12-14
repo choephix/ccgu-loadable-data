@@ -1733,7 +1733,7 @@
   power: 14
   c: ""
   guid: 0227eaaf-1a18-94d7-1430-4f9842b92784
-- id: 873
+- id: 817
   slug: toxicmine
   type: 1
   description: Activate when opposing enemy unit is deployed. Decrease its power by
@@ -1748,11 +1748,18 @@
       ? condition
       ? perform
     active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: |-
+        let me = g.fx.card
+        let target = g.event.card
+        g.faq.isOpposingLane( me, target )
+          && target.isFaceUp
+      perform: |-
+        let target = g.event.card
+        g.op.addTempFx( target, tg => 
+          tg.pass.lowerPower( target, 5 ) )
+      allowedLots: null
     passive:
       ? condition
       ? perform
