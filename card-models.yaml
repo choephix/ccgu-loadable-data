@@ -150,7 +150,7 @@
   guid: a9fb5b3c-0c8a-a10c-6a8c-8ed91952bc46
   lore: |
     Can both attack and move before exhausting.
-- id: 820
+- id: 816
   slug: doubleattacker
   type: 0
   description: After I finish an attack, if I am still in play I automatically perform
