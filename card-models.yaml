@@ -187,7 +187,7 @@
   guid: a9fb5b3c-0c8a-a10c-6a8c-8ed91952bc46
   lore: |
     Can both attack and move before exhausting.
-- id: 816
+- id: 768
   slug: doubleattacker
   type: 0
   description: After I finish an attack, if I am still in play I automatically perform
@@ -2346,7 +2346,7 @@
   power: 6
   c: ""
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
-- id: 801
+- id: 769
   slug: nimbleguard
   type: 0
   description: When an enemy $unit is $deployed, if possible, move me in front of it.
@@ -2361,11 +2361,24 @@
       ? condition
       ? perform
     active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: "g.event.card.controller !== \r
+
+        \  g.fx.card.controller && \r
+
+        g.event.card.lot.index !== \r
+
+        \  g.fx.card.lot.index && \r
+
+        g.faq.canRelocateTo( g.fx.card, g.get.opposingUnitField(
+        g.event.card ) )"
+      perform: |-
+        let me = g.event.card
+        let field = g.get.opposingUnitField( me )
+        g.op.forceRelocate( me, field )
+      allowedLots:
+        - unit-field
     passive:
       ? condition
       ? perform
@@ -2658,7 +2671,7 @@
   power: 14
   c: ""
   guid: 00badf76-e490-b5e6-9b31-a3986978ca5e
-- id: 771
+- id: 819
   slug: man-of-honor
   type: 0
   description: I cannot attack if there is no opposing enemy $unit
@@ -2880,7 +2893,7 @@
   power: 4
   c: ""
   guid: f39e47ff-3ee3-e857-cd52-a375575da950
-- id: 769
+- id: 770
   slug: berserker
   type: 0
   description: |-
@@ -2912,7 +2925,7 @@
   power: 6
   c: ""
   guid: 880e607b-9629-b54e-5e35-2789092bac94
-- id: 770
+- id: 817
   slug: mercenery
   type: 0
   description: Take %1 direct damage every time I begin an attack.
@@ -3006,7 +3019,7 @@
   power: 2
   c: ""
   guid: da1d63dc-c3a5-7c69-49c4-148a17a842e0
-- id: 768
+- id: 816
   slug: harassingmia
   type: 0
   description: I return to your hand at the end of your turn.
@@ -14700,7 +14713,7 @@
   power: 0
   name: Fateweaver
   guid: cdcd74a9-158b-7117-a9c4-4732b4f7cc14
-- id: 787
+- id: 771
   slug: unkillable-barny
   type: 0
   description: >-
@@ -14718,11 +14731,16 @@
       ? condition
       ? perform
     active:
-      eventName: u
-      eventStatus: null
-      condition: ""
-      perform: ""
-      allowedLots: null
+      eventName: TurnBegin
+      eventStatus: ended
+      condition: |-
+        g.fx.card.controller.grave.topCard === 
+          g.fx.card && 
+        g.fx.card.controller === 
+          g.get.currentPlayer
+      perform: g.op.addToHand( g.fx.card, g.player )
+      allowedLots:
+        - grave
     passive:
       ? condition
       ? perform
@@ -16049,7 +16067,7 @@
   power: 2
   name: Forbidden Spirit 3
   guid: 55ef873d-2099-ec7c-c46d-cd262688d11e
-- id: 817
+- id: 801
   slug: stunner
   type: 0
   description: |-
