@@ -1,15 +1,13 @@
-- slug: kamikazejoe
-  guid: da1d63dc-c3a5-7c69-49c4-148a17a842e0
-  id: 773
+- id: 773
+  slug: kamikazejoe
   type: 0
   description: I die after attacking
-  lore: ""
-  notes: ""
   tags:
     &a1
     - rush
     - notribute
   rarity: 0
+  pdc: -1
   status: 3
   priority: 8
   effects:
@@ -30,7 +28,9 @@
       ? allowedLots
     deploy:
       ? condition
-  pdc: -1
+  guid: da1d63dc-c3a5-7c69-49c4-148a17a842e0
+  lore: ""
+  notes: ""
   name: kamikazejoe
   power: 2
   c: ""
@@ -2538,9 +2538,9 @@
       ? perform
       ? allowedLots
     passive:
-      ? condition
-      ? perform
-      ? allowedLots
+      condition: ""
+      perform: ""
+      allowedLots: []
     deploy:
       ? condition
   name: Fate Forward
@@ -2953,7 +2953,8 @@
       eventStatus: ended
       condition: g.event.player === g.fx.card.controller
       perform: g.op.forceManualAttack( g.fx.card )
-      allowedLots: null
+      allowedLots:
+        - unit-field
     passive:
       ? condition
       ? perform
@@ -9724,7 +9725,7 @@
   power: 6
   name: Blood Mercenary
   guid: 88dcde4f-7256-261b-29d6-73b8dc2a9f62
-- id: 784
+- id: 790
   slug: fatal-spirit
   type: 0
   description: >-
@@ -15829,7 +15830,7 @@
   power: 4
   name: Jack
   guid: 69e94d75-3b59-c2c5-3551-5b0e401031ee
-- id: 790
+- id: 784
   slug: nona
   type: 0
   description: |-
@@ -15843,9 +15844,13 @@
   priority: 0
   effects:
     flip:
-      ? manner
-      ? condition
-      ? perform
+      manner: safe
+      condition: null
+      perform: |-
+        let bonus = 7
+        let me = g.fx.card
+        g.op.addTempFx( me, gt => 
+          gt.pass.raisePower( me, bonus ) )
     active:
       ? eventName
       ? eventStatus
