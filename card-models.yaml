@@ -1,3 +1,39 @@
+- slug: unkillable-barny--222
+  guid: daf9dcb2-0b3e-772b-1538-1d88ab4dafcf
+  id: 885
+  type: 0
+  description: >-
+    IN-GRAVE
+
+    At the beginning of your turn, if I am the topmost card in your grave, i return to your hand.
+  lore: ""
+  notes: ""
+  tags:
+    &a1
+    - sneak
+  rarity: 0
+  status: 0
+  priority: 0
+  effects:
+    flip:
+      ? manner
+      ? condition
+      ? perform
+    active:
+      eventName: null
+      eventStatus: null
+      condition: g.get.adjacentUnits( g.fx.card ).length >= 2
+      perform: g.pass.addTag( g.fx.card, Tag.INVULNERABLE )
+      allowedLots: null
+    passive:
+      ? condition
+      ? perform
+      ? allowedLots
+    deploy:
+      ? condition
+  pdc: null
+  power: 1
+  name: Unkillable Barny
 - id: 830
   slug: --charger
   type: 0
@@ -5114,7 +5150,7 @@
   power: 9
   name: Another Fucking Shield
   guid: f72622f9-1723-3e2f-0417-0b2e42328366
-- id: 3727
+- id: 3615
   slug: --fateforward
   type: 0
   description: |-
@@ -5722,7 +5758,7 @@
   power: 0
   name: Divine Syphon
   guid: dce3a609-6161-c57b-7ec7-8f85c456e639
-- id: 3290
+- id: 818
   slug: --antisocial-knight
   type: 0
   description: My power is decreased by 3 for every other friendly creature card in play.
@@ -12972,7 +13008,7 @@
   power: 1
   name: Blocker
   guid: 526c3abf-0268-4a18-659a-2e75ac05d11f
-- id: 3628
+- id: 3631
   slug: --kamikaze
   type: 0
   description: After I am successfully summoned, if there is a face-up enemy creature in
@@ -13064,7 +13100,7 @@
   power: 0
   name: Grand-Return!
   guid: ebe90f0c-ed31-042c-8f8c-f2eea3d27207
-- id: 3599
+- id: 3612
   slug: --doublemana
   type: 0
   description: I can only be manually summoned for 2 mana.
@@ -14660,14 +14696,13 @@
   name: Fateweaver
   guid: cdcd74a9-158b-7117-a9c4-4732b4f7cc14
 - id: 787
-  slug: --unkillable-barny
+  slug: unkillable-barny
   type: 0
   description: >-
     IN-GRAVE
 
     At the beginning of your turn, if I am the topmost card in your grave, i return to your hand.
-  tags:
-    - sneak
+  tags: *a1
   rarity: 0
   pdc: null
   status: 0
@@ -14678,11 +14713,11 @@
       ? condition
       ? perform
     active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
+      eventName: null
+      eventStatus: null
+      condition: ""
+      perform: ""
+      allowedLots: null
     passive:
       ? condition
       ? perform
@@ -16010,7 +16045,7 @@
   name: Forbidden Spirit 3
   guid: 55ef873d-2099-ec7c-c46d-cd262688d11e
 - id: 817
-  slug: --stunner
+  slug: stunner
   type: 0
   description: |-
     Combat-Flip:
