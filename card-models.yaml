@@ -1,56 +1,22 @@
-- id: 884
-  slug: flipouch
-  type: 0
+- slug: flipouch
   description: "Flip: Take 1 damage."
-  lore: ""
-  notes: ""
   tags:
     &a1
     - sneak
-  rarity: 0
-  pdc: -1
-  status: 0
-  priority: 3
   effects:
     flip:
       manner: combat
       condition: null
       perform: ""
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
   guid: b3dba8a0-17b9-532b-e7ac-e4922eb429e2
   name: flipouch
-  power: 5
-  c: ""
-- id: 773
-  slug: kamikazejoe
-  type: 0
+- slug: kamikazejoe
   description: I die after attacking
-  lore: ""
-  notes: ""
   tags:
     &a2
     - rush
     - notribute
-  rarity: 0
-  pdc: -1
-  status: 3
-  priority: 8
   effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
     active:
       eventName: UnitAttack
       eventStatus: ended
@@ -58,16 +24,8 @@
       perform: g.op.kill( g.fx.card )
       allowedLots:
         - unit-field
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
   guid: da1d63dc-c3a5-7c69-49c4-148a17a842e0
   name: kamikazejoe
-  power: 2
-  c: ""
 - id: 885
   slug: --unbreakable--2
   type: 0
@@ -1467,91 +1425,24 @@
   power: 2
   name: b5d484ef
   guid: b5d484ef-d8f8-39c2-b59f-60f2781a9c0f
-- id: 540
-  slug: drawdraw
-  type: 1
+- slug: drawdraw
   description: Activate when your opponent draws a card. Until the end of their turn, every
     time they draw a card, you draw a card as well.
-  lore: ""
-  notes: ""
-  tags: []
-  rarity: 0
-  pdc: -1
-  status: 0
-  priority: 3
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: drawdraw
-  power: 0
-  c: ""
   guid: 2a441a2f-9838-9676-b39e-2f0298eb9a55
-- id: 541
-  slug: drawnecro
-  type: 1
+- slug: drawnecro
   description: >-
     Activate when opponent draws a card, if the top card in their grave is a
     unit card. 
 
     Resurrect it on your side at this column.
-  lore: ""
-  notes: ""
-  tags: []
-  rarity: 0
-  pdc: -1
-  status: 0
-  priority: 3
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: drawnecro
-  power: 0
-  c: ""
   guid: 8cc4afa4-1276-5506-1c7d-aa1052afd931
-- id: 818
-  slug: taunt
-  type: 1
+- slug: taunt
   description: Activate when opposing enemy unit is deployed and force it to attack.
-  lore: ""
-  notes: ""
-  tags: []
-  rarity: 6
-  pdc: -1
-  status: 0
-  priority: 3
   effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
     active:
       eventName: DeployUnit
       eventStatus: ended
@@ -1562,296 +1453,63 @@
           && target.isFaceUp
       perform: g.op.forceAttack( g.event.card )
       allowedLots: null
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
   name: OP!
-  power: 0
-  c: ""
   guid: bdaf0351-9f2b-859c-d4e7-7b35dcae8645
-- id: 872
-  slug: indoctronate
-  type: 1
+- slug: indoctronate
   description: Activate when an enemy unit is deployed and the opposing unit field is
     empty. Move the unit there.
-  lore: ""
-  notes: ""
-  tags: []
-  rarity: 0
-  pdc: -1
-  status: 0
-  priority: 3
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: nameless-804e
-  power: 0
-  c: ""
   guid: ecf87384-4b2b-ceed-ffb1-c510eea1a14e
-- id: 898
-  slug: wandering-kyle
-  type: 0
+- slug: wandering-kyle
   description: "On death: enemy is healed for %4 hp"
-  lore: ""
-  notes: ""
-  tags: []
-  rarity: 0
-  pdc: -1
-  status: 0
-  priority: 3
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: nameless-804c
-  power: 7
-  c: ""
   guid: 74173d35-8c68-61f7-e9e4-ccbd3a80479b
-- id: 923
-  slug: effaceable-kissingbug
-  type: 0
+- slug: effaceable-kissingbug
   description: "#Grand On death: enemy is healed for %10 hp"
-  lore: ""
-  notes: ""
   tags:
     - grand
-  rarity: 0
-  pdc: -1
-  status: 0
-  priority: 3
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: effaceable-kissingbug
-  power: 14
-  c: ""
   guid: 0150cb46-5ae5-249d-32b3-fe089acf39fd
-- id: 857
-  slug: relokill
-  type: 1
+- slug: relokill
   description: Activate when opposing enemy unit starts relocation. Kill it.
-  lore: ""
-  notes: ""
-  tags: []
-  rarity: 0
-  pdc: -1
-  status: 0
-  priority: 3
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: relokill
-  power: 0
-  c: ""
   guid: da48f14f-3dc3-a7ee-9ba9-647e14ab1c4b
-- id: 937
-  slug: lockhead
-  type: 0
+- slug: lockhead
   description: "#Grand The opposing enemy field is locked while I am in play"
-  lore: ""
-  notes: ""
   tags:
     - grand
-  rarity: 0
-  pdc: -1
-  status: 0
-  priority: 3
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: lockhead
-  power: 0
-  c: ""
   guid: 40f5ad39-e42a-2ce3-da35-de0c94835e17
-- id: 842
-  slug: trapbomb
-  type: 1
+- slug: trapbomb
   description: Activate when opposing enemy $trap activates. Before the effect, destroy it
     and all units on my lane.
-  lore: ""
-  notes: ""
-  tags: []
-  rarity: 0
-  pdc: -1
-  status: 0
-  priority: 3
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: Balanced Antitrap
-  power: 0
-  c: ""
   guid: 9d559a67-558f-c648-b17c-a6c6da4dae1d
-- id: 953
-  slug: traplode
-  type: 0
+- slug: traplode
   description: "#Grand Before any trap on either side activates - destroy it. If so, I die
     at the end of that turn."
-  lore: ""
-  notes: ""
   tags:
     - grand
-  rarity: 0
-  pdc: -1
-  status: 0
-  priority: 3
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: traplode
-  power: 0
-  c: ""
   guid: 875977e2-407a-791e-f59c-e0846bdd7ddb
-- id: 886
-  slug: chickeng1
-  type: 0
+- slug: chickeng1
   description: "#Grand When opposing enemy unit attacks, I return to your hand. The attack
     continues."
-  lore: ""
-  notes: ""
   tags:
     - grand
-  rarity: 0
-  pdc: -1
-  status: 0
-  priority: 3
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: chickeng1
-  power: 14
-  c: ""
   guid: 0227eaaf-1a18-94d7-1430-4f9842b92784
-- id: 817
-  slug: toxicmine
-  type: 1
+- slug: toxicmine
   description: Activate when opposing enemy unit is deployed. Decrease its power by
-  lore: ""
-  notes: ""
-  tags: []
-  rarity: 0
-  pdc: -1
-  status: 0
-  priority: 3
   effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
     active:
       eventName: DeployUnit
       eventStatus: ended
@@ -1865,569 +1523,123 @@
         g.op.addTempFx( target, tg => 
           tg.pass.lowerPower( target, 5 ) )
       allowedLots: null
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
   name: toxicmine
-  power: 0
-  c: ""
   guid: e3b41aa1-0f98-ec62-7c2b-2f8414025180
-- id: 825
-  slug: autoatk
-  type: 0
+- slug: autoatk
   description: I perform a free attack when deployed
-  lore: ""
-  notes: ""
-  tags: []
-  rarity: 0
-  pdc: -1
-  status: 2
-  priority: 3
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: autoatk
-  power: 4
-  c: ""
   guid: 9d9d8250-25d2-e17b-5fc6-7dc75993e29c
-- id: 778
-  slug: quickgiver-0
-  type: 1
+- slug: quickgiver-0
   description: "#Persistent. Activate when $enemy's turn begins. When you deploy a unit on
     this lane, give it storm and destroy this trap."
-  lore: ""
-  notes: ""
-  tags: []
-  rarity: 0
-  pdc: -1
-  status: 12
-  priority: 1
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: quickgiver-0
-  power: 0
-  c: ""
   guid: 76cc8056-ce49-b965-46dd-0cb2729930b5
-- id: 903
-  slug: quickgiver-g
-  type: 0
+- slug: quickgiver-g
   description: >-
     When I am $deployed - end your turn.
 
     Whenever any other $unit is about to be $deployed, give it Storm until turn end.
-  lore: ""
-  notes: ""
   tags:
     - grand
-  rarity: 0
-  pdc: -1
-  status: 12
-  priority: 3
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: quickgiver-g
-  power: 7
-  c: ""
   guid: 45b03f7f-e7a8-9b14-9975-fd32ea1699f2
-- id: 900
-  slug: quickgiver-1
-  type: 0
+- slug: quickgiver-1
   description: >-
     When I am $deployed - end your turn.
 
     Whenever any other $unit is about to be $deployed, give it Storm until turn end.
-  lore: ""
-  notes: ""
-  tags: []
-  rarity: 0
-  pdc: -1
-  status: 12
-  priority: 1
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: quickgiver-1
-  power: 2
-  c: ""
   guid: 1edaafe8-aa09-6eb3-cf35-778f72fb0d7a
-- id: 809
-  slug: needsmotivation
-  type: 0
+- slug: needsmotivation
   description: Increase my $power by %2 for every $friendly adjacent $unit.
-  lore: ""
-  notes: ""
-  tags: []
-  rarity: 0
-  pdc: -1
-  status: 2
-  priority: 3
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: needsmotivation
-  power: 3
-  c: ""
   guid: 08d74cf3-5b04-b6f5-e4cc-014bacdbd687
-- id: 834
-  slug: eggshell
-  type: 0
-  description: ""
+- slug: eggshell
   lore: Use me as surprise tribute.
-  notes: ""
   tags:
     - rush
-  rarity: 0
-  pdc: -1
-  status: 4
-  priority: 3
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: eggshell
-  power: 0
-  c: ""
   guid: c7bfa796-fdc8-b69e-659d-d2d29bfb0824
-- id: 938
-  slug: lonely-golem
-  type: 0
+- slug: lonely-golem
   description: "#Grand The moment there are no other $friendly $units - I $die."
-  lore: ""
-  notes: ""
   tags:
     - grand
-  rarity: 0
-  pdc: -1
-  status: 2
-  priority: 3
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: Lonely Golem
-  power: 13
-  c: ""
   guid: 3ec56f92-b1d2-8cf7-0e79-3cea3fbdada3
-- id: 922
-  slug: compromiser1
-  type: 0
+- slug: compromiser1
   description: "#Grand I do not need a $tribute to be $deployed if there are no $friendly
     $units $in-play."
-  lore: ""
-  notes: ""
   tags:
     - grand
-  rarity: 0
-  pdc: -1
-  status: 0
-  priority: 3
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: Compromising Anna
-  power: 8
-  c: ""
   guid: 252316fc-4e93-ae68-6206-f37455c84f1d
-- id: 907
-  slug: epic-tortoise
-  type: 0
+- slug: epic-tortoise
   description: "#Grand After I $attack, I am $asleep until your next turn-end."
-  lore: ""
-  notes: ""
   tags:
     - grand
-  rarity: 0
-  pdc: -1
-  status: 0
-  priority: 3
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: Epic Tortoise
-  power: 14
-  c: ""
   guid: 9e0d7038-111c-a964-291c-c92bd4a68c4e
-- id: 906
-  slug: sloth-wyrm
-  type: 0
+- slug: sloth-wyrm
   description: "#Grand I am $asleep for three turns after being deployed."
-  lore: ""
-  notes: ""
   tags:
     - grand
-  rarity: 0
-  pdc: -1
-  status: 1
-  priority: 3
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: Sloth Wyrm
-  power: 15
-  c: ""
   guid: 54906067-1fd6-f6bb-cd8d-4b03141e3efe
-- id: 819
-  slug: killonattack
-  type: 1
+- slug: killonattack
   description: Activate after opposing enemy $unit finishes a direct attack. $Kill it.
-  lore: ""
-  notes: ""
-  tags: []
-  rarity: 0
-  pdc: -1
-  status: 2
-  priority: 3
   effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
     active:
       eventName: UnitAttackDirect
       eventStatus: began
       condition: g.faq.isOpposingLane( g.event.card, g.fx.card )
       perform: g.op.kill( g.event.card )
       allowedLots: null
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
   name: killonattack
-  power: 0
-  c: ""
   guid: e649a142-6fe2-e540-60e4-3615f222370a
-- id: 824
-  slug: free-jimmy
-  type: 0
+- slug: free-jimmy
   description: Activate when I am deployed. Raise your $AP by %1.
-  lore: ""
-  notes: ""
-  tags: []
-  rarity: 0
-  pdc: -1
-  status: 2
-  priority: 3
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: free-jimmy
-  power: 2
-  c: ""
   guid: d733ae6a-414f-023c-4992-e99fea422de6
-- id: 874
-  slug: nosneaking
-  type: 1
+- slug: nosneaking
   description: Activate when opposing enemy $unit is $deployed face-down. Flip it face-up,
     ignoring any flip-effects.
-  lore: ""
-  notes: ""
-  tags: []
-  rarity: 0
-  pdc: -1
-  status: 1
-  priority: 3
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: nosneaking
-  power: 0
-  c: ""
   guid: c595fe6f-0a86-87e4-c498-425c4ee9d4cf
-- id: 858
-  slug: punishtrap
-  type: 1
+- slug: punishtrap
   description: Activate when opposing enemy $trap activates. Deal %3 damage to opponent.
-  lore: ""
-  notes: ""
-  tags: []
-  rarity: 0
-  pdc: -1
-  status: 5
-  priority: 9
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: punishtrap
-  power: 0
-  c: ""
   guid: 958fd1de-37dd-a09e-e656-33eb7efd4e00
-- id: 841
-  slug: fury
-  type: 1
+- slug: fury
   description: |-
     Activate when you are dealt direct damage by the opposing enemy $unit.
     Destroy all enemy $units with $power lower than that damage.
-  lore: ""
-  notes: ""
-  tags: []
-  rarity: 0
-  pdc: -1
-  status: 0
-  priority: 3
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: Fury
-  power: 0
-  c: ""
   guid: a9169ca5-1e24-f72f-d437-270bbfcd594a
-- id: 939
-  slug: cowardly-giant
-  type: 0
+- slug: cowardly-giant
   description: "#Grand After I am attacked by enemy $unit, if I'm still in play, I return
     to my owner's hand."
-  lore: ""
-  notes: ""
   tags:
     - grand
-  rarity: 0
-  pdc: -1
-  status: 0
-  priority: 3
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: Cowardly Giant
-  power: 14
-  c: ""
   guid: c4e29441-a2d6-5d2e-e90d-67c1d4b90213
-- id: 800
-  slug: antisocial-knight
-  type: 0
+- slug: antisocial-knight
   description: My power is decreased by 3 for every other friendly $unit $in-play.
-  lore: ""
-  notes: ""
-  tags: []
-  rarity: 0
-  pdc: -1
-  status: 0
-  priority: 3
   effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
     passive:
       condition: "true"
       perform: |-
@@ -2439,160 +1651,41 @@
         - unit-field
         - hand
         - grave
-    deploy:
-      ? condition
   name: Antisocial Knight
-  power: 9
-  c: ""
   guid: 0e0640e1-917e-9491-34ca-bb8f8a8a4e45
-- id: 785
-  slug: flipouch5
-  type: 0
+- slug: flipouch5
   description: |-
     Combat Flip: 
     Take 5 damage.
-  lore: ""
-  notes: ""
   tags: *a1
-  rarity: 0
-  pdc: -1
-  status: 0
-  priority: 3
   effects:
     flip:
       manner: combat
       condition: null
       perform: g.op.damage( g.player, 5 )
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
   name: flipouch
-  power: 5
-  c: ""
   guid: b3dba8a0-17b9-532b-e7ac-e4922eb429e2
-- id: 822
-  slug: vampirefang
-  type: 0
+- slug: vampirefang
   description: Any direct damage I deal in $combat, is added to your $health.
-  lore: ""
-  notes: ""
-  tags: []
-  rarity: 0
-  pdc: -1
-  status: 0
-  priority: 3
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: vampirefang
-  power: 2
-  c: ""
   guid: e8d29482-9996-f3ed-a02b-f0c4219e8c5a
-- id: 832
-  slug: spearhead
-  type: 0
-  description: ""
-  lore: ""
-  notes: ""
+- slug: spearhead
   tags:
     - piercing
-  rarity: 0
-  pdc: -1
-  status: 0
-  priority: 3
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: spearhead
-  power: 1
-  c: ""
   guid: 1dceec66-3bae-a21b-2d2c-dac0160cbc43
-- id: 955
-  slug: honoraro
-  type: 0
+- slug: honoraro
   description: "#Grand Adjacent friendly $units's power is raised by %2."
-  lore: ""
-  notes: ""
   tags:
     - grand
-  rarity: 0
-  pdc: -1
-  status: 2
-  priority: 7
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: honoraro
-  power: 6
-  c: ""
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
-- id: 769
-  slug: nimbleguard
-  type: 0
+- slug: nimbleguard
   description: When an enemy $unit is $deployed, if possible, move me in front of it.
-  lore: ""
-  notes: ""
-  tags: []
-  rarity: 0
-  pdc: -1
-  status: 2
-  priority: 1
   effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
     active:
       eventName: DeployUnit
       eventStatus: ended
@@ -2612,125 +1705,29 @@
         g.op.forceRelocate( me, field )
       allowedLots:
         - unit-field
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
   name: nimbleguard
-  power: 2
-  c: ""
   guid: e156e58b-3903-0196-a55c-cef515c0dcdd
-- id: 791
-  slug: elijah
-  type: 0
+- slug: elijah
   description: My $power is raised by %4 during the enemy's turn
-  lore: ""
-  notes: ""
-  tags: []
-  rarity: 0
-  pdc: -1
-  status: 0
-  priority: 3
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: elijah
-  power: 3
-  c: ""
   guid: 390fa875-b747-ccf3-2b6e-d53911fb821c
-- id: 808
-  slug: joshua
-  type: 0
+- slug: joshua
   description: My $power is raised by %3 during your turn.
-  lore: ""
-  notes: ""
-  tags: []
-  rarity: 0
-  pdc: -1
-  status: 0
-  priority: 3
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: joshua
-  power: 3
-  c: ""
   guid: a90dcc70-cc81-5e0b-58db-d1141ab907d0
-- id: 954
-  slug: cardfactory1
-  type: 0
+- slug: cardfactory1
   description: "#Grand Draw a card at the end of your turn"
-  lore: ""
-  notes: ""
   tags:
     - grand
-  rarity: 0
-  pdc: -1
-  status: 2
-  priority: 5
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: cardfactory1
-  power: 7
-  c: ""
   guid: c54d0143-a59e-714a-6778-3ce5b96fb831
-- id: 786
-  slug: fateforward
-  type: 0
+- slug: fateforward
   description: "Combat-Flip: Both $players draw %2 cards"
-  lore: ""
-  notes: ""
   tags:
     - sneak
-  rarity: 0
-  pdc: -1
-  status: 0
-  priority: 4
   effects:
     flip:
       manner: combat
@@ -2742,41 +1739,19 @@
         g.op.draw( g.opponent )\r
 
         g.op.draw( g.player )"
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
     passive:
       condition: ""
       perform: ""
       allowedLots: []
-    deploy:
-      ? condition
   name: Fate Forward
-  power: 4
-  c: ""
   guid: 175c9ca8-d248-7609-c6af-0c09f2094056
-- id: 775
-  slug: fragmine
-  type: 0
+- slug: fragmine
   description: I die after combat
-  lore: ""
-  notes: ""
   tags:
     - sneak
     - noattack
     - nomove
-  rarity: 0
-  pdc: -1
-  status: 2
-  priority: 7
   effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
     active:
       eventName: UnitAttackCombat
       eventStatus: ended
@@ -2786,406 +1761,100 @@
       perform: g.op.kill( g.fx.card )
       allowedLots:
         - unit-field
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
   name: fragmine
-  power: 10
-  c: ""
   guid: 76fbd7d3-ade6-5f68-6c2b-4814e6ca0a31
-- id: 919
-  slug: shield2
-  type: 0
+- slug: shield2
   description: "Combat-Flip: Die"
-  lore: ""
-  notes: ""
   tags:
     - sneak
     - noattack
     - nomove
-  rarity: 0
-  pdc: -1
-  status: 2
-  priority: 5
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: Another Fucking Shield
-  power: 7
-  c: ""
   guid: 311479cf-24a0-c52f-2268-d6a13c3b8272
-- id: 880
-  slug: shield1
-  type: 0
-  description: ""
-  lore: ""
-  notes: ""
+- slug: shield1
   tags:
     - sneak
     - noattack
-  rarity: 0
-  pdc: -1
-  status: 2
-  priority: 5
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: Another Fucking Shield
-  power: 5
-  c: ""
   guid: da5b6bf6-d80b-f451-0727-b9f59eaa4df4
-- id: 901
-  slug: token-summoner4
-  type: 0
+- slug: token-summoner4
   description: When I die, $deploy @token0 in my place
-  lore: ""
-  notes: ""
-  tags: []
-  rarity: 0
-  pdc: -1
-  status: 1
-  priority: 8
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: Warrior-Hen
-  power: 4
-  c: ""
   guid: b1f6fb04-b994-e1da-c7bc-b6ec67569456
-- id: 539
-  slug: grandtraitor
-  type: 0
+- slug: grandtraitor
   description: "#Grand The moment there are no other friendly $units and no opposing enemy
     $unit, I move to the enemy's side"
-  lore: ""
-  notes: ""
   tags:
     - grand
-  rarity: 0
-  pdc: -1
-  status: 2
-  priority: 6
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: Grand Traitor
-  power: 14
-  c: ""
   guid: 00badf76-e490-b5e6-9b31-a3986978ca5e
-- id: 803
-  slug: man-of-honor
-  type: 0
+- slug: man-of-honor
   description: I cannot attack if there is no opposing enemy $unit
-  lore: ""
-  notes: ""
-  tags: []
-  rarity: 0
-  pdc: -1
-  status: 2
-  priority: 8
   effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
     passive:
       condition: "! g.get.opposingUnit( g.fx.card )"
       perform: g.pass.addTag( g.fx.card, Tag.NOATTACK )
       allowedLots:
         - unit-field
-    deploy:
-      ? condition
   name: Man of Honor
-  power: 7
-  c: ""
   guid: 00064144-b333-3249-8dbf-72397801491f
-- id: 523
-  slug: expolosive-mech
-  type: 0
+- slug: expolosive-mech
   description: "#Grand I cannot be $deployed manually while you have less than %3 $units in
     play (tribute included)\rWhen I die, destroy all other friendly $units in
     play"
-  lore: ""
-  notes: ""
   tags:
     - grand
-  rarity: 0
-  pdc: -1
-  status: 2
-  priority: 6
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: Expolosive Mech
-  power: 14
-  c: ""
   guid: 7950aae7-1ddd-e51c-4209-e8273c6a908b
-- id: 522
-  slug: paulgrand
-  type: 0
+- slug: paulgrand
   description: "#Grand When I am $deployed, if there is an opposing enemy $unit, I do not
     suffer $summon-exhaustion."
-  lore: ""
-  notes: ""
   tags:
     - grand
-  rarity: 0
-  pdc: -1
-  status: 2
-  priority: 9
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: Grand-Paul
-  power: 8
-  c: ""
   guid: bf999d9f-4dc7-acaf-f65c-f9df4fc17130
-- id: 538
-  slug: dual-force-spirit
-  type: 0
+- slug: dual-force-spirit
   description: "#GrandRaise my $power by the combined base $power of my adjacent friendly
     $units."
-  lore: ""
-  notes: ""
   tags:
     - grand
-  rarity: 0
-  pdc: -1
-  status: 2
-  priority: 3
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: Dual Force Spirit
-  power: 0
-  c: ""
   guid: 59c4a343-fa1b-c70d-62cf-67fed3f9cd70
-- id: 642
-  slug: eddy
-  type: 0
+- slug: eddy
   description: "When I am $deployed, if possible:\rIf @ed is in play, add @edd from your
     deck to your hand.\rIf @edd is in play, add @ed from your deck to your hand"
-  lore: ""
-  notes: ""
-  tags: []
-  rarity: 0
   pdc: 46b0d909-5211-4e82-9346-fdbec164e9b4
-  status: 1
-  priority: 3
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: Aramis
-  power: 4
-  c: ""
   guid: 267d5d43-78de-5f28-8534-d6b17aec55b2
-- id: 641
-  slug: edd
-  type: 0
+- slug: edd
   description: "When I am $deployed, if possible:\rIf @ed is in play, add @eddy from your
     deck to your hand.\rIf @eddy is in play, add @ed from your deck to your
     hand"
-  lore: ""
-  notes: ""
-  tags: []
-  rarity: 0
   pdc: 35166c93-b75d-4397-ac8e-90da60e31da8
-  status: 1
-  priority: 3
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: Porthos
-  power: 4
-  c: ""
   guid: 2e474360-6292-7ef6-0c95-2b0c786aba0c
-- id: 640
-  slug: ed
-  type: 0
+- slug: ed
   description: "When I am $deployed, if possible:\rIf @edd is in play, add @eddy from your
     deck to your hand.\rIf @eddy is in play, add @edd from your deck to your
     hand"
-  lore: ""
-  notes: ""
-  tags: []
-  rarity: 0
   pdc: a3740bf5-2ac0-40a8-a290-ae70e8ba1b86
-  status: 1
-  priority: 3
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: Athos
-  power: 4
-  c: ""
   guid: f39e47ff-3ee3-e857-cd52-a375575da950
-- id: 771
-  slug: berserker
-  type: 0
+- slug: berserker
   description: |-
     I attack automatically on at the start of your turn.
     This counts as a manual attack to my $action-exhaustion.
-  lore: ""
-  notes: ""
-  tags: []
-  rarity: 0
-  pdc: -1
-  status: 4
-  priority: 7
   effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
     active:
       eventName: TurnBegin
       eventStatus: ended
@@ -3193,32 +1862,11 @@
       perform: g.op.forceAttack( g.fx.card )
       allowedLots:
         - unit-field
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
   name: berserker
-  power: 6
-  c: ""
   guid: 880e607b-9629-b54e-5e35-2789092bac94
-- id: 774
-  slug: mercenery
-  type: 0
+- slug: mercenery
   description: Take 1 direct damage every time I begin an attack.
-  lore: ""
-  notes: ""
-  tags: []
-  rarity: 0
-  pdc: -1
-  status: 4
-  priority: 7
   effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
     active:
       eventName: UnitAttack
       eventStatus: began
@@ -3226,100 +1874,27 @@
       perform: g.op.damage( g.player, 1 )
       allowedLots:
         - unit-field
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
   name: mercenery
-  power: 6
-  c: ""
   guid: 913c9737-eac3-206b-f5e5-a9ba7968fa0d
-- id: 833
-  slug: wall
-  type: 0
-  description: ""
-  lore: ""
-  notes: ""
+- slug: wall
   tags:
     - noattack
     - nomove
-  rarity: 0
-  pdc: -1
-  status: 4
-  priority: 6
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: wall
-  power: 7
-  c: ""
   guid: 77f9e416-704f-41da-b8b2-8a04225a76f8
-- id: 887
-  slug: kamikazejoe-original
-  type: 0
+- slug: kamikazejoe-original
   description: I automatically attack when $deployed. I die after $combat.
-  lore: ""
-  notes: ""
   tags: *a2
-  rarity: 0
-  pdc: -1
-  status: 3
-  priority: 8
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: kamikazejoe
-  power: 2
-  c: ""
   guid: da1d63dc-c3a5-7c69-49c4-148a17a842e0
-- id: 772
-  slug: harassingmia
-  type: 0
+- slug: harassingmia
   description: I return to your hand at the end of your turn.
-  lore: ""
-  notes: ""
   tags:
     - rush
     - notribute
-  rarity: 0
-  pdc: -1
-  status: 4
-  priority: 9
   effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
     active:
       eventName: TurnEnd
       eventStatus: ended
@@ -3327,305 +1902,53 @@
       perform: g.op.addToHand( g.fx.card, g.player )
       allowedLots:
         - unit-field
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
   name: harassingmia
-  power: 1
-  c: ""
   guid: f0a1e712-dc0d-feca-4096-4ebcb8253d43
-- id: 259
-  slug: doe2
-  type: 0
-  description: ""
+- slug: doe2
   lore: Just a gal
-  notes: ""
-  tags: []
-  rarity: 0
-  pdc: -1
-  status: 7
-  priority: 3
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: Jane Doe
-  power: 5
-  c: ""
   guid: d4b66f78-61e7-9b08-7e92-4be3e9b22e05
-- id: 258
-  slug: doe1
-  type: 0
-  description: ""
+- slug: doe1
   lore: Just a guy
-  notes: ""
-  tags: []
-  rarity: 0
-  pdc: -1
-  status: 7
-  priority: 3
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: John Doe
-  power: 5
-  c: ""
   guid: 502b3b60-a6b9-9266-e0be-b1bb7c2be69a
-- id: 257
-  slug: doe0
-  type: 0
-  description: ""
+- slug: doe0
   lore: No one knows his name. No one ever asked him either.
-  notes: ""
-  tags: []
-  rarity: 0
-  pdc: -1
-  status: 7
-  priority: 3
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: Random Dude
-  power: 5
-  c: ""
   guid: c16dbe43-b08f-f7d5-2751-98d5e967b7c6
-- id: 525
-  slug: mirrorforce
-  type: 1
+- slug: mirrorforce
   description: Activate when opposing enemy $unit attacks. Kill it.
-  lore: ""
-  notes: ""
-  tags: []
-  rarity: 0
-  pdc: -1
-  status: 3
-  priority: 6
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: mirrorforce
-  power: 0
-  c: ""
   guid: 3116a4e6-a681-43fd-41a9-07b98c176174
-- id: 526
-  slug: tripwire
-  type: 1
+- slug: tripwire
   description: Activate when enemy $unit $relocates to opposing $field. Kill it.
-  lore: ""
-  notes: ""
-  tags: []
-  rarity: 0
-  pdc: -1
-  status: 3
-  priority: 6
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: tripwire
-  power: 0
-  c: ""
   guid: bb422769-ee65-6180-d9d9-504f4d30a7ef
-- id: 524
-  slug: traphole
-  type: 1
+- slug: traphole
   description: Activate when an opposing enemy $unit is $deployed. Kill it.
-  lore: ""
-  notes: ""
-  tags: []
-  rarity: 8
-  pdc: -1
-  status: 3
-  priority: 6
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: traphole
-  power: 0
-  c: ""
   guid: bf1a079b-8382-8167-b1ac-f84d97e8c469
-- id: 272
-  slug: flippers
-  type: 0
-  description: ""
-  lore: ""
-  notes: ""
+- slug: flippers
   tags:
     - sneak
-  rarity: 0
-  pdc: -1
-  status: 4
-  priority: 6
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: flippers
-  power: 4
-  c: ""
   guid: ec7727aa-6ee6-d8f6-270f-0feeb5f9087c
-- id: 288
-  slug: grand10
-  type: 0
-  description: ""
-  lore: ""
-  notes: ""
+- slug: grand10
   tags:
     - grand
-  rarity: 0
-  pdc: -1
-  status: 7
-  priority: 3
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: grand10
-  power: 10
-  c: ""
   guid: 073a7154-da48-f617-57a4-ac15748e5d6f
-- id: 256
-  slug: generic5
-  type: 0
-  description: ""
-  lore: ""
-  notes: ""
-  tags: []
-  rarity: 0
-  pdc: -1
-  status: 7
-  priority: 3
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+- slug: generic5
+  effects: {}
   name: generic5
-  power: 5
-  c: ""
   guid: a0537d41-fb40-021c-e3bf-43de93a71b4d
 - id: 1
   slug: -kami
@@ -3659,69 +1982,15 @@
   power: 0
   c: ""
   guid: bb69140b-2741-9583-211c-11c9530119be
-- id: 36
-  slug: -killany
-  type: 1
+- slug: -killany
   description: kill first unit deployed
-  lore: ""
-  notes: ""
-  tags: []
-  rarity: 0
-  pdc: -1
-  status: 7
-  priority: 3
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: -killany
-  power: 0
-  c: ""
   guid: eb3f4da9-c209-1305-0dd4-7cae6cc9f4de
-- id: 35
-  slug: -infinitemana
-  type: 0
+- slug: -infinitemana
   description: +1AP on any deployment. die on turn start.
-  lore: ""
-  notes: ""
-  tags: []
-  rarity: 0
-  pdc: -1
-  status: 7
-  priority: 3
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: -infinitemana
-  power: 0
-  c: ""
   guid: e38ded56-fac0-f396-5349-5731f7267cba
 - id: 34
   slug: -muchdraw
@@ -3755,135 +2024,29 @@
   power: 2
   c: ""
   guid: 8cc74920-0ce0-2079-157a-fd7653ffec56
-- id: 4
-  slug: -wildgrand
-  type: 0
-  description: ""
+- slug: -wildgrand
   lore: -- Whatever you wish, dude.... --
-  notes: ""
   tags:
     - grand
-  rarity: 0
-  pdc: -1
-  status: 4
-  priority: 3
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: The Wild One (G)
-  power: 0
-  c: ""
   guid: cf181319-3efd-47f6-8763-91456ada4de8
-- id: 3
-  slug: -wildsneak
-  type: 0
-  description: ""
+- slug: -wildsneak
   lore: -- Whatever you wish, dude.... --
-  notes: ""
   tags:
     - sneak
-  rarity: 0
-  pdc: -1
-  status: 4
-  priority: 3
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: The Wild One (Incognito)
-  power: 0
-  c: ""
   guid: 656603c1-faf2-adbd-b788-c09377274053
-- id: 5
-  slug: -wildtrap
-  type: 1
-  description: ""
+- slug: -wildtrap
   lore: -- Whatever you wish, dude.... --
-  notes: ""
-  tags: []
-  rarity: 0
-  pdc: -1
-  status: 4
-  priority: 3
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: Go Wild!
-  power: 0
-  c: ""
   guid: 5ff639d9-708d-32c5-c7d6-8a2084f11adb
-- id: 2
-  slug: -wildunit
-  type: 0
-  description: ""
+- slug: -wildunit
   lore: -- Whatever you wish, dude.... --
-  notes: ""
-  tags: []
-  rarity: 0
-  pdc: -1
-  status: 4
-  priority: 3
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: The Wild One
-  power: 0
-  c: ""
   guid: e2f0d6e2-9212-6a9e-7b29-9e24413baa5c
 - id: 33
   slug: -elvariablo
@@ -3928,236 +2091,47 @@
   power: 0
   c: ""
   guid: 8b0aa1f9-71cd-a0d6-512f-34657aa3c387
-- id: 85
-  slug: token-5
-  type: 0
-  description: ""
-  lore: ""
-  notes: ""
+- slug: token-5
   tags:
     - token
-  rarity: 0
-  pdc: -1
-  status: 7
-  priority: 0
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: token-5
-  power: 5
-  c: ""
   guid: f6089e84-65fc-5342-5389-15642b3dff64
-- id: 84
-  slug: token-4
-  type: 0
-  description: ""
-  lore: ""
-  notes: ""
+- slug: token-4
   tags:
     - token
-  rarity: 0
-  pdc: -1
-  status: 7
-  priority: 0
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: token-4
-  power: 4
-  c: ""
   guid: 4080c881-274c-f2cc-34d3-5e31f387545f
-- id: 83
-  slug: token-3
-  type: 0
-  description: ""
-  lore: ""
-  notes: ""
+- slug: token-3
   tags:
     - token
-  rarity: 0
-  pdc: -1
-  status: 7
-  priority: 0
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: token-3
-  power: 3
-  c: ""
   guid: 79349b45-cad3-a87d-70c9-987c4506c1a6
-- id: 82
-  slug: token-2
-  type: 0
-  description: ""
-  lore: ""
-  notes: ""
+- slug: token-2
   tags:
     - token
-  rarity: 0
-  pdc: -1
-  status: 7
-  priority: 0
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: token-2
-  power: 2
-  c: ""
   guid: 3b438993-8d47-eca9-878a-724be707929d
-- id: 81
-  slug: token-1
-  type: 0
-  description: ""
-  lore: ""
-  notes: ""
+- slug: token-1
   tags:
     - token
-  rarity: 0
-  pdc: -1
-  status: 7
-  priority: 0
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: token-1
-  power: 1
-  c: ""
   guid: f435b031-3f02-3693-1610-c36dfbbf12b9
-- id: 80
-  slug: token-0
-  type: 0
-  description: ""
-  lore: ""
-  notes: ""
+- slug: token-0
   tags:
     - token
-  rarity: 0
-  pdc: -1
-  status: 7
-  priority: 0
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: token-0
-  power: 0
-  c: ""
   guid: 2658519e-fe0a-98e5-fe5c-ba782ebddc5b
-- id: 64
-  slug: token
-  type: 0
-  description: ""
-  lore: ""
-  notes: ""
+- slug: token
   tags:
     - token
-  rarity: 0
-  pdc: -1
-  status: 7
-  priority: 0
-  effects:
-    flip:
-      ? manner
-      ? condition
-      ? perform
-    active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
-    passive:
-      ? condition
-      ? perform
-      ? allowedLots
-    deploy:
-      ? condition
+  effects: {}
   name: token
-  power: 0
-  c: ""
   guid: 22bd958b-2075-54c2-24fb-c36fb898f433
 - id: 2819
   slug: immortal-bob
@@ -4191,7 +2165,7 @@
   power: 4
   name: immortal-bob
   guid: 7d41f504-7d39-2206-5921-d540a8c3a7f6
-- id: 806
+- id: 823
   slug: all-out-johhny
   type: 0
   description: At the end of your turn discard all cards in your hand
@@ -10392,7 +8366,7 @@
   power: 6
   name: Blood Mercenary
   guid: 88dcde4f-7256-261b-29d6-73b8dc2a9f62
-- id: 823
+- id: 792
   slug: fatal-spirit
   type: 0
   description: >-
@@ -15490,7 +13464,7 @@
   power: 2
   name: Trapster
   guid: 578ce449-ef5c-aa32-a11d-a524e49e024b
-- id: 807
+- id: 793
   slug: loneshield
   type: 0
   description: All combat damage against me becomes zero if there are no other friendly
