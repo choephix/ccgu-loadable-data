@@ -1,9 +1,43 @@
+- slug: flipouch
+  guid: b3dba8a0-17b9-532b-e7ac-e4922eb429e2
+  id: 854
+  type: 0
+  description: "Flip: Take 1 damage."
+  lore: ""
+  notes: ""
+  tags:
+    &a1
+    - sneak
+  rarity: 0
+  status: 0
+  priority: 3
+  effects:
+    flip:
+      manner: combat
+      condition: null
+      perform: ""
+    active:
+      ? eventName
+      ? eventStatus
+      ? condition
+      ? perform
+      ? allowedLots
+    passive:
+      ? condition
+      ? perform
+      ? allowedLots
+    deploy:
+      ? condition
+  pdc: -1
+  name: flipouch
+  power: 5
+  c: ""
 - id: 773
   slug: kamikazejoe
   type: 0
   description: I die after attacking
   tags:
-    &a1
+    &a2
     - rush
     - notribute
   rarity: 0
@@ -42,7 +76,7 @@
 
     At the beginning of your turn, if I am the topmost card in your grave, i return to your hand.
   tags:
-    &a2
+    &a3
     - sneak
   rarity: 0
   pdc: null
@@ -2260,20 +2294,21 @@
   c: ""
   guid: 0e0640e1-917e-9491-34ca-bb8f8a8a4e45
 - id: 785
-  slug: flipouch
+  slug: flipouch5
   type: 0
-  description: "Flip: Take %1 damage."
-  tags:
-    - sneak
+  description: |-
+    Combat Flip: 
+    Take 5 damage.
+  tags: *a1
   rarity: 0
   pdc: -1
   status: 0
   priority: 3
   effects:
     flip:
-      ? manner
-      ? condition
-      ? perform
+      manner: combat
+      condition: null
+      perform: g.op.damage( g.player, 5 )
     active:
       ? eventName
       ? eventStatus
@@ -2528,9 +2563,15 @@
   priority: 4
   effects:
     flip:
-      ? manner
-      ? condition
-      ? perform
+      manner: combat
+      condition: null
+      perform: "g.op.draw( g.opponent )\r
+
+        g.op.draw( g.player )\r
+
+        g.op.draw( g.opponent )\r
+
+        g.op.draw( g.player )"
     active:
       ? eventName
       ? eventStatus
@@ -3032,7 +3073,7 @@
   slug: kamikazejoe-original
   type: 0
   description: I automatically attack when $deployed. I die after $combat.
-  tags: *a1
+  tags: *a2
   rarity: 0
   pdc: -1
   status: 3
@@ -14760,7 +14801,7 @@
     IN-GRAVE
 
     At the beginning of your turn, if I am the topmost card in your grave, i return to your hand.
-  tags: *a2
+  tags: *a3
   rarity: 0
   pdc: null
   status: 0
