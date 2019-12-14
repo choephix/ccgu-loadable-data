@@ -1763,7 +1763,7 @@
   power: 0
   c: ""
   guid: e3b41aa1-0f98-ec62-7c2b-2f8414025180
-- id: 804
+- id: 821
   slug: autoatk
   type: 0
   description: I perform a free attack when deployed
@@ -2108,7 +2108,7 @@
   power: 0
   c: ""
   guid: e649a142-6fe2-e540-60e4-3615f222370a
-- id: 803
+- id: 817
   slug: free-jimmy
   type: 0
   description: Activate when I am deployed. Raise your $AP by %1.
@@ -2263,7 +2263,7 @@
   power: 14
   c: ""
   guid: c4e29441-a2d6-5d2e-e90d-67c1d4b90213
-- id: 789
+- id: 800
   slug: antisocial-knight
   type: 0
   description: My power is decreased by 3 for every other friendly $unit $in-play.
@@ -2332,7 +2332,7 @@
   power: 5
   c: ""
   guid: b3dba8a0-17b9-532b-e7ac-e4922eb429e2
-- id: 800
+- id: 822
   slug: vampirefang
   type: 0
   description: Any direct damage I deal in $combat, is added to your $health.
@@ -2467,7 +2467,7 @@
   power: 2
   c: ""
   guid: e156e58b-3903-0196-a55c-cef515c0dcdd
-- id: 802
+- id: 791
   slug: elijah
   type: 0
   description: My $power is raised by %4 during the enemy's turn
@@ -3949,7 +3949,7 @@
   power: 4
   name: immortal-bob
   guid: 7d41f504-7d39-2206-5921-d540a8c3a7f6
-- id: 791
+- id: 806
   slug: all-out-johhny
   type: 0
   description: At the end of your turn discard all cards in your hand
@@ -5864,7 +5864,7 @@
   power: 0
   name: Divine Syphon
   guid: dce3a609-6161-c57b-7ec7-8f85c456e639
-- id: 818
+- id: 961
   slug: --antisocial-knight
   type: 0
   description: My power is decreased by 3 for every other friendly creature card in play.
@@ -5893,6 +5893,7 @@
   power: 9
   name: Antisocial Knight
   guid: 806bbd07-4d01-037a-7d6d-8db4ad262acd
+  notes: dup
 - id: 3175
   slug: --jake
   type: 0
@@ -9773,7 +9774,7 @@
   power: 6
   name: Blood Mercenary
   guid: 88dcde4f-7256-261b-29d6-73b8dc2a9f62
-- id: 790
+- id: 823
   slug: fatal-spirit
   type: 0
   description: >-
@@ -10625,8 +10626,8 @@
   name: All Out Joe
   guid: 97475749-a4ef-2dbd-06fa-2ac18bad8350
   lore: duplicate
-- id: 3302
-  slug: --spying-james
+- id: 801
+  slug: spying-james
   type: 0
   description: While I am in play - opponent keeps the top card in his deck face-up at all
     times.
@@ -10647,15 +10648,18 @@
       ? perform
       ? allowedLots
     passive:
-      ? condition
-      ? perform
-      ? allowedLots
+      condition: g.opponent.deck.hasCards
+      perform: |-
+        let target = g.opponent.deck.topCard
+        g.pass.setFaceUp( target, true )
+      allowedLots:
+        - unit-field
     deploy:
       ? condition
-  power: 4
+  power: 3
   name: Spying James
   guid: 6df4249c-c165-b329-a9c7-4df9d6d96749
-  lore: duplicate
+  lore: ""
 - id: 3305
   slug: --piercing-gemma
   type: 0
@@ -10745,7 +10749,7 @@
   power: 4
   name: Trap-Powered
   guid: 2f2f474a-e268-7bfb-81a2-f69188d45516
-- id: 806
+- id: 802
   slug: producer
   type: 0
   description: My power is raised by 1 for each card in your hand
@@ -10760,15 +10764,21 @@
       ? condition
       ? perform
     active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
+      eventName: null
+      eventStatus: null
+      condition: ""
+      perform: ""
+      allowedLots: []
     passive:
-      ? condition
-      ? perform
-      ? allowedLots
+      condition: "true"
+      perform: |-
+        let me = g.fx.card
+        let count = g.player.hand.cardCount
+        g.pass.raisePower( me, count )a
+      allowedLots:
+        - unit-field
+        - hand
+        - grave
     deploy:
       ? condition
   power: 0
@@ -15060,7 +15070,7 @@
   power: 0
   name: No-Flippers!
   guid: 3a418778-d88e-8579-2696-b38ebacadb12
-- id: 817
+- id: 816
   slug: honorable-flappy-bird
   type: 0
   description: I can both attack and move before exhausting, but I cannot attack while
@@ -16159,7 +16169,7 @@
   power: 2
   name: Forbidden Spirit 3
   guid: 55ef873d-2099-ec7c-c46d-cd262688d11e
-- id: 801
+- id: 790
   slug: stunner
   type: 0
   description: |-
@@ -19105,7 +19115,7 @@
   power: 6
   name: linko-2
   guid: 48bee335-b741-25b3-f373-0eebd88e8a84
-- id: 816
+- id: 960
   slug: spy-joe
   type: 0
   description: While I am in play - opponent keeps the top card in his deck face-up at all
@@ -19135,6 +19145,7 @@
   power: 4
   name: spy-joe
   guid: 6f8f1afd-9851-c7d3-5079-c34cdc2f1d5a
+  notes: duplicate
 - id: 1084
   slug: re-trap-1
   type: 1
