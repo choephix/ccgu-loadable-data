@@ -248,7 +248,7 @@
   power: 0
   name: bosstrap
   guid: 53828163-ed73-e387-3634-8cf87831dff2
-- id: 1023
+- id: 1010
   slug: sensho
   type: 0
   description: Cannot begin attack while there is no opposing enemy creature
@@ -4616,7 +4616,7 @@
   power: 3
   name: Mike
   guid: 15f64461-95cc-c62e-ca23-11dc1495fba7
-- id: 1022
+- id: 1009
   slug: --man-of_honor
   type: 0
   description: I cannot attack if there is no opposing enemy creature.
@@ -5209,7 +5209,7 @@
   power: 7
   name: Balloon Brute
   guid: 5d20f13f-bf68-cf0d-9423-484d0a372e79
-- id: 3120
+- id: 1008
   slug: --stunbot
   type: 0
   description: |-
@@ -5335,7 +5335,7 @@
   power: 3
   name: Social Gnome
   guid: bd7640ea-78a9-f0d9-e155-dae1cf5e253d
-- id: 3089
+- id: 576
   slug: --flipmike
   type: 0
   description: |-
@@ -14564,7 +14564,7 @@
   power: 7
   name: Blood Merc
   guid: 8b7c6999-27bf-f797-11ab-d480b7da727c
-- id: 3330
+- id: 528
   slug: --marco
   type: 0
   description: |-
@@ -14724,7 +14724,7 @@
   power: 2
   name: Bad Fate
   guid: 7c3aa978-0db6-ed1d-3e05-b57d8a929538
-- id: 3331
+- id: 529
   slug: --polo
   type: 0
   description: |-
@@ -16009,7 +16009,7 @@
   power: 2
   name: Forbidden Spirit 3
   guid: 55ef873d-2099-ec7c-c46d-cd262688d11e
-- id: 3073
+- id: 817
   slug: --stunner
   type: 0
   description: |-
@@ -16261,7 +16261,7 @@
   power: 0
   name: Portal Omega
   guid: 31ccc661-eefd-4154-411c-bb4cda51bf4a
-- id: 3399
+- id: 512
   slug: --swap-left
   type: 0
   description: >-
@@ -16294,7 +16294,7 @@
   power: 2
   name: Swappy Left
   guid: eac5b27b-4b9e-a7d9-7925-03cd04143f3c
-- id: 3400
+- id: 513
   slug: --swap-right
   type: 0
   description: >-
