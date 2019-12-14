@@ -1,14 +1,12 @@
-- slug: flipouch
-  guid: b3dba8a0-17b9-532b-e7ac-e4922eb429e2
-  id: 854
+- id: 854
+  slug: flipouch
   type: 0
   description: "Flip: Take 1 damage."
-  lore: ""
-  notes: ""
   tags:
     &a1
     - sneak
   rarity: 0
+  pdc: -1
   status: 0
   priority: 3
   effects:
@@ -28,7 +26,9 @@
       ? allowedLots
     deploy:
       ? condition
-  pdc: -1
+  guid: b3dba8a0-17b9-532b-e7ac-e4922eb429e2
+  lore: ""
+  notes: ""
   name: flipouch
   power: 5
   c: ""
@@ -18960,7 +18960,7 @@
   power: 2
   name: time-bug
   guid: 5b1e932b-5340-5551-fb3a-625e0ed7d6fd
-- id: 2832
+- id: 787
   slug: necro-grando
   type: 0
   description: |-
@@ -18974,9 +18974,23 @@
   priority: 0
   effects:
     flip:
-      ? manner
-      ? condition
-      ? perform
+      manner: combat
+      condition: null
+      perform: "let cards = g.player.grave.cards\r
+
+        let target = cards.find( c => \r
+
+        \  c.isUnitType && c.hasTag( Tag.GRAND ) )\r
+
+        if ( ! target ) return \r
+
+        const field = g.fx.card.lot!\r
+
+        if ( ! field.isUnitField ) return\r
+
+        g.op.sacrifice( g.fx.card )\r
+
+        g.op.deploy( target, field ) "
     active:
       ? eventName
       ? eventStatus
