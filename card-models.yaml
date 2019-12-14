@@ -181,6 +181,8 @@
   power: 2
   name: Double Attacker
   guid: f72d220f-ed76-72ac-648c-e1ef7b2744ec
+  lore: sdffsdffsa
+  notes: asdfasdf
 - id: 837
   slug: flip-swapper
   type: 0
