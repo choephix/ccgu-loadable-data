@@ -22,7 +22,8 @@
       eventStatus: null
       condition: g.get.adjacentUnits( g.fx.card ).length >= 2
       perform: g.pass.addTag( g.fx.card, Tag.INVULNERABLE )
-      allowedLots: null
+      allowedLots:
+        - unit-field
     passive:
       ? condition
       ? perform
