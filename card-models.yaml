@@ -2226,11 +2226,11 @@
       ? condition
       ? perform
     active:
-      ? eventName
-      ? eventStatus
-      ? condition
-      ? perform
-      ? allowedLots
+      eventName: UnitAttackDirect
+      eventStatus: began
+      condition: g.faq.isOpposingLane( g.event.card, g.fx.card )
+      perform: g.op.kill( g.event.card )
+      allowedLots: null
     passive:
       ? condition
       ? perform
