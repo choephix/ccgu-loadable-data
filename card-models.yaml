@@ -206,8 +206,10 @@
     active:
       eventName: HandleCommand
       eventStatus: ended
-      condition: g.event.command.type === "attack" && g.event.command.parameters.card!
-        === g.fx.card
+      condition: |-
+        g.event.command.type === "attack" && 
+          g.event.command.parameters.card! ===
+            g.fx.card
       perform: g.op.forceManualAttack( g.fx.card )
       allowedLots:
         - unit-field
