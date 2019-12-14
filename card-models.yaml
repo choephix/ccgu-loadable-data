@@ -2,6 +2,8 @@
   slug: flipouch
   type: 0
   description: "Flip: Take 1 damage."
+  lore: ""
+  notes: ""
   tags:
     &a1
     - sneak
@@ -27,8 +29,6 @@
     deploy:
       ? condition
   guid: b3dba8a0-17b9-532b-e7ac-e4922eb429e2
-  lore: ""
-  notes: ""
   name: flipouch
   power: 5
   c: ""
@@ -36,6 +36,8 @@
   slug: kamikazejoe
   type: 0
   description: I die after attacking
+  lore: ""
+  notes: ""
   tags:
     &a2
     - rush
@@ -63,8 +65,6 @@
     deploy:
       ? condition
   guid: da1d63dc-c3a5-7c69-49c4-148a17a842e0
-  lore: ""
-  notes: ""
   name: kamikazejoe
   power: 2
   c: ""
@@ -75,6 +75,8 @@
     IN-GRAVE
 
     At the beginning of your turn, if I am the topmost card in your grave, i return to your hand.
+  lore: ""
+  notes: ""
   tags:
     &a3
     - sneak
@@ -101,14 +103,14 @@
     deploy:
       ? condition
   guid: daf9dcb2-0b3e-772b-1538-1d88ab4dafcf
-  lore: ""
-  notes: ""
   power: 1
   name: Unkillable Barny
 - id: 830
   slug: --charger
   type: 0
   description: My power is raised by 1 every time I am relocated.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -138,6 +140,8 @@
   slug: --handy
   type: 0
   description: When I am summoned, you draw 2 cards and the enemy draws 3 cards.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -167,6 +171,10 @@
   slug: swapper
   type: 0
   description: ""
+  lore: I can relocate to an occupied creature field on your side, by swapping
+    places with the creature there. This does not count as relocation for the
+    other creature.
+  notes: ""
   tags:
     - swapper
   rarity: 0
@@ -193,13 +201,12 @@
   guid: 2c064020-07e5-d2da-ed69-734025104d9f
   name: The Swapper
   power: 3
-  lore: I can relocate to an occupied creature field on your side, by swapping
-    places with the creature there. This does not count as relocation for the
-    other creature.
 - id: 48
   slug: shisno
   type: 0
   description: ""
+  lore: "[n.] Skunk's poo's poo"
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -224,11 +231,13 @@
       ? condition
   guid: eed4c9e2-1f79-01f7-1113-d2b4772c6173
   name: shisno
-  lore: "[n.] Skunk's poo's poo"
 - id: 835
   slug: flappy-bird
   type: 0
   description: ""
+  lore: |
+    Can both attack and move before exhausting.
+  notes: ""
   tags:
     - swift
   rarity: 0
@@ -255,13 +264,13 @@
   power: 2
   name: Flappy Bird
   guid: a9fb5b3c-0c8a-a10c-6a8c-8ed91952bc46
-  lore: |
-    Can both attack and move before exhausting.
 - id: 768
   slug: doubleattacker
   type: 0
   description: After I finish an attack, if I am still in play I automatically perform
     another attack.
+  lore: ""
+  notes: ""
   tags:
     - doubleatk
   rarity: 0
@@ -292,12 +301,15 @@
   power: 2
   name: Double Attacker
   guid: f72d220f-ed76-72ac-648c-e1ef7b2744ec
-  lore: ""
-  notes: ""
 - id: 837
   slug: flip-swapper
   type: 0
   description: ""
+  lore: >
+    I can relocate to an occupied creature field on your side, by swapping
+    places with the creature there. This does not count as relocation for the
+    other creature.
+  notes: ""
   tags:
     - swapper
     - sneak
@@ -325,15 +337,13 @@
   power: 3
   name: The Swapper
   guid: 2c064020-07e5-d2da-ed69-734025104d9f
-  lore: >
-    I can relocate to an occupied creature field on your side, by swapping
-    places with the creature there. This does not count as relocation for the
-    other creature.
 - id: 572
   slug: bosstrap
   type: 1
   description: When opposing enemy $unit with 10 power or above, when it begins a direct
     attack - destroy it.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -363,6 +373,8 @@
   slug: sensho
   type: 0
   description: Cannot begin attack while there is no opposing enemy creature
+  lore: (duplicate of man-of-honor)
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -388,11 +400,12 @@
   power: 7
   name: sensho
   guid: 1b791f5c-5beb-3c99-cf5d-66c92260e761
-  lore: (duplicate of man-of-honor)
 - id: 949
   slug: dep
   type: 0
   description: Every time the enemy takes damage, I lose power equal to that damage
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -425,6 +438,8 @@
   description: |-
     Activate after opposite enemy unit attacks. 
     End the enemy's turn immeadiately.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -459,6 +474,8 @@
 
 
     (so, this will always be on the other side? wtf?)
+  lore: ""
+  notes: ""
   tags: []
   rarity: 2
   pdc: null
@@ -489,6 +506,8 @@
   type: 1
   description: When opposing grand unit is deployed, while you have no unit on your side -
     take control of that unit until the end of your turn
+  lore: ""
+  notes: ""
   tags: []
   rarity: 10
   pdc: null
@@ -520,6 +539,8 @@
   description: |-
     Activate at enemy turn start
     Opp unit with pow higher than you lp cannot attack
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -549,6 +570,8 @@
   slug: dxm-traphole
   type: 1
   description: When opp unit with power higher or equal to your lp attacks - destroy it
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -580,6 +603,8 @@
   description: |-
     On deploy: gain 2lp
     On death by combat: lose 2lp
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -611,6 +636,8 @@
   description: |-
     On deploy: gain 5 lp
     On death by combat: lose 15lp
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -641,6 +668,8 @@
   type: 1
   description: On opp atk vs ally - destroy both; both players take dmg equal to enemy
     unit's pwr
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -671,6 +700,8 @@
   slug: gluey-cuckoo
   type: 0
   description: "Combat-flip: if no allies - kill opposing unit"
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -701,6 +732,8 @@
   slug: giant-woodcock
   type: 0
   description: While there are no allies - pwr is 13
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -730,6 +763,8 @@
   slug: piercer7
   type: 0
   description: ""
+  lore: ""
+  notes: ""
   tags:
     - piercing
     - grand
@@ -761,6 +796,8 @@
   slug: obese-kiwi
   type: 0
   description: At enemy tyrn start - destroy opposite face-up trap.
+  lore: ""
+  notes: ""
   tags:
     - piercing
     - grand
@@ -797,6 +834,8 @@
 
 
     After that, at the end of the turn, destroy this card and your unit.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -826,6 +865,8 @@
   slug: irradiated-pika
   type: 0
   description: At the start of your opponent's turn - opposite enemy unit loses 3 power
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -855,6 +896,8 @@
   slug: powerdown-1
   type: 0
   description: On deploy - opposite enemy unit loses 6 power
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -886,6 +929,8 @@
   type: 1
   description: After your unit is destroyed, deploy the first unit found in the enemy
     graveyard
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -916,6 +961,8 @@
   type: 1
   description: After direct attack against you on this lane finishes, deploy a token (5
     power)
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -946,6 +993,8 @@
   type: 1
   description: If possible, after direct attack against you on this lane finishes, deploy a
     token and raise its power by the damage amount
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -976,6 +1025,8 @@
   type: 1
   description: After direct attack against you on this lane finishes, deploy the first unit
     found in your graveyard
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -1005,6 +1056,8 @@
   slug: repairable-mongrel
   type: 0
   description: "combat-flip: all ally units gain 2 power"
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -1037,6 +1090,8 @@
   description: |-
     opposite enemy unit has piercing
     until the end of the turn
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -1071,6 +1126,8 @@
     Set the power of ally unit on this lane to exactly 8 while there is an opposite enemy unit
 
     When there is no enemy unit on this lane, destroy this trap.
+  lore: ""
+  notes: ""
   tags:
     - persistent
   rarity: 0
@@ -1101,6 +1158,8 @@
   slug: abased-nilgai
   type: 0
   description: adjecent units have +3 power
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -1130,6 +1189,8 @@
   slug: buoyant-pewee
   type: 0
   description: adjecent units have +2 power
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -1159,6 +1220,8 @@
   slug: pennywise-mussel
   type: 1
   description: when opp unit atks - set its power to exactly 10
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -1188,6 +1251,8 @@
   slug: flip-turn-ender
   type: 0
   description: "combat-flip: End the current turn."
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -1218,6 +1283,8 @@
   slug: 3a9064a6
   type: 0
   description: +13 power while there is an opposite enemy unit
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -1248,6 +1315,8 @@
   slug: literate-puffer
   type: 0
   description: +3 power, while there is an opposing enemy trap
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -1277,6 +1346,8 @@
   slug: 78d2e0e9
   type: 0
   description: My power equals the amount of cards in your grave.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -1307,6 +1378,8 @@
   slug: busying-steer
   type: 0
   description: +1 power for each trap on either side.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -1336,6 +1409,8 @@
   slug: lost-beaver
   type: 0
   description: +2 power for each enemy trap
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -1365,6 +1440,8 @@
   slug: mild-whooper
   type: 0
   description: +2 power for each friendly trap
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -1395,6 +1472,8 @@
   type: 1
   description: Activate when your opponent draws a card. Until the end of their turn, every
     time they draw a card, you draw a card as well.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: -1
@@ -1429,6 +1508,8 @@
     unit card. 
 
     Resurrect it on your side at this column.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: -1
@@ -1459,6 +1540,8 @@
   slug: taunt
   type: 1
   description: Activate when opposing enemy unit is deployed and force it to attack.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 6
   pdc: -1
@@ -1494,6 +1577,8 @@
   type: 1
   description: Activate when an enemy unit is deployed and the opposing unit field is
     empty. Move the unit there.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: -1
@@ -1524,6 +1609,8 @@
   slug: wandering-kyle
   type: 0
   description: "On death: enemy is healed for %4 hp"
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: -1
@@ -1554,6 +1641,8 @@
   slug: effaceable-kissingbug
   type: 0
   description: "#Grand On death: enemy is healed for %10 hp"
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -1581,10 +1670,12 @@
   power: 14
   c: ""
   guid: 0150cb46-5ae5-249d-32b3-fe089acf39fd
-- id: 888
+- id: 857
   slug: relokill
   type: 1
   description: Activate when opposing enemy unit starts relocation. Kill it.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: -1
@@ -1615,6 +1706,8 @@
   slug: lockhead
   type: 0
   description: "#Grand The opposing enemy field is locked while I am in play"
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -1647,6 +1740,8 @@
   type: 1
   description: Activate when opposing enemy $trap activates. Before the effect, destroy it
     and all units on my lane.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: -1
@@ -1678,6 +1773,8 @@
   type: 0
   description: "#Grand Before any trap on either side activates - destroy it. If so, I die
     at the end of that turn."
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -1710,6 +1807,8 @@
   type: 0
   description: "#Grand When opposing enemy unit attacks, I return to your hand. The attack
     continues."
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -1741,6 +1840,8 @@
   slug: toxicmine
   type: 1
   description: Activate when opposing enemy unit is deployed. Decrease its power by
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: -1
@@ -1778,6 +1879,8 @@
   slug: autoatk
   type: 0
   description: I perform a free attack when deployed
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: -1
@@ -1809,6 +1912,8 @@
   type: 1
   description: "#Persistent. Activate when $enemy's turn begins. When you deploy a unit on
     this lane, give it storm and destroy this trap."
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: -1
@@ -1842,6 +1947,8 @@
     When I am $deployed - end your turn.
 
     Whenever any other $unit is about to be $deployed, give it Storm until turn end.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -1876,6 +1983,8 @@
     When I am $deployed - end your turn.
 
     Whenever any other $unit is about to be $deployed, give it Storm until turn end.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: -1
@@ -1906,6 +2015,8 @@
   slug: needsmotivation
   type: 0
   description: Increase my $power by %2 for every $friendly adjacent $unit.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: -1
@@ -1936,6 +2047,8 @@
   slug: eggshell
   type: 0
   description: ""
+  lore: Use me as surprise tribute.
+  notes: ""
   tags:
     - rush
   rarity: 0
@@ -1963,11 +2076,12 @@
   power: 0
   c: ""
   guid: c7bfa796-fdc8-b69e-659d-d2d29bfb0824
-  lore: Use me as surprise tribute.
 - id: 938
   slug: lonely-golem
   type: 0
   description: "#Grand The moment there are no other $friendly $units - I $die."
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -2000,6 +2114,8 @@
   type: 0
   description: "#Grand I do not need a $tribute to be $deployed if there are no $friendly
     $units $in-play."
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -2031,6 +2147,8 @@
   slug: epic-tortoise
   type: 0
   description: "#Grand After I $attack, I am $asleep until your next turn-end."
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -2062,6 +2180,8 @@
   slug: sloth-wyrm
   type: 0
   description: "#Grand I am $asleep for three turns after being deployed."
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -2089,10 +2209,12 @@
   power: 15
   c: ""
   guid: 54906067-1fd6-f6bb-cd8d-4b03141e3efe
-- id: 889
+- id: 819
   slug: killonattack
   type: 1
   description: Activate after opposing enemy $unit finishes a direct attack. $Kill it.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: -1
@@ -2123,6 +2245,8 @@
   slug: free-jimmy
   type: 0
   description: Activate when I am deployed. Raise your $AP by %1.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: -1
@@ -2154,6 +2278,8 @@
   type: 1
   description: Activate when opposing enemy $unit is $deployed face-down. Flip it face-up,
     ignoring any flip-effects.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: -1
@@ -2184,6 +2310,8 @@
   slug: punishtrap
   type: 1
   description: Activate when opposing enemy $trap activates. Deal %3 damage to opponent.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: -1
@@ -2216,6 +2344,8 @@
   description: |-
     Activate when you are dealt direct damage by the opposing enemy $unit.
     Destroy all enemy $units with $power lower than that damage.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: -1
@@ -2247,6 +2377,8 @@
   type: 0
   description: "#Grand After I am attacked by enemy $unit, if I'm still in play, I return
     to my owner's hand."
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -2278,6 +2410,8 @@
   slug: antisocial-knight
   type: 0
   description: My power is decreased by 3 for every other friendly $unit $in-play.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: -1
@@ -2317,6 +2451,8 @@
   description: |-
     Combat Flip: 
     Take 5 damage.
+  lore: ""
+  notes: ""
   tags: *a1
   rarity: 0
   pdc: -1
@@ -2347,6 +2483,8 @@
   slug: vampirefang
   type: 0
   description: Any direct damage I deal in $combat, is added to your $health.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: -1
@@ -2377,6 +2515,8 @@
   slug: spearhead
   type: 0
   description: ""
+  lore: ""
+  notes: ""
   tags:
     - piercing
   rarity: 0
@@ -2408,6 +2548,8 @@
   slug: honoraro
   type: 0
   description: "#Grand Adjacent friendly $units's power is raised by %2."
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -2439,6 +2581,8 @@
   slug: nimbleguard
   type: 0
   description: When an enemy $unit is $deployed, if possible, move me in front of it.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: -1
@@ -2482,6 +2626,8 @@
   slug: elijah
   type: 0
   description: My $power is raised by %4 during the enemy's turn
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: -1
@@ -2512,6 +2658,8 @@
   slug: joshua
   type: 0
   description: My $power is raised by %3 during your turn.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: -1
@@ -2542,6 +2690,8 @@
   slug: cardfactory1
   type: 0
   description: "#Grand Draw a card at the end of your turn"
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -2573,6 +2723,8 @@
   slug: fateforward
   type: 0
   description: "Combat-Flip: Both $players draw %2 cards"
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -2610,6 +2762,8 @@
   slug: fragmine
   type: 0
   description: I die after combat
+  lore: ""
+  notes: ""
   tags:
     - sneak
     - noattack
@@ -2646,6 +2800,8 @@
   slug: shield2
   type: 0
   description: "Combat-Flip: Die"
+  lore: ""
+  notes: ""
   tags:
     - sneak
     - noattack
@@ -2679,6 +2835,8 @@
   slug: shield1
   type: 0
   description: ""
+  lore: ""
+  notes: ""
   tags:
     - sneak
     - noattack
@@ -2711,6 +2869,8 @@
   slug: token-summoner4
   type: 0
   description: When I die, $deploy @token0 in my place
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: -1
@@ -2742,6 +2902,8 @@
   type: 0
   description: "#Grand The moment there are no other friendly $units and no opposing enemy
     $unit, I move to the enemy's side"
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -2773,6 +2935,8 @@
   slug: man-of-honor
   type: 0
   description: I cannot attack if there is no opposing enemy $unit
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: -1
@@ -2806,6 +2970,8 @@
   description: "#Grand I cannot be $deployed manually while you have less than %3 $units in
     play (tribute included)\rWhen I die, destroy all other friendly $units in
     play"
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -2838,6 +3004,8 @@
   type: 0
   description: "#Grand When I am $deployed, if there is an opposing enemy $unit, I do not
     suffer $summon-exhaustion."
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -2870,6 +3038,8 @@
   type: 0
   description: "#GrandRaise my $power by the combined base $power of my adjacent friendly
     $units."
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -2902,6 +3072,8 @@
   type: 0
   description: "When I am $deployed, if possible:\rIf @ed is in play, add @edd from your
     deck to your hand.\rIf @edd is in play, add @ed from your deck to your hand"
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: 46b0d909-5211-4e82-9346-fdbec164e9b4
@@ -2934,6 +3106,8 @@
   description: "When I am $deployed, if possible:\rIf @ed is in play, add @eddy from your
     deck to your hand.\rIf @eddy is in play, add @ed from your deck to your
     hand"
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: 35166c93-b75d-4397-ac8e-90da60e31da8
@@ -2966,6 +3140,8 @@
   description: "When I am $deployed, if possible:\rIf @edd is in play, add @eddy from your
     deck to your hand.\rIf @eddy is in play, add @edd from your deck to your
     hand"
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: a3740bf5-2ac0-40a8-a290-ae70e8ba1b86
@@ -2998,6 +3174,8 @@
   description: |-
     I attack automatically on at the start of your turn.
     This counts as a manual attack to my $action-exhaustion.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: -1
@@ -3029,6 +3207,8 @@
   slug: mercenery
   type: 0
   description: Take 1 direct damage every time I begin an attack.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: -1
@@ -3060,6 +3240,8 @@
   slug: wall
   type: 0
   description: ""
+  lore: ""
+  notes: ""
   tags:
     - noattack
     - nomove
@@ -3092,6 +3274,8 @@
   slug: kamikazejoe-original
   type: 0
   description: I automatically attack when $deployed. I die after $combat.
+  lore: ""
+  notes: ""
   tags: *a2
   rarity: 0
   pdc: -1
@@ -3122,6 +3306,8 @@
   slug: harassingmia
   type: 0
   description: I return to your hand at the end of your turn.
+  lore: ""
+  notes: ""
   tags:
     - rush
     - notribute
@@ -3155,6 +3341,8 @@
   slug: doe2
   type: 0
   description: ""
+  lore: Just a gal
+  notes: ""
   tags: []
   rarity: 0
   pdc: -1
@@ -3181,11 +3369,12 @@
   power: 5
   c: ""
   guid: d4b66f78-61e7-9b08-7e92-4be3e9b22e05
-  lore: Just a gal
 - id: 258
   slug: doe1
   type: 0
   description: ""
+  lore: Just a guy
+  notes: ""
   tags: []
   rarity: 0
   pdc: -1
@@ -3212,11 +3401,12 @@
   power: 5
   c: ""
   guid: 502b3b60-a6b9-9266-e0be-b1bb7c2be69a
-  lore: Just a guy
 - id: 257
   slug: doe0
   type: 0
   description: ""
+  lore: No one knows his name. No one ever asked him either.
+  notes: ""
   tags: []
   rarity: 0
   pdc: -1
@@ -3243,11 +3433,12 @@
   power: 5
   c: ""
   guid: c16dbe43-b08f-f7d5-2751-98d5e967b7c6
-  lore: No one knows his name. No one ever asked him either.
 - id: 525
   slug: mirrorforce
   type: 1
   description: Activate when opposing enemy $unit attacks. Kill it.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: -1
@@ -3278,6 +3469,8 @@
   slug: tripwire
   type: 1
   description: Activate when enemy $unit $relocates to opposing $field. Kill it.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: -1
@@ -3308,6 +3501,8 @@
   slug: traphole
   type: 1
   description: Activate when an opposing enemy $unit is $deployed. Kill it.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 8
   pdc: -1
@@ -3338,6 +3533,8 @@
   slug: flippers
   type: 0
   description: ""
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -3369,6 +3566,8 @@
   slug: grand10
   type: 0
   description: ""
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -3400,6 +3599,8 @@
   slug: generic5
   type: 0
   description: ""
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: -1
@@ -3430,6 +3631,8 @@
   slug: -kami
   type: 0
   description: ""
+  lore: op af
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -3456,11 +3659,12 @@
   power: 0
   c: ""
   guid: bb69140b-2741-9583-211c-11c9530119be
-  lore: op af
 - id: 36
   slug: -killany
   type: 1
   description: kill first unit deployed
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: -1
@@ -3491,6 +3695,8 @@
   slug: -infinitemana
   type: 0
   description: +1AP on any deployment. die on turn start.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: -1
@@ -3521,6 +3727,8 @@
   slug: -muchdraw
   type: 0
   description: Draw 6 cards when I am deployed.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -3551,6 +3759,8 @@
   slug: -wildgrand
   type: 0
   description: ""
+  lore: -- Whatever you wish, dude.... --
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -3578,11 +3788,12 @@
   power: 0
   c: ""
   guid: cf181319-3efd-47f6-8763-91456ada4de8
-  lore: -- Whatever you wish, dude.... --
 - id: 3
   slug: -wildsneak
   type: 0
   description: ""
+  lore: -- Whatever you wish, dude.... --
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -3610,11 +3821,12 @@
   power: 0
   c: ""
   guid: 656603c1-faf2-adbd-b788-c09377274053
-  lore: -- Whatever you wish, dude.... --
 - id: 5
   slug: -wildtrap
   type: 1
   description: ""
+  lore: -- Whatever you wish, dude.... --
+  notes: ""
   tags: []
   rarity: 0
   pdc: -1
@@ -3641,11 +3853,12 @@
   power: 0
   c: ""
   guid: 5ff639d9-708d-32c5-c7d6-8a2084f11adb
-  lore: -- Whatever you wish, dude.... --
 - id: 2
   slug: -wildunit
   type: 0
   description: ""
+  lore: -- Whatever you wish, dude.... --
+  notes: ""
   tags: []
   rarity: 0
   pdc: -1
@@ -3672,11 +3885,12 @@
   power: 0
   c: ""
   guid: e2f0d6e2-9212-6a9e-7b29-9e24413baa5c
-  lore: -- Whatever you wish, dude.... --
 - id: 33
   slug: -elvariablo
   type: 0
   description: Increase my power by %10 while @wall is in play on your side.
+  lore: ""
+  notes: ""
   tags:
     - token
     - swapper
@@ -3718,6 +3932,8 @@
   slug: token-5
   type: 0
   description: ""
+  lore: ""
+  notes: ""
   tags:
     - token
   rarity: 0
@@ -3749,6 +3965,8 @@
   slug: token-4
   type: 0
   description: ""
+  lore: ""
+  notes: ""
   tags:
     - token
   rarity: 0
@@ -3780,6 +3998,8 @@
   slug: token-3
   type: 0
   description: ""
+  lore: ""
+  notes: ""
   tags:
     - token
   rarity: 0
@@ -3811,6 +4031,8 @@
   slug: token-2
   type: 0
   description: ""
+  lore: ""
+  notes: ""
   tags:
     - token
   rarity: 0
@@ -3842,6 +4064,8 @@
   slug: token-1
   type: 0
   description: ""
+  lore: ""
+  notes: ""
   tags:
     - token
   rarity: 0
@@ -3873,6 +4097,8 @@
   slug: token-0
   type: 0
   description: ""
+  lore: ""
+  notes: ""
   tags:
     - token
   rarity: 0
@@ -3904,6 +4130,8 @@
   slug: token
   type: 0
   description: ""
+  lore: ""
+  notes: ""
   tags:
     - token
   rarity: 0
@@ -3936,6 +4164,8 @@
   type: 0
   description: While in your graveyard, at the end of the enemy's turn, put me at the top
     of your deck.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -3965,6 +4195,8 @@
   slug: all-out-johhny
   type: 0
   description: At the end of your turn discard all cards in your hand
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -3994,6 +4226,8 @@
   slug: handy-mike
   type: 0
   description: When I die - draw two cards.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -4023,6 +4257,8 @@
   slug: handy-tina
   type: 0
   description: When I am summoned, both players draw a card
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -4055,6 +4291,8 @@
     I cannot be summoned while you have no creatures in play.
     When I am summoned, life-link me to all other friendly creatures.
     When they die, I die.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -4087,6 +4325,8 @@
     I cannot be summoned while you have no creatures in play.
     When I am summoned, life-link me to all other friendly creatures.
     When they die, I die.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -4118,6 +4358,8 @@
   type: 0
   description: Before I attack, if possible flip opposing creature face-up, ignoring all
     combat-flip and safe-flip effects.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -4151,6 +4393,8 @@
     When I enter play:
 
     If possible both players take the bottom cards in their grave until they have 4 cards in their hands.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -4183,6 +4427,8 @@
   description: Activate when opposing enemy creature is being summoned. Lock the opposing
     creature field until the start of our next turn. If any creatures were
     sacrificed for the aborted summon, they do not return.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -4212,6 +4458,8 @@
   slug: pull-atker
   type: 1
   description: When any enemy unit begins an attack, pull it to this lane beforehand.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -4245,6 +4493,8 @@
     same lane.
 
     Destroy it.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 7
   pdc: null
@@ -4278,6 +4528,8 @@
     same lane.
 
     Destroy it, but take damage equal to its power.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 4
   pdc: null
@@ -4310,6 +4562,8 @@
     When I enter play:
 
     If possible both players take the bottom cards in their grave until they have 4 cards in their hands.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -4343,6 +4597,8 @@
     Combat-Flip:
 
     Destroy attacking creature and this card, but deal damage to yourself equal to enemy creature's power at the time of death.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -4373,6 +4629,8 @@
   slug: --doe3
   type: 0
   description: ""
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -4405,6 +4663,8 @@
     #persistent
 
     Activate at the start of the enemy's turn if you have no creatures in play. All empty enemy fields are locked until the end of their turn.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -4434,6 +4694,8 @@
   slug: --token-summoner4
   type: 0
   description: When I die, summon a 0 power token creature in my place.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -4467,6 +4729,8 @@
     (tribute included)
 
     When I die, destroy all other friendly creatures currently in play.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -4500,6 +4764,8 @@
     #persistent
 
     Activate when opposing enemy creature attacks. It becomes immobile. -2POW before this and every subsequent attack. Destroy this card when it leaves its field.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -4531,6 +4797,8 @@
   description: |-
     Safe-Flip
     Destroy all traps.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -4562,6 +4830,8 @@
   type: 0
   description: The moment there are no other friendly creatures and no opposing enemy
     creature, I move to the enemy's side.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -4594,6 +4864,8 @@
   description: |-
     Combat-Flip:
     If it's the enemy's turn - after the attack finishes, end their turn.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -4625,6 +4897,8 @@
   type: 0
   description: Before I attack, if possible flip opposing creature face-up, ignoring all
     combat-flip and safe-flip effects.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -4656,6 +4930,8 @@
   type: 0
   description: The next time another friendly creature should die from combat, destroy me
     instead.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -4686,6 +4962,8 @@
   type: 0
   description: At the end of your opponent's turn, if there is an opposing enemy creature I
     return to your hand.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -4715,6 +4993,8 @@
   slug: --magiresistent-tom
   type: 0
   description: While in-play, I cannot be destroyed in any way other than combat.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -4745,6 +5025,8 @@
   slug: --deathdraw
   type: 0
   description: When I die - draw 2 cards.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -4774,6 +5056,8 @@
   slug: --man-of_honor
   type: 0
   description: I cannot attack if there is no opposing enemy creature.
+  lore: (duplicate of man-of-honor)
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -4799,11 +5083,12 @@
   power: 7
   name: Man of Honor
   guid: 8dc335aa-06d2-b3ef-4553-bddddd781cf6
-  lore: (duplicate of man-of-honor)
 - id: 3423
   slug: --doe2
   type: 0
   description: ""
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -4833,6 +5118,8 @@
   slug: --doe1
   type: 0
   description: ""
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -4865,6 +5152,8 @@
 
     If there is no opposing enemy creature - I die.\rElse - move it to your
     side and combine it with me."
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -4897,6 +5186,8 @@
   description: |-
     Combat-Flip
     If possible resurrect the top card in your opponent's graveyard in my place.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -4929,6 +5220,8 @@
   description: |-
     Combat-Flip:
     Return attacking creature to its controller's hand.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -4961,6 +5254,8 @@
   description: "Combat-Flip:
 
     Return attacking creature to its controller's hand.\rDie"
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -4991,6 +5286,8 @@
   slug: --trapowered
   type: 0
   description: My power is raised by 1 for each trap card in your graveyard.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -5023,6 +5320,8 @@
   description: |-
     Safe-Flip
     Raise my power by 2 for each of your traps in play..
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -5053,6 +5352,8 @@
   slug: --trapthirster
   type: 0
   description: My power is raised by 2 for each enemy trap in play.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -5084,6 +5385,8 @@
   type: 0
   description: When I enter your graveyard - summon a 0 power tokens on each of your empty
     creature fields
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -5116,6 +5419,8 @@
   description: |-
     Combat-Flip
     My power is raised by 1 x your current mana until the end of your turn.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -5149,6 +5454,8 @@
     Safe-Flip
 
     Increase your current mana by 2 (without ignoring your current mana-capacity)
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -5181,6 +5488,8 @@
   description: |-
     Combat-Flip
     Enemy mana is instantly depleted.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -5212,6 +5521,8 @@
   type: 0
   description: |
     Cannot attack.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -5242,6 +5553,8 @@
   slug: --shield2
   type: 0
   description: "Cannot attack.\n\rCombat-Flip\rDie."
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -5274,6 +5587,8 @@
   description: |-
     Combat-Flip
     Both players draw 3 cads.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -5306,6 +5621,8 @@
   description: "Combat-Flip
 
     Return me to your hand.\r(the attack will continue)."
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -5337,6 +5654,8 @@
   type: 0
   description: When I am attacked by a weaker creature, the attack is aborted and I am
     destroyed.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -5369,6 +5688,8 @@
   description: |-
     Combat-Flip:
     Opposing enemy creature is stunned until the end of your turn.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -5401,6 +5722,8 @@
   description: |-
     Combat-Flip:
     Return all enemy traps to their controller's hand.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -5433,6 +5756,8 @@
   description: |-
     Safe-Flip:
     Destroy all enemy traps and end your turn.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -5463,6 +5788,8 @@
   slug: --socialgnome
   type: 0
   description: Raise my power by 1 for each friendly creature in play, other than me.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -5495,6 +5822,8 @@
   description: |-
     Safe-Flip
     You draw 2 cards.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -5528,6 +5857,8 @@
     Safe-Flip
 
     I die. If possible, summon in my place the first non-grand-creature found in the enemy graveyard.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -5560,6 +5891,8 @@
   description: |-
     Safe-Flip:
     Destroy me.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -5593,6 +5926,8 @@
     Safe-Flip
 
     If there is an opposing face-up creature with power higher than 0, I gain power equal to its current power minus 1.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -5626,6 +5961,8 @@
     Safe-Flip
 
     I die. If possible, summon in my place the first creature found in your graveyard that isn't me.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -5658,6 +5995,8 @@
   description: |-
     Combat-Flip
     My power increases by 5 until the end of this turn.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -5690,6 +6029,8 @@
   description: "Safe-Flip
 
     Die.\rIf there is an opposing enemy creature - move it to your side."
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -5722,6 +6063,8 @@
   description: |-
     Combat-Flip
     Heal your Life-Points by 4
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -5755,6 +6098,8 @@
     Safe-Flip
 
     Heal your Life-Points by an amount equal to the opposing enemy creature's power.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -5787,6 +6132,8 @@
   description: |-
     Safe-Flip
     If possible, tribute-summon @evo_flip_g from your deck or Hand in my place.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -5819,6 +6166,8 @@
   description: When I am attacked by a stronger creature, its controller discards from
     their deck the same amount of cards, as the difference in power between me
     and my attacker.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -5850,6 +6199,8 @@
   description: |-
     No other friendly creatures can attack.
     Increase my power by the combined power of all friendly creatures.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -5880,6 +6231,8 @@
   slug: --antisocial-knight
   type: 0
   description: My power is decreased by 3 for every other friendly creature card in play.
+  lore: ""
+  notes: dup
   tags: []
   rarity: 0
   pdc: null
@@ -5905,13 +6258,14 @@
   power: 9
   name: Antisocial Knight
   guid: 806bbd07-4d01-037a-7d6d-8db4ad262acd
-  notes: dup
 - id: 3175
   slug: --jake
   type: 0
   description: |-
     I can only be summoned by tributing a face-down creature card.
     (ignore any flip effect)
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -5943,6 +6297,8 @@
   type: 0
   description: After I am attacked by enemy creature, if I'm still in play, I return to my
     owner's hand.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -5974,6 +6330,8 @@
   type: 0
   description: At the end of your opponent's turn deal damage to them equal to the number
     of their occupied creature fields and decrease my power by 2.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -6004,6 +6362,8 @@
   slug: --mr-mirakul
   type: 0
   description: My power is raised by 4 for each occupied enemy creature field.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -6036,6 +6396,8 @@
   description: |-
     I cannot be summoned if you have any traps in play.
     My power is raised by 4 for each occupied friendly creature fields.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -6067,6 +6429,8 @@
   type: 0
   description: While I am in play, keep the top card in your deck face-up. I cannot attack
     while it is a creature.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -6098,6 +6462,8 @@
   type: 0
   description: My power is decreased by the combined power of every other face-up friendly
     creature card in play
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -6129,6 +6495,8 @@
   type: 0
   description: When I attack, all adjacent friendly creatures attack as well. Their attacks
     are still considered manual (they get exhausted)
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -6159,6 +6527,8 @@
   slug: --traprage
   type: 0
   description: My power rises by 1 each time a trap starts activation.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -6190,6 +6560,8 @@
   type: 0
   description: Raise my power by 1 each time a card goes to any graveyard. This effect
     resets after I finish an attack (successfully or not).
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -6221,6 +6593,8 @@
   type: 0
   description: When I am attacked by enemy creature, permanently decrease its power by the
     amount of your current mana.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -6252,6 +6626,8 @@
   type: 0
   description: Each time I battle, decrease the enemy's current mana and current mana
     capacity by one.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -6282,6 +6658,8 @@
   slug: --mana-beast
   type: 0
   description: My power is raised by your current mana multiplied by 3.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -6313,6 +6691,8 @@
   type: 0
   description: While I am in play and it's the end of your opponent's turn every enemy
     creature in play performs a free attack.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -6346,6 +6726,8 @@
     Cannot attack.
 
     At the start of the enemy turn, if the opposing enemy creature can attack me, it performs a free attack.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -6376,6 +6758,8 @@
   slug: --dual-force_spirit
   type: 0
   description: Raise my power by the combined base power of my adjacent friendly creatures.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -6406,6 +6790,8 @@
   slug: --shy-warrior
   type: 0
   description: I cannot attack while there is an adjacent friendly creature.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -6437,6 +6823,8 @@
   type: 0
   description: Increase my power by the combined power of the top cards in both graveyards
     (for non creature cards use 0)
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -6470,6 +6858,8 @@
 
     At the end of your turn, put me at the top of your deck face-up.\r\r(too
     bad if its your only card)"
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -6502,6 +6892,8 @@
   description: |-
     WHILE IN YOUR HAND
     At the end of your turn, discard me.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -6532,6 +6924,8 @@
   slug: --paulgrand2
   type: 0
   description: I do not suffer summon exhaustion.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -6562,6 +6956,8 @@
   slug: --magiresistent-thomas
   type: 0
   description: While in-play, I cannot be destroyed in any way other than combat.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -6592,6 +6988,8 @@
   slug: --flappy-rooster
   type: 0
   description: I can both attack and move before exhausting.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -6625,6 +7023,8 @@
 
     When I am summoned, life-link me to all other friendly creatures.\rWhen
     they die, I die."
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -6658,6 +7058,8 @@
     I cannot be summoned manually while you have less than 3 creatures in play.
     (tribute included)
      When I enter play - destroy all other friendly creatures.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -6688,6 +7090,8 @@
   slug: --unstable-mech
   type: 0
   description: When I am attacked by a weaker creature, destroy both it and me.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -6721,6 +7125,8 @@
     I cannot be summoned on a field with no opposing enemy creature. 
 
     When I am summoned, life link me to the opposing enemy creature and vice-versa
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -6751,6 +7157,8 @@
   slug: --devouerer
   type: 0
   description: When I kill a creature, raise my power by its power.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -6781,6 +7189,8 @@
   slug: --general
   type: 0
   description: I can only be summoned when you have no empty creature fields.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -6811,6 +7221,8 @@
   slug: --the-blood_king
   type: 0
   description: "When I am manually summoned, my controller takes 7 direct damage. "
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -6842,6 +7254,8 @@
   type: 0
   description: The moment there are no adjacent friendly creatures I return to my
     controller's hand.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -6874,6 +7288,8 @@
   description: |-
     When I kill a creature in combat, add its current power to mine.
     I do not suffer from summon-exhaustion.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -6904,6 +7320,8 @@
   slug: --the-good_king
   type: 0
   description: ""
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -6935,6 +7353,8 @@
   type: 0
   description: Every time I battle an enemy creature, the power difference is dealt as
     direct damage to the weaker creature's controller.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -6966,6 +7386,8 @@
   type: 0
   description: Every time I battle an enemy creature with lower power, deal the difference
     as direct damage to its controller.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -6997,6 +7419,8 @@
   type: 0
   description: When I enter play, destroy all face-up creatures in play with power lower
     than mine.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -7029,6 +7453,8 @@
   description: |-
     My summon-exhaustion lasts 3 turns instead of one.
     (I cannot attack, move, or be tributed while I am exhausted)
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -7059,6 +7485,8 @@
   slug: --epic-tortoise
   type: 0
   description: After each attack, I am stunned for one turn
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -7090,6 +7518,8 @@
   type: 0
   description: While the enemy has more Life Points than you do, my power is raised by the
     difference.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -7120,6 +7550,8 @@
   slug: --grand-dk
   type: 0
   description: When I attack - deal 2 damage to your Life Points.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -7151,6 +7583,8 @@
   type: 0
   description: I do not need a tribute to be summoned if there are no friendly creatures in
     play.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -7181,6 +7615,8 @@
   slug: --lonely-golem
   type: 0
   description: The moment there are no other friendly creatures - I die.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -7211,6 +7647,8 @@
   slug: --for-a_lid
   type: 0
   description: End your turn automatically after you manually summon me.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -7241,6 +7679,8 @@
   slug: --drawrager
   type: 0
   description: Increase my power by 1 every time the opponent draws a card.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -7271,6 +7711,8 @@
   slug: --grandegrand
   type: 0
   description: I can only be summoned by tributing another grand-creature
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -7303,6 +7745,8 @@
   slug: --finalrage
   type: 0
   description: My power is raised by 6 while you have 3 or less Life Points.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -7332,6 +7776,8 @@
   slug: --serious
   type: 0
   description: Increase my power by 2 every time a new enemy creature is summoned.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -7362,6 +7808,8 @@
   slug: --ritual-c_f3
   type: 0
   description: I cannot be summoned manually.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -7392,6 +7840,8 @@
   slug: --ritual-c_f1
   type: 0
   description: I cannot be summoned manually.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -7422,6 +7872,8 @@
   slug: --evo-g_f1
   type: 0
   description: Cannot be summoned in any way other than by successfully tributing @evo_a_f1
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -7452,6 +7904,8 @@
   slug: --evo-g_f2
   type: 0
   description: Cannot be summoned in any way other than by successfully tributing @evo_a_f2
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -7482,6 +7936,8 @@
   slug: --evo-g_f3
   type: 0
   description: Cannot be summoned in any way other than by successfully tributing @evo_a_f3
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -7512,6 +7968,8 @@
   slug: --serious2
   type: 0
   description: Increase my power by 1 every time a new creature is summoned.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -7543,6 +8001,8 @@
   type: 0
   description: I do not need a tribute to be summoned if you have no other cards in your
     hand.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -7574,6 +8034,8 @@
   type: 0
   description: I do not need a tribute to be summoned if there are no empty enemy creature
     fields and you have no traps.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -7607,6 +8069,8 @@
 
     Destroy all cards in play (including me). \rYou take direct damage equal
     to half your LP rounded down."
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -7639,6 +8103,8 @@
   description: |-
     I can not be summoned if you have other cards in your hand.
     On summon: Destroy all cards in play on both sides (including me).
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -7673,6 +8139,8 @@
     play.
 
     On summon: Destroy all creatures in play on both sides, including me.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -7704,6 +8172,8 @@
   type: 0
   description: At the begining of your own turn if there is an opposing enemy creature
     destroy it. Return me to your hand.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -7737,6 +8207,8 @@
     friendly @ace1_lvl2 in play.
 
     I only be destroyed via combat.\r"
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -7768,6 +8240,8 @@
   type: 0
   description: I cannot be summoned in any way other than normal-summon by tributing a
     friendly @ace1_lvl1 in play.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -7798,6 +8272,8 @@
   slug: --evo-flip_g
   type: 0
   description: I cannot be manually summoned.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -7830,6 +8306,8 @@
   description: "I cannot be summoned manually.
 
     \rWhile I am in play, if @vendeto is not in your graveyard, destroy me."
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -7860,6 +8338,8 @@
   slug: --com-g0_0
   type: 0
   description: Combines with G0
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -7890,6 +8370,8 @@
   slug: --ritual-c_f2
   type: 0
   description: I cannot be summoned manually.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -7921,6 +8403,8 @@
   type: 0
   description: When I die, if there are no other friendly creatures, send me to my
     controller's hand instead of the graveyard.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -7954,6 +8438,8 @@
     higher than your LP. 
 
     Both players summon to each empty creature field on their side, the first creature they can from their graveyard.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -7984,6 +8470,8 @@
   type: 1
   description: Activate when opposing enemy creature is summoned end there is a friendly
     creature on your side. Life-link enemy creature to yours.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -8016,6 +8504,8 @@
     #persistent
 
     Activate only when opposing enemy creature attacks you directly, with power higher than your LP.  Destroy all cards in play and set both players' Life Points to 2.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -8045,6 +8535,8 @@
   slug: --move-trap_hole
   type: 1
   description: When enemy creature relocates to the opposing field, instantly destroy it .
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -8075,6 +8567,8 @@
   type: 1
   description: Activate when you are about to receive fatal damage. That damage becomes 0
     and you draw 1 card.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -8107,6 +8601,8 @@
     #persistent
 
     Activate when there is no friendly creature on this column and you receive direct damage for any reson. Summon me as a creature on the same column, with power equal to that damage.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -8136,6 +8632,8 @@
   slug: --waste
   type: 1
   description: When an opposing enemy creature is summoned, return it to the enemy's hand.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -8166,6 +8664,8 @@
   type: 1
   description: When an opposing enemy creature is summoned face-up, return it to the top of
     the opponen's deck.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -8196,6 +8696,8 @@
   type: 1
   description: When an opposing enemy creature is summoned face-down, return it to the top
     of the opponen's deck.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -8228,6 +8730,8 @@
     #persistent
 
     Activate me when opponent safe-flips opposing enemy creature - flip it back face-down. Enemy player cannot safe-flip creatures while I am in play. Destroy me at the end of the turn.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -8258,6 +8762,8 @@
   type: 1
   description: Activate when opposing enemy creature dies during the enemy turn. Destroy
     all face-up enemy creatures.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -8290,6 +8796,8 @@
     #persistent
 
     Activate me when enemy turn starts and there is an opposing enemy creature. At the end of their turn, if there is still an opposing enemy creature, force it to attack.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -8320,6 +8828,8 @@
   type: 1
   description: Activate when opposing enemy creature is summoned and there is a friendly
     creature on your side with equal or greater power. Swap creatures.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -8350,6 +8860,8 @@
   type: 1
   description: Activate when an opposing enemy creature is summoned. The opponent loses all
     mana.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -8380,6 +8892,8 @@
   type: 1
   description: Activate when an opposing enemy non-grand-creature is summoned face-up and
     you have no creature on the same column. Move it to your side.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -8412,6 +8926,8 @@
     #persistent
 
     Activate me before the start of the enemy's turn. Draw 1 card every time an enemy creature is summoned. Destroy this card at the end of the turn.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -8442,6 +8958,8 @@
   type: 1
   description: When an opposing enemy creature starts a direct attack, summon a 0 powered
     token on every empty field on both sides
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -8472,6 +8990,8 @@
   type: 1
   description: Activate when your own creature dies. All face-up creatures in play with
     power equal or lower than it are also destroyed
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -8504,6 +9024,8 @@
     #persistent
 
     Activate when an opposing enemy creature is summoned and you have no creature the same column. Move that creature to your side. At the end of your turn destroy me. When I am destroyed, return affected creature to its owner's hand.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -8534,6 +9056,8 @@
   type: 1
   description: Activate before the start of your turn if you have 0 cards in your hand.
     Draw 4 cards
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -8565,6 +9089,8 @@
   description: Activate when opposing enemy creature starts an attack. If possible, summon
     @ritual_c_f2 from your hand on your own side of this column. If there is a
     friendly creature there, destroy it, but add its current attack to %%0.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -8595,6 +9121,8 @@
   type: 1
   description: Activate when opposing enemy creature attacks your creature. Destroy both
     creatures instantly.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -8625,6 +9153,8 @@
   type: 1
   description: Activate when opposing enemy creature is successfully summoned face-up.
     Destroy all faceup  creatures with lower power than it.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -8657,6 +9187,8 @@
     #persistent
 
     Activate when opposing enemy creature attacks. That creature cannot attack while this card is in play. Destroy me when that creature leaves its field.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -8689,6 +9221,8 @@
     #persistent
 
     Activate me before the start of the enemy's turn. Draw 1 card every time an enemy creature attacks. Destroy me at the end of the turn.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -8721,6 +9255,8 @@
     #persistent
 
     Activate when a friendly creature on this column is attacked. Its power becomes that of the strongest friendly creature adjacent to it while I am in play. Destroy me at the end of the turn.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -8751,6 +9287,8 @@
   type: 1
   description: Activate when a friendly monster on the same column is about to die during
     the enemy's turn. Put that creature in your hand instead.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -8783,6 +9321,8 @@
     #persistent
 
     Activate when opposing enemy creature begins a direct attack. Resurrect the first creature in your graveyard that can be summoned at this column (if any). This card and that creature are linked.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -8813,6 +9353,8 @@
   type: 1
   description: Activate the moment you have no creatures in play and it is the enemy's
     turn. Summon a 0 power token on each of your empty fields.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -8843,6 +9385,8 @@
   type: 1
   description: Activate when opposing enemy creature attacks your creature.  Negate the
     attack and take direct damage equal to the enemy creature's power.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -8875,6 +9419,8 @@
     #persistent
 
     When opposing enemy creature is used as a tribute to summon a Grand creature, lock the field under them for as long as this card is in play. Destroy this card at the end of the turn.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -8907,6 +9453,8 @@
     #persistent
 
     Activate at the begining of next enemy turn. At the end of that turn if this card is still in play and there is an opposing enemy creature, destroy it.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -8939,6 +9487,8 @@
     #persistent
 
     Activate me before the start of the enemy's turn. At the end of that turn destroy me and heal your LP for the amount of the combined ATK of every enemy creature that could but did not attack this turn.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -8971,6 +9521,8 @@
     #persistent
 
     Activate me before the start of the enemy's turn. Draw 1 card every time the enemy draws a card. Destroy me at the end of the turn.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -9001,6 +9553,8 @@
   type: 1
   description: Activate the momoent you have no cards in your deck. Both players add their
     graveyards to their decks and shuffle them.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -9031,6 +9585,8 @@
   type: 1
   description: Activate when an opposing enemy creature is summoned and there is a freindly
     creature on your side of it. Your creature performs a free attack.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -9061,6 +9617,8 @@
   type: 1
   description: Activate when opposing enemy creature attacks your creature. Raise your
     creature's power by 2.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -9091,6 +9649,8 @@
   type: 1
   description: Activate when opposing enemy creature starts direct attack. If possible,
     summon @ritual_c_f3 from your hand on your own side of this column.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -9123,6 +9683,8 @@
     #persistent
 
     Activate when opposing enemy creature attacks your creature. Decrease enemy creature's power by 3 while this card is in play. Destroy this card when that creature leaves play.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -9153,6 +9715,8 @@
   type: 1
   description: Activate when opposing enemy creature attacks your creature. Raise your
     creature's power by 5 until the end of this turn.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -9183,6 +9747,8 @@
   type: 1
   description: Activate when opposing enemy creature attacks your creature. Decrease enemy
     creature's power by 5 until the end of this turn.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -9215,6 +9781,8 @@
     #persistent
 
     I activate when you are about to receive direct damage during the enemy's turn. All direct damage to all players is converted to healing damage. Destroy me at the end of your own turn.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -9246,6 +9814,8 @@
   description: Activate when friendly  creature on this column dies during the enemy's
     turn. If possible, summon @ritual_c_f1 from your hand in its place and raise
     its power by double the base power of the dead creature.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -9276,6 +9846,8 @@
   type: 1
   description: This card has the condition and effect of the top card in your graveyard, so
     long as it is a trap.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -9306,6 +9878,8 @@
   type: 1
   description: Activate when opposing enemy creature attacks. Enemy player discards cards
     from their deck equal to the number of cards in their hand.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -9338,6 +9912,8 @@
     #persistent
 
     Activate at the start of your opponent's turn. Every time they spend mana, they also discard the top 3 cards in their deck Destroy me at the end of that turn.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -9368,6 +9944,8 @@
   type: 1
   description: Activate when you are about to receive fatal direct damage from opposing
     enemy creature's attack. Convert it to healing damage.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -9398,6 +9976,8 @@
   type: 1
   description: Activate when a friendly creature on this column is about to die from
     combat. Gain LP equal to its power.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -9428,6 +10008,8 @@
   type: 1
   description: Activate when opposing enemy creature attacks you directly. Return it to its
     owner's hand.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -9460,6 +10042,8 @@
     #persistent
 
     Activate at the start of the enemy's turn. They draw a free card. At the end that turn, the enemy discards their hand, and you destroy this card.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -9490,6 +10074,8 @@
   type: 1
   description: Activate when opposing enemy creature starts a direct attack. Enemy player
     discards cards from their deck equal to that creature's power.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -9521,6 +10107,8 @@
   description: Activate when opposing enemy creature attacks. Any enemy creature on this
     column is immobile and gets -1POW at the beginning of this and each
     subsequent attack. Destroy this card when the opposing enemy field is empty.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -9551,6 +10139,8 @@
   type: 0
   description: While in your graveyard, at the end of the enemy's turn, put me at the top
     of your deck.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -9580,6 +10170,8 @@
   slug: --ace1-lvl1
   type: 0
   description: ""
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -9611,6 +10203,8 @@
   description: |-
     While I am in play, all traps are destroyed upon activation
     (negating their effect), but you take 2 direct damage for each one.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -9642,6 +10236,8 @@
   type: 0
   description: Raise my power by 2 each time an enemy creature is destroyed. This effect
     resets after I finish an attack (successfully or not).
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -9674,6 +10270,8 @@
     I cannot move.
 
     When I am attacked by an enemy creature, heal your LP by the creature's power.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -9704,6 +10302,8 @@
   type: 0
   description: When I am summoned, summon a 0 power token on each empty creature field on
     both sides.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -9734,6 +10334,8 @@
   type: 0
   description: When I die and enter the graveyard - summon 0 power tokens on each of your
     empty creature fields
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -9763,6 +10365,8 @@
   slug: --darkassasin1
   type: 0
   description: When I attack - deal 1 damage to your Life Points.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -9795,6 +10399,8 @@
     I cannot move.
 
     When this creature is killed by an enemy creature - destroy that enemy creature.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -9825,6 +10431,8 @@
   type: 0
   description: |
     Cannot attack.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -9855,6 +10463,8 @@
   type: 0
   description: |
     Any direct damage you receive is reduced to 0 while I am in play.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -9886,6 +10496,8 @@
   description: "I cannot be used as a tribute.
 
     I die at the end of your turn.\rI do not suffer summon exhaustion"
+  lore: ""
+  notes: ""
   tags:
     - rush
   rarity: 0
@@ -9916,6 +10528,8 @@
   slug: --honor-1
   type: 0
   description: Raise my power by 2 for each other friendly Honorable Soldier card in play.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -9946,6 +10560,8 @@
   type: 0
   description: Raise my power by 1 each time a creature is destroyed. This effect resets
     after I finish an attack (successfully or not).
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -9978,6 +10594,8 @@
 
     I cannot attack the enemy directly.\rI do not suffer summon
     exhaustion.\rI die after my attack regardless of success."
+  lore: ""
+  notes: ""
   tags:
     - rush
   rarity: 0
@@ -10010,6 +10628,8 @@
   description: "Cannot be summoned on a field with no opposing enemy creature.
 
     I cannot be used for a tribute.\rI do not suffer summon exhaustion."
+  lore: ""
+  notes: ""
   tags:
     - rush
   rarity: 0
@@ -10040,6 +10660,8 @@
   slug: --zombyra
   type: 0
   description: Every time I attack, decrease my power by 2.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -10069,6 +10691,8 @@
   slug: --rz6p0r
   type: 0
   description: After I attack the enemy directly, I am destroyed.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -10098,6 +10722,8 @@
   slug: --problematic-sam
   type: 0
   description: I cannot be summoned on a field with an opposing enemy creature in play.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -10129,6 +10755,8 @@
   description: "I cannot be summoned while there are other friendly creatures in play.
 
     I die at the end of your turn.\rI do not suffer from summon exhaustion."
+  lore: ""
+  notes: ""
   tags:
     - rush
   rarity: 0
@@ -10159,6 +10787,8 @@
   slug: --mana-powered_bitch
   type: 0
   description: While I am attacking, my power is raised by your current mana.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -10189,6 +10819,8 @@
   type: 0
   description: Increase your current mana (without ignoring your current mana-capacity)
     every time I attack.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -10219,6 +10851,8 @@
   type: 0
   description: I cannot be summoned manually on a field with an opposing enemy creature in
     play.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -10248,6 +10882,8 @@
   slug: --emma
   type: 0
   description: If your current mana is 0, you can summon me for no mana cost.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -10277,6 +10913,8 @@
   slug: --freefred
   type: 0
   description: When I am summoned, you gain 1 mana.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -10306,6 +10944,8 @@
   slug: --mana-thing
   type: 0
   description: My power is raised by 2 x your current mana
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -10338,6 +10978,8 @@
     I cannot attack.
 
     At the end of the enemy turn, if the opposing enemy creature can perform a manual attack, it is forced to.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -10370,6 +11012,8 @@
     I cannot attack.
 
     At the beginning of the enemy turn, if the opposing enemy creature can attack me, it performs a free attack.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -10402,6 +11046,8 @@
     I cannot Attack.
 
     The moment you have more Life Points than the enemy, I will go to the enemy's hand.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -10433,6 +11079,8 @@
   description: |-
     I cannot Attack.
     The moment you have more creatures in play than the enemy, I die.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -10466,6 +11114,8 @@
 
     I do not suffer summon exhaustion.\rReturn me to your hand at the end of
     your turn."
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -10495,6 +11145,8 @@
   slug: --emptyshell
   type: 0
   description: I do not suffer from summon exhaustion.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -10524,6 +11176,8 @@
   slug: --honor-2
   type: 0
   description: Raise my power by 2 for each other friendly Honorable Soldier card in play.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -10553,6 +11207,8 @@
   slug: --honor-3
   type: 0
   description: Raise my power by 2 for each other friendly Honorable Soldier card in play.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -10585,6 +11241,8 @@
 
     If @ed is in play, add @edd from your deck to your hand.\rIf %%1 is in
     play, add %%0 from your deck to your hand"
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -10614,6 +11272,8 @@
   slug: --all-out_joe
   type: 0
   description: At the end of your turn discard all cards in your hand
+  lore: duplicate
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -10639,12 +11299,13 @@
   power: 8
   name: All Out Joe
   guid: 97475749-a4ef-2dbd-06fa-2ac18bad8350
-  lore: duplicate
 - id: 801
   slug: spying-james
   type: 0
   description: While I am in play - opponent keeps the top card in his deck face-up at all
     times.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -10673,12 +11334,13 @@
   power: 3
   name: Spying James
   guid: 6df4249c-c165-b329-a9c7-4df9d6d96749
-  lore: ""
 - id: 3305
   slug: --piercing-gemma
   type: 0
   description: Every time I battle an enemy creature, the power difference is dealt as
     direct damage to the weaker creature's controller.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -10709,6 +11371,8 @@
   type: 0
   description: At the beginning of your turn, if there aren't at least 2 other friendly
     Linked Bros in play, destroy me.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -10738,6 +11402,8 @@
   slug: --trapowered2
   type: 0
   description: My power is raised by 1 for each friendly trap in play.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -10767,6 +11433,8 @@
   slug: producer
   type: 0
   description: My power is raised by 1 for each card in your hand
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -10802,6 +11470,8 @@
   slug: --ferocious-sara
   type: 0
   description: Raise my power by 2 for each enemy creature card in play.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -10832,6 +11502,8 @@
   type: 0
   description: When I am summoned, for each adjacent creature field and the opposing enemy
     creature field - if its empty, summon a 0 power token to it.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -10861,6 +11533,8 @@
   slug: --confusor
   type: 0
   description: While I am in play - decrease all enemy creatures' power by 1.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -10891,6 +11565,8 @@
   type: 0
   description: While I am in play, the effects of friendly @motivator and @confusor are
     doubled.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -10921,6 +11597,8 @@
   type: 0
   description: My power equals the base power of the top card in your graveyard (0 if its
     not a creature)
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -10951,6 +11629,8 @@
   type: 0
   description: My power equals the base power of the top card in the enemy's graveyard (0
     if its not a creature)
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -10981,6 +11661,8 @@
   type: 0
   description: When I am attacked by enemy creature, I return to my controller's hand. The
     attack is aborted.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -11010,6 +11692,8 @@
   slug: --good-offender
   type: 0
   description: Raise my power by 3 while I am attacking
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -11039,6 +11723,8 @@
   slug: --good-defender
   type: 0
   description: Raise my power by 4 while I am being attacked
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -11068,6 +11754,8 @@
   slug: --handy-jimmy
   type: 0
   description: Raise my power by 6 while you have no cards in your hand.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -11097,6 +11785,8 @@
   slug: --angered3
   type: 0
   description: Raise my power by 6 while you have more empty creature fields than the enemy.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -11129,6 +11819,8 @@
     IN-HAND
 
     When you draw me from your deck, show me to the enemy and draw one more card.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -11159,6 +11851,8 @@
   type: 0
   description: While I am in play, when a friendly face-up permanent trap is about to be
     destroyed, destroy me instead.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -11189,6 +11883,8 @@
   type: 0
   description: When I am manually relocated to a new field, I leave a 0 power token behind
     me.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -11219,6 +11915,8 @@
   type: 0
   description: Raise my power by 1 each time a friendly creature is destroyed. This effect
     resets after I finish an attack (successfully or not).
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -11248,6 +11946,8 @@
   slug: --hired-mage
   type: 0
   description: At the end of your turn if you have no mana - destroy me.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -11280,6 +11980,8 @@
     I cannot Attack.
 
     While I am in play, no enemy creature can attack unless it is opposite to me.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -11312,6 +12014,8 @@
     I cannot Attack.
 
     While I am in play and there is an opposing enemy creature that can attack, no enemy creature other than it can attack.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -11342,6 +12046,8 @@
   type: 0
   description: When I die, if possible, summon in my place the first non-grand creature
     found in your graveyard.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -11374,6 +12080,8 @@
     At the end of your opponent's turn if possible:
 
     Destroy me and summon the first non-grand creature you find in your graveyard in my place, face up.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -11406,6 +12114,8 @@
     IN-HAND
 
     When you draw me, from your deck show me to the enemy and if possible add @banana_a from your deck to your hand.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -11435,6 +12145,8 @@
   slug: --8ball-4
   type: 0
   description: When I die, if possible summon another 8-Ball from your deck in my place.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -11464,6 +12176,8 @@
   slug: --8ball-2
   type: 0
   description: When I die, if possible summon another 8-Ball from your deck in my place.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -11494,6 +12208,8 @@
   type: 0
   description: During battle, if the enemy creature has lower base power than me, destroy
     it. This does not count as death from combat.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -11523,6 +12239,8 @@
   slug: --cheerleader4
   type: 0
   description: My power is raised by 1 for each other friendly Cheerleader Harpy in play.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -11552,6 +12270,8 @@
   slug: --cheerleader3
   type: 0
   description: My power is raised by 1 for each other friendly Cheerleader Harpy in play.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -11581,6 +12301,8 @@
   slug: --cheerleader2
   type: 0
   description: My power is raised by 1 for each other friendly Cheerleader Harpy in play.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -11610,6 +12332,8 @@
   slug: --darkassasin2
   type: 0
   description: When I attack - deal 3 damage to your Life Points.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -11639,6 +12363,8 @@
   slug: --motivator
   type: 0
   description: While I am in play - raise all friendly creatures' power by 1
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -11668,6 +12394,8 @@
   slug: --cheerleader1
   type: 0
   description: My power is raised by 1 for each other friendly Cheerleader Harpy in play.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -11697,6 +12425,8 @@
   slug: --joe2
   type: 0
   description: ""
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -11726,6 +12456,8 @@
   slug: --8ball-1
   type: 0
   description: When I die, if possible summon another 8-Ball from your deck in my place.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -11755,6 +12487,8 @@
   slug: --fairhealer
   type: 0
   description: When I am summoned, both players's Life Points increase by 4.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -11784,6 +12518,8 @@
   slug: --drawhealer
   type: 0
   description: Increase your Life-Points by 1 every time you draw a card.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -11813,6 +12549,8 @@
   slug: --turnhealer
   type: 0
   description: At the beginning of your turn, increase your Life-Points by 1.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -11843,6 +12581,8 @@
   type: 0
   description: When I battle with a stronger enemy creature - increase your lifepoints by
     the difference in our power.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -11873,6 +12613,8 @@
   type: 0
   description: Opposing enemy creature cannot attack. At the start of your turn, if there
     is no opposing enemy creature, destroy me.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -11902,6 +12644,8 @@
   slug: --joe3
   type: 0
   description: ""
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -11934,6 +12678,8 @@
     IN-HAND
 
     When you draw me, from your deck show me to the enemy and if possible add @banana_b from your deck to your hand.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -11964,6 +12710,8 @@
   type: 0
   description: When I am dealt fatal damage, flip the top card in your deck face-up. If it
     is a trap, my death is aborted.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -11993,6 +12741,8 @@
   slug: --evo-a_f1
   type: 0
   description: ""
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -12022,6 +12772,8 @@
   slug: --evo-a_f3
   type: 0
   description: ""
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -12051,6 +12803,8 @@
   slug: --joe1
   type: 0
   description: ""
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -12080,6 +12834,8 @@
   slug: --yang
   type: 0
   description: Raise my power by 4 while @yin is adjacent
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -12110,6 +12866,8 @@
   type: 0
   description: When I die from combat, if possible, summon @vendeto_grand  from your hand
     or deck in my place.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -12139,6 +12897,8 @@
   slug: --yin
   type: 0
   description: Raise my power by 6 while @yang is adjacent
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -12172,6 +12932,8 @@
     When I enter your hand, show me to the enemy and draw 3 more
     cards.\rWhen I am in your hand or in play, at the end of your turn discard
     your entire hand."
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -12202,6 +12964,8 @@
   type: 0
   description: Every time one of your creatures dies during the enemy's turn, I deal 1 LP
     direct damage to the enemy.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -12233,6 +12997,8 @@
   description: I cannot be summoned while you have other creatures in play. When I am
     successfully summoned, if there is an opposing enemy creature, life-link it
     to me.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -12263,6 +13029,8 @@
   type: 0
   description: Every time a card is sent  to your graveyard, the enemy sends one card from
     their deck to their graveyard.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -12292,6 +13060,8 @@
   slug: --fateup
   type: 0
   description: While I am in play, at the beginning of each player's turn, they draw a card.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -12324,6 +13094,8 @@
     #persistent
 
     Activate at the beginning of the enemy turn if there is an opposing enemy creature that can attack. At the end of the turn if that creature did not attack, deal direct damage to the enemy equal to its attack.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -12356,6 +13128,8 @@
     #persistent
 
     Activate at the beginning of the enemy turn if there is an opposing enemy creature. At the end of the turn, if it did not attack, deal 5 LP damage to the enemy.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -12386,6 +13160,8 @@
   type: 0
   description: At the beginning of your turn, if there aren't at least 2 other friendly
     Linked Bros in play, destroy me.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -12415,6 +13191,8 @@
   slug: --darkassasin3
   type: 0
   description: When I attack or am attacked - deal 2 damage to your Life Points.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -12447,6 +13225,8 @@
     IN-GRAVE
 
     While I am the top-most card in your graveyard every time you manually  summon a new creature face-up, you take 2 damage and it suffers no summon exhaustion.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -12476,6 +13256,8 @@
   slug: --drawttack
   type: 0
   description: Every time I complete an attack, if I'm still in play, draw 1 card.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -12506,6 +13288,8 @@
   type: 0
   description: At the begnning of your turn if there is no opposing enemy creature, but you
     have less LP than the enemy, I move to their side.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -12538,6 +13322,8 @@
 
     I cannot attack manually.\rI perform a free attack every time an
     opposing enemy creature is summoned."
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -12569,6 +13355,8 @@
   description: |-
     When I am about to die,  if you have more than 5 LP,
     abort my death, but take %%0 direct damage.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -12599,6 +13387,8 @@
   slug: --drawson1
   type: 0
   description: When I attack, the opponent draws a card
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -12628,6 +13418,8 @@
   slug: --drawson2
   type: 0
   description: When I attack, if the enemy has 2 or more cards, they draw %%0 cards.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -12658,6 +13450,8 @@
   type: 0
   description: When combat between me and a weaker enemy creature starts, take direct
     damage equal to the difference in our power.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -12690,6 +13484,8 @@
 
     I can attack infinite times during a turn.\r\r1\rI am @unbreakable and
     my power is 9999"
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -12720,6 +13516,8 @@
   type: 0
   description: When I am about to die from combat, abort my death, but take 3 direct damage
     to your LP.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -12750,6 +13548,8 @@
   type: 0
   description: I cannot be destroyed in combat while there are at least two friendly
     creatures adjacent to me.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -12779,6 +13579,8 @@
   slug: --antizero
   type: 0
   description: "At the end of the enemy turn, destroy all face-up creatures with 0 power. "
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -12809,6 +13611,8 @@
   type: 0
   description: At the end of your turn, if there is no opposing enemy creature, I move to
     the enemy's side.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -12840,6 +13644,8 @@
   description: Activate when an opposing enemy creature is summoned if you have a friendly
     creature on the same column. If the enemy creature is a grand creature
     destroy it, else destroy your own creature.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -12870,6 +13676,8 @@
   type: 1
   description: Activate when an opposing enemy creature is summoned. If it is a grand
     creature destroy it. If it isn't, you take 5 direct damage.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -12899,6 +13707,8 @@
   slug: --fairturnhealer
   type: 0
   description: At the beginning of each player's turn, increase their Life-Points by 2.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -12929,6 +13739,8 @@
   type: 0
   description: At the beginning of your turn, if there is a non-grand opposing enemy
     creature face-up, gain LP equal to their power.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -12959,6 +13771,8 @@
   type: 0
   description: When I am manually summoned, gain LP equal to the power of the creature used
     as tribute.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -12990,6 +13804,8 @@
   type: 0
   description: My power is raised by 5 while there is an opposing enemy grand creature in
     play.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -13024,6 +13840,8 @@
     mine.
 
     Every time I battle, if there is an opposing enemy creature, take direct damage equal to the difference in our power.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -13054,6 +13872,8 @@
   type: 0
   description: Whenever the opponent draws a new card manually, it is they discard it, but
     you take 1 LP direct damage.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -13084,6 +13904,8 @@
   type: 0
   description: Whenever the enemy draws a card, they discard it immediately, but you take 2
     LP direct damage for each card,
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -13113,6 +13935,8 @@
   slug: --blocker
   type: 0
   description: I cannot be destroyed in battle while I am your only creature in play.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -13144,6 +13968,8 @@
   description: After I am successfully summoned, if there is a face-up enemy creature in
     play, destroy it, but take direct damage equal to its power. Destroy me as
     well as part of this effect.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -13174,6 +14000,8 @@
   type: 0
   description: At the end of the enemy's turn, if the top card in their graveyard is a
     trap, deal 4 damage to them
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -13205,6 +14033,8 @@
   description: At the end of your turn, if there is an opposing enemy creature and
     possible, destroy me and summon the first  grand craeture in your graveyard
     that you can, but take direct damage equal to its base power.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -13234,6 +14064,8 @@
   slug: --doublemana
   type: 0
   description: I can only be manually summoned for 2 mana.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -13263,6 +14095,8 @@
   slug: --tripplemana
   type: 0
   description: I can only be manually summoned for 3 mana.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -13294,6 +14128,8 @@
   type: 1
   description: Activate when opposing enemy creature attacks you directly. Decrease its
     power by 6 until the end of the turn.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -13324,6 +14160,8 @@
   type: 1
   description: Activate when opposing enemy creature attacks you directly. Deal 3 direct
     damage to the enemy.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -13356,6 +14194,8 @@
     #persistent
 
     Activate when a trap is about to be set to the opposing enemy trap field. Lock that field until the end of the enemy turn.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -13388,6 +14228,8 @@
     ? ? ?
 
     Change your LP to 1.Direct damage against you from all sources becomes 0. You take 1 direct damage when I die.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -13418,6 +14260,8 @@
   slug: --general2
   type: 0
   description: Raise my power by 6 while you have no empty creature fields.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -13448,6 +14292,8 @@
   slug: --motherflapper
   type: 0
   description: All friendly creatures gain swift while I am in play.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -13479,6 +14325,8 @@
   type: 0
   description: While I am in play, newly summoned enemy creatures do not suffer summon
     exhaustion.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -13510,6 +14358,8 @@
   type: 0
   description: While I am in play, enemy creatures summoned to the opposing field do not
     suffer summon exhaustion.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -13541,6 +14391,8 @@
   type: 0
   description: When I am summoned, activate the Safe-Flip effect of every card in play that
     has any.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -13572,6 +14424,8 @@
   type: 1
   description: Activate when you are dealt direct damage by an enemy creature. Destroy all
     creatures with power lower than that damage.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -13602,6 +14456,8 @@
   type: 0
   description: When I am summoned face-up in any way other than manually, raise my power by
     10.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -13632,6 +14488,8 @@
   type: 0
   description: When I am summoned, you gain 2 mana (without ignoring your current
     mana-capacity)
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -13662,6 +14520,8 @@
   type: 0
   description: Every enemy creature summoned face-up while I am in play has its power
     reduced by 2.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -13693,6 +14553,8 @@
   type: 0
   description: When I am summoned in any way other than manual summon, I do not suffer
     sumon exhaustion.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -13724,6 +14586,8 @@
   type: 0
   description: When I enter play, if there is an opposing enemy creature, I do not suffer
     summon exhaustion.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -13757,6 +14621,8 @@
     @redirect_out must also be in play for activation.
 
     Activate when opposing enemy creature attacks you directly. Negate the attack and activate %%0.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -13787,6 +14653,8 @@
   type: 0
   description: When another friendly creature performs an attack or relocation, if I can
     perform the same action I become exhausted instead of it.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -13817,6 +14685,8 @@
   slug: --upgrade
   type: 0
   description: When I am manually summoned, raise my power by the base power of my tribute.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -13850,6 +14720,8 @@
     #persistent
 
     Activate at the beginning of the enemy turn. All enemy creatures' power is decreasued by 3 while this trap is in play. Destroy this trap at the end of the turn it was activated.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -13882,6 +14754,8 @@
 
     I cannot be used as a tribute.\rI do not suffer summon
     exhaustion.\rReturn me to your hand at the end of your turn."
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -13911,6 +14785,8 @@
   slug: --pwrdowner
   type: 0
   description: At the end of your every turn, decrease my power by 1.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -13941,6 +14817,8 @@
   slug: --tempower2
   type: 0
   description: My power decreases by 4 after each of my successful attacks.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -13972,6 +14850,8 @@
   type: 1
   description: Activate when opposing enemy trap is activated. Negate its effect and
     destroy it.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -14001,6 +14881,8 @@
   slug: --angered
   type: 0
   description: My power is raised by 3 while there is an opposing enemy creature.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -14030,6 +14912,8 @@
   slug: --drawhater
   type: 0
   description: Every time the enemy draws a card, decrease my power by 1.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -14059,6 +14943,8 @@
   slug: --drawrager2
   type: 0
   description: Increase my power by 1 every time you draw a card.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -14088,6 +14974,8 @@
   slug: --shmester
   type: 0
   description: Decrease my power by 1 every time another creature enters play.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -14117,6 +15005,8 @@
   slug: --token1
   type: 0
   description: ""
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -14147,6 +15037,8 @@
   type: 0
   description: When your own trap card on this column is about to leave play, set it back
     face-down in the same place, then kill me, but leave a token in my place.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -14177,6 +15069,8 @@
   type: 0
   description: When I am summoned, if possible, summon a 0 power token to my left and to my
     right.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -14206,6 +15100,8 @@
   slug: --fair-manaup
   type: 0
   description: When I enter play, if possible, Increase both players' mana cap by 1.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -14235,6 +15131,8 @@
   slug: --traprager
   type: 0
   description: Increase my power by 1 every time a trap is activated.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -14265,6 +15163,8 @@
   type: 0
   description: When I am summoned, if there is an opposing enemy face-up persistent trap,
     destroy it.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -14297,6 +15197,8 @@
     IN-GRAVE
 
     While I am the top card in your graveyard, at the end of every player's turn force-activate the safe-flip effects of all their face-up creatures in play.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -14329,6 +15231,8 @@
     #persistent
 
     Activate at the start of the enemy's turn, if there are both a friendly and an enemy creature on this colum. At the end of the enemy's turn, if that is still the case, they swap places, else if there is only a friendly creature, destoy it.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -14359,6 +15263,8 @@
   type: 1
   description: Activate during the enemy turn the moment there is an opposing enemy
     creature with power higher than 16. Destroy it instantly.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -14388,6 +15294,8 @@
   slug: --angered2
   type: 0
   description: My power is raised by 4 while there is an opposing face-down creature.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -14417,6 +15325,8 @@
   slug: --deckstructor0
   type: 0
   description: When I am summoned, both players discard the top card from their decks.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -14449,6 +15359,8 @@
     Safe-Flip
 
     All enemy creatures cannot attack until the end of your opponent's next turn.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -14482,6 +15394,8 @@
     Combat-Flip
 
     Heal your Life-Points by an amount equal to the attacking enemy creature's power.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -14514,6 +15428,8 @@
   description: |-
     Safe-Flip
     Put the topmost card in the enemy graveyard in your hand.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -14546,6 +15462,8 @@
   description: |-
     Combat-Flip
     Move the first trap you find in your graveyard to your hand.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -14577,6 +15495,8 @@
   type: 0
   description: All combat damage against me becomes zero if there are no other friendly
     creatures.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -14608,6 +15528,8 @@
   type: 0
   description: When I die during the enemy's turn, flip the top card in your deck face-up.
     If it's a non-grand-creature, summon it in my place face-up.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -14640,6 +15562,8 @@
   description: "Safe-Flip
 
     Destroy all creatures.\rTake 2 damage for each destroyed creature"
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -14674,6 +15598,8 @@
     exhaustion resets.
 
     (this normally means they can attack again)
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -14704,6 +15630,8 @@
   slug: --bloodmerc
   type: 0
   description: When I enter your graveyard, take 5 LP direct damage.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -14736,6 +15664,8 @@
   description: |-
     Safe-Flip
     If @polo is in your graveyard - add it to your hand.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -14767,6 +15697,8 @@
   type: 0
   description: On death from combat - if possible summon the top creature in your graveyard
     in my place.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -14799,6 +15731,8 @@
   description: |-
     Safe-flip
     My controller draws 2 cards, then discards one card from their hand.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -14832,6 +15766,8 @@
     IN-GRAVE
 
     At the beginning of your turn, if I am the topmost card in your grave, i return to your hand.
+  lore: ""
+  notes: ""
   tags: *a3
   rarity: 0
   pdc: null
@@ -14868,6 +15804,8 @@
   description: |-
     Combat-Flip
     When I die, both players discard their hands.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -14900,6 +15838,8 @@
   description: |-
     Combat-Flip
     If @marco is in your graveyard - add it to your hand.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -14932,6 +15872,8 @@
   description: |-
     Combat-Flip:
     Destroy opposing creature and take damage equal to its power.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -14963,6 +15905,8 @@
   type: 0
   description: I will attack automatically at the begining of your turn, but it will
     exhaust me as if it was a manual attack.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -14995,6 +15939,8 @@
   description: |-
     Safe-Flip:
     If possible resurrect the top card in your  graveyard in my place.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -15028,6 +15974,8 @@
     #persistent
 
     Activate at the start of your opponent's turn. The enemy draws one card. Every direct damage you take is dealt to the opponent as well. Destroy at the end of the enemy's turn.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -15059,6 +16007,8 @@
   description: |-
     Activate me when an opposing enemy creature's safe-flip effect is triggered.
     Negate that effect.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -15089,6 +16039,8 @@
   type: 0
   description: I can both attack and move before exhausting, but I cannot attack while
     there is no opposing enemy creature.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -15121,6 +16073,8 @@
 
     If @edd is in play, add @eddy from your deck to your hand.\rIf %%1 is in
     play, add %%0 from your deck to your hand"
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -15153,6 +16107,8 @@
 
     If @ed is in play, add @eddy from your deck to your hand.\rIf %%1 is in
     play, add %%0 from your deck to your hand"
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -15184,6 +16140,8 @@
   description: Activate when opposing enemy creature is summoned manually and there is no
     friendly creature on your side of the column. The enemy's turn ends
     immediately.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -15216,6 +16174,8 @@
     IN-GRAVE
 
     As long as I am the top card in your graveyard, whenever the opponent draws a card manually, it is sent to the graveyard.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -15247,6 +16207,8 @@
   type: 1
   description: When any enemy creature attacks and the opposing enemy field is empty, force
     it to relocate there instead.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -15278,6 +16240,8 @@
   description: |-
     While in your graveyard:
     the moment you have no cards in your hand - add me to your hand
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -15308,6 +16272,8 @@
   slug: --evo-a_f2
   type: 0
   description: Cannot attack
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -15340,6 +16306,8 @@
   description: |-
     While in your graveyard:
     the moment you have no creatures in play - add me to your hand
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -15370,6 +16338,8 @@
   slug: --com-g0_5
   type: 0
   description: Combines with G0
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -15400,6 +16370,8 @@
   type: 0
   description: While I am in play, every time a player uses mana, they also take 1 LP
     damage.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -15430,6 +16402,8 @@
   type: 0
   description: At the beginning of your turn if a card named @zag is in your graveyard -
     add it to your hand.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -15460,6 +16434,8 @@
   type: 0
   description: At the beginning of your turn if a card named @zig is in your graveyard -
     add it to your hand.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -15489,6 +16465,8 @@
   slug: --com-g0_1
   type: 0
   description: Combines with G0
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -15518,6 +16496,8 @@
   slug: --com-g0_2
   type: 0
   description: Combines with G0
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -15547,6 +16527,8 @@
   slug: --com-g0_3
   type: 0
   description: Combines with G0
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -15576,6 +16558,8 @@
   slug: --com-g0_4
   type: 0
   description: Combines with G0
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -15605,6 +16589,8 @@
   slug: --com-gh_2
   type: 0
   description: Combines with GH
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -15635,6 +16621,8 @@
   slug: --com-gh_1
   type: 0
   description: Combines with GH
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -15666,6 +16654,8 @@
   type: 0
   description: At the beginning of your turn, if there aren't at least 2 other friendly
     Linked Bros in play, destroy me.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -15696,6 +16686,8 @@
   type: 0
   description: At the beginning of your turn, if there aren't at least 2 other friendly
     Linked Bros in play, destroy me.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -15726,6 +16718,8 @@
   type: 1
   description: When any enemy creature attacks and the opposing enemy field is empty, force
     it to perform a free relocation there first. The attack continues.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -15757,6 +16751,8 @@
   description: Activate when opposing enemy creature attacks you directly and there is a
     friendly creature on the column to your right. Move that friendly creature
     to this column.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -15786,6 +16782,8 @@
   slug: --8ball-3
   type: 0
   description: When I die, if possible summon another 8-Ball from your deck in my place.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -15816,6 +16814,8 @@
   type: 0
   description: At the beginning of your turn, if I am face-up in play an you have more than
     10 LP, destroy me.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -15847,6 +16847,8 @@
   type: 0
   description: When I enter play, if possible summon @jack from your graveyard to the field
     on my left.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -15877,6 +16879,8 @@
   type: 0
   description: When I enter play, if possible summon @jill from your graveyard to the field
     on my right.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -15908,6 +16912,8 @@
   description: |-
     Safe-Flip:
     Raise my power by 6.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -15944,6 +16950,8 @@
   description: Activate when opposing enemy creature attacks you directly and there is a
     friendly creature on the column to your left. Move that friendly creature to
     this column.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -15974,6 +16982,8 @@
   type: 1
   description: Activate when opposing enemy creature's attack finishes during the enemy
     turn and it is stiill in play. Force the enemy to end their turn.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -16005,6 +17015,8 @@
   description: |-
     Combat-Flip:
     Destroy opposing enemy creature, but take direct damage equal to its power.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -16037,6 +17049,8 @@
   description: |-
     Combat-Flip:
     Deal direct damage to the enemy player equal to my current power.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -16068,6 +17082,8 @@
   type: 0
   description: When all 4 Forbidden-Spirits are in play under your control, my power is
     raised by 14
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -16098,6 +17114,8 @@
   type: 0
   description: When all 4 Forbidden-Spirits are in play under your control, my power is
     raised by 14
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -16128,6 +17146,8 @@
   type: 0
   description: When all 4 Forbidden-Spirits are in play under your control, my power is
     raised by 14
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -16158,6 +17178,8 @@
   type: 0
   description: When all 4 Forbidden-Spirits are in play under your control, my power is
     raised by 14
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -16189,6 +17211,8 @@
   description: |-
     Combat-Flip:
     Opposing enemy creature is cannot attack  until the end of the turn.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -16231,6 +17255,8 @@
   slug: --cripple
   type: 1
   description: Activate when opposing enemy creature attacks. Decrease its power by 2.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -16262,6 +17288,8 @@
   description: |-
     Safe-Flip
     Destroy opposing enemy trap if any.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -16295,6 +17323,8 @@
 
     While l am face-up all direct damage you take becomes 0.\rDestroy me at
     the end of your turn if I am face-up and you have less than 4 mana."
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -16328,6 +17358,8 @@
     Take 1 direct damage when you manually summon me. 
 
     My power is raised by that of the top card in the enemy graveyard at all times (0 if it is not a creature).
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -16359,6 +17391,8 @@
   description: |-
     Safe-Flip
     Raise the power of all face-up friendly creatures by 1.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -16391,6 +17425,8 @@
   description: |-
     Combat-Flip
     Deal 3 direct damage to the enemy.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -16422,6 +17458,8 @@
   type: 1
   description: Activate only when the effect of your @redirect_in is activated. Deal damage
     to the enemy equal to the power of the enemy creature opposite to %%0.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -16454,6 +17492,8 @@
     Combat-Flip
 
     If there is a friendly creature to my left, we swap places, and the attack continues normally.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -16487,6 +17527,8 @@
     Combat-Flip
 
     If there is a friendly creature to my right, we swap places, and the attack continues normally.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -16520,6 +17562,8 @@
 
     Raise my power by 8.\r\rAt the end of your every turn, if my power is 2
     or higher, decrease it by %%1."
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -16550,6 +17594,8 @@
   slug: --grower
   type: 0
   description: At the end of your turn if I am face-up in play, increase my power by 1.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -16582,6 +17628,8 @@
   description: When I die from combat and enter your graveyard, flip the top card in your
     deck face-up. If it is a creature and can be auto-summoned in my place,
     summon it.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -16613,6 +17661,8 @@
   type: 1
   description: Activate when any other trap in play is activated. Negate its effect and
     destroy all traps in play.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -16645,6 +17695,8 @@
     Activate when opposing enemy trap is activated.
 
     Negate its effect and destroy it along with both players' creatures and traps on the same column if any.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -16676,6 +17728,8 @@
   description: Activate when opposing enemy creature attacks and there is a friendly
     creature on your own side. Destroy both creatures, but take damage equal to
     the enemy creature's power.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -16706,6 +17760,8 @@
   type: 1
   description: Activate when opposing enemy trap is set. Flip it face-up without
     activating, then flip it back face-down.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -16735,6 +17791,8 @@
   slug: --trapsteal
   type: 1
   description: When opposing enemy trap is about to leave play, add it to your hand instead.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -16766,6 +17824,8 @@
   description: Activate when opposing enemy trap is activated while there is a friendly
     creature on this column. Your creature is sacrificed and the enemy trap is
     added to your hand, aborting its activation.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -16797,6 +17857,8 @@
   description: Activate when opposing enemy creature attacks and there is a friendly
     creature on your own side. Destroy the enemy creature, but take damage equal
     to both creatures' power.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -16829,6 +17891,8 @@
     #persistent
 
     Activate when you are about to receive damage from any source. While I am in play, any damage you are about to receive becomes 0, but the enemy gains LP of the same amount. Destroy at the end of the enemy's turn.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -16859,6 +17923,8 @@
   type: 1
   description: Activate when opposing enemy creature is about to be manually relocated.
     Force is to perform a free attack first.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -16891,6 +17957,8 @@
     turn and there is a friendly creature on your side of it. Destroy your
     creature and relocate the enemy creature in its place. It is now under your
     control.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -16921,6 +17989,8 @@
   type: 0
   description: While I am in play, the power of every other Forsaken-Being is increased by
     5.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -16951,6 +18021,8 @@
   type: 0
   description: While I am in play, the power of every other Forsaken-Being is increased by
     5.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -16981,6 +18053,8 @@
   type: 0
   description: While I am in play, the power of every other Forsaken-Being is increased by
     5.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -17011,6 +18085,8 @@
   type: 0
   description: While I am in play, the power of every other Forsaken-Being is increased by
     5.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -17040,6 +18116,8 @@
   slug: --grandbro1
   type: 0
   description: My power is raised by 3 while a friendly @grandbro2 is also in play.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -17070,6 +18148,8 @@
   slug: --grandbro2
   type: 0
   description: My power is raised by 3 while a friendly @grandbro1 is also in play.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -17100,6 +18180,8 @@
   slug: --nightelf1
   type: 0
   description: My power is raised by 1 for each other NightElf in your graveyard.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -17129,6 +18211,8 @@
   slug: --nightelf4
   type: 0
   description: My power is raised by 1 for each other NightElf in your graveyard.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -17158,6 +18242,8 @@
   slug: --nightelf3
   type: 0
   description: My power is raised by 1 for each other NightElf in your graveyard.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -17187,6 +18273,8 @@
   slug: --nightelf2
   type: 0
   description: My power is raised by 1 for each other NightElf in your graveyard.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -17216,6 +18304,8 @@
   slug: --broodelf1
   type: 0
   description: My power is raised by 3 for each other BroodElf in your graveyard.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -17245,6 +18335,8 @@
   slug: --broodelf4
   type: 0
   description: My power is raised by 3 for each other BroodElf in your graveyard.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -17274,6 +18366,8 @@
   slug: --broodelf3
   type: 0
   description: My power is raised by 3 for each other BroodElf in your graveyard.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -17303,6 +18397,8 @@
   slug: --broodelf2
   type: 0
   description: My power is raised by 3 for each other BroodElf in your graveyard.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -17333,6 +18429,8 @@
   type: 1
   description: Actuvate when opposing enemy creature is summoned. It does not suffer summon
     exhaustion. If it can attack, force it to perform a manual attack.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -17364,6 +18462,8 @@
   description: I can relocate to an occupied creature field on your side, by swapping
     places with the creature there. This does not count as relocation for the
     other creature.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -17395,6 +18495,8 @@
   type: 0
   description: While I am in play, all creatures summoned on any side do not suffer summon
     exhaustion.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -17427,6 +18529,8 @@
   description: |-
     I can only be summoned by tributing another grand-creature.
     I do not suffer summon exhaustion.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -17458,6 +18562,8 @@
   type: 0
   description: At the beginning of your turn, if I am face up in play, return me to your
     hand.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -17489,6 +18595,8 @@
   type: 0
   description: Reduce the power of any enemy creatures on the opposing field by %%0 while I
     am in play.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -17520,6 +18628,8 @@
   type: 0
   description: At the end of your turn, destroy all face-up creatures with power lower than
     mine.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -17551,6 +18661,8 @@
   type: 0
   description: When your own trap card on this column leaves play, set it back face-down in
     the same place, then return me to your hand.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -17582,6 +18694,8 @@
   type: 1
   description: Activate when the enemy is about to receive direct damage during their own
     turn. Increase that damage by 5;
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -17612,6 +18726,8 @@
   type: 0
   description: When opposing enemy creature dies during your own turn, my power is
     decreased by its power.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -17643,6 +18759,8 @@
   type: 1
   description: When an opposing enemy creature is summoned face-down, flip it face-up
     without activating any of its flip effects.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -17674,6 +18792,8 @@
   description: Activate when opposing enemy creature attacks and there is a friendly
     creature on your own side. Destroy your own creature and return the enemy
     creature to its owner's hand.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -17705,6 +18825,8 @@
   description: Activate when any enemy trap is activated while there is a friendly creature
     on this column. Your creature is sacrificed and the enemy trap is destroyed,
     its effect negated.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -17734,6 +18856,8 @@
   slug: --doomsday
   type: 0
   description: When I die, destroy all creatures.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -17765,6 +18889,8 @@
   type: 1
   description: Activate when you are dealt direct damage by the opposing enemy creature.
     Destroy all enemy creatures with power lower than that damage.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -17794,6 +18920,8 @@
   slug: --crowdpowered
   type: 0
   description: Raise my power by 1 for each creature in play, other than me.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -17825,6 +18953,8 @@
   type: 0
   description: After I attack if possible I relocate to the field on the right, else if
     possible - to the left.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -17856,6 +18986,8 @@
   type: 1
   description: Activate when another friendly trap leaves play. Set it back on its last
     occupied trap-field.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -17885,6 +19017,8 @@
   slug: --com-g3_1
   type: 0
   description: Combines with G3
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -17914,6 +19048,8 @@
   slug: --com-g3_2
   type: 0
   description: Combines with G3
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -17944,6 +19080,8 @@
   type: 0
   description: When I am summoned, if there is an opposing face-up enemy creature, I gain
     power equal to its current power plus 1.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -17978,6 +19116,8 @@
     triggered.
 
     Negate that effect.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -18008,6 +19148,8 @@
   type: 1
   description: Activate when opposing enemy creature is summoned manually. The enemy's mana
     is depleted instantly.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -18038,6 +19180,8 @@
   type: 1
   description: When an enemy creature enters the opposing field for any reason, return it
     to its owner's hand.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -18069,6 +19213,8 @@
   description: I can relocate to an occupied creature field on your side, by swapping
     places with the creature there. This does not count as relocation for the
     other creature.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -18102,6 +19248,8 @@
     IN-GRAVE
 
     While I am the top card in your grave, all of your creatures can be manually relocated to occupied creature fields as well as empty, by swapping places with the creature there. This does not count as relocation for the other creature.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -18133,6 +19281,8 @@
   type: 0
   description: At the end of your turn destroy all creatures in play with power higher than
     16.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -18165,6 +19315,8 @@
 
     Stun opposing creature until the end of the turn.\rTake 3 direct damage
     and return me to your hand."
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -18197,6 +19349,8 @@
   description: |-
     Combat-Flip:
     Add the top card in your graveyard to the top of your deck.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -18228,6 +19382,8 @@
   type: 1
   description: Activate when the opposing enemy creature field is empty and an enemy
     creature is summoned to a different field. Move it to the opposing field.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -18260,6 +19416,8 @@
     #persistent
 
     Activate at the start of the enemy's turn. Until the end of their turn, for every card they draw, they discard 2 cards from the top of their deck.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -18292,6 +19450,8 @@
     #persistent
 
     Activate at the begiinning of the enemy's turn, if there is a friendly face-up creature on this column. Raise its power by 2 every time an enemy creature attacks until the end of your own turn.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -18324,6 +19484,8 @@
     #persistent
 
     Activate at the begiinning of the enemy's turn, if there is a friendly face-up creature on this column. Raise its power by 7 until the end of the turn.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -18356,6 +19518,8 @@
     #persistent
 
     Activate at the begiinning of the enemy's turn, if there is a friendly face-up creature on this column. Raise its power by 1 every time an enemy creature attacks. Destroy at the end of the turn.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -18388,6 +19552,8 @@
     #persistent
 
     Activate at the beginning of the enemy turn. Until the end of their turn, every time they set a new trap or summon a creature face-down, they must show you what it is first.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -18419,6 +19585,8 @@
   description: |-
     Combat-Flip:
     Enemy discards 4 cards from their deck.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -18451,6 +19619,8 @@
   description: "When I am summoned, I perform a free attack.
 
     \r???"
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -18483,6 +19653,8 @@
     Destroy me at the end of the enemy turn.
 
     When I die, if possible, destroy the opposing enemy creature and all adjacent friendly creatures in play.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -18513,6 +19685,8 @@
   type: 0
   description: While I am in play, when an enemy creature is summoned, life-link me to it,
     unless I am already life-linked to a creature.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -18544,6 +19718,8 @@
   type: 0
   description: When I am summoned, if there are friendly creatures adjacent to me,
     life-link me to them, else - destroy me.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -18575,6 +19751,8 @@
   description: Activate when an opposing enemy creature begins an attack and there is a
     face-up flippable friendly creature with a combat-flip effect on the same
     column. Flip your creature face-down.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -18606,6 +19784,8 @@
   description: Activate when an opposing enemy creature is summoned and there is a face-up
     flippable friendly creature with a safe-flip effect on the same column. Flip
     your creature face-down.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -18637,6 +19817,8 @@
   description: |-
     Safe-Flip:
     If possible, decrease opposing enemy creature's power by 5.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -18668,6 +19850,8 @@
   type: 0
   description: At the end of the enemy turn, if there is an opposing enemy creature, deal 1
     direct damage  to them.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -18698,6 +19882,8 @@
   slug: --binaro
   type: 0
   description: My power equals 2 to the power of your current mana amount.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -18728,6 +19914,8 @@
   slug: --rock
   type: 0
   description: My power equals the current power of my tribute at the moment of its death.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -18760,6 +19948,8 @@
   description: |-
     safe-flip:
     Kill opposite enemy, if its power is 15 or above.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -18792,6 +19982,8 @@
   description: |-
     Opposite unit cannot attack.
     At the start of your turn, if there is no opposite unit, I die.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -18822,6 +20014,8 @@
   type: 0
   description: If opposite grand unit attacks, negate the attack, but the enemy draws one
     card.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -18851,6 +20045,8 @@
   slug: grower-ap-g
   type: 0
   description: My power increases each time you spend an action point.
+  lore: ""
+  notes: ""
   tags:
     - grand
   rarity: 0
@@ -18882,6 +20078,8 @@
   type: 1
   description: "When: opp. Summon and ally unit exists - destroy ally unitv and take
     control of opposing unit."
+  lore: ""
+  notes: ""
   tags: []
   rarity: 10
   pdc: null
@@ -18912,6 +20110,8 @@
   type: 0
   description: |
     While I am in play, units with 11 or above cannot attack
+  lore: ""
+  notes: ""
   tags:
     - nomove
   rarity: 0
@@ -18945,6 +20145,8 @@
     Combat-Flip:
 
     Destroy attacking creature and this card, but deal damage to yourself equal to enemy creature's power at the time of death.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -18977,6 +20179,8 @@
   description: |-
     Combat-Flip:
     If it's the enemy's turn - after the attack finishes, end their turn.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -19009,6 +20213,8 @@
   description: |-
     Combat-Flip
     Kill me and resurrect the first Grand creature you find in your graveyard.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -19055,6 +20261,8 @@
   description: |-
     Combat-Flip
     You draw two cards.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -19086,6 +20294,8 @@
   type: 0
   description: I cannot be destroyed in combat. When a new friendly creature is summoned,
     life-link me to it.
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -19116,6 +20326,8 @@
   slug: linko-2
   type: 0
   description: When a new friendly creature is summoned, life-link me to it.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -19146,6 +20358,8 @@
   type: 0
   description: While I am in play - opponent keeps the top card in his deck face-up at all
     times.
+  lore: ""
+  notes: duplicate
   tags: []
   rarity: 0
   pdc: null
@@ -19171,12 +20385,13 @@
   power: 4
   name: spy-joe
   guid: 6f8f1afd-9851-c7d3-5079-c34cdc2f1d5a
-  notes: duplicate
 - id: 1084
   slug: re-trap-1
   type: 1
   description: Activation condition and effect of this card equals that of the top card in
     your graveyard (if any and if it is a trap)
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -19206,6 +20421,8 @@
   slug: social-gnome
   type: 0
   description: +2 power for each ally
+  lore: ""
+  notes: ""
   tags:
     - sneak
   rarity: 0
@@ -19237,6 +20454,8 @@
   type: 1
   description: Activate when opposing enemy creature is summoned and there is a stronger
     creature on your side. Swap creatures.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
@@ -19268,6 +20487,8 @@
   description: Activate me when enemy turn starts and they have an opposing creature. At
     the end of their turn, if there is still an opposing enemy creature, force
     it to attack.
+  lore: ""
+  notes: ""
   tags: []
   rarity: 0
   pdc: null
