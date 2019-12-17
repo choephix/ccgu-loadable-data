@@ -854,12 +854,19 @@
   name: nimbleguard
   power: 2
   guid: e156e58b-3903-0196-a55c-cef515c0dcdd
-- id: 791
+- id: 789
   slug: elijah
   description: My $power is raised by %4 during the enemy's turn
   pdc: -1
   priority: 3
-  effects: {}
+  effects:
+    passive:
+      condition: get.currentPlayer === opponent
+      perform: pass.raisePower( card, 4 )
+      allowedLots:
+        - unit-field
+        - hand
+        - grave
   name: elijah
   power: 3
   guid: 390fa875-b747-ccf3-2b6e-d53911fb821c
@@ -1409,11 +1416,20 @@
   power: 4
   name: immortal-bob
   guid: 7d41f504-7d39-2206-5921-d540a8c3a7f6
-- id: 806
+- id: 804
   slug: all-out-johhny
   description: At the end of your turn discard all cards in your hand
   status: 1
-  effects: {}
+  effects:
+    active:
+      eventName: TurnEnd
+      eventStatus: began
+      condition: player === event.player
+      perform: |-
+        player.hand.cards.forEach( c => 
+          op.moveTo( c, player.grave ) )
+      allowedLots:
+        - unit-field
   power: 8
   name: all-out-johhny
   guid: cb795b5c-f241-e904-0fe7-1394d217b4a1
