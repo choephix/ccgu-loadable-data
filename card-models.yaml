@@ -4640,6 +4640,7 @@
     - sneak
   effects:
     flip:
+      manner: combat
       perform: |-
         let c = get.cardBySlug('marco', player.grave)
         op.addToHand( c, player )
