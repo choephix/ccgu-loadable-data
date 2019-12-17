@@ -1,3 +1,15 @@
+- slug: patience-zero
+  guid: 73cf32c1-03b7-71e9-fb27-80d33fcc163d
+  id: 836
+  description: at the end of your turn, if I am in your hand - discard me
+  effects:
+    active:
+      eventName: TurnEnd
+      condition: player === event.player
+      perform: op.moveTo( card, player.grave )
+      allowedLots:
+        - hand
+  power: 7
 - id: 868
   slug: flipouch
   description: "Flip: Take 1 damage."
