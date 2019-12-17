@@ -1,6 +1,6 @@
 - slug: patience-zero
   guid: 73cf32c1-03b7-71e9-fb27-80d33fcc163d
-  id: 836
+  id: 834
   description: at the end of your turn, if I am in your hand - discard me
   effects:
     active:
@@ -15,7 +15,7 @@
   slug: flipouch
   description: "Flip: Take 1 damage."
   tags:
-    &a1
+    &a2
     - sneak
   pdc: -1
   priority: 3
@@ -30,7 +30,7 @@
   slug: kamikazejoe
   description: I die after attacking
   tags:
-    &a2
+    &a3
     - rush
     - notribute
   pdc: -1
@@ -54,7 +54,7 @@
 
     At the beginning of your turn, if I am the topmost card in your grave, i return to your hand.
   tags:
-    &a3
+    &a4
     - sneak
   effects:
     active:
@@ -68,6 +68,9 @@
 - id: 845
   slug: --charger
   description: My power is raised by 1 every time I am relocated.
+  tags:
+    &a1
+    - nomove
   effects: {}
   guid: d39e281e-94f1-ba2d-1deb-975d899e1f5e
   name: charger
@@ -75,6 +78,7 @@
 - id: 844
   slug: --handy
   description: When I am summoned, you draw 2 cards and the enemy draws 3 cards.
+  tags: *a1
   effects: {}
   guid: 44372e4e-629c-387c-6162-e52dccc7029c
   name: Flashforward
@@ -93,6 +97,7 @@
 - id: 48
   slug: shisno
   lore: "[n.] Skunk's poo's poo"
+  tags: *a1
   effects: {}
   guid: eed4c9e2-1f79-01f7-1113-d2b4772c6173
   name: shisno
@@ -142,6 +147,7 @@
   type: 1
   description: When opposing enemy $unit with 10 power or above, when it begins a direct
     attack - destroy it.
+  tags: *a1
   effects: {}
   name: bosstrap
   guid: 53828163-ed73-e387-3634-8cf87831dff2
@@ -149,6 +155,7 @@
   slug: sensho
   description: Cannot begin attack while there is no opposing enemy creature
   lore: (duplicate of man-of-honor)
+  tags: *a1
   effects: {}
   power: 7
   name: sensho
@@ -168,6 +175,7 @@
   description: |-
     Activate after opposite enemy unit attacks. 
     End the enemy's turn immeadiately.
+  tags: *a1
   effects: {}
   name: turn-end-1
   guid: 98bd4313-2b41-243a-d422-9c5886f115ee
@@ -179,6 +187,7 @@
 
 
     (so, this will always be on the other side? wtf?)
+  tags: *a1
   rarity: 2
   effects: {}
   power: 9
@@ -189,6 +198,7 @@
   type: 1
   description: When opposing grand unit is deployed, while you have no unit on your side -
     take control of that unit until the end of your turn
+  tags: *a1
   rarity: 10
   status: 12
   priority: -1
@@ -201,6 +211,7 @@
   description: |-
     Activate at enemy turn start
     Opp unit with pow higher than you lp cannot attack
+  tags: *a1
   effects: {}
   name: dxm-traphole-open
   guid: fdb6ca44-b032-8732-ae4f-5e1a4c4e330f
@@ -208,6 +219,7 @@
   slug: dxm-traphole
   type: 1
   description: When opp unit with power higher or equal to your lp attacks - destroy it
+  tags: *a1
   effects: {}
   name: DXM Traphole
   guid: 18cf57f5-6571-617d-648a-f6220f8354c9
@@ -216,6 +228,7 @@
   description: |-
     On deploy: gain 2lp
     On death by combat: lose 2lp
+  tags: *a1
   effects: {}
   power: 4
   name: 06b8606f
@@ -225,6 +238,7 @@
   description: |-
     On deploy: gain 5 lp
     On death by combat: lose 15lp
+  tags: *a1
   effects: {}
   power: 5
   name: e5fb2497
@@ -250,6 +264,7 @@
 - id: 948
   slug: giant-woodcock
   description: While there are no allies - pwr is 13
+  tags: *a1
   effects: {}
   name: b34fccee
   guid: b34fccee-8660-6ca6-dbf1-5f5573af96d8
@@ -282,12 +297,14 @@
 
 
     After that, at the end of the turn, destroy this card and your unit.
+  tags: *a1
   effects: {}
   name: Poweruptrib
   guid: bad44863-b607-86ee-c27e-45ee15304210
 - id: 904
   slug: irradiated-pika
   description: At the start of your opponent's turn - opposite enemy unit loses 3 power
+  tags: *a1
   effects: {}
   power: 1
   name: 8cb52eaa
@@ -306,6 +323,7 @@
   type: 1
   description: After your unit is destroyed, deploy the first unit found in the enemy
     graveyard
+  tags: *a1
   effects: {}
   name: d168768c
   guid: d168768c-2363-2cf9-e031-231ae5b6f749
@@ -314,6 +332,7 @@
   type: 1
   description: After direct attack against you on this lane finishes, deploy a token (5
     power)
+  tags: *a1
   effects: {}
   name: fb36dcc2
   guid: fb36dcc2-cd2e-5dce-5124-dd660a1afded
@@ -322,6 +341,7 @@
   type: 1
   description: If possible, after direct attack against you on this lane finishes, deploy a
     token and raise its power by the damage amount
+  tags: *a1
   status: 12
   priority: -1
   effects: {}
@@ -332,6 +352,7 @@
   type: 1
   description: After direct attack against you on this lane finishes, deploy the first unit
     found in your graveyard
+  tags: *a1
   effects: {}
   name: e6e083d3
   guid: e6e083d3-006b-d1ae-ef2a-6294e4f9d7e2
@@ -350,6 +371,7 @@
   description: |-
     opposite enemy unit has piercing
     until the end of the turn
+  tags: *a1
   effects: {}
   power: 6
   name: reversepiercing
@@ -371,12 +393,14 @@
 - id: 897
   slug: abased-nilgai
   description: adjecent units have +3 power
+  tags: *a1
   effects: {}
   name: 54a4abd9
   guid: 54a4abd9-1376-79a1-5c5a-fa48680b95a6
 - id: 896
   slug: buoyant-pewee
   description: adjecent units have +2 power
+  tags: *a1
   effects: {}
   power: 2
   name: 5ca29706
@@ -385,6 +409,7 @@
   slug: pennywise-mussel
   type: 1
   description: when opp unit atks - set its power to exactly 10
+  tags: *a1
   effects: {}
   name: beee108e
   guid: beee108e-a14c-2add-cc12-5dba1f96d0cf
@@ -408,6 +433,7 @@
 - id: 1536
   slug: literate-puffer
   description: +3 power, while there is an opposing enemy trap
+  tags: *a1
   effects: {}
   power: 4
   name: a8bcec64
@@ -423,6 +449,7 @@
 - id: 1602
   slug: busying-steer
   description: +1 power for each trap on either side.
+  tags: *a1
   effects: {}
   power: 2
   name: 37f4d8b7
@@ -430,6 +457,7 @@
 - id: 1601
   slug: lost-beaver
   description: +2 power for each enemy trap
+  tags: *a1
   effects: {}
   power: 2
   name: ef46053d
@@ -437,6 +465,7 @@
 - id: 1600
   slug: mild-whooper
   description: +2 power for each friendly trap
+  tags: *a1
   effects: {}
   power: 2
   name: b5d484ef
@@ -446,6 +475,7 @@
   type: 1
   description: Activate when your opponent draws a card. Until the end of their turn, every
     time they draw a card, you draw a card as well.
+  tags: *a1
   pdc: -1
   priority: 3
   effects: {}
@@ -459,6 +489,7 @@
     unit card. 
 
     Resurrect it on your side at this column.
+  tags: *a1
   pdc: -1
   priority: 3
   effects: {}
@@ -468,6 +499,7 @@
   slug: taunt
   type: 1
   description: Activate when opposing enemy unit is deployed and force it to attack.
+  tags: *a1
   rarity: 6
   pdc: -1
   priority: 3
@@ -488,6 +520,7 @@
   type: 1
   description: Activate when an enemy unit is deployed and the opposing unit field is
     empty. Move the unit there.
+  tags: *a1
   pdc: -1
   priority: 3
   effects: {}
@@ -496,6 +529,7 @@
 - id: 898
   slug: wandering-kyle
   description: "On death: enemy is healed for %4 hp"
+  tags: *a1
   pdc: -1
   priority: 3
   effects: {}
@@ -517,6 +551,7 @@
   slug: relokill
   type: 1
   description: Activate when opposing enemy unit starts relocation. Kill it.
+  tags: *a1
   pdc: -1
   priority: 3
   effects: {}
@@ -537,6 +572,7 @@
   type: 1
   description: Activate when opposing enemy $trap activates. Before the effect, destroy it
     and all units on my lane.
+  tags: *a1
   pdc: -1
   priority: 3
   effects: {}
@@ -569,6 +605,7 @@
   slug: toxicmine
   type: 1
   description: Activate when opposing enemy unit is deployed. Decrease its power by
+  tags: *a1
   pdc: -1
   priority: 3
   effects:
@@ -589,6 +626,7 @@
 - id: 825
   slug: autoatk
   description: I perform a free attack when deployed
+  tags: *a1
   pdc: -1
   status: 2
   priority: 3
@@ -601,6 +639,7 @@
   type: 1
   description: "#Persistent. Activate when $enemy's turn begins. When you deploy a unit on
     this lane, give it storm and destroy this trap."
+  tags: *a1
   pdc: -1
   status: 12
   priority: 1
@@ -628,6 +667,7 @@
     When I am $deployed - end your turn.
 
     Whenever any other $unit is about to be $deployed, give it Storm until turn end.
+  tags: *a1
   pdc: -1
   status: 12
   priority: 1
@@ -638,6 +678,7 @@
 - id: 809
   slug: needsmotivation
   description: Increase my $power by %2 for every $friendly adjacent $unit.
+  tags: *a1
   pdc: -1
   status: 2
   priority: 3
@@ -707,6 +748,7 @@
   slug: killonattack
   type: 1
   description: Activate after opposing enemy $unit finishes a direct attack. $Kill it.
+  tags: *a1
   pdc: -1
   status: 2
   priority: 3
@@ -718,21 +760,30 @@
       perform: g.op.kill( g.event.card )
   name: killonattack
   guid: e649a142-6fe2-e540-60e4-3615f222370a
-- id: 824
+- id: 805
   slug: free-jimmy
   description: Activate when I am deployed. Raise your $AP by %1.
+  tags: *a1
   pdc: -1
   status: 2
   priority: 3
-  effects: {}
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: card === event.card
+      perform: player.actionPoints++
+      allowedLots:
+        - unit-field
   name: free-jimmy
-  power: 2
+  power: 4
   guid: d733ae6a-414f-023c-4992-e99fea422de6
 - id: 874
   slug: nosneaking
   type: 1
   description: Activate when opposing enemy $unit is $deployed face-down. Flip it face-up,
     ignoring any flip-effects.
+  tags: *a1
   pdc: -1
   status: 1
   priority: 3
@@ -743,6 +794,7 @@
   slug: punishtrap
   type: 1
   description: Activate when opposing enemy $trap activates. Deal %3 damage to opponent.
+  tags: *a1
   pdc: -1
   status: 5
   priority: 9
@@ -755,6 +807,7 @@
   description: |-
     Activate when you are dealt direct damage by the opposing enemy $unit.
     Destroy all enemy $units with $power lower than that damage.
+  tags: *a1
   pdc: -1
   priority: 3
   effects: {}
@@ -775,6 +828,7 @@
 - id: 800
   slug: antisocial-knight
   description: My power is decreased by 3 for every other friendly $unit $in-play.
+  tags: *a1
   pdc: -1
   priority: 3
   effects:
@@ -797,7 +851,7 @@
   description: |-
     Combat Flip: 
     Take 5 damage.
-  tags: *a1
+  tags: *a2
   pdc: -1
   priority: 3
   effects:
@@ -807,12 +861,17 @@
   name: flipouch
   power: 5
   guid: b3dba8a0-17b9-532b-e7ac-e4922eb429e2
-- id: 822
+- id: 836
   slug: vampirefang
-  description: Any direct damage I deal in $combat, is added to your $health.
+  description: Any direct damage I deal, is added to your $health.
+  notes: needs damage-data (combat?, source)
+  tags: *a1
   pdc: -1
   priority: 3
-  effects: {}
+  effects:
+    active:
+      eventName: UnitAttackDirect
+      eventStatus: ended
   name: vampirefang
   power: 2
   guid: e8d29482-9996-f3ed-a02b-f0c4219e8c5a
@@ -841,6 +900,7 @@
 - id: 769
   slug: nimbleguard
   description: When an enemy $unit is $deployed, if possible, move me in front of it.
+  tags: *a1
   pdc: -1
   status: 2
   priority: 1
@@ -870,6 +930,7 @@
 - id: 789
   slug: elijah
   description: My $power is raised by %4 during the enemy's turn
+  tags: *a1
   pdc: -1
   priority: 3
   effects:
@@ -886,6 +947,7 @@
 - id: 808
   slug: joshua
   description: My $power is raised by %3 during your turn.
+  tags: *a1
   pdc: -1
   priority: 3
   effects: {}
@@ -976,6 +1038,7 @@
 - id: 901
   slug: token-summoner4
   description: When I die, $deploy @token0 in my place
+  tags: *a1
   pdc: -1
   status: 1
   priority: 8
@@ -999,6 +1062,7 @@
 - id: 803
   slug: man-of-honor
   description: I cannot attack if there is no opposing enemy $unit
+  tags: *a1
   pdc: -1
   status: 2
   priority: 8
@@ -1054,6 +1118,7 @@
   slug: eddy
   description: "When I am $deployed, if possible:\rIf @ed is in play, add @edd from your
     deck to your hand.\rIf @edd is in play, add @ed from your deck to your hand"
+  tags: *a1
   pdc: 46b0d909-5211-4e82-9346-fdbec164e9b4
   status: 1
   priority: 3
@@ -1066,6 +1131,7 @@
   description: "When I am $deployed, if possible:\rIf @ed is in play, add @eddy from your
     deck to your hand.\rIf @eddy is in play, add @ed from your deck to your
     hand"
+  tags: *a1
   pdc: 35166c93-b75d-4397-ac8e-90da60e31da8
   status: 1
   priority: 3
@@ -1078,6 +1144,7 @@
   description: "When I am $deployed, if possible:\rIf @edd is in play, add @eddy from your
     deck to your hand.\rIf @eddy is in play, add @edd from your deck to your
     hand"
+  tags: *a1
   pdc: a3740bf5-2ac0-40a8-a290-ae70e8ba1b86
   status: 1
   priority: 3
@@ -1090,6 +1157,7 @@
   description: |-
     I attack automatically on at the start of your turn.
     This counts as a manual attack to my $action-exhaustion.
+  tags: *a1
   pdc: -1
   status: 4
   priority: 7
@@ -1107,6 +1175,7 @@
 - id: 774
   slug: mercenery
   description: Take 1 direct damage every time I begin an attack.
+  tags: *a1
   pdc: -1
   status: 4
   priority: 7
@@ -1136,7 +1205,7 @@
 - id: 887
   slug: kamikazejoe-original
   description: I automatically attack when $deployed. I die after $combat.
-  tags: *a2
+  tags: *a3
   pdc: -1
   status: 3
   priority: 8
@@ -1167,6 +1236,7 @@
 - id: 259
   slug: doe2
   lore: Just a gal
+  tags: *a1
   pdc: -1
   status: 7
   priority: 3
@@ -1177,6 +1247,7 @@
 - id: 258
   slug: doe1
   lore: Just a guy
+  tags: *a1
   pdc: -1
   status: 7
   priority: 3
@@ -1187,6 +1258,7 @@
 - id: 257
   slug: doe0
   lore: No one knows his name. No one ever asked him either.
+  tags: *a1
   pdc: -1
   status: 7
   priority: 3
@@ -1198,6 +1270,7 @@
   slug: mirrorforce
   type: 1
   description: Activate when opposing enemy $unit attacks. Kill it.
+  tags: *a1
   pdc: -1
   status: 3
   priority: 6
@@ -1208,6 +1281,7 @@
   slug: tripwire
   type: 1
   description: Activate when enemy $unit $relocates to opposing $field. Kill it.
+  tags: *a1
   pdc: -1
   status: 3
   priority: 6
@@ -1218,6 +1292,7 @@
   slug: traphole
   type: 1
   description: Activate when an opposing enemy $unit is $deployed. Kill it.
+  tags: *a1
   rarity: 8
   pdc: -1
   status: 3
@@ -1249,6 +1324,7 @@
   guid: 073a7154-da48-f617-57a4-ac15748e5d6f
 - id: 256
   slug: generic5
+  tags: *a1
   pdc: -1
   status: 7
   priority: 3
@@ -1259,6 +1335,7 @@
 - id: 1
   slug: -kami
   lore: op af
+  tags: *a1
   priority: 3
   effects: {}
   name: -kami
@@ -1267,6 +1344,7 @@
   slug: -killany
   type: 1
   description: kill first unit deployed
+  tags: *a1
   pdc: -1
   status: 7
   priority: 3
@@ -1276,6 +1354,7 @@
 - id: 35
   slug: -infinitemana
   description: +1AP on any deployment. die on turn start.
+  tags: *a1
   pdc: -1
   status: 7
   priority: 3
@@ -1285,6 +1364,7 @@
 - id: 34
   slug: -muchdraw
   description: Draw 6 cards when I am deployed.
+  tags: *a1
   status: 7
   priority: 3
   effects: {}
@@ -1317,6 +1397,7 @@
   slug: -wildtrap
   type: 1
   lore: -- Whatever you wish, dude.... --
+  tags: *a1
   pdc: -1
   status: 4
   priority: 3
@@ -1326,6 +1407,7 @@
 - id: 2
   slug: -wildunit
   lore: -- Whatever you wish, dude.... --
+  tags: *a1
   pdc: -1
   status: 4
   priority: 3
@@ -1425,6 +1507,7 @@
   slug: immortal-bob
   description: While in your graveyard, at the end of the enemy's turn, put me at the top
     of your deck.
+  tags: *a1
   effects: {}
   power: 4
   name: immortal-bob
@@ -1432,6 +1515,7 @@
 - id: 804
   slug: all-out-johhny
   description: At the end of your turn discard all cards in your hand
+  tags: *a1
   status: 1
   effects:
     active:
@@ -1449,6 +1533,7 @@
 - id: 2822
   slug: handy-mike
   description: When I die - draw two cards.
+  tags: *a1
   status: 1
   effects: {}
   power: 3
@@ -1457,6 +1542,7 @@
 - id: 899
   slug: handy-tina
   description: When I am summoned, both players draw a card
+  tags: *a1
   status: 2
   priority: 4
   effects: {}
@@ -1469,6 +1555,7 @@
     I cannot be summoned while you have no creatures in play.
     When I am summoned, life-link me to all other friendly creatures.
     When they die, I die.
+  tags: *a1
   effects: {}
   power: 7
   name: Overly Attacked Spirit
@@ -1514,6 +1601,7 @@
   description: Activate when opposing enemy creature is being summoned. Lock the opposing
     creature field until the start of our next turn. If any creatures were
     sacrificed for the aborted summon, they do not return.
+  tags: *a1
   effects: {}
   name: field-lock
   guid: 6287ab3a-16d5-0a9e-056a-0940c925cecd
@@ -1521,6 +1609,7 @@
   slug: pull-atker
   type: 1
   description: When any enemy unit begins an attack, pull it to this lane beforehand.
+  tags: *a1
   effects: {}
   name: pull-atker
   guid: 040a93e7-d658-b0f7-5a26-d79a5daac943
@@ -1532,6 +1621,7 @@
     same lane.
 
     Destroy it.
+  tags: *a1
   rarity: 7
   effects: {}
   name: safe-traphole-1
@@ -1544,6 +1634,7 @@
     same lane.
 
     Destroy it, but take damage equal to its power.
+  tags: *a1
   rarity: 4
   priority: 6
   effects: {}
@@ -1575,6 +1666,7 @@
   guid: f27c8444-010c-475e-a7e7-954b62b2a0ec
 - id: 260
   slug: --doe3
+  tags: *a1
   effects: {}
   power: 5
   name: Random Dude
@@ -1586,12 +1678,14 @@
     #persistent
 
     Activate at the start of the enemy's turn if you have no creatures in play. All empty enemy fields are locked until the end of their turn.
+  tags: *a1
   effects: {}
   name: Field Lock!
   guid: 7f2038db-7255-eca0-0b5e-92dce144a2c3
 - id: 3844
   slug: --token-summoner4
   description: When I die, summon a 0 power token creature in my place.
+  tags: *a1
   effects: {}
   power: 4
   name: Warrior-Hen
@@ -1616,6 +1710,7 @@
     #persistent
 
     Activate when opposing enemy creature attacks. It becomes immobile. -2POW before this and every subsequent attack. Destroy this card when it leaves its field.
+  tags: *a1
   effects: {}
   name: Depowering Gas
   guid: 04d1455c-d859-025f-7b39-c1b1818b67d0
@@ -1665,6 +1760,7 @@
   slug: --saviour
   description: The next time another friendly creature should die from combat, destroy me
     instead.
+  tags: *a1
   effects: {}
   power: 3
   name: The Saviour
@@ -1673,6 +1769,7 @@
   slug: --tactical-joe
   description: At the end of your opponent's turn, if there is an opposing enemy creature I
     return to your hand.
+  tags: *a1
   effects: {}
   power: 9
   name: Tactical Joe
@@ -1689,6 +1786,7 @@
 - id: 2113
   slug: --deathdraw
   description: When I die - draw 2 cards.
+  tags: *a1
   effects: {}
   power: 3
   name: Mike
@@ -1697,18 +1795,21 @@
   slug: --man-of_honor
   description: I cannot attack if there is no opposing enemy creature.
   lore: (duplicate of man-of-honor)
+  tags: *a1
   effects: {}
   power: 7
   name: Man of Honor
   guid: 8dc335aa-06d2-b3ef-4553-bddddd781cf6
 - id: 3423
   slug: --doe2
+  tags: *a1
   effects: {}
   power: 5
   name: Jane Doe
   guid: 329844fe-0b1b-5169-9061-7c3798718b7d
 - id: 3422
   slug: --doe1
+  tags: *a1
   effects: {}
   power: 5
   name: John Doe
@@ -2035,6 +2136,7 @@
   description: When I am attacked by a stronger creature, its controller discards from
     their deck the same amount of cards, as the difference in power between me
     and my attacker.
+  tags: *a1
   effects: {}
   power: 2
   name: Deckstructor
@@ -2053,6 +2155,7 @@
   slug: --antisocial-knight
   description: My power is decreased by 3 for every other friendly creature card in play.
   notes: dup
+  tags: *a1
   effects: {}
   power: 9
   name: Antisocial Knight
@@ -2505,6 +2608,7 @@
 - id: 3304
   slug: --finalrage
   description: My power is raised by 6 while you have 3 or less Life Points.
+  tags: *a1
   effects: {}
   power: 3
   name: Final Rage
@@ -2699,6 +2803,7 @@
   slug: --phoenix
   description: When I die, if there are no other friendly creatures, send me to my
     controller's hand instead of the graveyard.
+  tags: *a1
   effects: {}
   power: 4
   name: Phoenix
@@ -2711,6 +2816,7 @@
     higher than your LP. 
 
     Both players summon to each empty creature field on their side, the first creature they can from their graveyard.
+  tags: *a1
   effects: {}
   name: Last Stand!
   guid: 26487a27-49bb-bbf5-6458-076c720830a2
@@ -2719,6 +2825,7 @@
   type: 1
   description: Activate when opposing enemy creature is summoned end there is a friendly
     creature on your side. Life-link enemy creature to yours.
+  tags: *a1
   effects: {}
   name: Surprise Link
   guid: 9f517ba2-c1f8-eab7-3375-0cac95ef42c9
@@ -2729,6 +2836,7 @@
     #persistent
 
     Activate only when opposing enemy creature attacks you directly, with power higher than your LP.  Destroy all cards in play and set both players' Life Points to 2.
+  tags: *a1
   effects: {}
   name: Sudden Death!
   guid: 796d5f7e-0ab0-9d91-60b0-859384c82f5e
@@ -2736,6 +2844,7 @@
   slug: --move-trap_hole
   type: 1
   description: When enemy creature relocates to the opposing field, instantly destroy it .
+  tags: *a1
   effects: {}
   name: Slippery Pit
   guid: e59c75f4-dc02-b2d0-d047-5cd392b35196
@@ -2744,6 +2853,7 @@
   type: 1
   description: Activate when you are about to receive fatal damage. That damage becomes 0
     and you draw 1 card.
+  tags: *a1
   effects: {}
   name: One Last Save
   guid: ba16b7f9-e0bd-32a0-0e04-3eea1d6c0c93
@@ -2754,6 +2864,7 @@
     #persistent
 
     Activate when there is no friendly creature on this column and you receive direct damage for any reson. Summon me as a creature on the same column, with power equal to that damage.
+  tags: *a1
   effects: {}
   name: CREATURE
   guid: f3303246-70de-0cad-d28d-43497c63c05a
@@ -2761,6 +2872,7 @@
   slug: --waste
   type: 1
   description: When an opposing enemy creature is summoned, return it to the enemy's hand.
+  tags: *a1
   effects: {}
   name: Grandious Waste
   guid: 0b430357-0f5b-a3b7-e003-8b92abc1ad82
@@ -2769,6 +2881,7 @@
   type: 1
   description: When an opposing enemy creature is summoned face-up, return it to the top of
     the opponen's deck.
+  tags: *a1
   effects: {}
   name: Anti Summon 1
   guid: 73f6e4c5-fd39-a576-3f16-a1d7cdc3ca11
@@ -2777,6 +2890,7 @@
   type: 1
   description: When an opposing enemy creature is summoned face-down, return it to the top
     of the opponen's deck.
+  tags: *a1
   effects: {}
   name: Anti Summon 2
   guid: 8ae50766-b6c7-71fc-d040-bbe9f91f64bf
@@ -2787,6 +2901,7 @@
     #persistent
 
     Activate me when opponent safe-flips opposing enemy creature - flip it back face-down. Enemy player cannot safe-flip creatures while I am in play. Destroy me at the end of the turn.
+  tags: *a1
   effects: {}
   name: No-Flipping!
   guid: e23e9bf6-c95e-aee9-c2ac-a371fbf3740e
@@ -2795,6 +2910,7 @@
   type: 1
   description: Activate when opposing enemy creature dies during the enemy turn. Destroy
     all face-up enemy creatures.
+  tags: *a1
   effects: {}
   name: r5ba0t
   guid: c325d638-8085-470e-b52b-dcd9e14815c4
@@ -2805,6 +2921,7 @@
     #persistent
 
     Activate me when enemy turn starts and there is an opposing enemy creature. At the end of their turn, if there is still an opposing enemy creature, force it to attack.
+  tags: *a1
   effects: {}
   name: Taunt
   guid: a7de052b-2f5c-fec4-d23d-cbcabafbaec3
@@ -2813,6 +2930,7 @@
   type: 1
   description: Activate when opposing enemy creature is summoned and there is a friendly
     creature on your side with equal or greater power. Swap creatures.
+  tags: *a1
   effects: {}
   name: Weird Swap
   guid: eaa4f4ae-e215-1af2-1db6-9890b9dd6c61
@@ -2821,6 +2939,7 @@
   type: 1
   description: Activate when an opposing enemy creature is summoned. The opponent loses all
     mana.
+  tags: *a1
   effects: {}
   name: Mana-Drop
   guid: 2de51c64-86bf-e253-7a44-d8c66a6a7fd1
@@ -2829,6 +2948,7 @@
   type: 1
   description: Activate when an opposing enemy non-grand-creature is summoned face-up and
     you have no creature on the same column. Move it to your side.
+  tags: *a1
   effects: {}
   name: Unexpected Assistance
   guid: 4f7b638a-dd88-e188-1689-dd48c2912589
@@ -2839,6 +2959,7 @@
     #persistent
 
     Activate me before the start of the enemy's turn. Draw 1 card every time an enemy creature is summoned. Destroy this card at the end of the turn.
+  tags: *a1
   effects: {}
   name: Fately Summons
   guid: cac8315a-9a7f-ad4d-1697-3dbab95ca3dc
@@ -2847,6 +2968,7 @@
   type: 1
   description: When an opposing enemy creature starts a direct attack, summon a 0 powered
     token on every empty field on both sides
+  tags: *a1
   effects: {}
   name: Them Damn Tokens
   guid: 7db7eb6f-fecd-d616-c829-3f7471ad00c8
@@ -2855,6 +2977,7 @@
   type: 1
   description: Activate when your own creature dies. All face-up creatures in play with
     power equal or lower than it are also destroyed
+  tags: *a1
   effects: {}
   name: Scorching Flames
   guid: c3fc1839-332e-1a24-034a-894fd9817266
@@ -2865,6 +2988,7 @@
     #persistent
 
     Activate when an opposing enemy creature is summoned and you have no creature the same column. Move that creature to your side. At the end of your turn destroy me. When I am destroyed, return affected creature to its owner's hand.
+  tags: *a1
   effects: {}
   name: Unexpected Assistance
   guid: b370afac-e766-3713-526b-a93e950f5646
@@ -2873,6 +2997,7 @@
   type: 1
   description: Activate before the start of your turn if you have 0 cards in your hand.
     Draw 4 cards
+  tags: *a1
   effects: {}
   name: Fate Boost
   guid: 693f6416-74e7-b873-fd90-873f3b7cd93f
@@ -2882,6 +3007,7 @@
   description: Activate when opposing enemy creature starts an attack. If possible, summon
     @ritual_c_f2 from your hand on your own side of this column. If there is a
     friendly creature there, destroy it, but add its current attack to %%0.
+  tags: *a1
   effects: {}
   name: Supreme King Ritual
   guid: af43845e-b5f6-2504-a5fe-87130a86f29d
@@ -2890,6 +3016,7 @@
   type: 1
   description: Activate when opposing enemy creature attacks your creature. Destroy both
     creatures instantly.
+  tags: *a1
   effects: {}
   name: Assisted Suicide
   guid: 03e516f0-48c9-5e3b-60f1-3d71f71d76c2
@@ -2898,6 +3025,7 @@
   type: 1
   description: Activate when opposing enemy creature is successfully summoned face-up.
     Destroy all faceup  creatures with lower power than it.
+  tags: *a1
   effects: {}
   name: Toxic Shadow
   guid: 91083c6b-4ad2-b07d-d12f-9eb151ce2335
@@ -2908,6 +3036,7 @@
     #persistent
 
     Activate when opposing enemy creature attacks. That creature cannot attack while this card is in play. Destroy me when that creature leaves its field.
+  tags: *a1
   effects: {}
   name: Hypno-Shield
   guid: a2e1886f-8377-f75c-8d88-46d55234b177
@@ -2918,6 +3047,7 @@
     #persistent
 
     Activate me before the start of the enemy's turn. Draw 1 card every time an enemy creature attacks. Destroy me at the end of the turn.
+  tags: *a1
   effects: {}
   name: Compensation
   guid: fe11ab3b-c775-9bca-26d2-63203e50cdbd
@@ -2928,6 +3058,7 @@
     #persistent
 
     Activate when a friendly creature on this column is attacked. Its power becomes that of the strongest friendly creature adjacent to it while I am in play. Destroy me at the end of the turn.
+  tags: *a1
   effects: {}
   name: Assist
   guid: 8ad31d23-7b59-bb79-22a4-786c799a7702
@@ -2936,6 +3067,7 @@
   type: 1
   description: Activate when a friendly monster on the same column is about to die during
     the enemy's turn. Put that creature in your hand instead.
+  tags: *a1
   effects: {}
   name: Last Second Escape
   guid: b3824637-e491-139e-f7b3-1b716374f9e0
@@ -2946,6 +3078,7 @@
     #persistent
 
     Activate when opposing enemy creature begins a direct attack. Resurrect the first creature in your graveyard that can be summoned at this column (if any). This card and that creature are linked.
+  tags: *a1
   effects: {}
   name: Beyond Shield
   guid: 105daf5d-64a3-8c56-4ae6-70d91f563c1c
@@ -2954,6 +3087,7 @@
   type: 1
   description: Activate the moment you have no creatures in play and it is the enemy's
     turn. Summon a 0 power token on each of your empty fields.
+  tags: *a1
   effects: {}
   name: Tokens Shield
   guid: 60e36057-4a85-32fe-9617-ec7c653e51ba
@@ -2962,6 +3096,7 @@
   type: 1
   description: Activate when opposing enemy creature attacks your creature.  Negate the
     attack and take direct damage equal to the enemy creature's power.
+  tags: *a1
   effects: {}
   name: Phase Through
   guid: 075058a2-7176-f4bd-6272-ae381110fba7
@@ -2972,6 +3107,7 @@
     #persistent
 
     When opposing enemy creature is used as a tribute to summon a Grand creature, lock the field under them for as long as this card is in play. Destroy this card at the end of the turn.
+  tags: *a1
   effects: {}
   name: Grand Lock
   guid: d1320602-24fd-1fa5-6298-029b089cda09
@@ -2982,6 +3118,7 @@
     #persistent
 
     Activate at the begining of next enemy turn. At the end of that turn if this card is still in play and there is an opposing enemy creature, destroy it.
+  tags: *a1
   effects: {}
   name: Time Bomb
   guid: 2bfe131f-6709-d280-770e-573266878b18
@@ -2992,6 +3129,7 @@
     #persistent
 
     Activate me before the start of the enemy's turn. At the end of that turn destroy me and heal your LP for the amount of the combined ATK of every enemy creature that could but did not attack this turn.
+  tags: *a1
   effects: {}
   name: I dare you
   guid: e4ad3fec-1762-ff3b-eed9-2ee9c64ef880
@@ -3002,6 +3140,7 @@
     #persistent
 
     Activate me before the start of the enemy's turn. Draw 1 card every time the enemy draws a card. Destroy me at the end of the turn.
+  tags: *a1
   effects: {}
   name: Equality
   guid: 8459f03d-87ed-d145-1f2f-75d4a0b629e3
@@ -3010,6 +3149,7 @@
   type: 1
   description: Activate the momoent you have no cards in your deck. Both players add their
     graveyards to their decks and shuffle them.
+  tags: *a1
   effects: {}
   name: Deck Replenish
   guid: d3dcdefa-cc96-2c97-4685-80ee9c6c0d96
@@ -3018,6 +3158,7 @@
   type: 1
   description: Activate when an opposing enemy creature is summoned and there is a freindly
     creature on your side of it. Your creature performs a free attack.
+  tags: *a1
   effects: {}
   name: Surprise Attack!
   guid: ca3a6d1f-f089-4c7e-42ec-0a7a9ea6f384
@@ -3026,6 +3167,7 @@
   type: 1
   description: Activate when opposing enemy creature attacks your creature. Raise your
     creature's power by 2.
+  tags: *a1
   effects: {}
   name: Empower 0
   guid: 745b1bb0-2000-0067-2c20-3f18cc889301
@@ -3034,6 +3176,7 @@
   type: 1
   description: Activate when opposing enemy creature starts direct attack. If possible,
     summon @ritual_c_f3 from your hand on your own side of this column.
+  tags: *a1
   effects: {}
   name: Supreme Ritual 3
   guid: c2f7bebe-1d33-9f17-4b96-41c24a7637ba
@@ -3044,6 +3187,7 @@
     #persistent
 
     Activate when opposing enemy creature attacks your creature. Decrease enemy creature's power by 3 while this card is in play. Destroy this card when that creature leaves play.
+  tags: *a1
   effects: {}
   name: Depower 0
   guid: aec06857-4b8a-877a-6d69-8f3ace33e0d4
@@ -3052,6 +3196,7 @@
   type: 1
   description: Activate when opposing enemy creature attacks your creature. Raise your
     creature's power by 5 until the end of this turn.
+  tags: *a1
   effects: {}
   name: Empower
   guid: d859e07b-6d42-ae6e-7089-38b0193f94cc
@@ -3060,6 +3205,7 @@
   type: 1
   description: Activate when opposing enemy creature attacks your creature. Decrease enemy
     creature's power by 5 until the end of this turn.
+  tags: *a1
   effects: {}
   name: Depower
   guid: f411e0f0-ee5f-bb83-2540-a31488411eef
@@ -3070,6 +3216,7 @@
     #persistent
 
     I activate when you are about to receive direct damage during the enemy's turn. All direct damage to all players is converted to healing damage. Destroy me at the end of your own turn.
+  tags: *a1
   effects: {}
   name: Red Cross Reverse
   guid: ddd7db9d-7810-de10-c964-5b55c3875fc2
@@ -3079,6 +3226,7 @@
   description: Activate when friendly  creature on this column dies during the enemy's
     turn. If possible, summon @ritual_c_f1 from your hand in its place and raise
     its power by double the base power of the dead creature.
+  tags: *a1
   effects: {}
   name: Supreme Demon Ritual
   guid: 09a4bd82-375a-bc55-0dc7-e10cf31c023d
@@ -3087,6 +3235,7 @@
   type: 1
   description: This card has the condition and effect of the top card in your graveyard, so
     long as it is a trap.
+  tags: *a1
   effects: {}
   name: Redo
   guid: 2de70dd2-f62a-d153-919b-cb8a77e4e3e3
@@ -3095,6 +3244,7 @@
   type: 1
   description: Activate when opposing enemy creature attacks. Enemy player discards cards
     from their deck equal to the number of cards in their hand.
+  tags: *a1
   effects: {}
   name: Bad Fate 1
   guid: 0472a433-63b6-f70d-2c7a-b1bbda6f8138
@@ -3105,6 +3255,7 @@
     #persistent
 
     Activate at the start of your opponent's turn. Every time they spend mana, they also discard the top 3 cards in their deck Destroy me at the end of that turn.
+  tags: *a1
   effects: {}
   name: Magic Deckstruction
   guid: 9d5a7510-83e5-3a0c-9d25-333c226ab525
@@ -3113,6 +3264,7 @@
   type: 1
   description: Activate when you are about to receive fatal direct damage from opposing
     enemy creature's attack. Convert it to healing damage.
+  tags: *a1
   effects: {}
   name: Final Heal
   guid: c253f246-c1f6-5a75-3cab-ccf253dc678d
@@ -3121,6 +3273,7 @@
   type: 1
   description: Activate when a friendly creature on this column is about to die from
     combat. Gain LP equal to its power.
+  tags: *a1
   effects: {}
   name: POW2LP
   guid: f69ff7bc-21f7-d3be-b5af-bea1f8f91fac
@@ -3129,6 +3282,7 @@
   type: 1
   description: Activate when opposing enemy creature attacks you directly. Return it to its
     owner's hand.
+  tags: *a1
   effects: {}
   name: Shock Therapy
   guid: f1d64fef-7b04-4e23-f028-8ebb14faaa18
@@ -3139,6 +3293,7 @@
     #persistent
 
     Activate at the start of the enemy's turn. They draw a free card. At the end that turn, the enemy discards their hand, and you destroy this card.
+  tags: *a1
   effects: {}
   name: Handstruction
   guid: d1f20837-ce57-b63e-269d-30fffef4f26a
@@ -3147,6 +3302,7 @@
   type: 1
   description: Activate when opposing enemy creature starts a direct attack. Enemy player
     discards cards from their deck equal to that creature's power.
+  tags: *a1
   effects: {}
   name: Bad Fate 2
   guid: 20944aeb-c1d0-fc24-39c6-888382932928
@@ -3156,6 +3312,7 @@
   description: Activate when opposing enemy creature attacks. Any enemy creature on this
     column is immobile and gets -1POW at the beginning of this and each
     subsequent attack. Destroy this card when the opposing enemy field is empty.
+  tags: *a1
   effects: {}
   name: Depowering Gas
   guid: edd175bf-6c06-39b2-a01d-54ae047c96f5
@@ -3163,12 +3320,14 @@
   slug: --immortal-robert
   description: While in your graveyard, at the end of the enemy's turn, put me at the top
     of your deck.
+  tags: *a1
   effects: {}
   power: 4
   name: Immortal Robert
   guid: 1e46acbf-5415-1d88-5df9-3d81d69d481a
 - id: 3440
   slug: --ace1-lvl1
+  tags: *a1
   effects: {}
   power: 4
   name: Ace (Level 1)
@@ -3188,6 +3347,7 @@
   slug: --bloodthirter
   description: Raise my power by 2 each time an enemy creature is destroyed. This effect
     resets after I finish an attack (successfully or not).
+  tags: *a1
   effects: {}
   power: 4
   name: Bloodthirty
@@ -3198,6 +3358,7 @@
     I cannot move.
 
     When I am attacked by an enemy creature, heal your LP by the creature's power.
+  tags: *a1
   effects: {}
   name: power healer
   guid: 6b2a5336-d8cc-435f-20f6-447de66bff89
@@ -3205,6 +3366,7 @@
   slug: --token-summoner_2
   description: When I am summoned, summon a 0 power token on each empty creature field on
     both sides.
+  tags: *a1
   effects: {}
   name: Token Summoner 2
   guid: bf5f8212-fc65-1cbb-e39e-307587378cfe
@@ -3212,6 +3374,7 @@
   slug: --token-summoner-0.mf7d39a2hrc0.eey7ifwfjjg
   description: When I die and enter the graveyard - summon 0 power tokens on each of your
     empty creature fields
+  tags: *a1
   effects: {}
   power: 3
   name: Token Summoner*
@@ -3219,23 +3382,29 @@
 - id: 3272
   slug: --darkassasin1
   description: When I attack - deal 1 damage to your Life Points.
+  tags: *a1
   effects: {}
   power: 6
   name: Blood Mercenary
   guid: 88dcde4f-7256-261b-29d6-73b8dc2a9f62
-- id: 823
+- id: 837
   slug: fatal-spirit
   description: >-
     I cannot move.
 
     When this creature is killed by an enemy creature - destroy that enemy creature.
-  effects: {}
+  notes: needs death-data (combat?, source)
+  tags: *a1
+  effects:
+    active:
+      eventStatus: ended
   power: 1
   name: Fatal Spirit
   guid: efa4cd39-fc48-65dd-9baf-421ee32d0114
 - id: 3274
   slug: --big-shield
   description: Cannot attack.
+  tags: *a1
   effects: {}
   power: 9
   name: Big Shield
@@ -3243,6 +3412,7 @@
 - id: 3275
   slug: --force-field
   description: Any direct damage you receive is reduced to 0 while I am in play.
+  tags: *a1
   effects: {}
   name: Force Field
   guid: 3511cf2e-37a7-82a2-954d-555c3e926504
@@ -3260,6 +3430,7 @@
 - id: 3277
   slug: --honor-1
   description: Raise my power by 2 for each other friendly Honorable Soldier card in play.
+  tags: *a1
   effects: {}
   power: 4
   name: Honorable Soldier A
@@ -3268,6 +3439,7 @@
   slug: --bloodrager
   description: Raise my power by 1 each time a creature is destroyed. This effect resets
     after I finish an attack (successfully or not).
+  tags: *a1
   effects: {}
   power: 3
   name: Bloodrage
@@ -3298,6 +3470,7 @@
 - id: 3281
   slug: --zombyra
   description: Every time I attack, decrease my power by 2.
+  tags: *a1
   effects: {}
   power: 8
   name: Overly Excited Tim
@@ -3305,6 +3478,7 @@
 - id: 3282
   slug: --rz6p0r
   description: After I attack the enemy directly, I am destroyed.
+  tags: *a1
   effects: {}
   power: 6
   name: rz6p0r
@@ -3312,6 +3486,7 @@
 - id: 3283
   slug: --problematic-sam
   description: I cannot be summoned on a field with an opposing enemy creature in play.
+  tags: *a1
   effects: {}
   power: 7
   name: Problematic Sam
@@ -3330,6 +3505,7 @@
 - id: 3285
   slug: --mana-powered_bitch
   description: While I am attacking, my power is raised by your current mana.
+  tags: *a1
   effects: {}
   power: 4
   name: Mana Powered Bitch
@@ -3338,6 +3514,7 @@
   slug: --mana-dispenser
   description: Increase your current mana (without ignoring your current mana-capacity)
     every time I attack.
+  tags: *a1
   effects: {}
   power: 4
   name: Mana Dispenser
@@ -3346,6 +3523,7 @@
   slug: --johnny1
   description: I cannot be summoned manually on a field with an opposing enemy creature in
     play.
+  tags: *a1
   effects: {}
   power: 6
   name: johnny1
@@ -3353,6 +3531,7 @@
 - id: 3288
   slug: --emma
   description: If your current mana is 0, you can summon me for no mana cost.
+  tags: *a1
   effects: {}
   power: 4
   name: Emma
@@ -3360,6 +3539,7 @@
 - id: 3289
   slug: --freefred
   description: When I am summoned, you gain 1 mana.
+  tags: *a1
   effects: {}
   power: 4
   name: Free Fred
@@ -3367,6 +3547,7 @@
 - id: 3306
   slug: --mana-thing
   description: My power is raised by 2 x your current mana
+  tags: *a1
   effects: {}
   name: Mana Thing*
   guid: 93d9ae67-865e-5087-fd4a-4d5f35b783d9
@@ -3376,6 +3557,7 @@
     I cannot attack.
 
     At the end of the enemy turn, if the opposing enemy creature can perform a manual attack, it is forced to.
+  tags: *a1
   effects: {}
   power: 7
   name: Taunting Shield*
@@ -3386,6 +3568,7 @@
     I cannot attack.
 
     At the beginning of the enemy turn, if the opposing enemy creature can attack me, it performs a free attack.
+  tags: *a1
   effects: {}
   power: 5
   name: Taunting Shield*
@@ -3396,6 +3579,7 @@
     I cannot Attack.
 
     The moment you have more Life Points than the enemy, I will go to the enemy's hand.
+  tags: *a1
   effects: {}
   power: 12
   name: Collossal Shield*
@@ -3405,6 +3589,7 @@
   description: |-
     I cannot Attack.
     The moment you have more creatures in play than the enemy, I die.
+  tags: *a1
   effects: {}
   power: 10
   name: Collossal Shield*
@@ -3416,6 +3601,7 @@
 
     I do not suffer summon exhaustion.\rReturn me to your hand at the end of
     your turn."
+  tags: *a1
   effects: {}
   power: 1
   name: Harrassing Mia
@@ -3423,12 +3609,14 @@
 - id: 3296
   slug: --emptyshell
   description: I do not suffer from summon exhaustion.
+  tags: *a1
   effects: {}
   name: Empty Shell
   guid: 1b86623b-0b3e-06ff-3a33-ea554b9feea2
 - id: 3297
   slug: --honor-2
   description: Raise my power by 2 for each other friendly Honorable Soldier card in play.
+  tags: *a1
   effects: {}
   power: 4
   name: Honorable Soldier B
@@ -3436,6 +3624,7 @@
 - id: 3299
   slug: --honor-3
   description: Raise my power by 2 for each other friendly Honorable Soldier card in play.
+  tags: *a1
   effects: {}
   power: 4
   name: Honorable Soldier C
@@ -3446,6 +3635,7 @@
 
     If @ed is in play, add @edd from your deck to your hand.\rIf %%1 is in
     play, add %%0 from your deck to your hand"
+  tags: *a1
   effects: {}
   power: 4
   name: Eddy
@@ -3454,6 +3644,7 @@
   slug: --all-out_joe
   description: At the end of your turn discard all cards in your hand
   lore: duplicate
+  tags: *a1
   effects: {}
   power: 8
   name: All Out Joe
@@ -3462,6 +3653,7 @@
   slug: spying-james
   description: While I am in play - opponent keeps the top card in his deck face-up at all
     times.
+  tags: *a1
   effects:
     passive:
       condition: g.opponent.deck.hasCards
@@ -3477,6 +3669,7 @@
   slug: --piercing-gemma
   description: Every time I battle an enemy creature, the power difference is dealt as
     direct damage to the weaker creature's controller.
+  tags: *a1
   effects: {}
   power: 4
   name: Piercing Gemma
@@ -3485,6 +3678,7 @@
   slug: --linked-bro4
   description: At the beginning of your turn, if there aren't at least 2 other friendly
     Linked Bros in play, destroy me.
+  tags: *a1
   effects: {}
   power: 6
   name: Linked Bro
@@ -3492,6 +3686,7 @@
 - id: 3307
   slug: --trapowered2
   description: My power is raised by 1 for each friendly trap in play.
+  tags: *a1
   effects: {}
   power: 4
   name: Trap-Powered
@@ -3499,6 +3694,7 @@
 - id: 802
   slug: producer
   description: My power is raised by 1 for each card in your hand
+  tags: *a1
   effects:
     passive:
       condition: "true"
@@ -3515,6 +3711,7 @@
 - id: 3309
   slug: --ferocious-sara
   description: Raise my power by 2 for each enemy creature card in play.
+  tags: *a1
   effects: {}
   name: Ferocious Sara
   guid: 7f229634-d2a4-0637-77dd-c514f7d0b672
@@ -3522,12 +3719,14 @@
   slug: --minor-token_summoner
   description: When I am summoned, for each adjacent creature field and the opposing enemy
     creature field - if its empty, summon a 0 power token to it.
+  tags: *a1
   effects: {}
   name: Minor Token Summoner
   guid: bf7c4801-7ac2-95c3-1643-fe1d445d3a44
 - id: 3311
   slug: --confusor
   description: While I am in play - decrease all enemy creatures' power by 1.
+  tags: *a1
   effects: {}
   power: 2
   name: Confusing Timothy
@@ -3536,6 +3735,7 @@
   slug: --supporting-phil
   description: While I am in play, the effects of friendly @motivator and @confusor are
     doubled.
+  tags: *a1
   effects: {}
   power: 4
   name: Supporting Phil
@@ -3544,6 +3744,7 @@
   slug: --bloodcopy-1
   description: My power equals the base power of the top card in your graveyard (0 if its
     not a creature)
+  tags: *a1
   effects: {}
   name: Blood-Copy 1
   guid: 75370752-1674-5409-506e-3566fd7e9d0b
@@ -3551,6 +3752,7 @@
   slug: --bloodcopy-2
   description: My power equals the base power of the top card in the enemy's graveyard (0
     if its not a creature)
+  tags: *a1
   effects: {}
   name: Blood-Copy 2
   guid: bdf81351-ac63-3d94-d93f-4a167a0ceb0c
@@ -3558,6 +3760,7 @@
   slug: --spineless-troll
   description: When I am attacked by enemy creature, I return to my controller's hand. The
     attack is aborted.
+  tags: *a1
   effects: {}
   power: 6
   name: Spineless Troll
@@ -3565,6 +3768,7 @@
 - id: 3316
   slug: --good-offender
   description: Raise my power by 3 while I am attacking
+  tags: *a1
   effects: {}
   power: 3
   name: Good Offender
@@ -3572,6 +3776,7 @@
 - id: 3317
   slug: --good-defender
   description: Raise my power by 4 while I am being attacked
+  tags: *a1
   effects: {}
   power: 3
   name: Good Defender
@@ -3579,6 +3784,7 @@
 - id: 3318
   slug: --handy-jimmy
   description: Raise my power by 6 while you have no cards in your hand.
+  tags: *a1
   effects: {}
   power: 3
   name: Handy Jimmy
@@ -3586,6 +3792,7 @@
 - id: 3319
   slug: --angered3
   description: Raise my power by 6 while you have more empty creature fields than the enemy.
+  tags: *a1
   effects: {}
   power: 2
   name: Enthusiastic Jim
@@ -3596,6 +3803,7 @@
     IN-HAND
 
     When you draw me from your deck, show me to the enemy and draw one more card.
+  tags: *a1
   effects: {}
   power: 3
   name: Fate Mistress
@@ -3604,6 +3812,7 @@
   slug: --trapsaver
   description: While I am in play, when a friendly face-up permanent trap is about to be
     destroyed, destroy me instead.
+  tags: *a1
   effects: {}
   power: 2
   name: Trap Saver
@@ -3612,6 +3821,7 @@
   slug: --token-pooper
   description: When I am manually relocated to a new field, I leave a 0 power token behind
     me.
+  tags: *a1
   effects: {}
   power: 4
   name: Token Pooper
@@ -3620,6 +3830,7 @@
   slug: --enraged
   description: Raise my power by 1 each time a friendly creature is destroyed. This effect
     resets after I finish an attack (successfully or not).
+  tags: *a1
   effects: {}
   power: 4
   name: Enraged
@@ -3627,6 +3838,7 @@
 - id: 3324
   slug: --hired-mage
   description: At the end of your turn if you have no mana - destroy me.
+  tags: *a1
   effects: {}
   power: 8
   name: Mage For Hire
@@ -3637,6 +3849,7 @@
     I cannot Attack.
 
     While I am in play, no enemy creature can attack unless it is opposite to me.
+  tags: *a1
   effects: {}
   power: 3
   name: Force Field Generator
@@ -3647,6 +3860,7 @@
     I cannot Attack.
 
     While I am in play and there is an opposing enemy creature that can attack, no enemy creature other than it can attack.
+  tags: *a1
   effects: {}
   power: 6
   name: Force Field
@@ -3655,6 +3869,7 @@
   slug: --reviver-2
   description: When I die, if possible, summon in my place the first non-grand creature
     found in your graveyard.
+  tags: *a1
   effects: {}
   name: Reviver 2
   guid: 2edf015b-3cc0-f205-53d2-92dbe440b0b2
@@ -3664,6 +3879,7 @@
     At the end of your opponent's turn if possible:
 
     Destroy me and summon the first non-grand creature you find in your graveyard in my place, face up.
+  tags: *a1
   effects: {}
   power: 1
   name: Tricky Necromancer
@@ -3674,6 +3890,7 @@
     IN-HAND
 
     When you draw me, from your deck show me to the enemy and if possible add @banana_a from your deck to your hand.
+  tags: *a1
   effects: {}
   power: 4
   name: Banana B
@@ -3681,6 +3898,7 @@
 - id: 3355
   slug: --8ball-4
   description: When I die, if possible summon another 8-Ball from your deck in my place.
+  tags: *a1
   effects: {}
   power: 1
   name: 8-Ball 4
@@ -3688,6 +3906,7 @@
 - id: 3353
   slug: --8ball-2
   description: When I die, if possible summon another 8-Ball from your deck in my place.
+  tags: *a1
   effects: {}
   power: 1
   name: 8-Ball 2
@@ -3696,6 +3915,7 @@
   slug: --ignorant-calob
   description: During battle, if the enemy creature has lower base power than me, destroy
     it. This does not count as death from combat.
+  tags: *a1
   effects: {}
   power: 3
   name: Ignorant Calob*
@@ -3703,6 +3923,7 @@
 - id: 3347
   slug: --cheerleader4
   description: My power is raised by 1 for each other friendly Cheerleader Harpy in play.
+  tags: *a1
   effects: {}
   power: 4
   name: Cheerleader Harpy 4
@@ -3710,6 +3931,7 @@
 - id: 3345
   slug: --cheerleader3
   description: My power is raised by 1 for each other friendly Cheerleader Harpy in play.
+  tags: *a1
   effects: {}
   power: 4
   name: Cheerleader Harpy 3
@@ -3717,6 +3939,7 @@
 - id: 3346
   slug: --cheerleader2
   description: My power is raised by 1 for each other friendly Cheerleader Harpy in play.
+  tags: *a1
   effects: {}
   power: 4
   name: Cheerleader Harpy 2
@@ -3724,6 +3947,7 @@
 - id: 3637
   slug: --darkassasin2
   description: When I attack - deal 3 damage to your Life Points.
+  tags: *a1
   effects: {}
   power: 7
   name: Blood Assasin
@@ -3731,6 +3955,7 @@
 - id: 3643
   slug: --motivator
   description: While I am in play - raise all friendly creatures' power by 1
+  tags: *a1
   effects: {}
   power: 2
   name: Motivating Ethan
@@ -3738,12 +3963,14 @@
 - id: 3344
   slug: --cheerleader1
   description: My power is raised by 1 for each other friendly Cheerleader Harpy in play.
+  tags: *a1
   effects: {}
   power: 4
   name: Cheerleader Harpy 1
   guid: 7ec595f3-0ace-386c-a7bc-fb26b63d6d25
 - id: 3406
   slug: --joe2
+  tags: *a1
   effects: {}
   power: 5
   name: Joe Shmoe
@@ -3751,6 +3978,7 @@
 - id: 3352
   slug: --8ball-1
   description: When I die, if possible summon another 8-Ball from your deck in my place.
+  tags: *a1
   effects: {}
   power: 1
   name: 8-Ball 1
@@ -3758,6 +3986,7 @@
 - id: 3588
   slug: --fairhealer
   description: When I am summoned, both players's Life Points increase by 4.
+  tags: *a1
   effects: {}
   power: 4
   name: Fair Healer
@@ -3765,6 +3994,7 @@
 - id: 3605
   slug: --drawhealer
   description: Increase your Life-Points by 1 every time you draw a card.
+  tags: *a1
   effects: {}
   power: 3
   name: 6dq0m2
@@ -3772,6 +4002,7 @@
 - id: 3600
   slug: --turnhealer
   description: At the beginning of your turn, increase your Life-Points by 1.
+  tags: *a1
   effects: {}
   power: 4
   name: qlgi98
@@ -3780,6 +4011,7 @@
   slug: --battle-healer
   description: When I battle with a stronger enemy creature - increase your lifepoints by
     the difference in our power.
+  tags: *a1
   effects: {}
   power: 1
   name: Battle Healer
@@ -3788,12 +4020,14 @@
   slug: --tranquility
   description: Opposing enemy creature cannot attack. At the start of your turn, if there
     is no opposing enemy creature, destroy me.
+  tags: *a1
   effects: {}
   power: 2
   name: Tranquility
   guid: dfa829b3-52df-f02e-931d-4d50f3680cbe
 - id: 3407
   slug: --joe3
+  tags: *a1
   effects: {}
   power: 5
   name: Joe Blow
@@ -3804,6 +4038,7 @@
     IN-HAND
 
     When you draw me, from your deck show me to the enemy and if possible add @banana_b from your deck to your hand.
+  tags: *a1
   effects: {}
   power: 4
   name: Banana A
@@ -3812,24 +4047,28 @@
   slug: --haggler
   description: When I am dealt fatal damage, flip the top card in your deck face-up. If it
     is a trap, my death is aborted.
+  tags: *a1
   effects: {}
   power: 4
   name: Haggler
   guid: 8d5a0807-d1ba-796b-d0ec-11380161b3b6
 - id: 3340
   slug: --evo-a_f1
+  tags: *a1
   effects: {}
   power: 3
   name: Dr. Jekyll
   guid: c865b7e5-fc6d-2682-8676-93ea533ff44c
 - id: 3372
   slug: --evo-a_f3
+  tags: *a1
   effects: {}
   power: 3
   name: Lucio
   guid: 4bcf97ab-e9e5-64eb-380f-a5dd7739a456
 - id: 3405
   slug: --joe1
+  tags: *a1
   effects: {}
   power: 5
   name: Average Joe
@@ -3837,6 +4076,7 @@
 - id: 3333
   slug: --yang
   description: Raise my power by 4 while @yin is adjacent
+  tags: *a1
   effects: {}
   power: 4
   name: Brother Yang
@@ -3845,6 +4085,7 @@
   slug: --vendeto
   description: When I die from combat, if possible, summon @vendeto_grand  from your hand
     or deck in my place.
+  tags: *a1
   effects: {}
   power: 2
   name: Vendeto
@@ -3852,6 +4093,7 @@
 - id: 3332
   slug: --yin
   description: Raise my power by 6 while @yang is adjacent
+  tags: *a1
   effects: {}
   power: 3
   name: Brother Yin
@@ -3863,6 +4105,7 @@
     When I enter your hand, show me to the enemy and draw 3 more
     cards.\rWhen I am in your hand or in play, at the end of your turn discard
     your entire hand."
+  tags: *a1
   effects: {}
   power: 3
   name: Fate Forcer
@@ -3871,6 +4114,7 @@
   slug: --directrager
   description: Every time one of your creatures dies during the enemy's turn, I deal 1 LP
     direct damage to the enemy.
+  tags: *a1
   effects: {}
   power: 3
   name: Direct Rager
@@ -3880,6 +4124,7 @@
   description: I cannot be summoned while you have other creatures in play. When I am
     successfully summoned, if there is an opposing enemy creature, life-link it
     to me.
+  tags: *a1
   effects: {}
   power: 1
   name: Witch Betsy
@@ -3888,6 +4133,7 @@
   slug: --deckstructor1
   description: Every time a card is sent  to your graveyard, the enemy sends one card from
     their deck to their graveyard.
+  tags: *a1
   effects: {}
   power: 4
   name: Deckstructor1
@@ -3895,6 +4141,7 @@
 - id: 3629
   slug: --fateup
   description: While I am in play, at the beginning of each player's turn, they draw a card.
+  tags: *a1
   effects: {}
   power: 5
   name: Fate Up
@@ -3906,6 +4153,7 @@
     #persistent
 
     Activate at the beginning of the enemy turn if there is an opposing enemy creature that can attack. At the end of the turn if that creature did not attack, deal direct damage to the enemy equal to its attack.
+  tags: *a1
   effects: {}
   name: Blind Rage
   guid: b327106f-ae76-3ba4-af95-7148be947c2a
@@ -3916,6 +4164,7 @@
     #persistent
 
     Activate at the beginning of the enemy turn if there is an opposing enemy creature. At the end of the turn, if it did not attack, deal 5 LP damage to the enemy.
+  tags: *a1
   effects: {}
   name: Taunting Dance
   guid: 59d25e6d-d894-132a-3426-2c0b627f0c4e
@@ -3923,6 +4172,7 @@
   slug: --linked-bro3
   description: At the beginning of your turn, if there aren't at least 2 other friendly
     Linked Bros in play, destroy me.
+  tags: *a1
   effects: {}
   power: 8
   name: Linked Bro
@@ -3930,6 +4180,7 @@
 - id: 3636
   slug: --darkassasin3
   description: When I attack or am attacked - deal 2 damage to your Life Points.
+  tags: *a1
   effects: {}
   power: 7
   name: Blood Assasin
@@ -3940,6 +4191,7 @@
     IN-GRAVE
 
     While I am the top-most card in your graveyard every time you manually  summon a new creature face-up, you take 2 damage and it suffers no summon exhaustion.
+  tags: *a1
   effects: {}
   power: 1
   name: Haste Contracter
@@ -3947,6 +4199,7 @@
 - id: 3587
   slug: --drawttack
   description: Every time I complete an attack, if I'm still in play, draw 1 card.
+  tags: *a1
   effects: {}
   power: 3
   name: Drawttack
@@ -3955,6 +4208,7 @@
   slug: --traitor
   description: At the begnning of your turn if there is no opposing enemy creature, but you
     have less LP than the enemy, I move to their side.
+  tags: *a1
   effects: {}
   power: 7
   name: Traitor
@@ -3965,6 +4219,7 @@
 
     I cannot attack manually.\rI perform a free attack every time an
     opposing enemy creature is summoned."
+  tags: *a1
   effects: {}
   power: 5
   name: Auto-Attacker
@@ -3983,6 +4238,7 @@
 - id: 3630
   slug: --drawson1
   description: When I attack, the opponent draws a card
+  tags: *a1
   effects: {}
   power: 6
   name: Garry
@@ -3990,6 +4246,7 @@
 - id: 3644
   slug: --drawson2
   description: When I attack, if the enemy has 2 or more cards, they draw %%0 cards.
+  tags: *a1
   effects: {}
   power: 7
   name: drawson2
@@ -3998,6 +4255,7 @@
   slug: --reversepiercer
   description: When combat between me and a weaker enemy creature starts, take direct
     damage equal to the difference in our power.
+  tags: *a1
   effects: {}
   power: 8
   name: Reverse-piercer
@@ -4008,6 +4266,7 @@
 
     I can attack infinite times during a turn.\r\r1\rI am @unbreakable and
     my power is 9999"
+  tags: *a1
   effects: {}
   power: 5
   name: < < < Kami > > >
@@ -4016,6 +4275,7 @@
   slug: --bloodhaggler
   description: When I am about to die from combat, abort my death, but take 3 direct damage
     to your LP.
+  tags: *a1
   effects: {}
   power: 6
   name: Blood Haggler
@@ -4024,12 +4284,14 @@
   slug: --unbreakable
   description: I cannot be destroyed in combat while there are at least two friendly
     creatures adjacent to me.
+  tags: *a1
   effects: {}
   name: The Unbreakable
   guid: c7350206-12b3-9aa7-c434-e2411af401e1
 - id: 3626
   slug: --antizero
   description: At the end of the enemy turn, destroy all face-up creatures with 0 power.
+  tags: *a1
   effects: {}
   power: 4
   name: Anti-Zero
@@ -4038,6 +4300,7 @@
   slug: --traitor2
   description: At the end of your turn, if there is no opposing enemy creature, I move to
     the enemy's side.
+  tags: *a1
   effects: {}
   power: 8
   name: Traitor 2
@@ -4048,6 +4311,7 @@
   description: Activate when an opposing enemy creature is summoned if you have a friendly
     creature on the same column. If the enemy creature is a grand creature
     destroy it, else destroy your own creature.
+  tags: *a1
   effects: {}
   name: Grand Trap Hole 2
   guid: 0f017c65-686e-3ce5-7c34-9f90022de7a6
@@ -4056,12 +4320,14 @@
   type: 1
   description: Activate when an opposing enemy creature is summoned. If it is a grand
     creature destroy it. If it isn't, you take 5 direct damage.
+  tags: *a1
   effects: {}
   name: Grand Trap Hole
   guid: a2eab1e4-faed-84a4-4c32-d140875363ca
 - id: 3641
   slug: --fairturnhealer
   description: At the beginning of each player's turn, increase their Life-Points by 2.
+  tags: *a1
   effects: {}
   power: 5
   name: fairhealer2
@@ -4070,6 +4336,7 @@
   slug: --powerhealer2
   description: At the beginning of your turn, if there is a non-grand opposing enemy
     creature face-up, gain LP equal to their power.
+  tags: *a1
   effects: {}
   power: 2
   name: healer3
@@ -4101,6 +4368,7 @@
     mine.
 
     Every time I battle, if there is an opposing enemy creature, take direct damage equal to the difference in our power.
+  tags: *a1
   effects: {}
   power: 5
   name: Bad Piercer
@@ -4109,6 +4377,7 @@
   slug: --drawban
   description: Whenever the opponent draws a new card manually, it is they discard it, but
     you take 1 LP direct damage.
+  tags: *a1
   effects: {}
   power: 4
   name: Draw-Banner
@@ -4117,6 +4386,7 @@
   slug: --drawban2
   description: Whenever the enemy draws a card, they discard it immediately, but you take 2
     LP direct damage for each card,
+  tags: *a1
   effects: {}
   power: 5
   name: Draw-Banner 2
@@ -4124,6 +4394,7 @@
 - id: 3639
   slug: --blocker
   description: I cannot be destroyed in battle while I am your only creature in play.
+  tags: *a1
   effects: {}
   power: 1
   name: Blocker
@@ -4133,6 +4404,7 @@
   description: After I am successfully summoned, if there is a face-up enemy creature in
     play, destroy it, but take direct damage equal to its power. Destroy me as
     well as part of this effect.
+  tags: *a1
   effects: {}
   power: 2
   name: Kamikaze
@@ -4141,6 +4413,7 @@
   slug: --badclown
   description: At the end of the enemy's turn, if the top card in their graveyard is a
     trap, deal 4 damage to them
+  tags: *a1
   effects: {}
   power: 4
   name: The Bad Clown
@@ -4150,12 +4423,14 @@
   description: At the end of your turn, if there is an opposing enemy creature and
     possible, destroy me and summon the first  grand craeture in your graveyard
     that you can, but take direct damage equal to its base power.
+  tags: *a1
   effects: {}
   name: Grand-Return!
   guid: ebe90f0c-ed31-042c-8f8c-f2eea3d27207
 - id: 3612
   slug: --doublemana
   description: I can only be manually summoned for 2 mana.
+  tags: *a1
   effects: {}
   power: 6
   name: Nala
@@ -4174,6 +4449,7 @@
   type: 1
   description: Activate when opposing enemy creature attacks you directly. Decrease its
     power by 6 until the end of the turn.
+  tags: *a1
   effects: {}
   name: weakshield
   guid: 8a5c1520-b569-b0e3-ee40-58409e071b7f
@@ -4182,6 +4458,7 @@
   type: 1
   description: Activate when opposing enemy creature attacks you directly. Deal 3 direct
     damage to the enemy.
+  tags: *a1
   effects: {}
   name: Sneak-shot
   guid: dceeae8a-f8bd-7dbd-7168-11394f7e0f8d
@@ -4192,6 +4469,7 @@
     #persistent
 
     Activate when a trap is about to be set to the opposing enemy trap field. Lock that field until the end of the enemy turn.
+  tags: *a1
   effects: {}
   name: Cripple2
   guid: bfdb8baa-69b8-4a80-f6df-02f34eaabfbe
@@ -4260,6 +4538,7 @@
   type: 1
   description: Activate when you are dealt direct damage by an enemy creature. Destroy all
     creatures with power lower than that damage.
+  tags: *a1
   effects: {}
   name: Fury
   guid: def5ff35-2971-1ac5-310f-685a4b634602
@@ -4267,6 +4546,7 @@
   slug: --specialo
   description: When I am summoned face-up in any way other than manually, raise my power by
     10.
+  tags: *a1
   effects: {}
   power: 3
   name: Specialo
@@ -4275,6 +4555,7 @@
   slug: --managiver
   description: When I am summoned, you gain 2 mana (without ignoring your current
     mana-capacity)
+  tags: *a1
   effects: {}
   power: 2
   name: managiver
@@ -4316,6 +4597,7 @@
     @redirect_out must also be in play for activation.
 
     Activate when opposing enemy creature attacks you directly. Negate the attack and activate %%0.
+  tags: *a1
   effects: {}
   name: Portal Alpha
   guid: 2c1a8a6c-21bb-c0d7-60f7-7b1a3d58da5a
@@ -4345,6 +4627,7 @@
     #persistent
 
     Activate at the beginning of the enemy turn. All enemy creatures' power is decreasued by 3 while this trap is in play. Destroy this trap at the end of the turn it was activated.
+  tags: *a1
   effects: {}
   name: Massive Temporary Depowering
   guid: cb87a5eb-7573-aef6-db9f-15ee0641c1a0
@@ -4354,6 +4637,7 @@
 
     I cannot be used as a tribute.\rI do not suffer summon
     exhaustion.\rReturn me to your hand at the end of your turn."
+  tags: *a1
   effects: {}
   power: 1
   name: Harrassing Mia
@@ -4381,12 +4665,14 @@
   type: 1
   description: Activate when opposing enemy trap is activated. Negate its effect and
     destroy it.
+  tags: *a1
   effects: {}
   name: Trap-Trap
   guid: 53287d54-043a-dcbd-b52c-e4d1b2728bee
 - id: 3624
   slug: --angered
   description: My power is raised by 3 while there is an opposing enemy creature.
+  tags: *a1
   effects: {}
   power: 3
   name: ti364w
@@ -4394,6 +4680,7 @@
 - id: 3623
   slug: --drawhater
   description: Every time the enemy draws a card, decrease my power by 1.
+  tags: *a1
   effects: {}
   power: 9
   name: Axer
@@ -4401,18 +4688,21 @@
 - id: 3614
   slug: --drawrager2
   description: Increase my power by 1 every time you draw a card.
+  tags: *a1
   effects: {}
   name: drawrager2
   guid: bd11aab8-348e-d512-0918-b809e5540bfd
 - id: 3598
   slug: --shmester
   description: Decrease my power by 1 every time another creature enters play.
+  tags: *a1
   effects: {}
   power: 7
   name: Shmester
   guid: 56ad1266-c50c-2f06-ce1b-7ed4953977d3
 - id: 3841
   slug: --token1
+  tags: *a1
   effects: {}
   name: token1
   guid: d3282eeb-8dc9-56d0-53c3-ba481648b410
@@ -4420,6 +4710,7 @@
   slug: --trapsaver2
   description: When your own trap card on this column is about to leave play, set it back
     face-down in the same place, then kill me, but leave a token in my place.
+  tags: *a1
   effects: {}
   power: 3
   name: Re-Trapper
@@ -4428,6 +4719,7 @@
   slug: --token-summoner2
   description: When I am summoned, if possible, summon a 0 power token to my left and to my
     right.
+  tags: *a1
   effects: {}
   power: 3
   name: token_summoner2
@@ -4435,6 +4727,7 @@
 - id: 3642
   slug: --fair-manaup
   description: When I enter play, if possible, Increase both players' mana cap by 1.
+  tags: *a1
   effects: {}
   power: 5
   name: fair manaup
@@ -4442,6 +4735,7 @@
 - id: 3591
   slug: --traprager
   description: Increase my power by 1 every time a trap is activated.
+  tags: *a1
   effects: {}
   power: 3
   name: Trap-Rager
@@ -4450,6 +4744,7 @@
   slug: --trapkiller0
   description: When I am summoned, if there is an opposing enemy face-up persistent trap,
     destroy it.
+  tags: *a1
   effects: {}
   power: 4
   name: trapkiller0
@@ -4460,6 +4755,7 @@
     IN-GRAVE
 
     While I am the top card in your graveyard, at the end of every player's turn force-activate the safe-flip effects of all their face-up creatures in play.
+  tags: *a1
   effects: {}
   name: reflipper2
   guid: f399fe09-a500-abec-2990-be1b54716b75
@@ -4470,6 +4766,7 @@
     #persistent
 
     Activate at the start of the enemy's turn, if there are both a friendly and an enemy creature on this colum. At the end of the enemy's turn, if that is still the case, they swap places, else if there is only a friendly creature, destoy it.
+  tags: *a1
   effects: {}
   name: Ultimatum
   guid: c79a39df-df5e-fc05-6dc9-bf67251cb06c
@@ -4478,12 +4775,14 @@
   type: 1
   description: Activate during the enemy turn the moment there is an opposing enemy
     creature with power higher than 16. Destroy it instantly.
+  tags: *a1
   effects: {}
   name: Mega-Trap
   guid: eb53f080-49e1-6961-4f8e-36e0b4dec2bf
 - id: 3595
   slug: --angered2
   description: My power is raised by 4 while there is an opposing face-down creature.
+  tags: *a1
   effects: {}
   power: 3
   name: angered2
@@ -4491,6 +4790,7 @@
 - id: 3593
   slug: --deckstructor0
   description: When I am summoned, both players discard the top card from their decks.
+  tags: *a1
   effects: {}
   power: 5
   name: deckstructor0
@@ -4540,7 +4840,7 @@
   power: 2
   name: Trapster
   guid: 578ce449-ef5c-aa32-a11d-a524e49e024b
-- id: 807
+- id: 892
   slug: loneshield
   description: All combat damage against me becomes zero if there are no other friendly
     creatures.
@@ -4633,7 +4933,7 @@
     IN-GRAVE
 
     At the beginning of your turn, if I am the topmost card in your grave, i return to your hand.
-  tags: *a3
+  tags: *a4
   effects:
     active:
       eventName: TurnBegin
@@ -4714,6 +5014,7 @@
     #persistent
 
     Activate at the start of your opponent's turn. The enemy draws one card. Every direct damage you take is dealt to the opponent as well. Destroy at the end of the enemy's turn.
+  tags: *a1
   effects: {}
   name: Blood-Link
   guid: 3257f4d5-4045-02c5-4e9d-29d36cb550dd
@@ -4723,6 +5024,7 @@
   description: |-
     Activate me when an opposing enemy creature's safe-flip effect is triggered.
     Negate that effect.
+  tags: *a1
   effects: {}
   name: No-Flippers!
   guid: 3a418778-d88e-8579-2696-b38ebacadb12
@@ -4730,6 +5032,7 @@
   slug: honorable-flappy-bird
   description: I can both attack and move before exhausting, but I cannot attack while
     there is no opposing enemy creature.
+  tags: *a1
   effects: {}
   power: 5
   name: Flappy Bird of Honor
@@ -4740,6 +5043,7 @@
 
     If @edd is in play, add @eddy from your deck to your hand.\rIf %%1 is in
     play, add %%0 from your deck to your hand"
+  tags: *a1
   effects: {}
   power: 4
   name: Ed
@@ -4750,6 +5054,7 @@
 
     If @ed is in play, add @eddy from your deck to your hand.\rIf %%1 is in
     play, add %%0 from your deck to your hand"
+  tags: *a1
   effects: {}
   power: 4
   name: Edd
@@ -4760,6 +5065,7 @@
   description: Activate when opposing enemy creature is summoned manually and there is no
     friendly creature on your side of the column. The enemy's turn ends
     immediately.
+  tags: *a1
   effects: {}
   name: Flash Mine
   guid: 1ff9222a-692f-cc2d-f389-0779631f88d0
@@ -4780,6 +5086,7 @@
   type: 1
   description: When any enemy creature attacks and the opposing enemy field is empty, force
     it to relocate there instead.
+  tags: *a1
   effects: {}
   name: Shock Magnet
   guid: a3eca6d3-bc96-5baf-089a-e0ba7f08f8fe
@@ -4817,6 +5124,7 @@
 - id: 3397
   slug: --com-g0_5
   description: Combines with G0
+  tags: *a1
   effects: {}
   power: 2
   name: Grand Part 5
@@ -4825,6 +5133,7 @@
   slug: --harshfred
   description: While I am in play, every time a player uses mana, they also take 1 LP
     damage.
+  tags: *a1
   effects: {}
   power: 2
   name: Harsh Fred
@@ -4833,6 +5142,7 @@
   slug: --zig
   description: At the beginning of your turn if a card named @zag is in your graveyard -
     add it to your hand.
+  tags: *a1
   effects: {}
   power: 2
   name: Zig
@@ -4841,6 +5151,7 @@
   slug: --zag
   description: At the beginning of your turn if a card named @zig is in your graveyard -
     add it to your hand.
+  tags: *a1
   effects: {}
   power: 2
   name: Zag
@@ -4848,6 +5159,7 @@
 - id: 3393
   slug: --com-g0_1
   description: Combines with G0
+  tags: *a1
   effects: {}
   power: 2
   name: Grand Part 1
@@ -4855,6 +5167,7 @@
 - id: 3394
   slug: --com-g0_2
   description: Combines with G0
+  tags: *a1
   effects: {}
   power: 2
   name: Grand Part 2
@@ -4862,6 +5175,7 @@
 - id: 3395
   slug: --com-g0_3
   description: Combines with G0
+  tags: *a1
   effects: {}
   power: 2
   name: Grand Part 3
@@ -4869,6 +5183,7 @@
 - id: 3396
   slug: --com-g0_4
   description: Combines with G0
+  tags: *a1
   effects: {}
   power: 2
   name: Grand Part 4
@@ -4895,6 +5210,7 @@
   slug: --linked-bro2
   description: At the beginning of your turn, if there aren't at least 2 other friendly
     Linked Bros in play, destroy me.
+  tags: *a1
   effects: {}
   power: 6
   name: Linked Bro
@@ -4903,6 +5219,7 @@
   slug: --linked-bro1
   description: At the beginning of your turn, if there aren't at least 2 other friendly
     Linked Bros in play, destroy me.
+  tags: *a1
   effects: {}
   power: 8
   name: Linked Bro
@@ -4912,6 +5229,7 @@
   type: 1
   description: When any enemy creature attacks and the opposing enemy field is empty, force
     it to perform a free relocation there first. The attack continues.
+  tags: *a1
   effects: {}
   name: Magnet
   guid: f891e431-0d53-825b-a0c8-e8e4bb88e0b0
@@ -4921,12 +5239,14 @@
   description: Activate when opposing enemy creature attacks you directly and there is a
     friendly creature on the column to your right. Move that friendly creature
     to this column.
+  tags: *a1
   effects: {}
   name: Defense From The East
   guid: 494745cc-1889-d335-7999-aceb1dedbbff
 - id: 3354
   slug: --8ball-3
   description: When I die, if possible summon another 8-Ball from your deck in my place.
+  tags: *a1
   effects: {}
   power: 1
   name: 8-Ball 3
@@ -4945,6 +5265,7 @@
   slug: --jill
   description: When I enter play, if possible summon @jack from your graveyard to the field
     on my left.
+  tags: *a1
   effects: {}
   power: 4
   name: Jill
@@ -4953,6 +5274,7 @@
   slug: --jack
   description: When I enter play, if possible summon @jill from your graveyard to the field
     on my right.
+  tags: *a1
   effects: {}
   power: 4
   name: Jack
@@ -4980,6 +5302,7 @@
   description: Activate when opposing enemy creature attacks you directly and there is a
     friendly creature on the column to your left. Move that friendly creature to
     this column.
+  tags: *a1
   effects: {}
   name: Defense From The West
   guid: 78242ddf-4726-ea12-4350-a5a3c1c52909
@@ -4988,6 +5311,7 @@
   type: 1
   description: Activate when opposing enemy creature's attack finishes during the enemy
     turn and it is stiill in play. Force the enemy to end their turn.
+  tags: *a1
   effects: {}
   name: Turn End
   guid: 6be64973-5e35-cd68-924a-1e49d0446c86
@@ -5016,6 +5340,7 @@
   slug: --forbidden4
   description: When all 4 Forbidden-Spirits are in play under your control, my power is
     raised by 14
+  tags: *a1
   effects: {}
   power: 2
   name: Forbidden Spirit 4
@@ -5024,6 +5349,7 @@
   slug: --forbidden1
   description: When all 4 Forbidden-Spirits are in play under your control, my power is
     raised by 14
+  tags: *a1
   effects: {}
   power: 2
   name: Forbidden Spirit 1
@@ -5032,6 +5358,7 @@
   slug: --forbidden2
   description: When all 4 Forbidden-Spirits are in play under your control, my power is
     raised by 14
+  tags: *a1
   effects: {}
   power: 2
   name: Forbidden Spirit 2
@@ -5040,6 +5367,7 @@
   slug: --forbidden3
   description: When all 4 Forbidden-Spirits are in play under your control, my power is
     raised by 14
+  tags: *a1
   effects: {}
   power: 2
   name: Forbidden Spirit 3
@@ -5074,6 +5402,7 @@
   slug: --cripple
   type: 1
   description: Activate when opposing enemy creature attacks. Decrease its power by 2.
+  tags: *a1
   effects: {}
   name: Cripple
   guid: 9d3a2ba4-cbd7-b412-39a9-90b9580d8d3e
@@ -5106,6 +5435,7 @@
     Take 1 direct damage when you manually summon me. 
 
     My power is raised by that of the top card in the enemy graveyard at all times (0 if it is not a creature).
+  tags: *a1
   effects: {}
   name: Necropy
   guid: da711770-5ed0-4617-0f2a-b520d56d8912
@@ -5136,6 +5466,7 @@
   type: 1
   description: Activate only when the effect of your @redirect_in is activated. Deal damage
     to the enemy equal to the power of the enemy creature opposite to %%0.
+  tags: *a1
   effects: {}
   name: Portal Omega
   guid: 31ccc661-eefd-4154-411c-bb4cda51bf4a
@@ -5199,6 +5530,7 @@
   type: 1
   description: Activate when any other trap in play is activated. Negate its effect and
     destroy all traps in play.
+  tags: *a1
   effects: {}
   name: trap cleanup1
   guid: 543dac32-f1ef-0c30-f170-ddad9d180f6d
@@ -5209,6 +5541,7 @@
     Activate when opposing enemy trap is activated.
 
     Negate its effect and destroy it along with both players' creatures and traps on the same column if any.
+  tags: *a1
   effects: {}
   name: column cleanup
   guid: 056efe8b-154e-0563-1cc2-8bc21980b7c1
@@ -5218,6 +5551,7 @@
   description: Activate when opposing enemy creature attacks and there is a friendly
     creature on your own side. Destroy both creatures, but take damage equal to
     the enemy creature's power.
+  tags: *a1
   effects: {}
   name: Deadly Sacrifice
   guid: aba8cb64-3893-70f5-baa9-c5599067f499
@@ -5226,6 +5560,7 @@
   type: 1
   description: Activate when opposing enemy trap is set. Flip it face-up without
     activating, then flip it back face-down.
+  tags: *a1
   effects: {}
   name: Trap-Peek
   guid: 9cab270a-6a2d-2fe7-9a9b-81d023506f6f
@@ -5233,6 +5568,7 @@
   slug: --trapsteal
   type: 1
   description: When opposing enemy trap is about to leave play, add it to your hand instead.
+  tags: *a1
   effects: {}
   name: Trap-Steal
   guid: 0ede5b95-6432-3187-bb55-052585af2047
@@ -5242,6 +5578,7 @@
   description: Activate when opposing enemy trap is activated while there is a friendly
     creature on this column. Your creature is sacrificed and the enemy trap is
     added to your hand, aborting its activation.
+  tags: *a1
   effects: {}
   name: Trap-Trap 2
   guid: 58c2888e-ba35-2855-8cf1-88dd322c6b61
@@ -5251,6 +5588,7 @@
   description: Activate when opposing enemy creature attacks and there is a friendly
     creature on your own side. Destroy the enemy creature, but take damage equal
     to both creatures' power.
+  tags: *a1
   effects: {}
   name: Deadly Non-Sacrifice
   guid: 38acdf61-ff1e-9320-8971-97f15e8f8ed5
@@ -5261,6 +5599,7 @@
     #persistent
 
     Activate when you are about to receive damage from any source. While I am in play, any damage you are about to receive becomes 0, but the enemy gains LP of the same amount. Destroy at the end of the enemy's turn.
+  tags: *a1
   effects: {}
   name: enemyhealer
   guid: 638d5c76-d8cc-bc83-0807-b2b108ca1854
@@ -5269,6 +5608,7 @@
   type: 1
   description: Activate when opposing enemy creature is about to be manually relocated.
     Force is to perform a free attack first.
+  tags: *a1
   effects: {}
   name: Taunt
   guid: 888dc07b-ecd3-dfc5-f719-77799cc6f469
@@ -5279,6 +5619,7 @@
     turn and there is a friendly creature on your side of it. Destroy your
     creature and relocate the enemy creature in its place. It is now under your
     control.
+  tags: *a1
   effects: {}
   name: move2ctrl
   guid: 8dc7b25b-bd53-d084-107d-66d77809f6ed
@@ -5286,6 +5627,7 @@
   slug: --forsaken4
   description: While I am in play, the power of every other Forsaken-Being is increased by
     5.
+  tags: *a1
   effects: {}
   name: Forsaken Being 4
   guid: a4bab6bb-9e88-8681-b8d4-c5d92dda69a7
@@ -5293,6 +5635,7 @@
   slug: --forsaken1
   description: While I am in play, the power of every other Forsaken-Being is increased by
     5.
+  tags: *a1
   effects: {}
   name: Forsaken Being 1
   guid: 8158a724-e2ed-cb8f-532c-5c35c3a2707f
@@ -5300,6 +5643,7 @@
   slug: --forsaken2
   description: While I am in play, the power of every other Forsaken-Being is increased by
     5.
+  tags: *a1
   effects: {}
   name: Forsaken Being 2
   guid: f039c4d5-f29f-4a29-89ca-2e6e496f2807
@@ -5307,6 +5651,7 @@
   slug: --forsaken3
   description: While I am in play, the power of every other Forsaken-Being is increased by
     5.
+  tags: *a1
   effects: {}
   name: Forsaken Being 3
   guid: fdf1517b-dbf4-ec58-32f3-17ccdb8cf46e
@@ -5331,6 +5676,7 @@
 - id: 3380
   slug: --nightelf1
   description: My power is raised by 1 for each other NightElf in your graveyard.
+  tags: *a1
   effects: {}
   power: 4
   name: NightElf-1
@@ -5338,6 +5684,7 @@
 - id: 3383
   slug: --nightelf4
   description: My power is raised by 1 for each other NightElf in your graveyard.
+  tags: *a1
   effects: {}
   power: 4
   name: NightElf-4
@@ -5345,6 +5692,7 @@
 - id: 3382
   slug: --nightelf3
   description: My power is raised by 1 for each other NightElf in your graveyard.
+  tags: *a1
   effects: {}
   power: 4
   name: NightElf-3
@@ -5352,6 +5700,7 @@
 - id: 3381
   slug: --nightelf2
   description: My power is raised by 1 for each other NightElf in your graveyard.
+  tags: *a1
   effects: {}
   power: 4
   name: NightElf-2
@@ -5359,24 +5708,28 @@
 - id: 3376
   slug: --broodelf1
   description: My power is raised by 3 for each other BroodElf in your graveyard.
+  tags: *a1
   effects: {}
   name: BroodElf
   guid: 291cfe27-a584-b697-61c0-c41739b0b570
 - id: 3379
   slug: --broodelf4
   description: My power is raised by 3 for each other BroodElf in your graveyard.
+  tags: *a1
   effects: {}
   name: BroodElf
   guid: 025c9c88-455c-5f69-8157-1095fc114fb5
 - id: 3378
   slug: --broodelf3
   description: My power is raised by 3 for each other BroodElf in your graveyard.
+  tags: *a1
   effects: {}
   name: BroodElf
   guid: 32283a82-f9bf-fb5a-37a3-93215565c9ec
 - id: 3377
   slug: --broodelf2
   description: My power is raised by 3 for each other BroodElf in your graveyard.
+  tags: *a1
   effects: {}
   name: BroodElf
   guid: 64c1c312-e976-0b36-81df-11f685484793
@@ -5385,6 +5738,7 @@
   type: 1
   description: Actuvate when opposing enemy creature is summoned. It does not suffer summon
     exhaustion. If it can attack, force it to perform a manual attack.
+  tags: *a1
   effects: {}
   name: summon2atk
   guid: 774a7d51-b14b-78c6-5bab-123bbde8da0a
@@ -5464,6 +5818,7 @@
   type: 1
   description: Activate when the enemy is about to receive direct damage during their own
     turn. Increase that damage by 5;
+  tags: *a1
   effects: {}
   name: dmgup
   guid: 8d08912e-8a50-6b1e-4040-cf82c3c97fa9
@@ -5482,6 +5837,7 @@
   type: 1
   description: When an opposing enemy creature is summoned face-down, flip it face-up
     without activating any of its flip effects.
+  tags: *a1
   effects: {}
   name: anti flip1
   guid: 60c0bd0c-0fa6-8880-bd6c-edd69c1a7daa
@@ -5491,6 +5847,7 @@
   description: Activate when opposing enemy creature attacks and there is a friendly
     creature on your own side. Destroy your own creature and return the enemy
     creature to its owner's hand.
+  tags: *a1
   effects: {}
   name: deadly sacrifice2
   guid: 5560f062-b990-5702-7a2b-0f545cc2ecbb
@@ -5500,6 +5857,7 @@
   description: Activate when any enemy trap is activated while there is a friendly creature
     on this column. Your creature is sacrificed and the enemy trap is destroyed,
     its effect negated.
+  tags: *a1
   effects: {}
   name: Trap-Trap 2
   guid: 9742ac7a-5849-851e-cbf9-231674302475
@@ -5517,6 +5875,7 @@
   type: 1
   description: Activate when you are dealt direct damage by the opposing enemy creature.
     Destroy all enemy creatures with power lower than that damage.
+  tags: *a1
   effects: {}
   name: Fury
   guid: e1401275-6b07-9526-cd78-530e64e9a18c
@@ -5543,12 +5902,14 @@
   type: 1
   description: Activate when another friendly trap leaves play. Set it back on its last
     occupied trap-field.
+  tags: *a1
   effects: {}
   name: Re-trap
   guid: eaad2475-1dd3-4c21-0379-42aa514c437a
 - id: 3408
   slug: --com-g3_1
   description: Combines with G3
+  tags: *a1
   effects: {}
   power: 4
   name: com g3 1
@@ -5556,6 +5917,7 @@
 - id: 3409
   slug: --com-g3_2
   description: Combines with G3
+  tags: *a1
   effects: {}
   power: 5
   name: com g3 1
@@ -5577,6 +5939,7 @@
     triggered.
 
     Negate that effect.
+  tags: *a1
   effects: {}
   name: No-Flippers!
   guid: a88919dd-bfea-aaf9-c14d-8604345e5443
@@ -5585,6 +5948,7 @@
   type: 1
   description: Activate when opposing enemy creature is summoned manually. The enemy's mana
     is depleted instantly.
+  tags: *a1
   effects: {}
   name: Mana-Drain
   guid: 1ff775c2-57cb-d1ef-2854-2d934dd2fc02
@@ -5593,6 +5957,7 @@
   type: 1
   description: When an enemy creature enters the opposing field for any reason, return it
     to its owner's hand.
+  tags: *a1
   effects: {}
   name: Eject
   guid: df830212-fd3c-40f8-9430-688259d6bd32
@@ -5623,6 +5988,7 @@
   slug: --megasweeper
   description: At the end of your turn destroy all creatures in play with power higher than
     16.
+  tags: *a1
   effects: {}
   power: 2
   name: megasweeper
@@ -5655,6 +6021,7 @@
   type: 1
   description: Activate when the opposing enemy creature field is empty and an enemy
     creature is summoned to a different field. Move it to the opposing field.
+  tags: *a1
   effects: {}
   name: summon2move
   guid: ec77f20f-85f1-3ec2-8373-385c8edb977b
@@ -5665,6 +6032,7 @@
     #persistent
 
     Activate at the start of the enemy's turn. Until the end of their turn, for every card they draw, they discard 2 cards from the top of their deck.
+  tags: *a1
   effects: {}
   name: draw deckstruction
   guid: c1868aba-3ace-f01a-4b58-10d99406bb01
@@ -5675,6 +6043,7 @@
     #persistent
 
     Activate at the begiinning of the enemy's turn, if there is a friendly face-up creature on this column. Raise its power by 2 every time an enemy creature attacks until the end of your own turn.
+  tags: *a1
   effects: {}
   name: empower III
   guid: 4966f3b2-888a-6615-58a3-263676e8237c
@@ -5685,6 +6054,7 @@
     #persistent
 
     Activate at the begiinning of the enemy's turn, if there is a friendly face-up creature on this column. Raise its power by 7 until the end of the turn.
+  tags: *a1
   effects: {}
   name: super empower
   guid: b9b98c1c-cd62-e76c-ee98-80b9810ad8bd
@@ -5695,6 +6065,7 @@
     #persistent
 
     Activate at the begiinning of the enemy's turn, if there is a friendly face-up creature on this column. Raise its power by 1 every time an enemy creature attacks. Destroy at the end of the turn.
+  tags: *a1
   effects: {}
   name: empower2
   guid: 624020c4-f952-7482-6789-0de46be3f349
@@ -5705,6 +6076,7 @@
     #persistent
 
     Activate at the beginning of the enemy turn. Until the end of their turn, every time they set a new trap or summon a creature face-down, they must show you what it is first.
+  tags: *a1
   effects: {}
   name: spynet
   guid: 42201116-8bfe-3540-d672-d8e90ac8ca9b
@@ -5723,6 +6095,7 @@
   description: "When I am summoned, I perform a free attack.
 
     \r???"
+  tags: *a1
   effects: {}
   name: yqfu19
   guid: a3c89923-d5ea-27d8-73e8-b6bf618fb49b
@@ -5732,6 +6105,7 @@
     Destroy me at the end of the enemy turn.
 
     When I die, if possible, destroy the opposing enemy creature and all adjacent friendly creatures in play.
+  tags: *a1
   effects: {}
   name: bomb9
   guid: f964fd71-7743-4690-444a-f181c2e46355
@@ -5749,6 +6123,7 @@
   slug: --linker
   description: When I am summoned, if there are friendly creatures adjacent to me,
     life-link me to them, else - destroy me.
+  tags: *a1
   effects: {}
   power: 8
   name: linker
@@ -5759,6 +6134,7 @@
   description: Activate when an opposing enemy creature begins an attack and there is a
     face-up flippable friendly creature with a combat-flip effect on the same
     column. Flip your creature face-down.
+  tags: *a1
   effects: {}
   name: t1fys8
   guid: 4cc59fd7-1b0e-c572-8f75-60a6003ff25a
@@ -5768,6 +6144,7 @@
   description: Activate when an opposing enemy creature is summoned and there is a face-up
     flippable friendly creature with a safe-flip effect on the same column. Flip
     your creature face-down.
+  tags: *a1
   effects: {}
   name: kw55ly
   guid: ebd1e07b-78ed-146c-ce90-d054f352ff21
@@ -5823,6 +6200,7 @@
   description: |-
     Opposite unit cannot attack.
     At the start of your turn, if there is no opposite unit, I die.
+  tags: *a1
   effects: {}
   power: 3
   name: magi-block-1
@@ -5831,6 +6209,7 @@
   slug: magi-block-2
   description: If opposite grand unit attacks, negate the attack, but the enemy draws one
     card.
+  tags: *a1
   effects: {}
   name: magi-block-2
   guid: d2801866-dbbb-bd55-d36f-3159ebf12f49
@@ -5848,6 +6227,7 @@
   type: 1
   description: "When: opp. Summon and ally unit exists - destroy ally unitv and take
     control of opposing unit."
+  tags: *a1
   rarity: 10
   effects: {}
   name: mind-control
@@ -5933,6 +6313,7 @@
 - id: 1042
   slug: linko-2
   description: When a new friendly creature is summoned, life-link me to it.
+  tags: *a1
   effects: {}
   power: 6
   name: linko-2
@@ -5942,6 +6323,7 @@
   description: While I am in play - opponent keeps the top card in his deck face-up at all
     times.
   notes: duplicate
+  tags: *a1
   status: 2
   effects: {}
   power: 4
@@ -5952,6 +6334,7 @@
   type: 1
   description: Activation condition and effect of this card equals that of the top card in
     your graveyard (if any and if it is a trap)
+  tags: *a1
   effects: {}
   name: re-trap-1
   guid: 17bb552d-d041-58b4-b030-c6d089cd68b3
@@ -5968,6 +6351,7 @@
   type: 1
   description: Activate when opposing enemy creature is summoned and there is a stronger
     creature on your side. Swap creatures.
+  tags: *a1
   effects: {}
   name: WeirdSwap
   guid: ea0371da-2236-ccf2-e15b-380a916266f6
@@ -5977,6 +6361,7 @@
   description: Activate me when enemy turn starts and they have an opposing creature. At
     the end of their turn, if there is still an opposing enemy creature, force
     it to attack.
+  tags: *a1
   effects: {}
   name: Taunt
   guid: e35e47e6-41dc-8a1e-6cd4-ef8d04fa9712
