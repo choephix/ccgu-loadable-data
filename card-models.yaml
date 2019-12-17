@@ -5,6 +5,7 @@
   effects:
     active:
       eventName: TurnEnd
+      eventStatus: began
       condition: player === event.player
       perform: op.moveTo( card, player.grave )
       allowedLots:
