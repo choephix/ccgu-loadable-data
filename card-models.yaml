@@ -623,14 +623,21 @@
           tg.pass.lowerPower( target, 5 ) )
   name: toxicmine
   guid: e3b41aa1-0f98-ec62-7c2b-2f8414025180
-- id: 825
+- id: 806
   slug: autoatk
   description: I perform a free attack when deployed
   tags: *a1
   pdc: -1
   status: 2
   priority: 3
-  effects: {}
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: event.card === card
+      perform: op.forceAttack( card )
+      allowedLots:
+        - unit-field
   name: autoatk
   power: 4
   guid: 9d9d8250-25d2-e17b-5fc6-7dc75993e29c
@@ -675,14 +682,20 @@
   name: quickgiver-1
   power: 2
   guid: 1edaafe8-aa09-6eb3-cf35-778f72fb0d7a
-- id: 809
+- id: 791
   slug: needsmotivation
   description: Increase my $power by %2 for every $friendly adjacent $unit.
   tags: *a1
   pdc: -1
   status: 2
   priority: 3
-  effects: {}
+  effects:
+    passive:
+      perform: |-
+        let bonus = get.adjacentUnits( card ).length
+        pass.raisePower( card, bonus )
+      allowedLots:
+        - unit-field
   name: needsmotivation
   power: 3
   guid: 08d74cf3-5b04-b6f5-e4cc-014bacdbd687
@@ -944,13 +957,20 @@
   name: elijah
   power: 3
   guid: 390fa875-b747-ccf3-2b6e-d53911fb821c
-- id: 808
+- id: 790
   slug: joshua
   description: My $power is raised by %3 during your turn.
   tags: *a1
   pdc: -1
   priority: 3
-  effects: {}
+  effects:
+    passive:
+      condition: get.currentPlayer === player
+      perform: pass.raisePower( card, 3 )
+      allowedLots:
+        - grave
+        - hand
+        - unit-field
   name: joshua
   power: 3
   guid: a90dcc70-cc81-5e0b-58db-d1141ab907d0
