@@ -1,0 +1,149 @@
+local:
+  - card
+  - player
+  - opponent
+  - event
+  - fx
+  - get  
+  - faq
+  - op
+  - pass 
+get:
+  - currentPlayer
+  - waitingPlayer
+  - players
+  - lots
+  - cards
+  - cardsInPlay
+  - cardBySlug( slug, lot )
+  - playerOpponent( player )
+  - playerUnits( player )
+  - playerTraps( player )
+  - opposingUnitField( from )
+  - opposingUnit( from )
+  - opposingTrapField( from )
+  - opposingTrap( from )
+  - adjacentUnitFields( from )
+  - adjacentUnits( from )
+  - leftUnitField( from )
+  - leftUnit( from )
+  - rightUnitField( from )
+  - rightUnit( from )
+faq:
+  - isInPlay( card )
+  - hasTurn( card ))
+  - wasDeployedThisTurn( card )
+  - canRelocateTo( card, to )
+  - isOpposingLane( target, to )
+op:
+  - draw( player )
+  - reveal( card )
+  - assureFaceUp( card )
+  - kill( card )
+  - dispose( card )
+  - sacrifice( card )
+  - damage( player, amount )
+  - heal( player, amount )
+  - changeAP( player, amount )
+  - addToHand( card, player )
+  - endTurn()
+  - moveTo( card, lot )
+  - deploy( card, lot )
+  - forceAttack( card )
+  - forceManualAttack( card )
+  - forceRelocate( card )
+  - forceManualRelocate( card )
+  - flipFaceDown( card )
+  - addTempFx( card, gt => modify, gt => expire )
+  - spawnToken( lot )
+pass:
+  - addTag( card, tag )
+  - raisePower( card, amount )
+  - lowerPower( card, amount )
+  - setFaceUp( card, value )
+
+player:
+  - healthPoints
+  - actionPoints
+  - hand
+  - deck
+  - fieldsUnit
+  - fieldsTrap
+  - fields
+  - grave
+  - abyss
+  - lots
+  - units
+  - traps
+opponent:
+  - healthPoints
+  - actionPoints
+  - hand
+  - deck
+  - fieldsUnit
+  - fieldsTrap
+  - fields
+  - grave
+  - abyss
+  - lots
+  - units
+  - traps
+lot:
+  - owner
+  - hasCards
+  - cardCount
+  - topCard
+  - isTrapField
+  - isUnitField
+  - isField
+  - isGrave
+  - isDeck
+  - isHand
+  - type
+field:
+  - owner
+  - index
+  - hasCards
+  - topCard
+  - isTrapField
+  - isUnitField
+hand:
+  - owner
+  - hasCards
+  - cardCount
+  - topCard
+deck:
+  - owner
+  - hasCards
+  - cardCount
+  - topCard
+grave:
+  - owner
+  - hasCards
+  - cardCount
+  - topCard
+card:
+  - owner
+  - controller
+  - lot
+  - power
+  - isFaceUp
+  - isUnitType
+  - isTrapType
+  - hasTag( tag )
+  - tags
+  - pass
+Tag:
+  - GRAND
+  - SNEAK
+  - NOMOVE
+  - NOATTACK
+  - NOTRIBUTE
+  - RUSH
+  - SWAPPER
+  - SWIFT
+  - PIERCING
+  - INCORPOREAL
+  - INVULNERABLE
+  - PERSISTENT
+  - TOKEN
