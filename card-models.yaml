@@ -1,6 +1,5 @@
-- slug: patience-zero
-  guid: 73cf32c1-03b7-71e9-fb27-80d33fcc163d
-  id: 836
+- id: 805
+  slug: patience-zero
   description: at the end of your turn, if I am in your hand - discard me
   effects:
     active:
@@ -10,7 +9,9 @@
       perform: op.moveTo( card, player.grave )
       allowedLots:
         - hand
+  guid: 73cf32c1-03b7-71e9-fb27-80d33fcc163d
   power: 7
+  name: patience-zero
 - id: 868
   slug: flipouch
   description: "Flip: Take 1 damage."
@@ -253,7 +254,7 @@
   effects: {}
   name: b34fccee
   guid: b34fccee-8660-6ca6-dbf1-5f5573af96d8
-- id: 839
+- id: 825
   slug: piercer7
   tags:
     - piercing
@@ -731,7 +732,7 @@
       perform: g.op.kill( g.event.card )
   name: killonattack
   guid: e649a142-6fe2-e540-60e4-3615f222370a
-- id: 824
+- id: 807
   slug: free-jimmy
   description: Activate when I am deployed. Raise your $AP by %1.
   pdc: -1
@@ -827,7 +828,7 @@
   name: flipouch
   power: 5
   guid: b3dba8a0-17b9-532b-e7ac-e4922eb429e2
-- id: 822
+- id: 838
   slug: vampirefang
   description: Any direct damage I deal in $combat, is added to your $health.
   pdc: -1
@@ -3250,7 +3251,7 @@
   power: 6
   name: Blood Mercenary
   guid: 88dcde4f-7256-261b-29d6-73b8dc2a9f62
-- id: 823
+- id: 837
   slug: fatal-spirit
   description: >-
     I cannot move.
@@ -4567,7 +4568,7 @@
   power: 2
   name: Trapster
   guid: 578ce449-ef5c-aa32-a11d-a524e49e024b
-- id: 807
+- id: 836
   slug: loneshield
   description: All combat damage against me becomes zero if there are no other friendly
     creatures.
