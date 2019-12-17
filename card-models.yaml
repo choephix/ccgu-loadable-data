@@ -52,21 +52,21 @@
   guid: daf9dcb2-0b3e-772b-1538-1d88ab4dafcf
   power: 1
   name: Unkillable Barny
-- id: 830
+- id: 845
   slug: --charger
   description: My power is raised by 1 every time I am relocated.
   effects: {}
   guid: d39e281e-94f1-ba2d-1deb-975d899e1f5e
   name: charger
   power: 3
-- id: 829
+- id: 844
   slug: --handy
   description: When I am summoned, you draw 2 cards and the enemy draws 3 cards.
   effects: {}
   guid: 44372e4e-629c-387c-6162-e52dccc7029c
   name: Flashforward
   power: 5
-- id: 836
+- id: 830
   slug: swapper
   lore: I can relocate to an occupied creature field on your side, by swapping
     places with the creature there. This does not count as relocation for the
@@ -83,7 +83,7 @@
   effects: {}
   guid: eed4c9e2-1f79-01f7-1113-d2b4772c6173
   name: shisno
-- id: 835
+- id: 829
   slug: flappy-bird
   lore: Can both attack and move before exhausting.
   tags:
@@ -112,7 +112,7 @@
   power: 2
   name: Double Attacker
   guid: f72d220f-ed76-72ac-648c-e1ef7b2744ec
-- id: 837
+- id: 831
   slug: flip-swapper
   lore: I can relocate to an occupied creature field on your side, by swapping
     places with the creature there. This does not count as relocation for the
@@ -583,7 +583,7 @@
   name: autoatk
   power: 4
   guid: 9d9d8250-25d2-e17b-5fc6-7dc75993e29c
-- id: 778
+- id: 920
   slug: quickgiver-0
   type: 1
   description: "#Persistent. Activate when $enemy's turn begins. When you deploy a unit on
@@ -632,7 +632,7 @@
   name: needsmotivation
   power: 3
   guid: 08d74cf3-5b04-b6f5-e4cc-014bacdbd687
-- id: 834
+- id: 828
   slug: eggshell
   lore: Use me as surprise tribute.
   tags:
@@ -803,7 +803,7 @@
   name: vampirefang
   power: 2
   guid: e8d29482-9996-f3ed-a02b-f0c4219e8c5a
-- id: 832
+- id: 826
   slug: spearhead
   tags:
     - piercing
@@ -1101,7 +1101,7 @@
   name: mercenery
   power: 6
   guid: 913c9737-eac3-206b-f5e5-a9ba7968fa0d
-- id: 833
+- id: 827
   slug: wall
   tags:
     - noattack
@@ -4562,14 +4562,19 @@
   power: 7
   name: Blood Merc
   guid: 8b7c6999-27bf-f797-11ab-d480b7da727c
-- id: 528
-  slug: --marco
+- id: 832
+  slug: marco
   description: |-
     Safe-Flip
     If @polo is in your graveyard - add it to your hand.
   tags:
     - sneak
-  effects: {}
+  effects:
+    flip:
+      manner: safe
+      perform: |-
+        let c = get.cardBySlug( 'polo', player.grave)
+        op.addToHand( c, player )
   power: 3
   name: Marco
   guid: 000a7bf9-854e-fc7b-d446-f39d320e3260
@@ -4626,14 +4631,18 @@
   power: 2
   name: Bad Fate
   guid: 7c3aa978-0db6-ed1d-3e05-b57d8a929538
-- id: 529
-  slug: --polo
+- id: 833
+  slug: polo
   description: |-
     Combat-Flip
     If @marco is in your graveyard - add it to your hand.
   tags:
     - sneak
-  effects: {}
+  effects:
+    flip:
+      perform: |-
+        let c = get.cardBySlug('marco', player.grave)
+        op.addToHand( c, player )
   power: 3
   name: Polo
   guid: e3c51992-db9b-2c6d-d335-25b4b2af997c
