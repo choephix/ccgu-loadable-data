@@ -29,7 +29,7 @@
   guid: 73cf32c1-03b7-71e9-fb27-80d33fcc163d
   power: 7
   name: patience-zero
-- id: 868
+- id: 834
   slug: flipouch
   description: "Flip: Take 1 damage."
   tags:
@@ -837,7 +837,7 @@
   name: flipouch
   power: 5
   guid: b3dba8a0-17b9-532b-e7ac-e4922eb429e2
-- id: 838
+- id: 888
   slug: vampirefang
   description: Any direct damage I deal in $combat, is added to your $health.
   pdc: -1
@@ -1465,7 +1465,7 @@
   name: immortal-bob
   guid: 7d41f504-7d39-2206-5921-d540a8c3a7f6
 - id: 804
-  slug: all-out-johhny
+  slug: all-out-johnny
   description: At the end of your turn discard all cards in your hand
   status: 1
   effects:
@@ -2113,8 +2113,8 @@
   power: 14
   name: Cowardly Giant
   guid: 7ee60017-2de4-aedb-8e04-e6fb78f80b97
-- id: 3142
-  slug: --miller
+- id: 848
+  slug: miller
   description: At the end of your opponent's turn deal damage to them equal to the number
     of their occupied creature fields and decrease my power by 2.
   tags:
@@ -2738,8 +2738,8 @@
   power: 4
   name: Phoenix
   guid: 62880a08-e91b-e9da-2f28-7ce1a9b5c518
-- id: 3662
-  slug: --last-stand
+- id: 849
+  slug: last-stand
   type: 1
   description: >-
     Activate only when opposing enemy creature attacks you directly, with power
@@ -3258,7 +3258,7 @@
   power: 6
   name: Blood Mercenary
   guid: 88dcde4f-7256-261b-29d6-73b8dc2a9f62
-- id: 837
+- id: 889
   slug: fatal-spirit
   description: >-
     I cannot move.
@@ -3281,7 +3281,7 @@
   effects: {}
   name: Force Field
   guid: 3511cf2e-37a7-82a2-954d-555c3e926504
-- id: 3276
+- id: 867
   slug: --wtf-paul
   description: "I cannot be used as a tribute.
 
@@ -3307,7 +3307,7 @@
   power: 3
   name: Bloodrage
   guid: 22146187-0a77-5546-afd2-16418327329b
-- id: 3279
+- id: 866
   slug: --paul3
   description: "I cannot be used for a tribute.
 
@@ -3319,7 +3319,7 @@
   power: 4
   name: Lost Paul
   guid: 841bd862-0a9e-8398-bcfb-f6c95de26d47
-- id: 3280
+- id: 865
   slug: --paul2
   description: "Cannot be summoned on a field with no opposing enemy creature.
 
@@ -3351,7 +3351,7 @@
   power: 7
   name: Problematic Sam
   guid: 5e092bac-dbde-ecff-b205-f2afb1e539a1
-- id: 3284
+- id: 864
   slug: --paul1
   description: "I cannot be summoned while there are other friendly creatures in play.
 
@@ -3444,7 +3444,7 @@
   power: 10
   name: Collossal Shield*
   guid: afe270d6-ce53-2b9d-f8ba-19bce51e0836
-- id: 3295
+- id: 963
   slug: --harrasser2
   description: "I cannot be summoned while there are other friendly creatures in play, nor
     used as a tribute.
@@ -3653,7 +3653,7 @@
   power: 4
   name: Token Pooper
   guid: e15e6908-0326-2866-ff73-f17594272af3
-- id: 3323
+- id: 835
   slug: --enraged
   description: Raise my power by 1 each time a friendly creature is destroyed. This effect
     resets after I finish an attack (successfully or not).
@@ -4057,8 +4057,8 @@
   power: 6
   name: Blood Haggler
   guid: b650c4f3-fecf-7b39-53de-7a9111db943d
-- id: 3602
-  slug: --unbreakable
+- id: 852
+  slug: unbreakable
   description: I cannot be destroyed in combat while there are at least two friendly
     creatures adjacent to me.
   effects: {}
@@ -4174,8 +4174,8 @@
   power: 2
   name: Kamikaze
   guid: 9054ca84-2c43-a0ea-2176-836dde2a19a1
-- id: 3610
-  slug: --badclown
+- id: 850
+  slug: badclown
   description: At the end of the enemy's turn, if the top card in their graveyard is a
     trap, deal 4 damage to them
   effects: {}
@@ -4577,7 +4577,7 @@
   power: 2
   name: Trapster
   guid: 578ce449-ef5c-aa32-a11d-a524e49e024b
-- id: 836
+- id: 890
   slug: loneshield
   description: All combat damage against me becomes zero if there are no other friendly
     creatures.
@@ -5152,8 +5152,8 @@
   power: 1
   name: Safe-Buffer
   guid: 77192957-d7b3-955a-18c6-5b94ac8263f6
-- id: 3122
-  slug: --spike
+- id: 851
+  slug: spike
   description: |-
     Combat-Flip
     Deal 3 direct damage to the enemy.
