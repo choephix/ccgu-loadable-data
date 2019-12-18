@@ -132,7 +132,7 @@
       eventStatus: ended
       condition: |-
         event.command.type === "attack" && 
-          event.command.parameters.card! === card
+          event.command.parameters.card === card
       perform: op.forceManualAttack( card )
       allowedLots:
         - unit-field
