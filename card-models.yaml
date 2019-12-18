@@ -1,6 +1,5 @@
-- slug: trapazan
-  guid: 6f7f792b-0da9-f90d-a7a5-9245606bbae8
-  id: 882
+- id: 882
+  slug: trapazan
   description: increase my power by 10 while the top card in your grave is a trap
   tags:
     - swift
@@ -13,7 +12,9 @@
         - unit-field
         - hand
         - grave
+  guid: 6f7f792b-0da9-f90d-a7a5-9245606bbae8
   power: 5
+  name: trapazan
 - id: 805
   slug: patience-zero
   description: at the end of your turn, if I am in your hand - discard me
@@ -32,7 +33,6 @@
   slug: flipouch
   description: "Flip: Take 1 damage."
   tags:
-    &a1
     - sneak
   pdc: -1
   priority: 3
@@ -47,7 +47,6 @@
   slug: kamikazejoe
   description: I die after attacking
   tags:
-    &a2
     - rush
     - notribute
   pdc: -1
@@ -71,7 +70,6 @@
 
     At the beginning of your turn, if I am the topmost card in your grave, i return to your hand.
   tags:
-    &a3
     - sneak
   effects:
     active:
@@ -834,7 +832,8 @@
   description: |-
     Combat Flip: 
     Take 5 damage.
-  tags: *a1
+  tags:
+    - sneak
   pdc: -1
   priority: 3
   effects:
@@ -1180,7 +1179,9 @@
 - id: 887
   slug: kamikazejoe-original
   description: I automatically attack when $deployed. I die after $combat.
-  tags: *a2
+  tags:
+    - rush
+    - notribute
   pdc: -1
   status: 3
   priority: 8
@@ -3542,14 +3543,16 @@
   guid: 2f2f474a-e268-7bfb-81a2-f69188d45516
 - id: 802
   slug: producer
-  description: My power is raised by 1 for each card in your hand
+  description: |-
+    My power is raised by 1 for each card in your hand
+    -
+    v3
   effects:
     passive:
       condition: "true"
       perform: |-
-        let me = g.fx.card
-        let count = g.player.hand.cardCount
-        g.pass.raisePower( me, count )a
+        let count = player.hand.cardCount
+        pass.raisePower( card, count )
       allowedLots:
         - unit-field
         - hand
@@ -4677,7 +4680,8 @@
     IN-GRAVE
 
     At the beginning of your turn, if I am the topmost card in your grave, i return to your hand.
-  tags: *a3
+  tags:
+    - sneak
   effects:
     active:
       eventName: TurnBegin
