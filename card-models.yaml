@@ -56,8 +56,8 @@
     active:
       eventName: UnitAttack
       eventStatus: ended
-      condition: g.event.card === g.fx.card
-      perform: g.op.kill( g.fx.card )
+      condition: .event.card === card
+      perform: op.kill( card )
       allowedLots:
         - unit-field
   guid: da1d63dc-c3a5-7c69-49c4-148a17a842e0
@@ -131,10 +131,9 @@
       eventName: HandleCommand
       eventStatus: ended
       condition: |-
-        g.event.command.type === "attack" && 
-          g.event.command.parameters.card! ===
-            g.fx.card
-      perform: g.op.forceManualAttack( g.fx.card )
+        event.command.type === "attack" && 
+          event.command.parameters.card! === card
+      perform: op.forceManualAttack( card )
       allowedLots:
         - unit-field
   power: 2
@@ -491,11 +490,9 @@
       eventName: DeployUnit
       eventStatus: ended
       condition: |-
-        let me = g.fx.card
-        let target = g.event.card
-        g.faq.isOpposingLane( me, target )
-          && target.isFaceUp
-      perform: g.op.forceAttack( g.event.card )
+        faq.isOpposingLane( card, event.card )
+          && event.card.isFaceUp
+      perform: op.forceAttack( event.card )
   name: OP!
   guid: bdaf0351-9f2b-859c-d4e7-7b35dcae8645
 - id: 872
@@ -591,13 +588,11 @@
       eventName: DeployUnit
       eventStatus: ended
       condition: |-
-        let me = g.fx.card
-        let target = g.event.card
-        g.faq.isOpposingLane( me, target )
-          && target.isFaceUp
+        faq.isOpposingLane( card, event.card )
+          && event.card.isFaceUp
       perform: |-
-        let target = g.event.card
-        g.op.addTempFx( target, tg => 
+        let target = event.card
+        op.addTempFx( target, tg => 
           tg.pass.lowerPower( target, 5 ) )
   name: toxicmine
   guid: e3b41aa1-0f98-ec62-7c2b-2f8414025180
@@ -742,8 +737,8 @@
     active:
       eventName: UnitAttackDirect
       eventStatus: began
-      condition: g.faq.isOpposingLane( g.event.card, g.fx.card )
-      perform: g.op.kill( g.event.card )
+      condition: faq.isOpposingLane( event.card, card )
+      perform: op.kill( event.card )
   name: killonattack
   guid: e649a142-6fe2-e540-60e4-3615f222370a
 - id: 807
@@ -816,10 +811,9 @@
     passive:
       condition: "true"
       perform: |-
-        let me = g.fx.card
-        let units = g.player.units
-        let allies = units.filter( c => c !== me )
-        g.pass.lowerPower( me, allies.length * 3 )
+        let units = player.units
+        let allies = units.filter( c => c !== card )
+        pass.lowerPower( card, allies.length * 3 )
       allowedLots:
         - unit-field
         - hand
@@ -839,7 +833,7 @@
   effects:
     flip:
       manner: combat
-      perform: g.op.damage( g.player, 5 )
+      perform: op.damage( player, 5 )
   name: flipouch
   power: 5
   guid: b3dba8a0-17b9-532b-e7ac-e4922eb429e2
@@ -884,20 +878,16 @@
     active:
       eventName: DeployUnit
       eventStatus: ended
-      condition: "g.event.card.controller !== \r
+      condition: "event.card.controller !== card.controller && \r
 
-        \  g.fx.card.controller && \r
+        event.card.lot.index !== card.lot.index && \r
 
-        g.event.card.lot.index !== \r
+        let field = get.opposingUnitField( card )\r
 
-        \  g.fx.card.lot.index && \r
-
-        g.faq.canRelocateTo( g.fx.card, g.get.opposingUnitField(
-        g.event.card ) )"
+        faq.canRelocateTo( card, field )"
       perform: |-
-        let me = g.event.card
-        let field = g.get.opposingUnitField( me )
-        g.op.forceRelocate( me, field )
+        let field = get.opposingUnitField( me )
+        op.forceRelocate( card, field )
       allowedLots:
         - unit-field
   name: nimbleguard
@@ -957,13 +947,13 @@
   effects:
     flip:
       manner: combat
-      perform: "g.op.draw( g.opponent )\r
+      perform: "op.draw( opponent )\r
 
-        g.op.draw( g.player )\r
+        op.draw( player )\r
 
-        g.op.draw( g.opponent )\r
+        op.draw( opponent )\r
 
-        g.op.draw( g.player )"
+        op.draw( player )"
   name: Fate Forward
   power: 4
   guid: 175c9ca8-d248-7609-c6af-0c09f2094056
@@ -982,9 +972,9 @@
       eventName: UnitAttackCombat
       eventStatus: ended
       condition: |-
-        g.event.attacker === g.fx.card || 
-        g.event.defender === g.fx.card
-      perform: g.op.kill( g.fx.card )
+        event.attacker === card || 
+        event.defender === card
+      perform: op.kill( card )
       allowedLots:
         - unit-field
   name: fragmine
@@ -1140,8 +1130,8 @@
     active:
       eventName: TurnBegin
       eventStatus: ended
-      condition: g.event.player === g.fx.card.controller
-      perform: g.op.forceAttack( g.fx.card )
+      condition: event.player === player
+      perform: op.forceAttack( card )
       allowedLots:
         - unit-field
   name: berserker
@@ -1157,8 +1147,8 @@
     active:
       eventName: UnitAttack
       eventStatus: began
-      condition: g.event.card === g.fx.card
-      perform: g.op.damage( g.player, 1 )
+      condition: event.card === card
+      perform: op.damage( player, 1 )
       allowedLots:
         - unit-field
   name: mercenery
@@ -1203,7 +1193,7 @@
       eventName: TurnEnd
       eventStatus: ended
       condition: "true"
-      perform: g.op.addToHand( g.fx.card, g.player )
+      perform: op.addToHand( card, player )
       allowedLots:
         - unit-field
   name: harassingmia
@@ -3509,10 +3499,10 @@
     times.
   effects:
     passive:
-      condition: g.opponent.deck.hasCards
+      condition: opponent.deck.hasCards
       perform: |-
-        let target = g.opponent.deck.topCard
-        g.pass.setFaceUp( target, true )
+        let target = opponent.deck.topCard
+        pass.setFaceUp( target, true )
       allowedLots:
         - unit-field
   power: 3
@@ -4687,14 +4677,12 @@
       eventName: TurnBegin
       eventStatus: ended
       condition: |-
-        g.fx.card.controller.grave.topCard === 
-          g.fx.card && 
-        g.fx.card.controller === 
-          g.get.currentPlayer
-      perform: g.op.addToHand( g.fx.card, g.player )
+        card.controller.grave.topCard === card && 
+        card.controller === get.currentPlayer
+      perform: op.addToHand( card, player )
       allowedLots:
         - grave
-  power: 1
+  power: 2
   name: Unkillable Barny
   guid: daf9dcb2-0b3e-772b-1538-1d88ab4dafcf
 - id: 3126
@@ -5017,9 +5005,9 @@
       manner: safe
       perform: |-
         let bonus = 7
-        let me = g.fx.card
-        g.op.addTempFx( me, gt => 
-          gt.pass.raisePower( me, bonus ) )
+        let me = card
+        op.addTempFx( me, gt => 
+          pass.raisePower( me, bonus ) )
   name: Nona
   guid: 36f258e7-7933-93e0-fe07-61e739018060
 - id: 3201
@@ -5102,15 +5090,13 @@
   effects:
     flip:
       manner: combat
-      perform: "let me = g.fx.card\r
-
-        let foe = g.get.opposingUnit( me )\r
+      perform: "let foe = get.opposingUnit( card )\r
 
         let tag = Tag.NOATTACK\r
 
         if ( ! foe ) return\r
 
-        g.op.addTempFx( foe, \r
+        op.addTempFx( foe, \r
 
         \  gt => gt.pass.addTag( foe, tag ),\r
 
@@ -5942,7 +5928,7 @@
   effects:
     flip:
       manner: combat
-      perform: "let cards = g.player.grave.cards\r
+      perform: "let cards = player.grave.cards\r
 
         let target = cards.find( c => \r
 
@@ -5950,13 +5936,13 @@
 
         if ( ! target ) return \r
 
-        const field = g.fx.card.lot!\r
+        const field = card.lot!\r
 
         if ( ! field.isUnitField ) return\r
 
-        g.op.sacrifice( g.fx.card )\r
+        op.sacrifice( card )\r
 
-        g.op.deploy( target, field )"
+        op.deploy( target, field )"
   name: necro-grando
   guid: 88a27529-c307-fb70-3fd9-eb9e4c8d5a68
 - id: 2833
