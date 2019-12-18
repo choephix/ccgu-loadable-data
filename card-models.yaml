@@ -5094,9 +5094,7 @@
 
         let tag = Tag.NOATTACK\r
 
-        if ( ! foe ) return\r
-
-        op.addTempFx( foe, \r
+        !! foe && op.addTempFx( foe, \r
 
         \  gt => gt.pass.addTag( foe, tag ),\r
 
