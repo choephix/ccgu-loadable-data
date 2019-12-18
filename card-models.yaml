@@ -2525,7 +2525,7 @@
   name: drawrager
   guid: a8af39b5-e951-e5a8-6bc0-0ad0a49b858e
 - id: 816
-  slug: --grandegrand
+  slug: grandegrand
   description: I can only be summoned by tributing another grand-creature
   tags:
     - grand
