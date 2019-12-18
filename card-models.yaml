@@ -882,9 +882,9 @@
 
         event.card.lot.index !== card.lot.index && \r
 
-        let field = get.opposingUnitField( card )\r
+        faq.canRelocateTo( card, \r
 
-        faq.canRelocateTo( card, field )"
+        \  get.opposingUnitField( card ) )"
       perform: |-
         let field = get.opposingUnitField( me )
         op.forceRelocate( card, field )
