@@ -73,7 +73,7 @@
     - sneak
   effects:
     active:
-      condition: g.get.adjacentUnits( g.fx.card ).length >= 2
+      condition: g.gett.adjacentUnits( g.fx.card ).length >= 2
       perform: g.pass.addTag( g.fx.card, Tag.INVULNERABLE )
       allowedLots:
         - unit-field
@@ -661,7 +661,7 @@
   effects:
     passive:
       perform: |-
-        let bonus = get.adjacentUnits( card ).length
+        let bonus = gett.adjacentUnits( card ).length
         pass.raisePower( card, bonus )
       allowedLots:
         - unit-field
@@ -882,11 +882,11 @@
 
         event.card.lot.index !== card.lot.index && \r
 
-        let field = get.opposingUnitField( card )\r
+        let field = gett.opposingUnitField( card )\r
 
         faq.canRelocateTo( card, field )"
       perform: |-
-        let field = get.opposingUnitField( me )
+        let field = gett.opposingUnitField( me )
         op.forceRelocate( card, field )
       allowedLots:
         - unit-field
@@ -900,7 +900,7 @@
   priority: 3
   effects:
     passive:
-      condition: get.currentPlayer === opponent
+      condition: gett.currentPlayer === opponent
       perform: pass.raisePower( card, 4 )
       allowedLots:
         - unit-field
@@ -916,7 +916,7 @@
   priority: 3
   effects:
     passive:
-      condition: get.currentPlayer === player
+      condition: gett.currentPlayer === player
       perform: pass.raisePower( card, 3 )
       allowedLots:
         - grave
@@ -1037,7 +1037,7 @@
   priority: 8
   effects:
     passive:
-      condition: "! get.opposingUnit( card )"
+      condition: "! gett.opposingUnit( card )"
       perform: pass.addTag( card, Tag.NOATTACK )
       allowedLots:
         - unit-field
@@ -4639,7 +4639,7 @@
     flip:
       manner: safe
       perform: |-
-        let c = get.cardBySlug( 'polo', player.grave)
+        let c = gett.cardBySlug( 'polo', player.grave)
         op.addToHand( c, player )
   power: 3
   name: Marco
@@ -4678,7 +4678,7 @@
       eventStatus: ended
       condition: |-
         card.controller.grave.topCard === card && 
-        card.controller === get.currentPlayer
+        card.controller === gett.currentPlayer
       perform: op.addToHand( card, player )
       allowedLots:
         - grave
@@ -4707,7 +4707,7 @@
     flip:
       manner: combat
       perform: |-
-        let c = get.cardBySlug('marco', player.grave)
+        let c = gett.cardBySlug('marco', player.grave)
         op.addToHand( c, player )
   power: 3
   name: Polo
@@ -5090,7 +5090,7 @@
   effects:
     flip:
       manner: combat
-      perform: "let foe = get.opposingUnit( card )\r
+      perform: "let foe = gett.opposingUnit( card )\r
 
         let tag = Tag.NOATTACK\r
 

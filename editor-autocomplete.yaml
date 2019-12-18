@@ -8,7 +8,7 @@ local:
   - faq
   - op
   - pass 
-get:
+gett:
   - currentPlayer
   - waitingPlayer
   - players
