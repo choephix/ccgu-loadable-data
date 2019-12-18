@@ -2530,8 +2530,8 @@
   tags:
     - grand
   effects:
-    deploy:
-      condition: |-
+    overrides:
+      blockDeploymentTo: |-
         let tribute = lot_to.topCard
         tribute && ! tribute.hasTag( Tag.GRAND )
   power: 13
