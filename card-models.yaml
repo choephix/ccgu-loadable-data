@@ -39,7 +39,7 @@
   effects:
     flip:
       manner: combat
-      perform: g.op.damage( g.player, 1 )
+      perform: op.damage( player, 1 )
   guid: b3dba8a0-17b9-532b-e7ac-e4922eb429e2
   name: flipouch
   power: 5
