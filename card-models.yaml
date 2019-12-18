@@ -2390,7 +2390,7 @@
   power: 14
   name: The Blood King
   guid: 0fba199f-b1a1-9a2c-5448-0f4e509260dd
-- id: 3155
+- id: 868
   slug: --mega-chicken
   description: The moment there are no adjacent friendly creatures I return to my
     controller's hand.
@@ -3048,7 +3048,7 @@
   effects: {}
   name: Deck Replenish
   guid: d3dcdefa-cc96-2c97-4685-80ee9c6c0d96
-- id: 3244
+- id: 853
   slug: --surprise-attack
   type: 1
   description: Activate when an opposing enemy creature is summoned and there is a freindly
@@ -3282,7 +3282,7 @@
   name: Force Field
   guid: 3511cf2e-37a7-82a2-954d-555c3e926504
 - id: 867
-  slug: --wtf-paul
+  slug: wtf-paul
   description: "I cannot be used as a tribute.
 
     I die at the end of your turn.\rI do not suffer summon exhaustion"
@@ -3308,7 +3308,7 @@
   name: Bloodrage
   guid: 22146187-0a77-5546-afd2-16418327329b
 - id: 866
-  slug: --paul3
+  slug: paul3
   description: "I cannot be used for a tribute.
 
     I cannot attack the enemy directly.\rI do not suffer summon
@@ -3320,7 +3320,7 @@
   name: Lost Paul
   guid: 841bd862-0a9e-8398-bcfb-f6c95de26d47
 - id: 865
-  slug: --paul2
+  slug: paul2
   description: "Cannot be summoned on a field with no opposing enemy creature.
 
     I cannot be used for a tribute.\rI do not suffer summon exhaustion."
@@ -3338,7 +3338,7 @@
   name: Overly Excited Tim
   guid: 9228b01a-6cc0-83c0-78df-1d377137b0b8
 - id: 3282
-  slug: --rz6p0r
+  slug: poised-eric
   description: After I attack the enemy directly, I am destroyed.
   effects: {}
   power: 6
@@ -3352,7 +3352,7 @@
   name: Problematic Sam
   guid: 5e092bac-dbde-ecff-b205-f2afb1e539a1
 - id: 864
-  slug: --paul1
+  slug: paul1
   description: "I cannot be summoned while there are other friendly creatures in play.
 
     I die at the end of your turn.\rI do not suffer from summon exhaustion."
@@ -3485,14 +3485,6 @@
   power: 4
   name: Eddy
   guid: 89fd34c5-21a3-6832-a906-d0c827185051
-- id: 3301
-  slug: --all-out_joe
-  description: At the end of your turn discard all cards in your hand
-  lore: duplicate
-  effects: {}
-  power: 8
-  name: All Out Joe
-  guid: 97475749-a4ef-2dbd-06fa-2ac18bad8350
 - id: 801
   slug: spying-james
   description: While I am in play - opponent keeps the top card in his deck face-up at all
@@ -3613,8 +3605,8 @@
   power: 3
   name: Good Defender
   guid: 6b0063e5-83f7-bcda-dc76-59702fc8a963
-- id: 3318
-  slug: --handy-jimmy
+- id: 836
+  slug: handy-jimmy
   description: Raise my power by 6 while you have no cards in your hand.
   effects: {}
   power: 3
@@ -3654,7 +3646,7 @@
   name: Token Pooper
   guid: e15e6908-0326-2866-ff73-f17594272af3
 - id: 835
-  slug: --enraged
+  slug: enraged
   description: Raise my power by 1 each time a friendly creature is destroyed. This effect
     resets after I finish an attack (successfully or not).
   effects: {}
