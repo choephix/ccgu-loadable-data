@@ -811,9 +811,9 @@
     passive:
       condition: "true"
       perform: |-
-        let units = player.units
-        let allies = units.filter( c => c !== card )
-        pass.lowerPower( card, allies.length * 3 )
+        var units = player.units;
+        var allies = units.filter( c => c !== card );
+        pass.lowerPower( card, allies.length * 3 );
       allowedLots:
         - unit-field
         - hand
