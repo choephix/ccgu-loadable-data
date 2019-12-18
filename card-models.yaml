@@ -1,4 +1,4 @@
-- id: 882
+- id: 837
   slug: trapazan
   description: increase my power by 10 while the top card in your grave is a trap
   tags:
@@ -2391,7 +2391,7 @@
   name: The Blood King
   guid: 0fba199f-b1a1-9a2c-5448-0f4e509260dd
 - id: 868
-  slug: --mega-chicken
+  slug: mega-chicken
   description: The moment there are no adjacent friendly creatures I return to my
     controller's hand.
   tags:
