@@ -1,5 +1,4 @@
 eventName:
-  - OneTwoThreeTest
   - TurnBegin
   - TurnEnd
   - HandleCommand
@@ -29,7 +28,6 @@ eventName:
   - CardSpawn
 cardTag:
   units:
-    - OneTwoThreeTest
     - sneak
     - grand
     - noattack
