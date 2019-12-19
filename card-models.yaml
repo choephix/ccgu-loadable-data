@@ -878,16 +878,12 @@
     active:
       eventName: DeployUnit
       eventStatus: ended
-      condition: "event.card.controller !== card.controller && \r
+      condition: "let lot = get.opposingUnitField( event.card )\r
 
-        event.card.lot.index !== card.lot.index && \r
-
-        faq.canRelocateTo( card, \r
-
-        \  get.opposingUnitField( card ) )"
+        faq.canRelocateTo( card, lot )"
       perform: |-
-        let field = get.opposingUnitField( me )
-        op.forceRelocate( card, field )
+        let lot = get.opposingUnitField( event.card )
+        op.forceRelocate( card, lot )
       allowedLots:
         - unit-field
   name: nimbleguard
