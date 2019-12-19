@@ -1,0 +1,62 @@
+eventName:
+  - OneTwoThreeTest
+  - TurnBegin
+  - TurnEnd
+  - HandleCommand
+  - ActivateTrap
+  - ActivateUnitAbility
+  - PerformActiveEffect
+  - Draw
+  - DeployUnit
+  - TributeDeployUnit
+  - DeployTrap
+  - UnitReveal
+  - UnitRelocate
+  - UnitAttack
+  - Retriable
+  - UnitAttackDirect
+  - UnitAttackCombat
+  - UnitDie
+  - TrapDispose
+  - PlayerDamage
+  - PlayerHeal
+  - PlayerChangeHealth
+  - PlayerChangeActionPoints
+  - SpawnToken
+  - SwapFieldCards
+  - CardChangeLot
+  - CardChangeFaceUp
+  - CardSpawn
+cardTag:
+  units:
+    - OneTwoThreeTest
+    - sneak
+    - grand
+    - noattack
+    - norelocate
+    - nomove
+    - notribute
+    - rush
+    - swift
+    - swapper
+    - piercing
+    - invulnerable
+    - incorporeal
+    - token
+  traps:
+    - global
+    - persistent
+cardStatus:
+  - { text: "Draft", color: "none" }
+  - { text: "Concept", color: "none" }
+  - { text: "Unimplemented", color: "#E33" }
+  - { text: "Unfinished", color: "#FF0" }
+  - { text: "Untested", color: "#AF0" }
+  - { text: "Alpha", color: "#CAD" }
+  - { text: "Beta", color: "#BBD" }
+  - { text: "NoArt", color: "#0BF" }
+  - { text: "Unpolished", color: "#2DF" }
+  - { text: "Ready", color: "#FFF" }
+  - { text: "Published", color: "none" }
+  - { text: "Retired", color: "none" }
+  - { text: "Skip", color: "#888" }
