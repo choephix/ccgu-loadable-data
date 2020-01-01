@@ -5586,8 +5586,8 @@
   effects: {}
   name: Fury
   guid: e1401275-6b07-9526-cd78-530e64e9a18c
-- id: 3088
-  slug: --crowdpowered
+- id: 941
+  slug: crowdpowered
   description: Raise my power by 1 for each creature in play, other than me.
   tags:
     - sneak
