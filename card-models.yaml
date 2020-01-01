@@ -1340,7 +1340,7 @@
       perform: |-
         pass.raisePower( card, 5 * card.lot.index )
         player.actionPoints === 0 &&
-          pass.addTag( Tag.PIERCING )
+          pass.addTag( card, Tag.PIERCING )
       allowedLots:
         - unit-field
   name: -kami
