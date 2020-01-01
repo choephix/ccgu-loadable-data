@@ -3091,7 +3091,7 @@
   name: Deck Replenish
   guid: d3dcdefa-cc96-2c97-4685-80ee9c6c0d96
 - id: 853
-  slug: --surprise-attack
+  slug: surprise-attack
   type: 1
   description: Activate when an opposing enemy creature is summoned and there is a freindly
     creature on your side of it. Your creature performs a free attack.
@@ -3185,8 +3185,8 @@
   effects: {}
   name: Magic Deckstruction
   guid: 9d5a7510-83e5-3a0c-9d25-333c226ab525
-- id: 3255
-  slug: --final-heal
+- id: 909
+  slug: final-heal
   type: 1
   description: Activate when you are about to receive fatal direct damage from opposing
     enemy creature's attack. Convert it to healing damage.
@@ -5744,8 +5744,8 @@
   effects: {}
   name: empower III
   guid: 4966f3b2-888a-6615-58a3-263676e8237c
-- id: 3682
-  slug: --super-empower
+- id: 925
+  slug: super-empower
   type: 1
   description: >-
     #persistent
