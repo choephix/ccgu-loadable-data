@@ -7,8 +7,15 @@
     - dev
     - rush
   effects:
+    active:
+      eventName: Draw
+      eventStatus: ended
+      condition: "true"
+      perform: |-
+        console.log( "~", player.units.map( u => u.slug ) )
+        console.log( "~", player.units.length )
     passive:
-      condition: player.units.some( u => u.slug === "wall" )
+      condition: player.units.some( u => u.slug == "wall" )
       perform: pass.raisePower( card, 10 )
       allowedLots:
         - unit-field
