@@ -1325,6 +1325,9 @@
   guid: a0537d41-fb40-021c-e3bf-43de93a71b4d
 - id: 1
   slug: -kami
+  description: |-
+    pow = 5 x field.index
+    PIERCING while A.P. at 0
   lore: op af
   tags:
     - swapper
