@@ -1,3 +1,39 @@
+- id: 18
+  slug: -wall-cannon
+  description: Increase my power by 10 while @wall is in play on your side.
+  tags:
+    - swapper
+    - swift
+    - dev
+    - rush
+  effects:
+    passive:
+      condition: player.units.some( u => u.slug === "wall" )
+      perform: pass.raisePower( card, 10 )
+      allowedLots:
+        - unit-field
+  guid: 8b0aa1f9-71cd-a0d6-512f-34657aa3c387
+  name: Wall Cannon
+- id: 17
+  slug: -double-paul
+  description: After I finish an attack, if I am still in play I automatically perform
+    another attack.
+  tags:
+    - doubleatk
+    - rush
+  effects:
+    active:
+      eventName: HandleCommand
+      eventStatus: ended
+      condition: |-
+        event.command.type === "attack" && 
+          event.command.parameters.card === card
+      perform: op.forceManualAttack( card )
+      allowedLots:
+        - unit-field
+  guid: f72d220f-ed76-72ac-648c-e1ef7b2744ec
+  power: 2
+  name: Double Paul
 - id: 837
   slug: trapazan
   description: increase my power by 10 while the top card in your grave is a trap
@@ -1290,8 +1326,20 @@
 - id: 1
   slug: -kami
   lore: op af
+  tags:
+    - swapper
+    - swift
+    - rush
   priority: 3
-  effects: {}
+  effects:
+    passive:
+      condition: "true"
+      perform: |-
+        pass.raisePower( card, 5 * card.lot.index )
+        player.actionPoints === 0 &&
+          pass.addTag( Tag.PIERCING )
+      allowedLots:
+        - unit-field
   name: -kami
   guid: bb69140b-2741-9583-211c-11c9530119be
 - id: 36
@@ -1364,7 +1412,7 @@
   name: The Wild One
   guid: e2f0d6e2-9212-6a9e-7b29-9e24413baa5c
 - id: 33
-  slug: -elvariablo
+  slug: -el-variablo
   description: Increase my power by %10 while @wall is in play on your side.
   tags:
     - token
@@ -1376,12 +1424,10 @@
     - dev
   effects:
     passive:
-      condition: |-
-        g.player.units.some(
-          u => u.slug==="wall" )
-      perform: |-
-        g.pass.raisePower(
-          g.fx.card.pass,10)
+      condition: player.units.some( u => u.slug === "wall" )
+      perform: pass.raisePower( card, 10 )
+      allowedLots:
+        - unit-field
   name: El Variablo
   guid: 8b0aa1f9-71cd-a0d6-512f-34657aa3c387
 - id: 85
