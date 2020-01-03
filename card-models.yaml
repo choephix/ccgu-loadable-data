@@ -3370,7 +3370,14 @@
     I die at the end of your turn.\rI do not suffer summon exhaustion"
   tags:
     - rush
-  effects: {}
+    - notribute
+  effects:
+    active:
+      eventName: TurnEnd
+      condition: "true"
+      perform: op.kill( card )
+      allowedLots:
+        - unit-field
   power: 7
   name: WTF Paul
   guid: 49104f2c-9d86-9358-8588-49b43aac7f6d
@@ -3397,7 +3404,13 @@
     exhaustion.\rI die after my attack regardless of success."
   tags:
     - rush
-  effects: {}
+    - notribute
+  effects:
+    passive:
+      condition: "! get.opposingUnit( card )"
+      perform: pass.addTag( card, Tag.NOATTACK )
+      allowedLots:
+        - unit-field
   power: 4
   name: Lost Paul
   guid: 841bd862-0a9e-8398-bcfb-f6c95de26d47
@@ -3438,12 +3451,15 @@
   guid: 5e092bac-dbde-ecff-b205-f2afb1e539a1
 - id: 864
   slug: paul1
-  description: "I cannot be summoned while there are other friendly creatures in play.
-
-    I die at the end of your turn.\rI do not suffer from summon exhaustion."
+  description: |-
+    I cannot be summoned while there are other friendly creatures in play.
+    // I die at the end of your turn.
+    I do not suffer from summon exhaustion.
   tags:
     - rush
-  effects: {}
+  effects:
+    overrides:
+      blockDeploymentTo: player.units.length > 0
   power: 2
   name: Lightning Paul
   guid: b246b1eb-5d64-763c-77a7-cb75a918d35d
