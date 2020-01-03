@@ -1,3 +1,16 @@
+- id: 820
+  slug: chromatnic-badger
+  description: "all ally units gain #swapper while I am in play"
+  effects:
+    passive:
+      condition: "true"
+      perform: |-
+        player.units.forEach( unit => 
+          pass.addTag( unit, Tag.SWAPPER ) )
+      allowedLots:
+        - unit-field
+  guid: 19fe6c19-e34d-8ca6-92fc-798133db3662
+  power: 5
 - id: 18
   slug: -wall-cannon
   description: Increase my power by 10 while @wall is in play on your side.
