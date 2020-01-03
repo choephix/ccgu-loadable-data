@@ -1,3 +1,20 @@
+- id: 821
+  slug: prickly-goshawk
+  description: When enemy unit begins attack, if possible, I automatically relocate in
+    front of it.
+  tags:
+    - grand
+  effects:
+    active:
+      eventName: UnitAttackDirect
+      eventStatus: began
+      perform: |-
+        op.forceRelocate( card, 
+          get.opposingUnitField( event.card ) )
+      allowedLots:
+        - unit-field
+  guid: df2fa72c-6500-3207-0d6b-65f87574901c
+  power: 10
 - id: 820
   slug: loki
   description: "All ally units gain #swapper while I am in play."
