@@ -3408,7 +3408,9 @@
     I cannot be used for a tribute.\rI do not suffer summon exhaustion."
   tags:
     - rush
-  effects: {}
+  effects:
+    overrides:
+      blockDeploymentTo: "! get.opposingUnit( lot_to )"
   power: 4
   name: Lightning Paul
   guid: cfcfb735-84df-cfe1-7a29-0935b4826063
