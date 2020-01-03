@@ -13,7 +13,7 @@
         - unit-field
   guid: 19fe6c19-e34d-8ca6-92fc-798133db3662
   power: 5
-  name: Loki
+  name: Loki / Merlin
 - id: 18
   slug: -wall-cannon
   description: Increase my power by 10 while @wall is in play on your side.
