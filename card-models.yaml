@@ -15,6 +15,7 @@
         - unit-field
   guid: df2fa72c-6500-3207-0d6b-65f87574901c
   power: 10
+  name: prickly-goshawk
 - id: 820
   slug: loki
   description: "All ally units gain #swapper while I am in play."
@@ -5232,7 +5233,9 @@
     Deal 3 direct damage to the enemy.
   tags:
     - sneak
-  effects: {}
+  effects:
+    flip:
+      perform: op.damage( opponent, 3 )
   power: 1
   name: Spike
   guid: e4b1f6be-1494-a0b6-75da-9f33b33ae1d6
