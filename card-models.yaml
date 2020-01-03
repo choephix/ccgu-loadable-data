@@ -3408,6 +3408,7 @@
     I cannot be used for a tribute.\rI do not suffer summon exhaustion."
   tags:
     - rush
+    - notribute
   effects:
     overrides:
       blockDeploymentTo: "! get.opposingUnit( lot_to )"
