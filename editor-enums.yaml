@@ -12,7 +12,6 @@ eventName:
   - UnitReveal
   - UnitRelocate
   - UnitAttack
-  - Retriable
   - UnitAttackDirect
   - UnitAttackCombat
   - UnitDie
@@ -21,11 +20,15 @@ eventName:
   - PlayerHeal
   - PlayerChangeHealth
   - PlayerChangeActionPoints
+  - CardSpawn
+  - Sacrifice
+  - Discard
+  - AddToHand
+  - AddToDeck
   - SpawnToken
   - SwapFieldCards
   - CardChangeLot
   - CardChangeFaceUp
-  - CardSpawn
 cardTag:
   units:
     - sneak
