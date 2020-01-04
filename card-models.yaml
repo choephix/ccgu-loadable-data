@@ -3447,7 +3447,7 @@
     - notribute
   effects:
     overrides:
-      blockDeploymentTo: "! get.opposingUnit( lot_to )"
+      blockDeploymentTo: "! get.opposingUnit( field )"
   power: 4
   name: Lightning Paul
   guid: cfcfb735-84df-cfe1-7a29-0935b4826063
@@ -3648,7 +3648,7 @@
   name: Trap-Powered
   guid: 2f2f474a-e268-7bfb-81a2-f69188d45516
 - id: 802
-  slug: producer
+  slug: producer-0.g0o5yytlg60.6heih5reisa
   description: |-
     My power is raised by 1 for each card in your hand
     -
