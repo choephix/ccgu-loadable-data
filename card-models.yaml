@@ -1,3 +1,18 @@
+- id: 838
+  slug: producer
+  description: My power is raised by 1 for each card in the current player's hand
+  effects:
+    passive:
+      condition: "true"
+      perform: |-
+        let count = get.currentPlayer.hand.cardCount
+        pass.raisePower( card, count )
+      allowedLots:
+        - unit-field
+        - hand
+        - grave
+  guid: 5449b2b3-6f26-8acd-e5f8-3318420ca29f
+  name: Producer
 - id: 821
   slug: prickly-goshawk
   description: When enemy unit begins attack, if possible, I automatically relocate in
