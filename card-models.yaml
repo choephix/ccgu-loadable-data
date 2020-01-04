@@ -3141,7 +3141,8 @@
       eventStatus: ended
       condition: |-
         event.card === get.opposingUnit( card ) &&
-        !!
+        !! get.sameLaneUnit( card )
+      perform: op.forceAttack( get.sameLaneUnit( card ) )
   name: Surprise Attack!
   guid: ca3a6d1f-f089-4c7e-42ec-0a7a9ea6f384
 - id: 3245
