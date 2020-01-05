@@ -2629,7 +2629,7 @@
   effects:
     overrides:
       blockDeploymentTo: |-
-        let tribute = lot_to.topCard
+        let tribute = field.topCard
         tribute && ! tribute.hasTag( Tag.GRAND )
   power: 13
   name: GrandeGrand
