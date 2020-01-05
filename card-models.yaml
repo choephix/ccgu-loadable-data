@@ -8,7 +8,16 @@
       condition: |-
         event.card === card && 
         ! get.leftUnit( from ) &&
-        !! get.cardBySlug( 'damp-shield', player.deck )
+        !! get.leftUnitField( card ) &&
+        !! get.cardBySlug( 'damp-shield', 
+            player.deck, player.hand )
+      perform: |-
+        const field = get.leftUnitField( card )
+        const buddy = get.cardBySlug( 'damp-shield', 
+                        player.deck, player.hand )
+        op.deploy( buddy, field )
+      allowedLots:
+        - unit-field
   guid: b9184642-b505-f7e6-c6c7-71c4e84a7065
 - id: 854
   slug: surprise-reborn
