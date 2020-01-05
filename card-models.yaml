@@ -1,18 +1,25 @@
 - id: 854
-  slug: producer
-  description: My power is raised by 1 for each card in the your hand
+  slug: surprise-reborn
+  type: 1
+  description: >-
+    Activate when opposing enemy unit begins a direct attack and the top card in
+    your grave is a unit.
+
+
+    Deploy that unit on this lane.
   effects:
-    passive:
-      condition: "true"
+    active:
+      eventName: UnitAttackDirect
+      eventStatus: began
+      condition: |-
+        event.card === get.opposingUnit( card ) &&
+        player.grave.topCard &&
+        player.grave.topCard.card.isUnitType &&
+        ! get.sameLaneUnit( from )
       perform: |-
-        let count = player.hand.cardCount
-        pass.raisePower( card, count )
-      allowedLots:
-        - unit-field
-        - hand
-        - grave
-  guid: 5449b2b3-6f26-8acd-e5f8-3318420ca29f
-  name: Producer
+        const lot = get.sameLaneUnitField( card )
+        op.deploy( player.grave.topCard, lot )
+  guid: 32e847e6-dce8-b39e-db65-c218a4e5bf5f
 - id: 822
   slug: modern-charles
   description: At the beginning of your turn, if the top card in your grave is a unit, I
@@ -1849,10 +1856,20 @@
   power: 9
   name: Magi-resistent Tom
   guid: e9150e38-ab00-7ffe-82b7-3432223efa0f
-- id: 2113
+- id: 881
   slug: --deathdraw
   description: When I die - draw 2 cards.
-  effects: {}
+  effects:
+    active:
+      eventName: UnitDie
+      eventStatus: ended
+      condition: event.card === card
+      perform: |-
+        op.draw( player )
+        op.draw( player )
+      allowedLots:
+        - unit-field
+        - grave
   power: 3
   name: Mike
   guid: 15f64461-95cc-c62e-ca23-11dc1495fba7
@@ -3679,11 +3696,8 @@
   name: Trap-Powered
   guid: 2f2f474a-e268-7bfb-81a2-f69188d45516
 - id: 802
-  slug: producer-0.g0o5yytlg60.6heih5reisa
-  description: |-
-    My power is raised by 1 for each card in your hand
-    -
-    v3
+  slug: producer
+  description: My power is raised by 1 for each card in your hand
   effects:
     passive:
       condition: "true"
