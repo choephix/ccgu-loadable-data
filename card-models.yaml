@@ -1,6 +1,9 @@
 - id: 645
   slug: damp-shield
   description: When I am deployed, if possible, deploy @damp-sword my right.
+  notes: |-
+    multiple effects:
+    kill on no sword...
   tags:
     - noattack
   effects:
@@ -25,6 +28,9 @@
 - id: 644
   slug: damp-sword
   description: When I am deployed, if possible, deploy @damp-shield to my left.
+  notes: |-
+    multiple effects:
+    kill on no shield...
   tags:
     - notribute
   effects:
