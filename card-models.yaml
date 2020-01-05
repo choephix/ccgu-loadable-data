@@ -12,7 +12,7 @@
       eventStatus: ended
       condition: |-
         event.card === card && 
-        ! get.rightUnit( from ) &&
+        ! get.rightUnit( card ) &&
         !! get.rightUnitField( card ) &&
         !! get.cardBySlug( 'damp-sword', 
             player.deck, player.hand )
@@ -39,7 +39,7 @@
       eventStatus: ended
       condition: |-
         event.card === card && 
-        ! get.leftUnit( from ) &&
+        ! get.leftUnit( card ) &&
         !! get.leftUnitField( card ) &&
         !! get.cardBySlug( 'damp-shield', 
             player.deck, player.hand )
