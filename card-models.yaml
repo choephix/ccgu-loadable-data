@@ -1,5 +1,36 @@
-- id: 838
+- id: 854
   slug: producer
+  description: My power is raised by 1 for each card in the your hand
+  effects:
+    passive:
+      condition: "true"
+      perform: |-
+        let count = player.hand.cardCount
+        pass.raisePower( card, count )
+      allowedLots:
+        - unit-field
+        - hand
+        - grave
+  guid: 5449b2b3-6f26-8acd-e5f8-3318420ca29f
+  name: Producer
+- id: 822
+  slug: modern-charles
+  description: At the beginning of your turn, if the top card in your grave is a unit, I
+    die.
+  tags:
+    - grand
+  effects:
+    active:
+      eventName: TurnBegin
+      eventStatus: ended
+      condition: player.grave.topCard.isUnitType
+      perform: op.kill( card )
+      allowedLots:
+        - unit-field
+  guid: 501b4584-2d8e-ef34-70ee-4c5108591fa2
+  power: 19
+- id: 838
+  slug: producer2
   description: My power is raised by 1 for each card in the current player's hand
   effects:
     passive:
@@ -4294,7 +4325,14 @@
   slug: badclown
   description: At the end of the enemy's turn, if the top card in their graveyard is a
     trap, deal 4 damage to them
-  effects: {}
+  effects:
+    active:
+      eventName: TurnEnd
+      eventStatus: began
+      condition: "true"
+      perform: op.damage( opponent, 4 )
+      allowedLots:
+        - unit-field
   power: 4
   name: The Bad Clown
   guid: 45edb6a0-6dd3-636b-4cee-876778236587
