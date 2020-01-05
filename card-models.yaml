@@ -1,3 +1,25 @@
+- id: 645
+  slug: damp-shield
+  description: When I am deployed, if possible, deploy @damp-sword my right.
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: |-
+        event.card === card && 
+        ! get.rightUnit( from ) &&
+        !! get.rightUnitField( card ) &&
+        !! get.cardBySlug( 'damp-sword', 
+            player.deck, player.hand )
+      perform: |-
+        const field = get.rightUnitField( card )
+        const buddy = get.cardBySlug( 'damp-sword', 
+                        player.deck, player.hand )
+        op.deploy( buddy, field )
+      allowedLots:
+        - unit-field
+  guid: b9184642-b505-f7e6-c6c7-71c4e84a7065
+  power: 5
 - id: 644
   slug: damp-sword
   description: When I am deployed, if possible, deploy @damp-shield to my left.
