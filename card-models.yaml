@@ -1,3 +1,15 @@
+- id: 644
+  slug: damp-sword
+  description: When I am deployed, if possible, deploy @damp-shield to my left.
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: |-
+        event.card === card && 
+        ! get.leftUnit( from ) &&
+        !! get.cardBySlug( 'damp-shield', player.deck )
+  guid: b9184642-b505-f7e6-c6c7-71c4e84a7065
 - id: 854
   slug: surprise-reborn
   type: 1
