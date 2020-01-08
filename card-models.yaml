@@ -25,6 +25,7 @@
         - unit-field
   guid: b9184642-b505-f7e6-c6c7-71c4e84a7065
   power: 4
+  name: damp-shield
 - id: 644
   slug: damp-sword
   description: When I am deployed, if possible, deploy @damp-shield to my left.
@@ -52,6 +53,7 @@
         - unit-field
   guid: b9184642-b505-f7e6-c6c7-71c4e84a7065
   power: 4
+  name: damp-sword
 - id: 854
   slug: surprise-reborn
   type: 1
@@ -74,6 +76,7 @@
         const lot = get.sameLaneUnitField( card )
         op.deploy( player.grave.topCard, lot )
   guid: 32e847e6-dce8-b39e-db65-c218a4e5bf5f
+  name: surprise-reborn
 - id: 822
   slug: modern-charles
   description: At the beginning of your turn, if the top card in your grave is a unit, I
@@ -90,6 +93,7 @@
         - unit-field
   guid: 501b4584-2d8e-ef34-70ee-4c5108591fa2
   power: 19
+  name: modern-charles
 - id: 838
   slug: producer2
   description: My power is raised by 1 for each card in the current player's hand
@@ -155,6 +159,8 @@
       perform: pass.raisePower( card, 10 )
       allowedLots:
         - unit-field
+        - hand
+        - grave
   guid: 8b0aa1f9-71cd-a0d6-512f-34657aa3c387
   name: Wall Cannon
 - id: 17
