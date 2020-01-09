@@ -169,8 +169,8 @@
   guid: 19fe6c19-e34d-8ca6-92fc-798133db3662
   power: 5
   name: Loki / Merlin
-- id: 18
-  slug: -wall-cannon
+- id: 4
+  slug: --wall-cannon
   description: Increase my power by 10 while @wall is in play on your side.
   tags:
     - swapper
@@ -189,8 +189,8 @@
         - grave
   guid: 8b0aa1f9-71cd-a0d6-512f-34657aa3c387
   name: Wall Cannon
-- id: 17
-  slug: -double-paul
+- id: 3
+  slug: --double-paul
   description: After I finish an attack, if I am still in play I automatically perform
     another attack.
   tags:
@@ -316,12 +316,6 @@
   guid: 2c064020-07e5-d2da-ed69-734025104d9f
   name: The Swapper
   power: 3
-- id: 48
-  slug: shisno
-  lore: "[n.] Skunk's poo's poo"
-  effects: {}
-  guid: eed4c9e2-1f79-01f7-1113-d2b4772c6173
-  name: shisno
 - id: 829
   slug: flappy-bird
   lore: Can both attack and move before exhausting.
@@ -1500,13 +1494,13 @@
   name: generic5
   power: 5
   guid: a0537d41-fb40-021c-e3bf-43de93a71b4d
-- id: 1
-  slug: -kami
+- id: 2
+  slug: --shisno
   description: |-
     ♦ pow = 5 x field.index
 
     ♦ PIERCING while A.P. at 0
-  lore: op af
+  lore: "[n.] Skunk's poo's poo"
   tags:
     - swapper
     - swift
@@ -1521,9 +1515,9 @@
           pass.addTag( card, Tag.PIERCING )
       allowedLots:
         - unit-field
-  name: -kami
+  name: Shisno
   guid: bb69140b-2741-9583-211c-11c9530119be
-- id: 36
+- id: 52
   slug: -killany
   type: 1
   description: kill first unit deployed
@@ -1533,7 +1527,7 @@
   effects: {}
   name: -killany
   guid: eb3f4da9-c209-1305-0dd4-7cae6cc9f4de
-- id: 35
+- id: 51
   slug: -infinitemana
   description: +1AP on any deployment. die on turn start.
   pdc: -1
@@ -1542,7 +1536,7 @@
   effects: {}
   name: -infinitemana
   guid: e38ded56-fac0-f396-5349-5731f7267cba
-- id: 34
+- id: 50
   slug: -muchdraw
   description: Draw 6 cards when I am deployed.
   status: 7
@@ -1551,8 +1545,8 @@
   name: -muchdraw
   power: 2
   guid: 8cc74920-0ce0-2079-157a-fd7653ffec56
-- id: 4
-  slug: -wildgrand
+- id: 18
+  slug: --wildgrand
   lore: -- Whatever you wish, dude.... --
   tags:
     - grand
@@ -1562,8 +1556,8 @@
   effects: {}
   name: The Wild One (G)
   guid: cf181319-3efd-47f6-8763-91456ada4de8
-- id: 3
-  slug: -wildsneak
+- id: 17
+  slug: --wildsneak
   lore: -- Whatever you wish, dude.... --
   tags:
     - sneak
@@ -1573,8 +1567,8 @@
   effects: {}
   name: The Wild One (Incognito)
   guid: 656603c1-faf2-adbd-b788-c09377274053
-- id: 5
-  slug: -wildtrap
+- id: 19
+  slug: --wildtrap
   type: 1
   lore: -- Whatever you wish, dude.... --
   pdc: -1
@@ -1583,8 +1577,8 @@
   effects: {}
   name: Go Wild!
   guid: 5ff639d9-708d-32c5-c7d6-8a2084f11adb
-- id: 2
-  slug: -wildunit
+- id: 16
+  slug: --wildunit
   lore: -- Whatever you wish, dude.... --
   pdc: -1
   status: 4
@@ -1592,9 +1586,12 @@
   effects: {}
   name: The Wild One
   guid: e2f0d6e2-9212-6a9e-7b29-9e24413baa5c
-- id: 33
+- id: 49
   slug: -el-variablo
   description: +10 ATK while ally "wall" in play
+  notes: |-
+    is gud name, 
+    gotta think of somethin' for dis guy...
   tags:
     - token
     - swapper
@@ -4240,12 +4237,13 @@
   power: 8
   name: Reverse-piercer
   guid: cc237492-622a-1499-aa98-c6d0de66fba9
-- id: 6
+- id: 1
   slug: --kami--
   description: |-
     I can attack and move infinite times during a turn.
 
     I am awesome.
+  lore: op af
   tags:
     - rush
     - swift
