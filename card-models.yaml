@@ -3820,8 +3820,15 @@
   guid: 6b0063e5-83f7-bcda-dc76-59702fc8a963
 - id: 836
   slug: handy-jimmy
-  description: Raise my power by 6 while you have no cards in your hand.
-  effects: {}
+  description: Raise my power by 4 while you have no cards in your hand.
+  effects:
+    passive:
+      condition: "! player.hand.hasCards"
+      perform: pass.raisePower( card, 4 )
+      allowedLots:
+        - unit-field
+        - grave
+        - hand
   power: 3
   name: Handy Jimmy
   guid: 91e998df-d7be-7347-4fa7-5d6abb7d226d
