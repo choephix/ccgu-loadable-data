@@ -2594,7 +2594,7 @@
       perform: op.addToHand( card, player )
       allowedLots:
         - unit-field
-  power: 13
+  power: 15
   name: Mega Chicken
   guid: bbf5bfbc-a43d-d5dc-4b43-32b1119bee40
 - id: 3172
