@@ -3669,13 +3669,20 @@
   power: 5
   name: Taunting Shield*
   guid: 73ecf870-a8fc-9ec5-8039-f48b781032e1
-- id: 3293
+- id: 882
   slug: collossal-shield-2
   description: >-
     I cannot Attack.
 
     The moment you have more Life Points than the enemy, I will go to the enemy's hand.
-  effects: {}
+  effects:
+    active:
+      eventName: Any
+      eventStatus: ended
+      condition: player.healthPoints > opponent.healthPoints
+      perform: op.addToHand( card, opponent )
+      allowedLots:
+        - unit-field
   power: 12
   name: Collossal Shield*
   guid: 838eaa06-db74-8818-a25b-0b6aca2d7312
