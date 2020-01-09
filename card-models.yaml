@@ -5225,7 +5225,7 @@
   slug: nona
   description: |-
     Safe-Flip:
-    Raise my power by 6.
+    Raise my power by 7.
   tags:
     - sneak
   effects:
@@ -5233,9 +5233,8 @@
       manner: safe
       perform: |-
         let bonus = 7
-        let me = card
-        op.addTempFx( me, gt => 
-          pass.raisePower( me, bonus ) )
+        op.addTempFx( card, gt => 
+          pass.raisePower( card, bonus ) )
   name: Nona
   guid: 36f258e7-7933-93e0-fe07-61e739018060
 - id: 3201
