@@ -5964,11 +5964,16 @@
 - id: 925
   slug: super-empower
   type: 1
-  description: >-
-    #persistent
-
-    Activate at the begiinning of the enemy's turn, if there is a friendly face-up creature on this column. Raise its power by 7 until the end of the turn.
-  effects: {}
+  description: Activate at the begiinning of the enemy's turn, if there is a friendly
+    face-up creature on this column. Raise its power by 5 until the end of the
+    turn.
+  tags:
+    - persistent
+  effects:
+    active:
+      eventName: TurnBegin
+      eventStatus: ended
+      condition: event.player === opponent
   name: super empower
   guid: b9b98c1c-cd62-e76c-ee98-80b9810ad8bd
 - id: 3697
