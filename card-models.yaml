@@ -2732,7 +2732,7 @@
       blockDeploymentTo: |-
         let tribute = field.topCard
         tribute && ! tribute.hasTag( Tag.GRAND )
-  power: 13
+  power: 17
   name: GrandeGrand
   guid: fac22f2a-3ea6-f226-48d7-9fabc80c0163
 - id: 3304
@@ -3522,14 +3522,21 @@
   guid: 22146187-0a77-5546-afd2-16418327329b
 - id: 866
   slug: paul3
-  description: "I cannot be used for a tribute.
-
-    I cannot attack the enemy directly.\rI do not suffer summon
-    exhaustion.\rI die after my attack regardless of success."
+  description: |-
+    I cannot be used for a tribute.
+    I cannot attack the enemy directly.
+    I can attack/move on my first turn.
+    I die after my attack regardless of success.
   tags:
     - rush
     - notribute
   effects:
+    active:
+      eventName: UnitAttack
+      condition: event.card = card
+      perform: op.kill( card )
+      allowedLots:
+        - unit-field
     passive:
       condition: "! get.opposingUnit( card )"
       perform: pass.addTag( card, Tag.NOATTACK )
@@ -3540,9 +3547,10 @@
   guid: 841bd862-0a9e-8398-bcfb-f6c95de26d47
 - id: 865
   slug: paul2
-  description: "Cannot be summoned on a field with no opposing enemy creature.
-
-    I cannot be used for a tribute.\rI do not suffer summon exhaustion."
+  description: |-
+    Cannot be summoned on a field with no opposing enemy creature.
+    I cannot be used for a tribute.
+    I can attack/move on my first turn.
   tags:
     - rush
     - notribute
