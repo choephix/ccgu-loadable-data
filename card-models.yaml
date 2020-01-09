@@ -1,3 +1,12 @@
+- id: 809
+  slug: deadly-sacrifice
+  type: 1
+  description: Activate when opposing enemy creature attacks and there is a friendly
+    creature on your own side. Destroy both creatures, but take damage equal to
+    the enemy creature's power.
+  effects: {}
+  guid: aba8cb64-3893-70f5-baa9-c5599067f499
+  name: Deadly Sacrifice
 - id: 779
   slug: sneakshot
   type: 1
@@ -1463,7 +1472,7 @@
   effects: {}
   name: mirrorforce
   guid: 3116a4e6-a681-43fd-41a9-07b98c176174
-- id: 526
+- id: 813
   slug: tripwire
   type: 1
   description: Activate when enemy $unit $relocates to opposing $field. Kill it.
@@ -2977,7 +2986,7 @@
   effects: {}
   name: Sudden Death!
   guid: 796d5f7e-0ab0-9d91-60b0-859384c82f5e
-- id: 3210
+- id: 965
   slug: move-trap-hole
   type: 1
   description: When enemy creature relocates to the opposing field, instantly destroy it .
@@ -3044,7 +3053,7 @@
   name: r5ba0t
   guid: c325d638-8085-470e-b52b-dcd9e14815c4
 - id: 3220
-  slug: taunt-0.oiwmpig2550.bfuv3y8v2to
+  slug: taunt2
   type: 1
   description: >-
     #persistent
@@ -3299,7 +3308,7 @@
   effects: {}
   name: Depower 0
   guid: aec06857-4b8a-877a-6d69-8f3ace33e0d4
-- id: 3248
+- id: 911
   slug: empower
   type: 1
   description: Activate when opposing enemy creature attacks your creature. Raise your
@@ -3307,7 +3316,7 @@
   effects: {}
   name: Empower
   guid: d859e07b-6d42-ae6e-7089-38b0193f94cc
-- id: 3249
+- id: 927
   slug: depower
   type: 1
   description: Activate when opposing enemy creature attacks your creature. Decrease enemy
@@ -3634,13 +3643,6 @@
   power: 4
   name: Emma
   guid: bab4499d-f430-1bce-43d6-1d22d350599b
-- id: 3289
-  slug: freefred
-  description: When I am summoned, you gain 1 mana.
-  effects: {}
-  power: 4
-  name: Free Fred
-  guid: 9758dfa9-b506-1a79-e08a-2ed68a5015b2
 - id: 3306
   slug: mana-thing
   description: My power is raised by 2 x your current mana
@@ -4479,14 +4481,6 @@
   effects: {}
   name: weakshield
   guid: 8a5c1520-b569-b0e3-ee40-58409e071b7f
-- id: 3683
-  slug: sneakshot
-  type: 1
-  description: Activate when opposing enemy creature attacks you directly. Deal 3 direct
-    damage to the enemy.
-  effects: {}
-  name: Sneak-shot
-  guid: dceeae8a-f8bd-7dbd-7168-11394f7e0f8d
 - id: 3684
   slug: traplock
   type: 1
@@ -4668,7 +4662,7 @@
   power: 14
   name: Hot Mess
   guid: 62064fce-95ed-20e5-d93e-a355aeac206c
-- id: 3263
+- id: 895
   slug: traptrap
   type: 1
   description: Activate when opposing enemy trap is activated. Negate its effect and
@@ -5214,7 +5208,7 @@
   effects: {}
   name: Magnet
   guid: f891e431-0d53-825b-a0c8-e8e4bb88e0b0
-- id: 3200
+- id: 811
   slug: defmove-right
   type: 1
   description: Activate when opposing enemy creature attacks you directly and there is a
@@ -5272,7 +5266,7 @@
           pass.raisePower( card, bonus ) )
   name: Nona
   guid: 36f258e7-7933-93e0-fe07-61e739018060
-- id: 3201
+- id: 810
   slug: defmove-left
   type: 1
   description: Activate when opposing enemy creature attacks you directly and there is a
@@ -5281,7 +5275,7 @@
   effects: {}
   name: Defense From The West
   guid: 78242ddf-4726-ea12-4350-a5a3c1c52909
-- id: 3202
+- id: 812
   slug: turnend
   type: 1
   description: Activate when opposing enemy creature's attack finishes during the enemy
@@ -5364,7 +5358,7 @@
   power: 2
   name: Stunner
   guid: b94b80eb-78bb-ae2d-0113-dcfc9092678a
-- id: 3261
+- id: 943
   slug: cripple
   type: 1
   description: Activate when opposing enemy creature attacks. Decrease its power by 2.
@@ -5508,15 +5502,6 @@
   effects: {}
   name: column cleanup
   guid: 056efe8b-154e-0563-1cc2-8bc21980b7c1
-- id: 3686
-  slug: deadly-sacrifice
-  type: 1
-  description: Activate when opposing enemy creature attacks and there is a friendly
-    creature on your own side. Destroy both creatures, but take damage equal to
-    the enemy creature's power.
-  effects: {}
-  name: Deadly Sacrifice
-  guid: aba8cb64-3893-70f5-baa9-c5599067f499
 - id: 3696
   slug: trappeek
   type: 1
