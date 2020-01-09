@@ -36,7 +36,7 @@
   name: Fate Forward
   power: 4
 - id: 645
-  slug: damp-shield
+  slug: knightmare-shield
   description: When I am deployed, if possible, deploy @damp-sword my right.
   notes: |-
     multiple effects:
@@ -62,9 +62,8 @@
         - unit-field
   guid: b9184642-b505-f7e6-c6c7-71c4e84a7065
   power: 4
-  name: damp-shield
 - id: 644
-  slug: damp-sword
+  slug: knightmare-sword
   description: When I am deployed, if possible, deploy @damp-shield to my left.
   notes: |-
     multiple effects:
@@ -90,7 +89,6 @@
         - unit-field
   guid: b9184642-b505-f7e6-c6c7-71c4e84a7065
   power: 4
-  name: damp-sword
 - id: 854
   slug: surprise-reborn
   type: 1
