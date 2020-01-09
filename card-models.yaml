@@ -1,3 +1,14 @@
+- id: 289
+  slug: grand15
+  tags:
+    - grand
+  pdc: -1
+  status: 7
+  priority: 3
+  effects: {}
+  guid: 073a7154-da48-f617-57a4-ac15748e5d6f
+  name: grand10
+  power: 15
 - id: 777
   slug: fateforward-x3
   description: |-
