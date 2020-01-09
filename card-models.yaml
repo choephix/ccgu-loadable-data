@@ -1814,19 +1814,6 @@
   power: 4
   name: Warrior-Hen
   guid: e053ce66-d442-4da5-9d05-c4098cf6f191
-- id: 3673
-  slug: expolosive-mech-0.dgpqzvzefrw0.46p5peyxcp8
-  description: >-
-    I cannot be summoned manually while you have less than two creatures in play
-    (tribute included)
-
-    When I die, destroy all other friendly creatures currently in play.
-  tags:
-    - grand
-  effects: {}
-  power: 14
-  name: Expolosive Mech
-  guid: 321fd70e-10da-a512-6806-ffc61a85f18c
 - id: 3846
   slug: depowering-gas
   type: 1
@@ -2063,7 +2050,7 @@
   name: Another Fucking Shield
   guid: f72622f9-1723-3e2f-0417-0b2e42328366
 - id: 3615
-  slug: fateforward-0.fycxgv00aa40.c57ko2us5mi
+  slug: fateforward-x2
   description: |-
     Combat-Flip
     Both players draw 3 cads.
@@ -4540,16 +4527,6 @@
   power: 9
   name: specialhaste
   guid: 191e4cf4-cac7-4898-bab9-171e0f9cae3a
-- id: 3659
-  slug: paulgrand-0.dthpk1fxptc0.dtd8kmw0tjg
-  description: When I enter play, if there is an opposing enemy creature, I do not suffer
-    summon exhaustion.
-  tags:
-    - grand
-  effects: {}
-  power: 8
-  name: Grand-Paul
-  guid: 8cd0b44c-3d80-27db-4963-4f793706d93c
 - id: 3703
   slug: redirect-in
   type: 1
