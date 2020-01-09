@@ -2578,7 +2578,14 @@
     controller's hand.
   tags:
     - grand
-  effects: {}
+  effects:
+    active:
+      eventName: CardChangeLot
+      eventStatus: ended
+      condition: get.adjacentUnits( card ).length < 1
+      perform: op.addToHand( card, player )
+      allowedLots:
+        - unit-field
   power: 13
   name: Mega Chicken
   guid: bbf5bfbc-a43d-d5dc-4b43-32b1119bee40
@@ -4274,7 +4281,12 @@
   slug: unbreakable
   description: I cannot be destroyed in combat while there are at least two friendly
     creatures adjacent to me.
-  effects: {}
+  effects:
+    passive:
+      condition: get.adjacentUnits( card ).length >= 2
+      perform: pass.addTag( card, Tag.INVULNERABLE )
+      allowedLots:
+        - unit-field
   name: The Unbreakable
   guid: c7350206-12b3-9aa7-c434-e2411af401e1
 - id: 3626
