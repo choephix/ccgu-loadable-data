@@ -29,6 +29,7 @@ eventName:
   - SwapFieldCards
   - CardChangeLot
   - CardChangeFaceUp
+  - Any
 cardTag:
   units:
     - sneak
