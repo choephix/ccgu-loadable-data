@@ -956,8 +956,8 @@
   name: killonattack
   guid: e649a142-6fe2-e540-60e4-3615f222370a
 - id: 807
-  slug: free-jimmy
-  description: Activate when I am deployed. Raise your $AP by %1.
+  slug: freejimmy
+  description: Activate when I am deployed. Raise your AP by 1.
   pdc: -1
   status: 2
   priority: 3
@@ -969,7 +969,6 @@
       perform: player.actionPoints++
       allowedLots:
         - unit-field
-  name: free-jimmy
   power: 4
   guid: d733ae6a-414f-023c-4992-e99fea422de6
 - id: 874
@@ -1703,8 +1702,8 @@
       eventStatus: began
       condition: event.player === player
       perform: |-
-        player.hand.cards.forEach( c => 
-          op.moveTo( c, player.grave ) )
+        while ( player.hand.cards.length )
+          op.discard( player.hand.cards[ 0 ] )
       allowedLots:
         - unit-field
   power: 8
