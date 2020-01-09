@@ -3488,9 +3488,7 @@
   guid: 3511cf2e-37a7-82a2-954d-555c3e926504
 - id: 867
   slug: wtf-paul
-  description: "I cannot be used as a tribute.
-
-    I die at the end of your turn.\rI do not suffer summon exhaustion"
+  description: I die at the end of your turn
   tags:
     - rush
     - notribute
@@ -3522,11 +3520,7 @@
   guid: 22146187-0a77-5546-afd2-16418327329b
 - id: 866
   slug: paul3
-  description: |-
-    I cannot be used for a tribute.
-    I cannot attack the enemy directly.
-    I can attack/move on my first turn.
-    I die after my attack regardless of success.
+  description: I die after my attack regardless of success.
   tags:
     - rush
     - notribute
@@ -3547,10 +3541,7 @@
   guid: 841bd862-0a9e-8398-bcfb-f6c95de26d47
 - id: 865
   slug: paul2
-  description: |-
-    Cannot be summoned on a field with no opposing enemy creature.
-    I cannot be used for a tribute.
-    I can attack/move on my first turn.
+  description: I cannot be summoned on a field with no opposing enemy creature.
   tags:
     - rush
     - notribute
