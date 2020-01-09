@@ -3464,11 +3464,19 @@
   guid: 88dcde4f-7256-261b-29d6-73b8dc2a9f62
 - id: 889
   slug: fatal-spirit
-  description: >-
-    I cannot move.
-
-    When this creature is killed by an enemy creature - destroy that enemy creature.
-  effects: {}
+  description: When I am attacked by enemy unit -- destroy us both.
+  tags:
+    - nomove
+  effects:
+    active:
+      eventName: UnitAttackCombat
+      eventStatus: began
+      condition: event.defender === card
+      perform: |-
+        op.kill( card )
+        op.kill( event.attacker )
+      allowedLots:
+        - unit-field
   power: 1
   name: Fatal Spirit
   guid: efa4cd39-fc48-65dd-9baf-421ee32d0114
@@ -4813,11 +4821,19 @@
   guid: 578ce449-ef5c-aa32-a11d-a524e49e024b
 - id: 890
   slug: loneshield
-  description: All combat damage against me becomes zero if there are no other friendly
-    creatures.
+  description: I am INVULNERABLE while there are no other ally units in play.
   tags:
     - sneak
-  effects: {}
+  effects:
+    passive:
+      condition: |-
+        player.units
+          .filter( c => c != card )
+          .length == 0
+      perform: pass.addTag( card, Tag.INVULNERABLE )
+      allowedLots:
+        - hand
+        - unit-field
   name: loneshield
   guid: a2a751f9-3210-1e5e-f875-713a053a7ffc
 - id: 3124
