@@ -964,7 +964,7 @@
   effects: {}
   name: punishtrap
   guid: 958fd1de-37dd-a09e-e656-33eb7efd4e00
-- id: 841
+- id: 840
   slug: fury
   type: 1
   description: |-
@@ -2160,7 +2160,7 @@
   power: 3
   name: Social Gnome
   guid: bd7640ea-78a9-f0d9-e155-dae1cf5e253d
-- id: 576
+- id: 591
   slug: --flipmike
   description: |-
     Safe-Flip
@@ -3926,7 +3926,7 @@
   power: 1
   name: Tricky Necromancer
   guid: cead0021-5e03-b6aa-c8f9-99cd26581f3c
-- id: 3336
+- id: 624
   slug: --banana-b
   description: >-
     IN-HAND
@@ -4056,7 +4056,7 @@
   power: 5
   name: Joe Blow
   guid: ca3a4ca9-ca25-0d16-86a5-8519e7402e0b
-- id: 3337
+- id: 625
   slug: --banana-a
   description: >-
     IN-HAND
@@ -4092,7 +4092,7 @@
   power: 5
   name: Average Joe
   guid: 07a77f1c-aeb2-cd77-5f95-2659a4e90a55
-- id: 3333
+- id: 593
   slug: --yang
   description: Raise my power by 4 while @yin is adjacent
   effects: {}
@@ -4107,7 +4107,7 @@
   power: 2
   name: Vendeto
   guid: d2120a90-6cea-4616-325b-91b89b5f870d
-- id: 3332
+- id: 592
   slug: --yin
   description: Raise my power by 6 while @yang is adjacent
   effects: {}
@@ -5093,7 +5093,7 @@
   power: 2
   name: Harsh Fred
   guid: 6f150a04-f054-88fa-e6a8-982f43e03832
-- id: 3334
+- id: 608
   slug: --zig
   description: At the beginning of your turn if a card named @zag is in your graveyard -
     add it to your hand.
@@ -5101,7 +5101,7 @@
   power: 2
   name: Zig
   guid: 1978d04a-dacb-fdaa-01c3-e09c8cd3bf69
-- id: 3335
+- id: 609
   slug: --zag
   description: At the beginning of your turn if a card named @zig is in your graveyard -
     add it to your hand.
@@ -5205,7 +5205,7 @@
   power: 6
   name: Late-Gamer
   guid: e387c8bf-674e-6aba-62be-cdf6cb983f14
-- id: 3328
+- id: 576
   slug: --jill
   description: When I enter play, if possible summon @jack from your graveyard to the field
     on my left.
@@ -5213,7 +5213,7 @@
   power: 4
   name: Jill
   guid: 6522a282-a424-a7cc-a462-d4dc93f446a2
-- id: 3329
+- id: 577
   slug: --jack
   description: When I enter play, if possible summon @jill from your graveyard to the field
     on my right.
