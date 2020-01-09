@@ -6062,14 +6062,16 @@
   effects: {}
   name: binaro
   guid: 795ae5be-1e1f-5198-c6f5-1979dc4e704f
-- id: 3668
+- id: 869
   slug: rock
   description: My power equals the current power of my tribute at the moment of its death.
+  notes: is this shit even possible?!
   tags:
     - grand
   effects: {}
   name: rock
   guid: 312d7f41-e643-a42d-786e-6f45e76131bc
+  power: 5
 - id: 1025
   slug: god-killer
   description: |-
