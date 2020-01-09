@@ -4240,14 +4240,28 @@
   power: 8
   name: Reverse-piercer
   guid: cc237492-622a-1499-aa98-c6d0de66fba9
-- id: 3840
+- id: 6
   slug: --kami--
-  description: "I do not suffer summon-exhaustion.
+  description: |-
+    I can attack and move infinite times during a turn.
 
-    I can attack infinite times during a turn.\r\r1\rI am @unbreakable and
-    my power is 9999"
-  effects: {}
-  power: 5
+    I am awesome.
+  tags:
+    - rush
+    - swift
+    - swapper
+    - invulnerable
+    - sneak
+    - token
+  effects:
+    active:
+      eventName: Any
+      eventStatus: ended
+      condition: event.card === card
+      perform: op.clearActions( card )
+      allowedLots:
+        - unit-field
+  power: 9
   name: < < < Kami > > >
   guid: c1012e1c-f781-a4ec-3641-79679329c834
 - id: 3646
