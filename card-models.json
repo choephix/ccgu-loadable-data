@@ -1,0 +1,8104 @@
+[
+  {
+    "id": 572,
+    "slug": "",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "When opposing enemy $unit with 10 power or above, when it begins a direct attack.",
+    "tags": []
+  },
+  {
+    "id": 822,
+    "slug": "sensho",
+    "type": 0,
+    "power": 7,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "Cannot begin attack if there is no opposing enemy creature",
+    "tags": []
+  },
+  {
+    "id": 931,
+    "slug": "dep",
+    "type": 0,
+    "power": 15,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "Every time the enemy takes damage, I lose power equal to that damage",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 873,
+    "slug": "turn-end-1",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "Activate after opposite enemy unit attacks. \nEnd the enemy's turn immeadiately.",
+    "tags": []
+  },
+  {
+    "id": 860,
+    "slug": "",
+    "type": 0,
+    "power": 9,
+    "priority": 0,
+    "rarity": 2,
+    "status": 0,
+    "name": "",
+    "description": "At the start of your turn, if there is no opposing enemy unit - I move to the enemy side.",
+    "tags": []
+  },
+  {
+    "id": 871,
+    "slug": "mindctrl-345",
+    "type": 1,
+    "power": 0,
+    "priority": -1,
+    "rarity": 10,
+    "status": 12,
+    "name": "",
+    "description": "When opposing grand unit is deployed, while you have no unit on your side - take control of that unit until the end of your turn",
+    "tags": []
+  },
+  {
+    "id": 885,
+    "slug": "dxm-traphole-open",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "Activate at enemy turn start\nOpp unit with pow higher than you lp cannot attack",
+    "tags": []
+  },
+  {
+    "id": 869,
+    "slug": "dxm-traphole",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "DXM Traphole",
+    "description": "When opp unit with power higher or equal to your lp attacks - destroy it",
+    "tags": []
+  },
+  {
+    "id": 1075,
+    "slug": "",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "On deploy: gain 2lp\nOn death by combat: lose 2lp",
+    "tags": []
+  },
+  {
+    "id": 1074,
+    "slug": "",
+    "type": 0,
+    "power": 5,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "On deploy: gain 5 lp\nOn death by combat: lose 15lp",
+    "tags": []
+  },
+  {
+    "id": 944,
+    "slug": "",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "On opp atk vs ally - destroy both; both players take dmg equal to enemy unit's pwr",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 912,
+    "slug": "",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "Combat-flip: if no allies - kill opposing unit",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 913,
+    "slug": "",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "While there are no allies - pwr is 13",
+    "tags": []
+  },
+  {
+    "id": 915,
+    "slug": "Piercer7",
+    "type": 0,
+    "power": 7,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "",
+    "tags": [
+      "piercing",
+      "grand"
+    ]
+  },
+  {
+    "id": 899,
+    "slug": "",
+    "type": 0,
+    "power": 9,
+    "priority": 2,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "At enemy tyrn start - destroy opposite face-up trap.",
+    "tags": [
+      "piercing",
+      "grand"
+    ]
+  },
+  {
+    "id": 867,
+    "slug": "Poweruptrib",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "On opposite unit attack - raise your unit's power by 8, but destroy it at the end of the turn.\n\nAfter that, at the end of the turn, destroy this card and your unit.",
+    "tags": []
+  },
+  {
+    "id": 849,
+    "slug": "",
+    "type": 0,
+    "power": 1,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "At the start of your opponent's turn - opposite enemy unit loses 3 power",
+    "tags": []
+  },
+  {
+    "id": 848,
+    "slug": "powerdown-1",
+    "type": 0,
+    "power": 5,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "On deploy - opposite enemy unit loses 6 power",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 882,
+    "slug": "",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "After your unit is destroyed, deploy the first unit found in the enemy graveyard",
+    "tags": []
+  },
+  {
+    "id": 866,
+    "slug": "",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "After direct attack against you on this lane finishes, deploy a token (5 power)",
+    "tags": []
+  },
+  {
+    "id": 865,
+    "slug": "",
+    "type": 1,
+    "power": 0,
+    "priority": -1,
+    "rarity": 0,
+    "status": 12,
+    "name": "",
+    "description": "If possible, after direct attack against you on this lane finishes, deploy a token and raise its power by the damage amount",
+    "tags": []
+  },
+  {
+    "id": 881,
+    "slug": "",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "After direct attack against you on this lane finishes, deploy the first unit found in your graveyard",
+    "tags": []
+  },
+  {
+    "id": 896,
+    "slug": "",
+    "type": 0,
+    "power": 1,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "combat-flip: all ally units gain 2 power",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 834,
+    "slug": "reversepiercing",
+    "type": 0,
+    "power": 6,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "opposite enemy unit has piercing",
+    "tags": []
+  },
+  {
+    "id": 880,
+    "slug": "",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "Activate at opp turn start, while there you both have units on this lane.\nSet the power of ally unit on this lane to exactly 8 while there is an opposite enemy unit\nWhen there is no enemy unit on this lane, destroy this trap.",
+    "tags": [
+      "persistent"
+    ]
+  },
+  {
+    "id": 833,
+    "slug": "",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "adjecent units have +3 power",
+    "tags": []
+  },
+  {
+    "id": 832,
+    "slug": "",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "adjecent units have +2 power",
+    "tags": []
+  },
+  {
+    "id": 864,
+    "slug": "",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "when opp unit atks - set its power to exactly 10",
+    "tags": []
+  },
+  {
+    "id": 1073,
+    "slug": "flip-turn-ender",
+    "type": 0,
+    "power": 1,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "combat-flip: End the current turn.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 1083,
+    "slug": "",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "+13 power while there is an opposite enemy unit",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 1536,
+    "slug": "",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "+3 power, while there is an opposing enemy trap",
+    "tags": []
+  },
+  {
+    "id": 1082,
+    "slug": "",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "My power equals the amount of cards in your grave.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 1602,
+    "slug": "",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "+1 power for each trap on either side.",
+    "tags": []
+  },
+  {
+    "id": 1601,
+    "slug": "",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "+2 power for each enemy trap",
+    "tags": []
+  },
+  {
+    "id": 1600,
+    "slug": "",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "+2 power for each friendly trap",
+    "tags": []
+  },
+  {
+    "id": 540,
+    "name": null,
+    "power": 0,
+    "description": "Activate when your opponent draws a card. Until the end of their turn, every time they draw a card, you draw a card as well.",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 0,
+    "priority": 3,
+    "slug": "drawdraw",
+    "type": 1,
+    "tags": []
+  },
+  {
+    "id": 541,
+    "name": null,
+    "power": 0,
+    "description": "Activate when opponent draws a card, if the top card in their grave is a unit card. \nResurrect it on your side at this column.",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 0,
+    "priority": 3,
+    "slug": "drawnecro",
+    "type": 1,
+    "tags": []
+  },
+  {
+    "id": 815,
+    "name": "OP!",
+    "power": 0,
+    "description": "Activate when opposing enemy unit is deployed and force it to attack.",
+    "rarity": 6,
+    "c": "",
+    "pdc": -1,
+    "status": 0,
+    "priority": 3,
+    "slug": "nameless-804f",
+    "type": 1,
+    "tags": []
+  },
+  {
+    "id": 798,
+    "name": null,
+    "power": 0,
+    "description": "Activate when an enemy unit is deployed and the opposing unit field is empty. Move the unit there.",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 0,
+    "priority": 3,
+    "slug": "nameless-804e",
+    "type": 1,
+    "tags": []
+  },
+  {
+    "id": 819,
+    "name": null,
+    "power": 7,
+    "description": "On death: enemy is healed for %4 hp",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 0,
+    "priority": 3,
+    "slug": "nameless-804c",
+    "type": 0,
+    "tags": []
+  },
+  {
+    "id": 811,
+    "name": null,
+    "power": 14,
+    "description": "#Grand On death: enemy is healed for %10 hp",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 0,
+    "priority": 3,
+    "slug": "nameless-804b",
+    "type": 0,
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 780,
+    "name": null,
+    "power": 0,
+    "description": "Activate when opposing enemy unit starts relocation. Kill it.",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 0,
+    "priority": 3,
+    "slug": "relokill",
+    "type": 1,
+    "tags": []
+  },
+  {
+    "id": 793,
+    "name": null,
+    "power": 0,
+    "description": "#Grand The opposing enemy field is locked while I am in play",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 0,
+    "priority": 3,
+    "slug": "lockhead",
+    "type": 0,
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 797,
+    "name": "Balanced Antitrap",
+    "power": 0,
+    "description": "Activate when opposing enemy $trap activates. Before the effect, destroy it and all units on my lane.",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 0,
+    "priority": 3,
+    "slug": "trapbomb",
+    "type": 1,
+    "tags": []
+  },
+  {
+    "id": 777,
+    "name": null,
+    "power": 0,
+    "description": "#Grand Before any trap on either side activates - destroy it. If so, I die at the end of that turn.",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 0,
+    "priority": 3,
+    "slug": "traplode",
+    "type": 0,
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 809,
+    "name": null,
+    "power": 14,
+    "description": "#Grand When opposing enemy unit attacks, I return to your hand. The attack continues.",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 0,
+    "priority": 3,
+    "slug": "chickeng1",
+    "type": 0,
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 781,
+    "name": null,
+    "power": 0,
+    "description": "Activate when opposing enemy unit is deployed. Decrease its power by",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 0,
+    "priority": 3,
+    "slug": "toxicmine",
+    "type": 1,
+    "tags": []
+  },
+  {
+    "id": 772,
+    "name": null,
+    "power": 4,
+    "description": "I perform a free attack when deployed",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 2,
+    "priority": 3,
+    "slug": "autoatk",
+    "type": 0,
+    "tags": []
+  },
+  {
+    "id": 783,
+    "name": null,
+    "power": 0,
+    "description": "#Persistent. Activate when $enemy's turn begins. When you deploy a unit on this lane, give it storm and destroy this trap.",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 12,
+    "priority": 1,
+    "slug": "quickgiver-0",
+    "type": 1,
+    "tags": []
+  },
+  {
+    "id": 820,
+    "name": null,
+    "power": 7,
+    "description": "When I am $deployed - end your turn.\nWhenever any other $unit is about to be $deployed, give it Storm until turn end.",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 12,
+    "priority": 3,
+    "slug": "quickgiver-g",
+    "type": 0,
+    "tags": []
+  },
+  {
+    "id": 804,
+    "name": null,
+    "power": 2,
+    "description": "When I am $deployed - end your turn.\nWhenever any other $unit is about to be $deployed, give it Storm until turn end.",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 12,
+    "priority": 1,
+    "slug": "quickgiver-1",
+    "type": 0,
+    "tags": []
+  },
+  {
+    "id": 803,
+    "name": null,
+    "power": 3,
+    "description": "Increase my $power by %2 for every $friendly adjacent $unit.",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 2,
+    "priority": 3,
+    "slug": "needsmotivation",
+    "type": 0,
+    "tags": []
+  },
+  {
+    "id": 788,
+    "name": null,
+    "power": 0,
+    "description": "Use me as surprise tribute.",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 4,
+    "priority": 3,
+    "slug": "eggshell",
+    "type": 0,
+    "tags": [
+      "rush"
+    ]
+  },
+  {
+    "id": 794,
+    "name": "Lonely Golem",
+    "power": 13,
+    "description": "#Grand The moment there are no other $friendly $units - I $die.",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 2,
+    "priority": 3,
+    "slug": "lonely-golem",
+    "type": 0,
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 810,
+    "name": "Compromising Anna",
+    "power": 8,
+    "description": "#Grand I do not need a $tribute to be $deployed if there are no $friendly $units $in-play.",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 0,
+    "priority": 3,
+    "slug": "compromiser1",
+    "type": 0,
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 827,
+    "name": "Epic Tortoise",
+    "power": 14,
+    "description": "#Grand After I $attack, I am $asleep until your next turn-end.",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 0,
+    "priority": 3,
+    "slug": "epic-tortoise",
+    "type": 0,
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 826,
+    "name": "Sloth Wyrm",
+    "power": 15,
+    "description": "#Grand I am $asleep for three turns after being deployed.",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 1,
+    "priority": 3,
+    "slug": "sloth-wyrm",
+    "type": 0,
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 782,
+    "name": null,
+    "power": 0,
+    "description": "Activate after opposing enemy $unit finishes a direct attack. $Kill it.",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 2,
+    "priority": 3,
+    "slug": "killonattack",
+    "type": 1,
+    "tags": []
+  },
+  {
+    "id": 773,
+    "name": null,
+    "power": 2,
+    "description": "Activate when I am deployed. Raise your $AP by %1.",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 2,
+    "priority": 3,
+    "slug": "free-jimmy",
+    "type": 0,
+    "tags": []
+  },
+  {
+    "id": 796,
+    "name": null,
+    "power": 0,
+    "description": "Activate when opposing enemy $unit is $deployed face-down. Flip it face-up, ignoring any flip-effects.",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 1,
+    "priority": 3,
+    "slug": "nosneaking",
+    "type": 1,
+    "tags": []
+  },
+  {
+    "id": 814,
+    "name": null,
+    "power": 0,
+    "description": "Activate when opposing enemy $trap activates. Deal %3 damage to opponent.",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 5,
+    "priority": 9,
+    "slug": "punishtrap",
+    "type": 1,
+    "tags": []
+  },
+  {
+    "id": 799,
+    "name": "Fury",
+    "power": 0,
+    "description": "Activate when you are dealt direct damage by the opposing enemy $unit.\nDestroy all enemy $units with $power lower than that damage.",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 0,
+    "priority": 3,
+    "slug": "fury",
+    "type": 1,
+    "tags": []
+  },
+  {
+    "id": 795,
+    "name": "Cowardly Giant",
+    "power": 14,
+    "description": "#Grand After I am attacked by enemy $unit, if I'm still in play, I return to my owner's hand.",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 0,
+    "priority": 3,
+    "slug": "cowardly-giant",
+    "type": 0,
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 787,
+    "name": "Antisocial Knight",
+    "power": 9,
+    "description": "My power is decreased by %3 for every other friendly $unit $in-play.",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 0,
+    "priority": 3,
+    "slug": "antisocial-knight",
+    "type": 0,
+    "tags": []
+  },
+  {
+    "id": 769,
+    "name": null,
+    "power": 5,
+    "description": "Flip: Take %1 damage.",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 0,
+    "priority": 3,
+    "slug": "flipouch",
+    "type": 0,
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 802,
+    "name": null,
+    "power": 2,
+    "description": "Any direct damage I deal in $combat, is added to your $health.",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 0,
+    "priority": 3,
+    "slug": "vampirefang",
+    "type": 0,
+    "tags": []
+  },
+  {
+    "id": 818,
+    "name": null,
+    "power": 1,
+    "description": "",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 0,
+    "priority": 3,
+    "slug": "spearhead",
+    "type": 0,
+    "tags": [
+      "piercing"
+    ]
+  },
+  {
+    "id": 779,
+    "name": null,
+    "power": 6,
+    "description": "#Grand Adjacent friendly $units's power is raised by %2.",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 2,
+    "priority": 7,
+    "slug": "honoraro",
+    "type": 0,
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 786,
+    "name": null,
+    "power": 2,
+    "description": "When an enemy $unit is $deployed, if possible, move me in front of it.",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 2,
+    "priority": 1,
+    "slug": "nimbleguard",
+    "type": 0,
+    "tags": []
+  },
+  {
+    "id": 770,
+    "name": null,
+    "power": 3,
+    "description": "My $power is raised by %4 during the enemy's turn",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 0,
+    "priority": 3,
+    "slug": "elijah",
+    "type": 0,
+    "tags": []
+  },
+  {
+    "id": 771,
+    "name": null,
+    "power": 3,
+    "description": "My $power is raised by %3 during your turn.",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 0,
+    "priority": 3,
+    "slug": "joshua",
+    "type": 0,
+    "tags": []
+  },
+  {
+    "id": 778,
+    "name": null,
+    "power": 7,
+    "description": "#Grand Draw a card at the end of your turn",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 2,
+    "priority": 5,
+    "slug": "cardfactory1",
+    "type": 0,
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 513,
+    "name": "Fate Forward",
+    "power": 4,
+    "description": "Combat-Flip: Both $players draw %2 cards",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 0,
+    "priority": 4,
+    "slug": "fateforward",
+    "type": 0,
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 768,
+    "name": null,
+    "power": 10,
+    "description": "I die after $combat",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 2,
+    "priority": 7,
+    "slug": "fragmine",
+    "type": 0,
+    "tags": [
+      "sneak",
+      "noattack",
+      "nomove"
+    ]
+  },
+  {
+    "id": 817,
+    "name": "Another Fucking Shield",
+    "power": 7,
+    "description": "Combat-Flip: Die",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 2,
+    "priority": 5,
+    "slug": "shield2",
+    "type": 0,
+    "tags": [
+      "sneak",
+      "noattack",
+      "nomove"
+    ]
+  },
+  {
+    "id": 816,
+    "name": "Another Fucking Shield",
+    "power": 5,
+    "description": "",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 2,
+    "priority": 5,
+    "slug": "shield1",
+    "type": 0,
+    "tags": [
+      "sneak",
+      "noattack"
+    ]
+  },
+  {
+    "id": 821,
+    "name": "Warrior-Hen",
+    "power": 4,
+    "description": "When I die, $deploy @token0 in my place",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 1,
+    "priority": 8,
+    "slug": "token-summoner4",
+    "type": 0,
+    "tags": []
+  },
+  {
+    "id": 539,
+    "name": "Grand Traitor",
+    "power": 14,
+    "description": "#Grand The moment there are no other friendly $units and no opposing enemy $unit, I move to the enemy's side",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 2,
+    "priority": 6,
+    "slug": "grandtraitor",
+    "type": 0,
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 519,
+    "name": "Man of Honor",
+    "power": 7,
+    "description": "I cannot attack if there is no opposing enemy $unit",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 2,
+    "priority": 8,
+    "slug": "man-of-honor",
+    "type": 0,
+    "tags": []
+  },
+  {
+    "id": 523,
+    "name": "Expolosive Mech",
+    "power": 14,
+    "description": "#Grand I cannot be $deployed manually while you have less than %3 $units in play (tribute included)\rWhen I die, destroy all other friendly $units in play",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 2,
+    "priority": 6,
+    "slug": "expolosive-mech",
+    "type": 0,
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 522,
+    "name": "Grand-Paul",
+    "power": 8,
+    "description": "#Grand When I am $deployed, if there is an opposing enemy $unit, I do not suffer $summon-exhaustion.",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 2,
+    "priority": 9,
+    "slug": "paulgrand",
+    "type": 0,
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 538,
+    "name": "Dual Force Spirit",
+    "power": 0,
+    "description": "#GrandRaise my $power by the combined base $power of my adjacent friendly $units.",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 2,
+    "priority": 3,
+    "slug": "dual-force-spirit",
+    "type": 0,
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 532,
+    "name": "Aramis",
+    "power": 4,
+    "description": "When I am $deployed, if possible:\rIf @ed is in play, add @edd from your deck to your hand.\rIf @edd is in play, add @ed from your deck to your hand",
+    "rarity": 0,
+    "c": "",
+    "pdc": "46b0d909-5211-4e82-9346-fdbec164e9b4",
+    "status": 1,
+    "priority": 3,
+    "slug": "eddy",
+    "type": 0,
+    "tags": []
+  },
+  {
+    "id": 531,
+    "name": "Porthos",
+    "power": 4,
+    "description": "When I am $deployed, if possible:\rIf @ed is in play, add @eddy from your deck to your hand.\rIf @eddy is in play, add @ed from your deck to your hand",
+    "rarity": 0,
+    "c": "",
+    "pdc": "35166c93-b75d-4397-ac8e-90da60e31da8",
+    "status": 1,
+    "priority": 3,
+    "slug": "edd",
+    "type": 0,
+    "tags": []
+  },
+  {
+    "id": 530,
+    "name": "Athos",
+    "power": 4,
+    "description": "When I am $deployed, if possible:\rIf @edd is in play, add @eddy from your deck to your hand.\rIf @eddy is in play, add @edd from your deck to your hand",
+    "rarity": 0,
+    "c": "",
+    "pdc": "a3740bf5-2ac0-40a8-a290-ae70e8ba1b86",
+    "status": 1,
+    "priority": 3,
+    "slug": "ed",
+    "type": 0,
+    "tags": []
+  },
+  {
+    "id": 515,
+    "name": null,
+    "power": 6,
+    "description": "I attack automatically on at the start of your turn.\nThis counts as a manual attack to my $action-exhaustion.",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 4,
+    "priority": 7,
+    "slug": "berserker",
+    "type": 0,
+    "tags": []
+  },
+  {
+    "id": 517,
+    "name": null,
+    "power": 6,
+    "description": "Take %1 direct damage every time I begin an attack.",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 4,
+    "priority": 7,
+    "slug": "mercenery",
+    "type": 0,
+    "tags": []
+  },
+  {
+    "id": 518,
+    "name": null,
+    "power": 7,
+    "description": "",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 4,
+    "priority": 6,
+    "slug": "wall",
+    "type": 0,
+    "tags": [
+      "noattack",
+      "nomove"
+    ]
+  },
+  {
+    "id": 516,
+    "name": null,
+    "power": 2,
+    "description": "I automatically attack when $deployed. I die after $combat.",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 3,
+    "priority": 8,
+    "slug": "kamikazejoe",
+    "type": 0,
+    "tags": [
+      "rush",
+      "notribute"
+    ]
+  },
+  {
+    "id": 514,
+    "name": null,
+    "power": 1,
+    "description": "I return to your hand at the end of your turn.",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 4,
+    "priority": 9,
+    "slug": "harassingmia",
+    "type": 0,
+    "tags": [
+      "rush",
+      "notribute"
+    ]
+  },
+  {
+    "id": 259,
+    "name": "Jane Doe",
+    "power": 5,
+    "description": "Just a gal",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 7,
+    "priority": 3,
+    "slug": "doe2",
+    "type": 0,
+    "tags": []
+  },
+  {
+    "id": 258,
+    "name": "John Doe",
+    "power": 5,
+    "description": "Just a guy",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 7,
+    "priority": 3,
+    "slug": "doe1",
+    "type": 0,
+    "tags": []
+  },
+  {
+    "id": 257,
+    "name": "Random Dude",
+    "power": 5,
+    "description": "No one knows his name. No one ever asked him either.",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 7,
+    "priority": 3,
+    "slug": "doe0",
+    "type": 0,
+    "tags": []
+  },
+  {
+    "id": 525,
+    "name": null,
+    "power": 0,
+    "description": "Activate when opposing enemy $unit attacks. Kill it.",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 3,
+    "priority": 6,
+    "slug": "mirrorforce",
+    "type": 1,
+    "tags": []
+  },
+  {
+    "id": 526,
+    "name": null,
+    "power": 0,
+    "description": "Activate when enemy $unit $relocates to opposing $field. Kill it.",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 3,
+    "priority": 6,
+    "slug": "tripwire",
+    "type": 1,
+    "tags": []
+  },
+  {
+    "id": 524,
+    "name": null,
+    "power": 0,
+    "description": "Activate when an opposing enemy $unit is $deployed. Kill it.",
+    "rarity": 8,
+    "c": "",
+    "pdc": -1,
+    "status": 3,
+    "priority": 6,
+    "slug": "traphole",
+    "type": 1,
+    "tags": []
+  },
+  {
+    "id": 272,
+    "name": null,
+    "power": 4,
+    "description": "",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 4,
+    "priority": 6,
+    "slug": "flippers",
+    "type": 0,
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 288,
+    "name": null,
+    "power": 10,
+    "description": "",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 7,
+    "priority": 3,
+    "slug": "grand10",
+    "type": 0,
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 256,
+    "name": null,
+    "power": 5,
+    "description": "",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 7,
+    "priority": 3,
+    "slug": "generic5",
+    "type": 0,
+    "tags": []
+  },
+  {
+    "id": 1,
+    "name": null,
+    "power": 0,
+    "description": "op af",
+    "rarity": 0,
+    "c": "",
+    "pdc": null,
+    "status": 0,
+    "priority": 3,
+    "slug": "-kami",
+    "type": 0,
+    "tags": []
+  },
+  {
+    "id": 20,
+    "name": null,
+    "power": 0,
+    "description": "kill first unit deployed",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 7,
+    "priority": 3,
+    "slug": "-killany",
+    "type": 1,
+    "tags": []
+  },
+  {
+    "id": 19,
+    "name": null,
+    "power": 0,
+    "description": "+1AP on any deployment. die on turn start.",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 7,
+    "priority": 3,
+    "slug": "-infinitemana",
+    "type": 0,
+    "tags": []
+  },
+  {
+    "id": 18,
+    "name": null,
+    "power": 2,
+    "description": "draw %6 cards on deploy",
+    "rarity": 0,
+    "c": "",
+    "pdc": null,
+    "status": 7,
+    "priority": 3,
+    "slug": "-muchdraw",
+    "type": 0,
+    "tags": []
+  },
+  {
+    "id": 4,
+    "name": "The Wild One (G)",
+    "power": 0,
+    "description": "-- Whatever you wish, dude.... --",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 4,
+    "priority": 3,
+    "slug": "-wildgrand",
+    "type": 0,
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "The Wild One (Incognito)",
+    "power": 0,
+    "description": "-- Whatever you wish, dude.... --",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 4,
+    "priority": 3,
+    "slug": "-wildsneak",
+    "type": 0,
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Go Wild!",
+    "power": 0,
+    "description": "-- Whatever you wish, dude.... --",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 4,
+    "priority": 3,
+    "slug": "-wildtrap",
+    "type": 1,
+    "tags": []
+  },
+  {
+    "id": 2,
+    "name": "The Wild One",
+    "power": 0,
+    "description": "-- Whatever you wish, dude.... --",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 4,
+    "priority": 3,
+    "slug": "-wildunit",
+    "type": 0,
+    "tags": []
+  },
+  {
+    "id": 32,
+    "name": "El Variablo",
+    "power": 0,
+    "description": "Increase my power by %10 while @wall is in play on your side.",
+    "rarity": 0,
+    "c": "",
+    "pdc": null,
+    "status": 0,
+    "priority": 0,
+    "slug": "-elvariablo",
+    "type": 0,
+    "tags": [
+      "token",
+      "swapper",
+      "notribute",
+      "invulnerable",
+      "grand",
+      "swift",
+      "dev"
+    ]
+  },
+  {
+    "id": 85,
+    "name": null,
+    "power": 5,
+    "description": "",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 7,
+    "priority": 0,
+    "slug": "token-5",
+    "type": 0,
+    "tags": [
+      "token"
+    ]
+  },
+  {
+    "id": 84,
+    "name": null,
+    "power": 4,
+    "description": "",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 7,
+    "priority": 0,
+    "slug": "token-4",
+    "type": 0,
+    "tags": [
+      "token"
+    ]
+  },
+  {
+    "id": 83,
+    "name": null,
+    "power": 3,
+    "description": "",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 7,
+    "priority": 0,
+    "slug": "token-3",
+    "type": 0,
+    "tags": [
+      "token"
+    ]
+  },
+  {
+    "id": 82,
+    "name": null,
+    "power": 2,
+    "description": "",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 7,
+    "priority": 0,
+    "slug": "token-2",
+    "type": 0,
+    "tags": [
+      "token"
+    ]
+  },
+  {
+    "id": 81,
+    "name": null,
+    "power": 1,
+    "description": "",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 7,
+    "priority": 0,
+    "slug": "token-1",
+    "type": 0,
+    "tags": [
+      "token"
+    ]
+  },
+  {
+    "id": 80,
+    "name": null,
+    "power": 0,
+    "description": "",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 7,
+    "priority": 0,
+    "slug": "token-0",
+    "type": 0,
+    "tags": [
+      "token"
+    ]
+  },
+  {
+    "id": 64,
+    "name": null,
+    "power": 0,
+    "description": "",
+    "rarity": 0,
+    "c": "",
+    "pdc": -1,
+    "status": 7,
+    "priority": 0,
+    "slug": "token",
+    "type": 0,
+    "tags": [
+      "token"
+    ]
+  },
+  {
+    "id": 2819,
+    "slug": "immortal-bob",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "While in your graveyard, at the end of the enemy's turn, put me at the top of your deck.",
+    "tags": []
+  },
+  {
+    "id": 2821,
+    "slug": "all-out-johhny",
+    "type": 0,
+    "power": 8,
+    "priority": 0,
+    "rarity": 0,
+    "status": 1,
+    "name": "",
+    "description": "At the end of your turn discard all cards in your hand",
+    "tags": []
+  },
+  {
+    "id": 2822,
+    "slug": "handy-mike",
+    "type": 0,
+    "power": 3,
+    "priority": 0,
+    "rarity": 0,
+    "status": 1,
+    "name": "",
+    "description": "When I die - draw two cards.",
+    "tags": []
+  },
+  {
+    "id": 2823,
+    "slug": "handy-tina",
+    "type": 0,
+    "power": 4,
+    "priority": 4,
+    "rarity": 0,
+    "status": 2,
+    "name": "",
+    "description": "When I am summoned, both players draw a card",
+    "tags": []
+  },
+  {
+    "id": 2824,
+    "slug": "link-spirit",
+    "type": 0,
+    "power": 7,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Overly Attacked Spirit",
+    "description": "I cannot be summoned while you have no creatures in play.\nWhen I am summoned, life-link me to all other friendly creatures.\nWhen they die, I die.",
+    "tags": []
+  },
+  {
+    "id": 2825,
+    "slug": "link-spirit-g",
+    "type": 0,
+    "power": 14,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Overly Attacked Grand-Spirit",
+    "description": "I cannot be summoned while you have no creatures in play.\nWhen I am summoned, life-link me to all other friendly creatures.\nWhen they die, I die.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 2826,
+    "slug": "anti-flipper-g",
+    "type": 0,
+    "power": 8,
+    "priority": 0,
+    "rarity": 0,
+    "status": 1,
+    "name": "",
+    "description": "Before I attack, if possible flip opposing creature face-up, ignoring all combat-flip and safe-flip effects.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 2827,
+    "slug": "time-lord",
+    "type": 0,
+    "power": 10,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "When I enter play:\nIf possible both players take the bottom cards in their grave until they have 4 cards in their hands.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 2828,
+    "slug": "field-lock",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "Activate when opposing enemy creature is being summoned. Lock the opposing creature field until the start of our next turn. If any creatures were sacrificed for the aborted summon, they do not return.",
+    "tags": []
+  },
+  {
+    "id": 1037,
+    "slug": "pull-atker",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "When any enemy unit begins an attack, pull it to this lane beforehand.",
+    "tags": []
+  },
+  {
+    "id": 1052,
+    "slug": "safe-traphole-1",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 7,
+    "status": 0,
+    "name": "",
+    "description": "Activate when opposite enemy unit is deployed, while you have no unit on the same lane.\nDestroy it.",
+    "tags": []
+  },
+  {
+    "id": 1053,
+    "slug": "safe-traphole-2",
+    "type": 1,
+    "power": 0,
+    "priority": 6,
+    "rarity": 4,
+    "status": 0,
+    "name": "",
+    "description": "Activate when opposite enemy unit is deployed, while you have no unit on the same lane.\nDestroy it, but take damage equal to its power.",
+    "tags": []
+  },
+  {
+    "id": 3328,
+    "slug": "--time-lord",
+    "type": 0,
+    "power": 10,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Time Lord",
+    "description": "When I enter play:\nIf possible both players take the bottom cards in their grave until they have 4 cards in their hands.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3329,
+    "slug": "--nuke-virus",
+    "type": 0,
+    "power": 1,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Nuke Virus",
+    "description": "Combat-Flip:\nDestroy attacking creature and this card, but deal damage to yourself equal to enemy creature's power at the time of death.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3330,
+    "slug": "--doe3",
+    "type": 0,
+    "power": 5,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Random Dude",
+    "description": "",
+    "tags": []
+  },
+  {
+    "id": 3331,
+    "slug": "--rowlock",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Field Lock!",
+    "description": "#persistent\nActivate at the start of the enemy's turn if you have no creatures in play. All empty enemy fields are locked until the end of their turn.",
+    "tags": []
+  },
+  {
+    "id": 3332,
+    "slug": "--token-summoner4",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Warrior-Hen",
+    "description": "When I die, summon a 0 power token creature in my place.",
+    "tags": []
+  },
+  {
+    "id": 3673,
+    "slug": "--expolosive-mech",
+    "type": 0,
+    "power": 14,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Expolosive Mech",
+    "description": "I cannot be summoned manually while you have less than two creatures in play (tribute included)\nWhen I die, destroy all other friendly creatures currently in play.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3334,
+    "slug": "--depowering-gas",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Depowering Gas",
+    "description": "#persistent\nActivate when opposing enemy creature attacks. It becomes immobile. -2POW before this and every subsequent attack. Destroy this card when it leaves its field.",
+    "tags": []
+  },
+  {
+    "id": 3104,
+    "slug": "--trapkiller1",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Trapnado",
+    "description": "Safe-Flip\nDestroy all traps.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3173,
+    "slug": "--grandtraitor",
+    "type": 0,
+    "power": 14,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Grand Traitor",
+    "description": "The moment there are no other friendly creatures and no opposing enemy creature, I move to the enemy's side.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3072,
+    "slug": "--time-bug",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Time Bug",
+    "description": "Combat-Flip:\nIf it's the enemy's turn - after the attack finishes, end their turn.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3669,
+    "slug": "--antiflipper",
+    "type": 0,
+    "power": 8,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Anti-Flipper",
+    "description": "Before I attack, if possible flip opposing creature face-up, ignoring all combat-flip and safe-flip effects.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3603,
+    "slug": "--saviour",
+    "type": 0,
+    "power": 3,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "The Saviour",
+    "description": "The next time another friendly creature should die from combat, destroy me instead.",
+    "tags": []
+  },
+  {
+    "id": 3604,
+    "slug": "--tactical-joe",
+    "type": 0,
+    "power": 9,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Tactical Joe",
+    "description": "At the end of your opponent's turn, if there is an opposing enemy creature I return to your hand.",
+    "tags": []
+  },
+  {
+    "id": 3657,
+    "slug": "--magiresistent-tom",
+    "type": 0,
+    "power": 9,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Magi-resistent Tom",
+    "description": "While in-play, I cannot be destroyed in any way other than combat.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3342,
+    "slug": "--deathdraw",
+    "type": 0,
+    "power": 3,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Mike",
+    "description": "When I die - draw 2 cards.",
+    "tags": []
+  },
+  {
+    "id": 3343,
+    "slug": "--man-of_honor",
+    "type": 0,
+    "power": 7,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Man of Honor",
+    "description": "I cannot attack if there is no opposing enemy creature.",
+    "tags": []
+  },
+  {
+    "id": 3423,
+    "slug": "--doe2",
+    "type": 0,
+    "power": 5,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Jane Doe\r",
+    "description": "",
+    "tags": []
+  },
+  {
+    "id": 3422,
+    "slug": "--doe1",
+    "type": 0,
+    "power": 5,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "John Doe\r",
+    "description": "",
+    "tags": []
+  },
+  {
+    "id": 3723,
+    "slug": "--brain-leech",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Brain Leech",
+    "description": "Safe-Flip\nIf there is no opposing enemy creature - I die.\rElse - move it to your side and combine it with me.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3100,
+    "slug": "--resurrecter2",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Necro Bastard",
+    "description": "Combat-Flip\nIf possible resurrect the top card in your opponent's graveyard in my place.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3110,
+    "slug": "--trampoline",
+    "type": 0,
+    "power": 1,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Trampoline",
+    "description": "Combat-Flip:\nReturn attacking creature to its controller's hand.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3098,
+    "slug": "--trampoline",
+    "type": 0,
+    "power": 3,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Trampoline",
+    "description": "Combat-Flip:\nReturn attacking creature to its controller's hand.\rDie",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3097,
+    "slug": "--trapowered",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Trapowered",
+    "description": "My power is raised by 1 for each trap card in your graveyard.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3095,
+    "slug": "--trapowered3",
+    "type": 0,
+    "power": 1,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Trap-Powered",
+    "description": "Safe-Flip\nRaise my power by 2 for each of your traps in play..",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3096,
+    "slug": "--trapthirster",
+    "type": 0,
+    "power": 1,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Trapthirster",
+    "description": "My power is raised by 2 for each enemy trap in play.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3125,
+    "slug": "--token-summoner",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Token Summoner",
+    "description": "When I enter your graveyard - summon a 0 power tokens on each of your empty creature fields",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3093,
+    "slug": "--mana-michael",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Mana Michael",
+    "description": "Combat-Flip\nMy power is raised by 1 x your current mana until the end of your turn.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3092,
+    "slug": "--mana-dispenser_2",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Mana Dispenser 2",
+    "description": "Safe-Flip\nIncrease your current mana by 2 (without ignoring your current mana-capacity)",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3091,
+    "slug": "--mana-drainer",
+    "type": 0,
+    "power": 3,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Mana Drainer",
+    "description": "Combat-Flip\nEnemy mana is instantly depleted.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3077,
+    "slug": "--shield1",
+    "type": 0,
+    "power": 8,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Another Fucking Shield",
+    "description": "Cannot attack.\n",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3076,
+    "slug": "--shield2",
+    "type": 0,
+    "power": 9,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Another Fucking Shield",
+    "description": "Cannot attack.\n\rCombat-Flip\rDie.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3727,
+    "slug": "--fateforward",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Fate Forward\r",
+    "description": "Combat-Flip\nBoth players draw 3 cads.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3108,
+    "slug": "--quickfeet",
+    "type": 0,
+    "power": 6,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "quickfeet",
+    "description": "Combat-Flip\nReturn me to your hand.\r(the attack will continue).",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3119,
+    "slug": "--balloonbrute",
+    "type": 0,
+    "power": 7,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Balloon Brute",
+    "description": "When I am attacked by a weaker creature, the attack is aborted and I am destroyed.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3120,
+    "slug": "--stunbot",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Stunbot",
+    "description": "Combat-Flip:\nOpposing enemy creature is stunned until the end of your turn.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3106,
+    "slug": "--trapkiller2",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Saboteur",
+    "description": "Combat-Flip:\nReturn all enemy traps to their controller's hand.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3132,
+    "slug": "--trapkiller3",
+    "type": 0,
+    "power": 3,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Trap-Diffuser",
+    "description": "Safe-Flip:\nDestroy all enemy traps and end your turn.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3090,
+    "slug": "--socialgnome",
+    "type": 0,
+    "power": 3,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Social Gnome",
+    "description": "Raise my power by 1 for each friendly creature in play, other than me.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3089,
+    "slug": "--flipmike",
+    "type": 0,
+    "power": 3,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Flip-Mike",
+    "description": "Safe-Flip\nYou draw 2 cards.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3112,
+    "slug": "--reviver-0",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Reviver 0",
+    "description": "Safe-Flip\nI die. If possible, summon in my place the first non-grand-creature found in the enemy graveyard.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3078,
+    "slug": "--provoked-nina",
+    "type": 0,
+    "power": 8,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Provoked Nina",
+    "description": "Safe-Flip:\nDestroy me.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3114,
+    "slug": "--copycat",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Copycat",
+    "description": "Safe-Flip\nIf there is an opposing face-up creature with power higher than 0, I gain power equal to its current power minus 1.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3115,
+    "slug": "--reviver-1",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Reviver 1",
+    "description": "Safe-Flip\nI die. If possible, summon in my place the first creature found in your graveyard that isn't me.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3116,
+    "slug": "--jerry",
+    "type": 0,
+    "power": 3,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Jerry",
+    "description": "Combat-Flip\nMy power increases by 5 until the end of this turn.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3117,
+    "slug": "--brainleech",
+    "type": 0,
+    "power": 1,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Brain Leech",
+    "description": "Safe-Flip\nDie.\rIf there is an opposing enemy creature - move it to your side.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3118,
+    "slug": "--younghealer",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "2v9r7m",
+    "description": "Combat-Flip\nHeal your Life-Points by 4",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3103,
+    "slug": "--life-syphon_2",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Life Syphon 2",
+    "description": "Safe-Flip\nHeal your Life-Points by an amount equal to the opposing enemy creature's power.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3388,
+    "slug": "--evo-flip_a",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Jack",
+    "description": "Safe-Flip\nIf possible, tribute-summon @evo_flip_g from your deck or Hand in my place.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3589,
+    "slug": "--deckstructor",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Deckstructor",
+    "description": "When I am attacked by a stronger creature, its controller discards from their deck the same amount of cards, as the difference in power between me and my attacker.",
+    "tags": []
+  },
+  {
+    "id": 3184,
+    "slug": "--divine-syphon",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Divine Syphon",
+    "description": "No other friendly creatures can attack.\nIncrease my power by the combined power of all friendly creatures.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3290,
+    "slug": "--antisocial-knight",
+    "type": 0,
+    "power": 9,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Antisocial Knight",
+    "description": "My power is decreased by 3 for every other friendly creature card in play.",
+    "tags": []
+  },
+  {
+    "id": 3175,
+    "slug": "--jake",
+    "type": 0,
+    "power": 11,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Jake",
+    "description": "I can only be summoned by tributing a face-down creature card.\n(ignore any flip effect)",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3140,
+    "slug": "--cowardly-giant",
+    "type": 0,
+    "power": 14,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Cowardly Giant",
+    "description": "After I am attacked by enemy creature, if I'm still in play, I return to my owner's hand.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3141,
+    "slug": "--miller",
+    "type": 0,
+    "power": 9,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Miller",
+    "description": "At the end of your opponent's turn deal damage to them equal to the number of their occupied creature fields and decrease my power by 2.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3161,
+    "slug": "--mr-mirakul",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Mr Mirakul",
+    "description": "My power is raised by 4 for each occupied enemy creature field.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3144,
+    "slug": "--social-fiend",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Social Fiend",
+    "description": "I cannot be summoned if you have any traps in play.\nMy power is raised by 4 for each occupied friendly creature fields.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3160,
+    "slug": "--lucky-warrior",
+    "type": 0,
+    "power": 13,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Lucky Warrior",
+    "description": "While I am in play, keep the top card in your deck face-up. I cannot attack while it is a creature.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3145,
+    "slug": "--antisocial-archknight",
+    "type": 0,
+    "power": 15,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Antisocial Arch-knight",
+    "description": "My power is decreased by the combined power of every other face-up friendly creature card in play",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3146,
+    "slug": "--bad-influence_leonard",
+    "type": 0,
+    "power": 12,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Bad Influence Leonard",
+    "description": "When I attack, all adjacent friendly creatures attack as well. Their attacks are still considered manual (they get exhausted)",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3159,
+    "slug": "--traprage",
+    "type": 0,
+    "power": 9,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Traprage",
+    "description": "My power rises by 1 each time a trap starts activation.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3148,
+    "slug": "--grand-_bloodrager",
+    "type": 0,
+    "power": 9,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Grand - Bloodrager",
+    "description": "Raise my power by 1 each time a card goes to any graveyard. This effect resets after I finish an attack (successfully or not).",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3149,
+    "slug": "--guy-with_manashield",
+    "type": 0,
+    "power": 10,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Guy With Mana-Shield",
+    "description": "When I am attacked by enemy creature, permanently decrease its power by the amount of your current mana.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3150,
+    "slug": "--great-manadrainer",
+    "type": 0,
+    "power": 8,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Great Mana-Drainer",
+    "description": "Each time I battle, decrease the enemy's current mana and current mana capacity by one.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3151,
+    "slug": "--mana-beast",
+    "type": 0,
+    "power": 3,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Mana Beast",
+    "description": "My power is raised by your current mana multiplied by 3.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3153,
+    "slug": "--battle-spirit",
+    "type": 0,
+    "power": 13,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Battle Spirit",
+    "description": "While I am in play and it's the end of your opponent's turn every enemy creature in play performs a free attack.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3171,
+    "slug": "--taunting-shield",
+    "type": 0,
+    "power": 10,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Taunting Shield",
+    "description": "Cannot attack.\nAt the start of the enemy turn, if the opposing enemy creature can attack me, it performs a free attack.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3156,
+    "slug": "--dual-force_spirit",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Dual Force Spirit",
+    "description": "Raise my power by the combined base power of my adjacent friendly creatures.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3157,
+    "slug": "--shy-warrior",
+    "type": 0,
+    "power": 12,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Shy Warrior",
+    "description": "I cannot attack while there is an adjacent friendly creature.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3158,
+    "slug": "--blood-fiend",
+    "type": 0,
+    "power": 6,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Blood Fiend",
+    "description": "Increase my power by the combined power of the top cards in both graveyards (for non creature cards use 0)",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3147,
+    "slug": "--persistent-jeff",
+    "type": 0,
+    "power": 13,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Persistent Jeff",
+    "description": "WHILE IN YOUR HAND\nAt the end of your turn, put me at the top of your deck face-up.\r\r(too bad if its your only card)",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3143,
+    "slug": "--impatient-goeff",
+    "type": 0,
+    "power": 13,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Impatient Goeff",
+    "description": "WHILE IN YOUR HAND\nAt the end of your turn, discard me.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3142,
+    "slug": "--paulgrand2",
+    "type": 0,
+    "power": 5,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Dick Johnson",
+    "description": "I do not suffer summon exhaustion.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3162,
+    "slug": "--magiresistent-thomas",
+    "type": 0,
+    "power": 10,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Magi-resistent Thomas",
+    "description": "While in-play, I cannot be destroyed in any way other than combat.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3163,
+    "slug": "--flappy-rooster",
+    "type": 0,
+    "power": 8,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Flappy Rooster",
+    "description": "I can both attack and move before exhausting.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3164,
+    "slug": "--overlyattached-spirit",
+    "type": 0,
+    "power": 14,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Overly-Attached Spirit",
+    "description": "I cannot be summoned while you have no creatures in play.\nWhen I am summoned, life-link me to all other friendly creatures.\rWhen they die, I die.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3165,
+    "slug": "--dark-one",
+    "type": 0,
+    "power": 15,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Dark One",
+    "description": "I cannot be summoned manually while you have less than 3 creatures in play. (tribute included)\n When I enter play - destroy all other friendly creatures.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3166,
+    "slug": "--unstable-mech",
+    "type": 0,
+    "power": 14,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Unstable Mech",
+    "description": "When I am attacked by a weaker creature, destroy both it and me.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3167,
+    "slug": "--foe-linkee",
+    "type": 0,
+    "power": 14,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "foe linkee",
+    "description": "I cannot be summoned on a field with no opposing enemy creature. \nWhen I am summoned, life link me to the opposing enemy creature and vice-versa",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3168,
+    "slug": "--devouerer",
+    "type": 0,
+    "power": 7,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Devouerer*",
+    "description": "When I kill a creature, raise my power by its power.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3187,
+    "slug": "--general",
+    "type": 0,
+    "power": 13,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "The General",
+    "description": "I can only be summoned when you have no empty creature fields.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3170,
+    "slug": "--the-blood_king",
+    "type": 0,
+    "power": 14,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "The Blood King",
+    "description": "When I am manually summoned, my controller takes 7 direct damage. ",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3155,
+    "slug": "--mega-chicken",
+    "type": 0,
+    "power": 13,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Mega Chicken",
+    "description": "The moment there are no adjacent friendly creatures I return to my controller's hand.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3172,
+    "slug": "--devouerer2",
+    "type": 0,
+    "power": 5,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Devouerer*",
+    "description": "When I kill a creature in combat, add its current power to mine.\nI do not suffer from summon-exhaustion.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3904,
+    "slug": "--the-good_king",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "The Good King",
+    "description": "",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3138,
+    "slug": "--piercing-george",
+    "type": 0,
+    "power": 9,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Piercing George",
+    "description": "Every time I battle an enemy creature, the power difference is dealt as direct damage to the weaker creature's controller.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3139,
+    "slug": "--piercing-george2",
+    "type": 0,
+    "power": 7,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Piercing George",
+    "description": "Every time I battle an enemy creature with lower power, deal the difference as direct damage to its controller.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3176,
+    "slug": "--black-hood",
+    "type": 0,
+    "power": 6,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Black Hood",
+    "description": "When I enter play, destroy all face-up creatures in play with power lower than mine.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3177,
+    "slug": "--sloth-wyrm",
+    "type": 0,
+    "power": 15,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Sloth Wyrm",
+    "description": "My summon-exhaustion lasts 3 turns instead of one.\n(I cannot attack, move, or be tributed while I am exhausted)",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3178,
+    "slug": "--epic-tortoise",
+    "type": 0,
+    "power": 14,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Epic Tortoise",
+    "description": "After each attack, I am stunned for one turn",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3179,
+    "slug": "--resque-zack",
+    "type": 0,
+    "power": 1,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Resque Zack",
+    "description": "While the enemy has more Life Points than you do, my power is raised by the difference.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3180,
+    "slug": "--grand-dk",
+    "type": 0,
+    "power": 13,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Grand Dk",
+    "description": "When I attack - deal 2 damage to your Life Points.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3181,
+    "slug": "--compromiser1",
+    "type": 0,
+    "power": 8,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Compromising Anna",
+    "description": "I do not need a tribute to be summoned if there are no friendly creatures in play.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3182,
+    "slug": "--lonely-golem",
+    "type": 0,
+    "power": 13,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Lonely Golem",
+    "description": "The moment there are no other friendly creatures - I die.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3183,
+    "slug": "--for-a_lid",
+    "type": 0,
+    "power": 11,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "For a Lid",
+    "description": "End your turn automatically after you manually summon me.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3185,
+    "slug": "--drawrager",
+    "type": 0,
+    "power": 7,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "drawrager",
+    "description": "Increase my power by 1 every time the opponent draws a card.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3169,
+    "slug": "--grandegrand",
+    "type": 0,
+    "power": 13,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "GrandeGrand",
+    "description": "I can only be summoned by tributing another grand-creature",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3304,
+    "slug": "--finalrage",
+    "type": 0,
+    "power": 3,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Final Rage",
+    "description": "My power is raised by 6 while you have 3 or less Life Points.",
+    "tags": []
+  },
+  {
+    "id": 3186,
+    "slug": "--serious",
+    "type": 0,
+    "power": 7,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Serious",
+    "description": "Increase my power by 2 every time a new enemy creature is summoned.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3375,
+    "slug": "--ritual-c_f3",
+    "type": 0,
+    "power": 15,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Demon Supreme 3",
+    "description": "I cannot be summoned manually.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3343,
+    "slug": "--ritual-c_f1",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Supreme Demon",
+    "description": "I cannot be summoned manually.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3341,
+    "slug": "--evo-g_f1",
+    "type": 0,
+    "power": 16,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Mr. Hyde",
+    "description": "Cannot be summoned in any way other than by successfully tributing @evo_a_f1",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3357,
+    "slug": "--evo-g_f2",
+    "type": 0,
+    "power": 16,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Queen Sarah",
+    "description": "Cannot be summoned in any way other than by successfully tributing @evo_a_f2",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3373,
+    "slug": "--evo-g_f3",
+    "type": 0,
+    "power": 16,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Fenris",
+    "description": "Cannot be summoned in any way other than by successfully tributing @evo_a_f3",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3154,
+    "slug": "--serious2",
+    "type": 0,
+    "power": 7,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "serious2",
+    "description": "Increase my power by 1 every time a new creature is summoned.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3194,
+    "slug": "--compromiser2",
+    "type": 0,
+    "power": 9,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Compromising Bill",
+    "description": "I do not need a tribute to be summoned if you have no other cards in your hand.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3195,
+    "slug": "--compromiser3",
+    "type": 0,
+    "power": 9,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Compromising Fiend",
+    "description": "I do not need a tribute to be summoned if there are no empty enemy creature fields and you have no traps.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3196,
+    "slug": "--armageddon",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "A.R.M.A.G.E.D.D.O.N.",
+    "description": "On summon: \nDestroy all cards in play (including me). \rYou take direct damage equal to half your LP rounded down.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3197,
+    "slug": "--apocalypta",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Apocalypta\r",
+    "description": "I can not be summoned if you have other cards in your hand.\nOn summon: Destroy all cards in play on both sides (including me).",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3198,
+    "slug": "--ragnarock",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Ragnarock",
+    "description": "I can only be summoned while there are at least 3 friendly creatures in play.\nOn summon: Destroy all creatures in play on both sides, including me.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3174,
+    "slug": "--blazer",
+    "type": 0,
+    "power": 5,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Blazer",
+    "description": "At the begining of your own turn if there is an opposing enemy creature destroy it. Return me to your hand.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3456,
+    "slug": "--ace1-lvl3",
+    "type": 0,
+    "power": 16,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Ace (Level 3)",
+    "description": "I cannot be summoned in any way other than normal-summon by tributing a friendly @ace1_lvl2 in play.\nI only be destroyed via combat.\r",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3457,
+    "slug": "--ace1-lvl2",
+    "type": 0,
+    "power": 12,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Ace (Level 2)",
+    "description": "I cannot be summoned in any way other than normal-summon by tributing a friendly @ace1_lvl1 in play.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3389,
+    "slug": "--evo-flip_g",
+    "type": 0,
+    "power": 9,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Armored Jack",
+    "description": "I cannot be manually summoned.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3391,
+    "slug": "--vendeto-grand",
+    "type": 0,
+    "power": 9,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Vendeto's Spirit",
+    "description": "I cannot be summoned manually.\n\rWhile I am in play, if @vendeto is not in your graveyard, destroy me.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3392,
+    "slug": "--com-g0_0",
+    "type": 0,
+    "power": 9,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Grand Part 0",
+    "description": "Combines with G0",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3359,
+    "slug": "--ritual-c_f2",
+    "type": 0,
+    "power": 9,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Supreme King",
+    "description": "I cannot be summoned manually.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3300,
+    "slug": "--phoenix",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Phoenix",
+    "description": "When I die, if there are no other friendly creatures, send me to my controller's hand instead of the graveyard.",
+    "tags": []
+  },
+  {
+    "id": 3662,
+    "slug": "--last-stand",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Last Stand!",
+    "description": "Activate only when opposing enemy creature attacks you directly, with power higher than your LP. \nBoth players summon to each empty creature field on their side, the first creature they can from their graveyard.",
+    "tags": []
+  },
+  {
+    "id": 3208,
+    "slug": "--surprise-link",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Surprise Link",
+    "description": "Activate when opposing enemy creature is summoned end there is a friendly creature on your side. Life-link enemy creature to yours.",
+    "tags": []
+  },
+  {
+    "id": 3209,
+    "slug": "--sudden-death",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Sudden Death!",
+    "description": "#persistent\nActivate only when opposing enemy creature attacks you directly, with power higher than your LP.  Destroy all cards in play and set both players' Life Points to 2.",
+    "tags": []
+  },
+  {
+    "id": 3210,
+    "slug": "--move-trap_hole",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Slippery Pit",
+    "description": "When enemy creature relocates to the opposing field, instantly destroy it .",
+    "tags": []
+  },
+  {
+    "id": 3211,
+    "slug": "--one-last_save",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "One Last Save",
+    "description": "Activate when you are about to receive fatal damage. That damage becomes 0 and you draw 1 card.",
+    "tags": []
+  },
+  {
+    "id": 3212,
+    "slug": "--creature",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "CREATURE",
+    "description": "#persistent\nActivate when there is no friendly creature on this column and you receive direct damage for any reson. Summon me as a creature on the same column, with power equal to that damage.",
+    "tags": []
+  },
+  {
+    "id": 3213,
+    "slug": "--waste",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Grandious Waste",
+    "description": "When an opposing enemy creature is summoned, return it to the enemy's hand.",
+    "tags": []
+  },
+  {
+    "id": 3214,
+    "slug": "--anti-summon_1",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Anti Summon 1",
+    "description": "When an opposing enemy creature is summoned face-up, return it to the top of the opponen's deck.",
+    "tags": []
+  },
+  {
+    "id": 3215,
+    "slug": "--anti-summon_2",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Anti Summon 2",
+    "description": "When an opposing enemy creature is summoned face-down, return it to the top of the opponen's deck.",
+    "tags": []
+  },
+  {
+    "id": 3218,
+    "slug": "--noflipping",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "No-Flipping!",
+    "description": "#persistent\nActivate me when opponent safe-flips opposing enemy creature - flip it back face-down. Enemy player cannot safe-flip creatures while I am in play. Destroy me at the end of the turn.",
+    "tags": []
+  },
+  {
+    "id": 3219,
+    "slug": "--massmurder",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "r5ba0t",
+    "description": "Activate when opposing enemy creature dies during the enemy turn. Destroy all face-up enemy creatures.",
+    "tags": []
+  },
+  {
+    "id": 3220,
+    "slug": "--taunt",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Taunt",
+    "description": "#persistent\nActivate me when enemy turn starts and there is an opposing enemy creature. At the end of their turn, if there is still an opposing enemy creature, force it to attack.",
+    "tags": []
+  },
+  {
+    "id": 3221,
+    "slug": "--weird-swap",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Weird Swap",
+    "description": "Activate when opposing enemy creature is summoned and there is a friendly creature on your side with equal or greater power. Swap creatures.",
+    "tags": []
+  },
+  {
+    "id": 3222,
+    "slug": "--manadrop",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Mana-Drop",
+    "description": "Activate when an opposing enemy creature is summoned. The opponent loses all mana.",
+    "tags": []
+  },
+  {
+    "id": 3223,
+    "slug": "--unexpected-assistance",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Unexpected Assistance",
+    "description": "Activate when an opposing enemy non-grand-creature is summoned face-up and you have no creature on the same column. Move it to your side.",
+    "tags": []
+  },
+  {
+    "id": 3224,
+    "slug": "--fately-summons",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Fately Summons",
+    "description": "#persistent\nActivate me before the start of the enemy's turn. Draw 1 card every time an enemy creature is summoned. Destroy this card at the end of the turn.",
+    "tags": []
+  },
+  {
+    "id": 3225,
+    "slug": "--them-damn_tokens",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Them Damn Tokens",
+    "description": "When an opposing enemy creature starts a direct attack, summon a 0 powered token on every empty field on both sides",
+    "tags": []
+  },
+  {
+    "id": 3226,
+    "slug": "--scorch",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Scorching Flames",
+    "description": "Activate when your own creature dies. All face-up creatures in play with power equal or lower than it are also destroyed",
+    "tags": []
+  },
+  {
+    "id": 3227,
+    "slug": "--unexpected-assistance",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Unexpected Assistance",
+    "description": "#persistent\nActivate when an opposing enemy creature is summoned and you have no creature the same column. Move that creature to your side. At the end of your turn destroy me. When I am destroyed, return affected creature to its owner's hand.",
+    "tags": []
+  },
+  {
+    "id": 3228,
+    "slug": "--fate-boost",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Fate Boost",
+    "description": "Activate before the start of your turn if you have 0 cards in your hand. Draw 4 cards",
+    "tags": []
+  },
+  {
+    "id": 3358,
+    "slug": "--ritual-t_f2",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Supreme King Ritual",
+    "description": "Activate when opposing enemy creature starts an attack. If possible, summon @ritual_c_f2 from your hand on your own side of this column. If there is a friendly creature there, destroy it, but add its current attack to %%0.",
+    "tags": []
+  },
+  {
+    "id": 3230,
+    "slug": "--assisted-suicide",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Assisted Suicide",
+    "description": "Activate when opposing enemy creature attacks your creature. Destroy both creatures instantly.",
+    "tags": []
+  },
+  {
+    "id": 3231,
+    "slug": "--toxic-shadow",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Toxic Shadow",
+    "description": "Activate when opposing enemy creature is successfully summoned face-up. Destroy all faceup  creatures with lower power than it.",
+    "tags": []
+  },
+  {
+    "id": 3232,
+    "slug": "--hypnoshield",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Hypno-Shield",
+    "description": "#persistent\nActivate when opposing enemy creature attacks. That creature cannot attack while this card is in play. Destroy me when that creature leaves its field.",
+    "tags": []
+  },
+  {
+    "id": 3233,
+    "slug": "--compensation",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Compensation",
+    "description": "#persistent\nActivate me before the start of the enemy's turn. Draw 1 card every time an enemy creature attacks. Destroy me at the end of the turn.",
+    "tags": []
+  },
+  {
+    "id": 3234,
+    "slug": "--assist",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Assist",
+    "description": "#persistent\nActivate when a friendly creature on this column is attacked. Its power becomes that of the strongest friendly creature adjacent to it while I am in play. Destroy me at the end of the turn.",
+    "tags": []
+  },
+  {
+    "id": 3235,
+    "slug": "--last-second_escape",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Last Second Escape",
+    "description": "Activate when a friendly monster on the same column is about to die during the enemy's turn. Put that creature in your hand instead.",
+    "tags": []
+  },
+  {
+    "id": 3236,
+    "slug": "--beyond-shield",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Beyond Shield",
+    "description": "#persistent\nActivate when opposing enemy creature begins a direct attack. Resurrect the first creature in your graveyard that can be summoned at this column (if any). This card and that creature are linked.",
+    "tags": []
+  },
+  {
+    "id": 3237,
+    "slug": "--tokens-shield",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Tokens Shield",
+    "description": "Activate the moment you have no creatures in play and it is the enemy's turn. Summon a 0 power token on each of your empty fields.",
+    "tags": []
+  },
+  {
+    "id": 3238,
+    "slug": "--phase-through",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Phase Through",
+    "description": "Activate when opposing enemy creature attacks your creature.  Negate the attack and take direct damage equal to the enemy creature's power.",
+    "tags": []
+  },
+  {
+    "id": 3239,
+    "slug": "--grandlock",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Grand Lock",
+    "description": "#persistent\nWhen opposing enemy creature is used as a tribute to summon a Grand creature, lock the field under them for as long as this card is in play. Destroy this card at the end of the turn.",
+    "tags": []
+  },
+  {
+    "id": 3240,
+    "slug": "--time-bomb",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Time Bomb",
+    "description": "#persistent\nActivate at the begining of next enemy turn. At the end of that turn if this card is still in play and there is an opposing enemy creature, destroy it.",
+    "tags": []
+  },
+  {
+    "id": 3241,
+    "slug": "--i-dare_you",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "I dare you",
+    "description": "#persistent\nActivate me before the start of the enemy's turn. At the end of that turn destroy me and heal your LP for the amount of the combined ATK of every enemy creature that could but did not attack this turn.",
+    "tags": []
+  },
+  {
+    "id": 3242,
+    "slug": "--equality",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Equality",
+    "description": "#persistent\nActivate me before the start of the enemy's turn. Draw 1 card every time the enemy draws a card. Destroy me at the end of the turn.",
+    "tags": []
+  },
+  {
+    "id": 3243,
+    "slug": "--deck-replenish",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Deck Replenish",
+    "description": "Activate the momoent you have no cards in your deck. Both players add their graveyards to their decks and shuffle them.",
+    "tags": []
+  },
+  {
+    "id": 3244,
+    "slug": "--surprise-attack",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Surprise Attack!",
+    "description": "Activate when an opposing enemy creature is summoned and there is a freindly creature on your side of it. Your creature performs a free attack.",
+    "tags": []
+  },
+  {
+    "id": 3245,
+    "slug": "--empower1",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Empower 0",
+    "description": "Activate when opposing enemy creature attacks your creature. Raise your creature's power by 2.",
+    "tags": []
+  },
+  {
+    "id": 3374,
+    "slug": "--ritual-t_f3",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Supreme Ritual 3",
+    "description": "Activate when opposing enemy creature starts direct attack. If possible, summon @ritual_c_f3 from your hand on your own side of this column.",
+    "tags": []
+  },
+  {
+    "id": 3247,
+    "slug": "--depower-0",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Depower 0",
+    "description": "#persistent\nActivate when opposing enemy creature attacks your creature. Decrease enemy creature's power by 3 while this card is in play. Destroy this card when that creature leaves play.",
+    "tags": []
+  },
+  {
+    "id": 3248,
+    "slug": "--empower",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Empower",
+    "description": "Activate when opposing enemy creature attacks your creature. Raise your creature's power by 5 until the end of this turn.",
+    "tags": []
+  },
+  {
+    "id": 3249,
+    "slug": "--depower",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Depower",
+    "description": "Activate when opposing enemy creature attacks your creature. Decrease enemy creature's power by 5 until the end of this turn.",
+    "tags": []
+  },
+  {
+    "id": 3250,
+    "slug": "--red-cross_reverse",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Red Cross Reverse",
+    "description": "#persistent\nI activate when you are about to receive direct damage during the enemy's turn. All direct damage to all players is converted to healing damage. Destroy me at the end of your own turn.",
+    "tags": []
+  },
+  {
+    "id": 3342,
+    "slug": "--ritual-t_f1",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Supreme Demon Ritual",
+    "description": "Activate when friendly  creature on this column dies during the enemy's turn. If possible, summon @ritual_c_f1 from your hand in its place and raise its power by double the base power of the dead creature.",
+    "tags": []
+  },
+  {
+    "id": 3252,
+    "slug": "--redo",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Redo",
+    "description": "This card has the condition and effect of the top card in your graveyard, so long as it is a trap.",
+    "tags": []
+  },
+  {
+    "id": 3253,
+    "slug": "--bad-fate_1",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Bad Fate 1",
+    "description": "Activate when opposing enemy creature attacks. Enemy player discards cards from their deck equal to the number of cards in their hand.",
+    "tags": []
+  },
+  {
+    "id": 3254,
+    "slug": "--mana-decktruction",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Magic Deckstruction",
+    "description": "#persistent\nActivate at the start of your opponent's turn. Every time they spend mana, they also discard the top 3 cards in their deck Destroy me at the end of that turn.",
+    "tags": []
+  },
+  {
+    "id": 3255,
+    "slug": "--final-heal",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Final Heal",
+    "description": "Activate when you are about to receive fatal direct damage from opposing enemy creature's attack. Convert it to healing damage.",
+    "tags": []
+  },
+  {
+    "id": 3256,
+    "slug": "--pow2lp",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "POW2LP",
+    "description": "Activate when a friendly creature on this column is about to die from combat. Gain LP equal to its power.",
+    "tags": []
+  },
+  {
+    "id": 3257,
+    "slug": "--shock-therapy",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Shock Therapy",
+    "description": "Activate when opposing enemy creature attacks you directly. Return it to its owner's hand.",
+    "tags": []
+  },
+  {
+    "id": 3258,
+    "slug": "--handstruction",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Handstruction",
+    "description": "#persistent\nActivate at the start of the enemy's turn. They draw a free card. At the end that turn, the enemy discards their hand, and you destroy this card.",
+    "tags": []
+  },
+  {
+    "id": 3259,
+    "slug": "--bad-fate_2",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Bad Fate 2",
+    "description": "Activate when opposing enemy creature starts a direct attack. Enemy player discards cards from their deck equal to that creature's power.",
+    "tags": []
+  },
+  {
+    "id": 3260,
+    "slug": "--depowering-gas",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Depowering Gas",
+    "description": "Activate when opposing enemy creature attacks. Any enemy creature on this column is immobile and gets -1POW at the beginning of this and each subsequent attack. Destroy this card when the opposing enemy field is empty.",
+    "tags": []
+  },
+  {
+    "id": 3265,
+    "slug": "--immortal-robert",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Immortal Robert",
+    "description": "While in your graveyard, at the end of the enemy's turn, put me at the top of your deck.",
+    "tags": []
+  },
+  {
+    "id": 3615,
+    "slug": "--handy",
+    "type": 0,
+    "power": 5,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Flashforward",
+    "description": "When I am summoned, you draw 2 cards and the enemy draws 3 cards.",
+    "tags": []
+  },
+  {
+    "id": 3303,
+    "slug": "--flappy-bird",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Flappy Bird",
+    "description": "Can both attack and move before exhausting.",
+    "tags": []
+  },
+  {
+    "id": 3440,
+    "slug": "--ace1-lvl1",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Ace (Level 1)",
+    "description": "",
+    "tags": []
+  },
+  {
+    "id": 3667,
+    "slug": "--trap-silencer",
+    "type": 0,
+    "power": 7,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Trap Silencer",
+    "description": "While I am in play, all traps are destroyed upon activation\n(negating their effect), but you take 2 direct damage for each one.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3267,
+    "slug": "--bloodthirter",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Bloodthirty",
+    "description": "Raise my power by 2 each time an enemy creature is destroyed. This effect resets after I finish an attack (successfully or not).",
+    "tags": []
+  },
+  {
+    "id": 3268,
+    "slug": "--power-healer",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "power healer",
+    "description": "I cannot move.\nWhen I am attacked by an enemy creature, heal your LP by the creature's power.",
+    "tags": []
+  },
+  {
+    "id": 3269,
+    "slug": "--token-summoner_2",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Token Summoner 2",
+    "description": "When I am summoned, summon a 0 power token on each empty creature field on both sides.",
+    "tags": []
+  },
+  {
+    "id": 3270,
+    "slug": "--token-summoner",
+    "type": 0,
+    "power": 3,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Token Summoner*",
+    "description": "When I die and enter the graveyard - summon 0 power tokens on each of your empty creature fields",
+    "tags": []
+  },
+  {
+    "id": 3272,
+    "slug": "--darkassasin1",
+    "type": 0,
+    "power": 6,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Blood Mercenary",
+    "description": "When I attack - deal 1 damage to your Life Points.",
+    "tags": []
+  },
+  {
+    "id": 3273,
+    "slug": "--fatal-spirit",
+    "type": 0,
+    "power": 1,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Fatal Spirit",
+    "description": "I cannot move.\nWhen this creature is killed by an enemy creature - destroy that enemy creature.",
+    "tags": []
+  },
+  {
+    "id": 3274,
+    "slug": "--big-shield",
+    "type": 0,
+    "power": 9,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Big Shield",
+    "description": "Cannot attack.\n",
+    "tags": []
+  },
+  {
+    "id": 3275,
+    "slug": "--force-field",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Force Field",
+    "description": "Any direct damage you receive is reduced to 0 while I am in play.\n",
+    "tags": []
+  },
+  {
+    "id": 3276,
+    "slug": "--wtf-paul",
+    "type": 0,
+    "power": 7,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "WTF Paul",
+    "description": "I cannot be used as a tribute.\nI die at the end of your turn.\rI do not suffer summon exhaustion",
+    "tags": []
+  },
+  {
+    "id": 3277,
+    "slug": "--honor-1",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Honorable Soldier A",
+    "description": "Raise my power by 2 for each other friendly Honorable Soldier card in play.",
+    "tags": []
+  },
+  {
+    "id": 3278,
+    "slug": "--bloodrager",
+    "type": 0,
+    "power": 3,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Bloodrage",
+    "description": "Raise my power by 1 each time a creature is destroyed. This effect resets after I finish an attack (successfully or not).",
+    "tags": []
+  },
+  {
+    "id": 3279,
+    "slug": "--paul3",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Lost Paul",
+    "description": "I cannot be used for a tribute.\nI cannot attack the enemy directly.\rI do not suffer summon exhaustion.\rI die after my attack regardless of success.",
+    "tags": []
+  },
+  {
+    "id": 3280,
+    "slug": "--paul2",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Lightning Paul",
+    "description": "Cannot be summoned on a field with no opposing enemy creature.\nI cannot be used for a tribute.\rI do not suffer summon exhaustion.",
+    "tags": []
+  },
+  {
+    "id": 3281,
+    "slug": "--zombyra",
+    "type": 0,
+    "power": 8,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Overly Excited Tim",
+    "description": "Every time I attack, decrease my power by 2.",
+    "tags": []
+  },
+  {
+    "id": 3282,
+    "slug": "--rz6p0r",
+    "type": 0,
+    "power": 6,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "rz6p0r",
+    "description": "After I attack the enemy directly, I am destroyed.",
+    "tags": []
+  },
+  {
+    "id": 3283,
+    "slug": "--problematic-sam",
+    "type": 0,
+    "power": 7,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Problematic Sam",
+    "description": "I cannot be summoned on a field with an opposing enemy creature in play.",
+    "tags": []
+  },
+  {
+    "id": 3284,
+    "slug": "--paul1",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Lightning Paul",
+    "description": "I cannot be summoned while there are other friendly creatures in play.\nI die at the end of your turn.\rI do not suffer from summon exhaustion.",
+    "tags": []
+  },
+  {
+    "id": 3285,
+    "slug": "--mana-powered_bitch",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Mana Powered Bitch",
+    "description": "While I am attacking, my power is raised by your current mana.",
+    "tags": []
+  },
+  {
+    "id": 3286,
+    "slug": "--mana-dispenser",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Mana Dispenser",
+    "description": "Increase your current mana (without ignoring your current mana-capacity) every time I attack.",
+    "tags": []
+  },
+  {
+    "id": 3287,
+    "slug": "--johnny1",
+    "type": 0,
+    "power": 6,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "johnny1",
+    "description": "I cannot be summoned manually on a field with an opposing enemy creature in play.",
+    "tags": []
+  },
+  {
+    "id": 3288,
+    "slug": "--emma",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Emma",
+    "description": "If your current mana is 0, you can summon me for no mana cost.",
+    "tags": []
+  },
+  {
+    "id": 3289,
+    "slug": "--freefred",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Free Fred",
+    "description": "When I am summoned, you gain 1 mana.",
+    "tags": []
+  },
+  {
+    "id": 3306,
+    "slug": "--mana-thing",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Mana Thing*",
+    "description": "My power is raised by 2 x your current mana",
+    "tags": []
+  },
+  {
+    "id": 3291,
+    "slug": "--taunting-shield_3",
+    "type": 0,
+    "power": 7,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Taunting Shield*",
+    "description": "I cannot attack.\nAt the end of the enemy turn, if the opposing enemy creature can perform a manual attack, it is forced to.",
+    "tags": []
+  },
+  {
+    "id": 3292,
+    "slug": "--taunting-shield_2",
+    "type": 0,
+    "power": 5,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Taunting Shield*",
+    "description": "I cannot attack.\nAt the beginning of the enemy turn, if the opposing enemy creature can attack me, it performs a free attack.",
+    "tags": []
+  },
+  {
+    "id": 3293,
+    "slug": "--collossal-shield_2",
+    "type": 0,
+    "power": 12,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Collossal Shield*",
+    "description": "I cannot Attack.\nThe moment you have more Life Points than the enemy, I will go to the enemy's hand.",
+    "tags": []
+  },
+  {
+    "id": 3294,
+    "slug": "--collossal-shield_1",
+    "type": 0,
+    "power": 10,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Collossal Shield*",
+    "description": "I cannot Attack.\nThe moment you have more creatures in play than the enemy, I die.",
+    "tags": []
+  },
+  {
+    "id": 3295,
+    "slug": "--harrasser2",
+    "type": 0,
+    "power": 1,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Harrassing Mia",
+    "description": "I cannot be summoned while there are other friendly creatures in play, nor used as a tribute.\nI do not suffer summon exhaustion.\rReturn me to your hand at the end of your turn.",
+    "tags": []
+  },
+  {
+    "id": 3296,
+    "slug": "--emptyshell",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Empty Shell",
+    "description": "I do not suffer from summon exhaustion.",
+    "tags": []
+  },
+  {
+    "id": 3297,
+    "slug": "--honor-2",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Honorable Soldier B",
+    "description": "Raise my power by 2 for each other friendly Honorable Soldier card in play.",
+    "tags": []
+  },
+  {
+    "id": 3298,
+    "slug": "--overlyattached-spirit",
+    "type": 0,
+    "power": 7,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Overly-Attached Spirit*",
+    "description": "I cannot be summoned while you have no creatures in play.\nWhen I am summoned, life-link me to all other friendly creatures.\rWhen they die, I die.",
+    "tags": []
+  },
+  {
+    "id": 3299,
+    "slug": "--honor-3",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Honorable Soldier C",
+    "description": "Raise my power by 2 for each other friendly Honorable Soldier card in play.",
+    "tags": []
+  },
+  {
+    "id": 3370,
+    "slug": "--eddy",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Eddy",
+    "description": "When I am summoned, if possible:\nIf @ed is in play, add @edd from your deck to your hand.\rIf %%1 is in play, add %%0 from your deck to your hand",
+    "tags": []
+  },
+  {
+    "id": 3301,
+    "slug": "--all-out_joe",
+    "type": 0,
+    "power": 8,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "All Out Joe",
+    "description": "At the end of your turn discard all cards in your hand",
+    "tags": []
+  },
+  {
+    "id": 3302,
+    "slug": "--spying-james",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Spying James",
+    "description": "While I am in play - opponent keeps the top card in his deck face-up at all times.",
+    "tags": []
+  },
+  {
+    "id": 3305,
+    "slug": "--piercing-gemma",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Piercing Gemma",
+    "description": "Every time I battle an enemy creature, the power difference is dealt as direct damage to the weaker creature's controller.",
+    "tags": []
+  },
+  {
+    "id": 3351,
+    "slug": "--linked-bro4",
+    "type": 0,
+    "power": 6,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Linked Bro",
+    "description": "At the beginning of your turn, if there aren't at least 2 other friendly Linked Bros in play, destroy me.",
+    "tags": []
+  },
+  {
+    "id": 3307,
+    "slug": "--trapowered2",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Trap-Powered",
+    "description": "My power is raised by 1 for each friendly trap in play.",
+    "tags": []
+  },
+  {
+    "id": 3308,
+    "slug": "--producer",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Producer",
+    "description": "My power is raised by 1 for each card in your hand",
+    "tags": []
+  },
+  {
+    "id": 3309,
+    "slug": "--ferocious-sara",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Ferocious Sara",
+    "description": "Raise my power by 2 for each enemy creature card in play.",
+    "tags": []
+  },
+  {
+    "id": 3310,
+    "slug": "--minor-token_summoner",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Minor Token Summoner",
+    "description": "When I am summoned, for each adjacent creature field and the opposing enemy creature field - if its empty, summon a 0 power token to it.",
+    "tags": []
+  },
+  {
+    "id": 3311,
+    "slug": "--confusor",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Confusing Timothy",
+    "description": "While I am in play - decrease all enemy creatures' power by 1.",
+    "tags": []
+  },
+  {
+    "id": 3312,
+    "slug": "--supporting-phil",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Supporting Phil",
+    "description": "While I am in play, the effects of friendly @motivator and @confusor are doubled.",
+    "tags": []
+  },
+  {
+    "id": 3313,
+    "slug": "--bloodcopy-1",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Blood-Copy 1",
+    "description": "My power equals the base power of the top card in your graveyard (0 if its not a creature)",
+    "tags": []
+  },
+  {
+    "id": 3314,
+    "slug": "--bloodcopy-2",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Blood-Copy 2",
+    "description": "My power equals the base power of the top card in the enemy's graveyard (0 if its not a creature)",
+    "tags": []
+  },
+  {
+    "id": 3315,
+    "slug": "--spineless-troll",
+    "type": 0,
+    "power": 6,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Spineless Troll",
+    "description": "When I am attacked by enemy creature, I return to my controller's hand. The attack is aborted.",
+    "tags": []
+  },
+  {
+    "id": 3316,
+    "slug": "--good-offender",
+    "type": 0,
+    "power": 3,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Good Offender",
+    "description": "Raise my power by 3 while I am attacking",
+    "tags": []
+  },
+  {
+    "id": 3317,
+    "slug": "--good-defender",
+    "type": 0,
+    "power": 3,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Good Defender",
+    "description": "Raise my power by 4 while I am being attacked",
+    "tags": []
+  },
+  {
+    "id": 3318,
+    "slug": "--handy-jimmy",
+    "type": 0,
+    "power": 3,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Handy Jimmy",
+    "description": "Raise my power by 6 while you have no cards in your hand.",
+    "tags": []
+  },
+  {
+    "id": 3319,
+    "slug": "--angered3",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Enthusiastic Jim",
+    "description": "Raise my power by 6 while you have more empty creature fields than the enemy.",
+    "tags": []
+  },
+  {
+    "id": 3320,
+    "slug": "--fate-mistress",
+    "type": 0,
+    "power": 3,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Fate Mistress",
+    "description": "IN-HAND\nWhen you draw me from your deck, show me to the enemy and draw one more card.",
+    "tags": []
+  },
+  {
+    "id": 3321,
+    "slug": "--trapsaver",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Trap Saver",
+    "description": "While I am in play, when a friendly face-up permanent trap is about to be destroyed, destroy me instead.",
+    "tags": []
+  },
+  {
+    "id": 3322,
+    "slug": "--token-pooper",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Token Pooper",
+    "description": "When I am manually relocated to a new field, I leave a 0 power token behind me.",
+    "tags": []
+  },
+  {
+    "id": 3323,
+    "slug": "--enraged",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Enraged",
+    "description": "Raise my power by 1 each time a friendly creature is destroyed. This effect resets after I finish an attack (successfully or not).",
+    "tags": []
+  },
+  {
+    "id": 3324,
+    "slug": "--hired-mage",
+    "type": 0,
+    "power": 8,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Mage For Hire",
+    "description": "At the end of your turn if you have no mana - destroy me.",
+    "tags": []
+  },
+  {
+    "id": 3326,
+    "slug": "--force-field_generator",
+    "type": 0,
+    "power": 3,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Force Field Generator",
+    "description": "I cannot Attack.\nWhile I am in play, no enemy creature can attack unless it is opposite to me.",
+    "tags": []
+  },
+  {
+    "id": 3327,
+    "slug": "--force-field2",
+    "type": 0,
+    "power": 6,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Force Field",
+    "description": "I cannot Attack.\nWhile I am in play and there is an opposing enemy creature that can attack, no enemy creature other than it can attack.",
+    "tags": []
+  },
+  {
+    "id": 3584,
+    "slug": "--reviver-2",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Reviver 2",
+    "description": "When I die, if possible, summon in my place the first non-grand creature found in your graveyard.",
+    "tags": []
+  },
+  {
+    "id": 3585,
+    "slug": "--resurrecter3",
+    "type": 0,
+    "power": 1,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Tricky Necromancer",
+    "description": "At the end of your opponent's turn if possible:\nDestroy me and summon the first non-grand creature you find in your graveyard in my place, face up.",
+    "tags": []
+  },
+  {
+    "id": 3336,
+    "slug": "--banana-b",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Banana B",
+    "description": "IN-HAND\nWhen you draw me, from your deck show me to the enemy and if possible add @banana_a from your deck to your hand.",
+    "tags": []
+  },
+  {
+    "id": 3355,
+    "slug": "--8ball-4",
+    "type": 0,
+    "power": 1,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "8-Ball 4",
+    "description": "When I die, if possible summon another 8-Ball from your deck in my place.",
+    "tags": []
+  },
+  {
+    "id": 3353,
+    "slug": "--8ball-2",
+    "type": 0,
+    "power": 1,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "8-Ball 2",
+    "description": "When I die, if possible summon another 8-Ball from your deck in my place.",
+    "tags": []
+  },
+  {
+    "id": 3632,
+    "slug": "--ignorant-calob",
+    "type": 0,
+    "power": 3,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Ignorant Calob*",
+    "description": "During battle, if the enemy creature has lower base power than me, destroy it. This does not count as death from combat.",
+    "tags": []
+  },
+  {
+    "id": 3347,
+    "slug": "--cheerleader4",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Cheerleader Harpy 4",
+    "description": "My power is raised by 1 for each other friendly Cheerleader Harpy in play.",
+    "tags": []
+  },
+  {
+    "id": 3345,
+    "slug": "--cheerleader3",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Cheerleader Harpy 3",
+    "description": "My power is raised by 1 for each other friendly Cheerleader Harpy in play.",
+    "tags": []
+  },
+  {
+    "id": 3346,
+    "slug": "--cheerleader2",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Cheerleader Harpy 2",
+    "description": "My power is raised by 1 for each other friendly Cheerleader Harpy in play.",
+    "tags": []
+  },
+  {
+    "id": 3637,
+    "slug": "--darkassasin2",
+    "type": 0,
+    "power": 7,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Blood Assasin",
+    "description": "When I attack - deal 3 damage to your Life Points.",
+    "tags": []
+  },
+  {
+    "id": 3643,
+    "slug": "--motivator",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Motivating Ethan",
+    "description": "While I am in play - raise all friendly creatures' power by 1",
+    "tags": []
+  },
+  {
+    "id": 3344,
+    "slug": "--cheerleader1",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Cheerleader Harpy 1",
+    "description": "My power is raised by 1 for each other friendly Cheerleader Harpy in play.",
+    "tags": []
+  },
+  {
+    "id": 3406,
+    "slug": "--joe2",
+    "type": 0,
+    "power": 5,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Joe Shmoe",
+    "description": "",
+    "tags": []
+  },
+  {
+    "id": 3352,
+    "slug": "--8ball-1",
+    "type": 0,
+    "power": 1,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "8-Ball 1",
+    "description": "When I die, if possible summon another 8-Ball from your deck in my place.",
+    "tags": []
+  },
+  {
+    "id": 3588,
+    "slug": "--fairhealer",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Fair Healer",
+    "description": "When I am summoned, both players's Life Points increase by 4.",
+    "tags": []
+  },
+  {
+    "id": 3605,
+    "slug": "--drawhealer",
+    "type": 0,
+    "power": 3,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "6dq0m2",
+    "description": "Increase your Life-Points by 1 every time you draw a card.",
+    "tags": []
+  },
+  {
+    "id": 3600,
+    "slug": "--turnhealer",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "qlgi98",
+    "description": "At the beginning of your turn, increase your Life-Points by 1.",
+    "tags": []
+  },
+  {
+    "id": 3601,
+    "slug": "--battle-healer",
+    "type": 0,
+    "power": 1,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Battle Healer",
+    "description": "When I battle with a stronger enemy creature - increase your lifepoints by the difference in our power.",
+    "tags": []
+  },
+  {
+    "id": 3596,
+    "slug": "--tranquility",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Tranquility",
+    "description": "Opposing enemy creature cannot attack. At the start of your turn, if there is no opposing enemy creature, destroy me.",
+    "tags": []
+  },
+  {
+    "id": 3407,
+    "slug": "--joe3",
+    "type": 0,
+    "power": 5,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Joe Blow",
+    "description": "",
+    "tags": []
+  },
+  {
+    "id": 3337,
+    "slug": "--banana-a",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Banana A",
+    "description": "IN-HAND\nWhen you draw me, from your deck show me to the enemy and if possible add @banana_b from your deck to your hand.",
+    "tags": []
+  },
+  {
+    "id": 3586,
+    "slug": "--haggler",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Haggler",
+    "description": "When I am dealt fatal damage, flip the top card in your deck face-up. If it is a trap, my death is aborted.",
+    "tags": []
+  },
+  {
+    "id": 3340,
+    "slug": "--evo-a_f1",
+    "type": 0,
+    "power": 3,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Dr. Jekyll",
+    "description": "",
+    "tags": []
+  },
+  {
+    "id": 3372,
+    "slug": "--evo-a_f3",
+    "type": 0,
+    "power": 3,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Lucio",
+    "description": "",
+    "tags": []
+  },
+  {
+    "id": 3405,
+    "slug": "--joe1",
+    "type": 0,
+    "power": 5,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Average Joe",
+    "description": "",
+    "tags": []
+  },
+  {
+    "id": 3333,
+    "slug": "--yang",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Brother Yang",
+    "description": "Raise my power by 4 while @yin is adjacent",
+    "tags": []
+  },
+  {
+    "id": 3390,
+    "slug": "--vendeto",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Vendeto",
+    "description": "When I die from combat, if possible, summon @vendeto_grand  from your hand or deck in my place.",
+    "tags": []
+  },
+  {
+    "id": 3332,
+    "slug": "--yin",
+    "type": 0,
+    "power": 3,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Brother Yin\r",
+    "description": "Raise my power by 6 while @yang is adjacent",
+    "tags": []
+  },
+  {
+    "id": 3618,
+    "slug": "--fate-forcer",
+    "type": 0,
+    "power": 3,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Fate Forcer\r",
+    "description": "IN-HAND\nWhen I enter your hand, show me to the enemy and draw 3 more cards.\rWhen I am in your hand or in play, at the end of your turn discard your entire hand.",
+    "tags": []
+  },
+  {
+    "id": 3616,
+    "slug": "--directrager",
+    "type": 0,
+    "power": 3,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Direct Rager",
+    "description": "Every time one of your creatures dies during the enemy's turn, I deal 1 LP direct damage to the enemy.",
+    "tags": []
+  },
+  {
+    "id": 3645,
+    "slug": "--witchbetsy",
+    "type": 0,
+    "power": 1,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Witch Betsy",
+    "description": "I cannot be summoned while you have other creatures in play. When I am successfully summoned, if there is an opposing enemy creature, life-link it to me.",
+    "tags": []
+  },
+  {
+    "id": 3621,
+    "slug": "--deckstructor1",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Deckstructor1",
+    "description": "Every time a card is sent  to your graveyard, the enemy sends one card from their deck to their graveyard.",
+    "tags": []
+  },
+  {
+    "id": 3629,
+    "slug": "--fateup",
+    "type": 0,
+    "power": 5,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Fate Up",
+    "description": "While I am in play, at the beginning of each player's turn, they draw a card.",
+    "tags": []
+  },
+  {
+    "id": 3706,
+    "slug": "--blindrage",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Blind Rage",
+    "description": "#persistent\nActivate at the beginning of the enemy turn if there is an opposing enemy creature that can attack. At the end of the turn if that creature did not attack, deal direct damage to the enemy equal to its attack.",
+    "tags": []
+  },
+  {
+    "id": 3679,
+    "slug": "--taunting-dance",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Taunting Dance",
+    "description": "#persistent\nActivate at the beginning of the enemy turn if there is an opposing enemy creature. At the end of the turn, if it did not attack, deal 5 LP damage to the enemy.",
+    "tags": []
+  },
+  {
+    "id": 3350,
+    "slug": "--linked-bro3",
+    "type": 0,
+    "power": 8,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Linked Bro",
+    "description": "At the beginning of your turn, if there aren't at least 2 other friendly Linked Bros in play, destroy me.",
+    "tags": []
+  },
+  {
+    "id": 3636,
+    "slug": "--darkassasin3",
+    "type": 0,
+    "power": 7,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Blood Assasin",
+    "description": "When I attack or am attacked - deal 2 damage to your Life Points.",
+    "tags": []
+  },
+  {
+    "id": 3622,
+    "slug": "--gcontract-haste",
+    "type": 0,
+    "power": 1,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Haste Contracter",
+    "description": "IN-GRAVE\nWhile I am the top-most card in your graveyard every time you manually  summon a new creature face-up, you take 2 damage and it suffers no summon exhaustion.",
+    "tags": []
+  },
+  {
+    "id": 3587,
+    "slug": "--drawttack",
+    "type": 0,
+    "power": 3,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Drawttack",
+    "description": "Every time I complete an attack, if I'm still in play, draw 1 card.",
+    "tags": []
+  },
+  {
+    "id": 3606,
+    "slug": "--traitor",
+    "type": 0,
+    "power": 7,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Traitor",
+    "description": "At the begnning of your turn if there is no opposing enemy creature, but you have less LP than the enemy, I move to their side.",
+    "tags": []
+  },
+  {
+    "id": 3590,
+    "slug": "--autoattacker",
+    "type": 0,
+    "power": 5,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Auto-Attacker",
+    "description": "I do not suffer from summon exhaustion, nor can I be used as a tribute.\nI cannot attack manually.\rI perform a free attack every time an opposing enemy creature is summoned.",
+    "tags": []
+  },
+  {
+    "id": 3653,
+    "slug": "--grand-bloodhaggler",
+    "type": 0,
+    "power": 13,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Superior Blood Haggler",
+    "description": "When I am about to die,  if you have more than 5 LP,\nabort my death, but take %%0 direct damage.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3630,
+    "slug": "--drawson1",
+    "type": 0,
+    "power": 6,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Garry",
+    "description": "When I attack, the opponent draws a card",
+    "tags": []
+  },
+  {
+    "id": 3644,
+    "slug": "--drawson2",
+    "type": 0,
+    "power": 7,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "drawson2",
+    "description": "When I attack, if the enemy has 2 or more cards, they draw %%0 cards.",
+    "tags": []
+  },
+  {
+    "id": 3597,
+    "slug": "--reversepiercer",
+    "type": 0,
+    "power": 8,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Reverse-piercer\r",
+    "description": "When combat between me and a weaker enemy creature starts, take direct damage equal to the difference in our power.",
+    "tags": []
+  },
+  {
+    "id": 3840,
+    "slug": "---__kami___",
+    "type": 0,
+    "power": 5,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "< < < Kami > > >",
+    "description": "I do not suffer summon-exhaustion.\nI can attack infinite times during a turn.\r\r1\rI am @unbreakable and my power is 9999",
+    "tags": []
+  },
+  {
+    "id": 3646,
+    "slug": "--bloodhaggler",
+    "type": 0,
+    "power": 6,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Blood Haggler",
+    "description": "When I am about to die from combat, abort my death, but take 3 direct damage to your LP.",
+    "tags": []
+  },
+  {
+    "id": 3602,
+    "slug": "--unbreakable",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "The Unbreakable",
+    "description": "I cannot be destroyed in combat while there are at least two friendly creatures adjacent to me.",
+    "tags": []
+  },
+  {
+    "id": 3626,
+    "slug": "--antizero",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Anti-Zero",
+    "description": "At the end of the enemy turn, destroy all face-up creatures with 0 power. ",
+    "tags": []
+  },
+  {
+    "id": 3594,
+    "slug": "--traitor2",
+    "type": 0,
+    "power": 8,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Traitor 2",
+    "description": "At the end of your turn, if there is no opposing enemy creature, I move to the enemy's side.",
+    "tags": []
+  },
+  {
+    "id": 3689,
+    "slug": "--grandtraphole2",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Grand Trap Hole 2",
+    "description": "Activate when an opposing enemy creature is summoned if you have a friendly creature on the same column. If the enemy creature is a grand creature destroy it, else destroy your own creature.",
+    "tags": []
+  },
+  {
+    "id": 3251,
+    "slug": "--grandtraphole",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Grand Trap Hole",
+    "description": "Activate when an opposing enemy creature is summoned. If it is a grand creature destroy it. If it isn't, you take 5 direct damage.",
+    "tags": []
+  },
+  {
+    "id": 3641,
+    "slug": "--fairturnhealer",
+    "type": 0,
+    "power": 5,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "fairhealer2",
+    "description": "At the beginning of each player's turn, increase their Life-Points by 2.",
+    "tags": []
+  },
+  {
+    "id": 3613,
+    "slug": "--powerhealer2",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "healer3",
+    "description": "At the beginning of your turn, if there is a non-grand opposing enemy creature face-up, gain LP equal to their power.",
+    "tags": []
+  },
+  {
+    "id": 3188,
+    "slug": "--grand-powerhealer",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Grand Power-Healer",
+    "description": "When I am manually summoned, gain LP equal to the power of the creature used as tribute.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3724,
+    "slug": "--antigrando",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "King-Slayer",
+    "description": "My power is raised by 5 while there is an opposing enemy grand creature in play.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3633,
+    "slug": "--badpiercer",
+    "type": 0,
+    "power": 5,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Bad Piercer",
+    "description": "I cannot be destroyed in battle by a creature with power different than mine.\nEvery time I battle, if there is an opposing enemy creature, take direct damage equal to the difference in our power.",
+    "tags": []
+  },
+  {
+    "id": 3634,
+    "slug": "--drawban",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Draw-Banner",
+    "description": "Whenever the opponent draws a new card manually, it is they discard it, but you take 1 LP direct damage.",
+    "tags": []
+  },
+  {
+    "id": 3635,
+    "slug": "--drawban2",
+    "type": 0,
+    "power": 5,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Draw-Banner 2",
+    "description": "Whenever the enemy draws a card, they discard it immediately, but you take 2 LP direct damage for each card,",
+    "tags": []
+  },
+  {
+    "id": 3639,
+    "slug": "--blocker",
+    "type": 0,
+    "power": 1,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Blocker",
+    "description": "I cannot be destroyed in battle while I am your only creature in play.",
+    "tags": []
+  },
+  {
+    "id": 3628,
+    "slug": "--kamikaze",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Kamikaze",
+    "description": "After I am successfully summoned, if there is a face-up enemy creature in play, destroy it, but take direct damage equal to its power. Destroy me as well as part of this effect.",
+    "tags": []
+  },
+  {
+    "id": 3610,
+    "slug": "--badclown",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "The Bad Clown",
+    "description": "At the end of the enemy's turn, if the top card in their graveyard is a trap, deal 4 damage to them",
+    "tags": []
+  },
+  {
+    "id": 3609,
+    "slug": "--resurrecter66",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Grand-Return!",
+    "description": "At the end of your turn, if there is an opposing enemy creature and possible, destroy me and summon the first  grand craeture in your graveyard that you can, but take direct damage equal to its base power.",
+    "tags": []
+  },
+  {
+    "id": 3599,
+    "slug": "--doublemana",
+    "type": 0,
+    "power": 6,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Nala",
+    "description": "I can only be manually summoned for 2 mana.",
+    "tags": []
+  },
+  {
+    "id": 3676,
+    "slug": "--tripplemana",
+    "type": 0,
+    "power": 12,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "tripplemana",
+    "description": "I can only be manually summoned for 3 mana.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3663,
+    "slug": "--weakshield",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "weakshield",
+    "description": "Activate when opposing enemy creature attacks you directly. Decrease its power by 6 until the end of the turn.",
+    "tags": []
+  },
+  {
+    "id": 3683,
+    "slug": "--sneakshot",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Sneak-shot",
+    "description": "Activate when opposing enemy creature attacks you directly. Deal 3 direct damage to the enemy.",
+    "tags": []
+  },
+  {
+    "id": 3684,
+    "slug": "--traplock",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Cripple2",
+    "description": "#persistent\nActivate when a trap is about to be set to the opposing enemy trap field. Lock that field until the end of the enemy turn.",
+    "tags": []
+  },
+  {
+    "id": 3675,
+    "slug": "--hurrah",
+    "type": 0,
+    "power": 15,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Hurrah",
+    "description": "? ? ?\nChange your LP to 1.Direct damage against you from all sources becomes 0. You take 1 direct damage when I die.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3671,
+    "slug": "--general2",
+    "type": 0,
+    "power": 7,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "The Other Gerneral",
+    "description": "Raise my power by 6 while you have no empty creature fields.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3654,
+    "slug": "--motherflapper",
+    "type": 0,
+    "power": 7,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Mother-Flapper",
+    "description": "All friendly creatures gain swift while I am in play.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3670,
+    "slug": "--hastegiver",
+    "type": 0,
+    "power": 14,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "hastegiver",
+    "description": "While I am in play, newly summoned enemy creatures do not suffer summon exhaustion.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3674,
+    "slug": "--hastegiver2",
+    "type": 0,
+    "power": 11,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "hastegiver2",
+    "description": "While I am in play, enemy creatures summoned to the opposing field do not suffer summon exhaustion.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3655,
+    "slug": "--reflipper",
+    "type": 0,
+    "power": 9,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Reflipper",
+    "description": "When I am summoned, activate the Safe-Flip effect of every card in play that has any.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3678,
+    "slug": "--fury2",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Fury",
+    "description": "Activate when you are dealt direct damage by an enemy creature. Destroy all creatures with power lower than that damage.",
+    "tags": []
+  },
+  {
+    "id": 3617,
+    "slug": "--specialo",
+    "type": 0,
+    "power": 3,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Specialo",
+    "description": "When I am summoned face-up in any way other than manually, raise my power by 10.",
+    "tags": []
+  },
+  {
+    "id": 3619,
+    "slug": "--managiver",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "managiver",
+    "description": "When I am summoned, you gain 2 mana (without ignoring your current mana-capacity)",
+    "tags": []
+  },
+  {
+    "id": 3672,
+    "slug": "--crippler",
+    "type": 0,
+    "power": 7,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Crippler",
+    "description": "Every enemy creature summoned face-up while I am in play has its power reduced by 2.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3656,
+    "slug": "--specialhaste",
+    "type": 0,
+    "power": 9,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "specialhaste",
+    "description": "When I am summoned in any way other than manual summon, I do not suffer sumon exhaustion.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3659,
+    "slug": "--paulgrand",
+    "type": 0,
+    "power": 8,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Grand-Paul",
+    "description": "When I enter play, if there is an opposing enemy creature, I do not suffer summon exhaustion.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3703,
+    "slug": "--redirect-in",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Portal Alpha",
+    "description": "@redirect_out must also be in play for activation.\nActivate when opposing enemy creature attacks you directly. Negate the attack and activate %%0.",
+    "tags": []
+  },
+  {
+    "id": 3199,
+    "slug": "--actiontaker",
+    "type": 0,
+    "power": 7,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "actiontaker",
+    "description": "When another friendly creature performs an attack or relocation, if I can perform the same action I become exhausted instead of it.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3658,
+    "slug": "--upgrade",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "upgrade",
+    "description": "When I am manually summoned, raise my power by the base power of my tribute.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3709,
+    "slug": "--mass-depower",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Massive Temporary Depowering",
+    "description": "#persistent\nActivate at the beginning of the enemy turn. All enemy creatures' power is decreasued by 3 while this trap is in play. Destroy this trap at the end of the turn it was activated.",
+    "tags": []
+  },
+  {
+    "id": 3638,
+    "slug": "--harrasser1",
+    "type": 0,
+    "power": 1,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Harrassing Mia",
+    "description": "I cost 3 mana to be summoned manually.\nI cannot be used as a tribute.\rI do not suffer summon exhaustion.\rReturn me to your hand at the end of your turn.",
+    "tags": []
+  },
+  {
+    "id": 3660,
+    "slug": "--pwrdowner",
+    "type": 0,
+    "power": 15,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "pwrdowner",
+    "description": "At the end of your every turn, decrease my power by 1.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3666,
+    "slug": "--tempower2",
+    "type": 0,
+    "power": 14,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Hot Mess",
+    "description": "My power decreases by 4 after each of my successful attacks.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3263,
+    "slug": "--traptrap",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Trap-Trap",
+    "description": "Activate when opposing enemy trap is activated. Negate its effect and destroy it.",
+    "tags": []
+  },
+  {
+    "id": 3266,
+    "slug": "--swapper2",
+    "type": 0,
+    "power": 3,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "The Swapper",
+    "description": "I can relocate to an occupied creature field on your side, by swapping places with the creature there. This does not count as relocation for the other creature.",
+    "tags": []
+  },
+  {
+    "id": 3624,
+    "slug": "--angered",
+    "type": 0,
+    "power": 3,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "ti364w",
+    "description": "My power is raised by 3 while there is an opposing enemy creature.",
+    "tags": []
+  },
+  {
+    "id": 3623,
+    "slug": "--drawhater",
+    "type": 0,
+    "power": 9,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Axer",
+    "description": "Every time the enemy draws a card, decrease my power by 1.",
+    "tags": []
+  },
+  {
+    "id": 3614,
+    "slug": "--drawrager2",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "drawrager2",
+    "description": "Increase my power by 1 every time you draw a card.",
+    "tags": []
+  },
+  {
+    "id": 3598,
+    "slug": "--shmester",
+    "type": 0,
+    "power": 7,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Shmester",
+    "description": "Decrease my power by 1 every time another creature enters play.",
+    "tags": []
+  },
+  {
+    "id": 3841,
+    "slug": "--token1",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "token1",
+    "description": "",
+    "tags": []
+  },
+  {
+    "id": 3592,
+    "slug": "--trapsaver2",
+    "type": 0,
+    "power": 3,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Re-Trapper",
+    "description": "When your own trap card on this column is about to leave play, set it back face-down in the same place, then kill me, but leave a token in my place.",
+    "tags": []
+  },
+  {
+    "id": 3640,
+    "slug": "--token-summoner2",
+    "type": 0,
+    "power": 3,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "token_summoner2",
+    "description": "When I am summoned, if possible, summon a 0 power token to my left and to my right.",
+    "tags": []
+  },
+  {
+    "id": 3642,
+    "slug": "--fair-manaup",
+    "type": 0,
+    "power": 5,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "fair manaup",
+    "description": "When I enter play, if possible, Increase both players' mana cap by 1.",
+    "tags": []
+  },
+  {
+    "id": 3591,
+    "slug": "--traprager",
+    "type": 0,
+    "power": 3,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Trap-Rager",
+    "description": "Increase my power by 1 every time a trap is activated.",
+    "tags": []
+  },
+  {
+    "id": 3627,
+    "slug": "--trapkiller0",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "trapkiller0",
+    "description": "When I am summoned, if there is an opposing enemy face-up persistent trap, destroy it.",
+    "tags": []
+  },
+  {
+    "id": 3620,
+    "slug": "--reflipper2",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "reflipper2",
+    "description": "IN-GRAVE\nWhile I am the top card in your graveyard, at the end of every player's turn force-activate the safe-flip effects of all their face-up creatures in play.",
+    "tags": []
+  },
+  {
+    "id": 3246,
+    "slug": "--swap-ultimatum",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Ultimatum",
+    "description": "#persistent\nActivate at the start of the enemy's turn, if there are both a friendly and an enemy creature on this colum. At the end of the enemy's turn, if that is still the case, they swap places, else if there is only a friendly creature, destoy it.",
+    "tags": []
+  },
+  {
+    "id": 3705,
+    "slug": "--megatrap",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Mega-Trap",
+    "description": "Activate during the enemy turn the moment there is an opposing enemy creature with power higher than 16. Destroy it instantly.",
+    "tags": []
+  },
+  {
+    "id": 3595,
+    "slug": "--angered2",
+    "type": 0,
+    "power": 3,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "angered2",
+    "description": "My power is raised by 4 while there is an opposing face-down creature.",
+    "tags": []
+  },
+  {
+    "id": 3593,
+    "slug": "--deckstructor0",
+    "type": 0,
+    "power": 5,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "deckstructor0",
+    "description": "When I am summoned, both players discard the top card from their decks.",
+    "tags": []
+  },
+  {
+    "id": 3631,
+    "slug": "--charger",
+    "type": 0,
+    "power": 3,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "charger",
+    "description": "My power is raised by 1 every time I am relocated.",
+    "tags": []
+  },
+  {
+    "id": 3121,
+    "slug": "--webweaver",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Webweaver",
+    "description": "Safe-Flip\nAll enemy creatures cannot attack until the end of your opponent's next turn.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3087,
+    "slug": "--life-syphon_1",
+    "type": 0,
+    "power": 1,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Life Syphon 1",
+    "description": "Combat-Flip\nHeal your Life-Points by an amount equal to the attacking enemy creature's power.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3102,
+    "slug": "--thieving-monkey",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Thieving Monkey",
+    "description": "Safe-Flip\nPut the topmost card in the enemy graveyard in your hand.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3099,
+    "slug": "--trapreturner",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Trapster",
+    "description": "Combat-Flip\nMove the first trap you find in your graveyard to your hand.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3134,
+    "slug": "--loneshield",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "loneshield",
+    "description": "All combat damage against me becomes zero if there are no other friendly creatures.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3124,
+    "slug": "--decksummoner",
+    "type": 0,
+    "power": 3,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Summoner D",
+    "description": "When I die during the enemy's turn, flip the top card in your deck face-up. If it's a non-grand-creature, summon it in my place face-up.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3085,
+    "slug": "--bomb",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Bomb",
+    "description": "Safe-Flip\nDestroy all creatures.\rTake 2 damage for each destroyed creature",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3084,
+    "slug": "--combat-spirit",
+    "type": 0,
+    "power": 8,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Combat Spirit",
+    "description": "When I am killed in combat by the opposing enemy creature, that creature's exhaustion resets.\n(this normally means they can attack again)",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3083,
+    "slug": "--bloodmerc",
+    "type": 0,
+    "power": 7,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Blood Merc",
+    "description": "When I enter your graveyard, take 5 LP direct damage.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3330,
+    "slug": "--marco",
+    "type": 0,
+    "power": 3,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Marco",
+    "description": "Safe-Flip\nIf @polo is in your graveyard - add it to your hand.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3113,
+    "slug": "--resurrecter1",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Necro-Switcher",
+    "description": "On death from combat - if possible summon the top creature in your graveyard in my place.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3080,
+    "slug": "--fateweaver",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Fateweaver",
+    "description": "Safe-flip\nMy controller draws 2 cards, then discards one card from their hand.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3079,
+    "slug": "--unkillable-barny",
+    "type": 0,
+    "power": 1,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Unkillable Barny",
+    "description": "IN-GRAVE\nAt the beginning of your turn, if I am the topmost card in your grave, i return to your hand.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3126,
+    "slug": "--badfate",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Bad Fate",
+    "description": "Combat-Flip\nWhen I die, both players discard their hands.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3331,
+    "slug": "--polo",
+    "type": 0,
+    "power": 3,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Polo",
+    "description": "Combat-Flip\nIf @marco is in your graveyard - add it to your hand.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3105,
+    "slug": "--bomb2",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "bomb2",
+    "description": "Combat-Flip:\nDestroy opposing creature and take damage equal to its power.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3136,
+    "slug": "--berserker",
+    "type": 0,
+    "power": 12,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Berserker",
+    "description": "I will attack automatically at the begining of your turn, but it will exhaust me as if it was a manual attack.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3082,
+    "slug": "--resurrecter4",
+    "type": 0,
+    "power": 1,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Spirit of Rebirth",
+    "description": "Safe-Flip:\nIf possible resurrect the top card in your  graveyard in my place.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3204,
+    "slug": "--bloodlink",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Blood-Link",
+    "description": "#persistent\nActivate at the start of your opponent's turn. The enemy draws one card. Every direct damage you take is dealt to the opponent as well. Destroy at the end of the enemy's turn.",
+    "tags": []
+  },
+  {
+    "id": 3205,
+    "slug": "--antiflip-safe",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "No-Flippers!",
+    "description": "Activate me when an opposing enemy creature's safe-flip effect is triggered.\nNegate that effect.",
+    "tags": []
+  },
+  {
+    "id": 3264,
+    "slug": "--flappy-bird2",
+    "type": 0,
+    "power": 5,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Flappy Bird 2",
+    "description": "I can both attack and move before exhausting, but I cannot attack while there is no opposing enemy creature.",
+    "tags": []
+  },
+  {
+    "id": 3368,
+    "slug": "--ed",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Ed",
+    "description": "When I am summoned, if possible:\nIf @edd is in play, add @eddy from your deck to your hand.\rIf %%1 is in play, add %%0 from your deck to your hand",
+    "tags": []
+  },
+  {
+    "id": 3369,
+    "slug": "--edd",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Edd",
+    "description": "When I am summoned, if possible:\nIf @ed is in play, add @eddy from your deck to your hand.\rIf %%1 is in play, add %%0 from your deck to your hand",
+    "tags": []
+  },
+  {
+    "id": 3262,
+    "slug": "--enough",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Flash Mine",
+    "description": "Activate when opposing enemy creature is summoned manually and there is no friendly creature on your side of the column. The enemy's turn ends immediately.",
+    "tags": []
+  },
+  {
+    "id": 3074,
+    "slug": "--drawban3",
+    "type": 0,
+    "power": 3,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Draw-Banner 3",
+    "description": "IN-GRAVE\nAs long as I am the top card in your graveyard, whenever the opponent draws a card manually, it is sent to the graveyard.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3217,
+    "slug": "--atk2move1",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Shock Magnet",
+    "description": "When any enemy creature attacks and the opposing enemy field is empty, force it to relocate there instead.",
+    "tags": []
+  },
+  {
+    "id": 3111,
+    "slug": "--immortal2",
+    "type": 0,
+    "power": 3,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Immortal Bob",
+    "description": "While in your graveyard:\nthe moment you have no cards in your hand - add me to your hand",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3356,
+    "slug": "--evo-a_f2",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Cocoon",
+    "description": "Cannot attack",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3133,
+    "slug": "--immortal1",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Eternal Billy",
+    "description": "While in your graveyard:\nthe moment you have no creatures in play - add me to your hand",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3397,
+    "slug": "--com-g0_5",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Grand Part 5",
+    "description": "Combines with G0",
+    "tags": []
+  },
+  {
+    "id": 3271,
+    "slug": "--harshfred",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Harsh Fred",
+    "description": "While I am in play, every time a player uses mana, they also take 1 LP damage.",
+    "tags": []
+  },
+  {
+    "id": 3334,
+    "slug": "--zig",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Zig",
+    "description": "At the beginning of your turn if a card named @zag is in your graveyard - add it to your hand.",
+    "tags": []
+  },
+  {
+    "id": 3335,
+    "slug": "--zag",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Zag",
+    "description": "At the beginning of your turn if a card named @zig is in your graveyard - add it to your hand.",
+    "tags": []
+  },
+  {
+    "id": 3393,
+    "slug": "--com-g0_1",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Grand Part 1",
+    "description": "Combines with G0",
+    "tags": []
+  },
+  {
+    "id": 3394,
+    "slug": "--com-g0_2",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Grand Part 2",
+    "description": "Combines with G0",
+    "tags": []
+  },
+  {
+    "id": 3395,
+    "slug": "--com-g0_3",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Grand Part 3",
+    "description": "Combines with G0",
+    "tags": []
+  },
+  {
+    "id": 3396,
+    "slug": "--com-g0_4",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Grand Part 4",
+    "description": "Combines with G0",
+    "tags": []
+  },
+  {
+    "id": 3411,
+    "slug": "--com-gh_2",
+    "type": 0,
+    "power": 8,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Grand Half Omega",
+    "description": "Combines with GH",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3410,
+    "slug": "--com-gh_1",
+    "type": 0,
+    "power": 8,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Grand Half Alpha",
+    "description": "Combines with GH",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3349,
+    "slug": "--linked-bro2",
+    "type": 0,
+    "power": 6,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Linked Bro",
+    "description": "At the beginning of your turn, if there aren't at least 2 other friendly Linked Bros in play, destroy me.",
+    "tags": []
+  },
+  {
+    "id": 3348,
+    "slug": "--linked-bro1",
+    "type": 0,
+    "power": 8,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Linked Bro",
+    "description": "At the beginning of your turn, if there aren't at least 2 other friendly Linked Bros in play, destroy me.",
+    "tags": []
+  },
+  {
+    "id": 3216,
+    "slug": "--atk2move2",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Magnet",
+    "description": "When any enemy creature attacks and the opposing enemy field is empty, force it to perform a free relocation there first. The attack continues.",
+    "tags": []
+  },
+  {
+    "id": 3200,
+    "slug": "--defmove-right",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Defense From The East",
+    "description": "Activate when opposing enemy creature attacks you directly and there is a friendly creature on the column to your right. Move that friendly creature to this column.",
+    "tags": []
+  },
+  {
+    "id": 3354,
+    "slug": "--8ball-3",
+    "type": 0,
+    "power": 1,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "8-Ball 3",
+    "description": "When I die, if possible summon another 8-Ball from your deck in my place.",
+    "tags": []
+  },
+  {
+    "id": 3128,
+    "slug": "--lategamer",
+    "type": 0,
+    "power": 6,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Late-Gamer",
+    "description": "At the beginning of your turn, if I am face-up in play an you have more than 10 LP, destroy me.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3328,
+    "slug": "--jill",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Jill",
+    "description": "When I enter play, if possible summon @jack from your graveyard to the field on my left.",
+    "tags": []
+  },
+  {
+    "id": 3329,
+    "slug": "--jack",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Jack",
+    "description": "When I enter play, if possible summon @jill from your graveyard to the field on my right.",
+    "tags": []
+  },
+  {
+    "id": 3094,
+    "slug": "--nona",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Nona",
+    "description": "Safe-Flip:\nRaise my power by 6.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3201,
+    "slug": "--defmove-left",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Defense From The West",
+    "description": "Activate when opposing enemy creature attacks you directly and there is a friendly creature on the column to your left. Move that friendly creature to this column.",
+    "tags": []
+  },
+  {
+    "id": 3202,
+    "slug": "--turnend",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Turn End",
+    "description": "Activate when opposing enemy creature's attack finishes during the enemy turn and it is stiill in play. Force the enemy to end their turn.",
+    "tags": []
+  },
+  {
+    "id": 3129,
+    "slug": "--kamikaze2",
+    "type": 0,
+    "power": 1,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Kamikaze2",
+    "description": "Combat-Flip:\nDestroy opposing enemy creature, but take direct damage equal to its power.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3127,
+    "slug": "--glassspike",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Glass Spike",
+    "description": "Combat-Flip:\nDeal direct damage to the enemy player equal to my current power.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3367,
+    "slug": "--forbidden4",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Forbidden Spirit 4",
+    "description": "When all 4 Forbidden-Spirits are in play under your control, my power is raised by 14",
+    "tags": []
+  },
+  {
+    "id": 3364,
+    "slug": "--forbidden1",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Forbidden Spirit 1",
+    "description": "When all 4 Forbidden-Spirits are in play under your control, my power is raised by 14",
+    "tags": []
+  },
+  {
+    "id": 3365,
+    "slug": "--forbidden2",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Forbidden Spirit 2",
+    "description": "When all 4 Forbidden-Spirits are in play under your control, my power is raised by 14",
+    "tags": []
+  },
+  {
+    "id": 3366,
+    "slug": "--forbidden3",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Forbidden Spirit 3",
+    "description": "When all 4 Forbidden-Spirits are in play under your control, my power is raised by 14",
+    "tags": []
+  },
+  {
+    "id": 3073,
+    "slug": "--stunner",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Stunner",
+    "description": "Combat-Flip:\nOpposing enemy creature is cannot attack  until the end of the turn.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3261,
+    "slug": "--cripple",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Cripple",
+    "description": "Activate when opposing enemy creature attacks. Decrease its power by 2.",
+    "tags": []
+  },
+  {
+    "id": 3086,
+    "slug": "--trapkiller",
+    "type": 0,
+    "power": 3,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Trap Diffuser",
+    "description": "Safe-Flip\nDestroy opposing enemy trap if any.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3075,
+    "slug": "--shield8",
+    "type": 0,
+    "power": 7,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Tricky Shield",
+    "description": "I cannot attack.\nWhile l am face-up all direct damage you take becomes 0.\rDestroy me at the end of your turn if I am face-up and you have less than 4 mana.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3625,
+    "slug": "--necropy",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Necropy",
+    "description": "Take 1 direct damage when you manually summon me. \nMy power is raised by that of the top card in the enemy graveyard at all times (0 if it is not a creature).",
+    "tags": []
+  },
+  {
+    "id": 3135,
+    "slug": "--safebuffer",
+    "type": 0,
+    "power": 1,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Safe-Buffer",
+    "description": "Safe-Flip\nRaise the power of all face-up friendly creatures by 1.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3122,
+    "slug": "--spike",
+    "type": 0,
+    "power": 1,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Spike",
+    "description": "Combat-Flip\nDeal 3 direct damage to the enemy.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3699,
+    "slug": "--redirect-out",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Portal Omega",
+    "description": "Activate only when the effect of your @redirect_in is activated. Deal damage to the enemy equal to the power of the enemy creature opposite to %%0.",
+    "tags": []
+  },
+  {
+    "id": 3399,
+    "slug": "--swap-left",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Swappy Left",
+    "description": "Combat-Flip\nIf there is a friendly creature to my left, we swap places, and the attack continues normally.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3400,
+    "slug": "--swap-right",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Swappy R",
+    "description": "Combat-Flip\nIf there is a friendly creature to my right, we swap places, and the attack continues normally.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3726,
+    "slug": "--tempower",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "tempower",
+    "description": "Safe-Flip:\nRaise my power by 8.\r\rAt the end of your every turn, if my power is 2 or higher, decrease it by %%1.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3107,
+    "slug": "--grower",
+    "type": 0,
+    "power": 3,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "grower\r",
+    "description": "At the end of your turn if I am face-up in play, increase my power by 1.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3123,
+    "slug": "--resurrecter5",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "resurrecter5",
+    "description": "When I die from combat and enter your graveyard, flip the top card in your deck face-up. If it is a creature and can be auto-summoned in my place, summon it.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3704,
+    "slug": "--trap-cleanup1",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "trap cleanup1",
+    "description": "Activate when any other trap in play is activated. Negate its effect and destroy all traps in play.",
+    "tags": []
+  },
+  {
+    "id": 3685,
+    "slug": "--column-cleanup",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "column cleanup",
+    "description": "Activate when opposing enemy trap is activated.\nNegate its effect and destroy it along with both players' creatures and traps on the same column if any.",
+    "tags": []
+  },
+  {
+    "id": 3686,
+    "slug": "--deadly-sacrifice",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Deadly Sacrifice",
+    "description": "Activate when opposing enemy creature attacks and there is a friendly creature on your own side. Destroy both creatures, but take damage equal to the enemy creature's power.",
+    "tags": []
+  },
+  {
+    "id": 3696,
+    "slug": "--trappeek",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Trap-Peek",
+    "description": "Activate when opposing enemy trap is set. Flip it face-up without activating, then flip it back face-down.",
+    "tags": []
+  },
+  {
+    "id": 3229,
+    "slug": "--trapsteal",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Trap-Steal",
+    "description": "When opposing enemy trap is about to leave play, add it to your hand instead.",
+    "tags": []
+  },
+  {
+    "id": 3690,
+    "slug": "--trapsteal2",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Trap-Trap 2",
+    "description": "Activate when opposing enemy trap is activated while there is a friendly creature on this column. Your creature is sacrificed and the enemy trap is added to your hand, aborting its activation.",
+    "tags": []
+  },
+  {
+    "id": 3203,
+    "slug": "--deadly-nonsacrifice",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Deadly Non-Sacrifice",
+    "description": "Activate when opposing enemy creature attacks and there is a friendly creature on your own side. Destroy the enemy creature, but take damage equal to both creatures' power.",
+    "tags": []
+  },
+  {
+    "id": 3206,
+    "slug": "--enemyhealer",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "enemyhealer",
+    "description": "#persistent\nActivate when you are about to receive damage from any source. While I am in play, any damage you are about to receive becomes 0, but the enemy gains LP of the same amount. Destroy at the end of the enemy's turn.",
+    "tags": []
+  },
+  {
+    "id": 3707,
+    "slug": "--move2atk",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Taunt",
+    "description": "Activate when opposing enemy creature is about to be manually relocated. Force is to perform a free attack first.",
+    "tags": []
+  },
+  {
+    "id": 3708,
+    "slug": "--move2ctrl",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "move2ctrl",
+    "description": "Activate when opposing enemy creature is about to be relocated during their turn and there is a friendly creature on your side of it. Destroy your creature and relocate the enemy creature in its place. It is now under your control.",
+    "tags": []
+  },
+  {
+    "id": 3363,
+    "slug": "--forsaken4",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Forsaken Being 4",
+    "description": "While I am in play, the power of every other Forsaken-Being is increased by 5.",
+    "tags": []
+  },
+  {
+    "id": 3360,
+    "slug": "--forsaken1",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Forsaken Being 1",
+    "description": "While I am in play, the power of every other Forsaken-Being is increased by 5.",
+    "tags": []
+  },
+  {
+    "id": 3361,
+    "slug": "--forsaken2",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Forsaken Being 2",
+    "description": "While I am in play, the power of every other Forsaken-Being is increased by 5.",
+    "tags": []
+  },
+  {
+    "id": 3362,
+    "slug": "--forsaken3",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Forsaken Being 3",
+    "description": "While I am in play, the power of every other Forsaken-Being is increased by 5.",
+    "tags": []
+  },
+  {
+    "id": 3338,
+    "slug": "--grandbro1",
+    "type": 0,
+    "power": 9,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Supreme Bro #1",
+    "description": "My power is raised by 3 while a friendly @grandbro2 is also in play.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3339,
+    "slug": "--grandbro2",
+    "type": 0,
+    "power": 9,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Supreme Bro #2",
+    "description": "My power is raised by 3 while a friendly @grandbro1 is also in play.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3380,
+    "slug": "--nightelf1",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "NightElf-1",
+    "description": "My power is raised by 1 for each other NightElf in your graveyard.",
+    "tags": []
+  },
+  {
+    "id": 3383,
+    "slug": "--nightelf4",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "NightElf-4",
+    "description": "My power is raised by 1 for each other NightElf in your graveyard.",
+    "tags": []
+  },
+  {
+    "id": 3382,
+    "slug": "--nightelf3",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "NightElf-3",
+    "description": "My power is raised by 1 for each other NightElf in your graveyard.",
+    "tags": []
+  },
+  {
+    "id": 3381,
+    "slug": "--nightelf2",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "NightElf-2",
+    "description": "My power is raised by 1 for each other NightElf in your graveyard.",
+    "tags": []
+  },
+  {
+    "id": 3376,
+    "slug": "--broodelf1",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "BroodElf",
+    "description": "My power is raised by 3 for each other BroodElf in your graveyard.",
+    "tags": []
+  },
+  {
+    "id": 3379,
+    "slug": "--broodelf4",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "BroodElf",
+    "description": "My power is raised by 3 for each other BroodElf in your graveyard.",
+    "tags": []
+  },
+  {
+    "id": 3378,
+    "slug": "--broodelf3",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "BroodElf",
+    "description": "My power is raised by 3 for each other BroodElf in your graveyard.",
+    "tags": []
+  },
+  {
+    "id": 3377,
+    "slug": "--broodelf2",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "BroodElf",
+    "description": "My power is raised by 3 for each other BroodElf in your graveyard.",
+    "tags": []
+  },
+  {
+    "id": 3692,
+    "slug": "--summon2atk",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "summon2atk",
+    "description": "Actuvate when opposing enemy creature is summoned. It does not suffer summon exhaustion. If it can attack, force it to perform a manual attack.",
+    "tags": []
+  },
+  {
+    "id": 3081,
+    "slug": "--swapper",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "swapper",
+    "description": "I can relocate to an occupied creature field on your side, by swapping places with the creature there. This does not count as relocation for the other creature.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3650,
+    "slug": "--",
+    "type": 0,
+    "power": 9,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "While I am in play, all creatures summoned on any side do not suffer summon exhaustion.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3193,
+    "slug": "--grandgrandpaul",
+    "type": 0,
+    "power": 10,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "grandgrandpaul",
+    "description": "I can only be summoned by tributing another grand-creature.\nI do not suffer summon exhaustion.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3109,
+    "slug": "--hane",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "ppjeoy",
+    "description": "At the beginning of your turn, if I am face up in play, return me to your hand.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3651,
+    "slug": "--m7x4yl",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "m7x4yl",
+    "description": "Reduce the power of any enemy creatures on the opposing field by %%0 while I am in play.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3152,
+    "slug": "--black-hood2",
+    "type": 0,
+    "power": 7,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Black Hood",
+    "description": "At the end of your turn, destroy all face-up creatures with power lower than mine.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3665,
+    "slug": "--trapsaver3",
+    "type": 0,
+    "power": 9,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Re-Trapper2",
+    "description": "When your own trap card on this column leaves play, set it back face-down in the same place, then return me to your hand.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3691,
+    "slug": "--dmgup",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "dmgup",
+    "description": "Activate when the enemy is about to receive direct damage during their own turn. Increase that damage by 5;",
+    "tags": []
+  },
+  {
+    "id": 3191,
+    "slug": "--vouerer",
+    "type": 0,
+    "power": 15,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "vouerer",
+    "description": "When opposing enemy creature dies during your own turn, my power is decreased by its power.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3693,
+    "slug": "--anti-flip1",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "anti flip1",
+    "description": "When an opposing enemy creature is summoned face-down, flip it face-up without activating any of its flip effects.",
+    "tags": []
+  },
+  {
+    "id": 3694,
+    "slug": "--deadly-sacrifice2",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "deadly sacrifice2",
+    "description": "Activate when opposing enemy creature attacks and there is a friendly creature on your own side. Destroy your own creature and return the enemy creature to its owner's hand.",
+    "tags": []
+  },
+  {
+    "id": 3207,
+    "slug": "--traptrap2",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Trap-Trap 2",
+    "description": "Activate when any enemy trap is activated while there is a friendly creature on this column. Your creature is sacrificed and the enemy trap is destroyed, its effect negated.",
+    "tags": []
+  },
+  {
+    "id": 3664,
+    "slug": "--doomsday",
+    "type": 0,
+    "power": 5,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Doomsday",
+    "description": "When I die, destroy all creatures.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3700,
+    "slug": "--fury",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Fury",
+    "description": "Activate when you are dealt direct damage by the opposing enemy creature. Destroy all enemy creatures with power lower than that damage.",
+    "tags": []
+  },
+  {
+    "id": 3088,
+    "slug": "--crowdpowered",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Crowd-Powered",
+    "description": "Raise my power by 1 for each creature in play, other than me.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3137,
+    "slug": "--mario",
+    "type": 0,
+    "power": 9,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Mario",
+    "description": "After I attack if possible I relocate to the field on the right, else if possible - to the left.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3687,
+    "slug": "--retrap",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Re-trap",
+    "description": "Activate when another friendly trap leaves play. Set it back on its last occupied trap-field.",
+    "tags": []
+  },
+  {
+    "id": 3408,
+    "slug": "--com-g3_1",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "com g3 1",
+    "description": "Combines with G3",
+    "tags": []
+  },
+  {
+    "id": 3409,
+    "slug": "--com-g3_2",
+    "type": 0,
+    "power": 5,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "com g3 1",
+    "description": "Combines with G3",
+    "tags": []
+  },
+  {
+    "id": 3192,
+    "slug": "--grand-copycat",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "grand copycat",
+    "description": "When I am summoned, if there is an opposing face-up enemy creature, I gain power equal to its current power plus 1.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3710,
+    "slug": "--antiflip-combat",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "No-Flippers!",
+    "description": "Activate me when an opposing enemy creature's combat-flip effect is triggered.\nNegate that effect.",
+    "tags": []
+  },
+  {
+    "id": 3711,
+    "slug": "--manadrain",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Mana-Drain",
+    "description": "Activate when opposing enemy creature is summoned manually. The enemy's mana is depleted instantly.",
+    "tags": []
+  },
+  {
+    "id": 3695,
+    "slug": "--eject",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Eject",
+    "description": "When an enemy creature enters the opposing field for any reason, return it to its owner's hand.",
+    "tags": []
+  },
+  {
+    "id": 3648,
+    "slug": "--swapper3",
+    "type": 0,
+    "power": 8,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "swapper3",
+    "description": "I can relocate to an occupied creature field on your side, by swapping places with the creature there. This does not count as relocation for the other creature.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3189,
+    "slug": "--gcontract-swap",
+    "type": 0,
+    "power": 6,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "gcontract swap",
+    "description": "IN-GRAVE\nWhile I am the top card in your grave, all of your creatures can be manually relocated to occupied creature fields as well as empty, by swapping places with the creature there. This does not count as relocation for the other creature.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3611,
+    "slug": "--megasweeper",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "megasweeper",
+    "description": "At the end of your turn destroy all creatures in play with power higher than 16.",
+    "tags": []
+  },
+  {
+    "id": 3101,
+    "slug": "--bloodhaggler2",
+    "type": 0,
+    "power": 3,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Blood-Haggler II",
+    "description": "Combat-Flip\nStun opposing creature until the end of the turn.\rTake 3 direct damage and return me to your hand.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3725,
+    "slug": "--timereverser",
+    "type": 0,
+    "power": 3,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "Time-Reverser",
+    "description": "Combat-Flip:\nAdd the top card in your graveyard to the top of your deck.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3698,
+    "slug": "--summon2move",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "summon2move",
+    "description": "Activate when the opposing enemy creature field is empty and an enemy creature is summoned to a different field. Move it to the opposing field.",
+    "tags": []
+  },
+  {
+    "id": 3680,
+    "slug": "--draw-deckstruction",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "draw deckstruction",
+    "description": "#persistent\nActivate at the start of the enemy's turn. Until the end of their turn, for every card they draw, they discard 2 cards from the top of their deck.",
+    "tags": []
+  },
+  {
+    "id": 3681,
+    "slug": "--empower3",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "empower III",
+    "description": "#persistent\nActivate at the begiinning of the enemy's turn, if there is a friendly face-up creature on this column. Raise its power by 2 every time an enemy creature attacks until the end of your own turn.",
+    "tags": []
+  },
+  {
+    "id": 3682,
+    "slug": "--super-empower",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "super empower",
+    "description": "#persistent\nActivate at the begiinning of the enemy's turn, if there is a friendly face-up creature on this column. Raise its power by 7 until the end of the turn.",
+    "tags": []
+  },
+  {
+    "id": 3697,
+    "slug": "--empower2",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "empower2",
+    "description": "#persistent\nActivate at the begiinning of the enemy's turn, if there is a friendly face-up creature on this column. Raise its power by 1 every time an enemy creature attacks. Destroy at the end of the turn.",
+    "tags": []
+  },
+  {
+    "id": 3688,
+    "slug": "--spynet",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "spynet",
+    "description": "#persistent\nActivate at the beginning of the enemy turn. Until the end of their turn, every time they set a new trap or summon a creature face-down, they must show you what it is first.",
+    "tags": []
+  },
+  {
+    "id": 3131,
+    "slug": "--deckstructor2",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "deckstructor2",
+    "description": "Combat-Flip:\nEnemy discards 4 cards from their deck.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3608,
+    "slug": "--yqfu19",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "yqfu19",
+    "description": "When I am summoned, I perform a free attack.\n\r???",
+    "tags": []
+  },
+  {
+    "id": 3325,
+    "slug": "--bomb9",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "bomb9",
+    "description": "Destroy me at the end of the enemy turn.\nWhen I die, if possible, destroy the opposing enemy creature and all adjacent friendly creatures in play.",
+    "tags": []
+  },
+  {
+    "id": 3652,
+    "slug": "--foe-linkee2",
+    "type": 0,
+    "power": 13,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "foe linkee2",
+    "description": "While I am in play, when an enemy creature is summoned, life-link me to it, unless I am already life-linked to a creature.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3607,
+    "slug": "--linker",
+    "type": 0,
+    "power": 8,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "linker",
+    "description": "When I am summoned, if there are friendly creatures adjacent to me, life-link me to them, else - destroy me.",
+    "tags": []
+  },
+  {
+    "id": 3701,
+    "slug": "--reflip1",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "t1fys8",
+    "description": "Activate when an opposing enemy creature begins an attack and there is a face-up flippable friendly creature with a combat-flip effect on the same column. Flip your creature face-down.",
+    "tags": []
+  },
+  {
+    "id": 3702,
+    "slug": "--reflip2",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "kw55ly",
+    "description": "Activate when an opposing enemy creature is summoned and there is a face-up flippable friendly creature with a safe-flip effect on the same column. Flip your creature face-down.",
+    "tags": []
+  },
+  {
+    "id": 3130,
+    "slug": "--crippler",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "crippler",
+    "description": "Safe-Flip:\nIf possible, decrease opposing enemy creature's power by 5.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 3612,
+    "slug": "--doubleattacker",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "doubleattacker",
+    "description": "After I finish an attack, if I am still in play I automatically perform another attack.",
+    "tags": []
+  },
+  {
+    "id": 3649,
+    "slug": "--directo1",
+    "type": 0,
+    "power": 7,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "directo1",
+    "description": "At the end of the enemy turn, if there is an opposing enemy creature, deal 1 direct damage  to them.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3190,
+    "slug": "--binaro",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "binaro",
+    "description": "My power equals 2 to the power of your current mana amount.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 3668,
+    "slug": "--rock",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "rock",
+    "description": "My power equals the current power of my tribute at the moment of its death.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 1025,
+    "slug": "god-killer",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "safe-flip:\nKill opposite enemy, if its power is 15 or above.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 1026,
+    "slug": "magi-block-1",
+    "type": 0,
+    "power": 3,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "Opposite unit cannot attack.\nAt the start of your turn, if there is no opposite unit, I die.",
+    "tags": []
+  },
+  {
+    "id": 1027,
+    "slug": "magi-block-2",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "If opposite grand unit attacks, negate the attack, but the enemy draws one card.",
+    "tags": []
+  },
+  {
+    "id": 1034,
+    "slug": "grower-ap-g",
+    "type": 0,
+    "power": 6,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "My power increases each time you spend an action point.",
+    "tags": [
+      "grand"
+    ]
+  },
+  {
+    "id": 1036,
+    "slug": "mind-control",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 10,
+    "status": 0,
+    "name": "",
+    "description": "When: opp. Summon and ally unit exists - destroy ally unitv and take control of opposing unit.",
+    "tags": []
+  },
+  {
+    "id": 1028,
+    "slug": "magi-block-3",
+    "type": 0,
+    "power": 1,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "While I am in play, units with 11 or above cannot attack\n",
+    "tags": [
+      "nomove"
+    ]
+  },
+  {
+    "id": 2818,
+    "slug": "nukevirus",
+    "type": 0,
+    "power": 1,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "Combat-Flip:\nDestroy attacking creature and this card, but deal damage to yourself equal to enemy creature's power at the time of death.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 2816,
+    "slug": "time-bug",
+    "type": 0,
+    "power": 2,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "Combat-Flip:\nIf it's the enemy's turn - after the attack finishes, end their turn.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 2832,
+    "slug": "necro-grando",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "Combat-Flip\nKill me and resurrect the first Grand creature you find in your graveyard.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 2833,
+    "slug": "handy-flippo",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "Combat-Flip\nYou draw two cards.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 1041,
+    "slug": "linko-shield",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "I cannot be destroyed in combat. When a new friendly creature is summoned, life-link me to it.",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 1042,
+    "slug": "linko-2",
+    "type": 0,
+    "power": 6,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "When a new friendly creature is summoned, life-link me to it.",
+    "tags": []
+  },
+  {
+    "id": 2820,
+    "slug": "spy-joe",
+    "type": 0,
+    "power": 4,
+    "priority": 0,
+    "rarity": 0,
+    "status": 2,
+    "name": "",
+    "description": "While I am in play - opponent keeps the top card in his deck face-up at all times.",
+    "tags": []
+  },
+  {
+    "id": 1084,
+    "slug": "re-trap-1",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "Activation condition and effect of this card equals that of the top card in your graveyard (if any and if it is a trap)",
+    "tags": []
+  },
+  {
+    "id": 2834,
+    "slug": "social-gnome",
+    "type": 0,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "+2 power for each ally",
+    "tags": [
+      "sneak"
+    ]
+  },
+  {
+    "id": 2844,
+    "slug": "WeirdSwap",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "Activate when opposing enemy creature is summoned and there is a stronger creature on your side. Swap creatures.",
+    "tags": []
+  },
+  {
+    "id": 2845,
+    "slug": "Taunt",
+    "type": 1,
+    "power": 0,
+    "priority": 0,
+    "rarity": 0,
+    "status": 0,
+    "name": "",
+    "description": "Activate me when enemy turn starts and they have an opposing creature. At the end of their turn, if there is still an opposing enemy creature, force it to attack.",
+    "tags": []
+  }
+]
