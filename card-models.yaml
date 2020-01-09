@@ -1726,18 +1726,6 @@
   power: 8
   name: anti-flipper-g
   guid: ab1bff60-e937-2caf-2625-e5ac443c7eff
-- id: 2827
-  slug: time-lord
-  description: >-
-    When I enter play:
-
-    If possible both players take the bottom cards in their grave until they have 4 cards in their hands.
-  tags:
-    - grand
-  effects: {}
-  power: 10
-  name: time-lord
-  guid: 9accb7af-4195-b16e-47c9-46301035da02
 - id: 2828
   slug: field-lock
   type: 1
@@ -1779,7 +1767,7 @@
   effects: {}
   name: safe-traphole-2
   guid: 8de0504f-d097-4141-2cd1-b4a29b448b2b
-- id: 560
+- id: 561
   slug: time-lord
   description: >-
     When I enter play:
@@ -1820,14 +1808,14 @@
   name: Field Lock!
   guid: 7f2038db-7255-eca0-0b5e-92dce144a2c3
 - id: 3844
-  slug: token-summoner4
+  slug: token-summoner4-0.nzw4bmnoums0.cn1evecnh4t
   description: When I die, summon a 0 power token creature in my place.
   effects: {}
   power: 4
   name: Warrior-Hen
   guid: e053ce66-d442-4da5-9d05-c4098cf6f191
 - id: 3673
-  slug: expolosive-mech
+  slug: expolosive-mech-0.dgpqzvzefrw0.46p5peyxcp8
   description: >-
     I cannot be summoned manually while you have less than two creatures in play
     (tribute included)
@@ -1861,7 +1849,7 @@
   name: Trapnado
   guid: 158fdf1e-acd1-cc85-d25c-20e08028ebc3
 - id: 3173
-  slug: grandtraitor
+  slug: grandtraitor-0.995s0ezbr6a0.c8t5vr4ufb4
   description: The moment there are no other friendly creatures and no opposing enemy
     creature, I move to the enemy's side.
   tags:
@@ -1934,25 +1922,13 @@
   name: Mike
   guid: 15f64461-95cc-c62e-ca23-11dc1495fba7
 - id: 1009
-  slug: man-of-honor
+  slug: man-of-honor-0.w06t43u5mv90.q1oyb3sg38r
   description: I cannot attack if there is no opposing enemy creature.
   lore: (duplicate of man-of-honor)
   effects: {}
   power: 7
   name: Man of Honor
   guid: 8dc335aa-06d2-b3ef-4553-bddddd781cf6
-- id: 3423
-  slug: doe2
-  effects: {}
-  power: 5
-  name: Jane Doe
-  guid: 329844fe-0b1b-5169-9061-7c3798718b7d
-- id: 3422
-  slug: doe1
-  effects: {}
-  power: 5
-  name: John Doe
-  guid: f7ee48be-23b5-f6d7-1b2e-604404dcf78e
 - id: 3723
   slug: brain-leech
   description: "Safe-Flip
@@ -2069,7 +2045,7 @@
   name: Mana Drainer
   guid: f83ff97c-2bce-c1ba-6c6c-68ab7627fd81
 - id: 3077
-  slug: shield1
+  slug: shield1-0.wuy3yvtd0pi0.nlvzivyuvw
   description: Cannot attack.
   tags:
     - sneak
@@ -2078,7 +2054,7 @@
   name: Another Fucking Shield
   guid: f249943a-34ed-a92a-9143-a09b603bce54
 - id: 3076
-  slug: shield2
+  slug: shield2-0.7may1vhv1ia0.salulgon75k
   description: "Cannot attack.\n\rCombat-Flip\rDie."
   tags:
     - sneak
@@ -2087,7 +2063,7 @@
   name: Another Fucking Shield
   guid: f72622f9-1723-3e2f-0417-0b2e42328366
 - id: 3615
-  slug: fateforward
+  slug: fateforward-0.fycxgv00aa40.c57ko2us5mi
   description: |-
     Combat-Flip
     Both players draw 3 cads.
@@ -2290,7 +2266,7 @@
   name: Divine Syphon
   guid: dce3a609-6161-c57b-7ec7-8f85c456e639
 - id: 961
-  slug: antisocial-knight
+  slug: antisocial-knight-0.1psn5u4lhri0.1tzcbd1rsql
   description: My power is decreased by 3 for every other friendly creature card in play.
   notes: dup
   effects: {}
@@ -2309,7 +2285,7 @@
   name: Jake
   guid: cbc81463-7c38-69e6-dac0-574ebaae9c68
 - id: 3137
-  slug: cowardly-giant
+  slug: cowardly-giant-0.x1ant8l9lm0.0rhvyx2zgq69
   description: After I am attacked by enemy creature, if I'm still in play, I return to my
     owner's hand.
   tags:
@@ -2447,7 +2423,7 @@
   name: Taunting Shield
   guid: 883ac398-8cc1-db00-d6b4-a44a33a3ee65
 - id: 3156
-  slug: dual-force-spirit
+  slug: dual-force-spirit-0.djgc6zkgtb0.s9bwd91f138
   description: Raise my power by the combined base power of my adjacent friendly creatures.
   tags:
     - grand
@@ -2654,7 +2630,7 @@
   name: Black Hood
   guid: 3d57f437-2aa3-94d2-f320-ece2b604c48e
 - id: 3177
-  slug: sloth-wyrm
+  slug: sloth-wyrm-0.ib22oqnlrzo0.grywr1g673
   description: |-
     My summon-exhaustion lasts 3 turns instead of one.
     (I cannot attack, move, or be tributed while I am exhausted)
@@ -2665,7 +2641,7 @@
   name: Sloth Wyrm
   guid: 3554e5a9-06f8-8493-285d-785f850b2ce8
 - id: 3178
-  slug: epic-tortoise
+  slug: epic-tortoise-0.uxi49xefymj0.fl303q2aigm
   description: After each attack, I am stunned for one turn
   tags:
     - grand
@@ -2693,7 +2669,7 @@
   name: Grand Dk
   guid: 76206a04-a418-e5b5-9887-1f0374116da2
 - id: 3181
-  slug: compromiser1
+  slug: compromiser1-0.vunuz7ji1qj0.ukemd0arhsm
   description: I do not need a tribute to be summoned if there are no friendly creatures in
     play.
   tags:
@@ -2703,7 +2679,7 @@
   name: Compromising Anna
   guid: 076f0eea-a159-3238-8dcf-df795d3f1275
 - id: 3182
-  slug: lonely-golem
+  slug: lonely-golem-0.zw25slvfj190.kg9ye5vwfqe
   description: The moment there are no other friendly creatures - I die.
   tags:
     - grand
@@ -3039,7 +3015,7 @@
   name: r5ba0t
   guid: c325d638-8085-470e-b52b-dcd9e14815c4
 - id: 3220
-  slug: taunt
+  slug: taunt-0.oiwmpig2550.bfuv3y8v2to
   type: 1
   description: >-
     #persistent
@@ -3708,7 +3684,7 @@
   name: Honorable Soldier C
   guid: 80df40a4-9a67-e7bf-4e72-a325201b1be6
 - id: 3370
-  slug: eddy
+  slug: eddy-0.3lj8lqieak50.4q1uanxy9x4
   description: "When I am summoned, if possible:
 
     If @ed is in play, add @edd from your deck to your hand.\rIf %%1 is in
@@ -4565,7 +4541,7 @@
   name: specialhaste
   guid: 191e4cf4-cac7-4898-bab9-171e0f9cae3a
 - id: 3659
-  slug: paulgrand
+  slug: paulgrand-0.dthpk1fxptc0.dtd8kmw0tjg
   description: When I enter play, if there is an opposing enemy creature, I do not suffer
     summon exhaustion.
   tags:
@@ -4951,7 +4927,7 @@
   name: bomb2
   guid: bb757a5a-ddfa-73e6-9da0-0526faf78c3e
 - id: 3140
-  slug: berserker
+  slug: berserker-0.9akrgp0f6r90.kd08galnyl
   description: I will attack automatically at the begining of your turn, but it will
     exhaust me as if it was a manual attack.
   tags:
@@ -4999,7 +4975,7 @@
   name: Flappy Bird of Honor
   guid: 8b81fdc3-3224-14b9-7c8a-67141ffe168c
 - id: 3368
-  slug: ed
+  slug: ed-0.2xcurakuczp0.u1bd94t67sb
   description: "When I am summoned, if possible:
 
     If @edd is in play, add @eddy from your deck to your hand.\rIf %%1 is in
@@ -5009,7 +4985,7 @@
   name: Ed
   guid: cfc28279-e8b4-e29c-b241-ea5f56cd9ee9
 - id: 3369
-  slug: edd
+  slug: edd-0.t277vg02nt90.lupaugkdbn
   description: "When I am summoned, if possible:
 
     If @ed is in play, add @eddy from your deck to your hand.\rIf %%1 is in
@@ -5650,7 +5626,7 @@
   name: summon2atk
   guid: 774a7d51-b14b-78c6-5bab-123bbde8da0a
 - id: 3081
-  slug: swapper
+  slug: swapper-0.a9gt7cbhjhe0.a1ggmjtnwa5
   description: I can relocate to an occupied creature field on your side, by swapping
     places with the creature there. This does not count as relocation for the
     other creature.
@@ -5661,6 +5637,7 @@
   name: swapper
   guid: b7ac31bc-2c37-0ee4-7160-e95d3a436cf4
 - id: 3650
+  slug: 67c0bf8c
   description: While I am in play, all creatures summoned on any side do not suffer summon
     exhaustion.
   tags:
@@ -5773,7 +5750,7 @@
   name: Doomsday
   guid: 4b4afe75-f60b-f2e1-02cb-04618ffd54c4
 - id: 3700
-  slug: fury
+  slug: fury-0.eja2sswbacn0.hei8ehr4s4l
   type: 1
   description: Activate when you are dealt direct damage by the opposing enemy creature.
     Destroy all enemy creatures with power lower than that damage.
