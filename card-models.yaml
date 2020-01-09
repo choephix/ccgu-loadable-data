@@ -3583,16 +3583,14 @@
   guid: 5e092bac-dbde-ecff-b205-f2afb1e539a1
 - id: 864
   slug: paul1
-  description: |-
-    I cannot be summoned while there are other friendly creatures in play.
-    // I die at the end of your turn.
-    I do not suffer from summon exhaustion.
+  description: I do not suffer from summon exhaustion.
+  notes: "fx: I die at the end of your turn?"
   tags:
     - rush
   effects:
     overrides:
       blockDeploymentTo: player.units.length > 0
-  power: 2
+  power: 4
   name: Lightning Paul
   guid: b246b1eb-5d64-763c-77a7-cb75a918d35d
 - id: 3285
