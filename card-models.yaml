@@ -13,7 +13,7 @@
   slug: fateforward-x3
   description: |-
     Combat-Flip
-    Both players draw 2 cards
+    Both players draw 3 cards
   tags:
     - sneak
   pdc: -1
@@ -350,7 +350,7 @@
       perform: op.forceManualAttack( card )
       allowedLots:
         - unit-field
-  power: 2
+  power: 3
   name: Double Attacker
   guid: f72d220f-ed76-72ac-648c-e1ef7b2744ec
 - id: 831
@@ -875,8 +875,8 @@
   effects:
     passive:
       perform: |-
-        let bonus = get.adjacentUnits( card ).length
-        pass.raisePower( card, bonus )
+        let count = get.adjacentUnits( card ).length
+        pass.raisePower( card, count * 2 )
       allowedLots:
         - unit-field
   name: needsmotivation
