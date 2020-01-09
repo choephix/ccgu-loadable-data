@@ -1,3 +1,16 @@
+- id: 779
+  slug: sneakshot
+  type: 1
+  description: Activate when opposing enemy unit begins a direct attack. Deal 5 damage to
+    the enemy player
+  effects:
+    active:
+      eventName: UnitAttackDirect
+      eventStatus: began
+      condition: event.card === get.opposingUnit( card )
+      perform: op.damage( player, 5 )
+  guid: dceeae8a-f8bd-7dbd-7168-11394f7e0f8d
+  name: Sneak-shot
 - id: 289
   slug: grand15
   tags:
