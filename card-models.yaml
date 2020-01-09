@@ -1,3 +1,29 @@
+- id: 777
+  slug: fateforward-x3
+  description: |-
+    Combat-Flip
+    Both players draw 2 cards
+  tags:
+    - sneak
+  pdc: -1
+  priority: 4
+  effects:
+    flip:
+      manner: combat
+      perform: "op.draw( opponent )\r
+
+        op.draw( player )\r
+
+        op.draw( opponent )\r
+
+        op.draw( player )\r
+
+        op.draw( opponent )\r
+
+        op.draw( player )"
+  guid: 175c9ca8-d248-7609-c6af-0c09f2094056
+  name: Fate Forward
+  power: 4
 - id: 645
   slug: damp-shield
   description: When I am deployed, if possible, deploy @damp-sword my right.
@@ -1118,9 +1144,11 @@
   name: cardfactory1
   power: 7
   guid: c54d0143-a59e-714a-6778-3ce5b96fb831
-- id: 786
+- id: 776
   slug: fateforward
-  description: "Combat-Flip: Both $players draw %2 cards"
+  description: |-
+    Combat-Flip
+    Both players draw 2 cards
   tags:
     - sneak
   pdc: -1
@@ -2049,17 +2077,6 @@
   power: 9
   name: Another Fucking Shield
   guid: f72622f9-1723-3e2f-0417-0b2e42328366
-- id: 3615
-  slug: fateforward-x2
-  description: |-
-    Combat-Flip
-    Both players draw 3 cads.
-  tags:
-    - sneak
-  effects: {}
-  power: 4
-  name: Fate Forward
-  guid: d1748af9-66c5-cfc3-b8cf-0570a8296b43
 - id: 3108
   slug: quickfeet
   description: "Combat-Flip
