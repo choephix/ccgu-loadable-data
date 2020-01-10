@@ -73,12 +73,14 @@
         event.card === card && 
         ! get.rightUnit( card ) &&
         !! get.rightUnitField( card ) &&
-        !! get.cardBySlug( 'damp-sword', 
-            player.deck, player.hand )
+        !! get.cardBySlug( 
+               'knightmare-sword', 
+               player.deck, player.hand )
       perform: |-
         const field = get.rightUnitField( card )
-        const buddy = get.cardBySlug( 'damp-sword', 
-                        player.deck, player.hand )
+        const buddy = get.cardBySlug( 
+                          'knightmare-sword', 
+                          player.deck, player.hand )
         op.deploy( buddy, field )
       allowedLots:
         - unit-field
@@ -101,12 +103,14 @@
         event.card === card && 
         ! get.leftUnit( card ) &&
         !! get.leftUnitField( card ) &&
-        !! get.cardBySlug( 'damp-shield', 
-            player.deck, player.hand )
+        !! get.cardBySlug( 
+               'knightmare-shield', 
+               player.deck, player.hand )
       perform: |-
         const field = get.leftUnitField( card )
-        const buddy = get.cardBySlug( 'damp-shield', 
-                        player.deck, player.hand )
+        const buddy = get.cardBySlug( 
+                          'knightmare-shield', 
+                          player.deck, player.hand )
         op.deploy( buddy, field )
       allowedLots:
         - unit-field
@@ -1475,14 +1479,21 @@
   effects: {}
   name: mirrorforce
   guid: 3116a4e6-a681-43fd-41a9-07b98c176174
-- id: 813
+- id: 839
   slug: tripwire
   type: 1
   description: Activate when enemy $unit $relocates to opposing $field. Kill it.
   pdc: -1
   status: 3
   priority: 6
-  effects: {}
+  effects:
+    active:
+      eventName: UnitRelocate
+      eventStatus: ended
+      condition: event.card === get.opposingUnit( card )
+      perform: |-
+        const foe = get.opposingUnit( card )
+        op.kill( foe )
   name: tripwire
   guid: bb422769-ee65-6180-d9d9-504f4d30a7ef
 - id: 524
@@ -5285,12 +5296,17 @@
   effects: {}
   name: Defense From The West
   guid: 78242ddf-4726-ea12-4350-a5a3c1c52909
-- id: 812
+- id: 855
   slug: turnend
   type: 1
   description: Activate when opposing enemy creature's attack finishes during the enemy
-    turn and it is stiill in play. Force the enemy to end their turn.
-  effects: {}
+    turn and it is still in play. Force the enemy to end their turn.
+  effects:
+    active:
+      eventName: UnitAttack
+      eventStatus: ended
+      condition: event.card === get.opposingUnit( card )
+      perform: op.endTurn()
   name: Turn End
   guid: 6be64973-5e35-cd68-924a-1e49d0446c86
 - id: 3129
