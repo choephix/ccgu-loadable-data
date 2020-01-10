@@ -59,7 +59,7 @@
   power: 4
 - id: 645
   slug: knightmare-shield
-  description: When I am deployed, if possible, deploy @damp-sword my right.
+  description: When I am deployed, if possible, deploy @knightmare-sword my right.
   notes: |-
     multiple effects:
     kill on no sword...
@@ -84,9 +84,10 @@
         - unit-field
   guid: b9184642-b505-f7e6-c6c7-71c4e84a7065
   power: 4
+  name: knightmare-shield
 - id: 644
   slug: knightmare-sword
-  description: When I am deployed, if possible, deploy @damp-shield to my left.
+  description: When I am deployed, if possible, deploy @knightmare-shield to my left.
   notes: |-
     multiple effects:
     kill on no shield...
@@ -111,6 +112,7 @@
         - unit-field
   guid: b9184642-b505-f7e6-c6c7-71c4e84a7065
   power: 4
+  name: knightmare-sword
 - id: 854
   slug: surprise-reborn
   type: 1
@@ -993,6 +995,7 @@
         - unit-field
   power: 4
   guid: d733ae6a-414f-023c-4992-e99fea422de6
+  name: freejimmy
 - id: 874
   slug: nosneaking
   type: 1
