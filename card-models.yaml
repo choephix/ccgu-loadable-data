@@ -1,3 +1,19 @@
+- id: 841
+  slug: uber-paul
+  description: I die after successfully attacking
+  tags:
+    - grand
+    - rush
+  effects:
+    active:
+      eventName: UnitAttack
+      eventStatus: ended
+      condition: event.card === card
+      perform: op.sacrifice( card )
+      allowedLots:
+        - unit-field
+  guid: 506642b0-fdf9-e06f-1c53-339ccf025e36
+  power: 9
 - id: 809
   slug: deadly-sacrifice
   type: 1
@@ -518,7 +534,7 @@
     - piercing
     - grand
   effects: {}
-  power: 7
+  power: 5
   name: Piercer7
   guid: ed636295-2f0d-3889-b427-8e603cfa23b3
 - id: 950
@@ -1035,7 +1051,7 @@
   effects: {}
   name: Fury
   guid: a9169ca5-1e24-f72f-d437-270bbfcd594a
-- id: 939
+- id: 871
   slug: cowardly-giant
   description: "#Grand After I am attacked by enemy $unit, if I'm still in play, I return
     to my owner's hand."
@@ -1045,7 +1061,7 @@
   priority: 3
   effects: {}
   name: Cowardly Giant
-  power: 14
+  power: 17
   guid: c4e29441-a2d6-5d2e-e90d-67c1d4b90213
 - id: 800
   slug: antisocial-knight
@@ -1101,17 +1117,24 @@
   name: spearhead
   power: 1
   guid: 1dceec66-3bae-a21b-2d2c-dac0160cbc43
-- id: 955
+- id: 870
   slug: honoraro
-  description: "#Grand Adjacent friendly $units's power is raised by %2."
+  description: Adjacent friendly units' power is raised by 4.
   tags:
     - grand
   pdc: -1
   status: 2
   priority: 7
-  effects: {}
+  effects:
+    passive:
+      condition: "true"
+      perform: |-
+        get.adjacentUnits( card ).forEach( 
+          u => pass.raisePower( u, 3 )
+      allowedLots:
+        - unit-field
   name: honoraro
-  power: 6
+  power: 7
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
 - id: 769
   slug: nimbleguard
@@ -2633,7 +2656,7 @@
       perform: op.addToHand( card, player )
       allowedLots:
         - unit-field
-  power: 15
+  power: 18
   name: Mega Chicken
   guid: bbf5bfbc-a43d-d5dc-4b43-32b1119bee40
 - id: 3172
