@@ -128,7 +128,7 @@
 
 
     Deploy that unit on this lane.
-  lore: v2
+  lore: v3
   effects:
     active:
       eventName: UnitAttackDirect
@@ -137,7 +137,7 @@
         event.card === get.opposingUnit( card ) &&
         player.grave.topCard &&
         player.grave.topCard.isUnitType &&
-        ! get.sameLaneUnit( from )
+        ! get.sameLaneUnit( card )
       perform: |-
         const lot = get.sameLaneUnitField( card )
         op.deploy( player.grave.topCard, lot )
