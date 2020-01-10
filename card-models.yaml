@@ -60,6 +60,7 @@
 - id: 645
   slug: knightmare-shield
   description: When I am deployed, if possible, deploy @knightmare-sword my right.
+  lore: A scary phanton shield!!
   notes: |-
     multiple effects:
     kill on no sword...
@@ -90,6 +91,7 @@
 - id: 644
   slug: knightmare-sword
   description: When I am deployed, if possible, deploy @knightmare-shield to my left.
+  lore: A scary phanton sword!!
   notes: |-
     multiple effects:
     kill on no shield...
