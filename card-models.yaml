@@ -1148,7 +1148,7 @@
       condition: "true"
       perform: |-
         get.adjacentUnits( card ).forEach( 
-          u => pass.raisePower( u, 3 ) )
+          u => pass.raisePower( u, 4 ) )
       allowedLots:
         - unit-field
   name: honoraro
