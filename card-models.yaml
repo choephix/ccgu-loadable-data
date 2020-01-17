@@ -8,7 +8,7 @@
       condition: "true"
       perform: |-
         opponent.units.forEach(
-          u =>pass.raisePower( u, 2 ) )
+          u =>pass.lowerPower( u, 2 ) )
       allowedLots:
         - unit-field
   guid: 0c1a500a-3b37-3746-b21f-dbf9013b9d6e
