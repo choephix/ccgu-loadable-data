@@ -13,6 +13,7 @@
         - unit-field
   guid: 0c1a500a-3b37-3746-b21f-dbf9013b9d6e
   power: 9
+  name: breakable-moose
 - id: 841
   slug: uber-paul
   description: I die after successfully attacking
@@ -29,6 +30,7 @@
         - unit-field
   guid: 506642b0-fdf9-e06f-1c53-339ccf025e36
   power: 9
+  name: uber-paul
 - id: 809
   slug: deadly-sacrifice
   type: 1
@@ -1135,6 +1137,7 @@
 - id: 870
   slug: honoraro
   description: Adjacent friendly units' power is raised by 4.
+  lore: v2
   tags:
     - grand
   pdc: -1
@@ -1145,7 +1148,7 @@
       condition: "true"
       perform: |-
         get.adjacentUnits( card ).forEach( 
-          u => pass.raisePower( u, 3 )
+          u => pass.raisePower( u, 3 ) )
       allowedLots:
         - unit-field
   name: honoraro
