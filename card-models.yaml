@@ -1,5 +1,5 @@
 - id: 531
-  slug: exuberant-salamander
+  slug: final-blow
   description: |-
     +6P while
     opposing trap and
@@ -7,6 +7,7 @@
   effects: {}
   guid: 494ae631-f99e-ed20-ce35-73b6d1153ce1
   power: 2
+  name: Final Blow
 - id: 843
   slug: breakable-moose
   description: All enemy units' power is decreased by 2 while I am in play.
