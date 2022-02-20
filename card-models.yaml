@@ -1,3 +1,12 @@
+- id: 531
+  slug: exuberant-salamander
+  description: |-
+    +6P while
+    opposing trap and
+    no opposing unit
+  effects: {}
+  guid: 494ae631-f99e-ed20-ce35-73b6d1153ce1
+  power: 2
 - id: 843
   slug: breakable-moose
   description: All enemy units' power is decreased by 2 while I am in play.
