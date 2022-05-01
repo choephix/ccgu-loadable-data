@@ -1,7 +1,8 @@
-- id: 3918
+- id: 3907
   slug: beautiful-cat
   effects: {}
   guid: 37d84832-686a-c7c2-c843-cfbe37eb3e8a
+  name: beautiful-cat
 - id: 531
   slug: final-blow
   description: |-
