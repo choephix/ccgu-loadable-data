@@ -1,3 +1,24 @@
+- id: 1090
+  slug: cheap-tribute-2
+  description: At turn start, move me from your deck to your hand
+  effects:
+    active:
+      eventStatus: began
+  guid: 221c6c44-ff42-e4c7-adba-4f6c980aebcb
+- id: 1089
+  slug: cheap-tribute-2
+  description: At turn start, move me from your deck to your hand
+  effects:
+    active:
+      eventStatus: began
+  guid: 221c6c44-ff42-e4c7-adba-4f6c980aebcb
+- id: 1088
+  slug: cheap-tribute-1
+  description: At turn start, move me from your deck to your hand
+  effects:
+    active:
+      eventStatus: began
+  guid: 221c6c44-ff42-e4c7-adba-4f6c980aebcb
 - id: 3907
   slug: beautiful-cat
   effects: {}
