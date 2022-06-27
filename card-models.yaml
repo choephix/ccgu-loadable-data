@@ -1,5 +1,5 @@
 - id: 1090
-  slug: cheap-tribute-2
+  slug: cheap-tribute-3
   description: At turn start, move me from your deck to your hand
   effects:
     active:
