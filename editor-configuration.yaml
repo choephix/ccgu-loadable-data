@@ -40,9 +40,9 @@ cardSections:
       - funcIndex: 4
         header: New shit ⚡
       - funcIndex: 18
-        header: Normal <> Grand Alternatives
+        header: ""
       - funcIndex: 4
-        header: ...
+        header: Normal <> Grand Alternatives
       - funcIndex: 4
         header: ...
   - subsections:
