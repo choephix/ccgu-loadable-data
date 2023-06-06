@@ -1,3 +1,7 @@
+- id: 21
+  slug: super-shrew
+  effects: {}
+  guid: 4303dbfc-c5e2-7220-e6a8-931425a4b8d9
 - id: 1090
   slug: cheap-tribute-3
   description: At turn start, move me from your deck to your hand
