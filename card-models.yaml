@@ -12,7 +12,7 @@
       condition: event.card === card
       perform: |-
         const index = card.lot.index;
-        const field = get.get.opposingUnitField(card)
+        const field = get.opposingUnitField(card)
         op.spawnToken(field, 'token-' + index)
         console.log(field, 'token-' + index)
       allowedLots:
