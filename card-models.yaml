@@ -1,3 +1,22 @@
+- id: 21
+  slug: --tkn--
+  tags:
+    - rush
+    - swift
+    - swapper
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: event.card === card
+      perform: |-
+        const index = card.lot.index;
+        const field = get.get.opposingUnitField(card)
+        op.spawnToken(field, 'token-' + index)
+      allowedLots:
+        - unit-field
+  guid: 2b0ed5c3-5521-ca41-f2bb-ff7607b08fea
+  power: 2
 - id: 5
   slug: --killa--
   lore: Professional finisher :X
