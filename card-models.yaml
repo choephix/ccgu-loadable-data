@@ -1,5 +1,6 @@
 - id: 21
   slug: --tkn--
+  description: Spawns a token on the enemy side.
   tags:
     - rush
     - swift
