@@ -1646,7 +1646,7 @@
   power: 5
   guid: a0537d41-fb40-021c-e3bf-43de93a71b4d
 - id: 2
-  slug: --shisno
+  slug: --shisno--
   description: |-
     ♦ pow = 5 x field.index
 
