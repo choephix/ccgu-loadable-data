@@ -1,3 +1,23 @@
+- id: 54
+  slug: --prodo--
+  description: My power is raised by 1 for each card in your hand
+  effects:
+    passive:
+      condition: "true"
+      perform: |-
+        let count = player.hand.cardCount
+        pass.raisePower(card, 2 ** count)
+      allowedLots:
+        - unit-field
+        - grave
+        - hand
+  guid: 5449b2b3-6f26-8acd-e5f8-3318420ca29f
+  name: Producer
+  power: 10
+- id: 7
+  slug: courageous-bradley
+  effects: {}
+  guid: 5f9076c0-7eb7-14f7-5a86-d06c0ffca44e
 - id: 53
   slug: --all4one--
   type: 1
@@ -13,7 +33,7 @@
         )
   guid: 5f71f6db-2653-1cae-9247-8d4aa6f30a8c
   name: One dies, all die!
-- id: 36
+- id: 33
   slug: --tkn4x--
   description: Much tokens!
   tags:
@@ -32,7 +52,7 @@
   guid: e7637b0b-0514-6e45-7341-ef5c35dc5de0
   name: Tokenado 4X!!!!
   power: 2
-- id: 37
+- id: 6
   slug: --grandraw--
   description: You like cards?
   tags:
@@ -55,7 +75,7 @@
   guid: cb0ea59d-0a0a-3d1d-f49e-63553ff4e070
   name: Gr. Andraw
   power: 10
-- id: 21
+- id: 32
   slug: --tkn--
   description: Spawns a token on the enemy side.
   tags:
