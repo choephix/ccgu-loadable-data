@@ -7,7 +7,10 @@
       eventName: UnitDie
       eventStatus: ended
       condition: card.lot === get.opposingUnitField(card)
-      perform: opponent.units.forEach(u => op.kill(u))
+      perform: |-
+        opponent.units.forEach(u => 
+          faq.isInPlay(u) && op.kill(u)
+        )
   guid: 5f71f6db-2653-1cae-9247-8d4aa6f30a8c
   name: One dies, all die!
 - id: 36
