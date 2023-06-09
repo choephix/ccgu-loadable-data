@@ -21,11 +21,9 @@
       eventStatus: ended
       condition: event.card === card
       perform: |-
-        const p = get.playerOpponent(player).player_num;
-        op.spawnToken(p+'-fu1', 'token-0');
-        op.spawnToken(p+'-fu2', 'token-0');
-        op.spawnToken(p+'-fu3', 'token-0');
-        op.spawnToken(p+'-fu4', 'token-0');
+        opponent.fieldsUnit.forEach(
+          f => op.spawnToken(f.id, 'token-0');
+        )
       allowedLots:
         - unit-field
   guid: e7637b0b-0514-6e45-7341-ef5c35dc5de0
