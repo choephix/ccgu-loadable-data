@@ -6,7 +6,7 @@
     active:
       eventName: UnitDie
       eventStatus: ended
-      condition: card.lot === get.opposingUnitField(card)
+      condition: "true"
       perform: |-
         opponent.units.forEach(u => 
           faq.isInPlay(u) && op.kill(u)
