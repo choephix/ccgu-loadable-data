@@ -9,6 +9,7 @@
   effects:
     active:
       eventName: DeployUnit
+      eventStatus: ended
       condition: event.card === card
       perform: op.draw(card.owner, 4)
       allowedLots:
