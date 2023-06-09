@@ -25,10 +25,7 @@
       condition: event.card === card
       perform: |-
         opponent.fieldsUnit.forEach(
-          f => op.spawnToken(
-            f.id, 
-            'token-' + f.index
-          )
+          f => op.spawnToken(f, 'token-' + f.index)
         )
       allowedLots:
         - unit-field
