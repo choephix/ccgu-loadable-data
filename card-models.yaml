@@ -22,7 +22,7 @@
       condition: event.card === card
       perform: |-
         opponent.fieldsUnit.forEach(
-          f => op.spawnToken(f.id, 'token-0');
+          f => console.log(f)
         )
       allowedLots:
         - unit-field
