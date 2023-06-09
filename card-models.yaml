@@ -1,3 +1,20 @@
+- id: 37
+  slug: --grandraw--
+  description: You like cards?
+  tags:
+    - grand
+    - swift
+    - rush
+    - piercing
+  effects:
+    active:
+      eventName: DeployUnit
+      condition: event.card === card
+      perform: op.draw(card.owner, 4)
+      allowedLots:
+        - unit-field
+  guid: cb0ea59d-0a0a-3d1d-f49e-63553ff4e070
+  name: Gr. Andraw
 - id: 21
   slug: --tkn--
   description: Spawns a token on the enemy side.
