@@ -1,3 +1,36 @@
+- id: 53
+  slug: --all4one--
+  type: 1
+  description: One dies, all die!
+  effects:
+    active:
+      eventName: UnitDie
+      eventStatus: ended
+      condition: card.lot === get.opposingUnitField(card)
+      perform: opponent.units.forEach(u => op.kill(u))
+  guid: 5f71f6db-2653-1cae-9247-8d4aa6f30a8c
+  name: One dies, all die!
+- id: 36
+  slug: --tkn-x4--
+  description: Much tokens!
+  tags:
+    - rush
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: event.card === card
+      perform: |-
+        const p = get.playerOpponent(player).player_num;
+        op.spawnToken(p+'-fu1', 'token-0');
+        op.spawnToken(p+'-fu2', 'token-0');
+        op.spawnToken(p+'-fu3', 'token-0');
+        op.spawnToken(p+'-fu4', 'token-0');
+      allowedLots:
+        - unit-field
+  guid: e7637b0b-0514-6e45-7341-ef5c35dc5de0
+  name: 4XX Tokenado!
+  power: 2
 - id: 37
   slug: --grandraw--
   description: You like cards?
@@ -16,6 +49,7 @@
         - unit-field
   guid: cb0ea59d-0a0a-3d1d-f49e-63553ff4e070
   name: Gr. Andraw
+  power: 10
 - id: 21
   slug: --tkn--
   description: Spawns a token on the enemy side.
