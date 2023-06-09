@@ -45,7 +45,11 @@
       eventName: DeployUnit
       eventStatus: ended
       condition: event.card === card
-      perform: op.draw(card.owner, 4)
+      perform: |-
+        op.draw(card.owner)
+        op.draw(card.owner)
+        op.draw(card.owner)
+        op.draw(card.owner)
       allowedLots:
         - unit-field
   guid: cb0ea59d-0a0a-3d1d-f49e-63553ff4e070
