@@ -1,5 +1,21 @@
+- id: 35
+  slug: token-dk
+  tags:
+    - token
+    - rush
+  effects:
+    active:
+      eventName: TurnEnd
+      condition: faq.isInPlay(card)
+      perform: op.kill(card)
+      allowedLots:
+        - unit-field
+  guid: 5c9410d6-9dd9-f4b7-cb74-8a42ad81f503
+  power: 2
 - id: 34
-  slug: dark-terry
+  slug: dark-tkn
+  description: The Dark Token Summoner!
+  lore: The Dark Token Summoner!
   tags:
     - rush
   effects:
@@ -41,6 +57,8 @@
   power: 10
 - id: 7
   slug: courageous-bradley
+  tags:
+    - token
   effects: {}
   guid: 5f9076c0-7eb7-14f7-5a86-d06c0ffca44e
 - id: 53
