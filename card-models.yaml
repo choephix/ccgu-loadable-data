@@ -25,9 +25,9 @@
       eventStatus: ended
       condition: event.card === card
       perform: |-
-        for (const f of player.fieldsUnit) {
+        for (const field of player.fieldsUnit) {
           if (field.hasCards) continue;
-          op.spawnToken(f, 'token-' + f.index);
+          op.spawnToken(field, 'token-dk');
         }
       allowedLots:
         - unit-field
