@@ -89,7 +89,7 @@
       condition: event.card === card
       perform: |-
         for (const f of opponent.fieldsUnit) {
-          if (field.hasCards) continue;
+          if (f.hasCards) continue;
           op.spawnToken(f, 'token-' + f.index);
         }
       allowedLots:
