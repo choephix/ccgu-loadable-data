@@ -1,3 +1,28 @@
+- id: 34
+  slug: dark-terry
+  tags:
+    - rush
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: event.card === card
+      perform: |-
+        for (const f of player.fieldsUnit) {
+          if (field.hasCards) continue;
+          op.spawnToken(f, 'token-' + f.index);
+        }
+      allowedLots:
+        - unit-field
+    passive:
+      condition: "true"
+      perform: |-
+        let mul = card.lot.index
+        pass.raisePower(card, 2 ** mul)
+      allowedLots:
+        - unit-field
+  guid: 9c32f1a1-8046-6cfe-759f-85907347d9ca
+  name: Dark Terry
 - id: 54
   slug: --prodo--
   description: My power is raised by 1 for each card in your hand
@@ -44,9 +69,10 @@
       eventStatus: ended
       condition: event.card === card
       perform: |-
-        opponent.fieldsUnit.forEach(
-          f => op.spawnToken(f, 'token-' + f.index)
-        )
+        for (const f of opponent.fieldsUnit) {
+          if (field.hasCards) continue;
+          op.spawnToken(f, 'token-' + f.index);
+        }
       allowedLots:
         - unit-field
   guid: e7637b0b-0514-6e45-7341-ef5c35dc5de0
