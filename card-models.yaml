@@ -6,6 +6,7 @@
   effects:
     active:
       eventName: TurnEnd
+      eventStatus: began
       condition: faq.isInPlay(card)
       perform: op.kill(card)
       allowedLots:
