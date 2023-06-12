@@ -6,10 +6,14 @@
       eventStatus: ended
       condition: card === event.card
       perform: |-
-        op.spawnToken('1-fu1', 'token-0');
-        op.spawnToken('1-fu2', 'token-0');
-        op.spawnToken('2-fu1', 'token-0');
-        op.spawnToken('2-fu2', 'token-0');
+        op.spawnToken(
+          player.fieldsUnit[0], 'token-0');
+        op.spawnToken(
+          player.fieldsUnit[1], 'token-0');
+        op.spawnToken(
+          opponent.fieldsUnit[0], 'token-0');
+        op.spawnToken(
+          opponent.fieldsUnit[1], 'token-0');
         opponent.units.forEach(op.kill);
         player.units.forEach(op.kill);
       allowedLots:
