@@ -3,6 +3,7 @@
   description: Evaporates everything in its path.
   tags:
     - rush
+    - grand
   effects:
     active:
       eventName: DeployUnit
