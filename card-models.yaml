@@ -1,7 +1,5 @@
 - id: 8
   slug: --sepuku
-  tags:
-    - token
   effects:
     active:
       eventName: DeployUnit
@@ -11,7 +9,7 @@
       allowedLots:
         - unit-field
   guid: d645eae2-fd08-db3b-f19e-a1bac71569b0
-  power: 16
+  power: 10
 - id: 57
   slug: --grave-filler-mini
   effects:
