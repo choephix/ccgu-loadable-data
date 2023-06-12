@@ -1,4 +1,4 @@
-- id: 2577
+- id: 2576
   slug: hr-token
   tags:
     - token
@@ -9,17 +9,12 @@
       eventName: TurnEnd
       eventStatus: began
       condition: faq.isInPlay(card)
-      perform: op.kill(card)
+      perform: |-
+        op.kill(card)
+        op.damage(player, 5)
       allowedLots:
         - unit-field
   guid: 5c9410d6-9dd9-f4b7-cb74-8a42ad81f503
-- id: 2576
-  slug: hr-token
-  tags:
-    - token
-    - grand
-  effects: {}
-  guid: 9ec692c0-c71f-edc9-76ac-ea185f04669e
 - id: 2560
   slug: hr-token-master-grand
   description: |-
