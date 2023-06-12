@@ -1,3 +1,24 @@
+- id: 55
+  slug: destroyer
+  description: Evaporates everything in its path.
+  tags:
+    - rush
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: event.card === card
+      perform: |-
+        player.units.forEach(op.kill);
+        opponent.units.forEach(op.kill);
+      allowedLots:
+        - unit-field
+    passive:
+      allowedLots:
+        - unit-field
+  guid: 9c32f1a1-8046-6cfe-759f-85907347d9ca
+  name: The Destroyer
+  power: 1
 - id: 2576
   slug: hr-token
   tags:
@@ -36,7 +57,7 @@
         - unit-field
   guid: 180e95c2-e959-a655-69b7-c21b13b4e31e
   name: High Risk Token Master
-- id: 35
+- id: 41
   slug: token-dk
   tags:
     - token
@@ -51,7 +72,7 @@
         - unit-field
   guid: 5c9410d6-9dd9-f4b7-cb74-8a42ad81f503
   power: 2
-- id: 34
+- id: 40
   slug: dark-tkn
   description: The Dark Token Summoner!
   lore: Dark Terry!
