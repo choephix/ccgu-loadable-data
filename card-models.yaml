@@ -1,8 +1,28 @@
+- id: 57
+  slug: --grave-filler-mini
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: card === event.card
+      perform: |-
+        op.spawnToken('1-fu1', 'token-0');
+        op.spawnToken('1-fu2', 'token-0');
+        op.spawnToken('2-fu1', 'token-0');
+        op.spawnToken('2-fu2', 'token-0');
+        opponent.units.forEach(op.kill);
+        player.units.forEach(op.kill);
+      allowedLots:
+        - unit-field
+  guid: dab838f0-0ca1-b646-7865-1e3a2adaf02e
 - id: 56
   slug: --grave-filler
   effects:
     active:
-      condition: |-
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: card === event.card
+      perform: |-
         for (const field of opponent.fieldsUnit) {
           if (field.hasCards) continue;
           op.spawnToken(field, 'token-0');
@@ -13,6 +33,8 @@
         }
         opponent.units.forEach(op.kill);
         player.units.forEach(op.kill);
+      allowedLots:
+        - unit-field
   guid: dab838f0-0ca1-b646-7865-1e3a2adaf02e
 - id: 55
   slug: --destroyer
