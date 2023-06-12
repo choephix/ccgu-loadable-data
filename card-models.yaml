@@ -1,3 +1,19 @@
+- id: 56
+  slug: --grave-filler
+  effects:
+    active:
+      condition: |-
+        for (const field of opponent.fieldsUnit) {
+          if (field.hasCards) continue;
+          op.spawnToken(field, 'token-0');
+        }
+        for (const field of player.fieldsUnit) {
+          if (field.hasCards) continue;
+          op.spawnToken(field, 'token-0');
+        }
+        opponent.units.forEach(op.kill);
+        player.units.forEach(op.kill);
+  guid: dab838f0-0ca1-b646-7865-1e3a2adaf02e
 - id: 55
   slug: --destroyer
   description: Evaporates everything in its path.
