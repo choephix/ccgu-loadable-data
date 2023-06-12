@@ -30,7 +30,7 @@
       perform: |-
         for (const field of player.fieldsUnit) {
           if (field.hasCards) continue;
-          op.spawnToken(field, 'token-dk');
+          op.spawnToken(field, 'hr-token');
         }
       allowedLots:
         - unit-field
