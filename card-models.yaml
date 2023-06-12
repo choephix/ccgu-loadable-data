@@ -10,8 +10,8 @@
       eventStatus: ended
       condition: event.card === card
       perform: |-
-        player.units.forEach(op.kill);
         opponent.units.forEach(op.kill);
+        player.units.forEach(op.kill);
       allowedLots:
         - unit-field
     passive:
