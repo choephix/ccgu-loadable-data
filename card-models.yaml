@@ -1,5 +1,5 @@
 - id: 55
-  slug: destroyer
+  slug: --destroyer
   description: Evaporates everything in its path.
   tags:
     - rush
