@@ -134,6 +134,8 @@
   lore: Dark Terry!
   tags:
     - rush
+    - swift
+    - swapper
   effects:
     active:
       eventName: DeployUnit
