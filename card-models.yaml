@@ -117,6 +117,8 @@
   tags:
     - token
     - rush
+    - swift
+    - swapper
   effects:
     active:
       eventName: TurnEnd
