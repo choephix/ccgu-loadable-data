@@ -1911,6 +1911,13 @@
     - rush
   priority: 3
   effects:
+    active:
+      eventName: UnitRelocate
+      eventStatus: ended
+      condition: event.card == card
+      perform: op.clearActions(card)
+      allowedLots:
+        - unit-field
     passive:
       condition: "true"
       perform: |-
@@ -1919,7 +1926,7 @@
           pass.addTag( card, Tag.PIERCING )
       allowedLots:
         - unit-field
-  name: Shisno
+  name: Shisno?
   guid: bb69140b-2741-9583-211c-11c9530119be
 - id: 52
   slug: -killany
