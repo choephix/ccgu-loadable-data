@@ -127,6 +127,7 @@
         - unit-field
   guid: 5c9410d6-9dd9-f4b7-cb74-8a42ad81f503
   power: 2
+  name: "!"
 - id: 40
   slug: dark-tkn
   description: The Dark Token Summoner!
