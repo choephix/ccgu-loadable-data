@@ -1,3 +1,138 @@
+- id: 341
+  slug: token-summoner4-0.nzw4bmnoums0.cn1evecnh4t
+  description: When I die, summon a 0 power token creature in my place.
+  effects: {}
+  guid: e053ce66-d442-4da5-9d05-c4098cf6f191
+  power: 4
+  name: Warrior-Hen
+- id: 338
+  slug: flappy-bird
+  lore: Can both attack and move before exhausting.
+  tags:
+    - swift
+  effects: {}
+  guid: a9fb5b3c-0c8a-a10c-6a8c-8ed91952bc46
+  power: 1
+  name: Flappy Bird
+- id: 337
+  slug: swapper
+  lore: I can relocate to an occupied creature field on your side, by swapping
+    places with the creature there. This does not count as relocation for the
+    other creature.
+  tags:
+    - swapper
+  effects: {}
+  guid: 2c064020-07e5-d2da-ed69-734025104d9f
+  name: The Swapper
+  power: 3
+- id: 371
+  slug: handy
+  description: When I am summoned, you draw 2 cards and the enemy draws 3 cards.
+  effects: {}
+  guid: 44372e4e-629c-387c-6162-e52dccc7029c
+  name: Flashforward
+  power: 5
+- id: 323
+  slug: harassingmia
+  description: I return to your hand at the end of your turn.
+  tags:
+    - rush
+    - notribute
+  pdc: -1
+  status: 4
+  priority: 9
+  effects:
+    active:
+      eventName: TurnEnd
+      eventStatus: ended
+      condition: "true"
+      perform: op.addToHand( card, player )
+      allowedLots:
+        - unit-field
+  guid: f0a1e712-dc0d-feca-4096-4ebcb8253d43
+  name: harassingmia
+  power: 1
+- id: 322
+  slug: berserker
+  description: |-
+    I attack automatically on at the start of your turn.
+    This counts as a manual attack to my $action-exhaustion.
+  pdc: -1
+  status: 4
+  priority: 7
+  effects:
+    active:
+      eventName: TurnBegin
+      eventStatus: ended
+      condition: event.player === player
+      perform: op.forceAttack( card )
+      allowedLots:
+        - unit-field
+  guid: 880e607b-9629-b54e-5e35-2789092bac94
+  name: berserker
+  power: 6
+- id: 321
+  slug: knightmare-shield
+  description: When I am deployed, if possible, deploy @knightmare-sword my right.
+  lore: A scary phanton shield!!
+  notes: |-
+    multiple effects:
+    kill on no sword...
+  tags:
+    - noattack
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: |-
+        event.card === card && 
+        ! get.rightUnit( card ) &&
+        !! get.rightUnitField( card ) &&
+        !! get.cardBySlug( 
+               'knightmare-sword', 
+               player.deck, player.hand )
+      perform: |-
+        const field = get.rightUnitField( card )
+        const buddy = get.cardBySlug( 
+                          'knightmare-sword', 
+                          player.deck, player.hand )
+        op.deploy( buddy, field )
+      allowedLots:
+        - unit-field
+  guid: b9184642-b505-f7e6-c6c7-71c4e84a7065
+  power: 4
+  name: knightmare-shield
+- id: 320
+  slug: knightmare-shield
+  description: When I am deployed, if possible, deploy @knightmare-shield to my left.
+  lore: A scary phanton sword!!
+  notes: |-
+    multiple effects:
+    kill on no shield...
+  tags:
+    - notribute
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: |-
+        event.card === card && 
+        ! get.leftUnit( card ) &&
+        !! get.leftUnitField( card ) &&
+        !! get.cardBySlug( 
+               'knightmare-shield', 
+               player.deck, player.hand )
+      perform: |-
+        const field = get.leftUnitField( card )
+        const buddy = get.cardBySlug( 
+                          'knightmare-shield', 
+                          player.deck, player.hand )
+        op.deploy( buddy, field )
+      allowedLots:
+        - unit-field
+  guid: b9184642-b505-f7e6-c6c7-71c4e84a7065
+  power: 4
+  name: knightmare-sword
 - id: 8
   slug: --sepuku
   effects:
@@ -10,6 +145,7 @@
         - unit-field
   guid: d645eae2-fd08-db3b-f19e-a1bac71569b0
   power: 10
+  name: --sepuku
 - id: 57
   slug: --grave-filler-mini
   effects:
@@ -31,6 +167,7 @@
       allowedLots:
         - unit-field
   guid: dab838f0-0ca1-b646-7865-1e3a2adaf02e
+  name: --grave-filler-mini
 - id: 56
   slug: --grave-filler
   effects:
@@ -52,6 +189,7 @@
       allowedLots:
         - unit-field
   guid: dab838f0-0ca1-b646-7865-1e3a2adaf02e
+  name: --grave-filler
 - id: 55
   slug: --destroyer
   description: Evaporates everything in its path.
@@ -91,6 +229,7 @@
       allowedLots:
         - unit-field
   guid: 5c9410d6-9dd9-f4b7-cb74-8a42ad81f503
+  name: hr-token
 - id: 2560
   slug: hr-token-master-grand
   description: |-
@@ -303,11 +442,6 @@
   guid: 221c6c44-ff42-e4c7-adba-4f6c980aebcb
   name: cheap-tribute-1
   power: 1
-- id: 3907
-  slug: beautiful-cat
-  effects: {}
-  guid: 37d84832-686a-c7c2-c843-cfbe37eb3e8a
-  name: beautiful-cat
 - id: 531
   slug: final-blow
   description: |-
@@ -410,68 +544,6 @@
   guid: 175c9ca8-d248-7609-c6af-0c09f2094056
   name: Fate Forward
   power: 4
-- id: 645
-  slug: knightmare-shield
-  description: When I am deployed, if possible, deploy @knightmare-sword my right.
-  lore: A scary phanton shield!!
-  notes: |-
-    multiple effects:
-    kill on no sword...
-  tags:
-    - noattack
-  effects:
-    active:
-      eventName: DeployUnit
-      eventStatus: ended
-      condition: |-
-        event.card === card && 
-        ! get.rightUnit( card ) &&
-        !! get.rightUnitField( card ) &&
-        !! get.cardBySlug( 
-               'knightmare-sword', 
-               player.deck, player.hand )
-      perform: |-
-        const field = get.rightUnitField( card )
-        const buddy = get.cardBySlug( 
-                          'knightmare-sword', 
-                          player.deck, player.hand )
-        op.deploy( buddy, field )
-      allowedLots:
-        - unit-field
-  guid: b9184642-b505-f7e6-c6c7-71c4e84a7065
-  power: 4
-  name: knightmare-shield
-- id: 644
-  slug: knightmare-sword
-  description: When I am deployed, if possible, deploy @knightmare-shield to my left.
-  lore: A scary phanton sword!!
-  notes: |-
-    multiple effects:
-    kill on no shield...
-  tags:
-    - notribute
-  effects:
-    active:
-      eventName: DeployUnit
-      eventStatus: ended
-      condition: |-
-        event.card === card && 
-        ! get.leftUnit( card ) &&
-        !! get.leftUnitField( card ) &&
-        !! get.cardBySlug( 
-               'knightmare-shield', 
-               player.deck, player.hand )
-      perform: |-
-        const field = get.leftUnitField( card )
-        const buddy = get.cardBySlug( 
-                          'knightmare-shield', 
-                          player.deck, player.hand )
-        op.deploy( buddy, field )
-      allowedLots:
-        - unit-field
-  guid: b9184642-b505-f7e6-c6c7-71c4e84a7065
-  power: 4
-  name: knightmare-sword
 - id: 854
   slug: surprise-reborn
   type: 1
@@ -632,7 +704,7 @@
         - hand
   guid: 73cf32c1-03b7-71e9-fb27-80d33fcc163d
   power: 7
-  name: patience-zero
+  name: Patience Zero
 - id: 834
   slug: flipouch
   description: "Flip: Take 1 damage."
@@ -647,7 +719,7 @@
   guid: b3dba8a0-17b9-532b-e7ac-e4922eb429e2
   name: flipouch
   power: 5
-- id: 773
+- id: 340
   slug: kamikazejoe
   description: I die after attacking
   tags:
@@ -666,7 +738,7 @@
         - unit-field
   guid: da1d63dc-c3a5-7c69-49c4-148a17a842e0
   name: kamikazejoe
-  power: 2
+  power: 1
 - id: 885
   slug: unbreakable-2
   description: >-
@@ -691,33 +763,6 @@
   guid: d39e281e-94f1-ba2d-1deb-975d899e1f5e
   name: charger
   power: 3
-- id: 844
-  slug: handy
-  description: When I am summoned, you draw 2 cards and the enemy draws 3 cards.
-  effects: {}
-  guid: 44372e4e-629c-387c-6162-e52dccc7029c
-  name: Flashforward
-  power: 5
-- id: 830
-  slug: swapper
-  lore: I can relocate to an occupied creature field on your side, by swapping
-    places with the creature there. This does not count as relocation for the
-    other creature.
-  tags:
-    - swapper
-  effects: {}
-  guid: 2c064020-07e5-d2da-ed69-734025104d9f
-  name: The Swapper
-  power: 3
-- id: 829
-  slug: flappy-bird
-  lore: Can both attack and move before exhausting.
-  tags:
-    - swift
-  effects: {}
-  power: 2
-  name: Flappy Bird
-  guid: a9fb5b3c-0c8a-a10c-6a8c-8ed91952bc46
 - id: 768
   slug: doubleattacker
   description: After I finish an attack, if I am still in play I automatically perform
@@ -1400,7 +1445,7 @@
   name: Cowardly Giant
   power: 17
   guid: c4e29441-a2d6-5d2e-e90d-67c1d4b90213
-- id: 800
+- id: 325
   slug: antisocial-knight
   description: My power is decreased by 3 for every other friendly $unit $in-play.
   pdc: -1
@@ -1494,9 +1539,9 @@
       allowedLots:
         - unit-field
   name: nimbleguard
-  power: 2
+  power: 1
   guid: e156e58b-3903-0196-a55c-cef515c0dcdd
-- id: 789
+- id: 781
   slug: elijah
   description: My $power is raised by %4 during the enemy's turn
   pdc: -1
@@ -1512,7 +1557,7 @@
   name: elijah
   power: 3
   guid: 390fa875-b747-ccf3-2b6e-d53911fb821c
-- id: 790
+- id: 782
   slug: joshua
   description: My $power is raised by %3 during your turn.
   pdc: -1
@@ -1562,7 +1607,7 @@
   name: Fate Forward
   power: 4
   guid: 175c9ca8-d248-7609-c6af-0c09f2094056
-- id: 775
+- id: 774
   slug: fragmine
   description: I die after combat
   tags:
@@ -1583,7 +1628,7 @@
       allowedLots:
         - unit-field
   name: fragmine
-  power: 10
+  power: 9
   guid: 76fbd7d3-ade6-5f68-6c2b-4814e6ca0a31
 - id: 919
   slug: shield2
@@ -1723,26 +1768,7 @@
   name: Athos
   power: 4
   guid: f39e47ff-3ee3-e857-cd52-a375575da950
-- id: 771
-  slug: berserker
-  description: |-
-    I attack automatically on at the start of your turn.
-    This counts as a manual attack to my $action-exhaustion.
-  pdc: -1
-  status: 4
-  priority: 7
-  effects:
-    active:
-      eventName: TurnBegin
-      eventStatus: ended
-      condition: event.player === player
-      perform: op.forceAttack( card )
-      allowedLots:
-        - unit-field
-  name: berserker
-  power: 6
-  guid: 880e607b-9629-b54e-5e35-2789092bac94
-- id: 774
+- id: 783
   slug: mercenery
   description: Take 1 direct damage every time I begin an attack.
   pdc: -1
@@ -1784,26 +1810,6 @@
   name: kamikazejoe
   power: 2
   guid: da1d63dc-c3a5-7c69-49c4-148a17a842e0
-- id: 772
-  slug: harassingmia
-  description: I return to your hand at the end of your turn.
-  tags:
-    - rush
-    - notribute
-  pdc: -1
-  status: 4
-  priority: 9
-  effects:
-    active:
-      eventName: TurnEnd
-      eventStatus: ended
-      condition: "true"
-      perform: op.addToHand( card, player )
-      allowedLots:
-        - unit-field
-  name: harassingmia
-  power: 1
-  guid: f0a1e712-dc0d-feca-4096-4ebcb8253d43
 - id: 259
   slug: doe2
   lore: Just a gal
@@ -2248,13 +2254,6 @@
   effects: {}
   name: Field Lock!
   guid: 7f2038db-7255-eca0-0b5e-92dce144a2c3
-- id: 3844
-  slug: token-summoner4-0.nzw4bmnoums0.cn1evecnh4t
-  description: When I die, summon a 0 power token creature in my place.
-  effects: {}
-  power: 4
-  name: Warrior-Hen
-  guid: e053ce66-d442-4da5-9d05-c4098cf6f191
 - id: 3846
   slug: depowering-gas
   type: 1
@@ -2332,7 +2331,7 @@
   power: 9
   name: Magi-resistent Tom
   guid: e9150e38-ab00-7ffe-82b7-3432223efa0f
-- id: 881
+- id: 324
   slug: deathdraw
   description: When I die - draw 2 cards.
   effects:
@@ -2553,7 +2552,7 @@
   power: 3
   name: Social Gnome
   guid: bd7640ea-78a9-f0d9-e155-dae1cf5e253d
-- id: 591
+- id: 576
   slug: flipmike
   description: |-
     Safe-Flip
@@ -2988,7 +2987,7 @@
   power: 14
   name: The Blood King
   guid: 0fba199f-b1a1-9a2c-5448-0f4e509260dd
-- id: 868
+- id: 336
   slug: mega-chicken
   description: The moment there are no adjacent friendly creatures I return to my
     controller's hand.
@@ -4338,7 +4337,7 @@
   power: 1
   name: Tricky Necromancer
   guid: cead0021-5e03-b6aa-c8f9-99cd26581f3c
-- id: 624
+- id: 352
   slug: banana-b
   description: >-
     IN-HAND
@@ -4468,7 +4467,7 @@
   power: 5
   name: Joe Blow
   guid: ca3a4ca9-ca25-0d16-86a5-8519e7402e0b
-- id: 625
+- id: 368
   slug: banana-a
   description: >-
     IN-HAND
@@ -5314,7 +5313,7 @@
   effects: {}
   name: Fateweaver
   guid: cdcd74a9-158b-7117-a9c4-4732b4f7cc14
-- id: 770
+- id: 339
   slug: unkillable-barny
   description: >-
     IN-GRAVE
@@ -5515,7 +5514,7 @@
   power: 2
   name: Harsh Fred
   guid: 6f150a04-f054-88fa-e6a8-982f43e03832
-- id: 608
+- id: 353
   slug: zig
   description: At the beginning of your turn if a card named @zag is in your graveyard -
     add it to your hand.
@@ -5523,7 +5522,7 @@
   power: 2
   name: Zig
   guid: 1978d04a-dacb-fdaa-01c3-e09c8cd3bf69
-- id: 609
+- id: 369
   slug: zag
   description: At the beginning of your turn if a card named @zig is in your graveyard -
     add it to your hand.
@@ -5627,7 +5626,7 @@
   power: 6
   name: Late-Gamer
   guid: e387c8bf-674e-6aba-62be-cdf6cb983f14
-- id: 576
+- id: 354
   slug: jill
   description: When I enter play, if possible summon @jack from your graveyard to the field
     on my left.
@@ -5635,7 +5634,7 @@
   power: 4
   name: Jill
   guid: 6522a282-a424-a7cc-a462-d4dc93f446a2
-- id: 577
+- id: 370
   slug: jack
   description: When I enter play, if possible summon @jill from your graveyard to the field
     on my right.
