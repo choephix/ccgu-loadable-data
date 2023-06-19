@@ -1,3 +1,14 @@
+- id: 359
+  slug: trampoline
+  description: |-
+    Combat-Flip:
+    Return attacking creature to its controller's hand.
+  tags:
+    - sneak
+  effects: {}
+  guid: 8e2d8db0-129c-bb90-5203-0ef032b79e93
+  power: 1
+  name: Trampoline
 - id: 358
   slug: shonen
   description: +1 power per ANY unit in play.
@@ -2333,7 +2344,7 @@
   power: 14
   name: Grand Traitor
   guid: 65591d48-dbec-6af4-034e-c0eb08f6795e
-- id: 3072
+- id: 375
   slug: time-bug
   description: |-
     Combat-Flip:
@@ -2425,17 +2436,6 @@
   effects: {}
   name: Necro Bastard
   guid: dc898d36-9302-d6a4-2085-a8123cec8934
-- id: 3110
-  slug: trampoline
-  description: |-
-    Combat-Flip:
-    Return attacking creature to its controller's hand.
-  tags:
-    - sneak
-  effects: {}
-  power: 1
-  name: Trampoline
-  guid: 8e2d8db0-129c-bb90-5203-0ef032b79e93
 - id: 3098
   slug: trampoline-0.yl6pqf4ilz0.5hrbes4ipo3
   description: "Combat-Flip:
