@@ -1,3 +1,51 @@
+- id: 358
+  slug: shonen
+  description: +1 power per ANY unit in play.
+  pdc: -1
+  status: 2
+  priority: 7
+  effects:
+    passive:
+      condition: "true"
+      perform: |-
+        const count = opponent.units.legth;
+        pass.raisePower(card, count)
+      allowedLots:
+        - unit-field
+        - hand
+  guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
+  power: 3
+- id: 342
+  slug: geinhildr
+  description: +1 power per ANY unit in play.
+  pdc: -1
+  status: 2
+  priority: 7
+  effects:
+    passive:
+      condition: "true"
+      perform: |-
+        const count = 
+          player.units.legth + 
+          opponent.units.legth;
+        pass.raisePower(card, count)
+      allowedLots:
+        - unit-field
+        - hand
+  guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
+  power: 1
+- id: 326
+  slug: jolly-starling
+  effects: {}
+  guid: 907e573d-ac18-84a1-7a9a-643cc896c722
+- id: 373
+  slug: managiver
+  description: When I am summoned, you gain 2 mana (without ignoring your current
+    mana-capacity)
+  effects: {}
+  guid: a9bfb05d-2bed-d7d7-2ded-89692e5746a1
+  power: 3
+  name: managiver
 - id: 341
   slug: token-summoner4-0.nzw4bmnoums0.cn1evecnh4t
   description: When I die, summon a 0 power token creature in my place.
@@ -3917,7 +3965,7 @@
   power: 7
   name: WTF Paul
   guid: 49104f2c-9d86-9358-8588-49b43aac7f6d
-- id: 3277
+- id: 3297
   slug: honor-1
   description: Raise my power by 2 for each other friendly Honorable Soldier card in play.
   effects: {}
@@ -3965,14 +4013,14 @@
   power: 4
   name: Lightning Paul
   guid: cfcfb735-84df-cfe1-7a29-0935b4826063
-- id: 3281
+- id: 327
   slug: zombyra
   description: Every time I attack, decrease my power by 2.
   effects: {}
-  power: 8
+  power: 7
   name: Overly Excited Tim
   guid: 9228b01a-6cc0-83c0-78df-1d377137b0b8
-- id: 3282
+- id: 343
   slug: poised-eric
   description: After I attack the enemy directly, I am destroyed.
   effects: {}
@@ -4021,7 +4069,7 @@
   power: 6
   name: johnny1
   guid: e373c336-f554-700d-e05a-48ed858e6029
-- id: 3288
+- id: 374
   slug: emma
   description: If your current mana is 0, you can summon me for no mana cost.
   effects: {}
@@ -4097,7 +4145,7 @@
   effects: {}
   name: Empty Shell
   guid: 1b86623b-0b3e-06ff-3a33-ea554b9feea2
-- id: 3297
+- id: 3298
   slug: honor-2
   description: Raise my power by 2 for each other friendly Honorable Soldier card in play.
   effects: {}
@@ -4390,7 +4438,7 @@
   power: 4
   name: Cheerleader Harpy 2
   guid: 573b5edb-f33c-4ef4-01de-9faaa0857931
-- id: 3637
+- id: 357
   slug: darkassasin2
   description: When I attack - deal 3 damage to your Life Points.
   effects: {}
@@ -4613,11 +4661,11 @@
   power: 1
   name: Haste Contracter
   guid: 55960ff8-4bf7-401e-f4f1-984ed93f7b8f
-- id: 3587
+- id: 356
   slug: drawttack
   description: Every time I complete an attack, if I'm still in play, draw 1 card.
   effects: {}
-  power: 3
+  power: 2
   name: Drawttack
   guid: d3652985-d44b-8bc4-a4af-e6be3f556199
 - id: 3606
@@ -4960,7 +5008,7 @@
   name: Specialo
   guid: 3cbde08d-dcdf-4f32-66ec-73b4dde8e205
 - id: 3619
-  slug: managiver
+  slug: managiver2
   description: When I am summoned, you gain 2 mana (without ignoring your current
     mana-capacity)
   effects: {}
@@ -5082,7 +5130,7 @@
   effects: {}
   name: drawrager2
   guid: bd11aab8-348e-d512-0918-b809e5540bfd
-- id: 3598
+- id: 355
   slug: shmester
   description: Decrease my power by 1 every time another creature enters play.
   effects: {}
@@ -5785,12 +5833,10 @@
   power: 7
   name: Tricky Shield
   guid: 58ebdd7a-1969-432a-0635-79f8239af518
-- id: 3625
+- id: 372
   slug: necropy
-  description: >-
-    Take 1 direct damage when you manually summon me. 
-
-    My power is raised by that of the top card in the enemy graveyard at all times (0 if it is not a creature).
+  description: My power is raised by that of the top card in the enemy graveyard at all
+    times (0 if it is not a creature).
   effects: {}
   name: Necropy
   guid: da711770-5ed0-4617-0f2a-b520d56d8912
