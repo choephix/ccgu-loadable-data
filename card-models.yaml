@@ -649,7 +649,7 @@
   effects: {}
   guid: aba8cb64-3893-70f5-baa9-c5599067f499
   name: Deadly Sacrifice
-- id: 779
+- id: 362
   slug: sneakshot
   type: 1
   description: Activate when opposing enemy unit begins a direct attack. Deal 5 damage to
@@ -6400,7 +6400,7 @@
   effects: {}
   name: No-Flippers!
   guid: a88919dd-bfea-aaf9-c14d-8604345e5443
-- id: 3711
+- id: 330
   slug: manadrain
   type: 1
   description: Activate when opposing enemy creature is summoned manually. The enemy's mana
@@ -6408,7 +6408,7 @@
   effects: {}
   name: Mana-Drain
   guid: 1ff775c2-57cb-d1ef-2854-2d934dd2fc02
-- id: 3695
+- id: 346
   slug: eject
   type: 1
   description: When an enemy creature enters the opposing field for any reason, return it
