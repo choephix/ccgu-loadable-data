@@ -1049,12 +1049,19 @@
   power: 3
   name: The Swapper
   guid: 2c064020-07e5-d2da-ed69-734025104d9f
-- id: 572
+- id: 364
   slug: bosstrap
   type: 1
   description: When opposing enemy $unit with 10 power or above, when it begins a direct
     attack - destroy it.
-  effects: {}
+  effects:
+    active:
+      eventName: UnitAttackDirect
+      eventStatus: began
+      condition: |-
+        get.opposingUnit(card) === event.card &&
+        get.opposingUnit(card).power >= 10
+      perform: op.kill(get.opposingUnit(card))
   name: bosstrap
   guid: 53828163-ed73-e387-3634-8cf87831dff2
 - id: 1010
@@ -2105,7 +2112,7 @@
   effects: {}
   name: mirrorforce
   guid: 3116a4e6-a681-43fd-41a9-07b98c176174
-- id: 839
+- id: 348
   slug: tripwire
   type: 1
   description: Activate when enemy $unit $relocates to opposing $field. Kill it.
