@@ -1,3 +1,22 @@
+- id: 332
+  slug: steal-dead-unit
+  type: 1
+  description: After your unit is destroyed, and if the top card in the enemy grave is
+    unit, deploy it on your side.
+  effects:
+    active:
+      eventName: UnitDie
+      eventStatus: ended
+      condition: |-
+        event.card === get.sameLaneUnit(card) &&
+        opponent.grave.topCard?.isUnitType &&
+        !get.sameLaneUnit(card)
+      perform: |-
+        const card = opponent.grave.topCard;
+        const field = get.get.sameLaneUnitField(card)
+        op.deploy(card, field)
+  guid: d168768c-2363-2cf9-e031-231ae5b6f749
+  name: interlay
 - id: 90
   slug: token-10
   tags:
