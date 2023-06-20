@@ -1,3 +1,13 @@
+- id: 377
+  slug: wasted
+  type: 1
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: event.card === get.opposingUnitField(card)
+      perform: op.forceAttack(event.card)
+  guid: 4e754618-ac92-59f4-5d3a-4e9c64478b3f
 - id: 361
   slug: from-the-right
   type: 1
