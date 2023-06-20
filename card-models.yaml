@@ -1,9 +1,8 @@
-- id: 335
+- id: 357
   slug: token-giver
   description: Spawns a token on the enemy side.
   tags:
     - rush
-    - swapper
   effects:
     active:
       eventName: DeployUnit
@@ -1008,7 +1007,7 @@
   guid: df2fa72c-6500-3207-0d6b-65f87574901c
   power: 10
   name: prickly-goshawk
-- id: 820
+- id: 383
   slug: loki
   description: "All ally units gain #swapper while I am in play."
   tags:
