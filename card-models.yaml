@@ -1,3 +1,84 @@
+- id: 90
+  slug: token-10
+  tags:
+    - token
+  pdc: -1
+  status: 7
+  effects: {}
+  guid: f6089e84-65fc-5342-5389-15642b3dff64
+  power: 10
+- id: 89
+  slug: token-9
+  tags:
+    - token
+  pdc: -1
+  status: 7
+  effects: {}
+  guid: f6089e84-65fc-5342-5389-15642b3dff64
+  power: 9
+- id: 88
+  slug: token-8
+  tags:
+    - token
+  pdc: -1
+  status: 7
+  effects: {}
+  guid: f6089e84-65fc-5342-5389-15642b3dff64
+  power: 8
+- id: 87
+  slug: token-7
+  tags:
+    - token
+  pdc: -1
+  status: 7
+  effects: {}
+  guid: f6089e84-65fc-5342-5389-15642b3dff64
+  power: 7
+- id: 86
+  slug: token-6
+  tags:
+    - token
+  pdc: -1
+  status: 7
+  effects: {}
+  guid: f6089e84-65fc-5342-5389-15642b3dff64
+  power: 6
+- id: 379
+  slug: token-after-attack
+  type: 1
+  effects:
+    active:
+      eventName: UnitAttackDirect
+      eventStatus: ended
+      condition: event.card === get.opposingUnit(card)
+      perform: |-
+        const field = get.opposingUnitField(card)
+        op.spawnToken(field, 'token-8')
+  guid: 7b56a5c5-71bc-d653-3098-2dd6e8e17b3b
+- id: 363
+  slug: token-on-attack
+  type: 1
+  effects:
+    active:
+      eventName: UnitAttackDirect
+      eventStatus: began
+      condition: event.card === get.opposingUnit(card)
+      perform: |-
+        const field = get.opposingUnitField(card)
+        op.spawnToken(field, 'token-1')
+  guid: 7b56a5c5-71bc-d653-3098-2dd6e8e17b3b
+- id: 347
+  slug: token-on-deploy
+  type: 1
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: event.card === get.opposingUnit(card)
+      perform: |-
+        const field = get.opposingUnitField(card)
+        op.spawnToken(field, 'token-4')
+  guid: 7b56a5c5-71bc-d653-3098-2dd6e8e17b3b
 - id: 377
   slug: wasted
   type: 1
@@ -699,7 +780,7 @@
   guid: 175c9ca8-d248-7609-c6af-0c09f2094056
   name: Fate Forward
   power: 4
-- id: 854
+- id: 331
   slug: surprise-reborn
   type: 1
   description: >-
