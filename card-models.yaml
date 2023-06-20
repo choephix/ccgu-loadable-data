@@ -352,7 +352,7 @@
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   power: 1
   name: geinhildr
-- id: 373
+- id: 374
   slug: managiver
   description: When I am summoned, you gain 2 mana (without ignoring your current
     mana-capacity)
@@ -414,7 +414,7 @@
   guid: f0a1e712-dc0d-feca-4096-4ebcb8253d43
   name: harassingmia
   power: 1
-- id: 322
+- id: 373
   slug: berserker
   description: |-
     I attack automatically on at the start of your turn.
@@ -464,7 +464,7 @@
   guid: b9184642-b505-f7e6-c6c7-71c4e84a7065
   power: 4
   name: knightmare-shield
-- id: 320
+- id: 322
   slug: knightmare-sword
   description: When I am deployed, if possible, deploy @knightmare-shield to my left.
   lore: A scary phanton sword!!
@@ -1318,7 +1318,7 @@
   power: 1
   name: 8cb52eaa
   guid: 8cb52eaa-2cfa-bc38-c707-68ee01fee688
-- id: 905
+- id: 320
   slug: powerdown-1
   description: On deploy - opposite enemy unit loses 6 power
   tags:
@@ -1565,17 +1565,29 @@
   effects: {}
   name: Balanced Antitrap
   guid: 9d559a67-558f-c648-b17c-a6c6da4dae1d
-- id: 953
-  slug: traplode
-  description: "#Grand Before any trap on either side activates - destroy it. If so, I die
-    at the end of that turn."
+- id: 352
+  slug: grand-disarmer
+  description: |-
+    When ANY trap is about to activate on this lane, destroy me and that trap.
+    This goes for both yours and the enemy's traps.
   tags:
     - grand
   pdc: -1
   priority: 3
-  effects: {}
-  name: traplode
+  effects:
+    active:
+      eventName: ActivateTrap
+      eventStatus: began
+      condition: |-
+        event.card === get.opposingTrap(card) ||
+        event.card === get.sameLaneTrap(card)
+      perform: |-
+        op.dispose(card)
+        op.kill(card)
+      allowedLots:
+        - unit-field
   guid: 875977e2-407a-791e-f59c-e0846bdd7ddb
+  power: 7
 - id: 886
   slug: chickeng1
   description: "#Grand When opposing enemy unit attacks, I return to your hand. The attack
@@ -2486,7 +2498,7 @@
   power: 4
   name: immortal-bob
   guid: 7d41f504-7d39-2206-5921-d540a8c3a7f6
-- id: 352
+- id: 375
   slug: all-out-johnny
   description: At the end of your turn discard all cards in your hand
   status: 1
