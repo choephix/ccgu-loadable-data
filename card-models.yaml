@@ -1,3 +1,33 @@
+- id: 365
+  slug: cookable-mammal
+  type: 1
+  description: When yout unit here is about to die, deal damage equal to its power to both
+    players.
+  effects: {}
+  guid: 6a1bcab6-431f-855c-b412-f11ed20bea7e
+- id: 349
+  slug: def-heal
+  type: 1
+  description: >-
+    Activate when opposing enemy unit begins a direct attack and the top card in
+    your grave is a unit.
+
+
+    Deploy that unit on this lane.
+  lore: v3
+  effects:
+    active:
+      eventName: UnitAttackDirect
+      eventStatus: began
+      condition: |-
+        event.card === get.opposingUnit( card ) &&
+        player.grave.topCard &&
+        player.grave.topCard.isUnitType &&
+        ! get.sameLaneUnit( card )
+      perform: |-
+        const lot = get.sameLaneUnitField( card )
+        op.deploy( player.grave.topCard, lot )
+  guid: 32e847e6-dce8-b39e-db65-c218a4e5bf5f
 - id: 342
   slug: un-shonen
   description: +1 power per enemy unit in play.
