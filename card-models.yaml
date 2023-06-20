@@ -1,3 +1,25 @@
+- id: 342
+  slug: un-shonen
+  description: +1 power per enemy unit in play.
+  pdc: -1
+  status: 2
+  priority: 7
+  effects:
+    passive:
+      condition: "true"
+      perform: |-
+        const count = opponent.units.legth;
+        pass.lowerPower(card, 2 * count)
+      allowedLots:
+        - unit-field
+        - hand
+  guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
+  power: 9
+  name: shonen
+- id: 383
+  slug: un-prod
+  effects: {}
+  guid: c13d7cb1-aef8-5d5c-4792-3884335296cd
 - id: 332
   slug: steal-dead-unit
   type: 1
@@ -156,7 +178,7 @@
       perform: op.endTurn()
   guid: 6be64973-5e35-cd68-924a-1e49d0446c86
   name: Turn End
-- id: 376
+- id: 375
   slug: splendid-eric
   description: |-
     I die after combat
@@ -176,7 +198,7 @@
   guid: c75dbcf9-9f9a-a55f-c949-5b59b076e58a
   name: Spiky Balloon
   power: 7
-- id: 360
+- id: 359
   slug: lowkey-andeancat
   effects: {}
   guid: a46e7d2c-e9c9-062f-170d-95ecd10cb7f2
@@ -191,7 +213,7 @@
   guid: 72f43226-a6c8-d6ac-305c-c59c581c7fc3
   power: 3
   name: Time-Reverser
-- id: 359
+- id: 360
   slug: trampoline
   description: |-
     Combat-Flip:
@@ -204,7 +226,7 @@
   name: Trampoline
 - id: 358
   slug: shonen
-  description: +1 power per ANY unit in play.
+  description: +1 power per enemy unit in play.
   pdc: -1
   status: 2
   priority: 7
@@ -220,7 +242,7 @@
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   power: 3
   name: shonen
-- id: 342
+- id: 326
   slug: geinhildr
   description: +1 power per ANY unit in play.
   pdc: -1
@@ -240,11 +262,6 @@
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   power: 1
   name: geinhildr
-- id: 326
-  slug: jolly-starling
-  effects: {}
-  guid: 907e573d-ac18-84a1-7a9a-643cc896c722
-  name: jolly-starling
 - id: 373
   slug: managiver
   description: When I am summoned, you gain 2 mana (without ignoring your current
@@ -1383,7 +1400,7 @@
   effects: {}
   name: drawnecro
   guid: 8cc4afa4-1276-5506-1c7d-aa1052afd931
-- id: 818
+- id: 333
   slug: taunt
   type: 1
   description: Activate when opposing enemy unit is deployed and force it to attack.
@@ -1482,10 +1499,10 @@
   name: chickeng1
   power: 14
   guid: 0227eaaf-1a18-94d7-1430-4f9842b92784
-- id: 817
+- id: 380
   slug: toxicmine
   type: 1
-  description: Activate when opposing enemy unit is deployed. Decrease its power by
+  description: Activate when opposing enemy unit is deployed. Decrease its power by 5
   pdc: -1
   priority: 3
   effects:
@@ -2547,7 +2564,7 @@
   power: 14
   name: Grand Traitor
   guid: 65591d48-dbec-6af4-034e-c0eb08f6795e
-- id: 375
+- id: 376
   slug: time-bug
   description: |-
     Combat-Flip:
@@ -4216,7 +4233,7 @@
   power: 4
   name: Lightning Paul
   guid: cfcfb735-84df-cfe1-7a29-0935b4826063
-- id: 327
+- id: 339
   slug: zombyra
   description: Every time I attack, decrease my power by 2.
   effects: {}
@@ -5564,7 +5581,7 @@
   effects: {}
   name: Fateweaver
   guid: cdcd74a9-158b-7117-a9c4-4732b4f7cc14
-- id: 339
+- id: 327
   slug: unkillable-barny
   description: >-
     IN-GRAVE
