@@ -13,9 +13,9 @@ cardSections:
       - funcIndex: 10
         header: Generic cards (no active special effects)
       - funcIndex: 0
-        header: Polygon Demo Set
+        header: Polygon Demo Set (Candidates)
       - funcIndex: 0
-        header: ...
+        header: Polygon Demo Set (P1 - row 1 & 2, P2 - row 3 & 4)
       - funcIndex: 0
         header: ...
   - subsections:
