@@ -1,3 +1,38 @@
+- id: 376
+  slug: splendid-eric
+  description: |-
+    I die after combat
+    if still in play
+  effects:
+    active:
+      eventName: UnitAttackCombat
+      eventStatus: ended
+      condition: |-
+        faq.isInPlay(card) && (
+          event.attacker === card || 
+          event.defender === card
+        )
+      perform: op.kill(card)
+      allowedLots:
+        - unit-field
+  guid: c75dbcf9-9f9a-a55f-c949-5b59b076e58a
+  name: Spiky Balloon
+  power: 7
+- id: 360
+  slug: lowkey-andeancat
+  effects: {}
+  guid: a46e7d2c-e9c9-062f-170d-95ecd10cb7f2
+- id: 328
+  slug: timereverser
+  description: |-
+    Combat-Flip:
+    Add the top card in your graveyard to the top of your deck.
+  tags:
+    - sneak
+  effects: {}
+  guid: 72f43226-a6c8-d6ac-305c-c59c581c7fc3
+  power: 3
+  name: Time-Reverser
 - id: 359
   slug: trampoline
   description: |-
@@ -26,6 +61,7 @@
         - hand
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   power: 3
+  name: shonen
 - id: 342
   slug: geinhildr
   description: +1 power per ANY unit in play.
@@ -45,10 +81,12 @@
         - hand
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   power: 1
+  name: geinhildr
 - id: 326
   slug: jolly-starling
   effects: {}
   guid: 907e573d-ac18-84a1-7a9a-643cc896c722
+  name: jolly-starling
 - id: 373
   slug: managiver
   description: When I am summoned, you gain 2 mana (without ignoring your current
@@ -162,7 +200,7 @@
   power: 4
   name: knightmare-shield
 - id: 320
-  slug: knightmare-shield
+  slug: knightmare-shield-0.bb4diic5qfm0.bimws1c757u
   description: When I am deployed, if possible, deploy @knightmare-shield to my left.
   lore: A scary phanton sword!!
   notes: |-
@@ -2666,7 +2704,7 @@
   power: 3
   name: Jerry
   guid: aae47116-0b38-c940-032b-b0ceb6723a9e
-- id: 3117
+- id: 344
   slug: brainleech
   description: "Safe-Flip
 
