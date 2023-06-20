@@ -1,3 +1,32 @@
+- id: 416
+  slug: un-prod
+  description: -1 for every card in your hand
+  effects:
+    passive:
+      condition: "true"
+      perform: |-
+        let count = player.hand.cardCount
+        pass.lowerPower(card, count)
+      allowedLots:
+        - unit-field
+        - grave
+        - hand
+  guid: 5449b2b3-6f26-8acd-e5f8-3318420ca29f
+  name: UnProducer
+  power: 8
+- id: 381
+  slug: costly-indoctronation
+  type: 1
+  description: >-
+    When opposing enemy unit is deployed: Take damage equal to its power, but
+    also move the unit to your side.
+
+    You must have no unit here.
+  pdc: -1
+  priority: 3
+  effects: {}
+  guid: ecf87384-4b2b-ceed-ffb1-c510eea1a14e
+  name: Costly Indoctronation
 - id: 365
   slug: cookable-mammal
   type: 1
@@ -46,10 +75,6 @@
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   power: 9
   name: shonen
-- id: 383
-  slug: un-prod
-  effects: {}
-  guid: c13d7cb1-aef8-5d5c-4792-3884335296cd
 - id: 332
   slug: steal-dead-unit
   type: 1
@@ -208,7 +233,7 @@
       perform: op.endTurn()
   guid: 6be64973-5e35-cd68-924a-1e49d0446c86
   name: Turn End
-- id: 375
+- id: 417
   slug: splendid-eric
   description: |-
     I die after combat
@@ -243,7 +268,7 @@
   guid: 72f43226-a6c8-d6ac-305c-c59c581c7fc3
   power: 3
   name: Time-Reverser
-- id: 360
+- id: 418
   slug: trampoline
   description: |-
     Combat-Flip:
@@ -405,7 +430,7 @@
   power: 4
   name: knightmare-shield
 - id: 320
-  slug: knightmare-shield-0.bb4diic5qfm0.bimws1c757u
+  slug: knightmare-sword
   description: When I am deployed, if possible, deploy @knightmare-shield to my left.
   lore: A scary phanton sword!!
   notes: |-
@@ -1447,7 +1472,7 @@
       perform: op.forceAttack( event.card )
   name: OP!
   guid: bdaf0351-9f2b-859c-d4e7-7b35dcae8645
-- id: 872
+- id: 334
   slug: indoctronate
   type: 1
   description: Activate when an enemy unit is deployed and the opposing unit field is
@@ -5611,7 +5636,7 @@
   effects: {}
   name: Fateweaver
   guid: cdcd74a9-158b-7117-a9c4-4732b4f7cc14
-- id: 327
+- id: 419
   slug: unkillable-barny
   description: >-
     IN-GRAVE
