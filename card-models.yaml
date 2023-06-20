@@ -253,10 +253,6 @@
   guid: c75dbcf9-9f9a-a55f-c949-5b59b076e58a
   name: Spiky Balloon
   power: 7
-- id: 359
-  slug: lowkey-andeancat
-  effects: {}
-  guid: a46e7d2c-e9c9-062f-170d-95ecd10cb7f2
 - id: 328
   slug: timereverser
   description: |-
@@ -358,7 +354,7 @@
   effects: {}
   guid: 44372e4e-629c-387c-6162-e52dccc7029c
   name: Flashforward
-  power: 5
+  power: 4
 - id: 323
   slug: harassingmia
   description: I return to your hand at the end of your turn.
@@ -1065,7 +1061,7 @@
         - unit-field
   guid: da1d63dc-c3a5-7c69-49c4-148a17a842e0
   name: kamikazejoe
-  power: 1
+  power: 2
 - id: 885
   slug: unbreakable-2
   description: >-
@@ -1703,7 +1699,7 @@
   name: Sloth Wyrm
   power: 15
   guid: 54906067-1fd6-f6bb-cd8d-4b03141e3efe
-- id: 819
+- id: 350
   slug: killonattack
   type: 1
   description: Activate after opposing enemy $unit finishes a direct attack. $Kill it.
@@ -1713,12 +1709,12 @@
   effects:
     active:
       eventName: UnitAttackDirect
-      eventStatus: began
+      eventStatus: ended
       condition: faq.isOpposingLane( event.card, card )
       perform: op.kill( event.card )
   name: killonattack
   guid: e649a142-6fe2-e540-60e4-3615f222370a
-- id: 807
+- id: 384
   slug: freejimmy
   description: Activate when I am deployed. Raise your AP by 1.
   pdc: -1
@@ -1734,7 +1730,7 @@
         - unit-field
   power: 4
   guid: d733ae6a-414f-023c-4992-e99fea422de6
-  name: freejimmy
+  name: Jimmy The Free
 - id: 874
   slug: nosneaking
   type: 1
@@ -1854,7 +1850,7 @@
   name: honoraro
   power: 7
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
-- id: 769
+- id: 327
   slug: nimbleguard
   description: When an enemy $unit is $deployed, if possible, move me in front of it.
   pdc: -1
@@ -2013,7 +2009,7 @@
   name: Grand Traitor
   power: 14
   guid: 00badf76-e490-b5e6-9b31-a3986978ca5e
-- id: 803
+- id: 339
   slug: man-of-honor
   description: I cannot attack if there is no opposing enemy $unit
   pdc: -1
@@ -2619,7 +2615,7 @@
   power: 14
   name: Grand Traitor
   guid: 65591d48-dbec-6af4-034e-c0eb08f6795e
-- id: 376
+- id: 360
   slug: time-bug
   description: |-
     Combat-Flip:
@@ -4288,7 +4284,7 @@
   power: 4
   name: Lightning Paul
   guid: cfcfb735-84df-cfe1-7a29-0935b4826063
-- id: 339
+- id: 375
   slug: zombyra
   description: Every time I attack, decrease my power by 2.
   effects: {}
@@ -4344,12 +4340,12 @@
   power: 6
   name: johnny1
   guid: e373c336-f554-700d-e05a-48ed858e6029
-- id: 374
+- id: 385
   slug: emma
   description: If your current mana is 0, you can summon me for no mana cost.
   effects: {}
   power: 4
-  name: Emma
+  name: Emma The Free
   guid: bab4499d-f430-1bce-43d6-1d22d350599b
 - id: 3306
   slug: mana-thing
@@ -4482,7 +4478,7 @@
   power: 4
   name: Trap-Powered
   guid: 2f2f474a-e268-7bfb-81a2-f69188d45516
-- id: 802
+- id: 355
   slug: producer
   description: My power is raised by 1 for each card in your hand
   effects:
@@ -4660,7 +4656,7 @@
   power: 1
   name: Tricky Necromancer
   guid: cead0021-5e03-b6aa-c8f9-99cd26581f3c
-- id: 352
+- id: 464
   slug: banana-b
   description: >-
     IN-HAND
@@ -4790,7 +4786,7 @@
   power: 5
   name: Joe Blow
   guid: ca3a4ca9-ca25-0d16-86a5-8519e7402e0b
-- id: 368
+- id: 448
   slug: banana-a
   description: >-
     IN-HAND
@@ -5405,7 +5401,7 @@
   effects: {}
   name: drawrager2
   guid: bd11aab8-348e-d512-0918-b809e5540bfd
-- id: 355
+- id: 359
   slug: shmester
   description: Decrease my power by 1 every time another creature enters play.
   effects: {}
