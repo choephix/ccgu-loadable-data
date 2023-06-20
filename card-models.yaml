@@ -3796,7 +3796,7 @@
   effects: {}
   name: Deck Replenish
   guid: d3dcdefa-cc96-2c97-4685-80ee9c6c0d96
-- id: 853
+- id: 378
   slug: surprise-attack
   type: 1
   description: Activate when an opposing enemy creature is summoned and there is a freindly
@@ -5811,19 +5811,6 @@
   effects: {}
   name: Defense From The West
   guid: 78242ddf-4726-ea12-4350-a5a3c1c52909
-- id: 855
-  slug: turnend
-  type: 1
-  description: Activate when opposing enemy creature's attack finishes during the enemy
-    turn and it is still in play. Force the enemy to end their turn.
-  effects:
-    active:
-      eventName: UnitAttack
-      eventStatus: ended
-      condition: event.card === get.opposingUnit( card )
-      perform: op.endTurn()
-  name: Turn End
-  guid: 6be64973-5e35-cd68-924a-1e49d0446c86
 - id: 3129
   slug: kamikaze2
   description: |-
