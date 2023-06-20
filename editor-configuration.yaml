@@ -17,7 +17,7 @@ cardSections:
       - funcIndex: 0
         header: Polygon Demo Set (P1 - row 1 & 2, P2 - row 3 & 4)
       - funcIndex: 0
-        header: ...
+        header: Great for Demo, but impossible or not great yet
   - subsections:
       - funcIndex: 4
         header: v2 Classics
