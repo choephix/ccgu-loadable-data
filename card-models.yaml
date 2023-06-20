@@ -1,3 +1,31 @@
+- id: 335
+  slug: token-giver
+  description: Spawns a token on the enemy side.
+  tags:
+    - rush
+    - swapper
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: event.card === card
+      perform: |-
+        const index = card.lot.index;
+        const field = get.opposingUnitField(card)
+        op.spawnToken(field, 'token-0')
+      allowedLots:
+        - unit-field
+  guid: 2b0ed5c3-5521-ca41-f2bb-ff7607b08fea
+  power: 4
+  name: Token Giver
+- id: 271
+  slug: marvellous-koi
+  description: |-
+    On deploy: Gain 4 HP
+    On death: Lose 5 HP
+  effects: {}
+  guid: 2eb984ca-fea4-fc3b-52a5-9d81eaee4740
+  power: 4
 - id: 359
   slug: hard-skin
   description: +3 during enemy turn
@@ -4771,7 +4799,7 @@
   power: 4
   name: Cheerleader Harpy 2
   guid: 573b5edb-f33c-4ef4-01de-9faaa0857931
-- id: 357
+- id: 386
   slug: darkassasin2
   description: When I attack - deal 3 damage to your Life Points.
   effects: {}
