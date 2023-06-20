@@ -53,7 +53,7 @@
       condition: event.card === get.opposingUnit(card)
       perform: |-
         const field = get.opposingUnitField(card)
-        op.spawnToken(field, 'token-8')
+        op.spawnToken(field, 'token-9')
   guid: 7b56a5c5-71bc-d653-3098-2dd6e8e17b3b
 - id: 363
   slug: token-on-attack
