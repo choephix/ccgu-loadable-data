@@ -1,3 +1,32 @@
+- id: 359
+  slug: hard-skin
+  description: +3 during enemy turn
+  effects:
+    passive:
+      condition: get.currentPlayer === opponent
+      perform: pass.raisePower(card, 3)
+      allowedLots:
+        - unit-field
+  guid: 549b8197-538b-0a31-673d-e0b8e59fcc32
+  power: 3
+- id: 432
+  slug: captain-fantastic
+  description: Adjacent friendly units' power is raised by 4.
+  lore: v2
+  pdc: -1
+  status: 2
+  priority: 7
+  effects:
+    passive:
+      condition: "true"
+      perform: |-
+        for (const u of get.adjacentUnits(card)) {
+          pass.raisePower(u, 2)
+        }
+      allowedLots:
+        - unit-field
+  guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
+  power: 2
 - id: 368
   slug: novel-lynx
   description: +10 during your turn
@@ -1342,14 +1371,13 @@
   name: ab5ea2a0
   guid: ab5ea2a0-609c-2e95-d2ce-6b6d6675814d
 - id: 856
-  slug: reversepiercing
+  slug: force-piercing
   type: 1
   description: |-
     opposite enemy unit has piercing
     until the end of the turn
   effects: {}
   power: 6
-  name: reversepiercing
   guid: 636a38f9-f6a2-3f05-aed0-303e3501a308
 - id: 928
   slug: invite
@@ -1508,7 +1536,7 @@
   name: effaceable-kissingbug
   power: 14
   guid: 0150cb46-5ae5-249d-32b3-fe089acf39fd
-- id: 857
+- id: 366
   slug: relokill
   type: 1
   description: Activate when opposing enemy unit starts relocation. Kill it.
@@ -1842,7 +1870,7 @@
   name: vampirefang
   power: 2
   guid: e8d29482-9996-f3ed-a02b-f0c4219e8c5a
-- id: 826
+- id: 433
   slug: spearhead
   tags:
     - piercing
@@ -1853,7 +1881,7 @@
   power: 1
   guid: 1dceec66-3bae-a21b-2d2c-dac0160cbc43
 - id: 870
-  slug: honoraro
+  slug: honoraro-grand
   description: Adjacent friendly units' power is raised by 4.
   lore: v2
   tags:
@@ -1870,7 +1898,6 @@
         }
       allowedLots:
         - unit-field
-  name: honoraro
   power: 7
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
 - id: 327
@@ -4307,7 +4334,7 @@
   power: 4
   name: Lightning Paul
   guid: cfcfb735-84df-cfe1-7a29-0935b4826063
-- id: 375
+- id: 545
   slug: zombyra
   description: Every time I attack, decrease my power by 2.
   effects: {}
@@ -5424,7 +5451,7 @@
   effects: {}
   name: drawrager2
   guid: bd11aab8-348e-d512-0918-b809e5540bfd
-- id: 359
+- id: 544
   slug: shmester
   description: Decrease my power by 1 every time another creature enters play.
   effects: {}
