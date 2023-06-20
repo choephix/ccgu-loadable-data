@@ -1,3 +1,13 @@
+- id: 368
+  slug: novel-lynx
+  description: +10 during your turn
+  tags:
+    - grand
+  effects:
+    passive:
+      condition: faq.hasTurn(card)
+      perform: pass.raisePower(card, 10)
+  guid: 9d913bd6-cf60-e796-d57d-ef6d9465f77d
 - id: 416
   slug: un-prod
   description: -1 for every card in your hand
@@ -2449,7 +2459,7 @@
   power: 4
   name: immortal-bob
   guid: 7d41f504-7d39-2206-5921-d540a8c3a7f6
-- id: 804
+- id: 352
   slug: all-out-johnny
   description: At the end of your turn discard all cards in your hand
   status: 1
