@@ -1,3 +1,34 @@
+- id: 345
+  slug: from-the-left
+  type: 1
+  effects:
+    active:
+      eventName: UnitAttack
+      eventStatus: began
+      condition: |-
+        get.opposingUnit(card) === event.card &&
+        get.leftUnit(card) &&
+        !get.sameLaneUnit(card)
+      perform: |-
+        op.moveTo(
+          get.leftUnit(card), 
+          get.sameLaneUnitField(card)
+        )
+  guid: 294447b1-beb2-1618-5d29-8182eee4f481
+- id: 329
+  slug: turnend
+  type: 1
+  description: When opposing enemy attack finishes, end the turn immediately
+  effects:
+    active:
+      eventName: UnitAttack
+      eventStatus: ended
+      condition: |-
+        get.currentPlayer === opponent &&
+        event.card === get.opposingUnit(card)
+      perform: op.endTurn()
+  guid: 6be64973-5e35-cd68-924a-1e49d0446c86
+  name: Turn End
 - id: 376
   slug: splendid-eric
   description: |-
