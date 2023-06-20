@@ -1613,17 +1613,30 @@
   power: 7
   guid: 45b03f7f-e7a8-9b14-9975-fd32ea1699f2
 - id: 900
-  slug: quickgiver-1
-  description: >-
-    When I am $deployed - end your turn.
-
-    Whenever any other $unit is about to be $deployed, give it Storm until turn end.
+  slug: quickgiver-0
+  description: |-
+    When I am deployed, end your turn.
+    All your units have #rush.
   pdc: -1
   status: 12
   priority: 1
-  effects: {}
-  name: quickgiver-1
-  power: 2
+  effects:
+    active:
+      eventName: DeployUnit
+      condition: |-
+        event.card === card &&
+        get.currentPlayer === card.controller
+      perform: op.endTurn()
+      allowedLots:
+        - unit-field
+    passive:
+      condition: "true"
+      perform: |-
+        for (const u of player.units) {
+          pass.addTag(u, 'rush')
+        }
+      allowedLots:
+        - unit-field
   guid: 1edaafe8-aa09-6eb3-cf35-778f72fb0d7a
 - id: 791
   slug: needsmotivation
@@ -6109,7 +6122,7 @@
   power: 1
   name: Safe-Buffer
   guid: 77192957-d7b3-955a-18c6-5b94ac8263f6
-- id: 851
+- id: 376
   slug: spike
   description: |-
     Combat-Flip
@@ -6118,8 +6131,9 @@
     - sneak
   effects:
     flip:
+      manner: combat
       perform: op.damage( opponent, 3 )
-  power: 1
+  power: 3
   name: Spike
   guid: e4b1f6be-1494-a0b6-75da-9f33b33ae1d6
 - id: 3699
