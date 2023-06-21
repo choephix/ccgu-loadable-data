@@ -177,7 +177,7 @@
         - grave
         - hand
   guid: 5449b2b3-6f26-8acd-e5f8-3318420ca29f
-  name: UnProducer
+  name: unproducer
   power: 8
 - id: 366
   slug: costly-indoctronation
@@ -425,7 +425,7 @@
       allowedLots:
         - unit-field
   guid: c75dbcf9-9f9a-a55f-c949-5b59b076e58a
-  name: Spiky Balloon
+  name: spiky balloon
   power: 7
 - id: 328
   slug: timereverser
@@ -448,7 +448,6 @@
   effects: {}
   guid: 8e2d8db0-129c-bb90-5203-0ef032b79e93
   power: 1
-  name: Trampoline
 - id: 404
   slug: shonen
   description: +1 power per enemy unit in play.
@@ -501,7 +500,7 @@
   effects: {}
   guid: e053ce66-d442-4da5-9d05-c4098cf6f191
   power: 3
-  name: Warrior-Hen
+  name: warrior-hen
 - id: 406
   slug: flappy-bird-grand
   lore: Can both attack and move before exhausting.
@@ -1997,7 +1996,6 @@
         - unit-field
         - hand
         - grave
-  name: Antisocial Knight
   power: 9
   guid: 0e0640e1-917e-9491-34ca-bb8f8a8a4e45
 - id: 785
@@ -6748,7 +6746,6 @@
       allowedLots:
         - unit-field
   power: 9
-  name: Mario
   guid: aed48434-2260-dce3-9f4c-1afd8ba8f782
 - id: 3687
   slug: retrap
