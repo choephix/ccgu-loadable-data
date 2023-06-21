@@ -520,6 +520,8 @@
   slug: token-spawner
   description: When I die, summon a 0 power token creature in my place.
   notes: 'Token: "The Grin Without a Cat"'
+  tags:
+    - sneak
   effects: {}
   guid: e053ce66-d442-4da5-9d05-c4098cf6f191
   power: 2
