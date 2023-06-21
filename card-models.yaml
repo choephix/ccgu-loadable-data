@@ -73,7 +73,6 @@
 - id: 390
   slug: sapper-grand
   description: -2 power to all enemy units
-  lore: v2
   tags:
     - grand
   pdc: -1
@@ -89,11 +88,12 @@
       allowedLots:
         - unit-field
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
-  power: 2
-  name: sapper-grand
+  power: 5
+  name: Nyx / Lilith
 - id: 402
   slug: token-giver
   description: If possible, spawn a token on the enemy side.
+  notes: 'Token: "Foolish Fish"'
   tags:
     - rush
   effects:
@@ -109,7 +109,7 @@
         - unit-field
   guid: 2b0ed5c3-5521-ca41-f2bb-ff7607b08fea
   power: 4
-  name: Token Giver
+  name: Anansi
 - id: 271
   slug: marvellous-koi
   description: |-
@@ -2227,7 +2227,7 @@
       perform: pass.addTag( card, Tag.NOATTACK )
       allowedLots:
         - unit-field
-  name: Sir Gawain / Li Kui
+  name: Sir Gawain
   power: 7
   guid: 00064144-b333-3249-8dbf-72397801491f
 - id: 523
@@ -6731,8 +6731,7 @@
   guid: 35bf3d89-85d3-2fe2-71bd-de40ff122c97
 - id: 405
   slug: mario
-  description: After I attack if possible I relocate to the field on the right,
-    else if possible - to the left.
+  description: After I attack, if possible, I relocate to the field on the right
   tags:
     - grand
   effects:
@@ -6745,7 +6744,7 @@
         !get.rightUnit(card)
       perform: |-
         const lot = get.rightUnitField(card)
-        op.deploy(card, lot)
+        op.forceRelocate(card, lot)
       allowedLots:
         - unit-field
   power: 9
