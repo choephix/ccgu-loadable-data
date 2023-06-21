@@ -1,4 +1,4 @@
-- id: 389
+- id: 390
   slug: captain-fantastic
   description: -2 power to all enemy units
   lore: v2
@@ -19,7 +19,7 @@
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   power: 2
   name: captain-fantastic
-- id: 387
+- id: 402
   slug: token-giver
   description: If possible, spawn a token on the enemy side.
   tags:
@@ -80,7 +80,7 @@
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   power: 2
   name: captain-fantastic
-- id: 421
+- id: 422
   slug: novel-lynx
   description: +10 during your turn
   tags:
@@ -366,7 +366,7 @@
   guid: 72f43226-a6c8-d6ac-305c-c59c581c7fc3
   power: 3
   name: Time-Reverser
-- id: 418
+- id: 421
   slug: trampoline
   description: |-
     Combat-Flip:
@@ -430,14 +430,15 @@
   guid: e053ce66-d442-4da5-9d05-c4098cf6f191
   power: 4
   name: Warrior-Hen
-- id: 400
+- id: 406
   slug: flappy-bird
   lore: Can both attack and move before exhausting.
   tags:
     - swift
+    - grand
   effects: {}
   guid: a9fb5b3c-0c8a-a10c-6a8c-8ed91952bc46
-  power: 1
+  power: 5
   name: Flappy Bird
 - id: 388
   slug: swapper
@@ -6078,7 +6079,7 @@
   power: 6
   name: Late-Gamer
   guid: e387c8bf-674e-6aba-62be-cdf6cb983f14
-- id: 402
+- id: 401
   slug: jill
   description: When I enter play, if possible summon @jack from your graveyard to the field
     on my left.
@@ -6086,7 +6087,7 @@
   power: 4
   name: Jill
   guid: 6522a282-a424-a7cc-a462-d4dc93f446a2
-- id: 401
+- id: 400
   slug: jack
   description: When I enter play, if possible summon @jill from your graveyard to the field
     on my right.
