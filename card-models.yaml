@@ -1,12 +1,12 @@
-- id: 371
+- id: 369
   slug: sapper
-  description: -2 power to all enemy units
+  description: -1 power to all enemy units
   effects:
     passive:
       condition: "true"
       perform: |-
         for (const u of opponent.units) {
-          pass.lowerPower(u, 2)
+          pass.lowerPower(u, 1)
         }
       allowedLots:
         - unit-field
