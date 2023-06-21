@@ -1,7 +1,29 @@
+- id: 371
+  slug: sapper
+  description: -2 power to all enemy units
+  effects:
+    passive:
+      condition: "true"
+      perform: |-
+        for (const u of opponent.units) {
+          pass.lowerPower(u, 2)
+        }
+      allowedLots:
+        - unit-field
+  guid: e848b4d8-311f-6eaa-e803-b3c88677863a
+  name: Diomedes
+- id: 704
+  slug: mad-jack
+  lore: Jack Churchill, nicknamed "Mad Jack," was a British soldier during World
+    War II known for fighting with unconventional weapons such as a longbow and
+    broadsword. He is said to have captured over 40 German soldiers
+    single-handedly during one mission.
+  effects: {}
+  guid: 87d3c8a9-5d67-0c75-2fa4-7819060c373c
+  name: Mad Jack
 - id: 368
   slug: spartan
   description: All your units gain power equal to the number of enemy units in play.
-  lore: v2
   tags:
     - grand
   pdc: -1
@@ -444,7 +466,7 @@
         - hand
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   power: 3
-  name: Ajax the Great / Diomedes
+  name: Ajax the Great
 - id: 358
   slug: geinhildr
   description: +1 power per ANY unit in play.
