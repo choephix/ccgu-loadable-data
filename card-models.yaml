@@ -1,6 +1,6 @@
 - id: 357
   slug: token-giver
-  description: Spawns a token on the enemy side.
+  description: If possible, spawn a token on the enemy side.
   tags:
     - rush
   effects:
@@ -25,9 +25,12 @@
   effects: {}
   guid: 2eb984ca-fea4-fc3b-52a5-9d81eaee4740
   power: 4
-- id: 359
+  name: marvellous-koi
+- id: 420
   slug: hard-skin
   description: +3 during enemy turn
+  tags:
+    - sneak
   effects:
     passive:
       condition: get.currentPlayer === opponent
@@ -36,6 +39,7 @@
         - unit-field
   guid: 549b8197-538b-0a31-673d-e0b8e59fcc32
   power: 3
+  name: hard-skin
 - id: 432
   slug: captain-fantastic
   description: Adjacent friendly units' power is raised by 4.
@@ -54,6 +58,7 @@
         - unit-field
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   power: 2
+  name: captain-fantastic
 - id: 368
   slug: novel-lynx
   description: +10 during your turn
@@ -64,6 +69,7 @@
       condition: faq.hasTurn(card)
       perform: pass.raisePower(card, 10)
   guid: 9d913bd6-cf60-e796-d57d-ef6d9465f77d
+  name: novel-lynx
 - id: 416
   slug: un-prod
   description: -1 for every card in your hand
@@ -100,6 +106,7 @@
     players.
   effects: {}
   guid: 6a1bcab6-431f-855c-b412-f11ed20bea7e
+  name: cookable-mammal
 - id: 349
   slug: def-heal
   type: 1
@@ -123,9 +130,10 @@
         const lot = get.sameLaneUnitField( card )
         op.deploy( player.grave.topCard, lot )
   guid: 32e847e6-dce8-b39e-db65-c218a4e5bf5f
-- id: 342
+  name: def-heal
+- id: 387
   slug: un-shonen
-  description: +1 power per enemy unit in play.
+  description: -2 power per enemy unit in play.
   pdc: -1
   status: 2
   priority: 7
@@ -169,6 +177,7 @@
   effects: {}
   guid: f6089e84-65fc-5342-5389-15642b3dff64
   power: 10
+  name: token-10
 - id: 89
   slug: token-9
   tags:
@@ -178,6 +187,7 @@
   effects: {}
   guid: f6089e84-65fc-5342-5389-15642b3dff64
   power: 9
+  name: token-9
 - id: 88
   slug: token-8
   tags:
@@ -187,6 +197,7 @@
   effects: {}
   guid: f6089e84-65fc-5342-5389-15642b3dff64
   power: 8
+  name: token-8
 - id: 87
   slug: token-7
   tags:
@@ -196,6 +207,7 @@
   effects: {}
   guid: f6089e84-65fc-5342-5389-15642b3dff64
   power: 7
+  name: token-7
 - id: 86
   slug: token-6
   tags:
@@ -205,6 +217,7 @@
   effects: {}
   guid: f6089e84-65fc-5342-5389-15642b3dff64
   power: 6
+  name: token-6
 - id: 379
   slug: token-after-attack
   type: 1
@@ -217,6 +230,7 @@
         const field = get.opposingUnitField(card)
         op.spawnToken(field, 'token-9')
   guid: 7b56a5c5-71bc-d653-3098-2dd6e8e17b3b
+  name: token-after-attack
 - id: 363
   slug: token-on-attack
   type: 1
@@ -229,6 +243,7 @@
         const field = get.opposingUnitField(card)
         op.spawnToken(field, 'token-1')
   guid: 7b56a5c5-71bc-d653-3098-2dd6e8e17b3b
+  name: token-on-attack
 - id: 347
   slug: token-on-deploy
   type: 1
@@ -241,6 +256,7 @@
         const field = get.opposingUnitField(card)
         op.spawnToken(field, 'token-4')
   guid: 7b56a5c5-71bc-d653-3098-2dd6e8e17b3b
+  name: token-on-deploy
 - id: 377
   slug: wasted
   type: 1
@@ -251,6 +267,7 @@
       condition: event.card === get.opposingUnitField(card)
       perform: op.forceAttack(event.card)
   guid: 4e754618-ac92-59f4-5d3a-4e9c64478b3f
+  name: wasted
 - id: 361
   slug: from-the-right
   type: 1
@@ -268,6 +285,7 @@
           get.sameLaneUnitField(card)
         )
   guid: 294447b1-beb2-1618-5d29-8182eee4f481
+  name: from-the-right
 - id: 345
   slug: from-the-left
   type: 1
@@ -285,6 +303,7 @@
           get.sameLaneUnitField(card)
         )
   guid: 294447b1-beb2-1618-5d29-8182eee4f481
+  name: from-the-left
 - id: 329
   slug: turnend
   type: 1
@@ -341,7 +360,7 @@
   guid: 8e2d8db0-129c-bb90-5203-0ef032b79e93
   power: 1
   name: Trampoline
-- id: 358
+- id: 435
   slug: shonen
   description: +1 power per enemy unit in play.
   pdc: -1
@@ -388,13 +407,13 @@
   power: 3
   name: managiver
 - id: 341
-  slug: token-summoner4-0.nzw4bmnoums0.cn1evecnh4t
+  slug: token-spawner
   description: When I die, summon a 0 power token creature in my place.
   effects: {}
   guid: e053ce66-d442-4da5-9d05-c4098cf6f191
   power: 4
   name: Warrior-Hen
-- id: 338
+- id: 400
   slug: flappy-bird
   lore: Can both attack and move before exhausting.
   tags:
@@ -403,7 +422,7 @@
   guid: a9fb5b3c-0c8a-a10c-6a8c-8ed91952bc46
   power: 1
   name: Flappy Bird
-- id: 337
+- id: 388
   slug: swapper
   lore: I can relocate to an occupied creature field on your side, by swapping
     places with the creature there. This does not count as relocation for the
@@ -441,7 +460,7 @@
   guid: f0a1e712-dc0d-feca-4096-4ebcb8253d43
   name: harassingmia
   power: 1
-- id: 373
+- id: 434
   slug: berserker
   description: |-
     I attack automatically on at the start of your turn.
@@ -462,7 +481,9 @@
   power: 6
 - id: 321
   slug: knightmare-shield
-  description: When I am deployed, if possible, deploy @knightmare-sword my right.
+  description: |-
+    When I am deployed, if possible, deploy @knightmare-sword my right.
+    It must exist in your deck or hand.
   lore: A scary phanton shield!!
   notes: |-
     multiple effects:
@@ -493,7 +514,9 @@
   name: knightmare-shield
 - id: 322
   slug: knightmare-sword
-  description: When I am deployed, if possible, deploy @knightmare-shield to my left.
+  description: |-
+    When I am deployed, if possible, deploy @knightmare-shield to my left.
+    It must exist in your deck or hand.
   lore: A scary phanton sword!!
   notes: |-
     multiple effects:
@@ -1406,6 +1429,7 @@
   effects: {}
   power: 6
   guid: 636a38f9-f6a2-3f05-aed0-303e3501a308
+  name: force-piercing
 - id: 928
   slug: invite
   type: 1
@@ -1615,6 +1639,7 @@
         - unit-field
   guid: 875977e2-407a-791e-f59c-e0846bdd7ddb
   power: 7
+  name: grand-disarmer
 - id: 886
   slug: chickeng1
   description: "#Grand When opposing enemy unit attacks, I return to your hand. The attack
@@ -1690,7 +1715,7 @@
   power: 7
   guid: 45b03f7f-e7a8-9b14-9975-fd32ea1699f2
 - id: 900
-  slug: quickgiver-0
+  slug: quickgiver-0-0.qtwc06i0mfi0.e39zm5i6l38
   description: |-
     When I am deployed, end your turn.
     All your units have #rush.
@@ -1715,6 +1740,7 @@
       allowedLots:
         - unit-field
   guid: 1edaafe8-aa09-6eb3-cf35-778f72fb0d7a
+  name: quickgiver-0-0.qtwc06i0mfi0.e39zm5i6l38
 - id: 791
   slug: needsmotivation
   description: Increase my $power by %2 for every $friendly adjacent $unit.
@@ -1939,6 +1965,7 @@
         - unit-field
   power: 7
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
+  name: honoraro-grand
 - id: 327
   slug: nimbleguard
   description: When an enemy $unit is $deployed, if possible, move me in front of it.
@@ -2098,7 +2125,7 @@
   name: Grand Traitor
   power: 14
   guid: 00badf76-e490-b5e6-9b31-a3986978ca5e
-- id: 339
+- id: 386
   slug: man-of-honor
   description: I cannot attack if there is no opposing enemy $unit
   pdc: -1
@@ -4429,7 +4456,7 @@
   power: 6
   name: johnny1
   guid: e373c336-f554-700d-e05a-48ed858e6029
-- id: 385
+- id: 449
   slug: emma
   description: If your current mana is 0, you can summon me for no mana cost.
   effects: {}
@@ -4798,7 +4825,7 @@
   power: 4
   name: Cheerleader Harpy 2
   guid: 573b5edb-f33c-4ef4-01de-9faaa0857931
-- id: 386
+- id: 385
   slug: darkassasin2
   description: When I attack - deal 3 damage to your Life Points.
   effects: {}
@@ -5739,7 +5766,7 @@
       perform: op.addToHand( card, player )
       allowedLots:
         - grave
-  power: 2
+  power: 1
   name: Unkillable Barny
   guid: daf9dcb2-0b3e-772b-1538-1d88ab4dafcf
 - id: 3126
@@ -6182,8 +6209,11 @@
   guid: 58ebdd7a-1969-432a-0635-79f8239af518
 - id: 372
   slug: necropy
-  description: My power is raised by that of the top card in the enemy graveyard at all
-    times (0 if it is not a creature).
+  description: >-
+    My power is raised by that of the top card in the enemy graveyard at all
+    times.
+
+    (0 if it is not a unit).
   effects: {}
   name: Necropy
   guid: da711770-5ed0-4617-0f2a-b520d56d8912
@@ -6711,17 +6741,6 @@
   power: 3
   name: Blood-Haggler II
   guid: c01297f9-5986-4389-ba90-f6ade0582356
-- id: 3725
-  slug: timereverser
-  description: |-
-    Combat-Flip:
-    Add the top card in your graveyard to the top of your deck.
-  tags:
-    - sneak
-  effects: {}
-  power: 3
-  name: Time-Reverser
-  guid: 72f43226-a6c8-d6ac-305c-c59c581c7fc3
 - id: 3698
   slug: summon2move
   type: 1
