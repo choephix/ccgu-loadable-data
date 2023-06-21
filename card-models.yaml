@@ -4,6 +4,7 @@
   effects: {}
   guid: d1d80930-4073-c9f2-5f9d-4f38f06685e0
   power: 4
+  name: duelista
 - id: 463
   slug: token-spawner-backup
   description: When I die, summon a 0 power token creature in my place.
@@ -81,6 +82,8 @@
   description: |-
     Combat-Flip:
     Destroy opposing creature and take damage equal to its power.
+  lore: Fafnir, a dwarf turned dragon, was killed by Sigurd, but his blood also
+    caused Sigurd's eventual death.
   tags:
     - sneak
   effects:
@@ -90,7 +93,8 @@
         const foe = get.opposingUnit(card)
         if (foe) op.kill(foe)
   guid: bb757a5a-ddfa-73e6-9da0-0526faf78c3e
-  name: target-bomb
+  name: Fafnir / King Pyrrhus
+  power: 1
 - id: 390
   slug: sapper-grand
   description: -2 power to all enemy units
@@ -434,6 +438,7 @@
         event.card === get.opposingUnit(card)
       perform: op.endTurn()
   guid: 6be64973-5e35-cd68-924a-1e49d0446c86
+  name: turnend
 - id: 417
   slug: splendid-eric
   description: |-
@@ -1041,6 +1046,7 @@
       condition: event.card === get.opposingUnit( card )
       perform: op.damage( player, 4 )
   guid: dceeae8a-f8bd-7dbd-7168-11394f7e0f8d
+  name: sneakshot
 - id: 289
   slug: grand15
   tags:
@@ -1678,6 +1684,7 @@
         event.card.isFaceUp
       perform: op.forceAttack( event.card )
   guid: bdaf0351-9f2b-859c-d4e7-7b35dcae8645
+  name: taunt
 - id: 334
   slug: indoctronate
   type: 1
@@ -4232,6 +4239,7 @@
         !! get.sameLaneUnit( card )
       perform: op.forceAttack( get.sameLaneUnit( card ) )
   guid: ca3a6d1f-f089-4c7e-42ec-0a7a9ea6f384
+  name: surprise-attack
 - id: 3245
   slug: empower1
   type: 1
@@ -6844,6 +6852,7 @@
     return it to its owner's hand.
   effects: {}
   guid: df830212-fd3c-40f8-9430-688259d6bd32
+  name: eject
 - id: 3648
   slug: swapper3
   description: I can relocate to an occupied creature field on your side, by
