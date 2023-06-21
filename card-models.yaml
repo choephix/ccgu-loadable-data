@@ -11,8 +11,9 @@
     passive:
       condition: "true"
       perform: |-
-        for (const u of get.adjacentUnits(card)) {
-          pass.raisePower(u, 2)
+        const bonus = opponent.units.length
+        for (const u of player.units) {
+          pass.raisePower(u, bonus)
         }
       allowedLots:
         - unit-field
