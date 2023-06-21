@@ -94,6 +94,7 @@
 - id: 390
   slug: sapper-grand
   description: -2 power to all enemy units
+  notes: not Lilith :/
   tags:
     - grand
   pdc: -1
@@ -110,7 +111,7 @@
         - unit-field
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   power: 5
-  name: Nyx / Lilith
+  name: Nyx
 - id: 402
   slug: token-giver
   description: If possible, spawn a token on the enemy side.
@@ -157,12 +158,6 @@
 - id: 432
   slug: captain-fantastic
   description: Adjacent friendly units' power is raised by 4.
-  lore: Bacchus, the Roman God of Wine and Merriment, personifies the power of
-    intoxication and the exhilarating chaos of festivities. Revered for his
-    ability to inspire and liberate, he also stands as a reminder of the
-    potential frenzy that comes from excess. In the game, his presence adds an
-    unpredictable yet thrilling dynamic, symbolizing both the joy of celebration
-    and the perils of losing control.
   pdc: -1
   status: 2
   priority: 7
@@ -177,7 +172,7 @@
         - unit-field
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   power: 2
-  name: captain-fantastic
+  name: Jeanne d'Arc
 - id: 422
   slug: novel-lynx
   description: +10 during your turn
@@ -193,6 +188,12 @@
 - id: 416
   slug: un-prod
   description: -1 for every card in your hand
+  lore: Bacchus, the Roman God of Wine and Merriment, personifies the power of
+    intoxication and the exhilarating chaos of festivities. Revered for his
+    ability to inspire and liberate, he also stands as a reminder of the
+    potential frenzy that comes from excess. In the game, his presence adds an
+    unpredictable yet thrilling dynamic, symbolizing both the joy of celebration
+    and the perils of losing control.
   effects:
     passive:
       condition: "true"
@@ -433,7 +434,6 @@
         event.card === get.opposingUnit(card)
       perform: op.endTurn()
   guid: 6be64973-5e35-cd68-924a-1e49d0446c86
-  name: Turn End
 - id: 417
   slug: splendid-eric
   description: |-
@@ -600,7 +600,7 @@
       allowedLots:
         - unit-field
   guid: 880e607b-9629-b54e-5e35-2789092bac94
-  name: berserker
+  name: Fenrir / Berserker
   power: 6
 - id: 321
   slug: knightmare-shield
@@ -1041,7 +1041,6 @@
       condition: event.card === get.opposingUnit( card )
       perform: op.damage( player, 4 )
   guid: dceeae8a-f8bd-7dbd-7168-11394f7e0f8d
-  name: Sneak-shot
 - id: 289
   slug: grand15
   tags:
@@ -1678,7 +1677,6 @@
         event.card === get.opposingUnitField(card) &&
         event.card.isFaceUp
       perform: op.forceAttack( event.card )
-  name: OP!
   guid: bdaf0351-9f2b-859c-d4e7-7b35dcae8645
 - id: 334
   slug: indoctronate
@@ -2477,12 +2475,13 @@
   power: 10
   guid: 073a7154-da48-f617-57a4-ac15748e5d6f
 - id: 433
-  slug: generic5
+  slug: generic5a
+  lore: A famous female samurai warrior known for her bravery and strength.
   pdc: -1
   status: 7
   priority: 3
   effects: {}
-  name: generic5
+  name: Tomoe Gozen
   power: 5
   guid: a0537d41-fb40-021c-e3bf-43de93a71b4d
 - id: 2
@@ -4232,7 +4231,6 @@
         event.card === get.opposingUnit( card ) &&
         !! get.sameLaneUnit( card )
       perform: op.forceAttack( get.sameLaneUnit( card ) )
-  name: Surprise Attack!
   guid: ca3a6d1f-f089-4c7e-42ec-0a7a9ea6f384
 - id: 3245
   slug: empower1
@@ -6845,7 +6843,6 @@
   description: When an enemy creature enters the opposing field for any reason,
     return it to its owner's hand.
   effects: {}
-  name: Eject
   guid: df830212-fd3c-40f8-9430-688259d6bd32
 - id: 3648
   slug: swapper3
