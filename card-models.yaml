@@ -13,7 +13,7 @@
         if (foe) op.kill(foe)
   guid: bb757a5a-ddfa-73e6-9da0-0526faf78c3e
 - id: 390
-  slug: captain-fantastic
+  slug: sapper-grand
   description: -2 power to all enemy units
   lore: v2
   tags:
@@ -32,7 +32,6 @@
         - unit-field
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   power: 2
-  name: captain-fantastic
 - id: 402
   slug: token-giver
   description: If possible, spawn a token on the enemy side.
@@ -6661,13 +6660,25 @@
   effects: {}
   name: Crowd-Powered
   guid: 35bf3d89-85d3-2fe2-71bd-de40ff122c97
-- id: 3138
+- id: 405
   slug: mario
   description: After I attack if possible I relocate to the field on the right, else if
     possible - to the left.
   tags:
     - grand
-  effects: {}
+  effects:
+    active:
+      eventName: UnitAttack
+      eventStatus: ended
+      condition: |-
+        event.card === card &&
+        faq.isInPlay(card) &&
+        !get.rightUnit(card)
+      perform: |-
+        const lot = get.rightUnitField(card)
+        op.deploy(card, lot)
+      allowedLots:
+        - unit-field
   power: 9
   name: Mario
   guid: aed48434-2260-dce3-9f4c-1afd8ba8f782
