@@ -504,7 +504,7 @@
       allowedLots:
         - unit-field
   guid: f0a1e712-dc0d-feca-4096-4ebcb8253d43
-  name: harassingmia
+  name: Thumbelina
   power: 1
 - id: 434
   slug: berserker
@@ -2183,7 +2183,7 @@
       perform: pass.addTag( card, Tag.NOATTACK )
       allowedLots:
         - unit-field
-  name: Man of Honor
+  name: Sir Gawain / Li Kui
   power: 7
   guid: 00064144-b333-3249-8dbf-72397801491f
 - id: 523
@@ -4880,7 +4880,7 @@
   description: When I attack - deal 3 damage to your Life Points.
   effects: {}
   power: 7
-  name: Blood Assasin
+  name: Rumpelstiltskin
   guid: b3e4bf61-fc6d-148a-ce61-9ad3fcc33bb5
 - id: 3643
   slug: motivator
@@ -6120,7 +6120,7 @@
     the field on my left.
   effects: {}
   power: 4
-  name: Jill
+  name: Eurydice
   guid: 6522a282-a424-a7cc-a462-d4dc93f446a2
 - id: 400
   slug: jack
@@ -6128,7 +6128,7 @@
     the field on my right.
   effects: {}
   power: 4
-  name: Jack
+  name: Orpheus
   guid: 69e94d75-3b59-c2c5-3551-5b0e401031ee
 - id: 784
   slug: nona
