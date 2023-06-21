@@ -469,7 +469,7 @@
   effects: {}
   guid: 8e2d8db0-129c-bb90-5203-0ef032b79e93
   power: 1
-  name: trampoline
+  name: Banshee
 - id: 404
   slug: shonen
   description: +1 power per enemy unit in play.
@@ -6777,7 +6777,7 @@
         - unit-field
   power: 8
   guid: aed48434-2260-dce3-9f4c-1afd8ba8f782
-  name: mario
+  name: Zorro
 - id: 3687
   slug: retrap
   type: 1
