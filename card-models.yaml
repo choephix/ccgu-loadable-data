@@ -149,7 +149,12 @@
 - id: 432
   slug: captain-fantastic
   description: Adjacent friendly units' power is raised by 4.
-  lore: v2
+  lore: Bacchus, the Roman God of Wine and Merriment, personifies the power of
+    intoxication and the exhilarating chaos of festivities. Revered for his
+    ability to inspire and liberate, he also stands as a reminder of the
+    potential frenzy that comes from excess. In the game, his presence adds an
+    unpredictable yet thrilling dynamic, symbolizing both the joy of celebration
+    and the perils of losing control.
   pdc: -1
   status: 2
   priority: 7
@@ -191,7 +196,7 @@
         - grave
         - hand
   guid: 5449b2b3-6f26-8acd-e5f8-3318420ca29f
-  name: unproducer
+  name: Bacchus
   power: 8
 - id: 366
   slug: costly-indoctronation
@@ -439,7 +444,7 @@
       allowedLots:
         - unit-field
   guid: c75dbcf9-9f9a-a55f-c949-5b59b076e58a
-  name: spiky balloon
+  name: Salamander
   power: 7
 - id: 328
   slug: timereverser
@@ -512,7 +517,7 @@
 - id: 418
   slug: token-spawner
   description: When I die, summon a 0 power token creature in my place.
-  notes: 'Token: "Grinning Smile"'
+  notes: 'Token: "The Grin Without a Cat"'
   effects: {}
   guid: e053ce66-d442-4da5-9d05-c4098cf6f191
   power: 2
