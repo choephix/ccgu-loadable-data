@@ -1,3 +1,24 @@
+- id: 368
+  slug: spartan
+  description: All your units gain power equal to the number of enemy units in play.
+  lore: v2
+  tags:
+    - grand
+  pdc: -1
+  status: 2
+  priority: 7
+  effects:
+    passive:
+      condition: "true"
+      perform: |-
+        for (const u of get.adjacentUnits(card)) {
+          pass.raisePower(u, 2)
+        }
+      allowedLots:
+        - unit-field
+  guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
+  power: 5
+  name: Leonidas I
 - id: 2625
   slug: Pygmalion
   effects: {}
@@ -422,7 +443,7 @@
         - hand
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   power: 3
-  name: shonen
+  name: Ajax the Great / Diomedes
 - id: 358
   slug: geinhildr
   description: +1 power per ANY unit in play.
