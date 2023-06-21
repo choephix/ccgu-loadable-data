@@ -2,6 +2,8 @@
   slug: token-spawner-backup
   description: When I die, summon a 0 power token creature in my place.
   notes: 'Token: "Little Loaf of Bread"'
+  tags:
+    - sneak
   effects: {}
   guid: e053ce66-d442-4da5-9d05-c4098cf6f191
   power: 1
