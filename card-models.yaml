@@ -1,3 +1,11 @@
+- id: 463
+  slug: token-spawner-backup
+  description: When I die, summon a 0 power token creature in my place.
+  notes: 'Token: "Little Loaf of Bread"'
+  effects: {}
+  guid: e053ce66-d442-4da5-9d05-c4098cf6f191
+  power: 2
+  name: The Little Red Hen
 - id: 1537
   slug: brave-benjamin
   effects: {}
@@ -504,10 +512,11 @@
 - id: 418
   slug: token-spawner
   description: When I die, summon a 0 power token creature in my place.
+  notes: 'Token: "Grinning Smile"'
   effects: {}
   guid: e053ce66-d442-4da5-9d05-c4098cf6f191
-  power: 3
-  name: warrior-hen
+  power: 2
+  name: The Cheshire Cat
 - id: 406
   slug: flappy-bird-grand
   lore: Can both attack and move before exhausting.
@@ -1987,7 +1996,7 @@
   pdc: -1
   priority: 3
   effects: {}
-  name: Cowardly Giant
+  name: The Weary Titan
   power: 11
   guid: c4e29441-a2d6-5d2e-e90d-67c1d4b90213
 - id: 387
