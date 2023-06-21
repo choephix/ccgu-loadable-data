@@ -107,7 +107,7 @@
   guid: 5449b2b3-6f26-8acd-e5f8-3318420ca29f
   name: UnProducer
   power: 8
-- id: 381
+- id: 366
   slug: costly-indoctronation
   type: 1
   description: >-
@@ -162,7 +162,7 @@
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   power: 9
   name: shonen
-- id: 439
+- id: 391
   slug: steal-dead-unit
   type: 1
   description: After your unit is destroyed, and if the top card in the enemy grave is
@@ -270,7 +270,7 @@
       eventStatus: ended
       condition: event.card === get.opposingUnit(card)
       perform: |-
-        const field = get.opposingUnitField(card)
+        const field = get.get.sameLaneUnitField(card)
         op.spawnToken(field, 'token-4')
   guid: 7b56a5c5-71bc-d653-3098-2dd6e8e17b3b
   name: token-on-deploy
@@ -303,7 +303,7 @@
         )
   guid: 294447b1-beb2-1618-5d29-8182eee4f481
   name: from-the-right
-- id: 391
+- id: 393
   slug: from-the-left
   type: 1
   effects:
@@ -395,7 +395,7 @@
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   power: 3
   name: shonen
-- id: 326
+- id: 358
   slug: geinhildr
   description: +1 power per ANY unit in play.
   pdc: -1
@@ -423,12 +423,12 @@
   guid: a9bfb05d-2bed-d7d7-2ded-89692e5746a1
   power: 3
   name: managiver
-- id: 341
+- id: 418
   slug: token-spawner
   description: When I die, summon a 0 power token creature in my place.
   effects: {}
   guid: e053ce66-d442-4da5-9d05-c4098cf6f191
-  power: 4
+  power: 3
   name: Warrior-Hen
 - id: 406
   slug: flappy-bird-grand
@@ -458,7 +458,7 @@
   guid: 44372e4e-629c-387c-6162-e52dccc7029c
   name: Flashforward
   power: 4
-- id: 323
+- id: 403
   slug: harassingmia
   description: I return to your hand at the end of your turn.
   tags:
@@ -1605,7 +1605,7 @@
   name: effaceable-kissingbug
   power: 14
   guid: 0150cb46-5ae5-249d-32b3-fe089acf39fd
-- id: 366
+- id: 381
   slug: relokill
   type: 1
   description: Activate when opposing enemy unit starts relocation. Kill it.
@@ -1909,7 +1909,7 @@
   name: Cowardly Giant
   power: 17
   guid: c4e29441-a2d6-5d2e-e90d-67c1d4b90213
-- id: 325
+- id: 387
   slug: antisocial-knight
   description: My power is decreased by 3 for every other friendly $unit $in-play.
   pdc: -1
@@ -2145,7 +2145,7 @@
   guid: 00badf76-e490-b5e6-9b31-a3986978ca5e
 - id: 386
   slug: man-of-honor
-  description: I cannot attack if there is no opposing enemy $unit
+  description: I cannot attack without opposing enemy $unit
   pdc: -1
   status: 2
   priority: 8
@@ -2314,7 +2314,7 @@
   effects: {}
   name: mirrorforce
   guid: 3116a4e6-a681-43fd-41a9-07b98c176174
-- id: 348
+- id: 439
   slug: tripwire
   type: 1
   description: Activate when enemy $unit $relocates to opposing $field. Kill it.
@@ -2570,7 +2570,7 @@
   power: 4
   name: immortal-bob
   guid: 7d41f504-7d39-2206-5921-d540a8c3a7f6
-- id: 359
+- id: 327
   slug: all-out-johnny
   description: At the end of your turn discard all cards in your hand
   status: 1
@@ -5767,7 +5767,7 @@
   name: Fateweaver
   guid: cdcd74a9-158b-7117-a9c4-4732b4f7cc14
 - id: 419
-  slug: unkillable-barny
+  slug: returner
   description: >-
     IN-GRAVE
 
@@ -5785,7 +5785,6 @@
       allowedLots:
         - grave
   power: 1
-  name: Unkillable Barny
   guid: daf9dcb2-0b3e-772b-1538-1d88ab4dafcf
 - id: 3126
   slug: badfate
@@ -6700,7 +6699,7 @@
   effects: {}
   name: No-Flippers!
   guid: a88919dd-bfea-aaf9-c14d-8604345e5443
-- id: 330
+- id: 346
   slug: manadrain
   type: 1
   description: Activate when opposing enemy creature is summoned manually. The enemy's mana
