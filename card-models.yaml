@@ -107,7 +107,7 @@
   effects: {}
   guid: 6a1bcab6-431f-855c-b412-f11ed20bea7e
   name: cookable-mammal
-- id: 421
+- id: 424
   slug: def-heal
   type: 1
   description: Activate when opposing enemy unit begins a direct attack. Heal by its power
@@ -141,7 +141,7 @@
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   power: 9
   name: shonen
-- id: 332
+- id: 439
   slug: steal-dead-unit
   type: 1
   description: After your unit is destroyed, and if the top card in the enemy grave is
@@ -217,9 +217,11 @@
     active:
       eventName: UnitAttackDirect
       eventStatus: ended
-      condition: event.card === get.opposingUnit(card)
+      condition: |-
+        get.opposingUnit(card) === event.card &&
+        !get.sameLaneUnit(card)
       perform: |-
-        const field = get.opposingUnitField(card)
+        const field = get.sameLaneUnitField(card)
         op.spawnToken(field, 'token-9')
   guid: 7b56a5c5-71bc-d653-3098-2dd6e8e17b3b
   name: token-after-attack
@@ -950,7 +952,7 @@
   guid: 175c9ca8-d248-7609-c6af-0c09f2094056
   name: Fate Forward
   power: 4
-- id: 331
+- id: 407
   slug: surprise-reborn
   type: 1
   description: >-
@@ -1534,7 +1536,7 @@
   effects: {}
   name: drawnecro
   guid: 8cc4afa4-1276-5506-1c7d-aa1052afd931
-- id: 333
+- id: 392
   slug: taunt
   type: 1
   description: Activate when opposing enemy unit is deployed and force it to attack.
@@ -1546,8 +1548,8 @@
       eventName: DeployUnit
       eventStatus: ended
       condition: |-
-        faq.isOpposingLane( card, event.card )
-          && event.card.isFaceUp
+        event.card === get.opposingUnitField(card) &&
+        event.card.isFaceUp
       perform: op.forceAttack( event.card )
   name: OP!
   guid: bdaf0351-9f2b-859c-d4e7-7b35dcae8645
@@ -1646,7 +1648,7 @@
   name: chickeng1
   power: 14
   guid: 0227eaaf-1a18-94d7-1430-4f9842b92784
-- id: 437
+- id: 440
   slug: toxicmine
   type: 1
   description: Activate when opposing enemy unit is deployed. Decrease its power by 4
