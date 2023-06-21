@@ -1,3 +1,24 @@
+- id: 389
+  slug: captain-fantastic
+  description: -2 power to all enemy units
+  lore: v2
+  tags:
+    - grand
+  pdc: -1
+  status: 2
+  priority: 7
+  effects:
+    passive:
+      condition: "true"
+      perform: |-
+        for (const u of opponent.units) {
+          pass.lowerPower(u, 2)
+        }
+      allowedLots:
+        - unit-field
+  guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
+  power: 2
+  name: captain-fantastic
 - id: 387
   slug: token-giver
   description: If possible, spawn a token on the enemy side.
@@ -59,7 +80,7 @@
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   power: 2
   name: captain-fantastic
-- id: 405
+- id: 421
   slug: novel-lynx
   description: +10 during your turn
   tags:
@@ -300,7 +321,7 @@
         )
   guid: 294447b1-beb2-1618-5d29-8182eee4f481
   name: from-the-left
-- id: 406
+- id: 409
   slug: turnend
   type: 1
   description: When opposing enemy attack finishes, end the turn immediately
@@ -902,7 +923,7 @@
   effects: {}
   guid: aba8cb64-3893-70f5-baa9-c5599067f499
   name: Deadly Sacrifice
-- id: 438
+- id: 441
   slug: sneakshot
   type: 1
   description: Activate when opposing enemy unit begins a direct attack. Deal 4 damage to
@@ -1026,7 +1047,7 @@
   guid: df2fa72c-6500-3207-0d6b-65f87574901c
   power: 10
   name: prickly-goshawk
-- id: 389
+- id: 374
   slug: loki
   description: "All ally units gain #swapper while I am in play."
   tags:
@@ -4083,7 +4104,7 @@
   effects: {}
   name: Deck Replenish
   guid: d3dcdefa-cc96-2c97-4685-80ee9c6c0d96
-- id: 390
+- id: 408
   slug: surprise-attack
   type: 1
   description: Activate when an opposing enemy creature is summoned and there is a freindly
@@ -6686,7 +6707,7 @@
   effects: {}
   name: Mana-Drain
   guid: 1ff775c2-57cb-d1ef-2854-2d934dd2fc02
-- id: 422
+- id: 425
   slug: eject
   type: 1
   description: When an enemy creature enters the opposing field for any reason, return it
