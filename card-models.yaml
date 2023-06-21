@@ -431,7 +431,7 @@
   power: 4
   name: Warrior-Hen
 - id: 406
-  slug: flappy-bird
+  slug: flappy-bird-grand
   lore: Can both attack and move before exhausting.
   tags:
     - swift
