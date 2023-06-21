@@ -1,3 +1,9 @@
+- id: 369
+  slug: duelista
+  description: While both player have only one unit in play each, both have +10 power
+  effects: {}
+  guid: d1d80930-4073-c9f2-5f9d-4f38f06685e0
+  power: 4
 - id: 463
   slug: token-spawner-backup
   description: When I die, summon a 0 power token creature in my place.
@@ -147,7 +153,7 @@
         - unit-field
   guid: 549b8197-538b-0a31-673d-e0b8e59fcc32
   power: 3
-  name: hard-skin
+  name: Gideon / Eldjárn the Sleepy
 - id: 432
   slug: captain-fantastic
   description: Adjacent friendly units' power is raised by 4.
@@ -254,7 +260,7 @@
         - hand
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   power: 9
-  name: shonen
+  name: Karna
 - id: 391
   slug: steal-dead-unit
   type: 1
@@ -2087,6 +2093,9 @@
 - id: 436
   slug: nimbleguard
   description: When an enemy $unit is $deployed, if possible, move me in front of it.
+  lore: In many tales, sparrows are portrayed as small and weak yet brave and
+    self-sacrificing birds that put themselves in harm's way to protect their
+    nest and loved ones.
   pdc: -1
   status: 2
   priority: 1
@@ -2102,7 +2111,7 @@
         op.forceRelocate( card, lot )
       allowedLots:
         - unit-field
-  name: nimbleguard
+  name: The Selfless Sparrow
   power: 1
   guid: e156e58b-3903-0196-a55c-cef515c0dcdd
 - id: 781
@@ -2174,6 +2183,8 @@
 - id: 437
   slug: fragmine
   description: I die after combat
+  lore: A serpent with a powerful venom that can destroy enemies but loses its
+    life once the venom is used
   tags:
     - sneak
     - noattack
@@ -2191,7 +2202,7 @@
       perform: op.kill( card )
       allowedLots:
         - unit-field
-  name: fragmine
+  name: Kaliya
   power: 9
   guid: 76fbd7d3-ade6-5f68-6c2b-4814e6ca0a31
 - id: 919
