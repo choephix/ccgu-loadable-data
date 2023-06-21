@@ -1,3 +1,17 @@
+- id: 389
+  slug: target-bomb
+  description: |-
+    Combat-Flip:
+    Destroy opposing creature and take damage equal to its power.
+  tags:
+    - sneak
+  effects:
+    flip:
+      manner: combat
+      perform: |-
+        const foe = get.opposingUnit(card)
+        if (foe) op.kill(foe)
+  guid: bb757a5a-ddfa-73e6-9da0-0526faf78c3e
 - id: 390
   slug: captain-fantastic
   description: -2 power to all enemy units
@@ -1897,7 +1911,7 @@
   effects: {}
   name: Fury
   guid: a9169ca5-1e24-f72f-d437-270bbfcd594a
-- id: 871
+- id: 438
   slug: cowardly-giant
   description: "#Grand After I am attacked by enemy $unit, if I'm still in play, I return
     to my owner's hand."
@@ -1907,7 +1921,7 @@
   priority: 3
   effects: {}
   name: Cowardly Giant
-  power: 17
+  power: 14
   guid: c4e29441-a2d6-5d2e-e90d-67c1d4b90213
 - id: 387
   slug: antisocial-knight
@@ -2071,7 +2085,7 @@
   name: Fate Forward
   power: 4
   guid: 175c9ca8-d248-7609-c6af-0c09f2094056
-- id: 774
+- id: 437
   slug: fragmine
   description: I die after combat
   tags:
