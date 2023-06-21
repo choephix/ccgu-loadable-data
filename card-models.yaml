@@ -1,4 +1,9 @@
-- id: 369
+- id: 1537
+  slug: brave-benjamin
+  effects: {}
+  guid: c46378a8-85b1-e150-b4b6-27a04f01e319
+  name: The Manananggal
+- id: 450
   slug: sapper
   description: -1 power to all enemy units
   effects:
@@ -162,7 +167,8 @@
       condition: faq.hasTurn(card)
       perform: pass.raisePower(card, 10)
   guid: 9d913bd6-cf60-e796-d57d-ef6d9465f77d
-  name: novel-lynx
+  name: Huitzilopochtli
+  power: 4
 - id: 416
   slug: un-prod
   description: -1 for every card in your hand
@@ -448,6 +454,7 @@
   effects: {}
   guid: 8e2d8db0-129c-bb90-5203-0ef032b79e93
   power: 1
+  name: trampoline
 - id: 404
   slug: shonen
   description: +1 power per enemy unit in play.
@@ -510,17 +517,20 @@
   effects: {}
   guid: a9fb5b3c-0c8a-a10c-6a8c-8ed91952bc46
   power: 5
-  name: Flappy Bird
+  name: Hanuman
 - id: 388
   slug: swapper
-  lore: I can relocate to an occupied creature field on your side, by swapping
-    places with the creature there. This does not count as relocation for the
-    other creature.
+  description: I can relocate to an occupied creature field on your side, by
+    swapping places with the creature there. This does not count as relocation
+    for the other creature.
+  lore: Trickster figure from African-American folklore who uses his wits and
+    agility to outsmart his enemies. He is not physically strong but relies on
+    his cunning and quick thinking to survive.
   tags:
     - swapper
   effects: {}
   guid: 2c064020-07e5-d2da-ed69-734025104d9f
-  name: The Swapper
+  name: Br'er Rabbit
   power: 3
 - id: 339
   slug: handy
@@ -1978,11 +1988,12 @@
   priority: 3
   effects: {}
   name: Cowardly Giant
-  power: 14
+  power: 11
   guid: c4e29441-a2d6-5d2e-e90d-67c1d4b90213
 - id: 387
   slug: antisocial-knight
   description: My power is decreased by 3 for every other friendly $unit $in-play.
+  lore: Exceptionally strong, but doesn't work well in a crowd.
   pdc: -1
   priority: 3
   effects:
@@ -1998,6 +2009,7 @@
         - grave
   power: 9
   guid: 0e0640e1-917e-9491-34ca-bb8f8a8a4e45
+  name: Count Dracula
 - id: 785
   slug: flipouch5
   description: |-
@@ -5860,9 +5872,9 @@
       perform: op.addToHand( card, player )
       allowedLots:
         - grave
-  power: 1
+  power: 2
   guid: daf9dcb2-0b3e-772b-1538-1d88ab4dafcf
-  name: returner
+  name: The Green Knight
 - id: 3126
   slug: badfate
   description: |-
@@ -6745,8 +6757,9 @@
         op.forceRelocate(card, lot)
       allowedLots:
         - unit-field
-  power: 9
+  power: 8
   guid: aed48434-2260-dce3-9f4c-1afd8ba8f782
+  name: mario
 - id: 3687
   slug: retrap
   type: 1
