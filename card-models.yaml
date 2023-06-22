@@ -1810,6 +1810,10 @@
   slug: toxicmine
   type: 1
   description: Activate when opposing enemy unit is deployed. Decrease its power by 4
+  lore: A superstitious belief, prevalent across various cultures, that a
+    malevolent glare can bring misfortune or harm to the person it's directed
+    towards. It's often associated with envy or malice, and various talismans or
+    rituals are used as protective measures against it.
   pdc: -1
   priority: 3
   effects:
