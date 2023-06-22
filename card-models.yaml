@@ -2014,6 +2014,8 @@
 - id: 384
   slug: freejimmy
   description: Activate when I am deployed. Raise your AP by 1.
+  lore: While not powerful in the traditional sense, Puss uses wit and charm to
+    acquire wealth and power for his master.
   pdc: -1
   status: 2
   priority: 3
@@ -2027,7 +2029,7 @@
         - unit-field
   power: 4
   guid: d733ae6a-414f-023c-4992-e99fea422de6
-  name: Jimmy The Free
+  name: Puss in Boots
 - id: 874
   slug: nosneaking
   type: 1
@@ -4667,9 +4669,12 @@
 - id: 449
   slug: emma
   description: If your current mana is 0, you can summon me for no mana cost.
+  lore: "(Middle Eastern and Central Asian Folklore): A satirical Sufi figure
+    known for his humorous anecdotes and stories, teaching lessons in
+    unconventional ways and often revealing profound wisdom."
   effects: {}
   power: 4
-  name: Emma The Free
+  name: Nasreddin
   guid: bab4499d-f430-1bce-43d6-1d22d350599b
 - id: 3306
   slug: mana-thing
