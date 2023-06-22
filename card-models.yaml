@@ -98,7 +98,7 @@
 - id: 390
   slug: sapper-grand
   description: -2 power to all enemy units
-  notes: not Lilith :/
+  notes: not Lilith :/ ?
   tags:
     - grand
   pdc: -1
@@ -284,7 +284,7 @@
         const field = get.get.sameLaneUnitField(card)
         op.deploy(card, field)
   guid: d168768c-2363-2cf9-e031-231ae5b6f749
-  name: interlay
+  name: Draugr's Curse / Bone Flute
 - id: 90
   slug: token-10
   tags:
@@ -368,6 +368,8 @@
 - id: 423
   slug: token-on-deploy
   type: 1
+  description: When an opposing enemy unit is deployed, summon a 1 power token to your side.
+  notes: 'Token: "Nisse"?'
   effects:
     active:
       eventName: DeployUnit
@@ -377,7 +379,7 @@
         const field = get.get.sameLaneUnitField(card)
         op.spawnToken(field, 'token-4')
   guid: 7b56a5c5-71bc-d653-3098-2dd6e8e17b3b
-  name: token-on-deploy
+  name: Call of the Nisse
 - id: 377
   slug: wasted
   type: 1
@@ -1107,7 +1109,7 @@
         const lot = get.sameLaneUnitField( card )
         op.deploy( player.grave.topCard, lot )
   guid: 32e847e6-dce8-b39e-db65-c218a4e5bf5f
-  name: surprise-reborn
+  name: Orpheus' Lyre
 - id: 822
   slug: modern-charles
   description: At the beginning of your turn, if the top card in your grave is a
