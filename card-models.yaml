@@ -431,6 +431,8 @@
   slug: turnend
   type: 1
   description: When opposing enemy attack finishes, end the turn immediately
+  lore: Legendary bird whose song is said to have the power to induce sleep.
+  notes: "Alt: Somnus's touch?"
   effects:
     active:
       eventName: UnitAttack
@@ -440,7 +442,7 @@
         event.card === get.opposingUnit(card)
       perform: op.endTurn()
   guid: 6be64973-5e35-cd68-924a-1e49d0446c86
-  name: turnend
+  name: The Nightingale
 - id: 417
   slug: splendid-eric
   description: |-
@@ -1799,7 +1801,7 @@
         let target = event.card
         op.addTempFx( target, tg => 
           tg.pass.lowerPower( target, 4 ) )
-  name: toxicmine
+  name: The Evil Eye
   guid: e3b41aa1-0f98-ec62-7c2b-2f8414025180
 - id: 806
   slug: autoatk
@@ -2448,7 +2450,7 @@
       perform: |-
         const foe = get.opposingUnit( card )
         op.kill( foe )
-  name: tripwire
+  name: Quicksand
   guid: bb422769-ee65-6180-d9d9-504f4d30a7ef
 - id: 524
   slug: traphole
@@ -6852,9 +6854,16 @@
   type: 1
   description: When an enemy creature enters the opposing field for any reason,
     return it to its owner's hand.
-  effects: {}
+  lore: A mirage that creates illusions of distant objects, causing travelers to
+    become disoriented and lose their way.
+  effects:
+    active:
+      eventName: CardChangeLot
+      eventStatus: ended
+      condition: event.card === get.opposingUnit(card)
+      perform: op.addToHand(card, opponent)
   guid: df830212-fd3c-40f8-9430-688259d6bd32
-  name: eject
+  name: Fata Morgana
 - id: 3648
   slug: swapper3
   description: I can relocate to an occupied creature field on your side, by
