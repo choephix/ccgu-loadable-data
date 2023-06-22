@@ -263,7 +263,7 @@
         !get.sameLaneUnit( card )
       perform: op.heal(player, event.card.power)
   guid: 32e847e6-dce8-b39e-db65-c218a4e5bf5f
-  name: def-heal
+  name: Rubber Tree
 - id: 435
   slug: un-shonen
   description: -2 power per enemy unit in play.
@@ -464,6 +464,7 @@
   description: |-
     I die after combat
     if still in play
+  notes: Boitatá ?
   effects:
     active:
       eventName: UnitAttackCombat
@@ -1704,7 +1705,7 @@
         event.card.isFaceUp
       perform: op.forceAttack( event.card )
   guid: bdaf0351-9f2b-859c-d4e7-7b35dcae8645
-  name: taunt
+  name: The Red Cape
 - id: 334
   slug: indoctronate
   type: 1
@@ -4250,6 +4251,12 @@
   type: 1
   description: Activate when an opposing enemy creature is summoned and there is a
     freindly creature on your side of it. Your creature performs a free attack.
+  lore: "The Night Attack at Târgoviște: Vlad the Impaler, also known as Dracula,
+    launched a surprise night attack against the invading Ottoman forces."
+  notes: |-
+    Qin's trap?
+    The Battle of Trenton?
+    The Night Attack at Târgoviște?
   effects:
     active:
       eventName: DeployUnit
@@ -4259,7 +4266,7 @@
         !! get.sameLaneUnit( card )
       perform: op.forceAttack( get.sameLaneUnit( card ) )
   guid: ca3a6d1f-f089-4c7e-42ec-0a7a9ea6f384
-  name: surprise-attack
+  name: The Night Attack
 - id: 3245
   slug: empower1
   type: 1
