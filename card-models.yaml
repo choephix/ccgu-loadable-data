@@ -1,3 +1,8 @@
+- id: 705
+  slug: successful-wallaroo
+  effects: {}
+  guid: 192469bb-4169-d1fe-691d-2a79bb2af4e7
+  name: Jeanne Hachette
 - id: 326
   slug: proud-whale
   description: I deal 2 damage the the enemy player when attacked.
