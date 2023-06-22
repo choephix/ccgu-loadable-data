@@ -114,6 +114,9 @@
 - id: 390
   slug: sapper-grand
   description: -2 power to all enemy units
+  lore: In Greek mythology, Nyx is the personification of the night, a primordial
+    deity born from Chaos, and the mother of many other gods and goddesses,
+    including Hypnos (Sleep) and Thanatos (Death).
   notes: not Lilith :/ ?
   tags:
     - grand
@@ -135,6 +138,9 @@
 - id: 402
   slug: token-giver
   description: If possible, spawn a token on the enemy side.
+  lore: Originating from West African and Caribbean folklore, Anansi is a
+    trickster god often depicted as a spider who uses intelligence and cunning
+    to outwit his foes.
   notes: 'Token: "Foolish Fish"'
   tags:
     - rush
@@ -178,6 +184,9 @@
 - id: 432
   slug: captain-fantastic
   description: Adjacent friendly units' power is raised by 4.
+  lore: A national heroine of France and a Catholic saint, Joan of Arc led the
+    French army to several crucial victories during the Hundred Years' War after
+    claiming to have received visions from saints.
   pdc: -1
   status: 2
   priority: 7
@@ -196,6 +205,8 @@
 - id: 422
   slug: novel-lynx
   description: +10 during your turn
+  lore: An Aztec deity of the sun and war, Huitzilopochtli was central to the
+    Aztec religion, often requiring human sacrifice for his appeasement.
   tags:
     - grand
   effects:
@@ -267,6 +278,9 @@
 - id: 435
   slug: un-shonen
   description: -2 power per enemy unit in play.
+  lore: A significant character in the Indian epic Mahabharata, Karna is known for
+    his generosity, archery skills, and tragic life story, being a righteous
+    warrior on the wrong side due to circumstances beyond his control.
   pdc: -1
   status: 2
   priority: 7
@@ -501,6 +515,9 @@
   description: |-
     Combat-Flip:
     Return attacking creature to its controller's hand.
+  lore: Originating from Irish folklore, a banshee is a female spirit who
+    foretells death by wailing or keening, and is often associated with the
+    family line it serves.
   tags:
     - sneak
   effects: {}
@@ -556,6 +573,9 @@
 - id: 418
   slug: token-spawner
   description: When I die, summon a 0 power token creature in my place.
+  lore: A character from Lewis Carroll's "Alice in Wonderland," the Cheshire Cat
+    is known for its enigmatic grin and ability to disappear and reappear at
+    will.
   notes: 'Token: "The Grin Without a Cat"'
   tags:
     - sneak
@@ -565,7 +585,10 @@
   name: The Cheshire Cat
 - id: 406
   slug: flappy-bird-grand
-  lore: Can both attack and move before exhausting.
+  description: Can both attack and move before exhausting.
+  lore: A significant character in Hindu mythology, Hanuman is the monkey god
+    known for his devotion to Lord Rama, his strength, agility, and magical
+    abilities.
   tags:
     - swift
     - grand
@@ -2041,6 +2064,9 @@
   slug: cowardly-giant
   description: "#Grand After I am attacked by enemy $unit, if I'm still in play, I
     return to my owner's hand."
+  lore: A phrase used in reference to Britain's declining global influence in the
+    late 19th and early 20th centuries, "The Weary Titan" symbolizes the heavy
+    burden of maintaining international power.
   tags:
     - grand
   pdc: -1
@@ -2292,6 +2318,9 @@
 - id: 386
   slug: man-of-honor
   description: I cannot attack without opposing enemy $unit
+  lore: A character from Arthurian legend, Sir Gawain is known for his chivalry,
+    bravery, and loyalty, and is a central figure in the tale of "Sir Gawain and
+    the Green Knight."
   pdc: -1
   status: 2
   priority: 8
@@ -5007,6 +5036,9 @@
 - id: 385
   slug: darkassasin2
   description: When I attack - deal 3 damage to your Life Points.
+  lore: A character from a Brothers Grimm fairy tale, Rumplestiltskin is a cunning
+    imp who spins straw into gold for a girl in exchange for her firstborn
+    child, but can be defeated if his name is discovered.
   effects: {}
   power: 7
   name: Rumpelstiltskin
@@ -5935,6 +5967,9 @@
     IN-GRAVE
 
     At the beginning of your turn, if I am the topmost card in your grave, i return to your hand.
+  lore: A character from Arthurian legend, the Green Knight is a mysterious,
+    otherworldly figure who challenges knights to a beheading game, testing
+    their honor and chivalry.
   tags:
     - sneak
   effects:
@@ -6817,6 +6852,9 @@
 - id: 405
   slug: mario
   description: After I attack, if possible, I relocate to the field on the right
+  lore: Zorro is a fictional character created by Johnston McCulley, a masked
+    vigilante who defends the common folk against tyrannical officials and other
+    villains in Spanish California
   tags:
     - grand
   effects:
