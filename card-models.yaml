@@ -1744,6 +1744,7 @@
   slug: taunt
   type: 1
   description: Activate when opposing enemy unit is deployed and force it to attack.
+  lore: Muleta
   rarity: 6
   pdc: -1
   priority: 3
