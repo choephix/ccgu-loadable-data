@@ -1,3 +1,19 @@
+- id: 326
+  slug: proud-whale
+  description: I deal 2 damage the the enemy player when attacked.
+  lore: The porcupine is a mammal with sharp quills that can cause pain to
+    predators that attack it.
+  effects:
+    active:
+      eventName: UnitAttackCombat
+      eventStatus: began
+      condition: event.defender === card
+      perform: op.damage(opponent, 2)
+      allowedLots:
+        - unit-field
+  guid: 210ddd9a-a696-6689-4ea8-00dba7b272f6
+  name: Porcupine
+  power: 2
 - id: 369
   slug: duelista
   description: While both player have only one unit in play each, both have +10 power
@@ -1050,7 +1066,7 @@
       condition: event.card === get.opposingUnit( card )
       perform: op.damage( player, 4 )
   guid: dceeae8a-f8bd-7dbd-7168-11394f7e0f8d
-  name: sneakshot
+  name: Cactus
 - id: 289
   slug: grand15
   tags:
