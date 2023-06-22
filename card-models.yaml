@@ -1,3 +1,12 @@
+- id: 256
+  slug: generic5
+  pdc: -1
+  status: 7
+  priority: 3
+  effects: {}
+  guid: a0537d41-fb40-021c-e3bf-43de93a71b4d
+  name: generic5
+  power: 5
 - id: 705
   slug: successful-wallaroo
   effects: {}
