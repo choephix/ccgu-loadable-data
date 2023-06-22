@@ -2465,6 +2465,10 @@
   slug: tripwire
   type: 1
   description: Activate when enemy $unit $relocates to opposing $field. Kill it.
+  lore: Quicksand is a natural hazard that appears solid on the surface but
+    becomes a dense, fluid-like substance when disturbed, causing objects or
+    people to sink if they stand or move on it. It is often found near
+    riverbanks or coastal areas and is made of fine sand, clay, and saltwater.
   pdc: -1
   status: 3
   priority: 6
