@@ -1,3 +1,17 @@
+- id: 462
+  slug: novel-lynx
+  description: +10 during your turn
+  lore: An Aztec deity of the sun and war, Huitzilopochtli was central to the
+    Aztec religion, often requiring human sacrifice for his appeasement.
+  tags:
+    - grand
+  effects:
+    passive:
+      condition: faq.hasTurn(card)
+      perform: pass.raisePower(card, 10)
+  guid: 9d913bd6-cf60-e796-d57d-ef6d9465f77d
+  name: Huitzilopochtli
+  power: 4
 - id: 256
   slug: generic5
   pdc: -1
@@ -217,7 +231,7 @@
   power: 2
   name: Jeanne d'Arc
 - id: 422
-  slug: novel-lynx
+  slug: swayer-grand
   description: +10 during your turn
   lore: An Aztec deity of the sun and war, Huitzilopochtli was central to the
     Aztec religion, often requiring human sacrifice for his appeasement.
@@ -228,7 +242,7 @@
       condition: faq.hasTurn(card)
       perform: pass.raisePower(card, 10)
   guid: 9d913bd6-cf60-e796-d57d-ef6d9465f77d
-  name: Huitzilopochtli
+  name: Manananggal
   power: 4
 - id: 416
   slug: un-prod
