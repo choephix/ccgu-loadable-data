@@ -1,3 +1,18 @@
+- id: 461
+  slug: cowardly-giant
+  description: "#Grand After I am attacked by enemy $unit, if I'm still in play, I
+    return to my owner's hand."
+  lore: A phrase used in reference to Britain's declining global influence in the
+    late 19th and early 20th centuries, "The Weary Titan" symbolizes the heavy
+    burden of maintaining international power.
+  tags:
+    - grand
+  pdc: -1
+  priority: 3
+  effects: {}
+  guid: c4e29441-a2d6-5d2e-e90d-67c1d4b90213
+  name: The Weary Titan
+  power: 11
 - id: 462
   slug: novel-lynx
   description: +10 during your turn
@@ -233,8 +248,9 @@
 - id: 422
   slug: swayer-grand
   description: +10 during your turn
-  lore: An Aztec deity of the sun and war, Huitzilopochtli was central to the
-    Aztec religion, often requiring human sacrifice for his appeasement.
+  lore: "The manananggal (Tagalog: mana'nang'gal) is a mythical creature in the
+    Philippines that is able to separate its upper torso from the lower part of
+    its body."
   tags:
     - grand
   effects:
@@ -2104,15 +2120,12 @@
   slug: cowardly-giant
   description: "#Grand After I am attacked by enemy $unit, if I'm still in play, I
     return to my owner's hand."
-  lore: A phrase used in reference to Britain's declining global influence in the
-    late 19th and early 20th centuries, "The Weary Titan" symbolizes the heavy
-    burden of maintaining international power.
   tags:
     - grand
   pdc: -1
   priority: 3
   effects: {}
-  name: The Weary Titan
+  name: Zhu Bajie
   power: 11
   guid: c4e29441-a2d6-5d2e-e90d-67c1d4b90213
 - id: 387
