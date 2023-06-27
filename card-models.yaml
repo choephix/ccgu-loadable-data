@@ -1,18 +1,3 @@
-- id: 461
-  slug: cowardly-giant
-  description: "#Grand After I am attacked by enemy $unit, if I'm still in play, I
-    return to my owner's hand."
-  lore: A phrase used in reference to Britain's declining global influence in the
-    late 19th and early 20th centuries, "The Weary Titan" symbolizes the heavy
-    burden of maintaining international power.
-  tags:
-    - grand
-  pdc: -1
-  priority: 3
-  effects: {}
-  guid: c4e29441-a2d6-5d2e-e90d-67c1d4b90213
-  name: The Weary Titan
-  power: 11
 - id: 462
   slug: novel-lynx
   description: +10 during your turn
@@ -6024,9 +6009,13 @@
     IN-GRAVE
 
     At the beginning of your turn, if I am the topmost card in your grave, i return to your hand.
-  lore: A character from Arthurian legend, the Green Knight is a mysterious,
+  lore: >-
+    A character from Arthurian legend, the Green Knight is a mysterious,
     otherworldly figure who challenges knights to a beheading game, testing
     their honor and chivalry.
+
+
+    Bertilak de Hautdesert
   tags:
     - sneak
   effects:
