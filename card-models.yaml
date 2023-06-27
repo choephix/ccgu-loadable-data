@@ -233,9 +233,6 @@
 - id: 422
   slug: swayer-grand
   description: +10 during your turn
-  lore: "The manananggal (Tagalog: mana'nang'gal) is a mythical creature in the
-    Philippines that is able to separate its upper torso from the lower part of
-    its body."
   tags:
     - grand
   effects:
@@ -243,7 +240,7 @@
       condition: faq.hasTurn(card)
       perform: pass.raisePower(card, 10)
   guid: 9d913bd6-cf60-e796-d57d-ef6d9465f77d
-  name: Manananggal
+  name: Hanuman
   power: 4
 - id: 416
   slug: un-prod
@@ -635,7 +632,7 @@
   effects: {}
   guid: a9fb5b3c-0c8a-a10c-6a8c-8ed91952bc46
   power: 5
-  name: Hanuman
+  name: Mercury
 - id: 388
   slug: swapper
   description: I can relocate to an occupied creature field on your side, by
