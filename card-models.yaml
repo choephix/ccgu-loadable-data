@@ -208,7 +208,7 @@
         - unit-field
   guid: 549b8197-538b-0a31-673d-e0b8e59fcc32
   power: 3
-  name: Gideon / Eldjárn the Sleepy
+  name: Gideon
 - id: 432
   slug: captain-fantastic
   description: Adjacent friendly units' power is raised by 4.
