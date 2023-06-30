@@ -145,6 +145,7 @@
     Destroy opposing creature and take damage equal to its power.
   lore: Fafnir, a dwarf turned dragon, was killed by Sigurd, but his blood also
     caused Sigurd's eventual death.
+  notes: King Pyrrhus?
   tags:
     - sneak
   effects:
@@ -154,7 +155,7 @@
         const foe = get.opposingUnit(card)
         if (foe) op.kill(foe)
   guid: bb757a5a-ddfa-73e6-9da0-0526faf78c3e
-  name: Fafnir / King Pyrrhus
+  name: Fafnir
   power: 1
 - id: 390
   slug: sapper-grand
@@ -346,6 +347,7 @@
     your side.
 
     It must be a unit.
+  notes: Bone Flute?
   effects:
     active:
       eventName: UnitDie
@@ -359,7 +361,7 @@
         const field = get.get.sameLaneUnitField(card)
         op.deploy(card, field)
   guid: d168768c-2363-2cf9-e031-231ae5b6f749
-  name: Draugr's Curse / Bone Flute
+  name: Draugr's Curse
 - id: 90
   slug: token-10
   tags:
@@ -696,6 +698,7 @@
   description: |-
     I attack automatically on at the start of your turn.
     This counts as a manual attack to my $action-exhaustion.
+  notes: Berserker?
   pdc: -1
   status: 4
   priority: 7
@@ -708,7 +711,7 @@
       allowedLots:
         - unit-field
   guid: 880e607b-9629-b54e-5e35-2789092bac94
-  name: Fenrir / Berserker
+  name: Fenrir
   power: 6
 - id: 321
   slug: knightmare-shield
