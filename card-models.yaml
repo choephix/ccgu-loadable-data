@@ -1,3 +1,20 @@
+- id: 370
+  slug: alive-loris
+  description: +1 for each card in your graveyard
+  tags:
+    - grand
+  effects:
+    passive:
+      condition: "true"
+      perform: |-
+        const deadSouls = player.grave.cards.count
+        pass.raisePower(card, deadSouls)
+      allowedLots:
+        - unit-field
+        - hand
+        - grave
+  guid: b4a87403-430f-7687-e001-98dc71c53a73
+  name: Ereshkigal
 - id: 462
   slug: novel-lynx
   description: +10 during your turn
