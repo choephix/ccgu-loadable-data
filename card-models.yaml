@@ -7060,7 +7060,8 @@
       condition: |-
         event.card === card &&
         faq.isInPlay(card) &&
-        !get.rightUnit(card)
+        get.rightUnitField(card) &&
+        !get.rightUnitField(card).hasCards
       perform: |-
         const lot = get.rightUnitField(card)
         op.forceRelocate(card, lot)
