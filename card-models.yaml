@@ -1,3 +1,13 @@
+- id: 304
+  slug: grin-token
+  notes: |-
+    The Grin Without a Cat?
+    Disappearing Grin?
+  tags:
+    - token
+  effects: {}
+  guid: afe2f4b6-3b5a-e47f-8ac1-fddbe4836fff
+  name: Grin Without a Cat
 - id: 9
   slug: --bouncy
   effects:
@@ -694,9 +704,7 @@
   lore: A character from Lewis Carroll's "Alice in Wonderland," the Cheshire Cat
     is known for its enigmatic grin and ability to disappear and reappear at
     will.
-  notes: |-
-    To Do Token: "The Grin Without a Cat"
-    FX needs history!
+  notes: FX needs history!
   tags:
     - sneak
   effects:
@@ -707,13 +715,13 @@
         event.card === card &&
         event.death_type === 'combat' &&
         card.prevLot?.isUnitField
-      perform: op.spawnToken(card.prevLot, 'token-0')
+      perform: op.spawnToken(card.prevLot, 'grin-token')
       allowedLots:
         - unit-field
         - grave
         - hand
   guid: e053ce66-d442-4da5-9d05-c4098cf6f191
-  power: 2
+  power: 3
   name: The Cheshire Cat
 - id: 406
   slug: flappy-bird-grand
