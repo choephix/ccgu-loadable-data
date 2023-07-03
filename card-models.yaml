@@ -687,11 +687,10 @@
   name: The Cheshire Cat
 - id: 406
   slug: flappy-bird-grand
-  lore: >-
-    Can both attack and move before exhausting.
-
-
-    A significant character in Hindu mythology, Hanuman is the monkey god known for his devotion to Lord Rama, his strength, agility, and magical abilities.
+  description: Can both attack and move before exhausting.
+  lore: A significant character in Hindu mythology, Hanuman is the monkey god
+    known for his devotion to Lord Rama, his strength, agility, and magical
+    abilities.
   tags:
     - swift
     - grand
@@ -701,13 +700,12 @@
   name: Mercury
 - id: 388
   slug: swapper
-  lore: >-
-    I can relocate to an occupied creature field on your side, by swapping
-    places with the creature there. This does not count as relocation for the
-    other creature.
-
-
-    Trickster figure from African-American folklore who uses his wits and agility to outsmart his enemies. He is not physically strong but relies on his cunning and quick thinking to survive.
+  description: I can relocate to an occupied creature field on your side, by
+    swapping places with the creature there. This does not count as relocation
+    for the other creature.
+  lore: Trickster figure from African-American folklore who uses his wits and
+    agility to outsmart his enemies. He is not physically strong but relies on
+    his cunning and quick thinking to survive.
   tags:
     - swapper
   effects: {}
