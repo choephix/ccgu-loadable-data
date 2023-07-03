@@ -1,3 +1,16 @@
+- id: 9
+  slug: bouncy
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: card === event.card
+      perform: op.addToHand(card, player)
+      allowedLots:
+        - unit-field
+  guid: c975d9b5-3f58-30c1-1192-d8cb2d5ae481
+  power: 5
+  name: Bouncy
 - id: 371
   slug: fibre-turtle
   description: |-
