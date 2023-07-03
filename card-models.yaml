@@ -13,6 +13,7 @@
         - grave
   guid: 847fc569-a396-f9da-3422-837392c88113
   power: 7
+  name: fibre-turtle
 - id: 370
   slug: ereshkigal
   description: +1 for each card in your graveyard
@@ -627,8 +628,9 @@
         const count = opponent.units.legth;
         pass.raisePower(card, count)
       allowedLots:
-        - unit-field
         - hand
+        - unit-field
+        - grave
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   power: 3
   name: Ajax the Great
