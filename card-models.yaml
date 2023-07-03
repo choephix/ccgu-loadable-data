@@ -686,7 +686,7 @@
   name: managiver
 - id: 418
   slug: token-spawner
-  description: When I die, summon a 0 power token creature in my place.
+  description: When I die in combat, summon a 0 power token creature in my place.
   lore: A character from Lewis Carroll's "Alice in Wonderland," the Cheshire Cat
     is known for its enigmatic grin and ability to disappear and reappear at
     will.
@@ -701,6 +701,7 @@
       eventStatus: ended
       condition: |-
         event.card === card &&
+        event.death_type === 'combat' &&
         card.prevLot?.isUnitField
       perform: op.spawnToken(card.prevLot, 'token-0')
       allowedLots:
