@@ -608,7 +608,7 @@
     flip:
       manner: combat
       perform: |-
-        const foe = get.opposingUnitField(card)
+        const foe = get.opposingUnit(card)
         op.addToHand(foe, opponent)
   guid: 8e2d8db0-129c-bb90-5203-0ef032b79e93
   power: 1
