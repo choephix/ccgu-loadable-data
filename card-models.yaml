@@ -1,3 +1,18 @@
+- id: 371
+  slug: fibre-turtle
+  description: |-
+    No ally units in play?
+    I do not require a sacrifice then.
+  effects:
+    passive:
+      condition: player.units.length > 0
+      perform: pass.addTag(card, 'grand')
+      allowedLots:
+        - unit-field
+        - hand
+        - grave
+  guid: 847fc569-a396-f9da-3422-837392c88113
+  power: 7
 - id: 370
   slug: ereshkigal
   description: +1 for each card in your graveyard
@@ -81,7 +96,7 @@
   effects: {}
   guid: c46378a8-85b1-e150-b4b6-27a04f01e319
   name: The Manananggal
-- id: 450
+- id: 372
   slug: sapper
   description: -1 power to all enemy units
   effects:
@@ -582,7 +597,12 @@
     family line it serves.
   tags:
     - sneak
-  effects: {}
+  effects:
+    flip:
+      manner: combat
+      perform: |-
+        const foe = get.opposingUnitField(card)
+        op.addToHand(foe, opponent)
   guid: 8e2d8db0-129c-bb90-5203-0ef032b79e93
   power: 1
   name: Banshee
@@ -642,7 +662,9 @@
   lore: A character from Lewis Carroll's "Alice in Wonderland," the Cheshire Cat
     is known for its enigmatic grin and ability to disappear and reappear at
     will.
-  notes: 'Token: "The Grin Without a Cat"'
+  notes: |-
+    To Do Token: "The Grin Without a Cat"
+    FX needs history!
   tags:
     - sneak
   effects:
@@ -654,15 +676,18 @@
         const index = card.lot.index;
         const field = get.sameLaneUnitField(card)
         op.spawnToken(field, 'token-' + index)
+      allowedLots:
+        - unit-field
   guid: e053ce66-d442-4da5-9d05-c4098cf6f191
   power: 2
   name: The Cheshire Cat
 - id: 406
   slug: flappy-bird-grand
-  description: Can both attack and move before exhausting.
-  lore: A significant character in Hindu mythology, Hanuman is the monkey god
-    known for his devotion to Lord Rama, his strength, agility, and magical
-    abilities.
+  lore: >-
+    Can both attack and move before exhausting.
+
+
+    A significant character in Hindu mythology, Hanuman is the monkey god known for his devotion to Lord Rama, his strength, agility, and magical abilities.
   tags:
     - swift
     - grand
