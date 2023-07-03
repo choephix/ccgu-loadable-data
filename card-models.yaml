@@ -7138,7 +7138,7 @@
       eventName: CardChangeLot
       eventStatus: ended
       condition: event.card === get.opposingUnit(card)
-      perform: op.addToHand(card, opponent)
+      perform: op.addToHand(event.card, event.card.owner)
   guid: df830212-fd3c-40f8-9430-688259d6bd32
   name: Fata Morgana
 - id: 3648
