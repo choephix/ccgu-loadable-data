@@ -5167,7 +5167,7 @@
     active:
       eventName: UnitAttack
       eventStatus: began
-      condition: even.card === card
+      condition: event.card === card
       perform: op.damage(player, 3)
       allowedLots:
         - unit-field
