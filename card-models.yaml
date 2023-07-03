@@ -169,7 +169,7 @@
   guid: b6b71451-926d-ece6-d0d3-0b71508871e1
   name: Galatea
   power: 8
-- id: 389
+- id: 375
   slug: target-bomb
   description: |-
     Combat-Flip:
@@ -4952,9 +4952,12 @@
   power: 4
   name: Trap-Powered
   guid: 2f2f474a-e268-7bfb-81a2-f69188d45516
-- id: 355
+- id: 389
   slug: producer
   description: My power is raised by 1 for each card in your hand
+  notes: |-
+    Wēland in Old English?
+    Völundr in Old Norse?
   effects:
     passive:
       condition: "true"
@@ -4965,7 +4968,7 @@
         - unit-field
         - hand
         - grave
-  name: Producer
+  name: Wayland the Smith
   guid: 5449b2b3-6f26-8acd-e5f8-3318420ca29f
 - id: 3309
   slug: ferocious-sara
