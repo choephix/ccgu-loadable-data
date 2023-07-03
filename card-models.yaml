@@ -1951,8 +1951,8 @@
       eventName: DeployUnit
       eventStatus: ended
       condition: |-
-        faq.isOpposingLane( card, event.card )
-          && event.card.isFaceUp
+        event.card.isFaceUp &&
+        faq.isOpposingLane(card, event.card)
       perform: |-
         let target = event.card
         op.addTempFx( target, tg => 
