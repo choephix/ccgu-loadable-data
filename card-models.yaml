@@ -2203,7 +2203,7 @@
   priority: 3
   effects:
     active:
-      eventName: UnitAttack
+      eventName: UnitAttackCombat
       eventStatus: ended
       condition: |-
         console.log(event.defender)
