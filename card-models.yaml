@@ -698,7 +698,7 @@
       condition: |-
         event.card === card &&
         card.prevLot?.isUnitField
-      perform: op.spawnToken(card.prevLot, 'token-' + index)
+      perform: op.spawnToken(card.prevLot, 'token-0')
       allowedLots:
         - unit-field
         - grave
