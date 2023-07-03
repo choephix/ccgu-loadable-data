@@ -233,7 +233,7 @@
       allowedLots:
         - unit-field
   guid: 2b0ed5c3-5521-ca41-f2bb-ff7607b08fea
-  power: 4
+  power: 5
   name: Anansi
 - id: 271
   slug: marvellous-koi
