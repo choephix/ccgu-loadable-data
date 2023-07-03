@@ -475,7 +475,9 @@
     active:
       eventName: DeployUnit
       eventStatus: ended
-      condition: event.card === get.opposingUnit(card)
+      condition: |-
+        event.card === get.opposingUnit(card) &&
+        !get.sameLaneUnitField(card).hasCards
       perform: |-
         const field = get.get.sameLaneUnitField(card)
         op.spawnToken(field, 'token-4')
