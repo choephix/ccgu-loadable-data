@@ -1,5 +1,5 @@
 - id: 9
-  slug: bouncy
+  slug: --bouncy
   effects:
     active:
       eventName: DeployUnit
