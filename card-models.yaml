@@ -2206,7 +2206,6 @@
       eventName: UnitAttackCombat
       eventStatus: ended
       condition: |-
-        console.log(event.defender)
         event.defender === card &&
         faq.isInPlay(card)
       perform: op.addToHand(card, player)
