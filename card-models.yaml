@@ -184,7 +184,11 @@
       manner: combat
       perform: |-
         const foe = get.opposingUnit(card)
-        if (foe) op.kill(foe)
+        if (foe) {
+          const hpcost = foe.power
+          op.kill(foe)
+          op.damage(player, hpcost)
+        }
   guid: bb757a5a-ddfa-73e6-9da0-0526faf78c3e
   name: Fafnir
   power: 1
