@@ -1,5 +1,6 @@
 - id: 304
   slug: grin-token
+  description: A grin without a cat?
   notes: |-
     The Grin Without a Cat?
     Disappearing Grin?
@@ -7,7 +8,7 @@
     - token
   effects: {}
   guid: afe2f4b6-3b5a-e47f-8ac1-fddbe4836fff
-  name: Grin Without a Cat
+  name: Disappearing grin
 - id: 9
   slug: --bouncy
   effects:
