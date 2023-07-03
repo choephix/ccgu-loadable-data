@@ -1222,7 +1222,7 @@
       eventName: UnitAttackDirect
       eventStatus: began
       condition: event.card === get.opposingUnit( card )
-      perform: op.damage( player, 4 )
+      perform: op.damage(opponent, 4)
   guid: dceeae8a-f8bd-7dbd-7168-11394f7e0f8d
   name: Cactus
 - id: 289
