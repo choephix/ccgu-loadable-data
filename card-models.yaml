@@ -695,11 +695,10 @@
     active:
       eventName: UnitDie
       eventStatus: ended
-      condition: event.card === card
-      perform: |-
-        const index = card.lot.index;
-        const field = get.sameLaneUnitField(card)
-        op.spawnToken(field, 'token-' + index)
+      condition: |-
+        event.card === card &&
+        card.prevLot?.isUnitField
+      perform: op.spawnToken(card.prevLot, 'token-' + index)
       allowedLots:
         - unit-field
         - grave
