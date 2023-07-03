@@ -222,7 +222,9 @@
   lore: Originating from West African and Caribbean folklore, Anansi is a
     trickster god often depicted as a spider who uses intelligence and cunning
     to outwit his foes.
-  notes: 'Token: "Foolish Fish"'
+  notes: |-
+    Token: "Foolish Fish"
+    Can't deploy against unit.
   tags:
     - rush
   effects:
