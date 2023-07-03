@@ -5179,7 +5179,7 @@
   guid: 573b5edb-f33c-4ef4-01de-9faaa0857931
 - id: 385
   slug: darkassasin2
-  description: When I attack - deal 3 damage to your Life Points.
+  description: When I attack - deal 5 damage to your Life Points.
   lore: A cunning imp, forever bound to his word, known for turning straw into
     gold and names into curses.
   effects:
@@ -5187,7 +5187,7 @@
       eventName: UnitAttack
       eventStatus: began
       condition: event.card === card
-      perform: op.damage(player, 3)
+      perform: op.damage(player, 5)
       allowedLots:
         - unit-field
   power: 7
