@@ -645,7 +645,15 @@
   notes: 'Token: "The Grin Without a Cat"'
   tags:
     - sneak
-  effects: {}
+  effects:
+    active:
+      eventName: UnitDie
+      eventStatus: began
+      condition: event-card === card
+      perform: |-
+        const index = card.lot.index;
+        const field = get.sameLaneUnitField(card)
+        op.spawnToken(field, 'token-' + index)
   guid: e053ce66-d442-4da5-9d05-c4098cf6f191
   power: 2
   name: The Cheshire Cat
