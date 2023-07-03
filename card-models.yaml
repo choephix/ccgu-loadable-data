@@ -355,7 +355,7 @@
     passive:
       condition: "true"
       perform: |-
-        const count = opponent.units.legth;
+        const count = opponent.units.length;
         pass.lowerPower(card, 2 * count)
       allowedLots:
         - unit-field
@@ -645,12 +645,13 @@
       condition: "true"
       perform: |-
         const count = 
-          player.units.legth + 
-          opponent.units.legth;
+          player.units.length + 
+          opponent.units.length;
         pass.raisePower(card, count)
       allowedLots:
         - unit-field
         - hand
+        - grave
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   power: 1
   name: geinhildr
