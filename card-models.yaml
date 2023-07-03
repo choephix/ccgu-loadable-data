@@ -685,6 +685,8 @@
         op.spawnToken(field, 'token-' + index)
       allowedLots:
         - unit-field
+        - grave
+        - hand
   guid: e053ce66-d442-4da5-9d05-c4098cf6f191
   power: 2
   name: The Cheshire Cat
