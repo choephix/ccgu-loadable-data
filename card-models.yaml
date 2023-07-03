@@ -625,7 +625,7 @@
     passive:
       condition: "true"
       perform: |-
-        const count = opponent.units.legth;
+        const count = opponent.units.length;
         pass.raisePower(card, count)
       allowedLots:
         - hand
