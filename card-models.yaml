@@ -494,7 +494,7 @@
         event.card === get.opposingUnit(card) &&
         !get.sameLaneUnitField(card).hasCards
       perform: |-
-        const field = get.get.sameLaneUnitField(card)
+        const field = get.sameLaneUnitField(card)
         op.spawnToken(field, 'token-4')
   guid: 7b56a5c5-71bc-d653-3098-2dd6e8e17b3b
   name: Call of the Nisse
