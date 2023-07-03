@@ -664,12 +664,13 @@
   name: Mercury
 - id: 388
   slug: swapper
-  description: I can relocate to an occupied creature field on your side, by
-    swapping places with the creature there. This does not count as relocation
-    for the other creature.
-  lore: Trickster figure from African-American folklore who uses his wits and
-    agility to outsmart his enemies. He is not physically strong but relies on
-    his cunning and quick thinking to survive.
+  lore: >-
+    I can relocate to an occupied creature field on your side, by swapping
+    places with the creature there. This does not count as relocation for the
+    other creature.
+
+
+    Trickster figure from African-American folklore who uses his wits and agility to outsmart his enemies. He is not physically strong but relies on his cunning and quick thinking to survive.
   tags:
     - swapper
   effects: {}
@@ -6371,7 +6372,24 @@
     the field on my left.
   lore: Once lost to the underworld's grasp, her tale of ethereal love and tragic
     misstep haunts every echo from the abyss.
-  effects: {}
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: |-
+        const PARTNER = 'jack'
+        const DEST = get.leftUnitField(card)
+        event.card === card &&
+        !DEST.hasCards &&
+        player.grave.some(c => c.slug === PARTNER)
+      perform: |-
+        const PARTNER = 'jack'
+        const DEST = get.leftUnitField(card)
+        op.moveTo(card, DEST)
+        event.card === card &&
+        player.grave.some(c => c.slug === PARTNER)
+      allowedLots:
+        - unit-field
   power: 4
   name: Eurydice
   guid: 6522a282-a424-a7cc-a462-d4dc93f446a2
@@ -6381,7 +6399,24 @@
     the field on my right.
   lore: The melodious bard whose lament moved gods and spirits, his fated gaze
     turned love's redemption into lasting regret.
-  effects: {}
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: |-
+        const PARTNER = 'jill'
+        const DEST = get.rightUnitField(card)
+        event.card === card &&
+        !DEST.hasCards &&
+        player.grave.some(c => c.slug === PARTNER)
+      perform: |-
+        const PARTNER = 'jill'
+        const DEST = get.rightUnitField(card)
+        op.moveTo(card, DEST)
+        event.card === card &&
+        player.grave.some(c => c.slug === PARTNER)
+      allowedLots:
+        - unit-field
   power: 4
   name: Orpheus
   guid: 69e94d75-3b59-c2c5-3551-5b0e401031ee
