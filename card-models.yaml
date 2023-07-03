@@ -2182,7 +2182,16 @@
     - grand
   pdc: -1
   priority: 3
-  effects: {}
+  effects:
+    active:
+      eventName: UnitAttack
+      eventStatus: ended
+      condition: |-
+        event.defender === card &&
+        faq.isInPlay(card)
+      perform: op.addToHand(card, player)
+      allowedLots:
+        - unit-field
   name: Zhu Bajie
   power: 11
   guid: c4e29441-a2d6-5d2e-e90d-67c1d4b90213
