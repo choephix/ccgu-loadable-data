@@ -276,6 +276,10 @@
     passive:
       condition: faq.hasTurn(card)
       perform: pass.raisePower(card, 10)
+      allowedLots:
+        - unit-field
+        - hand
+        - grave
   guid: 9d913bd6-cf60-e796-d57d-ef6d9465f77d
   name: Hanuman
   power: 4
@@ -2169,8 +2173,8 @@
   guid: a9169ca5-1e24-f72f-d437-270bbfcd594a
 - id: 438
   slug: cowardly-giant
-  description: "#Grand After I am attacked by enemy $unit, if I'm still in play, I
-    return to my owner's hand."
+  description: After I am attacked by enemy $unit, if I'm still in play, I return
+    to my owner's hand.
   lore: A boar-headed hero of muddled courage, ever teetering between battle and
     retreat, his legendary journey is driven by a love for indulgence and a
     fearful heart.
