@@ -6,8 +6,8 @@
       eventStatus: ended
       condition: card === event.card
       perform: |-
-        op.addToHand(card, player)
         player.actionPoints++
+        op.addToHand(card, player)
       allowedLots:
         - unit-field
   guid: c975d9b5-3f58-30c1-1192-d8cb2d5ae481
