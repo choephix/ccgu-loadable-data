@@ -677,7 +677,7 @@
   effects:
     active:
       eventName: UnitDie
-      eventStatus: began
+      eventStatus: ended
       condition: event-card === card
       perform: |-
         const index = card.lot.index;
