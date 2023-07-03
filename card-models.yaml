@@ -229,7 +229,7 @@
       perform: |-
         const index = card.lot.index;
         const field = get.opposingUnitField(card)
-        op.spawnToken(field, 'token-0')
+        op.spawnToken(field, 'token-5')
       allowedLots:
         - unit-field
   guid: 2b0ed5c3-5521-ca41-f2bb-ff7607b08fea
