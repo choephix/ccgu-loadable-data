@@ -1,3 +1,13 @@
+- id: 305
+  slug: tiger-token
+  lore: Ntikuma, Anansi's son in some tales
+  notes: Ntikuma?
+  tags:
+    - token
+  effects: {}
+  guid: afe2f4b6-3b5a-e47f-8ac1-fddbe4836fff
+  name: Tiger
+  power: 5
 - id: 386
   slug: necropy
   description: |-
@@ -352,7 +362,7 @@
       perform: |-
         const index = card.lot.index;
         const field = get.opposingUnitField(card)
-        op.spawnToken(field, 'token-5')
+        op.spawnToken(field, 'tiger-token')
       allowedLots:
         - unit-field
   guid: 2b0ed5c3-5521-ca41-f2bb-ff7607b08fea
