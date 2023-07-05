@@ -1,6 +1,6 @@
 - id: 354
   slug: shonen2
-  description: +1 power per enemy unit in play.
+  description: +2 power per enemy unit in play.
   lore: Rome's one-eyed sentinel, he stood undaunted on the Tiber bridge, his
     singular courage becoming the bulwark against the advancing horde.
   pdc: -1
@@ -11,13 +11,13 @@
       condition: "true"
       perform: |-
         const count = opponent.units.length;
-        pass.raisePower(card, count)
+        pass.raisePower(card, count * 2)
       allowedLots:
         - hand
         - unit-field
         - grave
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
-  power: 4
+  power: 2
   name: Horatius Cocles
 - id: 404
   slug: buffy
