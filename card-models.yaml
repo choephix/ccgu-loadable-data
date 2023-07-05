@@ -1,3 +1,20 @@
+- id: 355
+  slug: buffy
+  description: |-
+    +1 power to other ally units
+    if in play
+  lore: Jeanne Laisné
+  effects:
+    passive:
+      condition: "true"
+      perform: |-
+        for (const u of opponent.units) {
+          pass.lowerPower(u, 1)
+        }
+      allowedLots:
+        - unit-field
+  guid: e848b4d8-311f-6eaa-e803-b3c88677863a
+  name: Jeanne Hachette
 - id: 391
   slug: poisonous-defence
   type: 1
@@ -557,17 +574,6 @@
         op.spawnToken(field, 'token-4')
   guid: 7b56a5c5-71bc-d653-3098-2dd6e8e17b3b
   name: Call of the Nisse
-- id: 377
-  slug: wasted
-  type: 1
-  effects:
-    active:
-      eventName: DeployUnit
-      eventStatus: ended
-      condition: event.card === get.opposingUnitField(card)
-      perform: op.forceAttack(event.card)
-  guid: 4e754618-ac92-59f4-5d3a-4e9c64478b3f
-  name: wasted
 - id: 393
   slug: from-the-right
   type: 1
