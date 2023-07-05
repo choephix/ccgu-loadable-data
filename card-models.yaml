@@ -1,3 +1,19 @@
+- id: 561
+  slug: quaint-henry
+  description: +1 per card in the enemy's deck!
+  tags:
+    - grand
+  effects:
+    passive:
+      condition: "true"
+      perform: |-
+        const amount = opponent.deck.cardCount
+        pass.raisePower(card, amount)
+      allowedLots:
+        - grave
+        - unit-field
+        - hand
+  guid: 346dd8d7-aa5b-ff34-edab-afa418560233
 - id: 304
   slug: grin-token
   lore: A grin without a cat?
