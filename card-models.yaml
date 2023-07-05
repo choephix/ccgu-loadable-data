@@ -263,8 +263,9 @@
       eventName: DeployUnit
       eventStatus: ended
       condition: |-
+        const field = get.opposingUnitField(card)
         event.card === card &&
-        !get.opposingUnitField(card).field.hasCards
+        !field.hasCards
       perform: |-
         const index = card.lot.index;
         const field = get.opposingUnitField(card)
