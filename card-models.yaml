@@ -2505,8 +2505,6 @@
 - id: 437
   slug: fragmine
   description: I die after combat
-  lore: A serpent with a powerful venom that can destroy enemies but loses its
-    life once the venom is used
   tags:
     - sneak
     - noattack
@@ -2524,7 +2522,7 @@
       perform: op.kill( card )
       allowedLots:
         - unit-field
-  name: Kaliya
+  name: The White Buffalo Woman
   power: 9
   guid: 76fbd7d3-ade6-5f68-6c2b-4814e6ca0a31
 - id: 919
