@@ -1,4 +1,27 @@
-- id: 355
+- id: 354
+  slug: shonen2
+  description: +1 power per enemy unit in play.
+  lore: A towering colossus of war, embodies indomitable strength and unwavering
+    loyalty. With his mighty shield and relentless courage, he carves his name
+    into the annals of history as a legendary hero, forever remembered for his
+    unparalleled might on the battlefield.
+  pdc: -1
+  status: 2
+  priority: 7
+  effects:
+    passive:
+      condition: "true"
+      perform: |-
+        const count = opponent.units.length;
+        pass.raisePower(card, count)
+      allowedLots:
+        - hand
+        - unit-field
+        - grave
+  guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
+  power: 4
+  name: Ajax the GreatER
+- id: 404
   slug: buffy
   description: |-
     +1 power to other ally units
@@ -54,6 +77,7 @@
         - unit-field
         - hand
   guid: 346dd8d7-aa5b-ff34-edab-afa418560233
+  name: grand-decker
 - id: 304
   slug: grin-token
   lore: A grin without a cat?
@@ -697,7 +721,7 @@
   guid: 8e2d8db0-129c-bb90-5203-0ef032b79e93
   power: 1
   name: Banshee
-- id: 404
+- id: 355
   slug: shonen
   description: +1 power per enemy unit in play.
   lore: A towering colossus of war, embodies indomitable strength and unwavering
@@ -718,7 +742,7 @@
         - unit-field
         - grave
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
-  power: 3
+  power: 4
   name: Ajax the Great
 - id: 358
   slug: geinhildr
