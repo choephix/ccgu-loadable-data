@@ -3,7 +3,9 @@
   description: |-
     +1 power to other ally units
     if in play
-  lore: Jeanne Laisné
+  lore: Jeanne Laisné, a French heroine who bravely defended the city of Beauvais
+    against an invading Burgundian force in 1472, reputedly seizing a hatchet
+    and leading her fellow townspeople in the resistance.
   effects:
     passive:
       condition: "true"
@@ -15,6 +17,7 @@
         - unit-field
   guid: e848b4d8-311f-6eaa-e803-b3c88677863a
   name: Jeanne Hachette
+  power: 3
 - id: 391
   slug: poisonous-defence
   type: 1
