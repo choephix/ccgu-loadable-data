@@ -1269,7 +1269,7 @@
   effects: {}
   guid: aba8cb64-3893-70f5-baa9-c5599067f499
   name: Deadly Sacrifice
-- id: 441
+- id: 392
   slug: sneakshot
   type: 1
   description: Activate when opposing enemy unit begins a direct attack. Deal 4
@@ -1901,7 +1901,7 @@
   effects: {}
   name: drawnecro
   guid: 8cc4afa4-1276-5506-1c7d-aa1052afd931
-- id: 392
+- id: 441
   slug: taunt
   type: 1
   description: When enemy unit here is deployed, force it to attack.
