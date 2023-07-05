@@ -70,8 +70,7 @@
       eventStatus: began
       condition: |-
         event.card === get.opposingUnit(card) &&
-        event.card.isFaceUp &&
-        faq.isOpposingLane(card, event.card)
+        event.card.isFaceUp
       perform: |-
         op.addTempFx(event.card, 
           tg => tg.pass.lowerPower(target, 4))
@@ -2085,8 +2084,7 @@
       eventStatus: ended
       condition: |-
         event.card === get.opposingUnit(card) &&
-        event.card.isFaceUp &&
-        faq.isOpposingLane(card, event.card)
+        event.card.isFaceUp
       perform: |-
         op.addTempFx(event.card, 
           tg => tg.pass.lowerPower(target, 6))
