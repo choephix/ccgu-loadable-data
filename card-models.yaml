@@ -2233,7 +2233,7 @@
       allowedLots:
         - unit-field
   name: Zhu Bajie
-  power: 11
+  power: 10
   guid: c4e29441-a2d6-5d2e-e90d-67c1d4b90213
 - id: 387
   slug: antisocial-knight
