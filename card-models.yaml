@@ -1,4 +1,4 @@
-- id: 341
+- id: 386
   slug: necropy
   description: |-
     +X, equal to the enemy grave's top card
@@ -420,7 +420,7 @@
         - grave
   guid: 9d913bd6-cf60-e796-d57d-ef6d9465f77d
   name: Hanuman
-  power: 4
+  power: 2
 - id: 416
   slug: un-prod
   description: -1 for every card in your hand
@@ -2564,7 +2564,7 @@
   name: Grand Traitor
   power: 14
   guid: 00badf76-e490-b5e6-9b31-a3986978ca5e
-- id: 386
+- id: 385
   slug: man-of-honor
   description: I cannot attack without opposing enemy $unit
   lore: Sir Gawain is known for his chivalry, bravery, and loyalty, and is a
@@ -5289,7 +5289,7 @@
   power: 4
   name: Cheerleader Harpy 2
   guid: 573b5edb-f33c-4ef4-01de-9faaa0857931
-- id: 385
+- id: 341
   slug: darkassasin2
   description: When I attack - deal 5 damage to your Life Points.
   lore: A cunning imp, forever bound to his word, known for turning straw into
