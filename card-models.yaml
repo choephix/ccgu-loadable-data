@@ -10,8 +10,9 @@
     passive:
       condition: "true"
       perform: |-
-        for (const u of opponent.units) {
-          pass.lowerPower(u, 1)
+        for (const u of player.units) {
+          if (u === card) continue
+          pass.raisePower(u, 1)
         }
       allowedLots:
         - unit-field
