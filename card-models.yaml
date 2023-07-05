@@ -1,3 +1,21 @@
+- id: 341
+  slug: necropy
+  description: |-
+    +X, equal to the enemy grave's top card
+    (0 if not a unit).
+  effects:
+    passive:
+      condition: "true"
+      perform: |-
+        const amount = 
+          opponent.grave.topCard.power || 0
+        pass.raisePower(card, amount)
+      allowedLots:
+        - unit-field
+        - hand
+        - grave
+  guid: da711770-5ed0-4617-0f2a-b520d56d8912
+  name: Necropy
 - id: 387
   slug: shonen2
   description: +2 power per enemy unit in play.
@@ -6717,14 +6735,22 @@
   name: Tricky Shield
   guid: 58ebdd7a-1969-432a-0635-79f8239af518
 - id: 342
-  slug: necropy
-  description: >-
-    My power is raised by that of the top card in the enemy graveyard at all
-    times.
-
-    (0 if it is not a unit).
-  effects: {}
-  name: Necropy
+  slug: necropy2
+  description: |-
+    +X, equal to the enemy grave's top card
+    (0 if not a unit).
+  effects:
+    passive:
+      condition: "true"
+      perform: |-
+        const amount = 
+          opponent.grave.topCard.power || 0
+        pass.raisePower(card, amount)
+      allowedLots:
+        - unit-field
+        - hand
+        - grave
+  name: Necropy 2
   guid: da711770-5ed0-4617-0f2a-b520d56d8912
 - id: 3135
   slug: safebuffer
