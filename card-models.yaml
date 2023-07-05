@@ -72,8 +72,9 @@
         event.card === get.opposingUnit(card) &&
         event.card.isFaceUp
       perform: |-
-        op.addTempFx(event.card, 
-          tg => tg.pass.lowerPower(target, 4))
+        op.addTempFx(
+          event.card, 
+          tg => tg.pass.lowerPower(event.card, 4))
   guid: 3ee6755d-845a-f87c-fed7-9594b1e29bcd
   name: The River Lethe
 - id: 561
@@ -2086,8 +2087,9 @@
         event.card === get.opposingUnit(card) &&
         event.card.isFaceUp
       perform: |-
-        op.addTempFx(event.card, 
-          tg => tg.pass.lowerPower(target, 6))
+        op.addTempFx(
+          event.card, 
+          tg => tg.pass.lowerPower(event.card, 6))
   name: The Evil Eye
   guid: e3b41aa1-0f98-ec62-7c2b-2f8414025180
 - id: 806
