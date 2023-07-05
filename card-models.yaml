@@ -1,4 +1,4 @@
-- id: 354
+- id: 387
   slug: shonen2
   description: +2 power per enemy unit in play.
   lore: Rome's one-eyed sentinel, he stood undaunted on the Tiber bridge, his
@@ -2308,7 +2308,7 @@
   name: Zhu Bajie
   power: 10
   guid: c4e29441-a2d6-5d2e-e90d-67c1d4b90213
-- id: 387
+- id: 354
   slug: antisocial-knight
   description: My power is decreased by 3 for every other friendly $unit $in-play.
   lore: Exceptionally strong, but doesn't work well in a crowd.
