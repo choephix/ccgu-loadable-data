@@ -1,10 +1,8 @@
 - id: 354
   slug: shonen2
   description: +1 power per enemy unit in play.
-  lore: A towering colossus of war, embodies indomitable strength and unwavering
-    loyalty. With his mighty shield and relentless courage, he carves his name
-    into the annals of history as a legendary hero, forever remembered for his
-    unparalleled might on the battlefield.
+  lore: Rome's one-eyed sentinel, he stood undaunted on the Tiber bridge, his
+    singular courage becoming the bulwark against the advancing horde.
   pdc: -1
   status: 2
   priority: 7
@@ -20,7 +18,7 @@
         - grave
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   power: 4
-  name: Ajax the GreatER
+  name: Horatius Cocles
 - id: 404
   slug: buffy
   description: |-
@@ -233,6 +231,9 @@
 - id: 368
   slug: spartan
   description: All your units gain power equal to the number of enemy units in play.
+  lore: Against overwhelming odds, King Leonidas I valiantly led his Spartan
+    warriors at Thermopylae, holding back an immense Persian force and etching
+    his name into history as the embodiment of defiance and courage.
   tags:
     - grand
   pdc: -1
@@ -250,7 +251,7 @@
         - unit-field
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   power: 5
-  name: Leonidas I
+  name: King Leonidas I
 - id: 2625
   slug: Pygmalion
   effects: {}
