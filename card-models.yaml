@@ -1,3 +1,22 @@
+- id: 391
+  slug: poisonous-defence
+  type: 1
+  description: -4 to enemy unit beginning to attack here
+  lore: One of the five rivers of the underworld, drinking from it causes
+    forgetfulness and a lack of vigor.
+  effects:
+    active:
+      eventName: UnitAttack
+      eventStatus: began
+      condition: |-
+        event.card === get.opposingUnit(card) &&
+        event.card.isFaceUp &&
+        faq.isOpposingLane(card, event.card)
+      perform: |-
+        op.addTempFx(event.card, 
+          tg => tg.pass.lowerPower(target, 4))
+  guid: 3ee6755d-845a-f87c-fed7-9594b1e29bcd
+  name: The River Lethe
 - id: 561
   slug: grand-decker
   description: +1 per card in the enemy's deck!
@@ -418,7 +437,7 @@
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   power: 9
   name: Karna
-- id: 391
+- id: 361
   slug: steal-dead-unit
   type: 1
   description: >-
@@ -1998,7 +2017,9 @@
 - id: 440
   slug: toxicmine
   type: 1
-  description: Activate when opposing enemy unit is deployed. Decrease its power by 4
+  description: |-
+    -6 to enemy unit deployed here
+    (if face up)
   lore: A superstitious belief, prevalent across various cultures, that a
     malevolent glare can bring misfortune or harm to the person it's directed
     towards. It's often associated with envy or malice, and various talismans or
@@ -2010,12 +2031,12 @@
       eventName: DeployUnit
       eventStatus: ended
       condition: |-
+        event.card === get.opposingUnit(card) &&
         event.card.isFaceUp &&
         faq.isOpposingLane(card, event.card)
       perform: |-
-        let target = event.card
-        op.addTempFx( target, tg => 
-          tg.pass.lowerPower( target, 4 ) )
+        op.addTempFx(event.card, 
+          tg => tg.pass.lowerPower(target, 6))
   name: The Evil Eye
   guid: e3b41aa1-0f98-ec62-7c2b-2f8414025180
 - id: 806
