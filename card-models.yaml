@@ -6469,6 +6469,7 @@
         const PARTNER_NAME = 'jack'
         const destination = get.leftUnitField(card)
         event.card === card &&
+        !!destination && 
         !destination.hasCards &&
         player.grave.cards
           .some(c => c.slug === PARTNER_NAME)
@@ -6497,6 +6498,7 @@
         const PARTNER_NAME = 'jill'
         const destination = get.rightUnitField(card)
         event.card === card &&
+        !!destination &&
         !destination.hasCards &&
         player.grave.cards
           .some(c => c.slug === PARTNER_NAME)
