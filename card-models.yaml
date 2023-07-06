@@ -18,7 +18,7 @@
       condition: "true"
       perform: |-
         const amount = 
-          opponent.grave.topCard.power || 0
+          opponent.grave.topCard?.power || 0
         pass.raisePower(card, amount)
       allowedLots:
         - unit-field
@@ -6753,7 +6753,7 @@
       condition: "true"
       perform: |-
         const amount = 
-          opponent.grave.topCard.power || 0
+          opponent.grave.topCard?.power || 0
         pass.raisePower(card, amount)
       allowedLots:
         - unit-field
