@@ -1,3 +1,24 @@
+- id: 562
+  slug: cute-noah
+  description: |-
+    My POWER is 2 exponentiated by your energy.
+    0 Energy = 1 Power
+    1 Energy = 2 Power
+    2 Energy = 4 Power
+    3 Energy = 8 power
+    etc.
+  effects:
+    passive:
+      condition: "true"
+      perform: |-
+        let mul = card.lot.index
+        pass.raisePower(card, 2 ** mul)
+      allowedLots:
+        - unit-field
+        - hand
+        - grave
+  guid: 63c6f0af-4d22-cfa1-6999-386cd74e7f8f
+  name: exponanta
 - id: 305
   slug: tiger-token
   lore: Ntikuma, Anansi's son in some tales
