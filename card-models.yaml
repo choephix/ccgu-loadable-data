@@ -2522,7 +2522,7 @@
       perform: op.kill( card )
       allowedLots:
         - unit-field
-  name: The White Buffalo Woman
+  name: White Buffalo Maiden
   power: 9
   guid: 76fbd7d3-ade6-5f68-6c2b-4814e6ca0a31
 - id: 919
