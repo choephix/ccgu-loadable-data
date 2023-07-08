@@ -3,9 +3,8 @@
   description: |-
     Move me in front of enemy unit attacking from any field
     if possible
-  lore: In many tales, sparrows are portrayed as small and weak yet brave and
-    self-sacrificing birds that put themselves in harm's way to protect their
-    nest and loved ones.
+  lore: With tiny wings and a big heart, the Selfless Sparrow flies beyond its
+    humble stature, carrying hope on its featherlight wings.
   pdc: -1
   status: 2
   priority: 1
@@ -22,7 +21,7 @@
       allowedLots:
         - unit-field
   guid: e156e58b-3903-0196-a55c-cef515c0dcdd
-  name: Selfless Sparrow 2
+  name: Selfless Sparrow
   power: 1
 - id: 562
   slug: cute-noah
@@ -60,6 +59,8 @@
   description: |-
     +X, equal to the enemy grave's top card
     (0 if not a unit)
+  lore: Emerging from the underworld's darkest shadows, Lilith spins a web of
+    intrigue, her mysteries as alluring as they are dangerous.
   effects:
     passive:
       condition: "true"
@@ -97,9 +98,8 @@
 - id: 404
   slug: buffy
   description: +1 power to other ally units in play
-  lore: Jeanne Laisné, a French heroine who bravely defended the city of Beauvais
-    against an invading Burgundian force in 1472, reputedly seizing a hatchet
-    and leading her fellow townspeople in the resistance.
+  lore: Her courage shining like a beacon, Jeanne Hachette stands tall, inspiring
+    others to embrace valor, even against overwhelming odds.
   effects:
     passive:
       condition: "true"
@@ -198,6 +198,8 @@
 - id: 370
   slug: ereshkigal
   description: +1 for each card in your graveyard
+  lore: The dreaded queen of the underworld, rules over death's silent realm, her
+    dark throne a testament to the inevitability of fate.
   tags:
     - grand
   effects:
@@ -364,9 +366,8 @@
 - id: 390
   slug: sapper-grand
   description: -2 power to all enemy units
-  lore: In Greek mythology, Nyx is the personification of the night, a primordial
-    deity born from Chaos, and the mother of many other gods and goddesses,
-    including Hypnos (Sleep) and Thanatos (Death).
+  lore: With a whisper soft as the falling night, Nyx weaves dreams into reality,
+    drawing the wakeful into her soothing, starlit slumber.
   notes: not Lilith :/ ?
   tags:
     - grand
@@ -390,9 +391,8 @@
   description: |-
     Spawn a 5 Power token on the enemy side when I'm deployed
     if possible
-  lore: Originating from West African and Caribbean folklore, Anansi is a
-    trickster god often depicted as a spider who uses intelligence and cunning
-    to outwit his foes.
+  lore: Anansi, the master weaver, spins threads of cunning and wisdom, turning
+    the world into his web of stories and trickery.
   notes: |-
     Token: "Foolish Fish"
     Can't deploy against unit.
@@ -427,8 +427,8 @@
 - id: 420
   slug: hard-skin
   description: +3 during enemy turn
-  lore: Steadfast in his faith, this biblical hero stands strong, his fate shaped
-    by the divine, his strength felt in the resonance of a shofar's call.
+  lore: From a wellspring of faith amidst weakness and poverty, Gideon summons
+    strength, his spirit shining brightly in the darkest of trials.
   tags:
     - sneak
   effects:
@@ -464,8 +464,8 @@
 - id: 422
   slug: swayer-grand
   description: +10 during your turn
-  lore: Lord of the monkeys, his boundless devotion echoes through the ages, a
-    symbol of strength, loyalty, and indomitable spirit in Hindu mythology.
+  lore: Shifting in size as effortlessly as the wind changes direction, Hanuman
+    embodies divine power, once shifting a mountain with his indomitable will.
   tags:
     - grand
   effects:
@@ -482,12 +482,8 @@
 - id: 416
   slug: un-prod
   description: -1 for every card in your hand
-  lore: Bacchus, the Roman God of Wine and Merriment, personifies the power of
-    intoxication and the exhilarating chaos of festivities. Revered for his
-    ability to inspire and liberate, he also stands as a reminder of the
-    potential frenzy that comes from excess. In the game, his presence adds an
-    unpredictable yet thrilling dynamic, symbolizing both the joy of celebration
-    and the perils of losing control.
+  lore: With a hearty laugh and a swirling goblet, Bacchus intoxicates the game,
+    his presence compelling you to dance to the tunes of impulse.
   effects:
     passive:
       condition: "true"
@@ -540,9 +536,8 @@
 - id: 435
   slug: un-shonen
   description: -2 power per enemy unit in play
-  lore: A significant character in the Indian epic Mahabharata, Karna is known for
-    his generosity, archery skills, and tragic life story, being a righteous
-    warrior on the wrong side due to circumstances beyond his control.
+  lore: Brave and valiant, Karna stands tall against any foe, but falters amidst
+    the multitude, his strength tested by the overwhelming odds.
   pdc: -1
   status: 2
   priority: 7
@@ -748,8 +743,8 @@
   description: |-
     I die after combat
     if still in play
-  lore: Cloaked in the shimmer of heat haze, this mystical creature dances amidst
-    the flames, as enchanting as it is elusive.
+  lore: An embodiment of living flame, the Salamander meets combat with explosive
+    fury, turning every encounter into a fiery spectacle.
   notes: Boitatá ?
   effects:
     active:
@@ -780,9 +775,8 @@
 - id: 421
   slug: trampoline
   description: "Combat-Flip: Enemy unit here returns to the hand"
-  lore: Originating from Irish folklore, a banshee is a female spirit who
-    foretells death by wailing or keening, and is often associated with the
-    family line it serves.
+  lore: With a chilling wail that tears through the silence, the Banshee's scream
+    sends even the bravest souls fleeing in pure, icy fear.
   tags:
     - sneak
   effects:
@@ -849,9 +843,8 @@
 - id: 418
   slug: token-spawner
   description: Spawn a 0 power token in my place when I die in combat
-  lore: A character from Lewis Carroll's "Alice in Wonderland," the Cheshire Cat
-    is known for its enigmatic grin and ability to disappear and reappear at
-    will.
+  lore: The Cheshire Cat, grinning from ear to ear, an enigmatic figure leaving
+    trails of mystery in its wake.
   notes: FX needs history!
   tags:
     - sneak
@@ -874,9 +867,8 @@
 - id: 406
   slug: flappy-bird-grand
   description: I can both attack and move before exhausting
-  lore: A significant character in Hindu mythology, Hanuman is the monkey god
-    known for his devotion to Lord Rama, his strength, agility, and magical
-    abilities.
+  lore: Swift as thought and unpredictable as the wind, Mercury's strikes come
+    from all angles, his speed the heart of his relentless pursuit.
   tags:
     - swift
     - grand
@@ -891,9 +883,8 @@
     places with the creature there
 
     Does not count as relocation for the other creature
-  lore: Trickster figure from African-American folklore who uses his wits and
-    agility to outsmart his enemies. He is not physically strong but relies on
-    his cunning and quick thinking to survive.
+  lore: As nimble as the wind and as elusive as a thought, Br'er Rabbit darts
+    through life's mazes, always a hop ahead of trouble.
   tags:
     - swapper
   effects: {}
@@ -910,9 +901,8 @@
 - id: 403
   slug: harassingmia
   description: Return me to your hand after your turn
-  lore: Born from a magical flower, this diminutive maiden captures hearts with
-    her gentle spirit, braving a world of giants to find her true place among
-    them.
+  lore: Tiny but swift, Thumbelina flutters through life, her nimble size making
+    her as elusive as a feather in the wind.
   tags:
     - rush
     - notribute
@@ -935,8 +925,8 @@
   description: |-
     I attack automatically on at the start of your turn
     This counts as a manual attack
-  lore: The monstrous wolf of Nordic tales, with a hunger so vast it threatens to
-    consume the gods themselves.
+  lore: Unleashed fury incarnate, Fenrir rampages with raw aggression, a tempest
+    of claws and teeth that knows no chains nor fear.
   notes: Berserker?
   pdc: -1
   status: 4
@@ -1382,6 +1372,7 @@
   slug: sneakshot
   type: 1
   description: 4 damage to the enemy player, when they attack directly here
+  lore: Ouch!
   effects:
     active:
       eventName: UnitAttackDirect
@@ -1433,7 +1424,8 @@
   description: |-
     On direct attack here, deploy the top card in your grave here
     It must be a unit
-  lore: v3
+  lore: Strumming melodies that ripple through life and death, Orpheus's Lyre
+    breathes hope into lost souls, turning despair into a dance of resurrection.
   effects:
     active:
       eventName: UnitAttackDirect
@@ -2012,7 +2004,8 @@
   slug: taunt
   type: 1
   description: Force enemy unit deployed here to attack
-  lore: Muleta
+  lore: The muleta dances in the ring, a flashing beacon that tests courage and
+    tempts the charging bull with its crimson challenge.
   rarity: 6
   pdc: -1
   priority: 3
@@ -2125,10 +2118,8 @@
   slug: toxicmine
   type: 1
   description: -6 to enemy unit deployed here face-up
-  lore: A superstitious belief, prevalent across various cultures, that a
-    malevolent glare can bring misfortune or harm to the person it's directed
-    towards. It's often associated with envy or malice, and various talismans or
-    rituals are used as protective measures against it.
+  lore: The Evil Eye casts its baleful gaze, draining strength and casting shadows
+    of superstition, a reminder that some fears are born from belief.
   pdc: -1
   priority: 3
   effects:
@@ -2306,8 +2297,8 @@
 - id: 384
   slug: freejimmy
   description: +1 AP when you deploy me
-  lore: While not powerful in the traditional sense, Puss uses wit and charm to
-    acquire wealth and power for his master.
+  lore: With a sly purr and an unerring knack for opportunity, this dapper feline
+    brings fortune to his master.
   pdc: -1
   status: 2
   priority: 3
@@ -2552,6 +2543,8 @@
   description: |-
     I die after combat
     if still in play
+  lore: The White Buffalo Maiden, an emissary of peace, walks softly upon the
+    earth, her presence a gentle hymn to harmony and balance.
   tags:
     - sneak
     - noattack
@@ -2624,8 +2617,8 @@
 - id: 385
   slug: man-of-honor
   description: I will not attack without a foe here
-  lore: Sir Gawain is known for his chivalry, bravery, and loyalty, and is a
-    central figure in the tale of "Sir Gawain and the Green Knight."
+  lore: Clad in shining armor, his unwavering nobility lights the path to
+    chivalry, his sword striking down any semblance of dishonor.
   pdc: -1
   status: 2
   priority: 8
@@ -2799,10 +2792,8 @@
   slug: tripwire
   type: 1
   description: Kill enemy unit relocating here
-  lore: Quicksand is a natural hazard that appears solid on the surface but
-    becomes a dense, fluid-like substance when disturbed, causing objects or
-    people to sink if they stand or move on it. It is often found near
-    riverbanks or coastal areas and is made of fine sand, clay, and saltwater.
+  lore: Beneath your feet, the Quicksand lies in wait, transforming solid ground
+    into a perilous pitfall with a single misstep.
   pdc: -1
   status: 3
   priority: 6
@@ -5115,6 +5106,8 @@
 - id: 389
   slug: producer
   description: +1 per card in your hand
+  lore: His hammer strikes the anvil like lightning, forging from fire and metal
+    tales of heroism and strength echoed in every creation.
   notes: |-
     Wēland in Old English?
     Völundr in Old Norse?
@@ -6284,9 +6277,8 @@
   slug: returner
   description: Return me to your hand if I'm on top of your grave as your turn begins
   lore: >-
-    A character from Arthurian legend, the Green Knight is a mysterious,
-    otherworldly figure who challenges knights to a beheading game, testing
-    their honor and chivalry.
+    As unyielding as the ancient oaks, the Green Knight endures, his vitality a
+    riddle wrapped in nature's everlasting green.
 
 
     Bertilak de Hautdesert
@@ -6603,8 +6595,9 @@
   description: |-
     Deploy Orpheus from your grave to my right when I enter play
     if possible
-  lore: Once lost to the underworld's grasp, her tale of ethereal love and tragic
-    misstep haunts every echo from the abyss.
+  lore: Eurydice's spirit, a testament to a bond that transcends death,
+    illuminates love's enduring power, making each heartbeat a love song to
+    Orpheus.
   effects:
     active:
       eventName: DeployUnit
@@ -6633,8 +6626,8 @@
   description: |-
     Deploy Eurydice from your grave to my right when I enter play
     if possible
-  lore: The melodious bard whose lament moved gods and spirits, his fated gaze
-    turned love's redemption into lasting regret.
+  lore: Bound by a love that outlasts life itself, Orpheus would cross even the
+    doors of death, his melody a pledge to his beloved Eurydice.
   effects:
     active:
       eventName: DeployUnit
@@ -7226,9 +7219,8 @@
   description: |-
     I move right after attacking
     if possible
-  lore: the Ocean's Embrace, reigns as the serene and mighty Queen of the Sea.
-    With her boundless grace and untamed power, she commands the tides and
-    guards the secrets hidden beneath the waves.
+  lore: Gracefully riding the capricious waves, Amphitrite commands the sea's
+    rhythms, making the vast ocean her whimsical dance floor.
   notes: Zorro?
   tags:
     - grand
