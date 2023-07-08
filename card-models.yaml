@@ -1,3 +1,29 @@
+- id: 436
+  slug: nimbleguard2
+  description: |-
+    After enemy unit is deployed anywhere, move me in front of it
+    if possible
+  lore: In many tales, sparrows are portrayed as small and weak yet brave and
+    self-sacrificing birds that put themselves in harm's way to protect their
+    nest and loved ones.
+  pdc: -1
+  status: 2
+  priority: 1
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: "let lot = get.opposingUnitField( event.card )\r
+
+        faq.canRelocateTo( card, lot )"
+      perform: |-
+        let lot = get.opposingUnitField( event.card )
+        op.forceRelocate( card, lot )
+      allowedLots:
+        - unit-field
+  guid: e156e58b-3903-0196-a55c-cef515c0dcdd
+  name: Selfless Sparrow 2
+  power: 1
 - id: 562
   slug: cute-noah
   description: |-
@@ -70,9 +96,7 @@
   name: Horatius Cocles
 - id: 404
   slug: buffy
-  description: |-
-    +1 power to other ally units
-    if in play
+  description: +1 power to other ally units in play
   lore: Jeanne Laisné, a French heroine who bravely defended the city of Beauvais
     against an invading Burgundian force in 1472, reputedly seizing a hatchet
     and leading her fellow townspeople in the resistance.
@@ -363,7 +387,9 @@
   name: Nyx
 - id: 402
   slug: token-giver
-  description: Spawn a 5 Power token on the enemy side when I'm deployed
+  description: |-
+    Spawn a 5 Power token on the enemy side when I'm deployed
+    if possible
   lore: Originating from West African and Caribbean folklore, Anansi is a
     trickster god often depicted as a spider who uses intelligence and cunning
     to outwit his foes.
@@ -513,7 +539,7 @@
   name: Rubber Tree
 - id: 435
   slug: un-shonen
-  description: -2 power per enemy unit in play.
+  description: -2 power per enemy unit in play
   lore: A significant character in the Indian epic Mahabharata, Karna is known for
     his generosity, archery skills, and tragic life story, being a righteous
     warrior on the wrong side due to circumstances beyond his control.
@@ -639,7 +665,9 @@
 - id: 423
   slug: token-on-deploy
   type: 1
-  description: Spawn 1 power token to your side when opposing enemy unit is deployed
+  description: |-
+    Spawn 1 power token to your side when opposing enemy unit is deployed
+    if possible
   notes: 'Token: "Nisse"?'
   effects:
     active:
@@ -656,10 +684,7 @@
 - id: 393
   slug: from-the-right
   type: 1
-  description: |-
-    On direct attack here, your unit on the right moves here
-    The attack continues
-    You must have a unit to the right of this lane
+  description: On direct attack here, first move your unit on the right here
   lore: George Washington led a surprise attack against Hessian forces at Trenton,
     New Jersey, during the American Revolutionary War.
   effects:
@@ -754,7 +779,7 @@
   name: Time-Reverser
 - id: 421
   slug: trampoline
-  description: "Combat-Flip: Return attacking creature to its controller's hand."
+  description: "Combat-Flip: Enemy unit here returns to the hand"
   lore: Originating from Irish folklore, a banshee is a female spirit who
     foretells death by wailing or keening, and is often associated with the
     family line it serves.
@@ -865,7 +890,7 @@
     I can relocate to an occupied creature field on your side, by swapping
     places with the creature there
 
-    This does not count as relocation for the other creature
+    Does not count as relocation for the other creature
   lore: Trickster figure from African-American folklore who uses his wits and
     agility to outsmart his enemies. He is not physically strong but relies on
     his cunning and quick thinking to survive.
@@ -884,7 +909,7 @@
   power: 4
 - id: 403
   slug: harassingmia
-  description: Return me to your hand at the end of your turn
+  description: Return me to your hand after your turn
   lore: Born from a magical flower, this diminutive maiden captures hearts with
     her gentle spirit, braving a world of giants to find her true place among
     them.
@@ -1406,9 +1431,8 @@
   slug: surprise-reborn
   type: 1
   description: |-
-    On direct attack, deploy the top card in your grave here
-    The attacked must be on this lane
-    The top card in your grave must be a unit.
+    On direct attack here, deploy the top card in your grave here
+    It must be a unit
   lore: v3
   effects:
     active:
@@ -1987,7 +2011,7 @@
 - id: 441
   slug: taunt
   type: 1
-  description: When enemy unit here is deployed, force it to attack.
+  description: Force enemy unit deployed here to attack
   lore: Muleta
   rarity: 6
   pdc: -1
@@ -2333,8 +2357,8 @@
 - id: 438
   slug: cowardly-giant
   description: |-
-    Return me to your hand after I get attacked
-    if I'm still in play
+    Return me to your hand after I am attacked
+    if still in play
   lore: A boar-headed hero of muddled courage, ever teetering between battle and
     retreat, his legendary journey is driven by a love for indulgence and a
     fearful heart.
@@ -2431,7 +2455,7 @@
   power: 7
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   name: honoraro-grand
-- id: 436
+- id: 378
   slug: nimbleguard
   description: |-
     After enemy unit is deployed anywhere, move me in front of it
@@ -2527,7 +2551,7 @@
   slug: fragmine
   description: |-
     I die after combat
-    if I'm still in play
+    if still in play
   tags:
     - sneak
     - noattack
@@ -2599,7 +2623,7 @@
   guid: 00badf76-e490-b5e6-9b31-a3986978ca5e
 - id: 385
   slug: man-of-honor
-  description: I will attack without a foe here
+  description: I will not attack without a foe here
   lore: Sir Gawain is known for his chivalry, bravery, and loyalty, and is a
     central figure in the tale of "Sir Gawain and the Green Knight."
   pdc: -1
@@ -2774,7 +2798,7 @@
 - id: 439
   slug: tripwire
   type: 1
-  description: Kill enemy unit which relocates here
+  description: Kill enemy unit relocating here
   lore: Quicksand is a natural hazard that appears solid on the surface but
     becomes a dense, fluid-like substance when disturbed, causing objects or
     people to sink if they stand or move on it. It is often found near
@@ -4575,7 +4599,7 @@
   type: 1
   description: |-
     When enemy unit is deployed here  your unit performs a free attack
-    You must have a unit here yourself
+    You must have a unit here
   lore: "The Night Attack at Târgoviște: Vlad the Impaler, also known as Dracula,
     launched a surprise night attack against the invading Ottoman forces."
   notes: |-
@@ -6258,8 +6282,7 @@
   guid: cdcd74a9-158b-7117-a9c4-4732b4f7cc14
 - id: 419
   slug: returner
-  description: Return me to your hand if I am the top-most card in your grave at
-    the beginning of your turn
+  description: Return me to your hand if I'm on top of your grave as your turn begins
   lore: >-
     A character from Arthurian legend, the Green Knight is a mysterious,
     otherworldly figure who challenges knights to a beheading game, testing
@@ -6578,8 +6601,8 @@
 - id: 401
   slug: jill
   description: |-
-    Deploy Orpheus from your grave to my right
-    when I enter play
+    Deploy Orpheus from your grave to my right when I enter play
+    if possible
   lore: Once lost to the underworld's grasp, her tale of ethereal love and tragic
     misstep haunts every echo from the abyss.
   effects:
@@ -6608,8 +6631,8 @@
 - id: 400
   slug: jack
   description: |-
-    Deploy Eurydice from your grave to my right
-    when I enter play
+    Deploy Eurydice from your grave to my right when I enter play
+    if possible
   lore: The melodious bard whose lament moved gods and spirits, his fated gaze
     turned love's redemption into lasting regret.
   effects:
@@ -7280,7 +7303,7 @@
   slug: eject
   type: 1
   description: |-
-    When enemy unit comes here, return it to its owner's hand
+    When enemy unit comes here, return it to the hand
     All methods count, like deployment, relocation and effects
   lore: A mirage that creates illusions of distant objects, causing travelers to
     become disoriented and lose their way.
