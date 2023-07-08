@@ -395,7 +395,7 @@
     the world into his web of stories and trickery.
   notes: |-
     Token: "Foolish Fish"
-    Can't deploy against unit.
+    Can't deploy against unit?
   tags:
     - rush
   effects:
@@ -845,7 +845,6 @@
   description: Spawn a 0 power token in my place when I die in combat
   lore: The Cheshire Cat, grinning from ear to ear, an enigmatic figure leaving
     trails of mystery in its wake.
-  notes: FX needs history!
   tags:
     - sneak
   effects:
