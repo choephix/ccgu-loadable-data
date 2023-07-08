@@ -33,7 +33,7 @@
   slug: necropy
   description: |-
     +X, equal to the enemy grave's top card
-    (0 if not a unit).
+    (0 if not a unit)
   effects:
     passive:
       condition: "true"
@@ -49,7 +49,7 @@
   name: Lilith
 - id: 387
   slug: shonen2
-  description: +2 power per enemy unit in play.
+  description: +2 power per enemy unit in play
   lore: Rome's one-eyed sentinel, he stood undaunted on the Tiber bridge, his
     singular courage becoming the bulwark against the advancing horde.
   pdc: -1
@@ -363,7 +363,7 @@
   name: Nyx
 - id: 402
   slug: token-giver
-  description: If possible, spawn a token on the enemy side.
+  description: Spawn a 5 Power token on the enemy side when I'm deployed
   lore: Originating from West African and Caribbean folklore, Anansi is a
     trickster god often depicted as a spider who uses intelligence and cunning
     to outwit his foes.
@@ -416,7 +416,7 @@
   name: Gideon
 - id: 432
   slug: captain-fantastic
-  description: Adjacent friendly units' power is raised by 4.
+  description: +4 power to adjacent friendly units
   lore: A national heroine of France and a Catholic saint, Joan of Arc led the
     French army to several crucial victories during the Hundred Years' War after
     claiming to have received visions from saints.
@@ -499,7 +499,7 @@
 - id: 424
   slug: def-heal
   type: 1
-  description: When enemy unit here begins a direct attack, heal by its power first.
+  description: On direct attack by enemy unit here, first heal by its power
   lore: v3
   effects:
     active:
@@ -639,7 +639,7 @@
 - id: 423
   slug: token-on-deploy
   type: 1
-  description: When an opposing enemy unit is deployed, summon a 1 power token to your side.
+  description: Spawn 1 power token to your side when opposing enemy unit is deployed
   notes: 'Token: "Nisse"?'
   effects:
     active:
@@ -656,11 +656,10 @@
 - id: 393
   slug: from-the-right
   type: 1
-  description: >-
-    When opposing enemy unit attacks you directly, and there is a friendly unit
-    on the lane to the right, move it here.
-
-    The attack continues.
+  description: |-
+    On direct attack here, your unit on the right moves here
+    The attack continues
+    You must have a unit to the right of this lane
   lore: George Washington led a surprise attack against Hessian forces at Trenton,
     New Jersey, during the American Revolutionary War.
   effects:
@@ -706,7 +705,7 @@
 - id: 409
   slug: turnend
   type: 1
-  description: When enemy attack finishes here, end the turn immediately
+  description: End the turn immediately after enemy attack attack finishes here
   lore: Legendary bird whose song is said to have the power to induce sleep.
   notes: "Alt: Somnus's touch?"
   effects:
@@ -755,9 +754,7 @@
   name: Time-Reverser
 - id: 421
   slug: trampoline
-  description: |-
-    Combat-Flip:
-    Return attacking creature to its controller's hand.
+  description: "Combat-Flip: Return attacking creature to its controller's hand."
   lore: Originating from Irish folklore, a banshee is a female spirit who
     foretells death by wailing or keening, and is often associated with the
     family line it serves.
@@ -826,7 +823,7 @@
   name: managiver
 - id: 418
   slug: token-spawner
-  description: When I die in combat, summon a 0 power token creature in my place.
+  description: Spawn a 0 power token in my place when I die in combat
   lore: A character from Lewis Carroll's "Alice in Wonderland," the Cheshire Cat
     is known for its enigmatic grin and ability to disappear and reappear at
     will.
@@ -851,7 +848,7 @@
   name: The Cheshire Cat
 - id: 406
   slug: flappy-bird-grand
-  description: Can both attack and move before exhausting.
+  description: I can both attack and move before exhausting
   lore: A significant character in Hindu mythology, Hanuman is the monkey god
     known for his devotion to Lord Rama, his strength, agility, and magical
     abilities.
@@ -864,9 +861,11 @@
   name: Mercury
 - id: 388
   slug: swapper
-  description: I can relocate to an occupied creature field on your side, by
-    swapping places with the creature there. This does not count as relocation
-    for the other creature.
+  description: >-
+    I can relocate to an occupied creature field on your side, by swapping
+    places with the creature there
+
+    This does not count as relocation for the other creature
   lore: Trickster figure from African-American folklore who uses his wits and
     agility to outsmart his enemies. He is not physically strong but relies on
     his cunning and quick thinking to survive.
@@ -885,7 +884,7 @@
   power: 4
 - id: 403
   slug: harassingmia
-  description: I return to your hand at the end of your turn.
+  description: Return me to your hand at the end of your turn
   lore: Born from a magical flower, this diminutive maiden captures hearts with
     her gentle spirit, braving a world of giants to find her true place among
     them.
@@ -909,8 +908,8 @@
 - id: 434
   slug: berserker
   description: |-
-    I attack automatically on at the start of your turn.
-    This counts as a manual attack to my $action-exhaustion.
+    I attack automatically on at the start of your turn
+    This counts as a manual attack
   lore: The monstrous wolf of Nordic tales, with a hunger so vast it threatens to
     consume the gods themselves.
   notes: Berserker?
@@ -1357,8 +1356,7 @@
 - id: 392
   slug: sneakshot
   type: 1
-  description: Activate when opposing enemy unit begins a direct attack. Deal 4
-    damage to the enemy player
+  description: 4 damage to the enemy player, when they attack directly here
   effects:
     active:
       eventName: UnitAttackDirect
@@ -1408,9 +1406,9 @@
   slug: surprise-reborn
   type: 1
   description: |-
-    On direct attack deploy the top card in your grave here.
-    The attacked must be on this lane 
-    and the top card in your grave must be a unit.
+    On direct attack, deploy the top card in your grave here
+    The attacked must be on this lane
+    The top card in your grave must be a unit.
   lore: v3
   effects:
     active:
@@ -2102,9 +2100,7 @@
 - id: 440
   slug: toxicmine
   type: 1
-  description: |-
-    -6 to enemy unit deployed here
-    (if face up)
+  description: -6 to enemy unit deployed here face-up
   lore: A superstitious belief, prevalent across various cultures, that a
     malevolent glare can bring misfortune or harm to the person it's directed
     towards. It's often associated with envy or malice, and various talismans or
@@ -2285,7 +2281,7 @@
   guid: e649a142-6fe2-e540-60e4-3615f222370a
 - id: 384
   slug: freejimmy
-  description: Activate when I am deployed. Raise your AP by 1.
+  description: +1 AP when you deploy me
   lore: While not powerful in the traditional sense, Puss uses wit and charm to
     acquire wealth and power for his master.
   pdc: -1
@@ -2336,8 +2332,9 @@
   guid: a9169ca5-1e24-f72f-d437-270bbfcd594a
 - id: 438
   slug: cowardly-giant
-  description: After I am attacked by enemy $unit, if I'm still in play, I return
-    to my owner's hand.
+  description: |-
+    Return me to your hand after I get attacked
+    if I'm still in play
   lore: A boar-headed hero of muddled courage, ever teetering between battle and
     retreat, his legendary journey is driven by a love for indulgence and a
     fearful heart.
@@ -2436,7 +2433,9 @@
   name: honoraro-grand
 - id: 436
   slug: nimbleguard
-  description: When an enemy $unit is $deployed, if possible, move me in front of it.
+  description: |-
+    After enemy unit is deployed anywhere, move me in front of it
+    if possible
   lore: In many tales, sparrows are portrayed as small and weak yet brave and
     self-sacrificing birds that put themselves in harm's way to protect their
     nest and loved ones.
@@ -2526,7 +2525,9 @@
   guid: 175c9ca8-d248-7609-c6af-0c09f2094056
 - id: 437
   slug: fragmine
-  description: I die after combat
+  description: |-
+    I die after combat
+    if I'm still in play
   tags:
     - sneak
     - noattack
@@ -2598,7 +2599,7 @@
   guid: 00badf76-e490-b5e6-9b31-a3986978ca5e
 - id: 385
   slug: man-of-honor
-  description: I cannot attack without opposing enemy $unit
+  description: I will attack without a foe here
   lore: Sir Gawain is known for his chivalry, bravery, and loyalty, and is a
     central figure in the tale of "Sir Gawain and the Green Knight."
   pdc: -1
@@ -2773,7 +2774,7 @@
 - id: 439
   slug: tripwire
   type: 1
-  description: Activate when enemy $unit $relocates to opposing $field. Kill it.
+  description: Kill enemy unit which relocates here
   lore: Quicksand is a natural hazard that appears solid on the surface but
     becomes a dense, fluid-like substance when disturbed, causing objects or
     people to sink if they stand or move on it. It is often found near
@@ -4573,8 +4574,8 @@
   slug: surprise-attack
   type: 1
   description: |-
-    When enemy unit is deployed here  your unit performs a free attack.
-    You must have a unit here yourself.
+    When enemy unit is deployed here  your unit performs a free attack
+    You must have a unit here yourself
   lore: "The Night Attack at Târgoviște: Vlad the Impaler, also known as Dracula,
     launched a surprise night attack against the invading Ottoman forces."
   notes: |-
@@ -5089,7 +5090,7 @@
   guid: 2f2f474a-e268-7bfb-81a2-f69188d45516
 - id: 389
   slug: producer
-  description: My power is raised by 1 for each card in your hand
+  description: +1 per card in your hand
   notes: |-
     Wēland in Old English?
     Völundr in Old Norse?
@@ -6257,10 +6258,8 @@
   guid: cdcd74a9-158b-7117-a9c4-4732b4f7cc14
 - id: 419
   slug: returner
-  description: >-
-    IN-GRAVE
-
-    At the beginning of your turn, if I am the topmost card in your grave, i return to your hand.
+  description: Return me to your hand if I am the top-most card in your grave at
+    the beginning of your turn
   lore: >-
     A character from Arthurian legend, the Green Knight is a mysterious,
     otherworldly figure who challenges knights to a beheading game, testing
@@ -6578,8 +6577,9 @@
   guid: e387c8bf-674e-6aba-62be-cdf6cb983f14
 - id: 401
   slug: jill
-  description: When I enter play, if possible summon @jack from your graveyard to
-    the field on my left.
+  description: |-
+    Deploy Orpheus from your grave to my right
+    when I enter play
   lore: Once lost to the underworld's grasp, her tale of ethereal love and tragic
     misstep haunts every echo from the abyss.
   effects:
@@ -6607,8 +6607,9 @@
   guid: 6522a282-a424-a7cc-a462-d4dc93f446a2
 - id: 400
   slug: jack
-  description: When I enter play, if possible summon @jill from your graveyard to
-    the field on my right.
+  description: |-
+    Deploy Eurydice from your grave to my right
+    when I enter play
   lore: The melodious bard whose lament moved gods and spirits, his fated gaze
     turned love's redemption into lasting regret.
   effects:
@@ -7199,7 +7200,9 @@
   guid: 35bf3d89-85d3-2fe2-71bd-de40ff122c97
 - id: 405
   slug: mario
-  description: After I attack, if possible, I relocate to the field on the right
+  description: |-
+    I move right after attacking
+    if possible
   lore: the Ocean's Embrace, reigns as the serene and mighty Queen of the Sea.
     With her boundless grace and untamed power, she commands the tides and
     guards the secrets hidden beneath the waves.
@@ -7277,8 +7280,8 @@
   slug: eject
   type: 1
   description: |-
-    When enemy unit comes here, return it to its owner's hand.
-    All methods count, like deployment, relocation and effects.
+    When enemy unit comes here, return it to its owner's hand
+    All methods count, like deployment, relocation and effects
   lore: A mirage that creates illusions of distant objects, causing travelers to
     become disoriented and lose their way.
   effects:
