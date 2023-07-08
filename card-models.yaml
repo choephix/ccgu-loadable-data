@@ -6591,8 +6591,9 @@
 - id: 401
   slug: jill
   description: |-
-    Deploy Orpheus from your grave to my right when I enter play
-    if possible
+    Resurrect Orpheus to my RIGHT
+    when I enter play
+    if possible and he is in your grave
   lore: Eurydice's spirit, a testament to a bond that transcends death,
     illuminates love's enduring power, making each heartbeat a love song to
     Orpheus.
@@ -6602,7 +6603,7 @@
       eventStatus: ended
       condition: |-
         const PARTNER_NAME = 'jack'
-        const destination = get.leftUnitField(card)
+        const destination = get.rightUnitField(card)
         event.card === card &&
         !!destination && 
         !destination.hasCards &&
@@ -6610,7 +6611,7 @@
           .some(c => c.slug === PARTNER_NAME)
       perform: |-
         const PARTNER_NAME = 'jack'
-        const destination = get.leftUnitField(card)
+        const destination = get.rightUnitField(card)
         const partner = player.grave.cards
           .find(c => c.slug === PARTNER_NAME)
         op.moveTo(partner, destination)
@@ -6622,8 +6623,9 @@
 - id: 400
   slug: jack
   description: |-
-    Deploy Eurydice from your grave to my right when I enter play
-    if possible
+    Resurrect Eurydice to my LEFT 
+    when I enter play
+    if possible and she is in your grave
   lore: Bound by a love that outlasts life itself, Orpheus would cross even the
     doors of death, his melody a pledge to his beloved Eurydice.
   effects:
@@ -6632,7 +6634,7 @@
       eventStatus: ended
       condition: |-
         const PARTNER_NAME = 'jill'
-        const destination = get.rightUnitField(card)
+        const destination = get.leftUnitField(card)
         event.card === card &&
         !!destination &&
         !destination.hasCards &&
@@ -6640,7 +6642,7 @@
           .some(c => c.slug === PARTNER_NAME)
       perform: |-
         const PARTNER_NAME = 'jill'
-        const destination = get.rightUnitField(card)
+        const destination = get.leftUnitField(card)
         const partner = player.grave.cards
           .find(c => c.slug === PARTNER_NAME)
         op.moveTo(partner, destination)
