@@ -1,7 +1,7 @@
 - id: 436
   slug: nimbleguard2
   description: |-
-    After enemy unit is deployed anywhere, move me in front of it
+    Move me in front of enemy unit attacking from any field
     if possible
   lore: In many tales, sparrows are portrayed as small and weak yet brave and
     self-sacrificing birds that put themselves in harm's way to protect their
@@ -11,11 +11,11 @@
   priority: 1
   effects:
     active:
-      eventName: DeployUnit
-      eventStatus: ended
-      condition: "let lot = get.opposingUnitField( event.card )\r
-
-        faq.canRelocateTo( card, lot )"
+      eventName: UnitAttack
+      eventStatus: began
+      condition: |-
+        let lot = get.opposingUnitField( event.card )
+        faq.canRelocateTo( card, lot )
       perform: |-
         let lot = get.opposingUnitField( event.card )
         op.forceRelocate( card, lot )
