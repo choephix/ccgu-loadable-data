@@ -1,3 +1,48 @@
+- id: 325
+  slug: depdraw
+  description: Draw 2 cards when I'm played
+  lore: Wily and crafty, Reynard weaves through life's puzzles with sly ease, his
+    cunning as elusive and unpredictable as a fox's trail in the woodland.
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: event.card === card
+      perform: |-
+        op.draw( player )
+        op.draw( player )
+      allowedLots:
+        - unit-field
+  guid: 15f64461-95cc-c62e-ca23-11dc1495fba7
+  power: 2
+  name: Reynard the Fox
+- id: 359
+  slug: freejimmy
+  description: +1 AP when you deploy me
+  lore: With a sly purr and an unerring knack for opportunity, this dapper feline
+    brings fortune to his master.
+  pdc: -1
+  status: 2
+  priority: 3
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: event.card === card
+      perform: player.actionPoints += 1
+      allowedLots:
+        - unit-field
+  guid: d733ae6a-414f-023c-4992-e99fea422de6
+  power: 4
+  name: Puss in Boots X
+- id: 357
+  slug: trapcho
+  description: +3 while there's an enemy trap here
+  notes: Jack Churchill?
+  effects: {}
+  guid: 4718eaac-6e8a-2cc5-9ee2-5622a89813e7
+  power: 3
+  name: TRAPCHO
 - id: 338
   slug: will-o-the-wisp
   description: |-
@@ -45,15 +90,18 @@
   guid: e156e58b-3903-0196-a55c-cef515c0dcdd
   name: Selfless Sparrow
   power: 1
-- id: 562
-  slug: cute-noah
+- id: 323
+  slug: exponanta
   description: |-
     My POWER is 2 exponentiated by your energy.
     0 Energy = 1 Power
     1 Energy = 2 Power
     2 Energy = 4 Power
     3 Energy = 8 power
-    etc.
+    and so on...
+  lore: With every equation solved, Ada Lovelace uncovers the hidden power in
+    numbers, using the calculus of logic to chart a course toward unrivaled
+    strength.
   effects:
     passive:
       condition: "true"
@@ -65,7 +113,7 @@
         - hand
         - grave
   guid: 63c6f0af-4d22-cfa1-6999-386cd74e7f8f
-  name: exponanta
+  name: Ada Lovelace
 - id: 305
   slug: tiger-token
   lore: Ntikuma, Anansi's son in some tales
@@ -2331,10 +2379,10 @@
       eventName: DeployUnit
       eventStatus: ended
       condition: event.card === card
-      perform: player.actionPoints++
+      perform: player.actionPoints += 2
       allowedLots:
         - unit-field
-  power: 4
+  power: 3
   guid: d733ae6a-414f-023c-4992-e99fea422de6
   name: Puss in Boots
 - id: 874
