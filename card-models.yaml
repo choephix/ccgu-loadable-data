@@ -54,11 +54,11 @@
   guid: afe2f4b6-3b5a-e47f-8ac1-fddbe4836fff
   name: Tiger
   power: 5
-- id: 386
+- id: 388
   slug: necropy
   description: |-
     +X, equal to the enemy grave's top card
-    (0 if not a unit)
+    +0 if not a unit
   lore: Emerging from the underworld's darkest shadows, Lilith spins a web of
     intrigue, her mysteries as alluring as they are dangerous.
   effects:
@@ -862,7 +862,7 @@
   guid: e053ce66-d442-4da5-9d05-c4098cf6f191
   power: 3
   name: The Cheshire Cat
-- id: 406
+- id: 405
   slug: flappy-bird-grand
   description: I can both attack and move before exhausting
   lore: Swift as thought and unpredictable as the wind, Mercury's strikes come
@@ -874,7 +874,7 @@
   guid: a9fb5b3c-0c8a-a10c-6a8c-8ed91952bc46
   power: 5
   name: Mercury
-- id: 388
+- id: 389
   slug: swapper
   description: >-
     I can relocate to an occupied creature field on your side, by swapping
@@ -5101,7 +5101,7 @@
   power: 4
   name: Trap-Powered
   guid: 2f2f474a-e268-7bfb-81a2-f69188d45516
-- id: 389
+- id: 386
   slug: producer
   description: +1 per card in your hand
   lore: His hammer strikes the anvil like lightning, forging from fire and metal
@@ -7212,7 +7212,7 @@
   effects: {}
   name: Crowd-Powered
   guid: 35bf3d89-85d3-2fe2-71bd-de40ff122c97
-- id: 405
+- id: 406
   slug: mario
   description: |-
     I move right after attacking
