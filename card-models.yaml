@@ -1,4 +1,4 @@
-- id: 325
+- id: 386
   slug: depdraw
   description: Draw 2 cards when I'm played
   lore: Wily and crafty, Reynard weaves through life's puzzles with sly ease, his
@@ -5175,7 +5175,7 @@
   power: 4
   name: Trap-Powered
   guid: 2f2f474a-e268-7bfb-81a2-f69188d45516
-- id: 386
+- id: 325
   slug: producer
   description: +1 per card in your hand
   lore: His hammer strikes the anvil like lightning, forging from fire and metal
