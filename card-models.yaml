@@ -1,3 +1,25 @@
+- id: 338
+  slug: will-o-the-wisp
+  description: |-
+    Move enemy unit here when deployed
+    if possible
+  lore: Leading wayward travelers astray, its elusive light a tantalizing
+    trickster in the twilight.
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: |-
+        !get.opposingUnit(card) &&
+        get.opposingUnit(card) !== event.card
+      perform: |-
+        let lot = get.opposingUnitField(card)
+        op.forceRelocate(event.card, lot)
+      allowedLots:
+        - unit-field
+  guid: c234e201-18a9-99f7-377d-69606c728a40
+  name: Will o' the wisp
+  power: 3
 - id: 436
   slug: nimbleguard2
   description: |-
@@ -659,10 +681,14 @@
 - id: 423
   slug: token-on-deploy
   type: 1
-  description: |-
-    Spawn 1 power token to your side when opposing enemy unit is deployed
+  description: >-
+    Spawn a 4 power "Will o' the wisp" token to your side when opposing enemy
+    unit is deployed
+
     if possible
-  notes: 'Token: "Nisse"?'
+  notes: |-
+    Token: "Nisse"?
+    Call of the Nisse
   effects:
     active:
       eventName: DeployUnit
@@ -674,7 +700,7 @@
         const field = get.sameLaneUnitField(card)
         op.spawnToken(field, 'token-4')
   guid: 7b56a5c5-71bc-d653-3098-2dd6e8e17b3b
-  name: Call of the Nisse
+  name: Fool's fire
 - id: 393
   slug: from-the-right
   type: 1
