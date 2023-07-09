@@ -1,3 +1,22 @@
+- id: 384
+  slug: freejimmy
+  description: +1 AP when you deploy me
+  lore: With a sly purr and an unerring knack for opportunity, this dapper feline
+    brings fortune to his master.
+  pdc: -1
+  status: 2
+  priority: 3
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: event.card === card
+      perform: player.actionPoints += 2
+      allowedLots:
+        - unit-field
+  power: 3
+  guid: d733ae6a-414f-023c-4992-e99fea422de6
+  name: Puss in Boots
 - id: 386
   slug: depdraw
   description: Draw 2 cards when I'm played
