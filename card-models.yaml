@@ -1,6 +1,40 @@
+- id: 331
+  slug: siren-call
+  type: 1
+  description: Bring enemy unit beginning an attack here first
+  tags:
+    - token
+  effects:
+    active:
+      eventName: UnitAttack
+      eventStatus: began
+      condition: |-
+        event.card.player === opponent &&
+        !get.opposingUnitField(card).hasCards
+      perform: |-
+        let lot = get.opposingUnitField(card)
+        op.forceRelocate(event.card, lot)
+  guid: 2b3c5ad4-935f-69ce-200f-bc4da7d40911
+  name: Siren Song
+- id: 307
+  slug: wisp-token
+  tags:
+    - token
+  effects: {}
+  guid: 8536fda6-014b-efa4-02a6-748ff457c472
+  name: Will o' the wisp
+  power: 5
+- id: 306
+  slug: nisse-token
+  tags:
+    - token
+  effects: {}
+  guid: af573ebb-4f47-3a73-bfb5-73c25190d4c1
+  power: 3
+  name: Nisse
 - id: 384
   slug: freejimmy
-  description: +1 AP when you deploy me
+  description: +1{{ap}} when you deploy me
   lore: With a sly purr and an unerring knack for opportunity, this dapper feline
     brings fortune to his master.
   pdc: -1
@@ -37,7 +71,7 @@
   name: Reynard the Fox
 - id: 359
   slug: freejimmy2
-  description: +2 AP when you deploy me
+  description: +2{{ap}} when you deploy me
   lore: With a sly purr and an unerring knack for opportunity, this dapper feline
     brings fortune to his master.
   pdc: -1
@@ -112,7 +146,7 @@
 - id: 323
   slug: exponanta
   description: |-
-    My POWER is 2 exponentiated by your energy.
+    +X{{power}}, X = 2 exponentiated by your energy
     0 Energy = 1 Power
     1 Energy = 2 Power
     2 Energy = 4 Power
@@ -146,8 +180,8 @@
 - id: 388
   slug: necropy
   description: |-
-    +X, equal to the enemy grave's top card
-    +0 if not a unit
+    +X{{power}}, equal to the enemy grave's top card
+    +0{{power}} if not a unit
   lore: Emerging from the underworld's darkest shadows, Lilith spins a web of
     intrigue, her mysteries as alluring as they are dangerous.
   effects:
@@ -165,7 +199,7 @@
   name: Lilith
 - id: 387
   slug: shonen2
-  description: +2 power per enemy unit in play
+  description: +2{{power}} per enemy unit in play
   lore: Rome's one-eyed sentinel, he stood undaunted on the Tiber bridge, his
     singular courage becoming the bulwark against the advancing horde.
   pdc: -1
@@ -186,7 +220,7 @@
   name: Horatius Cocles
 - id: 404
   slug: buffy
-  description: +1 power to other ally units in play
+  description: +1{{power}} to other ally units in play
   lore: Her courage shining like a beacon, Jeanne Hachette stands tall, inspiring
     others to embrace valor, even against overwhelming odds.
   effects:
@@ -205,7 +239,7 @@
 - id: 391
   slug: poisonous-defence
   type: 1
-  description: -4 to enemy unit beginning to attack here
+  description: -4{{power}} to enemy unit beginning to attack here
   lore: One of the five rivers of the underworld, drinking from it causes
     forgetfulness and a lack of vigor.
   effects:
@@ -286,7 +320,7 @@
   name: fibre-turtle
 - id: 370
   slug: ereshkigal
-  description: +1 for each card in your graveyard
+  description: +1{{power}} for each card in your graveyard
   lore: The dreaded queen of the underworld, rules over death's silent realm, her
     dark throne a testament to the inevitability of fate.
   tags:
@@ -349,7 +383,7 @@
   power: 2
 - id: 369
   slug: duelista
-  description: While both player have only one unit in play each, both have +10 power
+  description: While both player have only one unit in play each, both have +10{{power}}
   effects: {}
   guid: d1d80930-4073-c9f2-5f9d-4f38f06685e0
   power: 4
@@ -371,7 +405,7 @@
   name: The Manananggal
 - id: 372
   slug: sapper
-  description: -1 power to all enemy units
+  description: -1{{power}} to all enemy units
   effects:
     passive:
       condition: "true"
@@ -454,7 +488,7 @@
   power: 1
 - id: 390
   slug: sapper-grand
-  description: -2 power to all enemy units
+  description: -2{{power}} to all enemy units
   lore: With a whisper soft as the falling night, Nyx weaves dreams into reality,
     drawing the wakeful into her soothing, starlit slumber.
   tags:
@@ -477,7 +511,7 @@
 - id: 402
   slug: token-giver
   description: |-
-    Spawn a 5 Power token on the enemy side when I'm deployed
+    Spawn a 5{{power}} token on the enemy side when I'm deployed
     if possible
   lore: Anansi, the master weaver, spins threads of cunning and wisdom, turning
     the world into his web of stories and trickery.
@@ -514,7 +548,7 @@
   name: marvellous-koi
 - id: 420
   slug: hard-skin
-  description: +3 during enemy turn
+  description: +3{{power}} during enemy turn
   lore: From a wellspring of faith amidst weakness and poverty, Gideon summons
     strength, his spirit shining brightly in the darkest of trials.
   tags:
@@ -530,7 +564,7 @@
   name: Gideon
 - id: 432
   slug: captain-fantastic
-  description: +4 power to adjacent friendly units
+  description: +4{{power}} to adjacent friendly units
   lore: A national heroine of France and a Catholic saint, Joan of Arc led the
     French army to several crucial victories during the Hundred Years' War after
     claiming to have received visions from saints.
@@ -551,7 +585,7 @@
   name: Jeanne d'Arc
 - id: 422
   slug: swayer-grand
-  description: +10 during your turn
+  description: +10{{power}} during your turn
   lore: Shifting in size as effortlessly as the wind changes direction, Hanuman
     embodies divine power, once shifting a mountain with his indomitable will.
   tags:
@@ -569,7 +603,7 @@
   power: 2
 - id: 416
   slug: un-prod
-  description: -1 for every card in your hand
+  description: -1{{power}} for every card in your hand
   lore: With a hearty laugh and a swirling goblet, Bacchus intoxicates the game,
     his presence compelling you to dance to the tunes of impulse.
   effects:
@@ -623,7 +657,7 @@
   name: Rubber Tree
 - id: 435
   slug: un-shonen
-  description: -2 power per enemy unit in play
+  description: -2{{power}} per enemy unit in play
   lore: Brave and valiant, Karna stands tall against any foe, but falters amidst
     the multitude, his strength tested by the overwhelming odds.
   pdc: -1
@@ -642,7 +676,7 @@
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   power: 9
   name: Karna
-- id: 361
+- id: 330
   slug: steal-dead-unit
   type: 1
   description: >-
@@ -749,8 +783,8 @@
   slug: token-on-deploy
   type: 1
   description: >-
-    Spawn a 4 power "Will o' the wisp" token to your side when opposing enemy
-    unit is deployed
+    Spawn a 4{{powered}} "Will o' the wisp" token to your side when opposing
+    enemy unit is deployed
 
     if possible
   notes: |-
@@ -765,7 +799,7 @@
         !get.sameLaneUnitField(card).hasCards
       perform: |-
         const field = get.sameLaneUnitField(card)
-        op.spawnToken(field, 'token-4')
+        op.spawnToken(field, 'wisp-token')
   guid: 7b56a5c5-71bc-d653-3098-2dd6e8e17b3b
   name: Fool's fire
 - id: 393
@@ -882,7 +916,7 @@
   name: Banshee
 - id: 355
   slug: shonen
-  description: +1 power per enemy unit in play.
+  description: +1{{power}} per enemy unit in play.
   lore: A towering colossus of war, embodies indomitable strength and unwavering
     loyalty. With his mighty shield and relentless courage, he carves his name
     into the annals of history as a legendary hero, forever remembered for his
@@ -905,7 +939,7 @@
   name: Ajax the Great
 - id: 358
   slug: geinhildr
-  description: +1 power per ANY unit in play.
+  description: +1{{power}} per ANY unit in play.
   pdc: -1
   status: 2
   priority: 7
@@ -934,7 +968,7 @@
   name: managiver
 - id: 418
   slug: token-spawner
-  description: Spawn a 0 power token in my place when I die in combat
+  description: Spawn a 0{{powered}} token in my place when I die in combat
   lore: The Cheshire Cat, grinning from ear to ear, an enigmatic figure leaving
     trails of mystery in its wake.
   tags:
@@ -1462,7 +1496,7 @@
 - id: 392
   slug: sneakshot
   type: 1
-  description: 4 damage to the enemy player, when they attack directly here
+  description: -4{{hp}} to the enemy, when their unit attacks here directly
   lore: Ouch!
   effects:
     active:
@@ -1760,8 +1794,8 @@
 - id: 364
   slug: bosstrap
   type: 1
-  description: When opposing enemy $unit with 10 power or above, when it begins a
-    direct attack - destroy it.
+  description: Kill enemy unit with 10{{power}} or above, beginning a direct
+    attack here with
   effects:
     active:
       eventName: UnitAttackDirect
@@ -1921,7 +1955,7 @@
   guid: 8cb52eaa-2cfa-bc38-c707-68ee01fee688
 - id: 367
   slug: powerdown-1
-  description: On deploy - opposite enemy unit loses 6 power
+  description: On deploy - opposite enemy unit loses 6{{power}}
   tags:
     - grand
   effects: {}
@@ -2208,7 +2242,7 @@
 - id: 440
   slug: toxicmine
   type: 1
-  description: -6 to enemy unit deployed here face-up
+  description: -6{{power}} to enemy unit deployed here face-up
   lore: The Evil Eye casts its baleful gaze, draining strength and casting shadows
     of superstition, a reminder that some fears are born from belief.
   pdc: -1
@@ -2444,7 +2478,7 @@
   guid: c4e29441-a2d6-5d2e-e90d-67c1d4b90213
 - id: 354
   slug: antisocial-knight
-  description: My power is decreased by 3 for every other friendly $unit $in-play.
+  description: -3{{power}} per other friendly unit in play
   lore: Exceptionally strong, but doesn't work well in a crowd.
   pdc: -1
   priority: 3
@@ -3347,7 +3381,7 @@
   guid: e9150e38-ab00-7ffe-82b7-3432223efa0f
 - id: 324
   slug: deathdraw
-  description: When I die - draw 2 cards.
+  description: Draw 2 cards when I die
   effects:
     active:
       eventName: UnitDie
@@ -5036,7 +5070,7 @@
   guid: e373c336-f554-700d-e05a-48ed858e6029
 - id: 449
   slug: emma
-  description: If your current mana is 0, you can summon me for no mana cost.
+  description: If your current AP is 0, you can summon me for no mana cost.
   lore: "(Middle Eastern and Central Asian Folklore): A satirical Sufi figure
     known for his humorous anecdotes and stories, teaching lessons in
     unconventional ways and often revealing profound wisdom."
@@ -5177,7 +5211,7 @@
   guid: 2f2f474a-e268-7bfb-81a2-f69188d45516
 - id: 325
   slug: producer
-  description: +1 per card in your hand
+  description: +1{{power}} per card in your hand
   lore: His hammer strikes the anvil like lightning, forging from fire and metal
     tales of heroism and strength echoed in every creation.
   notes: |-
@@ -5413,7 +5447,7 @@
   guid: 573b5edb-f33c-4ef4-01de-9faaa0857931
 - id: 341
   slug: darkassasin2
-  description: When I attack - deal 5 damage to your Life Points.
+  description: -5{{hp}} for you when I attack
   lore: A cunning imp, forever bound to his word, known for turning straw into
     gold and names into curses.
   effects:
@@ -6858,8 +6892,8 @@
 - id: 342
   slug: necropy2
   description: |-
-    +X, equal to the enemy grave's top card
-    (0 if not a unit).
+    +X{{power}}, equal to the enemy grave's top card
+    +0{{power}} if not a unit
   effects:
     passive:
       condition: "true"
@@ -6888,7 +6922,7 @@
   slug: spike
   description: |-
     Combat-Flip
-    Deal 3 direct damage to the enemy.
+    -3{{hp}} to the enemy
   tags:
     - sneak
   effects:
