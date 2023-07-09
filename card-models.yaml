@@ -2366,25 +2366,6 @@
       perform: op.kill( event.card )
   name: killonattack
   guid: e649a142-6fe2-e540-60e4-3615f222370a
-- id: 384
-  slug: freejimmy
-  description: +1 AP when you deploy me
-  lore: With a sly purr and an unerring knack for opportunity, this dapper feline
-    brings fortune to his master.
-  pdc: -1
-  status: 2
-  priority: 3
-  effects:
-    active:
-      eventName: DeployUnit
-      eventStatus: ended
-      condition: event.card === card
-      perform: player.actionPoints += 2
-      allowedLots:
-        - unit-field
-  power: 3
-  guid: d733ae6a-414f-023c-4992-e99fea422de6
-  name: Puss in Boots
 - id: 874
   slug: nosneaking
   type: 1
@@ -4661,7 +4642,7 @@
   slug: surprise-attack
   type: 1
   description: |-
-    When enemy unit is deployed here  your unit performs a free attack
+    When enemy unit is deployed here your unit performs a free attack
     You must have a unit here
   lore: "The Night Attack at Târgoviște: Vlad the Impaler, also known as Dracula,
     launched a surprise night attack against the invading Ottoman forces."
