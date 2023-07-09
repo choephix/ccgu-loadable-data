@@ -11,7 +11,7 @@
       eventName: DeployUnit
       eventStatus: ended
       condition: event.card === card
-      perform: player.actionPoints += 2
+      perform: player.actionPoints += 1
       allowedLots:
         - unit-field
   power: 3
@@ -37,7 +37,7 @@
   name: Reynard the Fox
 - id: 359
   slug: freejimmy2
-  description: +1 AP when you deploy me
+  description: +2 AP when you deploy me
   lore: With a sly purr and an unerring knack for opportunity, this dapper feline
     brings fortune to his master.
   pdc: -1
@@ -48,12 +48,12 @@
       eventName: DeployUnit
       eventStatus: ended
       condition: event.card === card
-      perform: player.actionPoints += 1
+      perform: player.actionPoints += 2
       allowedLots:
         - unit-field
   guid: d733ae6a-414f-023c-4992-e99fea422de6
   power: 4
-  name: Puss in Boots X
+  name: Puss in Boots
 - id: 357
   slug: trapcho
   description: +3 while there's an enemy trap here
