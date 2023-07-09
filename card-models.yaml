@@ -14,7 +14,7 @@
       perform: player.actionPoints += 1
       allowedLots:
         - unit-field
-  power: 3
+  power: 4
   guid: d733ae6a-414f-023c-4992-e99fea422de6
   name: Puss in Boots
 - id: 386
@@ -52,7 +52,7 @@
       allowedLots:
         - unit-field
   guid: d733ae6a-414f-023c-4992-e99fea422de6
-  power: 4
+  power: 2
   name: Puss in Boots
 - id: 357
   slug: trapcho
