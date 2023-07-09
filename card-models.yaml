@@ -991,7 +991,6 @@
   name: The Cheshire Cat
 - id: 405
   slug: flappy-bird-grand
-  description: I can both attack and move before exhausting
   lore: Swift as thought and unpredictable as the wind, Mercury's strikes come
     from all angles, his speed the heart of his relentless pursuit.
   tags:
@@ -1003,13 +1002,9 @@
   name: Mercury
 - id: 389
   slug: swapper
-  description: >-
-    I can relocate to an occupied creature field on your side, by swapping
-    places with the creature there
-
-    Does not count as relocation for the other creature
   lore: As nimble as the wind and as elusive as a thought, Br'er Rabbit darts
     through life's mazes, always a hop ahead of trouble.
+  notes: Does not count as relocation for the other creature?
   tags:
     - swapper
   effects: {}
