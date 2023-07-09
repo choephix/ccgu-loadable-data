@@ -2237,7 +2237,7 @@
 - id: 440
   slug: toxicmine
   type: 1
-  description: -6{{power}} to enemy unit deployed here face-up
+  description: -5{{power}} to enemy unit deployed here face-up
   lore: The Evil Eye casts its baleful gaze, draining strength and casting shadows
     of superstition, a reminder that some fears are born from belief.
   pdc: -1
@@ -2252,7 +2252,7 @@
       perform: |-
         op.addTempFx(
           event.card, 
-          tg => tg.pass.lowerPower(event.card, 6))
+          tg => tg.pass.lowerPower(event.card, 5))
   name: The Evil Eye
   guid: e3b41aa1-0f98-ec62-7c2b-2f8414025180
 - id: 806
