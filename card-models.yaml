@@ -62,6 +62,7 @@
   guid: dbac58dc-3398-249b-d14e-b2d02f3e8ffd
   name: Anne Bonny
   power: 6
+  art: /anne-bonny
 - id: 376
   slug: grand-killa
   description: +10{{power}} against a GRAND unit
