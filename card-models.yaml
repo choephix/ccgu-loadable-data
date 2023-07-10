@@ -1,3 +1,18 @@
+- id: 34
+  slug: --givemethemoney
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: began
+      condition: event.card === card
+      perform: |-
+        player.actionPoints += 4
+        op.draw(player, 4)
+      allowedLots:
+        - unit-field
+  guid: 588cfcb1-4ea3-b069-785a-0c4658c72384
+  name: Give Me The Money!
+  power: 5
 - id: 331
   slug: siren-call
   type: 1
