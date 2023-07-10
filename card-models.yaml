@@ -30,7 +30,7 @@
   description: The moment there is no enemy here I return to the hand
   effects: {}
   guid: 4923e18b-2a7a-83e8-e321-a2f534895d67
-- id: 331
+- id: 392
   slug: powerup
   type: 1
   description: +3{{power}} to your unit when attacked
@@ -90,7 +90,7 @@
   guid: 588cfcb1-4ea3-b069-785a-0c4658c72384
   name: Give Me The Money!
   power: 5
-- id: 332
+- id: 409
   slug: siren-call
   type: 1
   description: Bring enemy unit beginning an attack here first
@@ -969,7 +969,7 @@
         )
   guid: 294447b1-beb2-1618-5d29-8182eee4f481
   name: The Battle of Trenton 2
-- id: 409
+- id: 332
   slug: turnend
   type: 1
   description: End the turn immediately after enemy attack attack finishes here
@@ -1610,7 +1610,7 @@
   effects: {}
   guid: aba8cb64-3893-70f5-baa9-c5599067f499
   name: Deadly Sacrifice
-- id: 392
+- id: 331
   slug: sneakshot
   type: 1
   description: -4{{hp}} to the enemy, when their unit attacks here directly
