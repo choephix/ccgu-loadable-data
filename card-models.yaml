@@ -1,5 +1,7 @@
 - id: 34
   slug: --givemethemoney
+  tags:
+    - rush
   effects:
     active:
       eventName: DeployUnit
@@ -10,6 +12,8 @@
         op.draw(player, 4)
       allowedLots:
         - unit-field
+        - hand
+        - grave
   guid: 588cfcb1-4ea3-b069-785a-0c4658c72384
   name: Give Me The Money!
   power: 5
