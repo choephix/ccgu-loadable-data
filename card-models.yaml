@@ -1085,7 +1085,7 @@
   slug: swapper
   lore: As nimble as the wind and as elusive as a thought, Br'er Rabbit darts
     through life's mazes, always a hop ahead of trouble.
-  notes: Does not count as relocation for the other creature?
+  notes: Does not count as relocation for the other creature...
   tags:
     - swapper
   effects: {}
@@ -2660,10 +2660,10 @@
         op.forceRelocate( card, lot )
       allowedLots:
         - unit-field
-  art: /sparrow
+  art: /zorro
   guid: e156e58b-3903-0196-a55c-cef515c0dcdd
-  name: Selfless Sparrow
-  power: 1
+  name: Zorro
+  power: 2
 - id: 781
   slug: elijah
   description: My $power is raised by %4 during the enemy's turn
@@ -7417,7 +7417,6 @@
     if possible
   lore: Gracefully riding the capricious waves, Amphitrite commands the sea's
     rhythms, making the vast ocean her whimsical dance floor.
-  notes: Zorro?
   tags:
     - grand
   effects:
