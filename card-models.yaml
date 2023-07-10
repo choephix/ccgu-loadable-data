@@ -20,7 +20,7 @@
           tg => tg.pass.raisePower(event.defender, 5))
   guid: e3b41aa1-0f98-ec62-7c2b-2f8414025180
   name: Power Up
-- id: 372
+- id: 388
   slug: drawson
   description: Enemy draws 1 card when I attack
   effects:
@@ -34,7 +34,7 @@
   guid: dbac58dc-3398-249b-d14e-b2d02f3e8ffd
   name: Anne Bonny
   power: 6
-- id: 373
+- id: 375
   slug: grand-killa
   description: +10{{power}} against a GRAND unit
   effects:
@@ -218,7 +218,7 @@
   guid: e156e58b-3903-0196-a55c-cef515c0dcdd
   name: Selfless Sparrow
   power: 1
-- id: 375
+- id: 373
   slug: exponanta
   description: |-
     +X{{power}}, X = 2 exponentiated by your energy
@@ -253,7 +253,7 @@
   guid: afe2f4b6-3b5a-e47f-8ac1-fddbe4836fff
   name: Tiger
   power: 5
-- id: 388
+- id: 372
   slug: necropy
   description: |-
     +X{{power}}, equal to the enemy grave's top card
@@ -1090,7 +1090,7 @@
   guid: a9fb5b3c-0c8a-a10c-6a8c-8ed91952bc46
   name: Mercury
   power: 5
-- id: 385
+- id: 370
   slug: swapper
   lore: As nimble as the wind and as elusive as a thought, Br'er Rabbit darts
     through life's mazes, always a hop ahead of trouble.
@@ -2647,7 +2647,7 @@
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   name: honoraro-grand
   power: 7
-- id: 370
+- id: 385
   slug: nimbleguard
   description: |-
     After enemy unit is deployed anywhere, move me in front of it
