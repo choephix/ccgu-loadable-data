@@ -2,8 +2,7 @@
   slug: powerup
   type: 1
   description: +5{{power}} to your unit when attacked
-  lore: The Evil Eye casts its baleful gaze, draining strength and casting shadows
-    of superstition, a reminder that some fears are born from belief.
+  lore: 
   pdc: -1
   priority: 3
   effects:
@@ -11,12 +10,11 @@
       eventName: UnitAttackCombat
       eventStatus: ended
       condition: |-
-        event.card === get.opposingUnit(card) &&
-        event.card.isFaceUp
+        event.defender === get.sameLaneUnit(card)
       perform: |-
         op.addTempFx(
-          event.card, 
-          tg => tg.pass.lowerPower(event.card, 5))
+          event.defender, 
+          tg => tg.pass.raisePower(event.defender, 5))
   guid: e3b41aa1-0f98-ec62-7c2b-2f8414025180
   name: Power Up
 - id: 361
