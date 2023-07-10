@@ -2642,9 +2642,8 @@
   description: |-
     After enemy unit is deployed anywhere, move me in front of it
     if possible
-  lore: In many tales, sparrows are portrayed as small and weak yet brave and
-    self-sacrificing birds that put themselves in harm's way to protect their
-    nest and loved ones.
+  lore: Swift as a shadow and nimble as a cat, Zorro darts through danger, his
+    blade always ready to dance with a worthy opponent.
   pdc: -1
   status: 2
   priority: 1
