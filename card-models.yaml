@@ -1,3 +1,30 @@
+- id: 308
+  slug: grendels-mom-token
+  tags:
+    - token
+  effects: {}
+  guid: d26957ec-b0c6-3977-0135-0752bcb7abc8
+  name: Grendel's Mother
+  art: /grendel-mom
+  power: 7
+- id: 405
+  slug: premedical-yellowlegs
+  description: Spawn an 7{{power}} token in your hand when I die
+  effects:
+    active:
+      eventName: UnitDie
+      eventStatus: ended
+      condition: event.card === card
+      perform: |-
+        op.spawnToken(
+          player.hand, 'grendels-mom-token')
+      allowedLots:
+        - grave
+        - unit-field
+  guid: e6c78403-aba6-00c4-3616-66a924d4c43c
+  name: Grendel
+  art: /grendel
+  power: 3
 - id: 382
   slug: spatial-pygmy
   description: The moment there is no enemy here I return to the hand
@@ -34,7 +61,7 @@
   guid: dbac58dc-3398-249b-d14e-b2d02f3e8ffd
   name: Anne Bonny
   power: 6
-- id: 375
+- id: 376
   slug: grand-killa
   description: +10{{power}} against a GRAND unit
   effects:
@@ -89,6 +116,7 @@
   guid: 8536fda6-014b-efa4-02a6-748ff457c472
   name: Will o' the wisp
   power: 5
+  art: /wisp
 - id: 306
   slug: nisse-token
   tags:
@@ -97,6 +125,7 @@
   guid: af573ebb-4f47-3a73-bfb5-73c25190d4c1
   name: Nisse
   power: 3
+  art: /nisse
 - id: 403
   slug: freejimmy
   description: +1{{ap}} when you deploy me
@@ -170,7 +199,7 @@
   name: Anansi
   power: 1
   art: /anansi
-- id: 374
+- id: 373
   slug: will-o-the-wisp
   description: |-
     Move enemy unit here when deployed
@@ -218,7 +247,7 @@
   guid: e156e58b-3903-0196-a55c-cef515c0dcdd
   name: Selfless Sparrow
   power: 1
-- id: 373
+- id: 374
   slug: exponanta
   description: |-
     +X{{power}}, X = 2 exponentiated by your energy
@@ -1778,7 +1807,7 @@
   guid: 6f7f792b-0da9-f90d-a7a5-9245606bbae8
   name: trapazan
   power: 5
-- id: 371
+- id: 375
   slug: patience-zero
   description: at the end of your turn, if I am in your hand - discard me
   effects:
@@ -2266,7 +2295,7 @@
   guid: 0150cb46-5ae5-249d-32b3-fe089acf39fd
   name: effaceable-kissingbug
   power: 14
-- id: 381
+- id: 380
   slug: relokill
   type: 1
   description: Activate when opposing enemy unit starts relocation. Kill it.
@@ -2816,7 +2845,7 @@
   guid: 00badf76-e490-b5e6-9b31-a3986978ca5e
   name: Grand Traitor
   power: 14
-- id: 405
+- id: 371
   slug: man-of-honor
   description: I will not attack without a foe here
   lore: Clad in shining armor, his unwavering nobility lights the path to
