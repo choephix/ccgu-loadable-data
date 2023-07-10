@@ -1,4 +1,9 @@
-- id: 330
+- id: 382
+  slug: spatial-pygmy
+  description: The moment there is no enemy here I return to the hand
+  effects: {}
+  guid: 4923e18b-2a7a-83e8-e321-a2f534895d67
+- id: 331
   slug: powerup
   type: 1
   description: +5{{power}} to your unit when attacked
@@ -15,7 +20,7 @@
           tg => tg.pass.raisePower(event.defender, 5))
   guid: e3b41aa1-0f98-ec62-7c2b-2f8414025180
   name: Power Up
-- id: 361
+- id: 372
   slug: drawson
   description: Enemy draws 1 card when I attack
   effects:
@@ -29,7 +34,7 @@
   guid: dbac58dc-3398-249b-d14e-b2d02f3e8ffd
   name: Anne Bonny
   power: 6
-- id: 345
+- id: 373
   slug: grand-killa
   description: +10{{power}} against a GRAND unit
   effects:
@@ -58,7 +63,7 @@
   guid: 588cfcb1-4ea3-b069-785a-0c4658c72384
   name: Give Me The Money!
   power: 5
-- id: 331
+- id: 332
   slug: siren-call
   type: 1
   description: Bring enemy unit beginning an attack here first
@@ -131,7 +136,7 @@
   guid: 15f64461-95cc-c62e-ca23-11dc1495fba7
   name: Reynard the Fox
   power: 2
-- id: 359
+- id: 358
   slug: freejimmy2
   description: +2{{ap}} when you deploy me
   lore: With a sly purr and an unerring knack for opportunity, this dapper feline
@@ -150,15 +155,15 @@
   guid: d733ae6a-414f-023c-4992-e99fea422de6
   name: Puss in Boots
   power: 2
-- id: 357
+- id: 369
   slug: trapcho
   description: +3 while there's an enemy trap here
-  notes: Jack Churchill?
   effects: {}
   guid: 4718eaac-6e8a-2cc5-9ee2-5622a89813e7
-  name: TRAPCHO
+  name: Anansi
   power: 3
-- id: 338
+  art: /anansi
+- id: 374
   slug: will-o-the-wisp
   description: |-
     Move enemy unit here when deployed
@@ -206,7 +211,7 @@
   guid: e156e58b-3903-0196-a55c-cef515c0dcdd
   name: Selfless Sparrow
   power: 1
-- id: 323
+- id: 375
   slug: exponanta
   description: |-
     +X{{power}}, X = 2 exponentiated by your energy
@@ -372,7 +377,7 @@
   guid: c975d9b5-3f58-30c1-1192-d8cb2d5ae481
   name: Bouncy
   power: 5
-- id: 371
+- id: 325
   slug: fibre-turtle
   description: |-
     No ally units in play?
@@ -388,7 +393,7 @@
   guid: 847fc569-a396-f9da-3422-837392c88113
   name: fibre-turtle
   power: 7
-- id: 369
+- id: 368
   slug: ereshkigal
   description: +1{{power}} for each card in your graveyard
   lore: The dreaded queen of the underworld, rules over death's silent realm, her
@@ -452,7 +457,7 @@
   guid: 210ddd9a-a696-6689-4ea8-00dba7b272f6
   name: Porcupine
   power: 2
-- id: 370
+- id: 345
   slug: duelista
   description: While both player have only one unit in play each, both have +10{{power}}
   effects: {}
@@ -474,7 +479,7 @@
   effects: {}
   guid: c46378a8-85b1-e150-b4b6-27a04f01e319
   name: The Manananggal
-- id: 372
+- id: 361
   slug: sapper
   description: -1{{power}} to all enemy units
   effects:
@@ -497,7 +502,7 @@
   effects: {}
   guid: 87d3c8a9-5d67-0c75-2fa4-7819060c373c
   name: Mad Jack
-- id: 368
+- id: 352
   slug: spartan
   description: All your units gain power equal to the number of enemy units in play.
   lore: Against overwhelming odds, King Leonidas I valiantly led his Spartan
@@ -534,7 +539,7 @@
   guid: b6b71451-926d-ece6-d0d3-0b71508871e1
   name: Galatea
   power: 8
-- id: 375
+- id: 357
   slug: target-bomb
   description: |-
     Combat-Flip:
@@ -586,11 +591,8 @@
   description: |-
     Spawn a 5{{power}} token on the enemy side when I'm deployed
     if possible
-  lore: Anansi, the master weaver, spins threads of cunning and wisdom, turning
-    the world into his web of stories and trickery.
-  notes: |-
-    Token: "Foolish Fish"
-    Can't deploy against unit?
+  lore: In his unquenchable thirst for knowledge and power, Faust summons a demon
+    of his own making, bartering his soul for a taste of the forbidden.
   tags:
     - rush
   effects:
@@ -607,9 +609,9 @@
         op.spawnToken(field, 'tiger-token')
       allowedLots:
         - unit-field
-  art: /anansi
+  art: /faust
   guid: 2b0ed5c3-5521-ca41-f2bb-ff7607b08fea
-  name: Anansi
+  name: Faust
   power: 5
 - id: 271
   slug: marvellous-koi
@@ -1000,7 +1002,7 @@
   guid: 8e2d8db0-129c-bb90-5203-0ef032b79e93
   name: Banshee
   power: 1
-- id: 355
+- id: 354
   slug: shonen
   description: +1{{power}} per enemy unit in play.
   lore: A towering colossus of war, embodies indomitable strength and unwavering
@@ -1024,7 +1026,7 @@
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   name: Ajax the Great
   power: 4
-- id: 358
+- id: 342
   slug: geinhildr
   description: +1{{power}} per ANY unit in play.
   pdc: -1
@@ -1769,7 +1771,7 @@
   guid: 6f7f792b-0da9-f90d-a7a5-9245606bbae8
   name: trapazan
   power: 5
-- id: 374
+- id: 371
   slug: patience-zero
   description: at the end of your turn, if I am in your hand - discard me
   effects:
@@ -2147,9 +2149,10 @@
   effects: {}
   guid: 3a9064a6-de2e-fcc7-a434-90545668b8c8
   name: 3a9064a6
-- id: 329
+- id: 360
   slug: literate-puffer
   description: +5{{power}} while the enemy has a trap here
+  notes: Jack Churchill?
   effects: {}
   guid: a8bcec64-adb7-7e49-03de-bb12bc83ea71
   name: a8bcec64
@@ -2285,7 +2288,7 @@
   effects: {}
   guid: 9d559a67-558f-c648-b17c-a6c6da4dae1d
   name: Balanced Antitrap
-- id: 352
+- id: 351
   slug: grand-disarmer
   description: |-
     When ANY trap is about to activate on this lane, destroy me and that trap.
@@ -2560,7 +2563,7 @@
   guid: c4e29441-a2d6-5d2e-e90d-67c1d4b90213
   name: Zhu Bajie
   power: 10
-- id: 354
+- id: 353
   slug: antisocial-knight
   description: -3{{power}} per other friendly unit in play
   lore: Exceptionally strong, but doesn't work well in a crowd.
@@ -2606,7 +2609,7 @@
   guid: e8d29482-9996-f3ed-a02b-f0c4219e8c5a
   name: vampirefang
   power: 2
-- id: 373
+- id: 329
   slug: spearhead
   tags:
     - piercing
@@ -2637,7 +2640,7 @@
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   name: honoraro-grand
   power: 7
-- id: 377
+- id: 370
   slug: nimbleguard
   description: |-
     After enemy unit is deployed anywhere, move me in front of it
@@ -3423,7 +3426,7 @@
   guid: 65591d48-dbec-6af4-034e-c0eb08f6795e
   name: Grand Traitor
   power: 14
-- id: 360
+- id: 377
   slug: time-bug
   description: |-
     Combat-Flip:
@@ -5110,7 +5113,7 @@
   guid: 9228b01a-6cc0-83c0-78df-1d377137b0b8
   name: Overly Excited Tim
   power: 7
-- id: 376
+- id: 378
   slug: poised-eric
   description: After I attack the enemy directly, I am destroyed.
   effects: {}
@@ -5300,7 +5303,7 @@
   guid: 2f2f474a-e268-7bfb-81a2-f69188d45516
   name: Trap-Powered
   power: 4
-- id: 325
+- id: 355
   slug: producer
   description: +1{{power}} per card in your hand
   lore: His hammer strikes the anvil like lightning, forging from fire and metal
@@ -5537,7 +5540,7 @@
   guid: 573b5edb-f33c-4ef4-01de-9faaa0857931
   name: Cheerleader Harpy 2
   power: 4
-- id: 341
+- id: 356
   slug: darkassasin2
   description: -5{{hp}} for you when I attack
   lore: A cunning imp, forever bound to his word, known for turning straw into
@@ -5770,7 +5773,7 @@
   guid: 55960ff8-4bf7-401e-f4f1-984ed93f7b8f
   name: Haste Contracter
   power: 1
-- id: 356
+- id: 341
   slug: drawttack
   description: Every time I complete an attack, if I'm still in play, draw 1 card.
   effects: {}
@@ -6669,7 +6672,7 @@
   guid: 6f150a04-f054-88fa-e6a8-982f43e03832
   name: Harsh Fred
   power: 2
-- id: 353
+- id: 338
   slug: zig
   description: At the beginning of your turn if a card named @zag is in your
     graveyard - add it to your hand.
@@ -6975,7 +6978,7 @@
   guid: 58ebdd7a-1969-432a-0635-79f8239af518
   name: Tricky Shield
   power: 7
-- id: 342
+- id: 359
   slug: necropy2
   description: |-
     +X{{power}}, equal to the enemy grave's top card
@@ -7478,7 +7481,7 @@
   effects: {}
   guid: a88919dd-bfea-aaf9-c14d-8604345e5443
   name: No-Flippers!
-- id: 332
+- id: 333
   slug: manadrain
   type: 1
   description: Activate when opposing enemy creature is summoned manually. The
