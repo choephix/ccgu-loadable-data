@@ -157,11 +157,18 @@
   power: 2
 - id: 369
   slug: trapcho
-  description: +3 while there's an enemy trap here
-  effects: {}
+  description: +6 while facing an enemy trap
+  lore: Anansi's quick wit and cunning turn threats into triumphs, making him a
+    formidable adversary amidst the tapestry of deception.
+  effects:
+    passive:
+      condition: "!!get.opposingTrap(card)"
+      perform: pass.raisePower(card, 6)
+      allowedLots:
+        - unit-field
   guid: 4718eaac-6e8a-2cc5-9ee2-5622a89813e7
   name: Anansi
-  power: 3
+  power: 1
   art: /anansi
 - id: 374
   slug: will-o-the-wisp
