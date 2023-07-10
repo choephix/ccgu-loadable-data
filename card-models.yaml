@@ -1,3 +1,24 @@
+- id: 330
+  slug: powerup
+  type: 1
+  description: +5{{power}} to your unit when attacked
+  lore: The Evil Eye casts its baleful gaze, draining strength and casting shadows
+    of superstition, a reminder that some fears are born from belief.
+  pdc: -1
+  priority: 3
+  effects:
+    active:
+      eventName: UnitAttackCombat
+      eventStatus: ended
+      condition: |-
+        event.card === get.opposingUnit(card) &&
+        event.card.isFaceUp
+      perform: |-
+        op.addTempFx(
+          event.card, 
+          tg => tg.pass.lowerPower(event.card, 5))
+  guid: e3b41aa1-0f98-ec62-7c2b-2f8414025180
+  name: Power Up
 - id: 361
   slug: annebonny
   description: Enemy draws 1 card when I attack
@@ -719,7 +740,7 @@
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   power: 9
   name: Karna
-- id: 330
+- id: 348
   slug: steal-dead-unit
   type: 1
   description: >-
@@ -866,7 +887,7 @@
         )
   guid: 294447b1-beb2-1618-5d29-8182eee4f481
   name: The Battle of Trenton
-- id: 362
+- id: 347
   slug: from-the-left
   type: 1
   description: >-
@@ -1718,7 +1739,7 @@
   guid: 6f7f792b-0da9-f90d-a7a5-9245606bbae8
   power: 5
   name: trapazan
-- id: 805
+- id: 320
   slug: patience-zero
   description: at the end of your turn, if I am in your hand - discard me
   effects:
@@ -2582,7 +2603,7 @@
   power: 7
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   name: honoraro-grand
-- id: 378
+- id: 377
   slug: nimbleguard
   description: |-
     After enemy unit is deployed anywhere, move me in front of it
@@ -7411,7 +7432,7 @@
   effects: {}
   name: No-Flippers!
   guid: a88919dd-bfea-aaf9-c14d-8604345e5443
-- id: 346
+- id: 332
   slug: manadrain
   type: 1
   description: Activate when opposing enemy creature is summoned manually. The
