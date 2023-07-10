@@ -233,7 +233,7 @@
         - unit-field
         - grave
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
-  power: 2
+  power: 1
   name: Horatius Cocles
 - id: 404
   slug: buffy
@@ -5031,7 +5031,7 @@
   power: 7
   name: Overly Excited Tim
   guid: 9228b01a-6cc0-83c0-78df-1d377137b0b8
-- id: 343
+- id: 376
   slug: poised-eric
   description: After I attack the enemy directly, I am destroyed.
   effects: {}
@@ -6711,8 +6711,7 @@
 - id: 401
   slug: jill
   description: |-
-    Resurrect Orpheus to my RIGHT
-    when I enter play
+    Revive Orpheus to my RIGHT when I enter play
     if possible and he is in your grave
   lore: Eurydice's spirit, a testament to a bond that transcends death,
     illuminates love's enduring power, making each heartbeat a love song to
@@ -6743,8 +6742,7 @@
 - id: 400
   slug: jack
   description: |-
-    Resurrect Eurydice to my LEFT 
-    when I enter play
+    Revive Eurydice to my LEFT when I enter play
     if possible and she is in your grave
   lore: Bound by a love that outlasts life itself, Orpheus would cross even the
     doors of death, his melody a pledge to his beloved Eurydice.
@@ -6930,7 +6928,7 @@
   power: 1
   name: Safe-Buffer
   guid: 77192957-d7b3-955a-18c6-5b94ac8263f6
-- id: 376
+- id: 343
   slug: spike
   description: |-
     Combat-Flip
