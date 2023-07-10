@@ -33,7 +33,7 @@
 - id: 331
   slug: powerup
   type: 1
-  description: +5{{power}} to your unit when attacked
+  description: +3{{power}} to your unit when attacked
   pdc: -1
   priority: 3
   effects:
@@ -44,7 +44,7 @@
       perform: |-
         op.addTempFx(
           event.defender, 
-          tg => tg.pass.raisePower(event.defender, 5))
+          tg => tg.pass.raisePower(event.defender, 3))
   guid: e3b41aa1-0f98-ec62-7c2b-2f8414025180
   name: Power Up
 - id: 388
