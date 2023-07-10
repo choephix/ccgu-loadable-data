@@ -1,3 +1,15 @@
+- id: 345
+  slug: grand-killa
+  description: +10{{power}} against a GRAND unit
+  effects:
+    passive:
+      condition: "true"
+      perform: pass.raisePower(card, 10)
+      allowedLots:
+        - unit-field
+  guid: 1eef8f4d-e56d-2825-8210-b80f3188c944
+  power: 2
+  name: David
 - id: 34
   slug: --givemethemoney
   tags:
@@ -975,14 +987,6 @@
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   power: 1
   name: geinhildr
-- id: 881
-  slug: managiver
-  description: When I am summoned, you gain 2 mana (without ignoring your current
-    mana-capacity)
-  effects: {}
-  guid: a9bfb05d-2bed-d7d7-2ded-89692e5746a1
-  power: 3
-  name: managiver
 - id: 418
   slug: token-spawner
   description: Spawn a 0{{powered}} token in my place when I die in combat
@@ -2078,11 +2082,11 @@
   effects: {}
   name: 3a9064a6
   guid: 3a9064a6-de2e-fcc7-a434-90545668b8c8
-- id: 1536
+- id: 329
   slug: literate-puffer
-  description: +3 power, while there is an opposing enemy trap
+  description: +5{{power}} while the enemy has a trap here
   effects: {}
-  power: 4
+  power: 2
   name: a8bcec64
   guid: a8bcec64-adb7-7e49-03de-bb12bc83ea71
 - id: 1082
@@ -2168,7 +2172,7 @@
   guid: ecf87384-4b2b-ceed-ffb1-c510eea1a14e
 - id: 898
   slug: wandering-kyle
-  description: "On death: enemy is healed for %4 hp"
+  description: +7{{hp}} to the enemy when I die
   pdc: -1
   priority: 3
   effects: {}
