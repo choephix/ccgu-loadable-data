@@ -32,7 +32,7 @@
   guid: af573ebb-4f47-3a73-bfb5-73c25190d4c1
   power: 3
   name: Nisse
-- id: 384
+- id: 403
   slug: freejimmy
   description: +1{{ap}} when you deploy me
   lore: With a sly purr and an unerring knack for opportunity, this dapper feline
@@ -51,7 +51,7 @@
   power: 4
   guid: d733ae6a-414f-023c-4992-e99fea422de6
   name: Puss in Boots
-- id: 386
+- id: 402
   slug: depdraw
   description: Draw 2 cards when I'm played
   lore: Wily and crafty, Reynard weaves through life's puzzles with sly ease, his
@@ -508,7 +508,7 @@
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   power: 5
   name: Nyx
-- id: 402
+- id: 386
   slug: token-giver
   description: |-
     Spawn a 5{{power}} token on the enemy side when I'm deployed
@@ -989,7 +989,7 @@
   guid: e053ce66-d442-4da5-9d05-c4098cf6f191
   power: 3
   name: The Cheshire Cat
-- id: 405
+- id: 389
   slug: flappy-bird-grand
   lore: Swift as thought and unpredictable as the wind, Mercury's strikes come
     from all angles, his speed the heart of his relentless pursuit.
@@ -1000,7 +1000,7 @@
   guid: a9fb5b3c-0c8a-a10c-6a8c-8ed91952bc46
   power: 5
   name: Mercury
-- id: 389
+- id: 385
   slug: swapper
   lore: As nimble as the wind and as elusive as a thought, Br'er Rabbit darts
     through life's mazes, always a hop ahead of trouble.
@@ -1018,7 +1018,7 @@
   guid: 44372e4e-629c-387c-6162-e52dccc7029c
   name: Flashforward
   power: 4
-- id: 403
+- id: 384
   slug: harassingmia
   description: Return me to your hand after your turn
   lore: Tiny but swift, Thumbelina flutters through life, her nimble size making
@@ -2715,7 +2715,7 @@
   name: Grand Traitor
   power: 14
   guid: 00badf76-e490-b5e6-9b31-a3986978ca5e
-- id: 385
+- id: 405
   slug: man-of-honor
   description: I will not attack without a foe here
   lore: Clad in shining armor, his unwavering nobility lights the path to
