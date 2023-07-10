@@ -1,3 +1,17 @@
+- id: 361
+  slug: annebonny
+  description: Enemy draws 1 card when I attack
+  effects:
+    active:
+      eventName: UnitAttack
+      eventStatus: began
+      condition: event.card === card
+      perform: op.draw(opponent)
+      allowedLots:
+        - unit-field
+  guid: dbac58dc-3398-249b-d14e-b2d02f3e8ffd
+  power: 6
+  name: Anne Bonny
 - id: 345
   slug: grand-killa
   description: +10{{power}} against a GRAND unit
@@ -6040,14 +6054,6 @@
   power: 3
   name: Specialo
   guid: 3cbde08d-dcdf-4f32-66ec-73b4dde8e205
-- id: 3619
-  slug: managiver2
-  description: When I am summoned, you gain 2 mana (without ignoring your current
-    mana-capacity)
-  effects: {}
-  power: 2
-  name: managiver
-  guid: a9bfb05d-2bed-d7d7-2ded-89692e5746a1
 - id: 3672
   slug: crippler
   description: Every enemy creature summoned face-up while I am in play has its
