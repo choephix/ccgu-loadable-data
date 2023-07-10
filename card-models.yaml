@@ -2,15 +2,13 @@
   slug: powerup
   type: 1
   description: +5{{power}} to your unit when attacked
-  lore: 
   pdc: -1
   priority: 3
   effects:
     active:
       eventName: UnitAttackCombat
       eventStatus: ended
-      condition: |-
-        event.defender === get.sameLaneUnit(card)
+      condition: event.defender === get.sameLaneUnit(card)
       perform: |-
         op.addTempFx(
           event.defender, 
@@ -18,7 +16,7 @@
   guid: e3b41aa1-0f98-ec62-7c2b-2f8414025180
   name: Power Up
 - id: 361
-  slug: annebonny
+  slug: drawson
   description: Enemy draws 1 card when I attack
   effects:
     active:
