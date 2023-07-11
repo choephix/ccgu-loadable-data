@@ -119,7 +119,7 @@
       eventName: UnitAttack
       eventStatus: began
       condition: |-
-        event.card.player === opponent &&
+        event.card.controller === opponent &&
         !get.opposingUnitField(card).hasCards
       perform: |-
         let lot = get.opposingUnitField(card)
