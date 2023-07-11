@@ -21,11 +21,19 @@
       eventStatus: ended
       condition: event.card === card
       perform: |-
-        const a = player.grave.topCard
-        op.moveTo(a, get.opposingUnitField(card))
+        function foo(p) {
+          for (const field of p.fieldsUnit) {
+            if (field.hasCards) continue
+            
+            const u = p.grave.topCard
+            if (!u?.isUnitType) continue
+            
+            op.moveTo(u, field)
+          }
+        }
 
-        const b = opponent.grave.topCard
-        op.moveTo(b, get.rightUnitField(card))
+        foo(player)
+        foo(opponent)
       allowedLots:
         - unit-field
   guid: d56dcfc4-7444-5079-2309-5d793c79e857
