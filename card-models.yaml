@@ -1,3 +1,31 @@
+- id: 59
+  slug: --reviver
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: event.card === card
+      perform: |-
+        const a = player.grave.topCard
+        op.moveTo(a, get.opposingUnitField(card))
+
+        const b = opponent.grave.topCard
+        op.moveTo(b, get.rightUnitField(card))
+      allowedLots:
+        - unit-field
+  guid: d56dcfc4-7444-5079-2309-5d793c79e857
+- id: 58
+  slug: --autodie
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: event.card === card
+      perform: op.kill(card)
+      allowedLots:
+        - unit-field
+  guid: fb98407f-1d05-32e0-5314-d9112903aaee
+  power: 5
 - id: 48
   slug: dud
   lore: Dumb luck...
