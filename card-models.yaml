@@ -1,10 +1,8 @@
 - id: 362
   slug: token-on-deploy2
   type: 1
-  description: >-
-    Spawn a 4{{powered}} token to your side when opposing
-    enemy unit is deployed
-
+  description: |-
+    Spawn a 4{{powered}} token to your side when opposing enemy unit is deployed
     if possible
   effects:
     active:
@@ -25,7 +23,7 @@
     the promise of power could metamorphose into a deadly backlash.
   effects: {}
   guid: 4dc76f1f-fb9f-74d5-fa88-d3aa11b98e1c
-  art: /mephistopheles
+  art: /tokens/mephistopheles
   name: Mephistopheles
   power: 9
 - id: 308
@@ -156,7 +154,7 @@
   guid: 8536fda6-014b-efa4-02a6-748ff457c472
   name: Will o' the wisp
   power: 5
-  art: /wisp
+  art: /tokens/wisp
 - id: 306
   slug: nisse-token
   tags:
@@ -165,7 +163,7 @@
   guid: af573ebb-4f47-3a73-bfb5-73c25190d4c1
   name: Nisse
   power: 3
-  art: /nisse
+  art: /tokens/nisse
 - id: 403
   slug: freejimmy
   description: +1{{ap}} when you deploy me
