@@ -8,20 +8,14 @@
       perform: |-
         function foo(p) {
           for (const field of p.fieldsUnit) {
-            if (field.hasCards) continue
-            
             const u = p.deck.topCard
             if (!u?.isUnitType) continue
-            
-            op.moveTo(u, field)
+            op.moveTo(u, p.grave)
           }
         }
 
         foo(player)
         foo(opponent)
-
-        opponent.units.forEach(op.kill);
-        player.units.forEach(op.kill);
       allowedLots:
         - unit-field
   guid: dab838f0-0ca1-b646-7865-1e3a2adaf02e
