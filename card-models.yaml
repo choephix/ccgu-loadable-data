@@ -35,7 +35,7 @@
             const u = p.deck.topCard
             if (!u?.isUnitType) continue
             
-            op.moveTo(u, field)
+            op.moveTo(u, field, true)
           }
         }
 
