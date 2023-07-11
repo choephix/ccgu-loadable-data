@@ -683,7 +683,7 @@
 - id: 386
   slug: token-giver
   description: |-
-    Spawn a 5{{power}} token on the enemy side when I'm deployed
+    Spawn a 9{{power}} token on the enemy side when I'm deployed
     if possible
   lore: In his unquenchable thirst for knowledge and power, Faust summons a demon
     of his own making, bartering his soul for a taste of the forbidden.
