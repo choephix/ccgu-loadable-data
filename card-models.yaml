@@ -2813,7 +2813,7 @@
   art: /white-buffalo
   guid: 76fbd7d3-ade6-5f68-6c2b-4814e6ca0a31
   name: White Buffalo Maiden
-  power: 9
+  power: 8
 - id: 919
   slug: shield2
   description: "Combat-Flip: Die"
