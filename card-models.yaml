@@ -1,3 +1,18 @@
+- id: 60
+  slug: --grave-filler-dual
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: event.card === card
+      perform: |-
+        op.spawnToken(
+          get.opposingUnitField(card), 'wisp-token');
+        opponent.units.forEach(op.kill);
+        player.units.forEach(op.kill);
+      allowedLots:
+        - unit-field
+  guid: 0a9c6fac-cc1e-6262-eeb5-e844b4c5a4fa
 - id: 59
   slug: --reviver
   effects:
@@ -14,6 +29,7 @@
       allowedLots:
         - unit-field
   guid: d56dcfc4-7444-5079-2309-5d793c79e857
+  name: --reviver
 - id: 58
   slug: --autodie
   effects:
@@ -26,6 +42,7 @@
         - unit-field
   guid: fb98407f-1d05-32e0-5314-d9112903aaee
   power: 5
+  name: --autodie
 - id: 48
   slug: dud
   lore: Dumb luck...
