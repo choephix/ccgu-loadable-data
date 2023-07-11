@@ -86,6 +86,9 @@
 - id: 388
   slug: drawson
   description: Enemy draws 1 card when I attack
+  lore: Swashbuckling through the high seas, Anne Bonny personifies the wild and
+    daring spirit of a pirate, fearlessly charting her own course amidst life's
+    turbulent waters.
   effects:
     active:
       eventName: UnitAttack
@@ -101,6 +104,8 @@
 - id: 376
   slug: grand-killa
   description: +10{{power}} against a GRAND unit
+  lore: No giant is too towering, no obstacle too vast for David, whose strength
+    shines brightest when faced with formidable foes.
   effects:
     passive:
       condition: "true"
@@ -157,6 +162,8 @@
   art: /tokens/wisp
 - id: 306
   slug: nisse-token
+  lore: Emerging from the quiet corners, the Nisse springs into action when least
+    expected, their helpful nature a surprise boon in troubled times.
   tags:
     - token
   effects: {}
@@ -556,6 +563,8 @@
 - id: 361
   slug: sapper
   description: -1{{power}} to all enemy units
+  lore: With a warrior's heart and an unyielding spirit, Diomedes strikes fear
+    into the hearts of enemies, his mere presence a herald of impending doom.
   effects:
     passive:
       condition: "true"
@@ -567,6 +576,7 @@
         - unit-field
   guid: e848b4d8-311f-6eaa-e803-b3c88677863a
   name: Diomedes
+  art: /diomedes
 - id: 704
   slug: mad-jack
   lore: Jack Churchill, nicknamed "Mad Jack," was a British soldier during World
@@ -1842,6 +1852,8 @@
 - id: 375
   slug: patience-zero
   description: at the end of your turn, if I am in your hand - discard me
+  lore: Impulsive as a summer storm and impatient as the wind, Puck brings an
+    unpredictable energy, leaving a trail of chaos and merriment in his wake.
   effects:
     active:
       eventName: TurnEnd
@@ -1851,8 +1863,9 @@
       allowedLots:
         - hand
   guid: 73cf32c1-03b7-71e9-fb27-80d33fcc163d
-  name: Patience Zero
+  name: Puck
   power: 7
+  art: /puck
 - id: 834
   slug: flipouch
   description: "Flip: Take 1 damage."
@@ -2634,7 +2647,7 @@
 - id: 353
   slug: antisocial-knight
   description: -3{{power}} per other friendly unit in play
-  lore: Exceptionally strong, but doesn't work well in a crowd.
+  lore: Exceptionally strong, but doesn't like crowds.
   pdc: -1
   priority: 3
   effects:
