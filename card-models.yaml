@@ -112,6 +112,8 @@
   slug: siren-call
   type: 1
   description: Bring enemy unit beginning an attack here first
+  tags:
+    - global
   effects:
     active:
       eventName: UnitAttack
