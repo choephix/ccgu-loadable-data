@@ -904,14 +904,14 @@
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   name: Karna
   power: 9
-- id: 364
+- id: 441
   slug: steal-dead-unit
   type: 1
-  description: >-
-    After your unit is destroyed, deploy the top card in your enemy's grave to
-    your side.
-
-    It must be a unit.
+  description: |-
+    Deploy enemy grave's top card when your unit dies in combat here
+    if that card is a unit
+  lore: Lying in wait like an undying specter, Draugr's Curse ensnares the unwary,
+    its chilling grip a dread echo from the depths of the grave.
   notes: Bone Flute?
   effects:
     active:
@@ -919,6 +919,7 @@
       eventStatus: ended
       condition: |-
         event.card === get.sameLaneUnit(card) &&
+        event.death_type === 'combat' &&
         opponent.grave.topCard?.isUnitType &&
         !get.sameLaneUnit(card)
       perform: |-
@@ -2355,7 +2356,7 @@
   effects: {}
   guid: 8cc4afa4-1276-5506-1c7d-aa1052afd931
   name: drawnecro
-- id: 441
+- id: 378
   slug: taunt
   type: 1
   description: Force enemy unit deployed here to attack
