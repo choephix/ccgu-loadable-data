@@ -5,7 +5,7 @@
     - token
   effects:
     overrides:
-      blockDeploymentTo: "false"
+      blockDeploymentTo: "true"
   guid: 2a1c448d-7ef1-4a78-2234-fe7b53a5b9bc
   name: Dud
   power: 15
