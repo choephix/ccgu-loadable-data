@@ -3,6 +3,16 @@
   description: |-
     Move all enemy units to the right when I am played
     where possible
+  lore: >-
+    Yemaya: Mother of the seas, Yemaya ebbs and flows with the rhythm of life,
+    her essence a tribute to the ocean's depth and the profound mysteries it
+    holds.
+
+
+    Aegir: Aegir, the Norse lord of the sea, rules the turbulent depths with an unyielding reign, his domain a reflection of the untamed and mighty ocean.
+
+
+    Susanoo: Susanoo, the tempestuous Shinto god of the sea and storms, roars with the fury of the waves, his wrath a storm that shakes the heavens.
   notes: |-
     Yemaya?
     Aegir?
@@ -12,13 +22,24 @@
   effects: {}
   guid: ff82fece-0b02-de33-91ef-083e2388f7ce
   power: 6
+  art: /susanoo
+  name: Susanoo
 - id: 608
   slug: energetic-skunk
   description: |-
     Move all your units to the left when I am played
     where possible
+  lore: >-
+    Undines: As fluid and enchanting as the water they dwell in, Undines glide
+    through tales and tides alike, embodying the mesmerizing pull of the deep..
+
+
+    Undines: Like whispers upon the water's surface, the Undines dance, their movements crafting ripples of enchantment that echo the rhythm of the sea.
   effects: {}
   guid: e06da3e6-9286-e335-e6ef-89152814681b
+  name: The Undine
+  art: /undine
+  power: 3
 - id: 319
   slug: jabberwock
   lore: Brimbling with murkitude in the duskish dim, skraggling with its
