@@ -910,8 +910,8 @@
   description: |-
     Deploy enemy grave's top card when your unit dies in combat here
     if that card is a unit
-  lore: Lying in wait like an undying specter, Draugr's Curse ensnares the unwary,
-    its chilling grip a dread echo from the depths of the grave.
+  lore: A sacrifice made, the curse is now unleashed, wrenching a fallen enemy
+    from the grave's grip to twist into our own ghostly puppet.
   notes: Bone Flute?
   effects:
     active:
