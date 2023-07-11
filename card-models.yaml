@@ -1,3 +1,25 @@
+- id: 61
+  slug: --grave-filler-mini2
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: card === event.card
+      perform: |-
+        op.spawnToken(
+          player.fieldsUnit[0], 'token-0');
+        op.spawnToken(
+          player.fieldsUnit[1], 'token-0');
+        op.spawnToken(
+          opponent.fieldsUnit[0], 'token-0');
+        op.spawnToken(
+          opponent.fieldsUnit[1], 'token-0');
+        opponent.units.forEach(op.kill);
+        player.units.forEach(op.kill);
+      allowedLots:
+        - unit-field
+  guid: dab838f0-0ca1-b646-7865-1e3a2adaf02e
+  name: --grave-filler-mini
 - id: 60
   slug: --grave-filler-dual
   effects:
@@ -13,6 +35,7 @@
       allowedLots:
         - unit-field
   guid: 0a9c6fac-cc1e-6262-eeb5-e844b4c5a4fa
+  name: --grave-filler-dual
 - id: 59
   slug: --reviver
   effects:
