@@ -1,5 +1,5 @@
 - id: 62
-  slug: --grave-filler-mini3
+  slug: --grave-filler3
   effects:
     active:
       eventName: DeployUnit
@@ -19,9 +19,9 @@
       allowedLots:
         - unit-field
   guid: dab838f0-0ca1-b646-7865-1e3a2adaf02e
-  name: --grave-filler-mini3
+  name: --grave-filler3
 - id: 61
-  slug: --grave-filler-mini2
+  slug: --grave-filler2
   effects:
     active:
       eventName: DeployUnit
@@ -47,7 +47,7 @@
       allowedLots:
         - unit-field
   guid: dab838f0-0ca1-b646-7865-1e3a2adaf02e
-  name: --grave-filler-mini2
+  name: --grave-filler2
 - id: 60
   slug: --grave-filler-dual
   effects:
