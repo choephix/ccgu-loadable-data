@@ -471,7 +471,7 @@
           tg => tg.pass.lowerPower(event.card, 4))
   art: /temp/beartrap
   guid: 3ee6755d-845a-f87c-fed7-9594b1e29bcd
-  name: The River Lethe
+  name: River Lethe
 - id: 561
   slug: grand-decker
   description: +1 per card in the enemy's deck!
