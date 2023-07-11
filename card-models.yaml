@@ -55,8 +55,8 @@
   effects:
     active:
       eventName: UnitAttackCombat
-      eventStatus: ended
-      condition: event.defender === get.sameLaneUnit(card)
+      eventStatus: began
+      condition: event.attacker === get.opposingUnit(card)
       perform: |-
         op.addTempFx(
           event.defender, 
