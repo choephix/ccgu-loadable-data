@@ -1,3 +1,31 @@
+- id: 62
+  slug: --grave-filler-mini3
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: card === event.card
+      perform: |-
+        function foo(p) {
+          for (const field of p.fieldsUnit) {
+            if (field.hasCards) continue
+            
+            const u = p.deck.topCard
+            if (!u?.isUnitType) continue
+            
+            op.moveTo(u, field)
+          }
+        }
+
+        foo(player)
+        foo(opponent)
+
+        opponent.units.forEach(op.kill);
+        player.units.forEach(op.kill);
+      allowedLots:
+        - unit-field
+  guid: dab838f0-0ca1-b646-7865-1e3a2adaf02e
+  name: --grave-filler-mini3
 - id: 61
   slug: --grave-filler-mini2
   effects:
