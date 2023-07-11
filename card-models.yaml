@@ -1913,7 +1913,7 @@
       eventName: TurnEnd
       eventStatus: began
       condition: player === event.player
-      perform: op.moveTo( card, player.grave )
+      perform: op.discard(card)
       allowedLots:
         - hand
   guid: 73cf32c1-03b7-71e9-fb27-80d33fcc163d
