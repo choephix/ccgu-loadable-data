@@ -35,7 +35,8 @@
             const u = p.deck.topCard
             if (!u?.isUnitType) continue
             
-            op.moveTo(u, field, true)
+            u.isFaceUp = true
+            op.moveTo(u, field)
           }
         }
 
