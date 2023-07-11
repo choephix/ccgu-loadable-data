@@ -29,7 +29,7 @@
       eventStatus: ended
       condition: |-
         event.card === card &&
-        event.death_type === "combat"
+        event.death_type === 'combat'
       perform: |-
         op.spawnToken(
           player.hand, 'grendels-mom-token')
@@ -112,8 +112,6 @@
   slug: siren-call
   type: 1
   description: Bring enemy unit beginning an attack here first
-  tags:
-    - token
   effects:
     active:
       eventName: UnitAttack
@@ -659,9 +657,8 @@
         event.card === card &&
         !field.hasCards
       perform: |-
-        const index = card.lot.index;
         const field = get.opposingUnitField(card)
-        op.spawnToken(field, 'tiger-token')
+        op.spawnToken(field, 'mephisto-token')
       allowedLots:
         - unit-field
   art: /faust
