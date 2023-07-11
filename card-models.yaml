@@ -91,7 +91,7 @@
   power: 7
 - id: 405
   slug: premedical-yellowlegs
-  description: Spawn an 7{{power}} token in your hand when I die from combat
+  description: 7{{powered}} token spawns in your hand when I die from combat
   lore: Be on guard dispatching this particular foe, for you are bound to invite
     the wrath of his vengeful mother!
   effects:
@@ -187,7 +187,7 @@
 - id: 409
   slug: siren-call
   type: 1
-  description: Bring enemy unit beginning an attack here first
+  description: Enemy unit beginning an attack anywhere, moves here first
   tags:
     - global
   effects:
@@ -225,7 +225,7 @@
   art: /tokens/nisse
 - id: 403
   slug: freejimmy
-  description: +1{{ap}} when you deploy me
+  description: +1{{ap}} when I'm played
   lore: With a sly purr and an unerring knack for opportunity, this dapper feline
     brings fortune to his master.
   pdc: -1
@@ -299,7 +299,7 @@
 - id: 373
   slug: will-o-the-wisp
   description: |-
-    Move enemy unit here when deployed
+    Move enemy unit here when deployed anywhere
     if possible
   lore: Leading wayward travelers astray, its elusive light a tantalizing
     trickster in the twilight.
@@ -321,7 +321,7 @@
 - id: 436
   slug: nimbleguard2
   description: |-
-    Move me in front of enemy unit attacking from any field
+    I automatically move in front of enemy unit attacking anywhere
     if possible
   lore: With tiny wings and a big heart, the Selfless Sparrow flies beyond its
     humble stature, carrying hope on its featherlight wings.
@@ -725,7 +725,7 @@
 - id: 386
   slug: token-giver
   description: |-
-    Spawn a 9{{power}} token on the enemy side when I'm deployed
+    9{{powered}} token spawns in front of me  when I'm played
     if possible
   lore: In his unquenchable thirst for knowledge and power, Faust summons a demon
     of his own making, bartering his soul for a taste of the forbidden.
@@ -776,7 +776,7 @@
   power: 3
 - id: 432
   slug: captain-fantastic
-  description: +4{{power}} to adjacent friendly units
+  description: +4{{power}} to adjacent ally units
   lore: A national heroine of France and a Catholic saint, Joan of Arc led the
     French army to several crucial victories during the Hundred Years' War after
     claiming to have received visions from saints.
@@ -817,7 +817,7 @@
   power: 2
 - id: 416
   slug: un-prod
-  description: -1{{power}} for every card in your hand
+  description: -1{{power}} per card in your hand
   lore: With a hearty laugh and a swirling goblet, Bacchus intoxicates the game,
     his presence compelling you to dance to the tunes of impulse.
   effects:
@@ -1019,7 +1019,9 @@
 - id: 393
   slug: from-the-right
   type: 1
-  description: On direct attack here, first move your unit on the right here
+  description: |-
+    On direct attack, first bring your unit on the right here
+    if there is any
   lore: George Washington led a surprise attack against Hessian forces at Trenton,
     New Jersey, during the American Revolutionary War.
   effects:
@@ -1117,7 +1119,7 @@
   power: 3
 - id: 421
   slug: trampoline
-  description: "Combat-Flip: Enemy unit here returns to the hand"
+  description: "Combat-Flip: Return enemy unit here to the hand"
   lore: With a chilling wail that tears through the silence, the Banshee's scream
     sends even the bravest souls fleeing in pure, icy fear.
   tags:
@@ -1179,7 +1181,7 @@
   power: 1
 - id: 418
   slug: token-spawner
-  description: Spawn a 0{{powered}} token in my place when I die in combat
+  description: 0{{powered}} token spawns in my place after I die in combat
   lore: The Cheshire Cat, grinning from ear to ear, an enigmatic figure leaving
     trails of mystery in its wake.
   tags:
@@ -1234,7 +1236,7 @@
   power: 4
 - id: 384
   slug: harassingmia
-  description: Return me to your hand after your turn
+  description: I return to your hand after your turn
   lore: Tiny but swift, Thumbelina flutters through life, her nimble size making
     her as elusive as a feather in the wind.
   tags:
@@ -1258,7 +1260,7 @@
 - id: 434
   slug: berserker
   description: |-
-    I attack automatically on at the start of your turn
+    I automatically attack as your turn starts
     This counts as a manual attack
   lore: Unleashed fury incarnate, Fenrir rampages with raw aggression, a tempest
     of claws and teeth that knows no chains nor fear.
@@ -1759,8 +1761,8 @@
   slug: surprise-reborn
   type: 1
   description: |-
-    On direct attack here, deploy the top card in your grave here
-    It must be a unit
+    On direct attack, deploy the top card in your grave here
+    if it's a unit
   lore: Strumming melodies that ripple through life and death, Orpheus's Lyre
     breathes hope into lost souls, turning despair into a dance of resurrection.
   effects:
@@ -1903,7 +1905,7 @@
   power: 5
 - id: 375
   slug: patience-zero
-  description: at the end of your turn, if I am in your hand - discard me
+  description: Discard me if I am in your hand when your turn ends
   lore: Impulsive as a summer storm and impatient as the wind, Puck brings an
     unpredictable energy, leaving a trail of chaos and merriment in his wake.
   effects:
@@ -2673,7 +2675,7 @@
 - id: 438
   slug: cowardly-giant
   description: |-
-    Return me to your hand after I am attacked
+    I return to your hand after I am attacked
     if still in play
   lore: A boar-headed hero of muddled courage, ever teetering between battle and
     retreat, his legendary journey is driven by a love for indulgence and a
@@ -2776,7 +2778,7 @@
 - id: 385
   slug: nimbleguard
   description: |-
-    After enemy unit is deployed anywhere, move me in front of it
+    I move in front any deployed enemy unit
     if possible
   lore: Swift as a shadow and nimble as a cat, Zorro darts through danger, his
     blade always ready to dance with a worthy opponent.
@@ -4921,7 +4923,7 @@
   slug: surprise-attack
   type: 1
   description: |-
-    When enemy unit is deployed here your unit performs a free attack
+    Your unit here performs a free attack, when opposing enemy unit is played
     You must have a unit here
   lore: "The Night Attack at Târgoviște: Vlad the Impaler, also known as Dracula,
     launched a surprise night attack against the invading Ottoman forces."
@@ -6602,7 +6604,7 @@
   name: Fateweaver
 - id: 419
   slug: returner
-  description: Return me to your hand if I'm on top of your grave as your turn begins
+  description: I return to your hand if I'm on top of your grave as your turn begins
   lore: >-
     As unyielding as the ancient oaks, the Green Knight endures, his vitality a
     riddle wrapped in nature's everlasting green.
@@ -6921,7 +6923,7 @@
 - id: 401
   slug: jill
   description: |-
-    Revive Orpheus to my RIGHT when I enter play
+    Revive Orpheus to my RIGHT when I when I'm played
     if possible and he is in your grave
   lore: Eurydice's spirit, a testament to a bond that transcends death,
     illuminates love's enduring power, making each heartbeat a love song to
@@ -6953,7 +6955,8 @@
 - id: 400
   slug: jack
   description: |-
-    Revive Eurydice to my LEFT when I enter play
+    Revive Eurydice to my LEFT
+    when I'm played
     if possible and she is in your grave
   lore: Bound by a love that outlasts life itself, Orpheus would cross even the
     doors of death, his melody a pledge to his beloved Eurydice.
