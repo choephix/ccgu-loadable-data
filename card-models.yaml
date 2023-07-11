@@ -1033,7 +1033,7 @@
         get.rightUnit(card) &&
         !get.sameLaneUnit(card)
       perform: |-
-        op.moveTo(
+        op.forceRelocate(
           get.rightUnit(card), 
           get.sameLaneUnitField(card)
         )
@@ -1059,7 +1059,7 @@
         get.leftUnit(card) &&
         !get.sameLaneUnit(card)
       perform: |-
-        op.moveTo(
+        op.forceRelocate(
           get.leftUnit(card), 
           get.sameLaneUnitField(card)
         )
