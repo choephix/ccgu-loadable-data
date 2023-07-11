@@ -6,20 +6,26 @@
       eventStatus: ended
       condition: card === event.card
       perform: |-
-        op.spawnToken(
-          player.fieldsUnit[0], 'token-0');
-        op.spawnToken(
-          player.fieldsUnit[1], 'token-0');
-        op.spawnToken(
-          opponent.fieldsUnit[0], 'token-0');
-        op.spawnToken(
-          opponent.fieldsUnit[1], 'token-0');
+        function foo(p) {
+          for (const field of p.fieldsUnit) {
+            if (field.hasCards) continue
+            
+            const u = p.deck.topCard
+            if (!u?.isUnitType) continue
+            
+            op.moveTo(u, field)
+          }
+        }
+
+        foo(player)
+        foo(opponent)
+
         opponent.units.forEach(op.kill);
         player.units.forEach(op.kill);
       allowedLots:
         - unit-field
   guid: dab838f0-0ca1-b646-7865-1e3a2adaf02e
-  name: --grave-filler-mini
+  name: --grave-filler-mini2
 - id: 60
   slug: --grave-filler-dual
   effects:
