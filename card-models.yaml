@@ -232,7 +232,7 @@
   effects: {}
   guid: af573ebb-4f47-3a73-bfb5-73c25190d4c1
   name: Nisse
-  power: 3
+  power: 5
   art: /tokens/nisse
 - id: 403
   slug: freejimmy
