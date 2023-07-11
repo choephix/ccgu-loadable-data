@@ -2,13 +2,10 @@
   slug: token-on-deploy2
   type: 1
   description: >-
-    Spawn a 4{{powered}} "Will o' the wisp" token to your side when opposing
+    Spawn a 4{{powered}} token to your side when opposing
     enemy unit is deployed
 
     if possible
-  notes: |-
-    Token: "Nisse"?
-    Call of the Nisse
   effects:
     active:
       eventName: DeployUnit
@@ -955,7 +952,7 @@
         !get.sameLaneUnitField(card).hasCards
       perform: |-
         const field = get.sameLaneUnitField(card)
-        op.spawnToken(field, 'wisp-token')
+        op.spawnToken(field, 'nisse-token')
   art: /temp/beartrap
   guid: 7b56a5c5-71bc-d653-3098-2dd6e8e17b3b
   name: Call of the Nisse
