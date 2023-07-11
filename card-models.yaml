@@ -1,3 +1,13 @@
+- id: 319
+  slug: jabberwock
+  lore: Brimbling with murkitude in the duskish dim, skraggling with its
+    blibberous eyes and grinfanging jaws, hurling a cold squibber of dread into
+    the heart of the most bandersome quester.
+  effects: {}
+  guid: 8b7c3d76-d0d0-da77-e613-eb44e270b548
+  name: Jabberwock
+  power: 5
+  art: /jabberwock
 - id: 362
   slug: token-on-deploy2
   type: 1
@@ -699,12 +709,12 @@
 - id: 271
   slug: marvellous-koi
   description: |-
-    On deploy: Gain 4 HP
-    On death: Lose 5 HP
+    On deploy: Gain 10{{hp}}
+    On death: Lose 10{{hp}}
   effects: {}
   guid: 2eb984ca-fea4-fc3b-52a5-9d81eaee4740
   name: marvellous-koi
-  power: 4
+  power: 1
 - id: 420
   slug: hard-skin
   description: +3{{power}} during enemy turn
