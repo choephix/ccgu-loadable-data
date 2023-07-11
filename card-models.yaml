@@ -1,3 +1,24 @@
+- id: 609
+  slug: curious-beaver
+  description: |-
+    Move all enemy units to the right when I am played
+    where possible
+  notes: |-
+    Yemaya?
+    Aegir?
+    Susanoo?
+  tags:
+    - grand
+  effects: {}
+  guid: ff82fece-0b02-de33-91ef-083e2388f7ce
+  power: 6
+- id: 608
+  slug: energetic-skunk
+  description: |-
+    Move all your units to the left when I am played
+    where possible
+  effects: {}
+  guid: e06da3e6-9286-e335-e6ef-89152814681b
 - id: 319
   slug: jabberwock
   lore: Brimbling with murkitude in the duskish dim, skraggling with its
