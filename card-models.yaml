@@ -1,5 +1,16 @@
+- id: 309
+  slug: mephisto-token
+  lore: Engaging in a pact with Mephistopheles is a gamble with fate itself, where
+    the promise of power could metamorphose into a deadly backlash.
+  effects: {}
+  guid: 4dc76f1f-fb9f-74d5-fa88-d3aa11b98e1c
+  art: /mephistopheles
+  name: Mephistopheles
+  power: 9
 - id: 308
   slug: grendels-mom-token
+  lore: A lurking terror in the deep, Grendel's Mother rises to exact vengeance,
+    her monstrous retribution a nightmare awakened by her offspring's demise.
   tags:
     - token
   effects: {}
@@ -9,12 +20,16 @@
   power: 7
 - id: 405
   slug: premedical-yellowlegs
-  description: Spawn an 7{{power}} token in your hand when I die
+  description: Spawn an 7{{power}} token in your hand when I die from combat
+  lore: Be on guard dispatching this particular foe, for you are bound to invite
+    the wrath of his vengeful mother!
   effects:
     active:
       eventName: UnitDie
       eventStatus: ended
-      condition: event.card === card
+      condition: |-
+        event.card === card &&
+        event.death_type === "combat"
       perform: |-
         op.spawnToken(
           player.hand, 'grendels-mom-token')
@@ -30,6 +45,7 @@
   description: The moment there is no enemy here I return to the hand
   effects: {}
   guid: 4923e18b-2a7a-83e8-e321-a2f534895d67
+  name: spatial-pygmy
 - id: 392
   slug: powerup
   type: 1
