@@ -1,3 +1,14 @@
+- id: 48
+  slug: dud
+  lore: Dumb luck...
+  tags:
+    - token
+  effects:
+    overrides:
+      blockDeploymentTo: "false"
+  guid: 2a1c448d-7ef1-4a78-2234-fe7b53a5b9bc
+  name: Dud
+  power: 15
 - id: 609
   slug: curious-beaver
   description: |-
