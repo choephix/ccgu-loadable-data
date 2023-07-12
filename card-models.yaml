@@ -3407,6 +3407,7 @@
       condition: "true"
       perform: |-
         op.kill(event.card)
+        op.op.draw(player)
         op.addToHand(card, player)
   guid: eb3f4da9-c209-1305-0dd4-7cae6cc9f4de
   name: Kill-Any-Unit
