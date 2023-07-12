@@ -3392,10 +3392,17 @@
   slug: -killany
   type: 1
   description: kill first unit deployed
+  tags:
+    - global
   pdc: -1
   status: 7
   priority: 3
-  effects: {}
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: "true"
+      perform: op.kill(event.card)
   guid: eb3f4da9-c209-1305-0dd4-7cae6cc9f4de
   name: -killany
 - id: 51
