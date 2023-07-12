@@ -1,3 +1,17 @@
+- id: 36
+  slug: draupnir
+  tags:
+    - token
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: event.card === card
+      perform: op.spawnToken(player.hand, 'draupnir')
+      allowedLots:
+        - unit-field
+  guid: 0ae1518f-a398-4c1d-39c6-bc1467df0b17
+  name: Draupnir
 - id: 317
   slug: elegant-walter
   description: -3{{power}} to enemy unit here when I die
