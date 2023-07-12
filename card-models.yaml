@@ -6577,13 +6577,27 @@
   guid: ea9b4a78-31f4-99cc-1e33-5de272a0497e
   name: ti364w
   power: 3
-- id: 3623
+- id: 316
   slug: drawhater
   description: Every time the enemy draws a card, decrease my power by 1.
-  effects: {}
+  lore: Blessed with immortality but cursed to wither, Tithonus fades over time,
+    his strength ebbing away with each passing moment like a shadow at dawn.
+  effects:
+    active:
+      eventName: Draw
+      eventStatus: ended
+      condition: event.player === opponent
+      perform: |-
+        op.addTempFx(
+          card,
+          tg => tg.pass.lowerPower(card, 1)
+        )
+      allowedLots:
+        - unit-field
   guid: bac2dd35-ae73-6040-bd9f-b3118c58bde7
-  name: Axer
+  name: Tithonus
   power: 9
+  art: /dietrich
 - id: 3614
   slug: drawrager2
   description: Increase my power by 1 every time you draw a card.
