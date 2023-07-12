@@ -1,4 +1,27 @@
-- id: 377
+- id: 317
+  slug: elegant-walter
+  description: -3{{power}} to enemy unit here when I die
+  effects:
+    active:
+      eventName: UnitDie
+      eventStatus: began
+      condition: |-
+        event.card === card &&
+        get.opposingUnit(card)
+      perform: |-
+        const foe = get.opposingUnit(card)
+        op.addTempFx(
+          foe, 
+          tg => tg.pass.lowePower(foe, 3)
+        )
+  guid: 767a8487-8298-efb4-a42d-a5ebf4d6e611
+  power: 2
+- id: 318
+  slug: witty-meerkat
+  description: +2 to ally units while I am on top of your grave
+  effects: {}
+  guid: 00a2376c-237e-025a-b712-deb56e3352b6
+- id: 325
   slug: mythical-hoki
   description: |-
     +X{{ap}} equal to the enemy's numeric superiority
@@ -6,6 +29,7 @@
   effects:
     active:
       eventName: DeployUnit
+      eventStatus: ended
       condition: event.card === card
       perform: |-
         const bonus = 
@@ -191,7 +215,7 @@
   name: Jabberwock
   power: 5
   art: /jabberwock
-- id: 362
+- id: 363
   slug: token-on-deploy2
   type: 1
   description: |-
@@ -255,9 +279,17 @@
 - id: 382
   slug: spatial-pygmy
   description: The moment there is no enemy here I return to the hand
-  effects: {}
+  effects:
+    active:
+      eventName: Any
+      eventStatus: ended
+      condition: "!get.opposingUnit(card)"
+      perform: op.addToHand(card, player)
+      allowedLots:
+        - unit-field
   guid: 4923e18b-2a7a-83e8-e321-a2f534895d67
   name: spatial-pygmy
+  power: 9
 - id: 392
   slug: powerup
   type: 1
@@ -651,7 +683,7 @@
   guid: c975d9b5-3f58-30c1-1192-d8cb2d5ae481
   name: Bouncy
   power: 5
-- id: 325
+- id: 326
   slug: fibre-turtle
   description: |-
     No ally units in play?
@@ -715,7 +747,7 @@
   effects: {}
   guid: 192469bb-4169-d1fe-691d-2a79bb2af4e7
   name: Jeanne Hachette
-- id: 326
+- id: 377
   slug: proud-whale
   description: I deal 2 damage the the enemy player when attacked.
   lore: The porcupine is a mammal with sharp quills that can cause pain to
@@ -1182,7 +1214,7 @@
   art: /temp/beartrap
   guid: 294447b1-beb2-1618-5d29-8182eee4f481
   name: The Battle of Trenton
-- id: 363
+- id: 364
   slug: from-the-left
   type: 1
   description: >-
@@ -1207,7 +1239,7 @@
         )
   guid: 294447b1-beb2-1618-5d29-8182eee4f481
   name: The Battle of Trenton 2
-- id: 379
+- id: 380
   slug: turnend
   type: 1
   description: End the turn immediately after enemy attack attack finishes here
@@ -2486,7 +2518,7 @@
   effects: {}
   guid: 8cc4afa4-1276-5506-1c7d-aa1052afd931
   name: drawnecro
-- id: 378
+- id: 379
   slug: taunt
   type: 1
   description: Force enemy unit deployed here to attack
