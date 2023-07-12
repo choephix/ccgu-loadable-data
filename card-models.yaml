@@ -7,7 +7,9 @@
       eventName: DeployUnit
       eventStatus: ended
       condition: event.card === card
-      perform: op.spawnToken(player.hand, 'draupnir')
+      perform: |-
+        player.actionPoints++
+        op.spawnToken(player.hand, 'draupnir')
       allowedLots:
         - unit-field
   guid: 0ae1518f-a398-4c1d-39c6-bc1467df0b17
