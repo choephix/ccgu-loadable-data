@@ -3394,7 +3394,10 @@
 - id: 52
   slug: -killany
   type: 1
-  description: kill first unit deployed
+  description: |-
+    kill first unit deployed
+    draw 1 card
+    return this to your hand
   tags:
     - global
   pdc: -1
