@@ -1,3 +1,19 @@
+- id: 377
+  slug: mythical-hoki
+  description: |-
+    +X{{ap}} equal to the enemy's numeric superiority
+    (number of enemy units minus the number of ally units in play)
+  effects:
+    active:
+      eventName: DeployUnit
+      condition: event.card === card
+      perform: |-
+        const bonus = 
+          opponent.units.length - player.units.length
+        player.actionPoints += bonus
+      allowedLots:
+        - unit-field
+  guid: 1f3367be-04db-e6bb-c2cb-2f4cb0af2818
 - id: 323
   slug: famous-brian
   description: I can only be played while you have no other cards
@@ -6,6 +22,7 @@
       blockDeploymentTo: player.units.length > 0
   guid: 0bf83fa5-e3bb-7bca-f0a3-56c94d85014b
   power: 8
+  name: famous-brian
 - id: 62
   slug: --grave-filler3
   effects:
@@ -3363,7 +3380,20 @@
   description: Draw 6 cards when I am deployed.
   status: 7
   priority: 3
-  effects: {}
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: event.card === card
+      perform: |-
+        op.draw(player)
+        op.draw(player)
+        op.draw(player)
+        op.draw(player)
+        op.draw(player)
+        op.draw(player)
+      allowedLots:
+        - unit-field
   guid: 8cc74920-0ce0-2079-157a-fd7653ffec56
   name: -muchdraw
   power: 2
@@ -3734,15 +3764,16 @@
   power: 9
 - id: 324
   slug: deathdraw
-  description: Draw 2 cards when I die
+  description: Draw 3 cards when I die
   effects:
     active:
       eventName: UnitDie
       eventStatus: ended
       condition: event.card === card
       perform: |-
-        op.draw( player )
-        op.draw( player )
+        op.draw(player)
+        op.draw(player)
+        op.draw(player)
       allowedLots:
         - unit-field
         - grave
