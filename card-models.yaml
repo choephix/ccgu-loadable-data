@@ -16,11 +16,13 @@
         )
   guid: 767a8487-8298-efb4-a42d-a5ebf4d6e611
   power: 2
+  name: elegant-walter
 - id: 318
   slug: witty-meerkat
   description: +2 to ally units while I am on top of your grave
   effects: {}
   guid: 00a2376c-237e-025a-b712-deb56e3352b6
+  name: witty-meerkat
 - id: 325
   slug: mythical-hoki
   description: |-
@@ -38,6 +40,7 @@
       allowedLots:
         - unit-field
   guid: 1f3367be-04db-e6bb-c2cb-2f4cb0af2818
+  name: mythical-hoki
 - id: 323
   slug: famous-brian
   description: I can only be played while you have no other cards
@@ -3402,7 +3405,9 @@
       eventName: DeployUnit
       eventStatus: ended
       condition: "true"
-      perform: op.kill(event.card)
+      perform: |-
+        op.kill(event.card)
+        op.addToHand(card, player)
   guid: eb3f4da9-c209-1305-0dd4-7cae6cc9f4de
   name: Kill-Any-Unit
 - id: 51
