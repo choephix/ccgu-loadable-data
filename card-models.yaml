@@ -258,7 +258,7 @@
   art: /grendel-mom
   power: 7
 - id: 405
-  slug: premedical-yellowlegs
+  slug: grendel
   description: 7{{powered}} token spawns in your hand when I die from combat
   lore: Be on guard dispatching this particular foe, for you are bound to invite
     the wrath of his vengeful mother!
