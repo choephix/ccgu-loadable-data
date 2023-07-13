@@ -816,7 +816,7 @@
   guid: 847fc569-a396-f9da-3422-837392c88113
   name: fibre-turtle
   power: 7
-- id: 454
+- id: 457
   slug: ereshkigal
   description: +1{{power}} for each card in your graveyard
   lore: The dreaded queen of the underworld, rules over death's silent realm, her
@@ -1346,7 +1346,7 @@
         )
   guid: 294447b1-beb2-1618-5d29-8182eee4f481
   name: The Battle of Trenton 2
-- id: 380
+- id: 462
   slug: turnend
   type: 1
   description: End the turn immediately after enemy attack attack finishes here
@@ -2625,11 +2625,11 @@
   effects: {}
   guid: 8cc4afa4-1276-5506-1c7d-aa1052afd931
   name: drawnecro
-- id: 379
+- id: 463
   slug: taunt
   type: 1
   description: Force enemy unit deployed here to attack
-  lore: The muleta dances in the ring, a flashing beacon that tests courage and
+  lore: The red cape dances in the ring, a flashing beacon that tests courage and
     tempts the charging bull with its crimson challenge.
   rarity: 6
   pdc: -1
@@ -2644,7 +2644,7 @@
       perform: op.forceAttack( event.card )
   art: /temp/beartrap
   guid: bdaf0351-9f2b-859c-d4e7-7b35dcae8645
-  name: The Red Cape
+  name: Muleta
 - id: 334
   slug: indoctronate
   type: 1
