@@ -1,6 +1,59 @@
+- id: 456
+  slug: mars
+  lore: When the battlefield churns with unbridled aggression, madness painted on
+    the faces of friends and foes alike, one can sense the insidious influence
+    of the Avenger's command.
+  tags:
+    - grand
+  effects:
+    active:
+      eventName: TurnBegin
+      eventStatus: ended
+      condition: get.currentPlayer.units.length > 0
+      perform: |-
+        for (const u of get.currentPlayer.units) {
+          op.forceAttack(u)
+        }
+  guid: 4e48f677-2c40-f391-8d32-bed911b09c20
+  name: Mars Ultor
+  art: /mars
+  power: 8
+- id: 310
+  slug: animal-token
+  lore: Wild Animal
+  tags:
+    - token
+  effects: {}
+  guid: 49c7dde2-6c7c-f993-4fa7-f9dec1ea91a7
+  power: 4
+  art: /tokens/tiger
+- id: 502
+  slug: circe
+  description: |-
+    Destroy opposing enemy unit and spawn a 5{{powered}} token in their place
+    when I enter play
+  tags:
+    - grand
+  effects:
+    active:
+      eventName: DeployUnit
+      condition: |-
+        event.card === card &&
+        get.opposingUnit(card)
+      perform: |-
+        const foe = get.opposingUnit(card)
+        op.kill(card)
+        const lot = get.opposingUnitField(card)
+        op.spawnToken(lot, 'animal-token')
+  guid: 3333ae13-1e75-d843-e1ec-cfbda098cb8d
+  name: Circe
+  power: 6
 - id: 455
   slug: discordia
   description: +5{{power}} to units on both sides
+  lore: With a devilish grin, Discordia sprinkles chaos into the hearts of all,
+    stoking their power into a blazing inferno, before stepping back to relish
+    in the ensuing pandemonium.
   tags:
     - grand
   effects:
@@ -783,7 +836,7 @@
   art: /ereshkigal
   guid: b4a87403-430f-7687-e001-98dc71c53a73
   name: Ereshkigal
-- id: 462
+- id: 383
   slug: novel-lynx
   description: +10 during your turn
   lore: An Aztec deity of the sun and war, Huitzilopochtli was central to the
@@ -1501,7 +1554,7 @@
       eventName: TurnBegin
       eventStatus: ended
       condition: event.player === player
-      perform: op.forceAttack( card )
+      perform: op.forceAttack(card)
       allowedLots:
         - unit-field
   art: /fenrir
