@@ -1,3 +1,25 @@
+- id: 455
+  slug: discordia
+  description: +5{{power}} to units on both sides
+  tags:
+    - grand
+  effects:
+    passive:
+      condition: "true"
+      perform: |-
+        const bonus = 5
+        const allUnits = [
+          ...player.units, 
+          ...opponent.units
+        ]
+        for (const u of allUnits) {
+          pass.raisePower(u, 5)
+        }
+      allowedLots:
+        - unit-field
+  guid: d03b95de-425a-65a4-06fa-14efa5cc6a37
+  name: Discordia
+  power: 5
 - id: 419
   slug: returner2
   description: I return to your hand if I'm on top of your grave as your turn begins
@@ -368,7 +390,7 @@
   name: Anne Bonny
   power: 6
   art: /anne-bonny
-- id: 376
+- id: 481
   slug: grand-killa
   description: +10{{power}} against a GRAND unit
   lore: No giant is too towering, no obstacle too vast for David, whose strength
@@ -496,7 +518,7 @@
   guid: d733ae6a-414f-023c-4992-e99fea422de6
   name: Puss in Boots
   power: 2
-- id: 369
+- id: 448
   slug: trapcho
   description: +6 while facing an enemy trap
   lore: Anansi's quick wit and cunning turn threats into triumphs, making him a
@@ -511,7 +533,7 @@
   name: Anansi
   power: 1
   art: /anansi
-- id: 373
+- id: 452
   slug: will-o-the-wisp
   description: |-
     Move enemy unit here when deployed anywhere
@@ -559,7 +581,7 @@
   guid: e156e58b-3903-0196-a55c-cef515c0dcdd
   name: Selfless Sparrow
   power: 1
-- id: 374
+- id: 480
   slug: exponanta
   description: |-
     +X{{power}}, X = 2 exponentiated by your energy
@@ -594,7 +616,7 @@
   guid: afe2f4b6-3b5a-e47f-8ac1-fddbe4836fff
   name: Tiger
   power: 5
-- id: 372
+- id: 451
   slug: necropy
   description: |-
     +X{{power}}, equal to the enemy grave's top card
@@ -741,7 +763,7 @@
   guid: 847fc569-a396-f9da-3422-837392c88113
   name: fibre-turtle
   power: 7
-- id: 368
+- id: 454
   slug: ereshkigal
   description: +1{{power}} for each card in your graveyard
   lore: The dreaded queen of the underworld, rules over death's silent realm, her
@@ -789,7 +811,7 @@
   effects: {}
   guid: 192469bb-4169-d1fe-691d-2a79bb2af4e7
   name: Jeanne Hachette
-- id: 377
+- id: 482
   slug: proud-whale
   description: I deal 2 damage the the enemy player when attacked.
   lore: The porcupine is a mammal with sharp quills that can cause pain to
@@ -812,16 +834,6 @@
   guid: d1d80930-4073-c9f2-5f9d-4f38f06685e0
   name: duelista
   power: 4
-- id: 463
-  slug: token-spawner-backup
-  description: When I die, summon a 0 power token creature in my place.
-  notes: 'Token: "Little Loaf of Bread"'
-  tags:
-    - sneak
-  effects: {}
-  guid: e053ce66-d442-4da5-9d05-c4098cf6f191
-  name: The Little Red Hen
-  power: 1
 - id: 1537
   slug: brave-benjamin
   effects: {}
@@ -963,7 +975,7 @@
   guid: 2b0ed5c3-5521-ca41-f2bb-ff7607b08fea
   name: Faust
   power: 5
-- id: 271
+- id: 315
   slug: marvellous-koi
   description: |-
     On deploy: Gain 10{{hp}}
@@ -1431,7 +1443,7 @@
   guid: a9fb5b3c-0c8a-a10c-6a8c-8ed91952bc46
   name: Mercury
   power: 5
-- id: 370
+- id: 449
   slug: swapper
   lore: As nimble as the wind and as elusive as a thought, Br'er Rabbit darts
     through life's mazes, always a hop ahead of trouble.
@@ -2119,7 +2131,7 @@
   guid: 6f7f792b-0da9-f90d-a7a5-9245606bbae8
   name: trapazan
   power: 5
-- id: 375
+- id: 453
   slug: patience-zero
   description: Discard me if I am in your hand when your turn ends
   lore: Impulsive as a summer storm and impatient as the wind, Puck brings an
@@ -3160,7 +3172,7 @@
   guid: 00badf76-e490-b5e6-9b31-a3986978ca5e
   name: Grand Traitor
   power: 14
-- id: 371
+- id: 450
   slug: man-of-honor
   description: I will not attack without a foe here
   lore: Clad in shining armor, his unwavering nobility lights the path to
@@ -5540,7 +5552,7 @@
   guid: e373c336-f554-700d-e05a-48ed858e6029
   name: johnny1
   power: 6
-- id: 449
+- id: 271
   slug: emma
   description: If your current AP is 0, you can summon me for no mana cost.
   lore: "(Middle Eastern and Central Asian Folklore): A satirical Sufi figure
@@ -5865,7 +5877,7 @@
   guid: cead0021-5e03-b6aa-c8f9-99cd26581f3c
   name: Tricky Necromancer
   power: 1
-- id: 464
+- id: 270
   slug: banana-b
   description: >-
     IN-HAND
@@ -6005,7 +6017,7 @@
   guid: ca3a4ca9-ca25-0d16-86a5-8519e7402e0b
   name: Joe Blow
   power: 5
-- id: 448
+- id: 269
   slug: banana-a
   description: >-
     IN-HAND
