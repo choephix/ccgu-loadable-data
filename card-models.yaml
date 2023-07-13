@@ -51,9 +51,9 @@
 - id: 455
   slug: discordia
   description: +5{{power}} to units on both sides
-  lore: With a devilish grin, Discordia sprinkles chaos into the hearts of all,
-    stoking their power into a blazing inferno, before stepping back to relish
-    in the ensuing pandemonium.
+  lore: With a devilish grin, she sprinkles chaos into the hearts of all, stoking
+    their power into a blazing inferno, fanning the flames of conflict, before
+    stepping back to savor the pandemonium.
   tags:
     - grand
   effects:
