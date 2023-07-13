@@ -27,6 +27,7 @@
   guid: 49c7dde2-6c7c-f993-4fa7-f9dec1ea91a7
   power: 4
   art: /tokens/tiger
+  name: animal-token
 - id: 502
   slug: circe
   description: |-
@@ -1415,7 +1416,7 @@
   guid: 8e2d8db0-129c-bb90-5203-0ef032b79e93
   name: Banshee
   power: 1
-- id: 354
+- id: 465
   slug: shonen
   description: +1{{power}} per enemy unit in play.
   lore: A towering colossus of war, embodies indomitable strength and unwavering
@@ -2979,7 +2980,7 @@
   guid: c4e29441-a2d6-5d2e-e90d-67c1d4b90213
   name: Zhu Bajie
   power: 10
-- id: 353
+- id: 466
   slug: antisocial-knight
   description: -3{{power}} per other friendly unit in play
   lore: Exceptionally strong, but doesn't like crowds.
@@ -5746,7 +5747,7 @@
   guid: 2f2f474a-e268-7bfb-81a2-f69188d45516
   name: Trap-Powered
   power: 4
-- id: 355
+- id: 464
   slug: producer
   description: +1{{power}} per card in your hand
   lore: His hammer strikes the anvil like lightning, forging from fire and metal
@@ -5983,7 +5984,7 @@
   guid: 573b5edb-f33c-4ef4-01de-9faaa0857931
   name: Cheerleader Harpy 2
   power: 4
-- id: 356
+- id: 467
   slug: darkassasin2
   description: -5{{hp}} for you when I attack
   lore: A cunning imp, forever bound to his word, known for turning straw into
