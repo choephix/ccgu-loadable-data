@@ -1,3 +1,26 @@
+- id: 419
+  slug: returner2
+  description: I return to your hand if I'm on top of your grave as your turn begins
+  lore: >-
+    As unyielding as the ancient oaks, the Green Knight endures, his vitality a
+    riddle wrapped in nature's everlasting green.
+
+
+    Bertilak de Hautdesert
+  effects:
+    active:
+      eventName: TurnBegin
+      eventStatus: ended
+      condition: |-
+        card.controller.grave.topCard === card && 
+        card.controller === get.currentPlayer
+      perform: op.addToHand( card, player )
+      allowedLots:
+        - grave
+  guid: daf9dcb2-0b3e-772b-1538-1d88ab4dafcf
+  art: /the-green-knight
+  name: The Green Knight
+  power: 4
 - id: 36
   slug: draupnir
   tags:
@@ -6836,15 +6859,11 @@
   effects: {}
   guid: cdcd74a9-158b-7117-a9c4-4732b4f7cc14
   name: Fateweaver
-- id: 419
+- id: 362
   slug: returner
   description: I return to your hand if I'm on top of your grave as your turn begins
-  lore: >-
-    As unyielding as the ancient oaks, the Green Knight endures, his vitality a
-    riddle wrapped in nature's everlasting green.
-
-
-    Bertilak de Hautdesert
+  lore: In the dance of life and death, the Benu Bird twirls, its resurrection an
+    awe-inspiring spectacle of rebirth that defies the finality of the end.
   tags:
     - sneak
   effects:
@@ -6857,9 +6876,9 @@
       perform: op.addToHand( card, player )
       allowedLots:
         - grave
-  art: /the-green-knight
+  art: /benu-bird
   guid: daf9dcb2-0b3e-772b-1538-1d88ab4dafcf
-  name: The Green Knight
+  name: The Benu Bird
   power: 2
 - id: 3126
   slug: badfate
