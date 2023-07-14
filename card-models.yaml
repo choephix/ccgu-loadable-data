@@ -105,6 +105,7 @@
   name: Hervor
 - id: 456
   slug: mars
+  description: ALL units auto-attack as their player's turn starts
   lore: When the battlefield churns with unbridled aggression, madness painted on
     the faces of friends and foes alike, one can sense the insidious influence
     of the Avenger's command.
