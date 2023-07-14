@@ -52,6 +52,9 @@
 - id: 384
   slug: combat-goose
   description: 10{{powered}} token spawns in my place after I relocate
+  notes: |-
+    or Echidna...
+    or Haphaestus...
   effects:
     active:
       eventName: UnitRelocate
