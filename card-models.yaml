@@ -49,9 +49,11 @@
   guid: fd012f20-363d-6a76-d1c0-ccc5aca9868f
   power: 10
   name: Clay Golem
+  art: /tokens/golem
 - id: 384
   slug: combat-goose
   description: 10{{powered}} token spawns in my place after I relocate
+  lore: A humble man with divine instruction, turning earthen dust to fervent life.
   notes: |-
     or Echidna...
     or Haphaestus...
@@ -68,7 +70,7 @@
         - grave
         - hand
   guid: e053ce66-d442-4da5-9d05-c4098cf6f191
-  art: /the-cheshire-cat
+  art: /rabbi-loew
   name: Rabbi Loew
   power: 1
 - id: 387
@@ -103,7 +105,7 @@
   power: 7
   art: /hervor
   name: Hervor
-- id: 456
+- id: 390
   slug: mars
   description: ALL units auto-attack as their player's turn starts
   lore: When the battlefield churns with unbridled aggression, madness painted on
@@ -155,7 +157,7 @@
   guid: 3333ae13-1e75-d843-e1ec-cfbda098cb8d
   name: Circe
   power: 6
-- id: 455
+- id: 389
   slug: discordia
   description: +5{{power}} to units on both sides
   lore: With a devilish grin, she sprinkles chaos into the hearts of all, stoking
@@ -180,6 +182,7 @@
   guid: d03b95de-425a-65a4-06fa-14efa5cc6a37
   name: Discordia
   power: 5
+  art: /discordia
 - id: 421
   slug: returner2
   description: I return to your hand if I'm on top of your grave as your turn begins
@@ -532,7 +535,7 @@
   guid: e3b41aa1-0f98-ec62-7c2b-2f8414025180
   name: Power Up
   art: /temp/beartrap
-- id: 454
+- id: 373
   slug: drawson
   description: Enemy draws 1 card when I attack
   lore: Swashbuckling through the high seas, Anne Bonny personifies the wild and
@@ -695,7 +698,7 @@
   guid: 4718eaac-6e8a-2cc5-9ee2-5622a89813e7
   name: Cu Chulainn
   power: 3
-  art: /chu-chulainn
+  art: /cuchulainn
 - id: 405
   slug: will-o-the-wisp
   description: |-
@@ -800,7 +803,7 @@
   art: /lilith
   guid: da711770-5ed0-4617-0f2a-b520d56d8912
   name: Lilith
-- id: 448
+- id: 368
   slug: shonen2
   description: +2{{power}} per enemy unit in play
   lore: Rome's one-eyed sentinel, he stood undaunted on the Tiber bridge, his
@@ -926,7 +929,7 @@
   guid: 847fc569-a396-f9da-3422-837392c88113
   name: fibre-turtle
   power: 7
-- id: 457
+- id: 406
   slug: ereshkigal
   description: +1{{power}} for each card in your graveyard
   lore: The dreaded queen of the underworld, rules over death's silent realm, her
@@ -1084,7 +1087,7 @@
   guid: bb757a5a-ddfa-73e6-9da0-0526faf78c3e
   name: Fafnir
   power: 1
-- id: 406
+- id: 376
   slug: sapper-grand
   description: -2{{power}} to all enemy units
   lore: With a whisper soft as the falling night, Nyx weaves dreams into reality,
@@ -1589,7 +1592,7 @@
   guid: e053ce66-d442-4da5-9d05-c4098cf6f191
   name: The Cheshire Cat
   power: 3
-- id: 390
+- id: 375
   slug: flappy-bird-grand
   lore: Swift as thought and unpredictable as the wind, Mercury's strikes come
     from all angles, his speed the heart of his relentless pursuit.
@@ -1601,7 +1604,7 @@
   guid: a9fb5b3c-0c8a-a10c-6a8c-8ed91952bc46
   name: Mercury
   power: 5
-- id: 449
+- id: 371
   slug: swapper
   lore: As nimble as the wind and as elusive as a thought, Br'er Rabbit darts
     through life's mazes, always a hop ahead of trouble.
@@ -3161,7 +3164,7 @@
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   name: honoraro-grand
   power: 7
-- id: 452
+- id: 372
   slug: nimbleguard
   description: |-
     I move in front any deployed enemy unit
@@ -3330,7 +3333,7 @@
   guid: 00badf76-e490-b5e6-9b31-a3986978ca5e
   name: Grand Traitor
   power: 14
-- id: 450
+- id: 370
   slug: man-of-honor
   description: I will not attack without a foe here
   lore: Clad in shining armor, his unwavering nobility lights the path to
@@ -7971,7 +7974,7 @@
   effects: {}
   guid: 35bf3d89-85d3-2fe2-71bd-de40ff122c97
   name: Crowd-Powered
-- id: 389
+- id: 374
   slug: mario
   description: |-
     I move right after attacking
