@@ -609,6 +609,9 @@
   description: +3 while facing an enemy trap
   lore: A titan against contraptions, he stands, fearless and invincible, a
     tempest amidst the trickery.
+  notes: |-
+    Cú Chulainn
+    ...
   effects:
     passive:
       condition: "!!get.opposingTrap(card)"
@@ -616,7 +619,7 @@
       allowedLots:
         - unit-field
   guid: 4718eaac-6e8a-2cc5-9ee2-5622a89813e7
-  name: Cú Chulainn
+  name: Cu Chulainn
   power: 3
   art: /chu-chulainn
 - id: 405
