@@ -5,6 +5,7 @@
   effects: {}
   guid: fd012f20-363d-6a76-d1c0-ccc5aca9868f
   power: 10
+  name: Clay Golem
 - id: 369
   slug: combat-goose
   description: 7{{powered}} token spawns in my place after I relocate
@@ -22,6 +23,7 @@
         - hand
   guid: e053ce66-d442-4da5-9d05-c4098cf6f191
   art: /the-cheshire-cat
+  name: Rabbi Loew
   power: 1
 - id: 387
   slug: trap-thief
@@ -920,11 +922,6 @@
   guid: a0537d41-fb40-021c-e3bf-43de93a71b4d
   name: generic5
   power: 5
-- id: 705
-  slug: successful-wallaroo
-  effects: {}
-  guid: 192469bb-4169-d1fe-691d-2a79bb2af4e7
-  name: Jeanne Hachette
 - id: 482
   slug: proud-whale
   description: I deal 2 damage the the enemy player when attacked.
