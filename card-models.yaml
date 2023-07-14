@@ -1,3 +1,19 @@
+- id: 43
+  slug: --force-all-atk
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: event.card === card
+      perform: |-
+        for (const u of player.units) {
+          op.forceAttack(u)
+        }
+      allowedLots:
+        - unit-field
+  guid: 7082b875-7dc4-b4d1-0dc3-d9ae5353d105
+  name: Force Attack For All!
+  power: 5
 - id: 42
   slug: --rush-and-die
   description: give everybody rush, but die after attack
