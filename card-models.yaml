@@ -5979,13 +5979,13 @@
   guid: e15e6908-0326-2866-ff73-f17594272af3
   name: Token Pooper
   power: 4
-- id: 835
+- id: 496
   slug: enraged
-  description: Raise my power by 1 each time a friendly creature is destroyed.
-    This effect resets after I finish an attack (successfully or not).
+  description: +1 every time an ally dies
+  notes: Resets after I finish an attack?
   effects: {}
   guid: aa43b737-6193-cb9d-3ebe-7bea5a77302a
-  name: Enraged
+  name: Achilles
   power: 4
 - id: 3324
   slug: hired-mage
