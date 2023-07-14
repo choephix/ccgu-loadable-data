@@ -1,8 +1,13 @@
+- id: 311
+  slug: big-token
+  tags:
+    - token
+  effects: {}
+  guid: fd012f20-363d-6a76-d1c0-ccc5aca9868f
+  power: 10
 - id: 369
-  slug: token-spawner
+  slug: combat-goose
   description: 7{{powered}} token spawns in my place after I relocate
-  lore: The Cheshire Cat, grinning from ear to ear, an enigmatic figure leaving
-    trails of mystery in its wake.
   effects:
     active:
       eventName: UnitRelocate
@@ -10,14 +15,13 @@
       condition: |-
         event.card === card &&
         card.prevLot?.isUnitField
-      perform: op.spawnToken(card.prevLot, 'grin-token')
+      perform: op.spawnToken(card.prevLot, 'big-token')
       allowedLots:
         - unit-field
         - grave
         - hand
   guid: e053ce66-d442-4da5-9d05-c4098cf6f191
   art: /the-cheshire-cat
-  name: The Cheshire Cat
   power: 1
 - id: 387
   slug: trap-thief
