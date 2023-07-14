@@ -557,7 +557,7 @@
   name: Anne Bonny
   power: 6
   art: /anne-bonny
-- id: 481
+- id: 395
   slug: grand-killa
   description: +10{{power}} against a GRAND unit
   lore: No giant is too towering, no obstacle too vast for David, whose strength
@@ -786,7 +786,7 @@
   guid: afe2f4b6-3b5a-e47f-8ac1-fddbe4836fff
   name: Tiger
   power: 5
-- id: 451
+- id: 410
   slug: necropy
   description: |-
     +X{{power}}, equal to the enemy grave's top card
@@ -976,7 +976,7 @@
   guid: a0537d41-fb40-021c-e3bf-43de93a71b4d
   name: generic5
   power: 5
-- id: 482
+- id: 426
   slug: proud-whale
   description: I deal 2 damage the the enemy player when attacked.
   lore: The porcupine is a mammal with sharp quills that can cause pain to
@@ -2296,7 +2296,7 @@
   guid: 6f7f792b-0da9-f90d-a7a5-9245606bbae8
   name: trapazan
   power: 5
-- id: 453
+- id: 411
   slug: patience-zero
   description: Discard me if I am in your hand when your turn ends
   lore: Impulsive as a summer storm and impatient as the wind, Puck brings an
@@ -6777,7 +6777,7 @@
   guid: ea9b4a78-31f4-99cc-1e33-5de272a0497e
   name: ti364w
   power: 3
-- id: 316
+- id: 394
   slug: drawhater
   description: Every time the enemy draws a card, decrease my power by 1.
   lore: Blessed with immortality but cursed to wither, Tithonus fades over time,
