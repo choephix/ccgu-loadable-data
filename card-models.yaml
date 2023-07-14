@@ -1,4 +1,4 @@
-- id: 454
+- id: 387
   slug: trap-thief
   description: |-
     If the enemy grave's top card is a trap, take it
@@ -458,7 +458,7 @@
   guid: e3b41aa1-0f98-ec62-7c2b-2f8414025180
   name: Power Up
   art: /temp/beartrap
-- id: 387
+- id: 454
   slug: drawson
   description: Enemy draws 1 card when I attack
   lore: Swashbuckling through the high seas, Anne Bonny personifies the wild and
@@ -604,7 +604,7 @@
   guid: d733ae6a-414f-023c-4992-e99fea422de6
   name: Puss in Boots
   power: 2
-- id: 448
+- id: 386
   slug: trapcho
   description: +3 while facing an enemy trap
   lore: A titan against contraptions, he stands, fearless and invincible, a
@@ -619,7 +619,7 @@
   name: Cú Chulainn
   power: 3
   art: /chu-chulainn
-- id: 452
+- id: 405
   slug: will-o-the-wisp
   description: |-
     Move enemy unit here when deployed anywhere
@@ -723,7 +723,7 @@
   art: /lilith
   guid: da711770-5ed0-4617-0f2a-b520d56d8912
   name: Lilith
-- id: 386
+- id: 448
   slug: shonen2
   description: +2{{power}} per enemy unit in play
   lore: Rome's one-eyed sentinel, he stood undaunted on the Tiber bridge, his
@@ -3089,7 +3089,7 @@
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   name: honoraro-grand
   power: 7
-- id: 405
+- id: 452
   slug: nimbleguard
   description: |-
     I move in front any deployed enemy unit
