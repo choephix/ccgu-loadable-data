@@ -43,6 +43,7 @@
   name: Rush 'n Die!
 - id: 311
   slug: big-token
+  lore: From earth to life, he strides, a testament to the mystery of creation.
   tags:
     - token
   effects: {}
@@ -98,6 +99,8 @@
   art: /anansi
 - id: 314
   slug: adventurous-mouse
+  lore: Amidst spectres, she walks, her courage casting ripples in the echoing
+    silence.
   tags:
     - noattack
   effects: {}
@@ -128,14 +131,15 @@
   power: 8
 - id: 310
   slug: animal-token
-  lore: Wild Animal
+  lore: Humanity shed under her gaze, now echoes in the wilderness, longing for
+    the moon.
   tags:
     - token
   effects: {}
   guid: 49c7dde2-6c7c-f993-4fa7-f9dec1ea91a7
   power: 4
   art: /tokens/tiger
-  name: animal-token
+  name: Wild Animal
 - id: 502
   slug: circe
   description: |-
