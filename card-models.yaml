@@ -6,9 +6,9 @@
   guid: fd012f20-363d-6a76-d1c0-ccc5aca9868f
   power: 10
   name: Clay Golem
-- id: 369
+- id: 384
   slug: combat-goose
-  description: 7{{powered}} token spawns in my place after I relocate
+  description: 10{{powered}} token spawns in my place after I relocate
   effects:
     active:
       eventName: UnitRelocate
@@ -1573,7 +1573,7 @@
   guid: 44372e4e-629c-387c-6162-e52dccc7029c
   name: Flashforward
   power: 4
-- id: 384
+- id: 369
   slug: harassingmia
   description: I return to your hand after your turn
   lore: Tiny but swift, Thumbelina flutters through life, her nimble size making
