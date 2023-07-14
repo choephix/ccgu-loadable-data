@@ -9,7 +9,6 @@
       eventStatus: ended
       condition: |-
         event.card === card &&
-        event.death_type === 'combat' &&
         card.prevLot?.isUnitField
       perform: op.spawnToken(card.prevLot, 'grin-token')
       allowedLots:
@@ -1519,7 +1518,7 @@
   name: geinhildr
   power: 1
 - id: 437
-  slug: token-spawner
+  slug: token-spawner-0.ev4e44lyd5l0.8ov60niaefn
   description: 0{{powered}} token spawns in my place after I die in combat
   lore: The Cheshire Cat, grinning from ear to ear, an enigmatic figure leaving
     trails of mystery in its wake.
