@@ -1,3 +1,24 @@
+- id: 454
+  slug: trap-thief
+  description: +6 while facing an enemy trap
+  lore: Anansi's quick wit and cunning turn threats into triumphs, making him a
+    formidable adversary amidst the tapestry of deception.
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: |-
+        event.card === card &&
+        opponent.grave.topCard.isTrapType
+      perform: |-
+        const c = opponent.grave.topCard.isTrapType
+        op.addToHand(c, player)
+      allowedLots:
+        - unit-field
+  guid: 4718eaac-6e8a-2cc5-9ee2-5622a89813e7
+  name: Anansi
+  power: 1
+  art: /anansi
 - id: 314
   slug: adventurous-mouse
   tags:
@@ -583,9 +604,9 @@
   power: 2
 - id: 448
   slug: trapcho
-  description: +6 while facing an enemy trap
-  lore: Anansi's quick wit and cunning turn threats into triumphs, making him a
-    formidable adversary amidst the tapestry of deception.
+  description: +3 while facing an enemy trap
+  lore: A titan against contraptions, he stands, fearless and invincible, a
+    tempest amidst the trickery.
   effects:
     passive:
       condition: "!!get.opposingTrap(card)"
@@ -593,9 +614,9 @@
       allowedLots:
         - unit-field
   guid: 4718eaac-6e8a-2cc5-9ee2-5622a89813e7
-  name: Anansi
-  power: 1
-  art: /anansi
+  name: Cú Chulainn
+  power: 3
+  art: /chu-chulainn
 - id: 452
   slug: will-o-the-wisp
   description: |-
