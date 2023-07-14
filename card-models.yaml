@@ -32,9 +32,9 @@
       eventStatus: ended
       condition: |-
         event.card === card &&
-        opponent.grave.topCard.isTrapType
+        !!opponent.grave.topCard?.isTrapType
       perform: |-
-        const c = opponent.grave.topCard.isTrapType
+        const c = opponent.grave.topCard
         op.addToHand(c, player)
       allowedLots:
         - unit-field
