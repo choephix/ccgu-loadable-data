@@ -1,3 +1,30 @@
+- id: 42
+  slug: --rush-and-die
+  description: give everybody rush, but die after attack
+  tags:
+    - rush
+  effects:
+    active:
+      eventName: UnitAttack
+      eventStatus: ended
+      condition: event.card === card
+      perform: |-
+        for (const u of player.units) {
+          op.kill(u)
+        }
+      allowedLots:
+        - unit-field
+    passive:
+      condition: "true"
+      perform: |-
+        for (const u of player.units) {
+          pass.addTag(card, 'rush')
+        }
+      allowedLots:
+        - unit-field
+        - hand
+  guid: a6ac2665-a6a1-5b03-acba-9bb4da42419c
+  name: Rush 'n Die!
 - id: 311
   slug: big-token
   tags:
