@@ -125,6 +125,8 @@
         for (const u of get.currentPlayer.units) {
           op.forceAttack(u)
         }
+      allowedLots:
+        - unit-field
   guid: 4e48f677-2c40-f391-8d32-bed911b09c20
   name: Mars Ultor
   art: /mars
@@ -728,6 +730,7 @@
   guid: c234e201-18a9-99f7-377d-69606c728a40
   name: Will o' the wisp
   power: 3
+  art: /wisp
 - id: 432
   slug: nimbleguard2
   description: |-
