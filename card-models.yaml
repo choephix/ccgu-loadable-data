@@ -17,6 +17,7 @@
         - unit-field
   guid: 2e097143-f758-0153-ed1d-75821f0a2347
   name: Huitzilopochtli V3
+  art: /huitzilopochtli
 - id: 442
   slug: kobold
   description: "Combat-Flip: Set enemy {{ap}} to 0"
