@@ -1,3 +1,16 @@
+- id: 442
+  slug: kobold
+  description: "Combat-Flip: Set enemy {{ap}} to 0"
+  tags:
+    - sneak
+  effects:
+    flip:
+      manner: combat
+      perform: opponent.actionPoints = 0
+  guid: 330d7a66-d220-9e61-1941-9e78e53495ab
+  power: 2
+  art: /kobold
+  name: Kobold
 - id: 378
   slug: slithery-crayfish
   description: I kill and take the power of any unit you play face up
