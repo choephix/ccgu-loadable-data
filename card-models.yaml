@@ -999,6 +999,7 @@
   guid: 210ddd9a-a696-6689-4ea8-00dba7b272f6
   name: Porcupine
   power: 2
+  art: /porcupine
 - id: 345
   slug: duelista
   description: While both player have only one unit in play each, both have +10{{power}}
