@@ -11,7 +11,7 @@
   power: 2
   art: /kobold
   name: Kobold
-- id: 378
+- id: 412
   slug: slithery-crayfish
   description: I kill and take the power of any unit you play face up
   lore: An Aztec deity of the sun and war, Huitzilopochtli was central to the
@@ -36,7 +36,7 @@
   guid: 0b849789-9d28-adb8-5d30-f63f2fb61675
   name: Huitzilopochtli V2
   art: /huitzilopochtli
-- id: 377
+- id: 396
   slug: glorious-quelea
   description: When I enter play, I destroy all ally units and take their current power.
   lore: An Aztec deity of the sun and war, Huitzilopochtli was central to the
