@@ -2216,8 +2216,8 @@
   description: |-
     On direct attack, deploy the top card in your grave here
     if it's a unit
-  lore: Strumming melodies that ripple through life and death, Orpheus's Lyre
-    breathes hope into lost souls, turning despair into a dance of resurrection.
+  lore: Even death is but a whisper against its potent brew, stirring the fallen
+    back to life.
   effects:
     active:
       eventName: UnitAttackDirect
@@ -2232,7 +2232,7 @@
         op.deploy( player.grave.topCard, lot )
   art: /temp/beartrap
   guid: 32e847e6-dce8-b39e-db65-c218a4e5bf5f
-  name: Orpheus' Lyre
+  name: Cauldron of Rebirth
 - id: 822
   slug: modern-charles
   description: At the beginning of your turn, if the top card in your grave is a
