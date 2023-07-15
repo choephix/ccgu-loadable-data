@@ -1,3 +1,22 @@
+- id: 428
+  slug: average-lemur
+  description: When ally unit dies, add its power to mine
+  notes: Huītzilōpōchtli?
+  tags:
+    - grand
+  effects:
+    active:
+      eventName: UnitDie
+      eventStatus: ended
+      condition: event.card.controller === card.controller
+      perform: |-
+        const bonus = event.card.power
+        op.addTempFx(card, 
+          tg => tg.pass.raisePower(card, bonus))
+      allowedLots:
+        - unit-field
+  guid: 2e097143-f758-0153-ed1d-75821f0a2347
+  name: Huitzilopochtli V3
 - id: 442
   slug: kobold
   description: "Combat-Flip: Set enemy {{ap}} to 0"
