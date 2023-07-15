@@ -693,7 +693,7 @@
   lore: A titan against contraptions, he stands, fearless and invincible, a
     tempest amidst the trickery.
   notes: |-
-    CÃº Chulainn
+    Cú Chulainn
     ...
   effects:
     passive:
@@ -719,8 +719,7 @@
       condition: |-
         const foe = get.opposingUnit(card);
         event.card.controller === opponent &&
-        event.card !== foe &&
-        !foe
+        event.card !== foe && !foe
       perform: |-
         let lot = get.opposingUnitField(card)
         op.forceRelocate(event.card, lot)
@@ -1487,7 +1486,7 @@
     if still in play
   lore: An embodiment of living flame, the Salamander meets combat with explosive
     fury, turning every encounter into a fiery spectacle.
-  notes: BoitatÃ¡ ?
+  notes: Boitatá ?
   effects:
     active:
       eventName: UnitAttackCombat
@@ -3585,9 +3584,8 @@
 - id: 2
   slug: --shisno--
   description: |-
-    â¦ pow = 5 x field.index
-
-    â¦ PIERCING while A.P. at 0
+    ♦ pow = 5 x field.index
+    ♦ PIERCING while A.P. at 0
   lore: "[n.] Skunk's poo's poo"
   tags:
     - swapper
@@ -5211,7 +5209,7 @@
   description: Activate when opposing enemy creature starts an attack. If
     possible, summon @ritual_c_f2 from your hand on your own side of this
     column. If there is a friendly creature there, destroy it, but add its
-    current attack to %0.
+    current attack to %%0.
   effects: {}
   guid: af43845e-b5f6-2504-a5fe-87130a86f29d
   name: Supreme King Ritual
@@ -5350,12 +5348,12 @@
   description: |-
     Your unit here performs a free attack, when opposing enemy unit is played
     You must have a unit here
-  lore: "The Night Attack at TÃ¢rgoviÈte: Vlad the Impaler, also known as Dracula,
+  lore: "The Night Attack at Târgoviște: Vlad the Impaler, also known as Dracula,
     launched a surprise night attack against the invading Ottoman forces."
   notes: |-
     Qin's trap?
     The Battle of Trenton?
-    The Night Attack at TÃ¢rgoviÈte?
+    The Night Attack at Târgoviște?
   effects:
     active:
       eventName: DeployUnit
@@ -5819,8 +5817,8 @@
   slug: eddy-0.3lj8lqieak50.4q1uanxy9x4
   description: "When I am summoned, if possible:
 
-    If @ed is in play, add @edd from your deck to your hand.\rIf %1 is in
-    play, add %0 from your deck to your hand"
+    If @ed is in play, add @edd from your deck to your hand.\rIf %%1 is in
+    play, add %%0 from your deck to your hand"
   effects: {}
   guid: 89fd34c5-21a3-6832-a906-d0c827185051
   name: Eddy
@@ -5869,8 +5867,8 @@
   lore: His hammer strikes the anvil like lightning, forging from fire and metal
     tales of heroism and strength echoed in every creation.
   notes: |-
-    WÄland in Old English?
-    VÃ¶lundr in Old Norse?
+    Wēland in Old English?
+    Völundr in Old Norse?
   effects:
     passive:
       condition: "true"
@@ -6363,7 +6361,7 @@
   slug: grand-bloodhaggler
   description: |-
     When I am about to die,  if you have more than 5 LP,
-    abort my death, but take %0 direct damage.
+    abort my death, but take %%0 direct damage.
   tags:
     - grand
   effects: {}
@@ -6379,7 +6377,7 @@
   power: 6
 - id: 3644
   slug: drawson2
-  description: When I attack, if the enemy has 2 or more cards, they draw %0 cards.
+  description: When I attack, if the enemy has 2 or more cards, they draw %%0 cards.
   effects: {}
   guid: 83b81c15-26d6-f5d1-7921-f8437546e7d9
   name: drawson2
@@ -6706,7 +6704,7 @@
   description: >-
     @redirect_out must also be in play for activation.
 
-    Activate when opposing enemy creature attacks you directly. Negate the attack and activate %0.
+    Activate when opposing enemy creature attacks you directly. Negate the attack and activate %%0.
   effects: {}
   guid: 2c1a8a6c-21bb-c0d7-60f7-7b1a3d58da5a
   name: Portal Alpha
@@ -7151,8 +7149,8 @@
   slug: ed-0.2xcurakuczp0.u1bd94t67sb
   description: "When I am summoned, if possible:
 
-    If @edd is in play, add @eddy from your deck to your hand.\rIf %1 is in
-    play, add %0 from your deck to your hand"
+    If @edd is in play, add @eddy from your deck to your hand.\rIf %%1 is in
+    play, add %%0 from your deck to your hand"
   effects: {}
   guid: cfc28279-e8b4-e29c-b241-ea5f56cd9ee9
   name: Ed
@@ -7161,8 +7159,8 @@
   slug: edd-0.t277vg02nt90.lupaugkdbn
   description: "When I am summoned, if possible:
 
-    If @ed is in play, add @eddy from your deck to your hand.\rIf %1 is in
-    play, add %0 from your deck to your hand"
+    If @ed is in play, add @eddy from your deck to your hand.\rIf %%1 is in
+    play, add %%0 from your deck to your hand"
   effects: {}
   guid: 6aafb529-b38b-131d-3470-a337848a160d
   name: Edd
@@ -7598,7 +7596,7 @@
   type: 1
   description: Activate only when the effect of your @redirect_in is activated.
     Deal damage to the enemy equal to the power of the enemy creature opposite
-    to %0.
+    to %%0.
   effects: {}
   guid: 31ccc661-eefd-4154-411c-bb4cda51bf4a
   name: Portal Omega
@@ -7631,7 +7629,7 @@
   description: "Safe-Flip:
 
     Raise my power by 8.\r\rAt the end of your every turn, if my power is 2
-    or higher, decrease it by %1."
+    or higher, decrease it by %%1."
   tags:
     - sneak
   effects: {}
@@ -7888,7 +7886,7 @@
 - id: 3651
   slug: m7x4yl
   description: Reduce the power of any enemy creatures on the opposing field by
-    %0 while I am in play.
+    %%0 while I am in play.
   tags:
     - grand
   effects: {}
