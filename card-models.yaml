@@ -952,7 +952,7 @@
       perform: |-
         const deadSoulsCount = 
           player.grave.cards.length || 0
-        pass.raisePower(card, deadSouls)
+        pass.raisePower(card, deadSoulsCount)
       allowedLots:
         - unit-field
         - hand
