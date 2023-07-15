@@ -1345,7 +1345,7 @@
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   name: Karna
   power: 9
-- id: 441
+- id: 393
   slug: steal-dead-unit
   type: 1
   description: |-
@@ -1469,7 +1469,7 @@
   art: /temp/beartrap
   guid: 7b56a5c5-71bc-d653-3098-2dd6e8e17b3b
   name: Call of the Nisse
-- id: 393
+- id: 441
   slug: from-the-right
   type: 1
   description: |-
