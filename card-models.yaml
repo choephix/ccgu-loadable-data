@@ -6000,11 +6000,25 @@
 - id: 496
   slug: enraged
   description: +1 every time an ally dies
+  lore: He mourns not in silence, but in thunderous fury, his sorrow echoing
+    through each enemy's defeat.
   notes: Resets after I finish an attack?
-  effects: {}
+  effects:
+    active:
+      eventName: UnitDie
+      eventStatus: ended
+      condition: event.card.controller === card.controller
+      perform: |-
+        const bonus = 1
+        op.addTempFx(
+          card, 
+          tg => tg.pass.raisePower(card, bonus))
+      allowedLots:
+        - unit-field
   guid: aa43b737-6193-cb9d-3ebe-7bea5a77302a
   name: Achilles
   power: 4
+  art: /achiles
 - id: 3324
   slug: hired-mage
   description: At the end of your turn if you have no mana - destroy me.
