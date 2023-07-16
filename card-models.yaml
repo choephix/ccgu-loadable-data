@@ -1,17 +1,18 @@
 - id: 38
-  slug: spying-james
+  slug: --bond
   description: While I am in play - opponent keeps the top card in his deck
     face-up at all times.
   effects:
     passive:
       condition: opponent.deck.hasCards
       perform: |-
-        let target = opponent.deck.topCard
-        pass.setFaceUp( target, true )
+        pass.setFaceUp(opponent.deck.topCard, true)
+        pass.setFaceUp(player.deck.topCard, true)
       allowedLots:
         - unit-field
+        - hand
   guid: 6df4249c-c165-b329-a9c7-4df9d6d96749
-  name: Spying James
+  name: "007"
   power: 3
 - id: 411
   slug: outstanding-owl
@@ -5962,21 +5963,6 @@
   guid: 89fd34c5-21a3-6832-a906-d0c827185051
   name: Eddy
   power: 4
-- id: 316
-  slug: spying-james
-  description: While I am in play - opponent keeps the top card in his deck
-    face-up at all times.
-  effects:
-    passive:
-      condition: opponent.deck.hasCards
-      perform: |-
-        let target = opponent.deck.topCard
-        pass.setFaceUp( target, true )
-      allowedLots:
-        - unit-field
-  guid: 6df4249c-c165-b329-a9c7-4df9d6d96749
-  name: Spying James
-  power: 3
 - id: 3305
   slug: piercing-gemma
   description: Every time I battle an enemy creature, the power difference is
