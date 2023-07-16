@@ -2420,7 +2420,7 @@
   power: 5
 - id: 411
   slug: patience-zero
-  description: Discard me if I am in your hand when your turn ends
+  description: Discard me if in your hand when your turn ends
   lore: Impulsive as a summer storm and impatient as the wind, Puck brings an
     unpredictable energy, leaving a trail of chaos and merriment in his wake.
   effects:
