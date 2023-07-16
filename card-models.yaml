@@ -1426,9 +1426,9 @@
         opponent.grave.topCard?.isUnitType &&
         !get.sameLaneUnitField(card).hasCards
       perform: |-
-        const card = opponent.grave.topCard;
+        const target = opponent.grave.topCard;
         const field = get.sameLaneUnitField(card)
-        op.deploy(card, field)
+        op.deploy(target, field)
   art: /temp/beartrap
   guid: d168768c-2363-2cf9-e031-231ae5b6f749
   name: Draugr's Curse
