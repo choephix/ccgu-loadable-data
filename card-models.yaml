@@ -1,3 +1,22 @@
+- id: 381
+  slug: zany-squirrel
+  type: 1
+  description: |-
+    Your units here and to the left swap places on enemy attack
+    if possible
+  effects:
+    active:
+      eventName: UnitAttack
+      eventStatus: began
+      condition: |-
+        get.opposingUnit(card) === event.card &&
+        get.leftUnit(card) &&
+        get.sameLaneUnit(card)
+      perform: |-
+        const a = get.sameLaneUnit(card)
+        const b = get.leftUnit(card)
+        op.forceSwap(a, b)
+  guid: 94ce8835-809b-bf91-926a-05d3fefee344
 - id: 373
   slug: spying-james2
   description: |-
