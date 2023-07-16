@@ -1,3 +1,18 @@
+- id: 316
+  slug: spying-james
+  description: While I am in play - opponent keeps the top card in his deck
+    face-up at all times.
+  effects:
+    passive:
+      condition: opponent.deck.hasCards
+      perform: |-
+        pass.setFaceUp(opponent.deck.topCard, true)
+        pass.setFaceUp(player.deck.topCard, true)
+      allowedLots:
+        - unit-field
+        - hand
+  guid: 6df4249c-c165-b329-a9c7-4df9d6d96749
+  power: 3
 - id: 38
   slug: --bond
   description: While I am in play - opponent keeps the top card in his deck
