@@ -2418,11 +2418,12 @@
   guid: 6f7f792b-0da9-f90d-a7a5-9245606bbae8
   name: trapazan
   power: 5
-- id: 411
+- id: 379
   slug: patience-zero
   description: Discard me if in your hand when your turn ends
   lore: Impulsive as a summer storm and impatient as the wind, Puck brings an
     unpredictable energy, leaving a trail of chaos and merriment in his wake.
+  notes: Not Working!
   effects:
     active:
       eventName: TurnEnd
