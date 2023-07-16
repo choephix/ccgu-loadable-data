@@ -3065,7 +3065,7 @@
   art: /temp/beartrap
   guid: e3b41aa1-0f98-ec62-7c2b-2f8414025180
   name: The Evil Eye
-- id: 817
+- id: 331
   slug: autoatk
   description: I perform a free attack when deployed
   pdc: -1
@@ -3081,7 +3081,7 @@
         - unit-field
   guid: 9d9d8250-25d2-e17b-5fc6-7dc75993e29c
   name: autoatk
-  power: 4
+  power: 1
 - id: 920
   slug: quickgiver-0
   type: 1
