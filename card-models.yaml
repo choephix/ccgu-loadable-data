@@ -1238,7 +1238,7 @@
 - id: 385
   slug: token-giver
   description: |-
-    9{{powered}} token spawns in front of me  when I'm played
+    9{{powered}} token spawns in front of me before I'm played
     if possible
   lore: In his unquenchable thirst for knowledge and power, Faust summons a demon
     of his own making, bartering his soul for a taste of the forbidden.
@@ -1247,7 +1247,7 @@
   effects:
     active:
       eventName: DeployUnit
-      eventStatus: ended
+      eventStatus: began
       condition: |-
         const field = get.opposingUnitField(card)
         event.card === card &&
