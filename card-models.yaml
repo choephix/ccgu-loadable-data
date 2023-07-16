@@ -213,6 +213,7 @@
       condition: get.currentPlayer.units.length > 0
       perform: |-
         for (const u of get.currentPlayer.units) {
+          if (!u.isFaceUp) continue
           op.forceAttack(u)
         }
       allowedLots:
@@ -1061,6 +1062,7 @@
       perform: pass.raisePower(card, 10)
   guid: 9d913bd6-cf60-e796-d57d-ef6d9465f77d
   power: 4
+  name: novel-lynx
 - id: 256
   slug: generic5
   pdc: -1
