@@ -2426,11 +2426,15 @@
   effects:
     active:
       eventName: TurnEnd
-      eventStatus: began
-      condition: player === event.player
+      eventStatus: ended
+      condition: |-
+        player === event.player &&
+        card.lot.isHand
       perform: op.discard(card)
       allowedLots:
         - hand
+        - unit-field
+        - grave
   guid: 73cf32c1-03b7-71e9-fb27-80d33fcc163d
   name: Robin Goodfellow
   power: 7
