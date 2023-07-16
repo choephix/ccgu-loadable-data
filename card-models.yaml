@@ -1,3 +1,18 @@
+- id: 38
+  slug: spying-james
+  description: While I am in play - opponent keeps the top card in his deck
+    face-up at all times.
+  effects:
+    passive:
+      condition: opponent.deck.hasCards
+      perform: |-
+        let target = opponent.deck.topCard
+        pass.setFaceUp( target, true )
+      allowedLots:
+        - unit-field
+  guid: 6df4249c-c165-b329-a9c7-4df9d6d96749
+  name: Spying James
+  power: 3
 - id: 411
   slug: outstanding-owl
   description: +X{{power}}, equal to every unit I kill
@@ -553,7 +568,7 @@
   name: The Undine
   art: /undine
   power: 3
-- id: 319
+- id: 481
   slug: jabberwock
   lore: Brimbling with murkitude in the duskish dim, skraggling with its
     blibberous eyes and grinfanging jaws, hurling a frumious shiver of dread
@@ -727,7 +742,7 @@
   art: /temp/beartrap
 - id: 307
   slug: wisp-token
-  notes: better fits a trap maybe
+  notes: better fits a trap
   tags:
     - token
   effects: {}
@@ -5947,7 +5962,7 @@
   guid: 89fd34c5-21a3-6832-a906-d0c827185051
   name: Eddy
   power: 4
-- id: 768
+- id: 316
   slug: spying-james
   description: While I am in play - opponent keeps the top card in his deck
     face-up at all times.
