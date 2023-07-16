@@ -8,7 +8,9 @@
     active:
       eventName: UnitDie
       eventStatus: ended
-      condition: event.card.controller === card.controller
+      condition: |-
+        event.card.controller === card.controller &&
+        event.death_type === 'combat'
       perform: |-
         const bonus = event.card.power
         op.addTempFx(card, 
