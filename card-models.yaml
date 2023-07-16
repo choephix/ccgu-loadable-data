@@ -1,3 +1,17 @@
+- id: 373
+  slug: spying-james2
+  description: |-
+    Keep the top enemy deck card face up
+    while I'm in play
+  effects:
+    passive:
+      condition: opponent.deck.hasCards
+      perform: pass.setFaceUp(opponent.deck.topCard, true)
+      allowedLots:
+        - unit-field
+  guid: 6df4249c-c165-b329-a9c7-4df9d6d96749
+  power: 3
+  name: spying-james2
 - id: 44
   slug: --the-hand
   effects:
@@ -13,14 +27,17 @@
         - hand
   guid: d9c3bad0-12f4-5861-fed5-cd8885fa1b8e
   name: --the-hand
-- id: 319
+- id: 443
   slug: spying-james
-  description: While I am in play - opponent keeps the top card in his deck
-    face-up at all times.
+  description: |-
+    Keep the top card in both decks face up
+    while I'm in play
   effects:
     passive:
       condition: opponent.deck.hasCards
-      perform: pass.setFaceUp(opponent.deck.topCard, true)
+      perform: |-
+        pass.setFaceUp(opponent.deck.topCard, true)
+        pass.setFaceUp(player.deck.topCard, true)
       allowedLots:
         - unit-field
   guid: 6df4249c-c165-b329-a9c7-4df9d6d96749
@@ -44,7 +61,7 @@
   power: 3
 - id: 411
   slug: outstanding-owl
-  description: +X{{power}}, equal to every unit I kill
+  description: When I kill a unit, add its power to mine
   effects:
     active:
       eventName: UnitDie
@@ -97,7 +114,7 @@
   power: 2
   art: /kobold
   name: Kobold
-- id: 412
+- id: 378
   slug: slithery-crayfish
   description: I kill and take the power of any unit you play face up
   lore: An Aztec deity of the sun and war, Huitzilopochtli was central to the
@@ -122,7 +139,7 @@
   guid: 0b849789-9d28-adb8-5d30-f63f2fb61675
   name: Huitzilopochtli V2
   art: /huitzilopochtli
-- id: 396
+- id: 377
   slug: glorious-quelea
   description: When I enter play, I destroy all ally units and take their current power.
   lore: An Aztec deity of the sun and war, Huitzilopochtli was central to the
@@ -251,7 +268,7 @@
   name: Anansi
   power: 3
   art: /anansi
-- id: 314
+- id: 353
   slug: adventurous-mouse
   lore: Amidst spectres, she walks, her courage casting ripples in the echoing
     silence.
@@ -297,7 +314,7 @@
   power: 4
   art: /tokens/tiger
   name: Wild Animal
-- id: 457
+- id: 368
   slug: circe
   description: |-
     Destroy opposing enemy unit and spawn a 5{{powered}} token in their place
@@ -387,7 +404,7 @@
         - unit-field
   guid: 0ae1518f-a398-4c1d-39c6-bc1467df0b17
   name: Draupnir
-- id: 317
+- id: 355
   slug: elegant-walter
   description: -3{{power}} to enemy unit here when I die
   effects:
@@ -406,7 +423,7 @@
   guid: 767a8487-8298-efb4-a42d-a5ebf4d6e611
   power: 2
   name: elegant-walter
-- id: 318
+- id: 316
   slug: witty-meerkat
   description: +2 to ally units while I am on top of your grave
   effects:
@@ -610,7 +627,7 @@
   name: Jabberwock
   power: 5
   art: /jabberwock
-- id: 363
+- id: 379
   slug: token-on-deploy2
   type: 1
   description: |-
@@ -671,7 +688,7 @@
   name: Grendel
   art: /grendel
   power: 3
-- id: 382
+- id: 366
   slug: spatial-pygmy
   description: The moment there is no enemy here I return to the hand
   effects:
@@ -703,7 +720,7 @@
   guid: e3b41aa1-0f98-ec62-7c2b-2f8414025180
   name: Power Up
   art: /temp/beartrap
-- id: 373
+- id: 453
   slug: drawson
   description: Enemy draws 1 card when I attack
   lore: Swashbuckling through the high seas, Anne Bonny personifies the wild and
@@ -832,7 +849,7 @@
   guid: 15f64461-95cc-c62e-ca23-11dc1495fba7
   name: Reynard the Fox
   power: 2
-- id: 358
+- id: 374
   slug: freejimmy2
   description: +2{{ap}} when you deploy me
   lore: With a sly purr and an unerring knack for opportunity, this dapper feline
@@ -954,7 +971,7 @@
   guid: afe2f4b6-3b5a-e47f-8ac1-fddbe4836fff
   name: Tiger
   power: 5
-- id: 410
+- id: 427
   slug: necropy
   description: |-
     +X{{power}}, equal to the enemy grave's top card
@@ -975,7 +992,7 @@
   art: /lilith
   guid: da711770-5ed0-4617-0f2a-b520d56d8912
   name: Lilith
-- id: 368
+- id: 448
   slug: shonen2
   description: +2{{power}} per enemy unit in play
   lore: Rome's one-eyed sentinel, he stood undaunted on the Tiber bridge, his
@@ -1122,7 +1139,7 @@
   art: /ereshkigal
   guid: b4a87403-430f-7687-e001-98dc71c53a73
   name: Ereshkigal
-- id: 383
+- id: 335
   slug: novel-lynx
   description: +10 during your turn
   tags:
@@ -1172,7 +1189,7 @@
   effects: {}
   guid: c46378a8-85b1-e150-b4b6-27a04f01e319
   name: The Manananggal
-- id: 361
+- id: 365
   slug: sapper
   description: -1{{power}} to all enemy units
   lore: With a warrior's heart and an unyielding spirit, Diomedes strikes fear
@@ -1235,7 +1252,7 @@
   guid: b6b71451-926d-ece6-d0d3-0b71508871e1
   name: Galatea
   power: 8
-- id: 357
+- id: 468
   slug: target-bomb
   description: |-
     Combat-Flip:
@@ -1259,7 +1276,7 @@
   guid: bb757a5a-ddfa-73e6-9da0-0526faf78c3e
   name: Fafnir
   power: 1
-- id: 376
+- id: 456
   slug: sapper-grand
   description: -2{{power}} to all enemy units
   lore: With a whisper soft as the falling night, Nyx weaves dreams into reality,
@@ -1309,7 +1326,7 @@
   guid: 2b0ed5c3-5521-ca41-f2bb-ff7607b08fea
   name: Faust
   power: 5
-- id: 315
+- id: 354
   slug: marvellous-koi
   description: |-
     On deploy: Gain 10{{hp}}
@@ -1530,7 +1547,7 @@
   guid: f6089e84-65fc-5342-5389-15642b3dff64
   name: token-6
   power: 6
-- id: 365
+- id: 363
   slug: token-after-attack
   type: 1
   effects:
@@ -1603,7 +1620,7 @@
   art: /temp/beartrap
   guid: 294447b1-beb2-1618-5d29-8182eee4f481
   name: The Battle of Trenton
-- id: 364
+- id: 380
   slug: from-the-left
   type: 1
   description: >-
@@ -1766,7 +1783,7 @@
   guid: e053ce66-d442-4da5-9d05-c4098cf6f191
   name: The Cheshire Cat
   power: 3
-- id: 375
+- id: 455
   slug: flappy-bird-grand
   lore: Swift as thought and unpredictable as the wind, Mercury's strikes come
     from all angles, his speed the heart of his relentless pursuit.
@@ -1778,7 +1795,7 @@
   guid: a9fb5b3c-0c8a-a10c-6a8c-8ed91952bc46
   name: Mercury
   power: 5
-- id: 371
+- id: 451
   slug: swapper
   lore: As nimble as the wind and as elusive as a thought, Br'er Rabbit darts
     through life's mazes, always a hop ahead of trouble.
@@ -1797,7 +1814,7 @@
   guid: 44372e4e-629c-387c-6162-e52dccc7029c
   name: Flashforward
   power: 4
-- id: 369
+- id: 449
   slug: harassingmia
   description: I return to your hand after your turn
   lore: Tiny but swift, Thumbelina flutters through life, her nimble size making
@@ -2269,7 +2286,7 @@
   effects: {}
   guid: aba8cb64-3893-70f5-baa9-c5599067f499
   name: Deadly Sacrifice
-- id: 331
+- id: 461
   slug: sneakshot
   type: 1
   description: -4{{hp}} to the enemy, when their unit attacks here directly
@@ -2466,12 +2483,11 @@
   guid: 6f7f792b-0da9-f90d-a7a5-9245606bbae8
   name: trapazan
   power: 5
-- id: 379
+- id: 410
   slug: patience-zero
-  description: Discard me if in your hand when your turn ends
+  description: Discard me if in your hand as your turn ends
   lore: Impulsive as a summer storm and impatient as the wind, Puck brings an
     unpredictable energy, leaving a trail of chaos and merriment in his wake.
-  notes: Not Working!
   effects:
     active:
       eventName: TurnEnd
@@ -2852,7 +2868,7 @@
   effects: {}
   guid: 3a9064a6-de2e-fcc7-a434-90545668b8c8
   name: 3a9064a6
-- id: 360
+- id: 376
   slug: literate-puffer
   description: +5{{power}} while the enemy has a trap here
   notes: Jack Churchill?
@@ -2962,7 +2978,7 @@
   guid: 0150cb46-5ae5-249d-32b3-fe089acf39fd
   name: effaceable-kissingbug
   power: 14
-- id: 366
+- id: 382
   slug: relokill
   type: 1
   description: Activate when opposing enemy unit starts relocation. Kill it.
@@ -3343,7 +3359,7 @@
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   name: honoraro-grand
   power: 7
-- id: 372
+- id: 452
   slug: nimbleguard
   description: |-
     I move in front any deployed enemy unit
@@ -3512,7 +3528,7 @@
   guid: 00badf76-e490-b5e6-9b31-a3986978ca5e
   name: Grand Traitor
   power: 14
-- id: 370
+- id: 450
   slug: man-of-honor
   description: I will not attack without a foe here
   lore: Clad in shining armor, his unwavering nobility lights the path to
@@ -5891,7 +5907,7 @@
   guid: e373c336-f554-700d-e05a-48ed858e6029
   name: johnny1
   power: 6
-- id: 271
+- id: 319
   slug: emma
   description: If your current AP is 0, you can summon me for no mana cost.
   lore: "(Middle Eastern and Central Asian Folklore): A satirical Sufi figure
@@ -6215,7 +6231,7 @@
   guid: cead0021-5e03-b6aa-c8f9-99cd26581f3c
   name: Tricky Necromancer
   power: 1
-- id: 270
+- id: 318
   slug: banana-b
   description: >-
     IN-HAND
@@ -6355,7 +6371,7 @@
   guid: ca3a4ca9-ca25-0d16-86a5-8519e7402e0b
   name: Joe Blow
   power: 5
-- id: 269
+- id: 317
   slug: banana-a
   description: >-
     IN-HAND
@@ -7209,7 +7225,7 @@
   effects: {}
   guid: cdcd74a9-158b-7117-a9c4-4732b4f7cc14
   name: Fateweaver
-- id: 362
+- id: 369
   slug: returner
   description: I return to your hand if I'm on top of your grave as your turn begins
   lore: In the dance of life and death, the Benu Bird twirls, its resurrection an
@@ -7717,7 +7733,7 @@
   guid: 58ebdd7a-1969-432a-0635-79f8239af518
   name: Tricky Shield
   power: 7
-- id: 359
+- id: 375
   slug: necropy2
   description: |-
     +X{{power}}, equal to the enemy grave's top card
@@ -8151,7 +8167,7 @@
   effects: {}
   guid: 35bf3d89-85d3-2fe2-71bd-de40ff122c97
   name: Crowd-Powered
-- id: 374
+- id: 454
   slug: mario
   description: |-
     I move right after attacking
