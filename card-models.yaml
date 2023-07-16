@@ -1394,10 +1394,11 @@
       eventName: UnitDie
       eventStatus: ended
       condition: |-
-        event.card === get.sameLaneUnit(card) &&
+        event.card.prevLot === 
+          get.sameLaneUnitField(card) &&
         event.death_type === 'combat' &&
         opponent.grave.topCard?.isUnitType &&
-        !get.sameLaneUnit(card)
+        !get.sameLaneUnitField(card).hasCards
       perform: |-
         const card = opponent.grave.topCard;
         const field = get.get.sameLaneUnitField(card)
