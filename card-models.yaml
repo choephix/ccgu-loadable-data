@@ -2499,7 +2499,7 @@
   guid: d39e281e-94f1-ba2d-1deb-975d899e1f5e
   name: charger
   power: 3
-- id: 768
+- id: 801
   slug: doubleattacker
   description: After I finish an attack, if I am still in play I automatically
     perform another attack.
@@ -4136,7 +4136,7 @@
   guid: 06fac1b0-7720-afd5-7f65-75be8025192c
   name: The Saviour
   power: 3
-- id: 3604
+- id: 3584
   slug: tactical-joe
   description: At the end of your opponent's turn, if there is an opposing enemy
     creature I return to your hand.
@@ -5947,7 +5947,7 @@
   guid: 89fd34c5-21a3-6832-a906-d0c827185051
   name: Eddy
   power: 4
-- id: 801
+- id: 768
   slug: spying-james
   description: While I am in play - opponent keeps the top card in his deck
     face-up at all times.
@@ -6166,14 +6166,14 @@
   guid: 87c1450b-cbbc-6afc-ca28-467dfa235637
   name: Force Field
   power: 6
-- id: 3584
+- id: 3604
   slug: reviver-2
   description: When I die, if possible, summon in my place the first non-grand
     creature found in your graveyard.
   effects: {}
   guid: 2edf015b-3cc0-f205-53d2-92dbe440b0b2
   name: Reviver 2
-- id: 3585
+- id: 3602
   slug: resurrecter3
   description: >-
     At the end of your opponent's turn if possible:
@@ -6280,7 +6280,7 @@
   guid: 22c7fe2d-9728-8685-bde0-52aa3b0e3b8e
   name: 8-Ball 1
   power: 1
-- id: 3588
+- id: 3637
   slug: fairhealer
   description: When I am summoned, both players's Life Points increase by 4.
   effects: {}
@@ -6333,7 +6333,7 @@
   guid: 24dadd9e-55ab-a369-c64f-4eaa7541ee75
   name: Banana A
   power: 4
-- id: 3586
+- id: 3619
   slug: haggler
   description: When I am dealt fatal damage, flip the top card in your deck
     face-up. If it is a trap, my death is aborted.
@@ -8412,16 +8412,29 @@
   effects: {}
   guid: 795ae5be-1e1f-5198-c6f5-1979dc4e704f
   name: binaro
-- id: 869
+- id: 802
   slug: rock
   description: My power equals the current power of my tribute at the moment of its death.
   notes: is this shit even possible?!
   tags:
     - grand
-  effects: {}
+  effects:
+    active:
+      eventName: TributeDeployUnit
+      eventStatus: began
+      condition: |-
+        event.card === card &&
+        event.lot_to.topCard
+      perform: |-
+        const tribute = event.lot_to.topCard
+        const bonus = tribute.power || 0
+        op.addTempFx(
+          card, tg => tg.pass.raisePower(card, bonus))
+      allowedLots:
+        - unit-field
+        - hand
   guid: 312d7f41-e643-a42d-786e-6f45e76131bc
   name: rock
-  power: 5
 - id: 1025
   slug: god-killer
   description: |-
