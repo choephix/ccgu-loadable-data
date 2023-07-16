@@ -1247,7 +1247,7 @@
   effects:
     active:
       eventName: DeployUnit
-      eventStatus: began
+      eventStatus: ended
       condition: |-
         const field = get.opposingUnitField(card)
         event.card === card &&
