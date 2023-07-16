@@ -2,16 +2,17 @@
   slug: --the-hand
   effects:
     active:
-      eventName: Draw
+      eventName: DeployUnit
       eventStatus: ended
-      condition: event.player === card.controller
+      condition: event.card.controller === card.controller
       perform: |-
-        const bonus = event.card.power
-        op.addTempFx(card, 
-          tg => tg.pass.raisePower(card, bonus))
+        const bonus = 10
+        op.addTempFx(event.card, 
+          tg => tg.pass.raisePower(event.card, bonus))
       allowedLots:
         - hand
   guid: d9c3bad0-12f4-5861-fed5-cd8885fa1b8e
+  name: --the-hand
 - id: 319
   slug: spying-james
   description: While I am in play - opponent keeps the top card in his deck
