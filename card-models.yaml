@@ -1257,6 +1257,7 @@
         op.spawnToken(field, 'mephisto-token')
       allowedLots:
         - unit-field
+        - hand
   art: /faust
   guid: 2b0ed5c3-5521-ca41-f2bb-ff7607b08fea
   name: Faust
