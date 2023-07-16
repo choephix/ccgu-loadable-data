@@ -4,13 +4,20 @@
   effects:
     active:
       eventName: UnitDie
+      eventStatus: ended
       condition: |-
         faq.isInPlay(card) &&
         event.card.prevLot === 
           get.opposingUnitField(card)
-      perform: const bonus = event.card.power
+      perform: |-
+        const bonus = event.card.power
+        op.addTempFx(card, 
+          tg => tg.pass.raisePower(card, bonus))
+      allowedLots:
+        - unit-field
   guid: d38ee873-3770-9842-e907-764dcedcbbc4
   power: 3
+  name: outstanding-owl
 - id: 428
   slug: average-lemur
   description: When ally unit dies, add its power to mine
