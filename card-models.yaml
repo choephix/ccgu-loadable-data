@@ -1,3 +1,16 @@
+- id: 458
+  slug: outstanding-owl
+  description: +X{{power}}, equal to every unit I kill
+  effects:
+    active:
+      eventName: UnitDie
+      condition: |-
+        faq.isInPlay(card) &&
+        event.card.prevLot === 
+          get.opposingUnitField(card)
+      perform: const bonus = event.card.power
+  guid: d38ee873-3770-9842-e907-764dcedcbbc4
+  power: 3
 - id: 428
   slug: average-lemur
   description: When ally unit dies, add its power to mine
@@ -2408,7 +2421,7 @@
       allowedLots:
         - hand
   guid: 73cf32c1-03b7-71e9-fb27-80d33fcc163d
-  name: Puck
+  name: Robin Goodfellow
   power: 7
   art: /puck
 - id: 834
