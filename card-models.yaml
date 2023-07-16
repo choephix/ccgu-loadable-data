@@ -657,7 +657,7 @@
     shines brightest when faced with formidable foes.
   effects:
     passive:
-      condition: "true"
+      condition: get.opposingUnit(card)?.hasTag('grand')
       perform: pass.raisePower(card, 10)
       allowedLots:
         - unit-field
