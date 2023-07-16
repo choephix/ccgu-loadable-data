@@ -1,4 +1,4 @@
-- id: 316
+- id: 319
   slug: spying-james
   description: While I am in play - opponent keeps the top card in his deck
     face-up at all times.
@@ -394,7 +394,10 @@
 - id: 318
   slug: witty-meerkat
   description: +2 to ally units while I am on top of your grave
-  effects: {}
+  effects:
+    passive:
+      allowedLots:
+        - grave
   guid: 00a2376c-237e-025a-b712-deb56e3352b6
   name: witty-meerkat
 - id: 325
@@ -2009,7 +2012,7 @@
         - unit-field
   guid: 180e95c2-e959-a655-69b7-c21b13b4e31e
   name: High Risk Token Master
-- id: 41
+- id: 35
   slug: token-dk
   tags:
     - token
