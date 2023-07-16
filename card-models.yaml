@@ -253,7 +253,7 @@
   power: 4
   art: /tokens/tiger
   name: Wild Animal
-- id: 502
+- id: 457
   slug: circe
   description: |-
     Destroy opposing enemy unit and spawn a 5{{powered}} token in their place
@@ -263,6 +263,7 @@
   effects:
     active:
       eventName: DeployUnit
+      eventStatus: ended
       condition: |-
         event.card === card &&
         get.opposingUnit(card)
@@ -271,9 +272,12 @@
         op.kill(card)
         const lot = get.opposingUnitField(card)
         op.spawnToken(lot, 'animal-token')
+      allowedLots:
+        - unit-field
   guid: 3333ae13-1e75-d843-e1ec-cfbda098cb8d
   name: Circe
   power: 6
+  art: /circe
 - id: 389
   slug: discordia
   description: +5{{power}} to units on both sides
