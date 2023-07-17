@@ -52,6 +52,8 @@
   description: |-
     Keep the top card in both decks face up
     while I'm in play
+  lore: The future is but a river to her, its currents whispering tales of what's
+    to come.
   effects:
     passive:
       condition: opponent.deck.hasCards
@@ -62,7 +64,8 @@
         - unit-field
   guid: 6df4249c-c165-b329-a9c7-4df9d6d96749
   power: 3
-  name: spying-james
+  name: Mother Shipton
+  art: /
 - id: 38
   slug: --bond
   description: While I am in play - opponent keeps the top card in his deck
@@ -1190,7 +1193,7 @@
       eventName: UnitAttackCombat
       eventStatus: began
       condition: event.defender === card
-      perform: op.damage(opponent, 2)
+      perform: op.damage(opponent, 3)
       allowedLots:
         - unit-field
   guid: 210ddd9a-a696-6689-4ea8-00dba7b272f6
@@ -1355,7 +1358,7 @@
   guid: 2eb984ca-fea4-fc3b-52a5-9d81eaee4740
   name: marvellous-koi
   power: 1
-- id: 434
+- id: 475
   slug: hard-skin
   description: +3{{power}} during enemy turn
   lore: From a wellspring of faith amidst weakness and poverty, Gideon summons
@@ -3473,7 +3476,7 @@
   guid: 175c9ca8-d248-7609-c6af-0c09f2094056
   name: Fate Forward
   power: 4
-- id: 436
+- id: 474
   slug: fragmine
   description: |-
     I die after combat
@@ -3550,7 +3553,7 @@
   guid: 00badf76-e490-b5e6-9b31-a3986978ca5e
   name: Grand Traitor
   power: 14
-- id: 450
+- id: 434
   slug: man-of-honor
   description: I will not attack without a foe here
   lore: Clad in shining armor, his unwavering nobility lights the path to
