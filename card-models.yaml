@@ -1182,7 +1182,7 @@
   power: 5
 - id: 472
   slug: proud-whale
-  description: I deal 2 damage the the enemy player when attacked.
+  description: I deal 3 damage the the enemy player when attacked.
   lore: The porcupine is a mammal with sharp quills that can cause pain to
     predators that attack it.
   effects:
@@ -1195,7 +1195,7 @@
         - unit-field
   guid: 210ddd9a-a696-6689-4ea8-00dba7b272f6
   name: Porcupine Spirit
-  power: 2
+  power: 1
   art: /porcupine
 - id: 345
   slug: duelista
