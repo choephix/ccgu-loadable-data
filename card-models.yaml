@@ -1,3 +1,16 @@
+- id: 372
+  slug: kobold
+  description: "Combat-Flip: Set enemy {{ap}} to 0"
+  tags:
+    - sneak
+  effects:
+    flip:
+      manner: combat
+      perform: opponent.actionPoints = 0
+  guid: 330d7a66-d220-9e61-1941-9e78e53495ab
+  power: 2
+  art: /kobold
+  name: Kobold
 - id: 381
   slug: zany-squirrel
   type: 1
@@ -65,7 +78,7 @@
   guid: 6df4249c-c165-b329-a9c7-4df9d6d96749
   power: 3
   name: Mother Shipton
-  art: /she1
+  art: /temp/she1
 - id: 38
   slug: --bond
   description: While I am in play - opponent keeps the top card in his deck
@@ -125,7 +138,7 @@
   name: Huitzilopochtli V3
   art: /huitzilopochtli
 - id: 442
-  slug: kobold
+  slug: gremlin
   description: "Combat-Flip: Set enemy {{ap}} to 0"
   tags:
     - sneak
@@ -135,8 +148,8 @@
       perform: opponent.actionPoints = 0
   guid: 330d7a66-d220-9e61-1941-9e78e53495ab
   power: 2
-  art: /kobold
-  name: Kobold
+  art: /gremlin
+  name: Gremlin
 - id: 378
   slug: slithery-crayfish
   description: I kill and take the power of any unit you play face up
