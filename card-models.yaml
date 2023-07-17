@@ -17,6 +17,7 @@
         const b = get.leftUnit(card)
         op.forceSwap(a, b)
   guid: 94ce8835-809b-bf91-926a-05d3fefee344
+  name: zany-squirrel
 - id: 373
   slug: spying-james2
   description: |-
@@ -98,7 +99,7 @@
   guid: d38ee873-3770-9842-e907-764dcedcbbc4
   power: 3
   name: outstanding-owl
-- id: 428
+- id: 457
   slug: average-lemur
   description: When ally unit dies, add its power to mine
   notes: Huītzilōpōchtli?
@@ -241,7 +242,7 @@
   power: 10
   name: Clay Golem
   art: /tokens/golem
-- id: 384
+- id: 449
   slug: combat-goose
   description: 10{{powered}} token spawns in my place after I relocate
   lore: A humble man with divine instruction, turning earthen dust to fervent life.
@@ -1137,7 +1138,7 @@
   guid: 847fc569-a396-f9da-3422-837392c88113
   name: fibre-turtle
   power: 7
-- id: 406
+- id: 454
   slug: ereshkigal
   description: +1{{power}} for each card in your graveyard
   lore: The dreaded queen of the underworld, rules over death's silent realm, her
@@ -1833,7 +1834,7 @@
   guid: 44372e4e-629c-387c-6162-e52dccc7029c
   name: Flashforward
   power: 4
-- id: 449
+- id: 384
   slug: harassingmia
   description: I return to your hand after your turn
   lore: Tiny but swift, Thumbelina flutters through life, her nimble size making
@@ -8186,7 +8187,7 @@
   effects: {}
   guid: 35bf3d89-85d3-2fe2-71bd-de40ff122c97
   name: Crowd-Powered
-- id: 454
+- id: 406
   slug: mario
   description: |-
     I move right after attacking
