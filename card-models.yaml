@@ -60,7 +60,7 @@
         - hand
   guid: d9c3bad0-12f4-5861-fed5-cd8885fa1b8e
   name: --the-hand
-- id: 443
+- id: 442
   slug: spying-james
   description: |-
     Keep the top card in both decks face up
@@ -137,7 +137,7 @@
   guid: 2e097143-f758-0153-ed1d-75821f0a2347
   name: Huitzilopochtli V3
   art: /huitzilopochtli
-- id: 442
+- id: 436
   slug: gremlin
   description: "Combat-Flip: Set enemy {{ap}} to 0"
   tags:
