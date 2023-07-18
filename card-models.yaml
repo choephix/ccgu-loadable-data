@@ -115,7 +115,7 @@
   guid: d38ee873-3770-9842-e907-764dcedcbbc4
   power: 3
   name: outstanding-owl
-- id: 457
+- id: 406
   slug: average-lemur
   description: When ally unit dies, add its power to mine
   notes: Huītzilōpōchtli?
@@ -8206,7 +8206,7 @@
   effects: {}
   guid: 35bf3d89-85d3-2fe2-71bd-de40ff122c97
   name: Crowd-Powered
-- id: 406
+- id: 457
   slug: mario
   description: |-
     I move right after attacking
