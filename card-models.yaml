@@ -271,6 +271,7 @@
       eventStatus: ended
       condition: |-
         event.card === card &&
+        card.lot?.isUnitField &&
         card.prevLot?.isUnitField
       perform: op.spawnToken(card.prevLot, 'big-token')
       allowedLots:
