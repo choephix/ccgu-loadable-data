@@ -12,12 +12,7 @@
           ...opponent.traps, 
           ...opponent.units
         ].filter(c => !c.isFaceUp)
-        for (const c of secrets) {
-          op.flipFaceUp(c)
-        }
-        for (const c of secrets) {
-          op.flipFaceDown(c)
-        }
+        op.display(secrets)
       allowedLots:
         - unit-field
         - hand
