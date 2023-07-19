@@ -19,6 +19,7 @@
   guid: 4aa069ff-6ddc-e8c7-8d1a-ab03e38a0e0e
   name: C. Auguste Dupin
   art: /dupin
+  power: 3
 - id: 372
   slug: kobold
   description: "Combat-Flip: Set enemy {{ap}} to 0"
