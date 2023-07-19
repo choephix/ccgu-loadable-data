@@ -1,3 +1,29 @@
+- id: 315
+  slug: dupin
+  lore: He teases truth from the jaws of deception, a virtuoso of the detective's
+    art.
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: began
+      condition: event.card === card
+      perform: |-
+        const secrets = [
+          ...opponent.traps, 
+          ...opponent.units
+        ].filter(c => !c.isFaceUp)
+        for (const c of secrets) {
+          op.flipFaceUp(c)
+        }
+        for (const c of secrets) {
+          op.flipFaceDown(c)
+        }
+      allowedLots:
+        - unit-field
+        - hand
+  guid: 4aa069ff-6ddc-e8c7-8d1a-ab03e38a0e0e
+  name: C. Auguste Dupin
+  art: /dupin
 - id: 372
   slug: kobold
   description: "Combat-Flip: Set enemy {{ap}} to 0"
