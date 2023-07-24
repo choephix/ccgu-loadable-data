@@ -39,7 +39,12 @@
     active:
       eventName: DeployUnit
       eventStatus: began
-      condition: event.card === card
+      condition: |-
+        event.card === card &&
+        const secrets = [
+          ...opponent.traps, 
+          ...opponent.units
+        ].filter(c => !c.isFaceUp).length > 0
       perform: |-
         const secrets = [
           ...opponent.traps, 
