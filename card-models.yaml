@@ -1,3 +1,77 @@
+- id: 500
+  slug: wainamoinen
+  effects: {}
+  guid: 27d5557b-d462-8f02-3c4e-273c64130473
+  power: 5
+  art: /wainamoinen
+  name: Wainamoinen
+- id: 499
+  slug: sigurd
+  effects: {}
+  guid: 964bb188-f3ee-18da-b3aa-dcb13f933767
+  power: 5
+  name: Sigurd
+  art: /sigurd
+- id: 504
+  slug: raijin
+  tags:
+    - grand
+  effects: {}
+  guid: 6c4b89e9-58ff-dcb9-2f20-cb6f93c0e512
+  power: 10
+  art: /raijin
+  name: Raijin
+- id: 503
+  slug: camazotz
+  tags:
+    - grand
+  effects: {}
+  guid: 309dac11-cb4b-37e1-a15c-f57ef6eee5dc
+  power: 10
+  name: Camazotz
+  art: /camazotz
+- id: 502
+  slug: angra-mainyu
+  tags:
+    - grand
+  effects: {}
+  guid: 171e761b-9041-f508-09c8-2cc503195444
+  name: Angra Mainyu
+  power: 10
+  art: /angra-mainyu
+- id: 501
+  slug: Anne-Dieu-le-Veut
+  lore: Anne "Dieu-Le-Veut" de Graaf[1] also called Marie-Anne or Marianne (28
+    August 1661 – 11 January 1710)[2] was a French pirate. Alongside Jacquotte
+    Delahaye, she was one of very few female buccaneers.[3] While Delahaye was
+    likely fictional,[4][1] Dieu-le-Veut was real; however, many of her exploits
+    are inventions of later writers.[5]
+  effects: {}
+  guid: f2f83d34-df98-f80f-6f66-baf7eb377921
+  name: Anne Dieu-le-Veut
+  art: /anne-dieu-le-veut
+  power: 5
+- id: 498
+  slug: hervor
+  effects: {}
+  guid: 6106f559-f8e3-7f6b-699e-d9bef20bb8db
+  art: /hervor
+  name: Hervor
+  power: 5
+- id: 497
+  slug: tatterhood
+  effects: {}
+  guid: c4b8f04d-ea8b-59ee-d26d-1409140b1a37
+  power: 5
+  art: /tatterhood
+  name: Tatterhood
+- id: 496
+  slug: krali-marko
+  effects: {}
+  guid: c4b8f04d-ea8b-59ee-d26d-1409140b1a37
+  power: 5
+  name: Krali Marko
+  art: /krali-marko
 - id: 371
   slug: jekyll
   description: |-
@@ -6264,7 +6338,7 @@
   guid: e15e6908-0326-2866-ff73-f17594272af3
   name: Token Pooper
   power: 4
-- id: 496
+- id: 481
   slug: enraged
   description: +1 every time an ally dies
   lore: He mourns not in silence, but in thunderous fury, his sorrow echoing
