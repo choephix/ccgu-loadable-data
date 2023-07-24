@@ -138,7 +138,7 @@
   guid: d38ee873-3770-9842-e907-764dcedcbbc4
   power: 3
   name: outstanding-owl
-- id: 406
+- id: 458
   slug: average-lemur
   description: When ally unit dies, add its power to mine
   notes: Huītzilōpōchtli?
@@ -339,7 +339,7 @@
   power: 7
   art: /hervor
   name: Hervor
-- id: 390
+- id: 456
   slug: mars
   description: ALL units auto-attack as their player's turn starts
   lore: When the battlefield churns with unbridled aggression, madness painted on
@@ -399,7 +399,7 @@
   name: Circe
   power: 6
   art: /circe
-- id: 389
+- id: 457
   slug: discordia
   description: +5{{power}} to units on both sides
   lore: With a devilish grin, she sprinkles chaos into the hearts of all, stoking
@@ -677,7 +677,7 @@
   name: The Undine
   art: /undine
   power: 3
-- id: 481
+- id: 389
   slug: jabberwock
   lore: Brimbling with murkitude in the duskish dim, skraggling with its
     blibberous eyes and grinfanging jaws, hurling a frumious shiver of dread
@@ -946,7 +946,7 @@
   name: Cu Chulainn
   power: 4
   art: /cuchulainn
-- id: 405
+- id: 454
   slug: will-o-the-wisp
   description: |-
     Move enemy unit here when deployed anywhere
@@ -1178,7 +1178,7 @@
   guid: 847fc569-a396-f9da-3422-837392c88113
   name: fibre-turtle
   power: 7
-- id: 454
+- id: 455
   slug: ereshkigal
   description: +1{{power}} for each card in your graveyard
   lore: The dreaded queen of the underworld, rules over death's silent realm, her
@@ -1336,7 +1336,7 @@
   guid: bb757a5a-ddfa-73e6-9da0-0526faf78c3e
   name: Fafnir
   power: 1
-- id: 456
+- id: 390
   slug: sapper-grand
   description: -2{{power}} to all enemy units
   lore: With a whisper soft as the falling night, Nyx weaves dreams into reality,
@@ -1843,7 +1843,7 @@
   guid: e053ce66-d442-4da5-9d05-c4098cf6f191
   name: The Cheshire Cat
   power: 3
-- id: 455
+- id: 405
   slug: flappy-bird-grand
   lore: Swift as thought and unpredictable as the wind, Mercury's strikes come
     from all angles, his speed the heart of his relentless pursuit.
@@ -7028,7 +7028,7 @@
   guid: ea9b4a78-31f4-99cc-1e33-5de272a0497e
   name: ti364w
   power: 3
-- id: 469
+- id: 426
   slug: drawhater
   description: Every time the enemy draws a card, decrease my power by 1.
   lore: Blessed with immortality but cursed to wither, Tithonus fades over time,
@@ -8229,7 +8229,7 @@
   effects: {}
   guid: 35bf3d89-85d3-2fe2-71bd-de40ff122c97
   name: Crowd-Powered
-- id: 457
+- id: 406
   slug: mario
   description: |-
     I move right after attacking
