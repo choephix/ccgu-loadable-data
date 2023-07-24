@@ -1,3 +1,37 @@
+- id: 371
+  slug: jekyll
+  description: |-
+    9{{powered}} token spawns in your hand
+    when I'm played
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: |-
+        event.card === card &&
+        event.death_type === 'combat'
+      perform: |-
+        op.spawnToken(
+          player.hand, 'grendels-mom-token')
+      allowedLots:
+        - unit-field
+  guid: e6c78403-aba6-00c4-3616-66a924d4c43c
+  name: Dr Jekyll
+  art: /jekyll
+  power: 2
+- id: 312
+  slug: hyde-token
+  tags:
+    - token
+  effects:
+    overrides:
+      blockDeploymentTo: "let tribute = field.topCard\r
+
+        tribute?.slug === 'jekyll'"
+  guid: fa49b33e-53d4-3730-0c31-86dc9244ce2f
+  name: Mr Hyde
+  power: 9
+  art: /hyde
 - id: 394
   slug: dupin
   description: Have a peek at all enemy face-down cards
