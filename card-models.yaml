@@ -20,11 +20,12 @@
   description: I can only be played on top of your Dr Jekyll in play
   tags:
     - token
+    - grand
   effects:
     overrides:
       blockDeploymentTo: "let tribute = field.topCard\r
 
-        tribute?.slug === 'jekyll'"
+        tribute?.slug != 'jekyll'"
   guid: fa49b33e-53d4-3730-0c31-86dc9244ce2f
   name: Mr Hyde
   power: 9
