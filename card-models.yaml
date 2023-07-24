@@ -1,8 +1,8 @@
 - id: 371
   slug: jekyll
   description: |-
-    9{{powered}} token spawns in your hand
-    when I'm played
+    9{{powered}} Lv2 token spawns in your hand when I'm played
+    Only I can be the tribute for it
   effects:
     active:
       eventName: DeployUnit
@@ -17,6 +17,7 @@
   power: 2
 - id: 312
   slug: hyde-token
+  description: I can only be played on top of your Dr Jekyll in play
   tags:
     - token
   effects:
