@@ -7,12 +7,8 @@
     active:
       eventName: DeployUnit
       eventStatus: ended
-      condition: |-
-        event.card === card &&
-        event.death_type === 'combat'
-      perform: |-
-        op.spawnToken(
-          player.hand, 'grendels-mom-token')
+      condition: event.card === card
+      perform: op.spawnToken(player.hand, 'hyde-token')
       allowedLots:
         - unit-field
   guid: e6c78403-aba6-00c4-3616-66a924d4c43c
