@@ -115,15 +115,12 @@
       eventStatus: began
       condition: |-
         event.card === card &&
-        const secrets = [
-          ...opponent.traps, 
-          ...opponent.units
-        ].filter(c => !c.isFaceUp).length > 0
+          [...opponent.traps, ...opponent.units]
+          .filter(c => !c.isFaceUp).length > 0
       perform: |-
-        const secrets = [
-          ...opponent.traps, 
-          ...opponent.units
-        ].filter(c => !c.isFaceUp)
+        const secrets = 
+          [...opponent.traps, ...opponent.units]
+          .filter(c => !c.isFaceUp)
         op.display(secrets)
       allowedLots:
         - unit-field
