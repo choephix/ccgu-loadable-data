@@ -13,7 +13,7 @@
         - unit-field
   guid: e6c78403-aba6-00c4-3616-66a924d4c43c
   name: Dr Jekyll
-  art: /jekyll
+  art: /hires/jekyll
   power: 2
 - id: 312
   slug: hyde-token
@@ -29,7 +29,7 @@
   guid: fa49b33e-53d4-3730-0c31-86dc9244ce2f
   name: Mr Hyde
   power: 9
-  art: /hyde
+  art: /hires/hyde
 - id: 394
   slug: dupin
   description: Have a peek at all enemy face-down cards
