@@ -690,7 +690,7 @@
         - unit-field
   guid: 1f3367be-04db-e6bb-c2cb-2f4cb0af2818
   name: mythical-hoki
-- id: 323
+- id: 319
   slug: famous-brian
   description: I can only be played while you have no other cards
   effects:
@@ -1342,15 +1342,17 @@
   guid: c975d9b5-3f58-30c1-1192-d8cb2d5ae481
   name: Bouncy
   power: 5
-- id: 326
+- id: 315
   slug: fibre-turtle
   description: |-
     No ally units in play?
     I do not require a sacrifice then.
+  tags:
+    - grand
   effects:
     passive:
-      condition: player.units.length > 0
-      perform: pass.addTag(card, 'grand')
+      condition: player.units.length === 0
+      perform: pass.removeTag(card, 'grand')
       allowedLots:
         - unit-field
         - hand
@@ -6149,7 +6151,7 @@
   guid: e373c336-f554-700d-e05a-48ed858e6029
   name: johnny1
   power: 6
-- id: 319
+- id: 271
   slug: emma
   description: If your current AP is 0, you can summon me for no mana cost.
   lore: "(Middle Eastern and Central Asian Folklore): A satirical Sufi figure
@@ -6473,7 +6475,7 @@
   guid: cead0021-5e03-b6aa-c8f9-99cd26581f3c
   name: Tricky Necromancer
   power: 1
-- id: 318
+- id: 270
   slug: banana-b
   description: >-
     IN-HAND
@@ -6613,7 +6615,7 @@
   guid: ca3a4ca9-ca25-0d16-86a5-8519e7402e0b
   name: Joe Blow
   power: 5
-- id: 317
+- id: 269
   slug: banana-a
   description: >-
     IN-HAND
