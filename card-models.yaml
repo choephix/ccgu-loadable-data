@@ -15,6 +15,7 @@
         - unit-field
   guid: 8bdde938-89d1-e143-937a-d3328c41e324
   power: 4
+  name: thoughtful-whale
 - id: 302
   slug: crowded-justin
   description: |-
@@ -32,6 +33,7 @@
         - unit-field
   guid: 344a4e78-3776-3d55-ba32-b9776f413354
   power: 7
+  name: crowded-justin
 - id: 301
   slug: delightful-hyena
   description: |-
@@ -47,6 +49,7 @@
         - unit-field
   guid: 8224d3df-2ce1-f969-8b9d-d0aa82813ddd
   power: 6
+  name: delightful-hyena
 - id: 300
   slug: vivacious-benjamin
   description: |-
@@ -1555,11 +1558,13 @@
       eventName: DeployUnit
       eventStatus: began
       condition: |-
-        const field = get.opposingUnitField(card)
+        const dest = event.lot_to
+        const field = get.opposingUnitField(dest)
         event.card === card &&
         !field.hasCards
       perform: |-
-        const field = get.opposingUnitField(card)
+        const dest = event.lot_to
+        const field = get.opposingUnitField(dest)
         op.spawnToken(field, 'mephisto-token')
       allowedLots:
         - unit-field
