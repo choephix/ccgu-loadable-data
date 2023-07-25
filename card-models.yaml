@@ -1,3 +1,35 @@
+- id: 302
+  slug: crowded-justin
+  description: |-
+    Enemy draws 1 cards
+    when I'm played
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: event.card === card
+      perform: |-
+        op.draw(opponent)
+        op.draw(opponent)
+      allowedLots:
+        - unit-field
+  guid: 344a4e78-3776-3d55-ba32-b9776f413354
+  power: 7
+- id: 301
+  slug: delightful-hyena
+  description: |-
+    Enemy draws 1 card
+    when I'm played
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: event.card === card
+      perform: op.draw(opponent)
+      allowedLots:
+        - unit-field
+  guid: 8224d3df-2ce1-f969-8b9d-d0aa82813ddd
+  power: 6
 - id: 300
   slug: vivacious-benjamin
   description: |-
