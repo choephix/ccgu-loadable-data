@@ -1203,7 +1203,7 @@
   guid: e848b4d8-311f-6eaa-e803-b3c88677863a
   name: Jeanne Hachette
   power: 3
-- id: 391
+- id: 441
   slug: poisonous-defence
   type: 1
   description: -4{{power}} to enemy unit beginning to attack here
@@ -1766,7 +1766,7 @@
   art: /temp/beartrap
   guid: 7b56a5c5-71bc-d653-3098-2dd6e8e17b3b
   name: Call of the Nisse
-- id: 441
+- id: 391
   slug: from-the-right
   type: 1
   description: |-
