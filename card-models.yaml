@@ -10,10 +10,15 @@
       condition: |-
         event.card === card &&
         get.opposingUnit(card) &&
-        faq.canAttack(card, to)
-      perform: const foe = get.opposingUnit(card)
+        faq.canAttack(card)
+      perform: |-
+        const foe = get.opposingUnit(card)
+        op.forceAttack(card)
+      allowedLots:
+        - unit-field
   guid: 626f3b6b-e52b-6c43-143d-12e9702f9177
   power: 4
+  name: vivacious-benjamin
 - id: 420
   slug: wainamoinen
   effects: {}
