@@ -1,3 +1,20 @@
+- id: 303
+  slug: thoughtful-whale
+  description: |-
+    +1{{hp}} when enemy draws
+    if their {{hp}} is higher
+  effects:
+    active:
+      eventName: Draw
+      eventStatus: ended
+      condition: |-
+        event.player === opponent &&
+        player.healthPoints < opponent.healthPoints
+      perform: op.heal(player, 1)
+      allowedLots:
+        - unit-field
+  guid: 8bdde938-89d1-e143-937a-d3328c41e324
+  power: 4
 - id: 302
   slug: crowded-justin
   description: |-
