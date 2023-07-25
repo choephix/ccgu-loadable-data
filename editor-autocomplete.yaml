@@ -1,4 +1,3 @@
-
 local:
   - card
   - player
@@ -40,6 +39,7 @@ faq:
   - hasTurn(card))
   - wasDeployedThisTurn(card)
   - canRelocateTo(card, to)
+  - canAttack(card)
   - isOpposingLane(target, to)
 op:
   - draw(player)
@@ -62,12 +62,15 @@ op:
   - forceManualAttack(card)
   - forceRelocate(card)
   - forceManualRelocate(card)
+  - forceSwap(cardA, cardB)
   - flipFaceDown(card)
+  - flipFaceUp(card)
   - addTempFx(card, gt => modify, gt => expire)
   - spawnToken(lot)
   - clearActions(card)
 pass:
   - addTag(card, tag)
+  - removeTag(card, tag)
   - raisePower(card, amount)
   - lowerPower(card, amount)
   - setFaceUp(card, value)

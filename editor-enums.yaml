@@ -1,35 +1,35 @@
 eventName:
-  - TurnBegin
-  - TurnEnd
-  - HandleCommand
-  - ActivateTrap
-  - ActivateUnitAbility
-  - PerformActiveEffect
-  - Draw
+  - Any
   - DeployUnit
   - TributeDeployUnit
   - DeployTrap
-  - UnitReveal
-  - UnitRelocate
   - UnitAttack
   - UnitAttackDirect
   - UnitAttackCombat
+  - UnitReveal
+  - UnitRelocate
   - UnitDie
+  - TurnBegin
+  - TurnEnd
+  - Draw
+  - SpawnToken
+  - ActivateTrap
+  - ActivateUnitAbility
+  - PerformActiveEffect
   - TrapDispose
+  - Discards
   - PlayerDamage
   - PlayerHeal
   - PlayerChangeHealth
   - PlayerChangeActionPoints
-  - CardSpawn
-  - Sacrifice
-  - Discard
   - AddToHand
   - AddToDeck
-  - SpawnToken
+  - Sacrifice
+  - HandleCommand
   - SwapFieldCards
   - CardChangeLot
   - CardChangeFaceUp
-  - Any
+  - CardSpawn
 cardTag:
   units:
     - sneak
