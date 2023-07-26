@@ -103,7 +103,7 @@
   power: 10
   name: Camazotz
   art: /camazotz
-- id: 504
+- id: 405
   slug: angra-mainyu
   tags:
     - grand
@@ -2030,7 +2030,7 @@
   guid: e053ce66-d442-4da5-9d05-c4098cf6f191
   name: The Cheshire Cat
   power: 3
-- id: 405
+- id: 504
   slug: flappy-bird-grand
   lore: Swift as thought and unpredictable as the wind, Mercury's strikes come
     from all angles, his speed the heart of his relentless pursuit.
