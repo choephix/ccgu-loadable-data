@@ -190,8 +190,8 @@
 - id: 312
   slug: hyde-token
   description: |-
-    I can only be played over your Dr Jekyll
-    already in play
+    I can only be played over Dr Jekyll
+    already in play on your side
   tags:
     - token
     - grand
