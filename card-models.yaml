@@ -970,7 +970,7 @@
   guid: 4923e18b-2a7a-83e8-e321-a2f534895d67
   name: spatial-pygmy
   power: 9
-- id: 392
+- id: 463
   slug: powerup
   type: 1
   description: +3{{power}} to your unit when attacked
@@ -1301,7 +1301,7 @@
   guid: e848b4d8-311f-6eaa-e803-b3c88677863a
   name: Jeanne Hachette
   power: 3
-- id: 441
+- id: 393
   slug: poisonous-defence
   type: 1
   description: -4{{power}} to enemy unit beginning to attack here
@@ -1743,7 +1743,7 @@
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   name: Karna
   power: 9
-- id: 393
+- id: 441
   slug: steal-dead-unit
   type: 1
   description: |-
@@ -3202,7 +3202,7 @@
   effects: {}
   guid: 8cc4afa4-1276-5506-1c7d-aa1052afd931
   name: drawnecro
-- id: 463
+- id: 392
   slug: taunt
   type: 1
   description: Force enemy unit deployed here to attack
