@@ -73,6 +73,8 @@
   name: vivacious-benjamin
 - id: 489
   slug: wainamoinen
+  lore: His melodies echo in the whisper of the pines, the rustling of the reeds,
+    the lapping of the waves.
   effects: {}
   guid: 27d5557b-d462-8f02-3c4e-273c64130473
   power: 5
@@ -80,13 +82,17 @@
   name: Wainamoinen
 - id: 500
   slug: sigurd
+  lore: Unyielding in spirit, his steel slashes through legends, his valor echoed
+    in dragon's roars.
   effects: {}
   guid: 964bb188-f3ee-18da-b3aa-dcb13f933767
   power: 5
   name: Sigurd
   art: /sigurd
-- id: 460
+- id: 405
   slug: raijin
+  lore: As the heavens darken, his fury ignites, a power as raw and tempestuous as
+    the storm itself.
   tags:
     - grand
   effects: {}
@@ -96,6 +102,8 @@
   name: Raijin
 - id: 505
   slug: camazotz
+  lore: Under the cloak of darkness, the bat god swoops, an embodiment of primal
+    fears.
   tags:
     - grand
   effects: {}
@@ -103,8 +111,10 @@
   power: 10
   name: Camazotz
   art: /camazotz
-- id: 405
+- id: 460
   slug: angra-mainyu
+  lore: His essence, a chilling wind tearing through creation, a herald of eternal
+    night.
   tags:
     - grand
   effects: {}
@@ -126,6 +136,7 @@
   power: 5
 - id: 499
   slug: hervor
+  lore: In the face of despair, her spirit kindles, brighter than any Viking pyre.
   effects: {}
   guid: 6106f559-f8e3-7f6b-699e-d9bef20bb8db
   art: /hervor
@@ -133,6 +144,7 @@
   power: 5
 - id: 498
   slug: tatterhood
+  lore: The ragged cloak may fool the eye, but her bravery is in plain sight.
   effects: {}
   guid: c4b8f04d-ea8b-59ee-d26d-1409140b1a37
   power: 5
@@ -140,6 +152,8 @@
   name: Tatterhood
 - id: 496
   slug: krali-marko
+  lore: His valor is etched in the rhythms of the Balkan winds, his tales sung by
+    the earth.
   effects: {}
   guid: c4b8f04d-ea8b-59ee-d26d-1409140b1a37
   power: 5
@@ -301,7 +315,7 @@
   guid: 6df4249c-c165-b329-a9c7-4df9d6d96749
   name: "007"
   power: 3
-- id: 471
+- id: 318
   slug: outstanding-owl
   description: When I kill a unit, add its power to mine
   effects:
@@ -464,7 +478,7 @@
   power: 10
   name: Clay Golem
   art: /tokens/golem
-- id: 454
+- id: 471
   slug: combat-goose
   description: 10{{powered}} token spawns in my place after I relocate
   lore: A humble man with divine instruction, turning earthen dust to fervent life.
@@ -963,7 +977,7 @@
   guid: e3b41aa1-0f98-ec62-7c2b-2f8414025180
   name: Power Up
   art: /temp/beartrap
-- id: 371
+- id: 454
   slug: drawson
   description: Enemy draws 1 card when I attack
   lore: Swashbuckling through the high seas, Anne Bonny personifies the wild and
