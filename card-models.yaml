@@ -145,7 +145,7 @@
   power: 5
   name: Krali Marko
   art: /krali-marko
-- id: 371
+- id: 389
   slug: jekyll
   description: |-
     9{{powered}} Lv2 token spawns in your hand when I'm played
@@ -963,7 +963,7 @@
   guid: e3b41aa1-0f98-ec62-7c2b-2f8414025180
   name: Power Up
   art: /temp/beartrap
-- id: 389
+- id: 371
   slug: drawson
   description: Enemy draws 1 card when I attack
   lore: Swashbuckling through the high seas, Anne Bonny personifies the wild and
@@ -1257,7 +1257,7 @@
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   name: Horatius Cocles
   power: 1
-- id: 404
+- id: 418
   slug: buffy
   description: +1{{power}} to other ally units in play
   lore: Her courage shining like a beacon, Jeanne Hachette stands tall, inspiring
@@ -1599,7 +1599,7 @@
   guid: 549b8197-538b-0a31-673d-e0b8e59fcc32
   name: Gideon
   power: 3
-- id: 418
+- id: 404
   slug: captain-fantastic
   description: +4{{power}} to adjacent ally units
   lore: A national heroine of France and a Catholic saint, Joan of Arc led the
