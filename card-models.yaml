@@ -981,6 +981,9 @@
   slug: powerup
   type: 1
   description: +3{{power}} to your unit when attacked
+  lore: Among the clamor of war, a silent symbol of victory emerges, its
+    protective aura cloaked in an aura of dread, turning the bearer into a
+    specter of awe-inspiring strength.
   pdc: -1
   priority: 3
   effects:
@@ -993,7 +996,7 @@
           event.defender, 
           tg => tg.pass.raisePower(event.defender, 3))
   guid: e3b41aa1-0f98-ec62-7c2b-2f8414025180
-  name: Power Up
+  name: Helm of Awe
   art: /temp/beartrap
 - id: 454
   slug: drawson
