@@ -82,7 +82,7 @@
   guid: 626f3b6b-e52b-6c43-143d-12e9702f9177
   power: 4
   name: vivacious-benjamin
-- id: 489
+- id: 497
   slug: wainamoinen
   lore: His melodies echo in the whisper of the pines, the rustling of the reeds,
     the lapping of the waves.
@@ -122,7 +122,7 @@
   power: 10
   name: Camazotz
   art: /camazotz
-- id: 460
+- id: 504
   slug: angra-mainyu
   lore: His essence, a chilling wind tearing through creation, a herald of eternal
     night.
@@ -133,7 +133,7 @@
   name: Angra Mainyu
   power: 10
   art: /angra-mainyu
-- id: 503
+- id: 501
   slug: Anne-Dieu-le-Veut
   lore: Anne "Dieu-Le-Veut" de Graaf[1] also called Marie-Anne or Marianne (28
     August 1661 – 11 January 1710)[2] was a French pirate. Alongside Jacquotte
@@ -2055,7 +2055,7 @@
   guid: e053ce66-d442-4da5-9d05-c4098cf6f191
   name: The Cheshire Cat
   power: 3
-- id: 504
+- id: 459
   slug: flappy-bird-grand
   lore: Swift as thought and unpredictable as the wind, Mercury's strikes come
     from all angles, his speed the heart of his relentless pursuit.
