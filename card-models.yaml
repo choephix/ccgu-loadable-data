@@ -3209,7 +3209,7 @@
   effects: {}
   guid: 8cc4afa4-1276-5506-1c7d-aa1052afd931
   name: drawnecro
-- id: 392
+- id: 460
   slug: taunt
   type: 1
   description: Force enemy unit deployed here to attack
@@ -3490,7 +3490,7 @@
   guid: 54906067-1fd6-f6bb-cd8d-4b03141e3efe
   name: Sloth Wyrm
   power: 15
-- id: 350
+- id: 392
   slug: killonattack
   type: 1
   description: Activate after opposing enemy $unit finishes a direct attack. $Kill it.
@@ -3501,8 +3501,8 @@
     active:
       eventName: UnitAttackDirect
       eventStatus: ended
-      condition: faq.isOpposingLane( event.card, card )
-      perform: op.kill( event.card )
+      condition: faq.isOpposingLane(event.card, card)
+      perform: op.kill(event.card)
   guid: e649a142-6fe2-e540-60e4-3615f222370a
   name: killonattack
 - id: 874
