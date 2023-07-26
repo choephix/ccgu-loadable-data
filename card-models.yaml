@@ -370,7 +370,7 @@
   art: /huitzilopochtli
 - id: 436
   slug: gremlin
-  description: "Combat-Flip: Set enemy {{ap}} to 0"
+  description: "Combat-Flip: Set enemy{{ap}} to 0"
   tags:
     - sneak
   effects:
