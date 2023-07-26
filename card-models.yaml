@@ -1,3 +1,10 @@
+- id: 502
+  slug: siegfried
+  effects: {}
+  guid: 56d82a3c-ca92-6ef6-6a6c-617c196146ce
+  name: Siegfried
+  art: /siegfried
+  power: 5
 - id: 394
   slug: roadrunner
   lore: Its cackle echoes across the desert, a dancer whose stage is the shifting
