@@ -1,3 +1,14 @@
+- id: 482
+  slug: roadrunner
+  lore: Its cackle echoes across the desert, a dancer whose stage is the shifting
+    dunes.
+  tags:
+    - swift
+  effects: {}
+  guid: af67858d-402b-2a05-95b9-b96040f3e4cb
+  art: /roadrunner
+  name: Roadrunner
+  power: 1
 - id: 303
   slug: thoughtful-whale
   description: |-
