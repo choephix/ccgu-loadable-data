@@ -1049,6 +1049,8 @@
   slug: siren-call
   type: 1
   description: Enemy unit beginning an attack anywhere, moves here first
+  lore: A haunting melody winds its way to your ears, its irresistible lure
+    pulling you towards an unseen source.
   tags:
     - global
   effects:
@@ -1312,8 +1314,8 @@
   slug: poisonous-defence
   type: 1
   description: -4{{power}} to enemy unit beginning to attack here
-  lore: One of the five rivers of the underworld, drinking from it causes
-    forgetfulness and a lack of vigor.
+  lore: Imbibe the waters of oblivion, where memory fades and strength wanes, your
+    past swallowed by a tranquil current.
   effects:
     active:
       eventName: UnitAttack
@@ -1716,7 +1718,8 @@
   slug: def-heal
   type: 1
   description: On direct attack by enemy unit here, first heal by its power
-  lore: v3
+  lore: Like a wellspring of endurance, a steadfast shield in nature's form
+    absorbs and repels the mightiest attacks.
   effects:
     active:
       eventName: UnitAttackDirect
@@ -1862,6 +1865,8 @@
   description: |-
     Spawn a 5{{powered}} token to your side when opposing enemy unit is deployed
     if possible
+  lore: In the quietest of moments, a sudden bustle signals unseen allies, their
+    timely aid turning the tide.
   effects:
     active:
       eventName: DeployUnit
@@ -1881,8 +1886,9 @@
   description: |-
     On direct attack, first bring your unit on the right here
     if there is any
-  lore: George Washington led a surprise attack against Hessian forces at Trenton,
-    New Jersey, during the American Revolutionary War.
+  lore: Against all odds, as the first light of dawn pierced the winter sky, the
+    Continental Army descended upon the Hessian garrison, a surprise attack from
+    seemingly nowhere
   effects:
     active:
       eventName: UnitAttack
@@ -3493,7 +3499,9 @@
 - id: 392
   slug: killonattack
   type: 1
-  description: Activate after opposing enemy $unit finishes a direct attack. $Kill it.
+  description: Kill enemy unit here after direct attack
+  lore: When fury is unbridled, an unseen force prepares, its retribution swift
+    and relentless
   pdc: -1
   status: 2
   priority: 3
@@ -3504,7 +3512,7 @@
       condition: faq.isOpposingLane(event.card, card)
       perform: op.kill(event.card)
   guid: e649a142-6fe2-e540-60e4-3615f222370a
-  name: killonattack
+  name: Nemesis's Strike!
 - id: 874
   slug: nosneaking
   type: 1
@@ -8531,8 +8539,8 @@
   description: |-
     When enemy unit comes here, return it to the hand
     All methods count, like deployment, relocation and effects
-  lore: A mirage that creates illusions of distant objects, causing travelers to
-    become disoriented and lose their way.
+  lore: Through the shimmering air, false landscapes beckon, their enticing yet
+    elusive promise leading only to confusion.
   effects:
     active:
       eventName: CardChangeLot
