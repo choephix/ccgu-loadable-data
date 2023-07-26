@@ -71,21 +71,21 @@
   guid: 626f3b6b-e52b-6c43-143d-12e9702f9177
   power: 4
   name: vivacious-benjamin
-- id: 420
+- id: 489
   slug: wainamoinen
   effects: {}
   guid: 27d5557b-d462-8f02-3c4e-273c64130473
   power: 5
   art: /wainamoinen
   name: Wainamoinen
-- id: 419
+- id: 500
   slug: sigurd
   effects: {}
   guid: 964bb188-f3ee-18da-b3aa-dcb13f933767
   power: 5
   name: Sigurd
   art: /sigurd
-- id: 442
+- id: 460
   slug: raijin
   tags:
     - grand
@@ -124,21 +124,21 @@
   name: Anne Dieu-le-Veut
   art: /anne-dieu-le-veut
   power: 5
-- id: 418
+- id: 499
   slug: hervor
   effects: {}
   guid: 6106f559-f8e3-7f6b-699e-d9bef20bb8db
   art: /hervor
   name: Hervor
   power: 5
-- id: 417
+- id: 498
   slug: tatterhood
   effects: {}
   guid: c4b8f04d-ea8b-59ee-d26d-1409140b1a37
   power: 5
   art: /tatterhood
   name: Tatterhood
-- id: 416
+- id: 496
   slug: krali-marko
   effects: {}
   guid: c4b8f04d-ea8b-59ee-d26d-1409140b1a37
@@ -179,7 +179,7 @@
   name: Mr Hyde
   power: 8
   art: /hires/hyde
-- id: 394
+- id: 450
   slug: dupin
   description: Have a peek at all enemy face-down cards
   lore: He teases truth from the jaws of deception, a virtuoso of the detective's
@@ -266,7 +266,7 @@
         - hand
   guid: d9c3bad0-12f4-5861-fed5-cd8885fa1b8e
   name: --the-hand
-- id: 501
+- id: 477
   slug: spying-james
   description: |-
     Keep the top card in both decks face up
@@ -464,7 +464,7 @@
   power: 10
   name: Clay Golem
   art: /tokens/golem
-- id: 449
+- id: 454
   slug: combat-goose
   description: 10{{powered}} token spawns in my place after I relocate
   lore: A humble man with divine instruction, turning earthen dust to fervent life.
@@ -488,7 +488,7 @@
   art: /rabbi-loew
   name: Rabbi Loew
   power: 1
-- id: 387
+- id: 468
   slug: trap-thief
   description: |-
     If the enemy grave's top card is a trap, take it
@@ -608,7 +608,7 @@
   name: Discordia
   power: 5
   art: /discordia
-- id: 500
+- id: 419
   slug: returner2
   description: I return to your hand if I'm on top of your grave as your turn begins
   lore: >-
@@ -860,7 +860,7 @@
   name: The Undine
   art: /undine
   power: 3
-- id: 389
+- id: 453
   slug: jabberwock
   lore: Brimbling with murkitude in the duskish dim, skraggling with its
     blibberous eyes and grinfanging jaws, hurling a frumious shiver of dread
@@ -963,7 +963,7 @@
   guid: e3b41aa1-0f98-ec62-7c2b-2f8414025180
   name: Power Up
   art: /temp/beartrap
-- id: 453
+- id: 389
   slug: drawson
   description: Enemy draws 1 card when I attack
   lore: Swashbuckling through the high seas, Anne Bonny personifies the wild and
@@ -1129,7 +1129,7 @@
   name: Cu Chulainn
   power: 4
   art: /cuchulainn
-- id: 454
+- id: 449
   slug: will-o-the-wisp
   description: |-
     Move enemy unit here when deployed anywhere
@@ -1214,7 +1214,7 @@
   guid: afe2f4b6-3b5a-e47f-8ac1-fddbe4836fff
   name: Tiger
   power: 5
-- id: 473
+- id: 469
   slug: necropy
   description: |-
     +X{{power}}, equal to the enemy grave's top card
@@ -1235,7 +1235,7 @@
   art: /lilith
   guid: da711770-5ed0-4617-0f2a-b520d56d8912
   name: Lilith
-- id: 448
+- id: 434
   slug: shonen2
   description: +2{{power}} per enemy unit in play
   lore: Rome's one-eyed sentinel, he stood undaunted on the Tiber bridge, his
@@ -1497,7 +1497,7 @@
   guid: b6b71451-926d-ece6-d0d3-0b71508871e1
   name: Galatea
   power: 8
-- id: 468
+- id: 473
   slug: target-bomb
   description: |-
     Combat-Flip:
@@ -1599,7 +1599,7 @@
   guid: 549b8197-538b-0a31-673d-e0b8e59fcc32
   name: Gideon
   power: 3
-- id: 499
+- id: 418
   slug: captain-fantastic
   description: +4{{power}} to adjacent ally units
   lore: A national heroine of France and a Catholic saint, Joan of Arc led the
@@ -1640,7 +1640,7 @@
   guid: 9d913bd6-cf60-e796-d57d-ef6d9465f77d
   name: Hanuman
   power: 2
-- id: 498
+- id: 417
   slug: un-prod
   description: -2{{power}} per card in your hand
   lore: With a hearty laugh and a swirling goblet, Bacchus intoxicates the game,
@@ -1696,7 +1696,7 @@
   art: /temp/beartrap
   guid: 32e847e6-dce8-b39e-db65-c218a4e5bf5f
   name: Rubber Tree
-- id: 497
+- id: 476
   slug: un-shonen
   description: -2{{power}} per enemy unit in play
   lore: Brave and valiant, Karna stands tall against any foe, but falters amidst
@@ -2084,7 +2084,7 @@
   guid: f0a1e712-dc0d-feca-4096-4ebcb8253d43
   name: Thumbelina
   power: 1
-- id: 496
+- id: 416
   slug: berserker
   description: |-
     I automatically attack as your turn starts
@@ -2730,7 +2730,7 @@
   guid: 6f7f792b-0da9-f90d-a7a5-9245606bbae8
   name: trapazan
   power: 5
-- id: 410
+- id: 387
   slug: patience-zero
   description: |-
     Discard me as your turn ends
@@ -3777,7 +3777,7 @@
   guid: 00badf76-e490-b5e6-9b31-a3986978ca5e
   name: Grand Traitor
   power: 14
-- id: 434
+- id: 448
   slug: man-of-honor
   description: I will not attack without a foe here
   lore: Clad in shining armor, his unwavering nobility lights the path to
@@ -7215,7 +7215,7 @@
   guid: ea9b4a78-31f4-99cc-1e33-5de272a0497e
   name: ti364w
   power: 3
-- id: 426
+- id: 420
   slug: drawhater
   description: Every time the enemy draws a card, decrease my power by 1.
   lore: Blessed with immortality but cursed to wither, Tithonus fades over time,
