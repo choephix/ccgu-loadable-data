@@ -1068,7 +1068,7 @@
         op.forceRelocate(event.card, lot)
   guid: 2b3c5ad4-935f-69ce-200f-bc4da7d40911
   name: Siren Song
-  art: /temp/beartrap
+  art: /traps/siren
 - id: 307
   slug: wisp-token
   notes: better fits a trap
@@ -1330,7 +1330,7 @@
         op.addTempFx(
           event.card, 
           tg => tg.pass.lowerPower(event.card, 4))
-  art: /temp/beartrap
+  art: /traps/river-lethe
   guid: 3ee6755d-845a-f87c-fed7-9594b1e29bcd
   name: River Lethe
 - id: 561
@@ -1731,7 +1731,7 @@
         event.card === get.opposingUnit(card) &&
         !get.sameLaneUnit( card )
       perform: op.heal(player, event.card.power)
-  art: /temp/beartrap
+  art: /traps/rubber-tree
   guid: 32e847e6-dce8-b39e-db65-c218a4e5bf5f
   name: Rubber Tree
 - id: 476
@@ -1779,7 +1779,7 @@
         const target = opponent.grave.topCard;
         const field = get.sameLaneUnitField(card)
         op.deploy(target, field)
-  art: /temp/beartrap
+  art: /traps/draugr-curse
   guid: d168768c-2363-2cf9-e031-231ae5b6f749
   name: Draugr's Curse
 - id: 90
@@ -1880,7 +1880,7 @@
       perform: |-
         const field = get.sameLaneUnitField(card)
         op.spawnToken(field, 'nisse-token')
-  art: /temp/beartrap
+  art: /traps/nisse
   guid: 7b56a5c5-71bc-d653-3098-2dd6e8e17b3b
   name: Call of the Nisse
 - id: 391
@@ -2585,7 +2585,7 @@
       eventStatus: began
       condition: event.card === get.opposingUnit( card )
       perform: op.damage(opponent, 4)
-  art: /temp/beartrap
+  art: /traps/cactus
   guid: dceeae8a-f8bd-7dbd-7168-11394f7e0f8d
   name: Cactus
 - id: 289
@@ -2645,7 +2645,7 @@
       perform: |-
         const lot = get.sameLaneUnitField( card )
         op.deploy( player.grave.topCard, lot )
-  art: /temp/beartrap
+  art: /traps/cauldron-of-rebirth
   guid: 32e847e6-dce8-b39e-db65-c218a4e5bf5f
   name: Cauldron of Rebirth
 - id: 822
@@ -3352,7 +3352,7 @@
         op.addTempFx(
           event.card, 
           tg => tg.pass.lowerPower(event.card, 5))
-  art: /temp/beartrap
+  art: /traps/evil-eye
   guid: e3b41aa1-0f98-ec62-7c2b-2f8414025180
   name: The Evil Eye
 - id: 331
@@ -3516,6 +3516,7 @@
       perform: op.kill(event.card)
   guid: e649a142-6fe2-e540-60e4-3615f222370a
   name: Nemesis's Strike!
+  art: /traps/gungnir
 - id: 874
   slug: nosneaking
   type: 1
@@ -4012,7 +4013,7 @@
       perform: |-
         const foe = get.opposingUnit( card )
         op.kill( foe )
-  art: /temp/beartrap
+  art: /traps/quicksand
   guid: bb422769-ee65-6180-d9d9-504f4d30a7ef
   name: Quicksand
 - id: 524
@@ -5841,7 +5842,7 @@
         event.card === get.opposingUnit( card ) &&
         !! get.sameLaneUnit( card )
       perform: op.forceAttack( get.sameLaneUnit( card ) )
-  art: /temp/beartrap
+  art: /traps/night-attack
   guid: ca3a6d1f-f089-4c7e-42ec-0a7a9ea6f384
   name: The Night Attack
 - id: 3245
@@ -8550,7 +8551,7 @@
       eventStatus: ended
       condition: event.card === get.opposingUnit(card)
       perform: op.addToHand(event.card, event.card.owner)
-  art: /temp/beartrap
+  art: /traps/fata-morgana
   guid: df830212-fd3c-40f8-9430-688259d6bd32
   name: Fata Morgana
 - id: 3648
