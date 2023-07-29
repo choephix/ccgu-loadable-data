@@ -33,6 +33,7 @@
   guid: d4c10c3c-a82c-f92c-b878-67f96bb9a9ee
   art: /hires/goldilocks
   name: Goldilocks
+  power: 2
 - id: 502
   slug: siegfried
   effects: {}
