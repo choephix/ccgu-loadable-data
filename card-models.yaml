@@ -1,3 +1,23 @@
+- id: 482
+  slug: goldilocks
+  description: |-
+    Draw 1 card from the enemy deck
+    when I'm played
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: |-
+        event.card === card &&
+        opponent.deck.topCard
+      perform: |-
+        const topCard = opponent.deck.topCard
+        op.addToHand(topCard, player)
+      allowedLots:
+        - unit-field
+  guid: d4c10c3c-a82c-f92c-b878-67f96bb9a9ee
+  art: /hires/goldilocks
+  name: Goldilocks
 - id: 502
   slug: siegfried
   effects: {}
