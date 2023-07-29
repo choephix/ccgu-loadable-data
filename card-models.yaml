@@ -1,3 +1,18 @@
+- id: 298
+  slug: talented-scorpion
+  description: +X{{power}}, the sum from adjacent ally units
+  tags:
+    - grand
+  effects:
+    passive:
+      condition: "true"
+      perform: |-
+        const powL = get.leftUnit(card)?.power || 0
+        const powR = get.rightUnit(card)?.power || 0
+        pass.raisePower(card, powL + powR)
+      allowedLots:
+        - unit-field
+  guid: d925b49a-7704-a851-02c2-3b706f9d6e9a
 - id: 482
   slug: goldilocks
   description: |-
@@ -1402,7 +1417,7 @@
   guid: c975d9b5-3f58-30c1-1192-d8cb2d5ae481
   name: Bouncy
   power: 5
-- id: 315
+- id: 317
   slug: fibre-turtle
   description: |-
     No ally units in play?
