@@ -255,7 +255,7 @@
         tribute?.slug != 'jekyll'"
   guid: fa49b33e-53d4-3730-0c31-86dc9244ce2f
   name: Mr Hyde
-  power: 11
+  power: 12
   art: /hires/hyde
 - id: 450
   slug: dupin
