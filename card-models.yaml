@@ -1905,7 +1905,7 @@
           get.rightUnit(card), 
           get.sameLaneUnitField(card)
         )
-  art: /temp/beartrap
+  art: /traps//battle-of-trenton
   guid: 294447b1-beb2-1618-5d29-8182eee4f481
   name: The Battle of Trenton
 - id: 380
