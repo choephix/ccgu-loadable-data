@@ -997,7 +997,7 @@
           tg => tg.pass.raisePower(event.defender, 3))
   guid: e3b41aa1-0f98-ec62-7c2b-2f8414025180
   name: Helm of Awe
-  art: /temp/beartrap
+  art: /traps/helm-of-awe
 - id: 454
   slug: drawson
   description: Enemy draws 1 card when I attack
@@ -1947,7 +1947,7 @@
         get.currentPlayer === opponent &&
         event.card === get.opposingUnit(card)
       perform: op.endTurn()
-  art: /temp/beartrap
+  art: /traps/nightingale
   guid: 6be64973-5e35-cd68-924a-1e49d0446c86
   name: The Nightingale
 - id: 433
