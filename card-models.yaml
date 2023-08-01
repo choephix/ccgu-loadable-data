@@ -1,3 +1,55 @@
+- id: 484
+  slug: gretel
+  description: |-
+    Add "Hansel" from your deck to your hand
+    when I enter play
+    if possible
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: |-
+        const PARTNER_NAME = 'hansel'
+        event.card === card &&
+        player.deck.cards.some(
+          c => c.slug === PARTNER_NAME)
+      perform: |-
+        const PARTNER_NAME = 'hansel'
+        const partner = player.deck.cards.find(
+          c => c.slug === PARTNER_NAME)
+        op.moveTo(partner, player.hand)
+      allowedLots:
+        - unit-field
+  guid: a21ea10a-6e3c-d9d1-5d6e-42031a246f8a
+  name: Gretel
+  art: /hires/gretel
+  power: 4
+- id: 483
+  slug: hanzel
+  description: |-
+    Add "Gretel" from your deck to your hand
+    when I enter play
+    if possible
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: |-
+        const PARTNER_NAME = 'gretel'
+        event.card === card &&
+        player.deck.cards.some(
+          c => c.slug === PARTNER_NAME)
+      perform: |-
+        const PARTNER_NAME = 'gretel'
+        const partner = player.deck.cards.find(
+          c => c.slug === PARTNER_NAME)
+        op.moveTo(partner, player.hand)
+      allowedLots:
+        - unit-field
+  guid: 7af22b9f-1fdd-0dab-e195-624964e11a87
+  name: Hansel
+  art: /hires/hansel
+  power: 4
 - id: 298
   slug: talented-scorpion
   description: +X{{power}}, the sum from adjacent ally units
