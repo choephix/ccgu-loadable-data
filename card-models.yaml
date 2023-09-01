@@ -850,6 +850,7 @@
 
         foo(player)
         foo(opponent)
+        op.moveTo(card, player.grave)
       allowedLots:
         - unit-field
   guid: dab838f0-0ca1-b646-7865-1e3a2adaf02e
