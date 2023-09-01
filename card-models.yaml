@@ -1,3 +1,18 @@
+- id: 37
+  slug: --clear
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: event.card === card
+      perform: |-
+        for (const u of player.units) {
+          op.clearActions(u)
+        }
+      allowedLots:
+        - unit-field
+  guid: e4876c59-c144-7650-26a7-519c5e95d85d
+  name: Clearer
 - id: 484
   slug: gretel
   description: |-
