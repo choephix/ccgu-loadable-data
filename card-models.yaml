@@ -1,5 +1,5 @@
 - id: 37
-  slug: --clear
+  slug: --clearer
   effects:
     active:
       eventName: DeployUnit
