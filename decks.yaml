@@ -1,3 +1,50 @@
+- name: Deck01_1
+  slugs:
+    - harassingmia
+    - token-giver
+    - trapcho
+    - patience-zero
+    - grendel
+    - jekyll
+    - sapper-grand
+    - from-the-right
+    - taunt
+    - poisonous-defence
+    - jack
+    - jill
+    - depdraw
+    - freejimmy
+    - captain-fantastic
+    - raijin
+    - mario
+    - surprise-reborn
+    - surprise-attack
+    - siren-call
+- name: Deck01_2
+  slugs:
+    - berserker
+    - un-prod
+    - buffy
+    - returner2
+    - drawhater
+    - generic5a
+    - swayer-grand
+    - token-on-deploy
+    - def-heal
+    - eject
+    - nimbleguard2
+    - splendid-eric
+    - shonen2
+    - trampoline
+    - gremlin
+    - token-spawner-0.ev4e44lyd5l0.8ov60niaefn
+    - cowardly-giant
+    - tripwire
+    - toxicmine
+    - steal-dead-unit
+
+# ---- # ---- # ---- # ---- # ---- # ---- # ---- # ---- # ---- # ---- #
+
 - name: Testerado A
   slugs:
     - -wildsneak
