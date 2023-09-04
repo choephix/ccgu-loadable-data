@@ -1,0 +1,200 @@
+- level: 1
+  name: Teutorio
+  startingHealthPoints: 20
+  startingHandSizePlayer1: 2
+  startingHandSizePlayer2: 4
+  actionPoints: 2
+  shuffleDecks: true
+  myDeck:
+    sleeveIllustrationId: ""
+    shuffleDeck: true
+    cardModelSlugs:
+      - raijin
+      - mario
+      - harassingmia
+      - token-giver
+      - trapcho
+      - patience-zero
+      - grendel
+      - jekyll
+      - sapper-grand
+      - from-the-right
+      - killonattack
+      - poisonous-defence
+      - jack
+      - jill
+      - depdraw
+      - freejimmy
+      - captain-fantastic
+      - surprise-reborn
+      - surprise-attack
+      - siren-call
+  enemyDeck:
+    sleeveIllustrationId: ""
+    shuffleDeck: gv
+    cardModelSlugs:
+      - berserker
+      - un-prod
+      - buffy
+      - returner2
+      - drawhater
+      - generic5a
+      - swayer-grand
+      - token-on-deploy
+      - def-heal
+      - eject
+      - nimbleguard2
+      - splendid-eric
+      - shonen2
+      - trampoline
+      - gremlin
+      - token-spawner-0.ev4e44lyd5l0.8ov60niaefn
+      - cowardly-giant
+      - tripwire
+      - toxicmine
+      - steal-dead-unit
+
+- level: 2
+  name: Primora
+  startingHealthPoints: 20
+  startingHandSizePlayer1: 2
+  startingHandSizePlayer2: 4
+  actionPoints: 2
+  shuffleDecks: true
+  myDeck:
+    sleeveIllustrationId: ""
+    shuffleDeck: true
+    cardModelSlugs:
+      - krali-marko
+      - wainamoinen
+      - tatterhood
+      - hervor
+      - sigurd
+      - anne-dieu-le-veut
+      - siegfriedkrali-marko
+      - wainamoinen
+      - tatterhood
+      - hervor
+      - sigurd
+      - anne-dieu-le-veut
+      - siegfried
+      - goldilocks
+      - generic5a
+      - jabberwock
+      - angra-mainyu
+      - camazotz
+      - raijin
+      - mario
+  enemyDeck:
+    sleeveIllustrationId: ""
+    shuffleDeck: true
+    cardModelSlugs:
+      - krali-marko
+      - wainamoinen
+      - tatterhood
+      - hervor
+      - sigurd
+      - anne-dieu-le-veut
+      - siegfriedkrali-marko
+      - wainamoinen
+      - tatterhood
+      - hervor
+      - sigurd
+      - anne-dieu-le-veut
+      - siegfried
+      - goldilocks
+      - generic5a
+      - jabberwock
+      - angra-mainyu
+      - camazotz
+      - raijin
+      - mario
+
+- level: 3
+  name: Quiblis
+  startingHealthPoints: 20
+  startingHandSizePlayer1: 2
+  startingHandSizePlayer2: 4
+  actionPoints: 2
+  shuffleDecks: true
+  myDeck:
+    sleeveIllustrationId: ""
+    shuffleDeck: true
+    cardModelSlugs:
+      - harassingmia
+      - token-giver
+      - trapcho
+      - patience-zero
+      - grendel
+      - jekyll
+      - sapper-grand
+      - from-the-right
+      - killonattack
+      - poisonous-defence
+      - jack
+      - jill
+      - depdraw
+      - freejimmy
+      - captain-fantastic
+      - raijin
+      - mario
+      - surprise-reborn
+      - surprise-attack
+      - siren-call
+  enemyDeck:
+    sleeveIllustrationId: ""
+    shuffleDeck: true
+    cardModelSlugs:
+      - berserker
+      - un-prod
+      - buffy
+      - returner2
+      - drawhater
+      - generic5a
+      - swayer-grand
+      - token-on-deploy
+      - def-heal
+      - eject
+      - nimbleguard2
+      - splendid-eric
+      - shonen2
+      - trampoline
+      - gremlin
+      - token-spawner-0.ev4e44lyd5l0.8ov60niaefn
+      - cowardly-giant
+      - tripwire
+      - toxicmine
+      - steal-dead-unit
+
+# DECK NAMES
+# 
+# Teutorio
+# Primora
+# Quiblis
+# Vexara
+# Cryptis
+# Luminar
+# Fablean
+# Obsidian
+# Zenoxis
+# Aetheris
+# 
+# Wondrial 
+# Mystiquor 
+# Illusora 
+# Tactigon 
+# Phobosynth 
+# Adrenoxis 
+# Cosmolabyrinth 
+# Zenithalos 
+# 
+# Curiothra 
+# Lumystique 
+# Cryptmazea 
+# Fablecrypta 
+# Tensarum
+# Perilweave 
+# Chaosurge 
+# Zenapexis 
+# 
+# 
