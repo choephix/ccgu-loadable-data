@@ -149,7 +149,7 @@ function foo4(data) {
   for (const item of data) {
     if (item.id < 2317) continue;
     if (item.id > 2533) continue;
-    item.slug = item.name.replace(/[ ]/g, '-').toLowerCase();
+    item.slug = item.name.replace(/[ ]/g, '-').replace(/[\']/g, '').toLowerCase();
   }
 }
 
