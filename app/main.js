@@ -145,6 +145,15 @@ function foo3(data) {
   }
 }
 
+function foo4(data) {
+  for (const item of data) {
+    if (item.id < 2317) continue;
+    if (item.id > 2533) continue;
+    item.slug = item.name.replace(/[ ]/g, '-').toLowerCase();
+  }
+}
+
+
 
 
 // Load YAML data
@@ -153,7 +162,7 @@ try {
   const fileContents = fs.readFileSync(filePath, 'utf8');
   const data = yaml.load(fileContents);
 
-  foo3(data);
+  foo4(data);
 
   // Convert back to YAML format
   const updatedYaml = yaml.dump(data, {
