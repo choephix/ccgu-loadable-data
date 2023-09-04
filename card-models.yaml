@@ -613,7 +613,7 @@
   effects: {}
   guid: 56d82a3c-ca92-6ef6-6a6c-617c196146ce
   name: Siegfried
-  art: /siegfried
+  art: /hires/siegfried
   power: 5
 - id: 2442
   slug: roadrunner
