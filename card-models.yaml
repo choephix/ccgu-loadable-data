@@ -2192,7 +2192,7 @@
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   name: Nyx
   power: 6
-- id: 2433
+- id: 2444
   slug: token-giver
   description: |-
     9{{powered}} token spawns in front of me before I'm played
