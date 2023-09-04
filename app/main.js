@@ -17,13 +17,15 @@ try {
 
   // Iterate through each element and update id as necessary
   for (const element of data) {
-    // updateId(element);
+     updateId(element);
   }
 
   // Convert back to YAML format
   const updatedYaml = yaml.dump(data, {
     noRefs: true, // Disable anchors and aliases
-    noCompatMode: true // Disable string quoting
+    noCompatMode: true, // Disable string quoting
+    quotingType: '"',
+    forceQuotes: false,
   });
 
   // Write updated YAML back to the same file
