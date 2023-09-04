@@ -83,13 +83,14 @@ cardSections:
         header: 🌞
   - subsections:
       - funcIndex: 8
-        header: ...
+        header: P.o.C. Demo — "Teutorio", Tokens & Potentials, but not sure if even
+          possible yet
       - funcIndex: 8
-        header: ...
+        header: P.o.C. Demo Set (Candidates)
       - funcIndex: 3
-        header: ...
+        header: P.o.C. Demo Set (P1 - row 1 & 2, P2 - row 3 & 4)
       - funcIndex: 15
-        header: ...
+        header: P.o.C. Demo Set (OK, Sidelined)
   - subsections:
       - funcIndex: 6
         header: "2023"
