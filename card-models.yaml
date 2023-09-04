@@ -1,37 +1,31 @@
-- id: 2495
-  slug: excited-penguin
-  effects: {}
-  guid: 4eb141ba-9126-f089-67d0-17b1a000676b
-- id: 2324
-  slug: generic5
-  effects: {}
-  guid: 28fb3681-cdf0-88cc-a4a5-e565321c42dd
-  art: /temp/she5
-  power: 5
 - id: 2323
   slug: generic4
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a425
   art: /temp/she4
   power: 4
+  name: generic4
 - id: 2322
   slug: generic3
   effects: {}
   guid: b7bbfa47-a32a-a87f-f9b5-f0da096c4cb0
   art: /temp/she3
   power: 3
+  name: generic3
 - id: 2321
   slug: generic2
   effects: {}
   guid: cd11bc5e-b2e4-c4fe-e8aa-ae1643c9e6b4
   power: 2
   art: /temp/she2
+  name: generic2
 - id: 2320
   slug: generic1
   effects: {}
   guid: 5318668b-0ec7-8803-e561-44108ff70063
   power: 1
   art: /temp/she1
+  name: generic1
 - id: 37
   slug: --clearer
   effects:
@@ -47,7 +41,7 @@
         - unit-field
   guid: e4876c59-c144-7650-26a7-519c5e95d85d
   name: Clearer
-- id: 2532
+- id: 2459
   slug: gretel
   description: |-
     Add "Hansel" from your deck to your hand
@@ -73,7 +67,7 @@
   name: Gretel
   art: /hires/gretel
   power: 4
-- id: 2531
+- id: 2443
   slug: hansel
   description: |-
     Add "Gretel" from your deck to your hand
@@ -99,7 +93,7 @@
   name: Hansel
   art: /hires/hansel
   power: 4
-- id: 2346
+- id: 2362
   slug: talented-scorpion
   description: +X{{power}}, the sum from adjacent ally units
   tags:
@@ -124,7 +118,7 @@
         - unit-field
   guid: d925b49a-7704-a851-02c2-3b706f9d6e9a
   name: KOMBINATO
-- id: 2530
+- id: 2446
   slug: goldilocks
   description: |-
     Draw 1 card from the enemy deck
@@ -358,7 +352,7 @@
   name: Mr Hyde
   power: 12
   art: /hires/hyde
-- id: 2498
+- id: 2447
   slug: dupin
   description: Have a peek at all enemy face-down cards
   lore: He teases truth from the jaws of deception, a virtuoso of the detective's
@@ -445,7 +439,7 @@
         - hand
   guid: d9c3bad0-12f4-5861-fed5-cd8885fa1b8e
   name: --the-hand
-- id: 2525
+- id: 2495
   slug: spying-james
   description: |-
     Keep the top card in both decks face up
@@ -643,7 +637,7 @@
   power: 10
   name: Clay Golem
   art: /tokens/golem
-- id: 2519
+- id: 2502
   slug: combat-goose
   description: 10{{powered}} token spawns in my place after I relocate
   lore: A humble man with divine instruction, turning earthen dust to fervent life.
@@ -667,7 +661,7 @@
   art: /rabbi-loew
   name: Rabbi Loew
   power: 1
-- id: 2516
+- id: 2462
   slug: trap-thief
   description: |-
     If the enemy grave's top card is a trap, take it
@@ -1040,7 +1034,7 @@
   name: The Undine
   art: /undine
   power: 3
-- id: 2501
+- id: 2551
   slug: jabberwock
   lore: Brimbling with murkitude in the duskish dim, skraggling with its
     blibberous eyes and grinfanging jaws, hurling a frumious shiver of dread
@@ -1146,7 +1140,7 @@
   guid: e3b41aa1-0f98-ec62-7c2b-2f8414025180
   name: Helm of Awe
   art: /traps/helm-of-awe
-- id: 2502
+- id: 2445
   slug: drawson
   description: Enemy draws 1 card when I attack
   lore: Swashbuckling through the high seas, Anne Bonny personifies the wild and
@@ -1164,7 +1158,7 @@
   name: Anne Bonny
   power: 6
   art: /anne-bonny
-- id: 2518
+- id: 2461
   slug: grand-killa
   description: +10{{power}} against a GRAND unit
   lore: No giant is too towering, no obstacle too vast for David, whose strength
@@ -1364,7 +1358,7 @@
   guid: e156e58b-3903-0196-a55c-cef515c0dcdd
   name: Selfless Sparrow
   power: 1
-- id: 2528
+- id: 2500
   slug: exponanta
   description: |-
     +X{{power}}, X = 2 exponentiated by your energy
@@ -1399,7 +1393,7 @@
   guid: afe2f4b6-3b5a-e47f-8ac1-fddbe4836fff
   name: Tiger
   power: 5
-- id: 2517
+- id: 2460
   slug: necropy
   description: |-
     +X{{power}}, equal to the enemy grave's top card
@@ -1590,7 +1584,7 @@
   guid: a0537d41-fb40-021c-e3bf-43de93a71b4d
   name: generic5
   power: 5
-- id: 2520
+- id: 2475
   slug: proud-whale
   description: I deal 3 damage the the enemy player when attacked.
   lore: The porcupine is a mammal with sharp quills that can cause pain to
@@ -1682,7 +1676,7 @@
   guid: b6b71451-926d-ece6-d0d3-0b71508871e1
   name: Galatea
   power: 8
-- id: 2521
+- id: 2492
   slug: target-bomb
   description: |-
     Combat-Flip:
@@ -1767,7 +1761,7 @@
   guid: 2eb984ca-fea4-fc3b-52a5-9d81eaee4740
   name: marvellous-koi
   power: 1
-- id: 2523
+- id: 2490
   slug: hard-skin
   description: +3{{power}} during enemy turn
   lore: From a wellspring of faith amidst weakness and poverty, Gideon summons
@@ -1882,7 +1876,7 @@
   art: /traps/rubber-tree
   guid: 32e847e6-dce8-b39e-db65-c218a4e5bf5f
   name: Rubber Tree
-- id: 2524
+- id: 2477
   slug: un-shonen
   description: -2{{power}} per enemy unit in play
   lore: Brave and valiant, Karna stands tall against any foe, but falters amidst
@@ -2150,7 +2144,7 @@
   guid: 8e2d8db0-129c-bb90-5203-0ef032b79e93
   name: Banshee
   power: 1
-- id: 2513
+- id: 2498
   slug: shonen
   description: +1{{power}} per enemy unit in play.
   lore: A towering colossus of war, embodies indomitable strength and unwavering
@@ -2231,7 +2225,7 @@
   guid: a9fb5b3c-0c8a-a10c-6a8c-8ed91952bc46
   name: Mercury
   power: 5
-- id: 2499
+- id: 2458
   slug: swapper
   lore: As nimble as the wind and as elusive as a thought, Br'er Rabbit darts
     through life's mazes, always a hop ahead of trouble.
@@ -3723,7 +3717,7 @@
   guid: c4e29441-a2d6-5d2e-e90d-67c1d4b90213
   name: Zhu Bajie
   power: 10
-- id: 2514
+- id: 2499
   slug: antisocial-knight
   description: -3{{power}} per other friendly unit in play
   lore: Exceptionally strong, but doesn't like crowds.
@@ -3800,10 +3794,10 @@
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   name: honoraro-grand
   power: 7
-- id: 2500
+- id: 2476
   slug: nimbleguard
   description: |-
-    I move in front any deployed enemy unit
+    I move in front any new enemy unit
     if possible
   lore: Swift as a shadow and nimble as a cat, Zorro darts through danger, his
     blade always ready to dance with a worthy opponent.
@@ -3892,7 +3886,7 @@
   guid: 175c9ca8-d248-7609-c6af-0c09f2094056
   name: Fate Forward
   power: 4
-- id: 2522
+- id: 2491
   slug: fragmine
   description: |-
     I die after combat
@@ -3969,7 +3963,7 @@
   guid: 00badf76-e490-b5e6-9b31-a3986978ca5e
   name: Grand Traitor
   power: 14
-- id: 2496
+- id: 2474
   slug: man-of-honor
   description: I will not attack without a foe here
   lore: Clad in shining armor, his unwavering nobility lights the path to
@@ -6474,7 +6468,7 @@
   guid: 2f2f474a-e268-7bfb-81a2-f69188d45516
   name: Trap-Powered
   power: 4
-- id: 2512
+- id: 2496
   slug: producer
   description: +1{{power}} per card in your hand
   lore: His hammer strikes the anvil like lightning, forging from fire and metal
@@ -6606,7 +6600,7 @@
   guid: e15e6908-0326-2866-ff73-f17594272af3
   name: Token Pooper
   power: 4
-- id: 2529
+- id: 2501
   slug: enraged
   description: +1 every time an ally dies
   lore: He mourns not in silence, but in thunderous fury, his sorrow echoing
@@ -6725,7 +6719,7 @@
   guid: 573b5edb-f33c-4ef4-01de-9faaa0857931
   name: Cheerleader Harpy 2
   power: 4
-- id: 2515
+- id: 2463
   slug: darkassasin2
   description: -5{{hp}} for you when I attack
   lore: A cunning imp, forever bound to his word, known for turning straw into
