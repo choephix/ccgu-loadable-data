@@ -129,9 +129,9 @@ function foo3(data) {
   }
 
   for (const item of data) {
-    if (item.slug) {
+    if (item.name) {
       // Replace any "-" or "_" with spaces
-      let newName = item.slug.replace(/[-_]/g, ' ');
+      let newName = item.name.replace(/[-_]/g, ' ');
 
       // Make sure there are no more than one adjacent space
       newName = newName.replace(/\s+/g, ' ').trim();
