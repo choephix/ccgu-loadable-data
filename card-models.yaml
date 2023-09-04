@@ -2702,7 +2702,7 @@
   art: /traps/cactus
   guid: dceeae8a-f8bd-7dbd-7168-11394f7e0f8d
   name: Cactus
-- id: 289
+- id: 263
   slug: grand15
   tags:
     - grand
@@ -4141,7 +4141,7 @@
   effects: {}
   guid: bf1a079b-8382-8167-b1ac-f84d97e8c469
   name: traphole
-- id: 272
+- id: 261
   slug: flippers
   tags:
     - sneak
@@ -4152,7 +4152,7 @@
   guid: ec7727aa-6ee6-d8f6-270f-0feeb5f9087c
   name: flippers
   power: 4
-- id: 288
+- id: 262
   slug: grand10
   tags:
     - grand
