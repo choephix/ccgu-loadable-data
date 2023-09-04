@@ -119,42 +119,29 @@ function foo2(data) {
 }
 
 function foo3(data) {
-  const newSlugs = `
-  alexander-nevsky
-  anne-bonny
-  anne-dieu-le-veut
-  arjuna
-  benu-bird
-  beowulf
-  bran-the-blessed
-  camazotz
-  costello
-  dazhbog
-  dietrich
-  fafnir
-  fionn-mac-cumhaill
-  frithiof
-  hervor
-  huitzilopochtli
-  ilya-muromets
-  imp
-  kaliya-the-naga
-  kobold
-  lugh
-  momotaro
-  nuwa
-  reluctant-dragon
-  shennong
-  stribog
-  susanoo
-  vasilisa
-  viracocha`.trim().split('\n').map(s => s.trim()).filter(Boolean);
+  function capitalizeWord(word) {
+    // List of words to not capitalize
+    const ignoreList = ['the', 'of', 'in', 'and', 'or', 'at', 'by', 'to'];
+    if (ignoreList.includes(word.toLowerCase())) {
+      return word.toLowerCase();
+    }
+    return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+  }
 
-  for (const slug of newSlugs) {
-    const o = data.find(c => c.slug === slug);
-    if (!o) continue;
-    o.art = o.art.replace("/hires", "");
-    console.log(o.art)
+  for (const item of data) {
+    if (item.slug) {
+      // Replace any "-" or "_" with spaces
+      let newName = item.slug.replace(/[-_]/g, ' ');
+
+      // Make sure there are no more than one adjacent space
+      newName = newName.replace(/\s+/g, ' ').trim();
+
+      // Capitalize each word, considering exceptions
+      newName = newName.split(' ').map(capitalizeWord).join(' ');
+
+      // Update the name field
+      item.name = newName;
+    }
   }
 }
 
