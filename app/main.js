@@ -118,6 +118,46 @@ function foo2(data) {
   }
 }
 
+function foo3(data) {
+  const newSlugs = `
+  alexander-nevsky
+  anne-bonny
+  anne-dieu-le-veut
+  arjuna
+  benu-bird
+  beowulf
+  bran-the-blessed
+  camazotz
+  costello
+  dazhbog
+  dietrich
+  fafnir
+  fionn-mac-cumhaill
+  frithiof
+  hervor
+  huitzilopochtli
+  ilya-muromets
+  imp
+  kaliya-the-naga
+  kobold
+  lugh
+  momotaro
+  nuwa
+  reluctant-dragon
+  shennong
+  stribog
+  susanoo
+  vasilisa
+  viracocha`.trim().split('\n').map(s => s.trim()).filter(Boolean);
+
+  for (const slug of newSlugs) {
+    const o = data.find(c => c.slug === slug);
+    if (!o) continue;
+    o.art = o.art.replace("/hires", "");
+    console.log(o.art)
+  }
+}
+
 
 
 // Load YAML data
@@ -126,7 +166,7 @@ try {
   const fileContents = fs.readFileSync(filePath, 'utf8');
   const data = yaml.load(fileContents);
 
-  foo2(data);
+  foo3(data);
 
   // Convert back to YAML format
   const updatedYaml = yaml.dump(data, {

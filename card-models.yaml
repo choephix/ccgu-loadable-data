@@ -2,168 +2,168 @@
   slug: viracocha
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a597
-  art: /hires/viracocha
+  art: /viracocha
   power: 5
   name: viracocha
 - id: 2178
   slug: vasilisa
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a596
-  art: /hires/vasilisa
+  art: /vasilisa
   power: 5
   name: vasilisa
 - id: 2177
   slug: susanoo
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a595
-  art: /hires/susanoo
+  art: /susanoo
   power: 5
   name: susanoo
 - id: 2176
   slug: shennong
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a594
-  art: /hires/shennong
+  art: /shennong
   power: 5
   name: shennong
 - id: 2175
   slug: reluctant-dragon
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a593
-  art: /hires/reluctant-dragon
+  art: /reluctant-dragon
   power: 5
   name: reluctant dragon
 - id: 2174
   slug: nuwa
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a592
-  art: /hires/nuwa
+  art: /nuwa
   power: 5
   name: nuwa
 - id: 2173
   slug: momotaro
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a591
-  art: /hires/momotaro
+  art: /momotaro
   power: 5
   name: momotaro
 - id: 2172
   slug: lugh
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a590
-  art: /hires/lugh
+  art: /lugh
   power: 5
   name: lugh
 - id: 2171
   slug: kaliya-the-naga
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a589
-  art: /hires/kaliya-the-naga
+  art: /kaliya-the-naga
   power: 5
   name: kaliya the naga
 - id: 2170
   slug: imp
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a588
-  art: /hires/imp
+  art: /imp
   power: 5
   name: imp
 - id: 2169
   slug: ilya-muromets
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a587
-  art: /hires/ilya-muromets
+  art: /ilya-muromets
   power: 5
   name: ilya muromets
 - id: 2168
   slug: huitzilopochtli
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a586
-  art: /hires/huitzilopochtli
+  art: /huitzilopochtli
   power: 5
   name: huitzilopochtli
 - id: 2167
   slug: frithiof
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a585
-  art: /hires/frithiof
+  art: /frithiof
   power: 5
   name: frithiof
 - id: 2166
   slug: fionn-mac-cumhaill
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a584
-  art: /hires/fionn-mac-cumhaill
+  art: /fionn-mac-cumhaill
   power: 5
   name: fionn mac cumhaill
 - id: 2165
   slug: fafnir
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a583
-  art: /hires/fafnir
+  art: /fafnir
   power: 5
   name: fafnir
 - id: 2164
   slug: dietrich
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a582
-  art: /hires/dietrich
+  art: /dietrich
   power: 5
   name: dietrich
 - id: 2163
   slug: dazhbog
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a581
-  art: /hires/dazhbog
+  art: /dazhbog
   power: 5
   name: dazhbog
 - id: 2162
   slug: costello
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a580
-  art: /hires/costello
+  art: /costello
   power: 5
   name: costello
 - id: 2161
   slug: bran-the-blessed
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a579
-  art: /hires/bran-the-blessed
+  art: /bran-the-blessed
   power: 5
   name: bran the blessed
 - id: 2160
   slug: beowulf
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a578
-  art: /hires/beowulf
+  art: /beowulf
   power: 5
   name: beowulf
 - id: 2159
   slug: benu-bird
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a577
-  art: /hires/benu-bird
+  art: /benu-bird
   power: 5
   name: benu bird
 - id: 2158
   slug: arjuna
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a576
-  art: /hires/arjuna
+  art: /arjuna
   power: 5
   name: arjuna
 - id: 2157
   slug: anne-bonny
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a575
-  art: /hires/anne-bonny
+  art: /anne-bonny
   power: 5
   name: anne bonny
 - id: 2156
   slug: alexander-nevsky
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a574
-  art: /hires/alexander-nevsky
+  art: /alexander-nevsky
   power: 5
   name: alexander nevsky
 - id: 2155
@@ -219,7 +219,7 @@
   slug: stribog
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a566
-  art: /hires/stribog
+  art: /stribog
   power: 5
   name: stribog
 - id: 2147
