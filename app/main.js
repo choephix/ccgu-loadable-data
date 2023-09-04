@@ -18,51 +18,103 @@ function foo1(data) {
 
 function foo2(data) {
   const newSlugs = `
+  abdul-alhazred
+  aglea
+  aramis
+  bluebeard
+  boudica
+  briar-rose
+  carmilla
+  coyolxauhqui
+  dupin
+  freyr
+  gerda
+  goldilocks
+  grace-o-malley
+  gretel
+  guillaume-d-orange
+  hansel
+  harun-al-rasahid
+  hasan-of-basra
+  hyde
+  irene-adler
+  jekyll
+  jengu-sawa
+  kai
+  lady-macbeth
+  little-red-riding-hood
+  madame-defarge
+  morgiana
+  moriarty
+  nostradamus
+  ogma
+  oshun
+  pippi
+  porthos
+  queen-of-hearts
+  queen-tomyris
+  ran
+  rebecca
+  rose-red
+  rusalka
+  siegfried
+  snow-queen
+  snow-white
+  stribog
+  tangra
+  tawaddud
+  tsarevna
+  ukko
+  yemaya
+  yue-fei
+  zhar-ptitsa
   alexander-nevsky
-anne-bonny
-anne-dieu-le-veut
-arjuna
-benu-bird
-beowulf
-bran-the-blessed
-camazotz
-costello
-dazhbog
-dietrich
-fafnir
-fionn-mac-cumhaill
-frithiof
-hervor
-huitzilopochtli
-ilya-muromets
-imp
-kaliya-the-naga
-kobold
-lugh
-momotaro
-nuwa
-reluctant-dragon
-shennong
-stribog
-susanoo
-vasilisa
-viracocha`.trim().split('\n').map(s => s.trim()).filter(Boolean);
+  anne-bonny
+  anne-dieu-le-veut
+  arjuna
+  benu-bird
+  beowulf
+  bran-the-blessed
+  camazotz
+  costello
+  dazhbog
+  dietrich
+  fafnir
+  fionn-mac-cumhaill
+  frithiof
+  hervor
+  huitzilopochtli
+  ilya-muromets
+  imp
+  kaliya-the-naga
+  kobold
+  lugh
+  momotaro
+  nuwa
+  reluctant-dragon
+  shennong
+  stribog
+  susanoo
+  vasilisa
+  viracocha`.trim().split('\n').map(s => s.trim()).filter(Boolean);
 
-
-  for (const [index, slug] of newSlugs.entries()) {
+  let index = 0;
+  for (const slug of newSlugs) {
     if (data.some(o => o.slug === slug)) continue;
 
     const obj = {
-      id: 2672 + index,
+      id: 2112 + index,
       slug: slug,
       effects: {},
       guid: "53de8275-75a6-0b72-584f-ec52a6b7a" + (530 + index),
       art: "/hires/" + slug,
-      power: 4,
+      power: 5,
       name: slug.replace(/\-/ig, ' ')
     };
 
     data.unshift(obj);
+
+    index++;
   }
 }
 
