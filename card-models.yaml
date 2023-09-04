@@ -1,3 +1,37 @@
+- id: 2495
+  slug: excited-penguin
+  effects: {}
+  guid: 4eb141ba-9126-f089-67d0-17b1a000676b
+- id: 2324
+  slug: generic5
+  effects: {}
+  guid: 28fb3681-cdf0-88cc-a4a5-e565321c42dd
+  art: /temp/she5
+  power: 5
+- id: 2323
+  slug: generic4
+  effects: {}
+  guid: 53de8275-75a6-0b72-584f-ec52a6b7a425
+  art: /temp/she4
+  power: 4
+- id: 2322
+  slug: generic3
+  effects: {}
+  guid: b7bbfa47-a32a-a87f-f9b5-f0da096c4cb0
+  art: /temp/she3
+  power: 3
+- id: 2321
+  slug: generic2
+  effects: {}
+  guid: cd11bc5e-b2e4-c4fe-e8aa-ae1643c9e6b4
+  power: 2
+  art: /temp/she2
+- id: 2320
+  slug: generic1
+  effects: {}
+  guid: 5318668b-0ec7-8803-e561-44108ff70063
+  power: 1
+  art: /temp/she1
 - id: 37
   slug: --clearer
   effects:
