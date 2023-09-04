@@ -1,5 +1,5 @@
-- level: 1
-  name: Teutorio
+- levelNumber: 1
+  levelName: Teutorio
   startingHealthPoints: 10
   startingHandSizePlayer1: 2
   startingHandSizePlayer2: 2
@@ -54,8 +54,8 @@
       - toxicmine
       - steal-dead-unit
 
-- level: 2
-  name: Primora
+- levelNumber: 2
+  levelName: Primora
   startingHealthPoints: 20
   startingHandSizePlayer1: 2
   startingHandSizePlayer2: 4
@@ -110,8 +110,8 @@
       - raijin
       - mario
 
-- level: 3
-  name: Quiblis
+- levelNumber: 3
+  levelName: Quiblis
   startingHealthPoints: 20
   startingHandSizePlayer1: 2
   startingHandSizePlayer2: 4
