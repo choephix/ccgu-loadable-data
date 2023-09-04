@@ -1,8 +1,8 @@
 - level: 1
   name: Teutorio
-  startingHealthPoints: 20
+  startingHealthPoints: 10
   startingHandSizePlayer1: 2
-  startingHandSizePlayer2: 4
+  startingHandSizePlayer2: 2
   actionPoints: 2
   shuffleDecks: true
   myDeck:
