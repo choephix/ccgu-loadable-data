@@ -586,7 +586,7 @@
       allowedLots:
         - unit-field
   guid: d925b49a-7704-a851-02c2-3b706f9d6e9a
-  name: Talented Scorpion
+  name: Kombinato
 - id: 2446
   slug: goldilocks
   description: |-
@@ -809,7 +809,7 @@
       allowedLots:
         - unit-field
   guid: e6c78403-aba6-00c4-3616-66a924d4c43c
-  name: Jekyll
+  name: Dr Jekyll
   art: /hires/jekyll
   power: 2
 - id: 2360
@@ -824,7 +824,7 @@
     overrides:
       blockDeploymentTo: "let tribute = field.topCard\r\ntribute?.slug != 'jekyll'"
   guid: fa49b33e-53d4-3730-0c31-86dc9244ce2f
-  name: Hyde Token
+  name: Mr Hyde
   power: 12
   art: /hires/hyde
 - id: 2447
@@ -850,7 +850,7 @@
         - unit-field
         - hand
   guid: 4aa069ff-6ddc-e8c7-8d1a-ab03e38a0e0e
-  name: Dupin
+  name: C. Auguste Dupin
   art: /hires/dupin
   power: 2
 - id: 2420
@@ -933,7 +933,7 @@
         - unit-field
   guid: 6df4249c-c165-b329-a9c7-4df9d6d96749
   power: 3
-  name: Spying James
+  name: Mother Shipton
   art: /temp/she1
 - id: 39
   slug: "--bond"
@@ -950,7 +950,7 @@
         - unit-field
         - hand
   guid: 6df4249c-c165-b329-a9c7-4df9d6d96749
-  name: Bond
+  name: "007"
   power: 3
 - id: 2366
   slug: outstanding-owl
@@ -992,7 +992,7 @@
       allowedLots:
         - unit-field
   guid: 2e097143-f758-0153-ed1d-75821f0a2347
-  name: Average Lemur
+  name: Huitzilopochtli V3
   art: /huitzilopochtli
 - id: 2484
   slug: gremlin
@@ -1031,7 +1031,7 @@
       allowedLots:
         - unit-field
   guid: 0b849789-9d28-adb8-5d30-f63f2fb61675
-  name: Slithery Crayfish
+  name: Huitzilopochtli V2
   art: /huitzilopochtli
 - id: 2425
   slug: glorious-quelea
@@ -1062,7 +1062,7 @@
       allowedLots:
         - unit-field
   guid: 43adbf73-8c1c-e269-13aa-4d761a548e3e
-  name: Glorious Quelea
+  name: Huitzilopochtli
   art: /huitzilopochtli
 - id: 43
   slug: "--force-all-atk"
@@ -1078,7 +1078,7 @@
       allowedLots:
         - unit-field
   guid: 7082b875-7dc4-b4d1-0dc3-d9ae5353d105
-  name: Force All Atk
+  name: Force Attack For All!
   power: 5
 - id: 42
   slug: "--rush-and-die"
@@ -1106,7 +1106,7 @@
         - unit-field
         - hand
   guid: a6ac2665-a6a1-5b03-acba-9bb4da42419c
-  name: Rush and Die
+  name: Rush 'n Die!
 - id: 2359
   slug: big-token
   lore: From earth to life, he strides, a testament to the mystery of creation.
@@ -1115,7 +1115,7 @@
   effects: {}
   guid: fd012f20-363d-6a76-d1c0-ccc5aca9868f
   power: 10
-  name: Big Token
+  name: Clay Golem
   art: /tokens/golem
 - id: 2502
   slug: combat-goose
@@ -1139,7 +1139,7 @@
         - hand
   guid: e053ce66-d442-4da5-9d05-c4098cf6f191
   art: /rabbi-loew
-  name: Combat Goose
+  name: Rabbi Loew
   power: 1
 - id: 2462
   slug: trap-thief
@@ -1162,7 +1162,7 @@
       allowedLots:
         - unit-field
   guid: 4718eaac-6e8a-2cc5-9ee2-5622a89813e7
-  name: Trap Thief
+  name: Anansi
   power: 3
   art: /anansi
 - id: 2401
@@ -1176,7 +1176,7 @@
   guid: 9ed01029-778e-d8fd-c232-25febf259bb2
   power: 7
   art: /hervor
-  name: Adventurous Mouse
+  name: Hervor
 - id: 2504
   slug: mars
   description: ALL units auto-attack as their player's turn starts
@@ -1199,7 +1199,7 @@
       allowedLots:
         - unit-field
   guid: 4e48f677-2c40-f391-8d32-bed911b09c20
-  name: Mars
+  name: Mars Ultor
   art: /mars
   power: 8
 - id: 2358
@@ -1213,7 +1213,7 @@
   guid: 49c7dde2-6c7c-f993-4fa7-f9dec1ea91a7
   power: 4
   art: /tokens/tiger
-  name: Animal Token
+  name: Wild Animal
 - id: 2416
   slug: circe
   description: |-
@@ -1287,7 +1287,7 @@
         - grave
   guid: daf9dcb2-0b3e-772b-1538-1d88ab4dafcf
   art: /the-green-knight
-  name: Returner2
+  name: the Green Knight
   power: 4
 - id: 36
   slug: draupnir
@@ -1504,7 +1504,7 @@
   guid: ff82fece-0b02-de33-91ef-083e2388f7ce
   power: 6
   art: /susanoo
-  name: Curious Beaver
+  name: Susanoo
 - id: 608
   slug: energetic-skunk
   description: |-
@@ -1519,7 +1519,7 @@
     movements crafting ripples of enchantment that echo the rhythm of the sea.
   effects: {}
   guid: e06da3e6-9286-e335-e6ef-89152814681b
-  name: Energetic Skunk
+  name: the Undine
   art: /undine
   power: 3
 - id: 2551
@@ -1551,7 +1551,7 @@
         op.spawnToken(field, 'wisp-token')
   guid: 7b56a5c5-71bc-d653-3098-2dd6e8e17b3b
   art: /temp/beartrap
-  name: Token On Deploy2
+  name: Fool's Fire
 - id: 2357
   slug: mephisto-token
   lore: >-
@@ -1560,7 +1560,7 @@
   effects: {}
   guid: 4dc76f1f-fb9f-74d5-fa88-d3aa11b98e1c
   art: /tokens/mephistopheles
-  name: Mephisto Token
+  name: Mephistopheles
   power: 9
 - id: 2356
   slug: grendels-mom-token
@@ -1571,7 +1571,7 @@
     - token
   effects: {}
   guid: d26957ec-b0c6-3977-0135-0752bcb7abc8
-  name: Grendels Mom Token
+  name: Grendel's Mother
   art: /grendel-mom
   power: 7
 - id: 2436
@@ -1631,7 +1631,7 @@
           event.defender, 
           tg => tg.pass.raisePower(event.defender, 3))
   guid: e3b41aa1-0f98-ec62-7c2b-2f8414025180
-  name: Powerup
+  name: Helm of Awe
   art: /traps/helm-of-awe
 - id: 2445
   slug: drawson
@@ -1649,7 +1649,7 @@
       allowedLots:
         - unit-field
   guid: dbac58dc-3398-249b-d14e-b2d02f3e8ffd
-  name: Drawson
+  name: Anne Bonny
   power: 6
   art: /anne-bonny
 - id: 2461
@@ -1665,7 +1665,7 @@
       allowedLots:
         - unit-field
   guid: 1eef8f4d-e56d-2825-8210-b80f3188c944
-  name: Grand Killa
+  name: David
   power: 2
   art: /david
 - id: 34
@@ -1683,7 +1683,7 @@
       allowedLots:
         - unit-field
   guid: 588cfcb1-4ea3-b069-785a-0c4658c72384
-  name: Givemethemoney
+  name: Give Me the Money!
   power: 5
 - id: 2457
   slug: siren-call
@@ -1705,7 +1705,7 @@
         let lot = get.opposingUnitField(card)
         op.forceRelocate(event.card, lot)
   guid: 2b3c5ad4-935f-69ce-200f-bc4da7d40911
-  name: Siren Call
+  name: Siren Song
   art: /traps/siren
 - id: 2355
   slug: wisp-token
@@ -1714,7 +1714,7 @@
     - token
   effects: {}
   guid: 8536fda6-014b-efa4-02a6-748ff457c472
-  name: Wisp Token
+  name: Will O' the Wisp
   power: 5
   art: /tokens/wisp
 - id: 2354
@@ -1726,7 +1726,7 @@
     - token
   effects: {}
   guid: af573ebb-4f47-3a73-bfb5-73c25190d4c1
-  name: Nisse Token
+  name: Nisse
   power: 5
   art: /tokens/nisse
 - id: 2451
@@ -1748,7 +1748,7 @@
         - unit-field
   art: /puss
   guid: d733ae6a-414f-023c-4992-e99fea422de6
-  name: Freejimmy
+  name: Puss in Boots
   power: 4
 - id: 2450
   slug: depdraw
@@ -1768,7 +1768,7 @@
         - unit-field
   art: /reynard-the-fox
   guid: 15f64461-95cc-c62e-ca23-11dc1495fba7
-  name: Depdraw
+  name: Reynard the Fox
   power: 2
 - id: 2422
   slug: freejimmy2
@@ -1788,7 +1788,7 @@
       allowedLots:
         - unit-field
   guid: d733ae6a-414f-023c-4992-e99fea422de6
-  name: Freejimmy2
+  name: Puss in Boots V2
   power: 2
 - id: 2434
   slug: trapcho
@@ -1806,7 +1806,7 @@
       allowedLots:
         - unit-field
   guid: 4718eaac-6e8a-2cc5-9ee2-5622a89813e7
-  name: Trapcho
+  name: Cu Chulainn
   power: 4
   art: /cuchulainn
 - id: 2497
@@ -1831,7 +1831,7 @@
       allowedLots:
         - unit-field
   guid: c234e201-18a9-99f7-377d-69606c728a40
-  name: Will O the Wisp
+  name: Will O' the Wisp
   power: 3
   art: /wisp
 - id: 2480
@@ -1859,7 +1859,7 @@
         - unit-field
   art: /sparrow
   guid: e156e58b-3903-0196-a55c-cef515c0dcdd
-  name: Nimbleguard2
+  name: Selfless Sparrow
   power: 1
 - id: 2500
   slug: exponanta
@@ -1885,7 +1885,7 @@
         - hand
         - grave
   guid: 63c6f0af-4d22-cfa1-6999-386cd74e7f8f
-  name: Exponanta
+  name: Ada Lovelace
 - id: 2353
   slug: tiger-token
   lore: Ntikuma, Anansi's son in some tales
@@ -1895,7 +1895,7 @@
   effects: {}
   art: /tokens/tiger
   guid: afe2f4b6-3b5a-e47f-8ac1-fddbe4836fff
-  name: Tiger Token
+  name: Tiger
   power: 5
 - id: 2460
   slug: necropy
@@ -1918,7 +1918,7 @@
         - grave
   art: /lilith
   guid: da711770-5ed0-4617-0f2a-b520d56d8912
-  name: Necropy
+  name: Lilith
 - id: 2482
   slug: shonen2
   description: +2{{power}} per enemy unit in play
@@ -1940,7 +1940,7 @@
         - grave
   art: /horatius-cocles
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
-  name: Shonen2
+  name: Horatius Cocles
   power: 1
 - id: 2466
   slug: buffy
@@ -1960,7 +1960,7 @@
         - unit-field
   art: /joan-the-hatchet
   guid: e848b4d8-311f-6eaa-e803-b3c88677863a
-  name: Buffy
+  name: Jeanne Hachette
   power: 3
 - id: 2441
   slug: poisonous-defence
@@ -1982,7 +1982,7 @@
           tg => tg.pass.lowerPower(event.card, 4))
   art: /traps/river-lethe
   guid: 3ee6755d-845a-f87c-fed7-9594b1e29bcd
-  name: Poisonous Defence
+  name: River Lethe
 - id: 561
   slug: grand-decker
   description: +1 per card in the enemy's deck!
@@ -2012,7 +2012,7 @@
   effects: {}
   art: /tokens/grin
   guid: afe2f4b6-3b5a-e47f-8ac1-fddbe4836fff
-  name: Grin Token
+  name: Disappearing Grin
 - id: 9
   slug: "--bouncy"
   effects:
@@ -2108,7 +2108,7 @@
       allowedLots:
         - unit-field
   guid: 210ddd9a-a696-6689-4ea8-00dba7b272f6
-  name: Proud Whale
+  name: Porcupine Spirit
   power: 1
   art: /porcupine
 - id: 2393
@@ -2122,7 +2122,7 @@
   slug: brave-benjamin
   effects: {}
   guid: c46378a8-85b1-e150-b4b6-27a04f01e319
-  name: Brave Benjamin
+  name: the Manananggal
 - id: 2413
   slug: sapper
   description: "-1{{power}} to all enemy units"
@@ -2139,7 +2139,7 @@
       allowedLots:
         - unit-field
   guid: e848b4d8-311f-6eaa-e803-b3c88677863a
-  name: Sapper
+  name: Diomedes
   art: /diomedes
 - id: 704
   slug: mad-jack
@@ -2174,7 +2174,7 @@
       allowedLots:
         - unit-field
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
-  name: Spartan
+  name: King Leonidas I
   power: 5
 - id: 2625
   slug: Pygmalion
@@ -2212,7 +2212,7 @@
         }
   art: /fafnir
   guid: bb757a5a-ddfa-73e6-9da0-0526faf78c3e
-  name: Target Bomb
+  name: Fafnir
   power: 1
 - id: 2438
   slug: sapper-grand
@@ -2236,7 +2236,7 @@
         - unit-field
   art: /nyx
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
-  name: Sapper Grand
+  name: Nyx
   power: 6
 - id: 2433
   slug: token-giver
@@ -2266,7 +2266,7 @@
         - hand
   art: /faust
   guid: 2b0ed5c3-5521-ca41-f2bb-ff7607b08fea
-  name: Token Giver
+  name: Faust
   power: 5
 - id: 2402
   slug: marvellous-koi
@@ -2293,7 +2293,7 @@
         - unit-field
   art: /gideon
   guid: 549b8197-538b-0a31-673d-e0b8e59fcc32
-  name: Hard Skin
+  name: Gideon
   power: 3
 - id: 2452
   slug: captain-fantastic
@@ -2316,7 +2316,7 @@
         - unit-field
   art: /joan-of-arc
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
-  name: Captain Fantastic
+  name: Jeanne D'arc
   power: 2
 - id: 2470
   slug: swayer-grand
@@ -2336,7 +2336,7 @@
         - grave
   art: /hanuman
   guid: 9d913bd6-cf60-e796-d57d-ef6d9465f77d
-  name: Swayer Grand
+  name: Hanuman
   power: 2
 - id: 2465
   slug: un-prod
@@ -2356,7 +2356,7 @@
         - hand
   art: /bacchus
   guid: 5449b2b3-6f26-8acd-e5f8-3318420ca29f
-  name: Un Prod
+  name: Bacchus
   power: 8
 - id: 2397
   slug: costly-indoctronation
@@ -2397,7 +2397,7 @@
       perform: op.heal(player, event.card.power)
   art: /traps/rubber-tree
   guid: 32e847e6-dce8-b39e-db65-c218a4e5bf5f
-  name: Def Heal
+  name: Rubber Tree
 - id: 2477
   slug: un-shonen
   description: "-2{{power}} per enemy unit in play"
@@ -2419,7 +2419,7 @@
         - grave
   art: /karna
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
-  name: Un Shonen
+  name: Karna
   power: 9
 - id: 2489
   slug: steal-dead-unit
@@ -2447,7 +2447,7 @@
         op.deploy(target, field)
   art: /traps/draugr-curse
   guid: d168768c-2363-2cf9-e031-231ae5b6f749
-  name: Steal Dead Unit
+  name: Draugr's Curse
 - id: 90
   slug: token-10
   tags:
@@ -2549,7 +2549,7 @@
         op.spawnToken(field, 'nisse-token')
   art: /traps/nisse
   guid: 7b56a5c5-71bc-d653-3098-2dd6e8e17b3b
-  name: Token On Deploy
+  name: Call of the Nisse
 - id: 2439
   slug: from-the-right
   type: 1
@@ -2575,7 +2575,7 @@
         )
   art: /traps//battle-of-trenton
   guid: 294447b1-beb2-1618-5d29-8182eee4f481
-  name: From the Right
+  name: the Battle of Trenton
 - id: 2428
   slug: from-the-left
   type: 1
@@ -2601,7 +2601,7 @@
           get.sameLaneUnitField(card)
         )
   guid: 294447b1-beb2-1618-5d29-8182eee4f481
-  name: From the Left
+  name: the Battle of Trenton V2
 - id: 2510
   slug: turnend
   type: 1
@@ -2618,7 +2618,7 @@
       perform: op.endTurn()
   art: /traps/nightingale
   guid: 6be64973-5e35-cd68-924a-1e49d0446c86
-  name: Turnend
+  name: the Nightingale
 - id: 2481
   slug: splendid-eric
   description: |-
@@ -2642,7 +2642,7 @@
         - unit-field
   art: /salamander
   guid: c75dbcf9-9f9a-a55f-c949-5b59b076e58a
-  name: Splendid Eric
+  name: Salamander
   power: 7
 - id: 2376
   slug: timereverser
@@ -2653,7 +2653,7 @@
     - sneak
   effects: {}
   guid: 72f43226-a6c8-d6ac-305c-c59c581c7fc3
-  name: Timereverser
+  name: Time Reverser
   power: 3
 - id: 2483
   slug: trampoline
@@ -2671,7 +2671,7 @@
         op.addToHand(foe, opponent)
   art: /banshee
   guid: 8e2d8db0-129c-bb90-5203-0ef032b79e93
-  name: Trampoline
+  name: Banshee
   power: 1
 - id: 2498
   slug: shonen
@@ -2696,7 +2696,7 @@
         - grave
   art: /ajax
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
-  name: Shonen
+  name: Ajax the Great
   power: 4
 - id: 2390
   slug: geinhildr
@@ -2742,7 +2742,7 @@
         - hand
   art: /the-cheshire-cat
   guid: e053ce66-d442-4da5-9d05-c4098cf6f191
-  name: Token Spawner 0.ev4e44lyd5l0.8ov60niaefn
+  name: the Cheshire Cat
   power: 3
 - id: 2507
   slug: flappy-bird-grand
@@ -2755,7 +2755,7 @@
   effects: {}
   art: /mercury
   guid: a9fb5b3c-0c8a-a10c-6a8c-8ed91952bc46
-  name: Flappy Bird Grand
+  name: Mercury
   power: 5
 - id: 2458
   slug: swapper
@@ -2768,14 +2768,14 @@
   effects: {}
   art: /brer-rabbit
   guid: 2c064020-07e5-d2da-ed69-734025104d9f
-  name: Swapper
+  name: Br'er Rabbit
   power: 3
 - id: 2387
   slug: handy
   description: When I am summoned, you draw 2 cards and the enemy draws 3 cards.
   effects: {}
   guid: 44372e4e-629c-387c-6162-e52dccc7029c
-  name: Handy
+  name: Flashforward
   power: 4
 - id: 2432
   slug: harassingmia
@@ -2799,7 +2799,7 @@
         - unit-field
   art: /thumbelina
   guid: f0a1e712-dc0d-feca-4096-4ebcb8253d43
-  name: Harassingmia
+  name: Thumbelina
   power: 1
 - id: 2464
   slug: berserker
@@ -2823,7 +2823,7 @@
         - unit-field
   art: /fenrir
   guid: 880e607b-9629-b54e-5e35-2789092bac94
-  name: Berserker
+  name: Fenrir
   power: 6
 - id: 2369
   slug: knightmare-shield
@@ -2968,7 +2968,7 @@
       allowedLots:
         - unit-field
   guid: 9c32f1a1-8046-6cfe-759f-85907347d9ca
-  name: Destroyer
+  name: the Destroyer
   power: 1
 - id: 2576
   slug: hr-token
@@ -3008,7 +3008,7 @@
       allowedLots:
         - unit-field
   guid: 180e95c2-e959-a655-69b7-c21b13b4e31e
-  name: Hr Token Master Grand
+  name: High Risk Token Master
 - id: 35
   slug: token-dk
   tags:
@@ -3025,7 +3025,7 @@
       allowedLots:
         - unit-field
   guid: 5c9410d6-9dd9-f4b7-cb74-8a42ad81f503
-  name: Token Dk
+  name: "!"
   power: 2
 - id: 40
   slug: dark-tkn
@@ -3055,7 +3055,7 @@
       allowedLots:
         - unit-field
   guid: 9c32f1a1-8046-6cfe-759f-85907347d9ca
-  name: Dark Tkn
+  name: Dark Token Master
 - id: 54
   slug: "--prodo--"
   description: My power is raised by 1 for each card in your hand
@@ -3070,7 +3070,7 @@
         - grave
         - hand
   guid: 5449b2b3-6f26-8acd-e5f8-3318420ca29f
-  name: Prodo
+  name: Producer
   power: 10
 - id: 53
   slug: "--all4one--"
@@ -3086,7 +3086,7 @@
           faq.isInPlay(u) && op.kill(u)
         )
   guid: 5f71f6db-2653-1cae-9247-8d4aa6f30a8c
-  name: All4one
+  name: One Dies, All Die!
 - id: 33
   slug: "--tkn4x--"
   description: Much tokens!
@@ -3105,7 +3105,7 @@
       allowedLots:
         - unit-field
   guid: e7637b0b-0514-6e45-7341-ef5c35dc5de0
-  name: Tkn4x
+  name: Tokenado 4x!!!!
   power: 2
 - id: 6
   slug: "--grandraw--"
@@ -3128,7 +3128,7 @@
       allowedLots:
         - unit-field
   guid: cb0ea59d-0a0a-3d1d-f49e-63553ff4e070
-  name: Grandraw
+  name: Gr. Andraw
   power: 10
 - id: 32
   slug: "--tkn--"
@@ -3149,7 +3149,7 @@
       allowedLots:
         - unit-field
   guid: 2b0ed5c3-5521-ca41-f2bb-ff7607b08fea
-  name: Tkn
+  name: Tokenado!
   power: 2
 - id: 5
   slug: "--killa--"
@@ -3265,7 +3265,7 @@
       perform: op.damage(opponent, 4)
   art: /traps/cactus
   guid: dceeae8a-f8bd-7dbd-7168-11394f7e0f8d
-  name: Sneakshot
+  name: Cactus
 - id: 305
   slug: grand15
   tags:
@@ -3275,7 +3275,7 @@
   priority: 3
   effects: {}
   guid: 073a7154-da48-f617-57a4-ac15748e5d6f
-  name: Grand15
+  name: Grand10
   power: 15
 - id: 777
   slug: fateforward-x3
@@ -3291,7 +3291,7 @@
       manner: combat
       perform: "op.draw( opponent )\r\nop.draw( player )\r\nop.draw( opponent )\r\nop.draw( player )\r\nop.draw( opponent )\r\nop.draw( player )"
   guid: 175c9ca8-d248-7609-c6af-0c09f2094056
-  name: Fateforward X3
+  name: Fate Forward
   power: 4
 - id: 2455
   slug: surprise-reborn
@@ -3316,7 +3316,7 @@
         op.deploy( player.grave.topCard, lot )
   art: /traps/cauldron-of-rebirth
   guid: 32e847e6-dce8-b39e-db65-c218a4e5bf5f
-  name: Surprise Reborn
+  name: Cauldron of Rebirth
 - id: 822
   slug: modern-charles
   description: >-
@@ -3349,7 +3349,7 @@
         - hand
         - grave
   guid: 5449b2b3-6f26-8acd-e5f8-3318420ca29f
-  name: Producer2
+  name: Producer
 - id: 821
   slug: prickly-goshawk
   description: >-
@@ -3383,7 +3383,7 @@
       allowedLots:
         - unit-field
   guid: 19fe6c19-e34d-8ca6-92fc-798133db3662
-  name: Loki
+  name: Loki / Merlin
   power: 5
 - id: 4
   slug: "--wall-cannon"
@@ -3464,7 +3464,7 @@
         - unit-field
         - grave
   guid: 73cf32c1-03b7-71e9-fb27-80d33fcc163d
-  name: Patience Zero
+  name: Robin Goodfellow
   power: 7
   art: /puck
 - id: 834
@@ -3517,7 +3517,7 @@
       allowedLots:
         - unit-field
   guid: daf9dcb2-0b3e-772b-1538-1d88ab4dafcf
-  name: Unbreakable 2
+  name: Unkillable Barny
   power: 1
 - id: 845
   slug: charger
@@ -3544,7 +3544,7 @@
       allowedLots:
         - unit-field
   guid: f72d220f-ed76-72ac-648c-e1ef7b2744ec
-  name: Doubleattacker
+  name: Double Attacker
   power: 3
 - id: 831
   slug: flip-swapper
@@ -3557,7 +3557,7 @@
     - sneak
   effects: {}
   guid: 2c064020-07e5-d2da-ed69-734025104d9f
-  name: Flip Swapper
+  name: the Swapper
   power: 3
 - id: 2396
   slug: bosstrap
@@ -3612,7 +3612,7 @@
   rarity: 2
   effects: {}
   guid: 176de02e-08e7-baa2-da9f-74a6d673276b
-  name: Cocky Hermitcrab
+  name: 176de02e
   power: 9
 - id: 902
   slug: wheezy-mussel
@@ -3625,7 +3625,7 @@
   priority: -1
   effects: {}
   guid: 7f7d2a0e-8d12-1cb1-b8fb-8d270595d32f
-  name: Wheezy Mussel
+  name: Mindctrl 345
 - id: 917
   slug: dxm-traphole-open
   type: 1
@@ -3649,7 +3649,7 @@
     On death by combat: lose 2lp
   effects: {}
   guid: 06b8606f-71a7-89ad-186e-a27e5c4de311
-  name: Viral Kob
+  name: 06b8606f
   power: 4
 - id: 1076
   slug: smelly-olingo
@@ -3658,7 +3658,7 @@
     On death by combat: lose 15lp
   effects: {}
   guid: e5fb2497-9eb4-c690-8335-3531f2b15829
-  name: Smelly Olingo
+  name: E5fb2497
   power: 5
 - id: 944
   slug: skeptical-aztecant
@@ -3670,7 +3670,7 @@
     - sneak
   effects: {}
   guid: da8d5fe9-e1e5-9a73-7840-afeae0c60da6
-  name: Skeptical Aztecant
+  name: Da8d5fe9
 - id: 945
   slug: gluey-cuckoo
   description: "Combat-flip: if no allies - kill opposing unit"
@@ -3678,13 +3678,13 @@
     - sneak
   effects: {}
   guid: 39f7caae-fc55-186f-bac5-eae46fbde29f
-  name: Gluey Cuckoo
+  name: 39f7caae
 - id: 948
   slug: giant-woodcock
   description: While there are no allies - pwr is 13
   effects: {}
   guid: b34fccee-8660-6ca6-dbf1-5f5573af96d8
-  name: Giant Woodcock
+  name: B34fccee
 - id: 825
   slug: piercer7
   tags:
@@ -3703,7 +3703,7 @@
   priority: 2
   effects: {}
   guid: 92220cfe-7278-4ad5-9ab5-0eb8f6cf504e
-  name: Obese Kiwi
+  name: 92220cfe
   power: 9
 - id: 915
   slug: Poweruptrib
@@ -3722,7 +3722,7 @@
   description: At the start of your opponent's turn - opposite enemy unit loses 3 power
   effects: {}
   guid: 8cb52eaa-2cfa-bc38-c707-68ee01fee688
-  name: Irradiated Pika
+  name: 8cb52eaa
   power: 1
 - id: 2415
   slug: powerdown-1
@@ -3741,7 +3741,7 @@
     graveyard
   effects: {}
   guid: d168768c-2363-2cf9-e031-231ae5b6f749
-  name: Interlay
+  name: D168768c
 - id: 914
   slug: cottony-verdin
   type: 1
@@ -3750,7 +3750,7 @@
     power)
   effects: {}
   guid: fb36dcc2-cd2e-5dce-5124-dd660a1afded
-  name: Cottony Verdin
+  name: Fb36dcc2
 - id: 913
   slug: unliterary-equestrian
   type: 1
@@ -3761,7 +3761,7 @@
   priority: -1
   effects: {}
   guid: a416dbf8-fffd-011a-5cc7-806d3ccfb198
-  name: Unliterary Equestrian
+  name: A416dbf8
 - id: 929
   slug: fasten
   type: 1
@@ -3770,7 +3770,7 @@
     found in your graveyard
   effects: {}
   guid: e6e083d3-006b-d1ae-ef2a-6294e4f9d7e2
-  name: Fasten
+  name: E6e083d3
 - id: 946
   slug: repairable-mongrel
   description: "combat-flip: all ally units gain 2 power"
@@ -3778,7 +3778,7 @@
     - sneak
   effects: {}
   guid: ab5ea2a0-609c-2e95-d2ce-6b6d6675814d
-  name: Repairable Mongrel
+  name: Ab5ea2a0
   power: 1
 - id: 856
   slug: force-piercing
@@ -3804,19 +3804,19 @@
     - persistent
   effects: {}
   guid: d6d24108-f70f-2dd5-dc89-f7f248b7bfe0
-  name: Invite
+  name: D6d24108
 - id: 897
   slug: abased-nilgai
   description: adjecent units have +3 power
   effects: {}
   guid: 54a4abd9-1376-79a1-5c5a-fa48680b95a6
-  name: Abased Nilgai
+  name: 54a4abd9
 - id: 896
   slug: buoyant-pewee
   description: adjecent units have +2 power
   effects: {}
   guid: 5ca29706-f35f-bc47-78fc-d1400ff9760f
-  name: Buoyant Pewee
+  name: 5ca29706
   power: 2
 - id: 912
   slug: pennywise-mussel
@@ -3824,7 +3824,7 @@
   description: when opp unit atks - set its power to exactly 10
   effects: {}
   guid: beee108e-a14c-2add-cc12-5dba1f96d0cf
-  name: Pennywise Mussel
+  name: Beee108e
 - id: 1073
   slug: flip-turn-ender
   description: "combat-flip: End the current turn."
@@ -3848,7 +3848,7 @@
   notes: Jack Churchill?
   effects: {}
   guid: a8bcec64-adb7-7e49-03de-bb12bc83ea71
-  name: Literate Puffer
+  name: A8bcec64
   power: 2
 - id: 1082
   slug: 78d2e0e9
@@ -3863,21 +3863,21 @@
   description: +1 power for each trap on either side.
   effects: {}
   guid: 37f4d8b7-7810-482c-2c59-341206074179
-  name: Busying Steer
+  name: 37f4d8b7
   power: 2
 - id: 1601
   slug: lost-beaver
   description: +2 power for each enemy trap
   effects: {}
   guid: ef46053d-c0ad-5df4-ae79-e6f78f0e2de8
-  name: Lost Beaver
+  name: Ef46053d
   power: 2
 - id: 1600
   slug: mild-whooper
   description: +2 power for each friendly trap
   effects: {}
   guid: b5d484ef-d8f8-39c2-b59f-60f2781a9c0f
-  name: Mild Whooper
+  name: B5d484ef
   power: 2
 - id: 540
   slug: drawdraw
@@ -3923,7 +3923,7 @@
       perform: op.forceAttack( event.card )
   art: /temp/beartrap
   guid: bdaf0351-9f2b-859c-d4e7-7b35dcae8645
-  name: Taunt
+  name: Muleta
 - id: 2382
   slug: indoctronate
   type: 1
@@ -3934,7 +3934,7 @@
   priority: 3
   effects: {}
   guid: ecf87384-4b2b-ceed-ffb1-c510eea1a14e
-  name: Indoctronate
+  name: Nameless 804e
 - id: 898
   slug: wandering-kyle
   description: +7{{hp}} to the enemy when I die
@@ -3942,7 +3942,7 @@
   priority: 3
   effects: {}
   guid: 74173d35-8c68-61f7-e9e4-ccbd3a80479b
-  name: Wandering Kyle
+  name: Nameless 804c
   power: 7
 - id: 923
   slug: effaceable-kissingbug
@@ -3984,7 +3984,7 @@
   priority: 3
   effects: {}
   guid: 9d559a67-558f-c648-b17c-a6c6da4dae1d
-  name: Trapbomb
+  name: Balanced Antitrap
 - id: 2399
   slug: grand-disarmer
   description: |-
@@ -4044,7 +4044,7 @@
           tg => tg.pass.lowerPower(event.card, 5))
   art: /traps/evil-eye
   guid: e3b41aa1-0f98-ec62-7c2b-2f8414025180
-  name: Toxicmine
+  name: the Evil Eye
 - id: 2379
   slug: autoatk
   description: I perform a free attack when deployed
@@ -4167,7 +4167,7 @@
   priority: 3
   effects: {}
   guid: 252316fc-4e93-ae68-6206-f37455c84f1d
-  name: Compromiser1
+  name: Compromising Anna
   power: 8
 - id: 907
   slug: epic-tortoise
@@ -4209,7 +4209,7 @@
       condition: faq.isOpposingLane(event.card, card)
       perform: op.kill(event.card)
   guid: e649a142-6fe2-e540-60e4-3615f222370a
-  name: Killonattack
+  name: Nemesis's Strike!
   art: /traps/gungnir
 - id: 874
   slug: nosneaking
@@ -4269,7 +4269,7 @@
         - unit-field
   art: /zhu-bajie
   guid: c4e29441-a2d6-5d2e-e90d-67c1d4b90213
-  name: Cowardly Giant
+  name: Zhu Bajie
   power: 10
 - id: 2499
   slug: antisocial-knight
@@ -4290,7 +4290,7 @@
         - grave
   art: /dracula
   guid: 0e0640e1-917e-9491-34ca-bb8f8a8a4e45
-  name: Antisocial Knight
+  name: Count Dracula
   power: 9
 - id: 785
   slug: flipouch5
@@ -4306,7 +4306,7 @@
       manner: combat
       perform: op.damage( player, 5 )
   guid: b3dba8a0-17b9-532b-e7ac-e4922eb429e2
-  name: Flipouch5
+  name: Flipouch
   power: 5
 - id: 888
   slug: vampirefang
@@ -4371,7 +4371,7 @@
         - unit-field
   art: /zorro
   guid: e156e58b-3903-0196-a55c-cef515c0dcdd
-  name: Nimbleguard
+  name: Zorro
   power: 2
 - id: 781
   slug: elijah
@@ -4431,7 +4431,7 @@
       manner: combat
       perform: "op.draw( opponent )\r\nop.draw( player )\r\nop.draw( opponent )\r\nop.draw( player )"
   guid: 175c9ca8-d248-7609-c6af-0c09f2094056
-  name: Fateforward
+  name: Fate Forward
   power: 4
 - id: 2491
   slug: fragmine
@@ -4460,7 +4460,7 @@
         - unit-field
   art: /white-buffalo
   guid: 76fbd7d3-ade6-5f68-6c2b-4814e6ca0a31
-  name: Fragmine
+  name: White Buffalo Maiden
   power: 8
 - id: 919
   slug: shield2
@@ -4474,7 +4474,7 @@
   priority: 5
   effects: {}
   guid: 311479cf-24a0-c52f-2268-d6a13c3b8272
-  name: Shield2
+  name: Another Fucking Shield
   power: 7
 - id: 880
   slug: shield1
@@ -4486,7 +4486,7 @@
   priority: 5
   effects: {}
   guid: da5b6bf6-d80b-f451-0727-b9f59eaa4df4
-  name: Shield1
+  name: Another Fucking Shield
   power: 5
 - id: 901
   slug: token-summoner4
@@ -4496,7 +4496,7 @@
   priority: 8
   effects: {}
   guid: b1f6fb04-b994-e1da-c7bc-b6ec67569456
-  name: Token Summoner4
+  name: Warrior Hen
   power: 4
 - id: 539
   slug: grandtraitor
@@ -4510,7 +4510,7 @@
   priority: 6
   effects: {}
   guid: 00badf76-e490-b5e6-9b31-a3986978ca5e
-  name: Grandtraitor
+  name: Grand Traitor
   power: 14
 - id: 2474
   slug: man-of-honor
@@ -4529,7 +4529,7 @@
         - unit-field
   art: /gawain
   guid: 00064144-b333-3249-8dbf-72397801491f
-  name: Man of Honor
+  name: Sir Gawain
   power: 8
 - id: 523
   slug: expolosive-mech
@@ -4555,7 +4555,7 @@
   priority: 9
   effects: {}
   guid: bf999d9f-4dc7-acaf-f65c-f9df4fc17130
-  name: Paulgrand
+  name: Grand Paul
   power: 8
 - id: 538
   slug: dual-force-spirit
@@ -4578,7 +4578,7 @@
   priority: 3
   effects: {}
   guid: 267d5d43-78de-5f28-8534-d6b17aec55b2
-  name: Eddy
+  name: Aramis
   power: 4
 - id: 641
   slug: edd
@@ -4588,7 +4588,7 @@
   priority: 3
   effects: {}
   guid: 2e474360-6292-7ef6-0c95-2b0c786aba0c
-  name: Edd
+  name: Porthos
   power: 4
 - id: 640
   slug: ed
@@ -4598,7 +4598,7 @@
   priority: 3
   effects: {}
   guid: f39e47ff-3ee3-e857-cd52-a375575da950
-  name: Ed
+  name: Athos
   power: 4
 - id: 783
   slug: mercenery
@@ -4640,7 +4640,7 @@
   priority: 8
   effects: {}
   guid: da1d63dc-c3a5-7c69-49c4-148a17a842e0
-  name: Kamikazejoe Original
+  name: Kamikazejoe
   power: 2
 - id: 259
   slug: doe2
@@ -4650,7 +4650,7 @@
   priority: 3
   effects: {}
   guid: d4b66f78-61e7-9b08-7e92-4be3e9b22e05
-  name: Doe2
+  name: Jane Doe
   power: 5
 - id: 258
   slug: doe1
@@ -4660,7 +4660,7 @@
   priority: 3
   effects: {}
   guid: 502b3b60-a6b9-9266-e0be-b1bb7c2be69a
-  name: Doe1
+  name: John Doe
   power: 5
 - id: 257
   slug: doe0
@@ -4670,7 +4670,7 @@
   priority: 3
   effects: {}
   guid: c16dbe43-b08f-f7d5-2751-98d5e967b7c6
-  name: Doe0
+  name: Random Dude
   power: 5
 - id: 525
   slug: mirrorforce
@@ -4702,7 +4702,7 @@
         op.kill( foe )
   art: /traps/quicksand
   guid: bb422769-ee65-6180-d9d9-504f4d30a7ef
-  name: Tripwire
+  name: Quicksand
 - id: 524
   slug: traphole
   type: 1
@@ -4747,7 +4747,7 @@
   effects: {}
   art: /tomoe-gozen
   guid: a0537d41-fb40-021c-e3bf-43de93a71b4d
-  name: Generic5a
+  name: Tomoe Gozen
   power: 5
 - id: 2
   slug: "--shisno--"
@@ -4777,7 +4777,7 @@
       allowedLots:
         - unit-field
   guid: bb69140b-2741-9583-211c-11c9530119be
-  name: Shisno
+  name: Shisno?
 - id: 52
   slug: "-killany"
   type: 1
@@ -4800,7 +4800,7 @@
         op.draw(player)
         op.addToHand(card, player)
   guid: eb3f4da9-c209-1305-0dd4-7cae6cc9f4de
-  name: Killany
+  name: Kill Any Unit!
 - id: 51
   slug: "-infinitemana"
   description: +1AP on any deployment. die on turn start.
@@ -4842,7 +4842,7 @@
   priority: 3
   effects: {}
   guid: cf181319-3efd-47f6-8763-91456ada4de8
-  name: Wildgrand
+  name: the Wild One (g)
 - id: 17
   slug: "--wildsneak"
   lore: "-- Whatever you wish, dude.... --"
@@ -4853,7 +4853,7 @@
   priority: 3
   effects: {}
   guid: 656603c1-faf2-adbd-b788-c09377274053
-  name: Wildsneak
+  name: the Wild One (incognito)
 - id: 19
   slug: "--wildtrap"
   type: 1
@@ -4863,7 +4863,7 @@
   priority: 3
   effects: {}
   guid: 5ff639d9-708d-32c5-c7d6-8a2084f11adb
-  name: Wildtrap
+  name: Go Wild!
 - id: 16
   slug: "--wildunit"
   lore: "-- Whatever you wish, dude.... --"
@@ -4872,7 +4872,7 @@
   priority: 3
   effects: {}
   guid: e2f0d6e2-9212-6a9e-7b29-9e24413baa5c
-  name: Wildunit
+  name: the Wild One
 - id: 49
   slug: "-el-variablo"
   description: +10 ATK while ally "wall" in play
@@ -4988,7 +4988,7 @@
       allowedLots:
         - unit-field
   guid: cb795b5c-f241-e904-0fe7-1394d217b4a1
-  name: All Out Johnny
+  name: All Out Johhny
   power: 8
 - id: 2822
   slug: handy-mike
@@ -5015,7 +5015,7 @@
     When they die, I die.
   effects: {}
   guid: 6685ad1b-c815-651f-1b7d-526b20a428c2
-  name: Link Spirit
+  name: Overly Attacked Spirit
   power: 7
 - id: 2825
   slug: link-spirit-g
@@ -5027,7 +5027,7 @@
     - grand
   effects: {}
   guid: fc74ec7d-7a1d-a462-900c-566f0b3550c0
-  name: Link Spirit G
+  name: Overly Attacked Grand Spirit
   power: 14
 - id: 2826
   slug: anti-flipper-g
@@ -5113,7 +5113,7 @@
   slug: doe3
   effects: {}
   guid: 3059cf18-3bce-ac54-0e88-b16e0e56a1e5
-  name: Doe3
+  name: Random Dude
   power: 5
 - id: 3843
   slug: rowlock
@@ -5125,7 +5125,7 @@
     All empty enemy fields are locked until the end of their turn.
   effects: {}
   guid: 7f2038db-7255-eca0-0b5e-92dce144a2c3
-  name: Rowlock
+  name: Field Lock!
 - id: 3846
   slug: depowering-gas
   type: 1
@@ -5147,7 +5147,7 @@
     - sneak
   effects: {}
   guid: 158fdf1e-acd1-cc85-d25c-20e08028ebc3
-  name: Trapkiller1
+  name: Trapnado
   power: 4
 - id: 3173
   slug: grandtraitor-0.995s0ezbr6a0.c8t5vr4ufb4
@@ -5158,7 +5158,7 @@
     - grand
   effects: {}
   guid: 65591d48-dbec-6af4-034e-c0eb08f6795e
-  name: Grandtraitor 0.995s0ezbr6a0.c8t5vr4ufb4
+  name: Grand Traitor
   power: 14
 - id: 2394
   slug: time-bug
@@ -5180,7 +5180,7 @@
     - grand
   effects: {}
   guid: 843ee332-7f0c-a251-c068-7d529864a982
-  name: Antiflipper
+  name: Anti Flipper
   power: 8
 - id: 3603
   slug: saviour
@@ -5189,7 +5189,7 @@
     instead.
   effects: {}
   guid: 06fac1b0-7720-afd5-7f65-75be8025192c
-  name: Saviour
+  name: the Saviour
   power: 3
 - id: 3584
   slug: tactical-joe
@@ -5207,7 +5207,7 @@
     - grand
   effects: {}
   guid: e9150e38-ab00-7ffe-82b7-3432223efa0f
-  name: Magiresistent Tom
+  name: Magi Resistent Tom
   power: 9
 - id: 2372
   slug: deathdraw
@@ -5225,7 +5225,7 @@
         - unit-field
         - grave
   guid: 15f64461-95cc-c62e-ca23-11dc1495fba7
-  name: Deathdraw
+  name: Mike
   power: 3
 - id: 1009
   slug: man-of-honor-0.w06t43u5mv90.q1oyb3sg38r
@@ -5233,7 +5233,7 @@
   lore: (duplicate of man-of-honor)
   effects: {}
   guid: 8dc335aa-06d2-b3ef-4553-bddddd781cf6
-  name: Man of Honor 0.w06t43u5mv90.q1oyb3sg38r
+  name: Man of Honor
   power: 7
 - id: 3723
   slug: brain-leech
@@ -5252,7 +5252,7 @@
     - sneak
   effects: {}
   guid: dc898d36-9302-d6a4-2085-a8123cec8934
-  name: Resurrecter2
+  name: Necro Bastard
 - id: 3098
   slug: trampoline-0.yl6pqf4ilz0.5hrbes4ipo3
   description: "Combat-Flip:\nReturn attacking creature to its controller's hand.\rDie"
@@ -5260,7 +5260,7 @@
     - sneak
   effects: {}
   guid: e27a9f39-5f86-68ab-441b-ddcae1d23a1f
-  name: Trampoline 0.yl6pqf4ilz0.5hrbes4ipo3
+  name: Trampoline
   power: 3
 - id: 3097
   slug: trapowered
@@ -5279,7 +5279,7 @@
     - sneak
   effects: {}
   guid: 2e033ae2-eb3c-67a3-969b-a65a91425550
-  name: Trapowered3
+  name: Trap Powered
   power: 1
 - id: 3096
   slug: trapthirster
@@ -5343,7 +5343,7 @@
     - sneak
   effects: {}
   guid: f249943a-34ed-a92a-9143-a09b603bce54
-  name: Shield1 0.wuy3yvtd0pi0.nlvzivyuvw
+  name: Another Fucking Shield
   power: 8
 - id: 3076
   slug: shield2-0.7may1vhv1ia0.salulgon75k
@@ -5352,7 +5352,7 @@
     - sneak
   effects: {}
   guid: f72622f9-1723-3e2f-0417-0b2e42328366
-  name: Shield2 0.7may1vhv1ia0.salulgon75k
+  name: Another Fucking Shield
   power: 9
 - id: 3108
   slug: quickfeet
@@ -5372,7 +5372,7 @@
     - sneak
   effects: {}
   guid: 5d20f13f-bf68-cf0d-9423-484d0a372e79
-  name: Balloonbrute
+  name: Balloon Brute
   power: 7
 - id: 1008
   slug: stunbot
@@ -5394,7 +5394,7 @@
     - sneak
   effects: {}
   guid: 90c0e9d3-f0ab-f017-11e1-a24972a4f097
-  name: Trapkiller2
+  name: Saboteur
   power: 4
 - id: 3132
   slug: trapkiller3
@@ -5405,7 +5405,7 @@
     - sneak
   effects: {}
   guid: e600bc6f-e66f-c707-6c6a-c650835b50c5
-  name: Trapkiller3
+  name: Trap Diffuser
   power: 3
 - id: 3090
   slug: socialgnome
@@ -5414,7 +5414,7 @@
     - sneak
   effects: {}
   guid: bd7640ea-78a9-f0d9-e155-dae1cf5e253d
-  name: Socialgnome
+  name: Social Gnome
   power: 3
 - id: 576
   slug: flipmike
@@ -5425,7 +5425,7 @@
     - sneak
   effects: {}
   guid: 46c11ca7-8090-012f-6247-f98f6f185b46
-  name: Flipmike
+  name: Flip Mike
   power: 3
 - id: 3112
   slug: reviver-0
@@ -5492,7 +5492,7 @@
     - sneak
   effects: {}
   guid: bdcaedca-25c5-01a4-da74-26a664483ce7
-  name: Brainleech
+  name: Brain Leech
   power: 1
 - id: 3118
   slug: younghealer
@@ -5503,7 +5503,7 @@
     - sneak
   effects: {}
   guid: adcfdf01-c054-bf35-51df-a881bf61ab95
-  name: Younghealer
+  name: 2v9r7m
   power: 2
 - id: 3103
   slug: life-syphon-2
@@ -5526,7 +5526,7 @@
     - sneak
   effects: {}
   guid: f37d1154-a473-9c83-3bcc-45afe45a3795
-  name: Evo Flip A
+  name: Jack
   power: 2
 - id: 3589
   slug: deckstructor
@@ -5554,7 +5554,7 @@
   notes: dup
   effects: {}
   guid: 806bbd07-4d01-037a-7d6d-8db4ad262acd
-  name: Antisocial Knight 0.1psn5u4lhri0.1tzcbd1rsql
+  name: Antisocial Knight
   power: 9
 - id: 3175
   slug: jake
@@ -5576,7 +5576,7 @@
     - grand
   effects: {}
   guid: 7ee60017-2de4-aedb-8e04-e6fb78f80b97
-  name: Cowardly Giant 0.x1ant8l9lm0.0rhvyx2zgq69
+  name: Cowardly Giant
   power: 14
 - id: 848
   slug: miller
@@ -5627,7 +5627,7 @@
     - grand
   effects: {}
   guid: 74eae226-705a-86c1-ffdb-8c19d1d159f6
-  name: Antisocial Archknight
+  name: Antisocial Arch Knight
   power: 15
 - id: 3146
   slug: bad-influence-leonard
@@ -5669,7 +5669,7 @@
     - grand
   effects: {}
   guid: 9cccdebc-c51a-7dc2-1b0b-4f46dec5632d
-  name: Guy With Manashield
+  name: Guy With Mana Shield
   power: 10
 - id: 3150
   slug: great-manadrainer
@@ -5680,7 +5680,7 @@
     - grand
   effects: {}
   guid: d2f4611c-dba5-f30b-bc22-09631d9f7f01
-  name: Great Manadrainer
+  name: Great Mana Drainer
   power: 8
 - id: 3151
   slug: mana-beast
@@ -5722,7 +5722,7 @@
     - grand
   effects: {}
   guid: 05724283-d81f-699a-085e-b4cd4ff1a4fb
-  name: Dual Force Spirit 0.djgc6zkgtb0.s9bwd91f138
+  name: Dual Force Spirit
 - id: 3157
   slug: shy-warrior
   description: I cannot attack while there is an adjacent friendly creature.
@@ -5770,7 +5770,7 @@
     - grand
   effects: {}
   guid: 723bbdda-7177-2a40-3bc4-d5632282bafa
-  name: Paulgrand2
+  name: Dick Johnson
   power: 5
 - id: 3162
   slug: magiresistent-thomas
@@ -5779,7 +5779,7 @@
     - grand
   effects: {}
   guid: 06bdd07f-c42a-ac8f-59cf-6b7faf2e21b9
-  name: Magiresistent Thomas
+  name: Magi Resistent Thomas
   power: 10
 - id: 3163
   slug: flappy-rooster
@@ -5797,7 +5797,7 @@
     - grand
   effects: {}
   guid: 8001d604-16cc-b539-707b-ab59d61ae071
-  name: Overlyattached Spirit
+  name: Overly Attached Spirit
   power: 14
 - id: 3165
   slug: dark-one
@@ -5840,7 +5840,7 @@
     - grand
   effects: {}
   guid: 287fdfe2-41b9-8a78-f420-2fba2d060008
-  name: Devouerer
+  name: Devouerer*
   power: 7
 - id: 3187
   slug: general
@@ -5849,7 +5849,7 @@
     - grand
   effects: {}
   guid: 8d203692-3819-4cfa-ae25-74605c2bacbb
-  name: General
+  name: the General
   power: 13
 - id: 3170
   slug: the-blood-king
@@ -5887,7 +5887,7 @@
     - grand
   effects: {}
   guid: cdc0e0a0-5b85-53dd-341f-abc8b2e02a4a
-  name: Devouerer2
+  name: Devouerer*
   power: 5
 - id: 3904
   slug: the-good-king
@@ -5916,7 +5916,7 @@
     - grand
   effects: {}
   guid: 21b47146-04e0-2a74-8212-48795cc257c4
-  name: Piercing George2
+  name: Piercing George
   power: 7
 - id: 3176
   slug: black-hood
@@ -5938,7 +5938,7 @@
     - grand
   effects: {}
   guid: 3554e5a9-06f8-8493-285d-785f850b2ce8
-  name: Sloth Wyrm 0.ib22oqnlrzo0.grywr1g673
+  name: Sloth Wyrm
   power: 15
 - id: 3178
   slug: epic-tortoise-0.uxi49xefymj0.fl303q2aigm
@@ -5947,7 +5947,7 @@
     - grand
   effects: {}
   guid: 4900e062-774c-9719-3057-241ffc153870
-  name: Epic Tortoise 0.uxi49xefymj0.fl303q2aigm
+  name: Epic Tortoise
   power: 14
 - id: 3179
   slug: resque-zack
@@ -5978,7 +5978,7 @@
     - grand
   effects: {}
   guid: 076f0eea-a159-3238-8dcf-df795d3f1275
-  name: Compromiser1 0.vunuz7ji1qj0.ukemd0arhsm
+  name: Compromising Anna
   power: 8
 - id: 3182
   slug: lonely-golem-0.zw25slvfj190.kg9ye5vwfqe
@@ -5987,7 +5987,7 @@
     - grand
   effects: {}
   guid: a3835567-7dd7-1cc3-ae46-41c916829d93
-  name: Lonely Golem 0.zw25slvfj190.kg9ye5vwfqe
+  name: Lonely Golem
   power: 13
 - id: 3183
   slug: for-a-lid
@@ -6025,7 +6025,7 @@
   description: My power is raised by 6 while you have 3 or less Life Points.
   effects: {}
   guid: a4a97b07-d3b5-1b9f-7667-37e63898a8f1
-  name: Finalrage
+  name: Final Rage
   power: 3
 - id: 3186
   slug: serious
@@ -6043,7 +6043,7 @@
     - grand
   effects: {}
   guid: 5f2d8d0a-d007-de12-a323-d450ac534087
-  name: Ritual C F3
+  name: Demon Supreme 3
   power: 15
 - id: 3343
   slug: ritual-c-f1
@@ -6052,7 +6052,7 @@
     - grand
   effects: {}
   guid: 1f1e6560-3137-6d53-e378-a2c57b50a0ce
-  name: Ritual C F1
+  name: Supreme Demon
 - id: 3341
   slug: evo-g-f1
   description: Cannot be summoned in any way other than by successfully tributing @evo_a_f1
@@ -6060,7 +6060,7 @@
     - grand
   effects: {}
   guid: b9344146-c0fd-9165-0992-231b841962f1
-  name: Evo G F1
+  name: Mr. Hyde
   power: 16
 - id: 3357
   slug: evo-g-f2
@@ -6069,7 +6069,7 @@
     - grand
   effects: {}
   guid: 2e1f0667-9db0-e1fa-396c-c94f7607eabd
-  name: Evo G F2
+  name: Queen Sarah
   power: 16
 - id: 3373
   slug: evo-g-f3
@@ -6078,7 +6078,7 @@
     - grand
   effects: {}
   guid: 8fbb6573-f61f-7e79-b051-41771c3bd452
-  name: Evo G F3
+  name: Fenris
   power: 16
 - id: 3154
   slug: serious2
@@ -6098,7 +6098,7 @@
     - grand
   effects: {}
   guid: e1bbb9b8-64a2-14ef-02a9-bb212f27433e
-  name: Compromiser2
+  name: Compromising Bill
   power: 9
 - id: 3195
   slug: compromiser3
@@ -6109,7 +6109,7 @@
     - grand
   effects: {}
   guid: c6a3162b-1399-3cd6-7fd6-feb970ac5721
-  name: Compromiser3
+  name: Compromising Fiend
   power: 9
 - id: 3196
   slug: armageddon
@@ -6118,7 +6118,7 @@
     - grand
   effects: {}
   guid: e2652cfe-c462-678b-abfc-7eb209d2eaba
-  name: Armageddon
+  name: A.r.m.a.g.e.d.d.o.n.
 - id: 3197
   slug: apocalypta
   description: |-
@@ -6163,7 +6163,7 @@
     - grand
   effects: {}
   guid: d9c406bf-1913-82a2-b82a-a0d5c9f65a09
-  name: Ace1 Lvl3
+  name: Ace (level 3)
   power: 16
 - id: 3457
   slug: ace1-lvl2
@@ -6174,7 +6174,7 @@
     - grand
   effects: {}
   guid: 47f30dc1-2b7e-e306-4ba6-8f4dee9c4cc5
-  name: Ace1 Lvl2
+  name: Ace (level 2)
   power: 12
 - id: 3389
   slug: evo-flip-g
@@ -6183,7 +6183,7 @@
     - grand
   effects: {}
   guid: 119bf7ae-3bb9-2f2f-ef44-045d15cecb66
-  name: Evo Flip G
+  name: Armored Jack
   power: 9
 - id: 3391
   slug: vendeto-grand
@@ -6192,7 +6192,7 @@
     - grand
   effects: {}
   guid: 60754399-98dc-f3b4-da40-b9b6a2ea1d6b
-  name: Vendeto Grand
+  name: Vendeto's Spirit
   power: 9
 - id: 3392
   slug: com-g0-0
@@ -6201,7 +6201,7 @@
     - grand
   effects: {}
   guid: bafe3738-584c-1c57-8e49-c22e52f5d3dd
-  name: Com G0 0
+  name: Grand Part 0
   power: 9
 - id: 3359
   slug: ritual-c-f2
@@ -6210,7 +6210,7 @@
     - grand
   effects: {}
   guid: e4f5624a-7600-19fc-10f7-62c6f02b2fd0
-  name: Ritual C F2
+  name: Supreme King
   power: 9
 - id: 3300
   slug: phoenix
@@ -6232,7 +6232,7 @@
     creature they can from their graveyard.
   effects: {}
   guid: 26487a27-49bb-bbf5-6458-076c720830a2
-  name: Last Stand
+  name: Last Stand!
 - id: 3208
   slug: surprise-link
   type: 1
@@ -6253,14 +6253,14 @@
     Points to 2.
   effects: {}
   guid: 796d5f7e-0ab0-9d91-60b0-859384c82f5e
-  name: Sudden Death
+  name: Sudden Death!
 - id: 965
   slug: move-trap-hole
   type: 1
   description: When enemy creature relocates to the opposing field, instantly destroy it .
   effects: {}
   guid: e59c75f4-dc02-b2d0-d047-5cd392b35196
-  name: Move Trap Hole
+  name: Slippery Pit
 - id: 3211
   slug: one-last-save
   type: 1
@@ -6288,7 +6288,7 @@
   description: When an opposing enemy creature is summoned, return it to the enemy's hand.
   effects: {}
   guid: 0b430357-0f5b-a3b7-e003-8b92abc1ad82
-  name: Waste
+  name: Grandious Waste
 - id: 3214
   slug: anti-summon-1
   type: 1
@@ -6318,7 +6318,7 @@
     Destroy me at the end of the turn.
   effects: {}
   guid: e23e9bf6-c95e-aee9-c2ac-a371fbf3740e
-  name: Noflipping
+  name: No Flipping!
 - id: 3219
   slug: massmurder
   type: 1
@@ -6327,7 +6327,7 @@
     all face-up enemy creatures.
   effects: {}
   guid: c325d638-8085-470e-b52b-dcd9e14815c4
-  name: Massmurder
+  name: R5ba0t
 - id: 3220
   slug: taunt2
   type: 1
@@ -6339,7 +6339,7 @@
     force it to attack.
   effects: {}
   guid: a7de052b-2f5c-fec4-d23d-cbcabafbaec3
-  name: Taunt2
+  name: Taunt
 - id: 3221
   slug: weird-swap
   type: 1
@@ -6357,7 +6357,7 @@
     mana.
   effects: {}
   guid: 2de51c64-86bf-e253-7a44-d8c66a6a7fd1
-  name: Manadrop
+  name: Mana Drop
 - id: 3223
   slug: unexpected-assistance
   type: 1
@@ -6395,7 +6395,7 @@
     power equal or lower than it are also destroyed
   effects: {}
   guid: c3fc1839-332e-1a24-034a-894fd9817266
-  name: Scorch
+  name: Scorching Flames
 - id: 3227
   slug: unexpected-assistance-0.84n6mqxae9s0.9n7d75i96sr
   type: 1
@@ -6408,7 +6408,7 @@
     owner's hand.
   effects: {}
   guid: b370afac-e766-3713-526b-a93e950f5646
-  name: Unexpected Assistance 0.84n6mqxae9s0.9n7d75i96sr
+  name: Unexpected Assistance
 - id: 3228
   slug: fate-boost
   type: 1
@@ -6427,7 +6427,7 @@
     friendly creature there, destroy it, but add its current attack to %%0.
   effects: {}
   guid: af43845e-b5f6-2504-a5fe-87130a86f29d
-  name: Ritual T F2
+  name: Supreme King Ritual
 - id: 3230
   slug: assisted-suicide
   type: 1
@@ -6456,7 +6456,7 @@
     while this card is in play. Destroy me when that creature leaves its field.
   effects: {}
   guid: a2e1886f-8377-f75c-8d88-46d55234b177
-  name: Hypnoshield
+  name: Hypno Shield
 - id: 3233
   slug: compensation
   type: 1
@@ -6530,7 +6530,7 @@
     Destroy this card at the end of the turn.
   effects: {}
   guid: d1320602-24fd-1fa5-6298-029b089cda09
-  name: Grandlock
+  name: Grand Lock
 - id: 3240
   slug: time-bomb
   type: 1
@@ -6597,7 +6597,7 @@
       perform: op.forceAttack( get.sameLaneUnit( card ) )
   art: /traps/night-attack
   guid: ca3a6d1f-f089-4c7e-42ec-0a7a9ea6f384
-  name: Surprise Attack
+  name: the Night Attack
 - id: 3245
   slug: empower1
   type: 1
@@ -6606,7 +6606,7 @@
     creature's power by 2.
   effects: {}
   guid: 745b1bb0-2000-0067-2c20-3f18cc889301
-  name: Empower1
+  name: Empower 0
 - id: 3374
   slug: ritual-t-f3
   type: 1
@@ -6615,7 +6615,7 @@
     summon @ritual_c_f3 from your hand on your own side of this column.
   effects: {}
   guid: c2f7bebe-1d33-9f17-4b96-41c24a7637ba
-  name: Ritual T F3
+  name: Supreme Ritual 3
 - id: 3247
   slug: depower-0
   type: 1
@@ -6667,7 +6667,7 @@
     its power by double the base power of the dead creature.
   effects: {}
   guid: 09a4bd82-375a-bc55-0dc7-e10cf31c023d
-  name: Ritual T F1
+  name: Supreme Demon Ritual
 - id: 3252
   slug: redo
   type: 1
@@ -6697,7 +6697,7 @@
     that turn.
   effects: {}
   guid: 9d5a7510-83e5-3a0c-9d25-333c226ab525
-  name: Mana Decktruction
+  name: Magic Deckstruction
 - id: 909
   slug: final-heal
   type: 1
@@ -6754,7 +6754,7 @@
     subsequent attack. Destroy this card when the opposing enemy field is empty.
   effects: {}
   guid: edd175bf-6c06-39b2-a01d-54ae047c96f5
-  name: Depowering Gas 0.ixw87m3hpq0.lxj5iyyvcz
+  name: Depowering Gas
 - id: 3265
   slug: immortal-robert
   description: >-
@@ -6768,7 +6768,7 @@
   slug: ace1-lvl1
   effects: {}
   guid: 9a703651-1c45-60c3-da65-ab584e093b43
-  name: Ace1 Lvl1
+  name: Ace (level 1)
   power: 4
 - id: 3667
   slug: trap-silencer
@@ -6788,7 +6788,7 @@
     resets after I finish an attack (successfully or not).
   effects: {}
   guid: 0e7e3a2a-704a-6238-32b3-21731d0f8081
-  name: Bloodthirter
+  name: Bloodthirty
   power: 4
 - id: 3268
   slug: power-healer
@@ -6815,14 +6815,14 @@
     empty creature fields
   effects: {}
   guid: 02d42447-e829-53a1-85a4-5a194db29f76
-  name: Token Summoner 0.mf7d39a2hrc0.eey7ifwfjjg
+  name: Token Summoner*
   power: 3
 - id: 3272
   slug: darkassasin1
   description: When I attack - deal 1 damage to your Life Points.
   effects: {}
   guid: 88dcde4f-7256-261b-29d6-73b8dc2a9f62
-  name: Darkassasin1
+  name: Blood Mercenary
   power: 6
 - id: 889
   slug: fatal-spirit
@@ -6877,7 +6877,7 @@
   description: Raise my power by 2 for each other friendly Honorable Soldier card in play.
   effects: {}
   guid: 49d72b3d-6c3b-723a-1844-6439e9aec8d1
-  name: Honor 1
+  name: Honorable Soldier A
   power: 4
 - id: 3278
   slug: bloodrager
@@ -6886,7 +6886,7 @@
     after I finish an attack (successfully or not).
   effects: {}
   guid: 22146187-0a77-5546-afd2-16418327329b
-  name: Bloodrager
+  name: Bloodrage
   power: 3
 - id: 866
   slug: paul3
@@ -6907,7 +6907,7 @@
       allowedLots:
         - unit-field
   guid: 841bd862-0a9e-8398-bcfb-f6c95de26d47
-  name: Paul3
+  name: Lost Paul
   power: 4
 - id: 865
   slug: paul2
@@ -6919,21 +6919,21 @@
     overrides:
       blockDeploymentTo: "! get.opposingUnit( field )"
   guid: cfcfb735-84df-cfe1-7a29-0935b4826063
-  name: Paul2
+  name: Lightning Paul
   power: 4
 - id: 545
   slug: zombyra
   description: Every time I attack, decrease my power by 2.
   effects: {}
   guid: 9228b01a-6cc0-83c0-78df-1d377137b0b8
-  name: Zombyra
+  name: Overly Excited Tim
   power: 7
 - id: 2378
   slug: poised-eric
   description: After I attack the enemy directly, I am destroyed.
   effects: {}
   guid: 7ee79cb2-1be0-9ebd-ae6f-c788563f701d
-  name: Poised Eric
+  name: Rz6p0r
   power: 6
 - id: 3283
   slug: problematic-sam
@@ -6952,7 +6952,7 @@
     overrides:
       blockDeploymentTo: player.units.length > 0
   guid: b246b1eb-5d64-763c-77a7-cb75a918d35d
-  name: Paul1
+  name: Lightning Paul
   power: 4
 - id: 3285
   slug: mana-powered-bitch
@@ -6988,14 +6988,14 @@
     ways and often revealing profound wisdom.
   effects: {}
   guid: bab4499d-f430-1bce-43d6-1d22d350599b
-  name: Emma
+  name: Nasreddin
   power: 4
 - id: 3306
   slug: mana-thing
   description: My power is raised by 2 x your current mana
   effects: {}
   guid: 93d9ae67-865e-5087-fd4a-4d5f35b783d9
-  name: Mana Thing
+  name: Mana Thing*
 - id: 3291
   slug: taunting-shield-3
   description: >-
@@ -7005,7 +7005,7 @@
     manual attack, it is forced to.
   effects: {}
   guid: e37ed02b-925c-0676-dfef-c91cadc3867a
-  name: Taunting Shield 3
+  name: Taunting Shield*
   power: 7
 - id: 3292
   slug: taunting-shield-2
@@ -7016,7 +7016,7 @@
     attack me, it performs a free attack.
   effects: {}
   guid: 73ecf870-a8fc-9ec5-8039-f48b781032e1
-  name: Taunting Shield 2
+  name: Taunting Shield*
   power: 5
 - id: 882
   slug: collossal-shield-2
@@ -7034,7 +7034,7 @@
       allowedLots:
         - unit-field
   guid: 838eaa06-db74-8818-a25b-0b6aca2d7312
-  name: Collossal Shield 2
+  name: Collossal Shield*
   power: 12
 - id: 3294
   slug: collossal-shield-1
@@ -7043,41 +7043,41 @@
     The moment you have more creatures in play than the enemy, I die.
   effects: {}
   guid: afe270d6-ce53-2b9d-f8ba-19bce51e0836
-  name: Collossal Shield 1
+  name: Collossal Shield*
   power: 10
 - id: 963
   slug: harrasser2
   description: "I cannot be summoned while there are other friendly creatures in play, nor used as a tribute.\nI do not suffer summon exhaustion.\rReturn me to your hand at the end of your turn."
   effects: {}
   guid: 5a5d6e1e-08cf-9ed5-a670-f50b28489e2f
-  name: Harrasser2
+  name: Harrassing Mia
   power: 1
 - id: 3296
   slug: emptyshell
   description: I do not suffer from summon exhaustion.
   effects: {}
   guid: 1b86623b-0b3e-06ff-3a33-ea554b9feea2
-  name: Emptyshell
+  name: Empty Shell
 - id: 3298
   slug: honor-2
   description: Raise my power by 2 for each other friendly Honorable Soldier card in play.
   effects: {}
   guid: 06a44854-b0af-e428-1537-9e7a923fbce4
-  name: Honor 2
+  name: Honorable Soldier B
   power: 4
 - id: 3299
   slug: honor-3
   description: Raise my power by 2 for each other friendly Honorable Soldier card in play.
   effects: {}
   guid: 80df40a4-9a67-e7bf-4e72-a325201b1be6
-  name: Honor 3
+  name: Honorable Soldier C
   power: 4
 - id: 3370
   slug: eddy-0.3lj8lqieak50.4q1uanxy9x4
   description: "When I am summoned, if possible:\nIf @ed is in play, add @edd from your deck to your hand.\rIf %%1 is in play, add %%0 from your deck to your hand"
   effects: {}
   guid: 89fd34c5-21a3-6832-a906-d0c827185051
-  name: Eddy 0.3lj8lqieak50.4q1uanxy9x4
+  name: Eddy
   power: 4
 - id: 3305
   slug: piercing-gemma
@@ -7095,14 +7095,14 @@
     Linked Bros in play, destroy me.
   effects: {}
   guid: 6be05bd7-be11-7387-f0c6-18749caa2d53
-  name: Linked Bro4
+  name: Linked Bro
   power: 6
 - id: 3307
   slug: trapowered2
   description: My power is raised by 1 for each friendly trap in play.
   effects: {}
   guid: 2f2f474a-e268-7bfb-81a2-f69188d45516
-  name: Trapowered2
+  name: Trap Powered
   power: 4
 - id: 2496
   slug: producer
@@ -7125,7 +7125,7 @@
         - grave
   art: /wayland
   guid: 5449b2b3-6f26-8acd-e5f8-3318420ca29f
-  name: Producer
+  name: Wayland the Smith
 - id: 3309
   slug: ferocious-sara
   description: Raise my power by 2 for each enemy creature card in play.
@@ -7145,7 +7145,7 @@
   description: While I am in play - decrease all enemy creatures' power by 1.
   effects: {}
   guid: 0125a08a-cb05-dd45-2a96-79f392c272a1
-  name: Confusor
+  name: Confusing Timothy
   power: 2
 - id: 3312
   slug: supporting-phil
@@ -7163,7 +7163,7 @@
     not a creature)
   effects: {}
   guid: 75370752-1674-5409-506e-3566fd7e9d0b
-  name: Bloodcopy 1
+  name: Blood Copy 1
 - id: 3314
   slug: bloodcopy-2
   description: >-
@@ -7171,7 +7171,7 @@
     if its not a creature)
   effects: {}
   guid: bdf81351-ac63-3d94-d93f-4a167a0ceb0c
-  name: Bloodcopy 2
+  name: Blood Copy 2
 - id: 3315
   slug: spineless-troll
   description: >-
@@ -7216,7 +7216,7 @@
     enemy.
   effects: {}
   guid: d4f96724-1d90-6666-c446-8ce10dcfdcf2
-  name: Angered3
+  name: Enthusiastic Jim
   power: 2
 - id: 3320
   slug: fate-mistress
@@ -7236,7 +7236,7 @@
     destroyed, destroy me instead.
   effects: {}
   guid: 723e561c-9fa0-d6e4-638c-ae93d3ffc234
-  name: Trapsaver
+  name: Trap Saver
   power: 2
 - id: 3322
   slug: token-pooper
@@ -7267,7 +7267,7 @@
       allowedLots:
         - unit-field
   guid: aa43b737-6193-cb9d-3ebe-7bea5a77302a
-  name: Enraged
+  name: Achilles
   power: 4
   art: /achiles
 - id: 3324
@@ -7275,7 +7275,7 @@
   description: At the end of your turn if you have no mana - destroy me.
   effects: {}
   guid: f3044146-f30f-64d4-7630-544280a75d81
-  name: Hired Mage
+  name: Mage For Hire
   power: 8
 - id: 3326
   slug: force-field-generator
@@ -7297,7 +7297,7 @@
     no enemy creature other than it can attack.
   effects: {}
   guid: 87c1450b-cbbc-6afc-ca28-467dfa235637
-  name: Force Field2
+  name: Force Field
   power: 6
 - id: 3604
   slug: reviver-2
@@ -7316,7 +7316,7 @@
     graveyard in my place, face up.
   effects: {}
   guid: cead0021-5e03-b6aa-c8f9-99cd26581f3c
-  name: Resurrecter3
+  name: Tricky Necromancer
   power: 1
 - id: 2318
   slug: banana-b
@@ -7334,14 +7334,14 @@
   description: When I die, if possible summon another 8-Ball from your deck in my place.
   effects: {}
   guid: 28b4531a-c92a-dba6-1f32-a61fec3dc26d
-  name: 8ball 4
+  name: 8 Ball 4
   power: 1
 - id: 3353
   slug: 8ball-2
   description: When I die, if possible summon another 8-Ball from your deck in my place.
   effects: {}
   guid: ed9ab275-8e25-d5f8-552f-66aa0aaeb693
-  name: 8ball 2
+  name: 8 Ball 2
   power: 1
 - id: 3632
   slug: ignorant-calob
@@ -7350,28 +7350,28 @@
     it. This does not count as death from combat.
   effects: {}
   guid: 0ab0a615-a269-3170-f9b5-3d80527bae71
-  name: Ignorant Calob
+  name: Ignorant Calob*
   power: 3
 - id: 3347
   slug: cheerleader4
   description: My power is raised by 1 for each other friendly Cheerleader Harpy in play.
   effects: {}
   guid: dcb722d7-3848-d385-2d30-f412d48d7b0d
-  name: Cheerleader4
+  name: Cheerleader Harpy 4
   power: 4
 - id: 3345
   slug: cheerleader3
   description: My power is raised by 1 for each other friendly Cheerleader Harpy in play.
   effects: {}
   guid: b91c4bc0-beb5-a2d2-b395-db9d7cb3d5fc
-  name: Cheerleader3
+  name: Cheerleader Harpy 3
   power: 4
 - id: 3346
   slug: cheerleader2
   description: My power is raised by 1 for each other friendly Cheerleader Harpy in play.
   effects: {}
   guid: 573b5edb-f33c-4ef4-01de-9faaa0857931
-  name: Cheerleader2
+  name: Cheerleader Harpy 2
   power: 4
 - id: 2463
   slug: darkassasin2
@@ -7389,55 +7389,55 @@
         - unit-field
   art: /rumpelstiltskin
   guid: b3e4bf61-fc6d-148a-ce61-9ad3fcc33bb5
-  name: Darkassasin2
+  name: Rumpelstiltskin
   power: 7
 - id: 3643
   slug: motivator
   description: While I am in play - raise all friendly creatures' power by 1
   effects: {}
   guid: 9bd18da4-7b3c-3eff-75c4-9311f3867d99
-  name: Motivator
+  name: Motivating Ethan
   power: 2
 - id: 3344
   slug: cheerleader1
   description: My power is raised by 1 for each other friendly Cheerleader Harpy in play.
   effects: {}
   guid: 7ec595f3-0ace-386c-a7bc-fb26b63d6d25
-  name: Cheerleader1
+  name: Cheerleader Harpy 1
   power: 4
 - id: 3406
   slug: joe2
   effects: {}
   guid: ad52743a-889f-3c6a-e83d-5391ab4d0a16
-  name: Joe2
+  name: Joe Shmoe
   power: 5
 - id: 3352
   slug: 8ball-1
   description: When I die, if possible summon another 8-Ball from your deck in my place.
   effects: {}
   guid: 22c7fe2d-9728-8685-bde0-52aa3b0e3b8e
-  name: 8ball 1
+  name: 8 Ball 1
   power: 1
 - id: 3637
   slug: fairhealer
   description: When I am summoned, both players's Life Points increase by 4.
   effects: {}
   guid: e1ed57f4-2338-7299-0113-7bce136bed4f
-  name: Fairhealer
+  name: Fair Healer
   power: 4
 - id: 3605
   slug: drawhealer
   description: Increase your Life-Points by 1 every time you draw a card.
   effects: {}
   guid: 636b7716-0d3c-0293-d333-652ed9e34ed8
-  name: Drawhealer
+  name: 6dq0m2
   power: 3
 - id: 3600
   slug: turnhealer
   description: At the beginning of your turn, increase your Life-Points by 1.
   effects: {}
   guid: a59e94ec-66eb-9e4e-fc50-18cd8aea6089
-  name: Turnhealer
+  name: Qlgi98
   power: 4
 - id: 3601
   slug: battle-healer
@@ -7461,7 +7461,7 @@
   slug: joe3
   effects: {}
   guid: ca3a4ca9-ca25-0d16-86a5-8519e7402e0b
-  name: Joe3
+  name: Joe Blow
   power: 5
 - id: 2317
   slug: banana-a
@@ -7487,26 +7487,26 @@
   slug: evo-a-f1
   effects: {}
   guid: c865b7e5-fc6d-2682-8676-93ea533ff44c
-  name: Evo A F1
+  name: Dr. Jekyll
   power: 3
 - id: 3372
   slug: evo-a-f3
   effects: {}
   guid: 4bcf97ab-e9e5-64eb-380f-a5dd7739a456
-  name: Evo A F3
+  name: Lucio
   power: 3
 - id: 3405
   slug: joe1
   effects: {}
   guid: 07a77f1c-aeb2-cd77-5f95-2659a4e90a55
-  name: Joe1
+  name: Average Joe
   power: 5
 - id: 593
   slug: yang
   description: Raise my power by 4 while @yin is adjacent
   effects: {}
   guid: 924b105e-d082-8d0b-8216-2e305084dceb
-  name: Yang
+  name: Brother Yang
   power: 4
 - id: 3390
   slug: vendeto
@@ -7522,7 +7522,7 @@
   description: Raise my power by 6 while @yang is adjacent
   effects: {}
   guid: 677173ad-45d2-9e5d-3336-f5df68fad007
-  name: Yin
+  name: Brother Yin
   power: 3
 - id: 3618
   slug: fate-forcer
@@ -7538,7 +7538,7 @@
     direct damage to the enemy.
   effects: {}
   guid: d8b6b7f2-7622-ccaf-cc5c-af39c517a93b
-  name: Directrager
+  name: Direct Rager
   power: 3
 - id: 3645
   slug: witchbetsy
@@ -7548,7 +7548,7 @@
     to me.
   effects: {}
   guid: b6136d35-6cf6-87cf-44e8-62175ef164c8
-  name: Witchbetsy
+  name: Witch Betsy
   power: 1
 - id: 3621
   slug: deckstructor1
@@ -7566,7 +7566,7 @@
     card.
   effects: {}
   guid: 14d021a6-704b-fff2-0ce0-d62550952200
-  name: Fateup
+  name: Fate Up
   power: 5
 - id: 3706
   slug: blindrage
@@ -7579,7 +7579,7 @@
     attack, deal direct damage to the enemy equal to its attack.
   effects: {}
   guid: b327106f-ae76-3ba4-af95-7148be947c2a
-  name: Blindrage
+  name: Blind Rage
 - id: 3679
   slug: taunting-dance
   type: 1
@@ -7599,14 +7599,14 @@
     Linked Bros in play, destroy me.
   effects: {}
   guid: f91275fd-9167-e955-931f-09dc75f24b7b
-  name: Linked Bro3
+  name: Linked Bro
   power: 8
 - id: 3636
   slug: darkassasin3
   description: When I attack or am attacked - deal 2 damage to your Life Points.
   effects: {}
   guid: bae10753-6ae2-2b3c-4e35-5a488c00437f
-  name: Darkassasin3
+  name: Blood Assasin
   power: 7
 - id: 3622
   slug: gcontract-haste
@@ -7618,7 +7618,7 @@
     exhaustion.
   effects: {}
   guid: 55960ff8-4bf7-401e-f4f1-984ed93f7b8f
-  name: Gcontract Haste
+  name: Haste Contracter
   power: 1
 - id: 2389
   slug: drawttack
@@ -7641,7 +7641,7 @@
   description: "I do not suffer from summon exhaustion, nor can I be used as a tribute.\nI cannot attack manually.\rI perform a free attack every time an opposing enemy creature is summoned."
   effects: {}
   guid: 9e10a18b-114e-3465-7a92-54e3cdfdaa81
-  name: Autoattacker
+  name: Auto Attacker
   power: 5
 - id: 3653
   slug: grand-bloodhaggler
@@ -7652,14 +7652,14 @@
     - grand
   effects: {}
   guid: ecea79fa-f270-f3c7-0232-5a8444cd95d8
-  name: Grand Bloodhaggler
+  name: Superior Blood Haggler
   power: 13
 - id: 3630
   slug: drawson1
   description: When I attack, the opponent draws a card
   effects: {}
   guid: dbac58dc-3398-249b-d14e-b2d02f3e8ffd
-  name: Drawson1
+  name: Garry
   power: 6
 - id: 3644
   slug: drawson2
@@ -7675,7 +7675,7 @@
     damage equal to the difference in our power.
   effects: {}
   guid: cc237492-622a-1499-aa98-c6d0de66fba9
-  name: Reversepiercer
+  name: Reverse Piercer
   power: 8
 - id: 1
   slug: "--kami--"
@@ -7700,7 +7700,7 @@
       allowedLots:
         - unit-field
   guid: c1012e1c-f781-a4ec-3641-79679329c834
-  name: Kami
+  name: < < < Kami > > >
   power: 9
 - id: 3646
   slug: bloodhaggler
@@ -7709,7 +7709,7 @@
     to your LP.
   effects: {}
   guid: b650c4f3-fecf-7b39-53de-7a9111db943d
-  name: Bloodhaggler
+  name: Blood Haggler
   power: 6
 - id: 852
   slug: unbreakable
@@ -7723,13 +7723,13 @@
       allowedLots:
         - unit-field
   guid: c7350206-12b3-9aa7-c434-e2411af401e1
-  name: Unbreakable
+  name: the Unbreakable
 - id: 3626
   slug: antizero
   description: At the end of the enemy turn, destroy all face-up creatures with 0 power.
   effects: {}
   guid: 32917cb5-309a-8ac5-865c-c808200f50ab
-  name: Antizero
+  name: Anti Zero
   power: 4
 - id: 3594
   slug: traitor2
@@ -7738,7 +7738,7 @@
     the enemy's side.
   effects: {}
   guid: c9d52972-a7c1-4b04-befe-3f51beb7b9c1
-  name: Traitor2
+  name: Traitor 2
   power: 8
 - id: 3689
   slug: grandtraphole2
@@ -7749,7 +7749,7 @@
     destroy it, else destroy your own creature.
   effects: {}
   guid: 0f017c65-686e-3ce5-7c34-9f90022de7a6
-  name: Grandtraphole2
+  name: Grand Trap Hole 2
 - id: 3251
   slug: grandtraphole
   type: 1
@@ -7758,13 +7758,13 @@
     creature destroy it. If it isn't, you take 5 direct damage.
   effects: {}
   guid: a2eab1e4-faed-84a4-4c32-d140875363ca
-  name: Grandtraphole
+  name: Grand Trap Hole
 - id: 3641
   slug: fairturnhealer
   description: At the beginning of each player's turn, increase their Life-Points by 2.
   effects: {}
   guid: 212fb071-6c1d-d813-828e-831ef671aeda
-  name: Fairturnhealer
+  name: Fairhealer2
   power: 5
 - id: 3613
   slug: powerhealer2
@@ -7773,7 +7773,7 @@
     creature face-up, gain LP equal to their power.
   effects: {}
   guid: dd11cc8c-5f49-7e4a-6b43-ef40eaf68478
-  name: Powerhealer2
+  name: Healer3
   power: 2
 - id: 3188
   slug: grand-powerhealer
@@ -7784,7 +7784,7 @@
     - grand
   effects: {}
   guid: 4bf9b03c-662d-65da-80a6-018962294ca1
-  name: Grand Powerhealer
+  name: Grand Power Healer
   power: 2
 - id: 3724
   slug: antigrando
@@ -7795,7 +7795,7 @@
     - sneak
   effects: {}
   guid: 0a797659-a676-4679-7104-25a8683fb632
-  name: Antigrando
+  name: King Slayer
   power: 4
 - id: 3633
   slug: badpiercer
@@ -7807,7 +7807,7 @@
     damage equal to the difference in our power.
   effects: {}
   guid: a734e7da-9c28-5aba-9069-6e8900a4356a
-  name: Badpiercer
+  name: Bad Piercer
   power: 5
 - id: 3634
   slug: drawban
@@ -7816,7 +7816,7 @@
     you take 1 LP direct damage.
   effects: {}
   guid: 1a597b14-3ff4-bc89-8140-8db6fd95603f
-  name: Drawban
+  name: Draw Banner
   power: 4
 - id: 3635
   slug: drawban2
@@ -7825,7 +7825,7 @@
     LP direct damage for each card,
   effects: {}
   guid: 03ad57ff-2b53-6e80-4fff-698bf97c74e8
-  name: Drawban2
+  name: Draw Banner 2
   power: 5
 - id: 3639
   slug: blocker
@@ -7858,7 +7858,7 @@
       allowedLots:
         - unit-field
   guid: 45edb6a0-6dd3-636b-4cee-876778236587
-  name: Badclown
+  name: the Bad Clown
   power: 4
 - id: 3609
   slug: resurrecter66
@@ -7868,13 +7868,13 @@
     that you can, but take direct damage equal to its base power.
   effects: {}
   guid: ebe90f0c-ed31-042c-8f8c-f2eea3d27207
-  name: Resurrecter66
+  name: Grand Return!
 - id: 3612
   slug: doublemana
   description: I can only be manually summoned for 2 mana.
   effects: {}
   guid: 69e453dc-2b90-a74b-7c49-a26056bf6a93
-  name: Doublemana
+  name: Nala
   power: 6
 - id: 3676
   slug: tripplemana
@@ -7904,7 +7904,7 @@
     Lock that field until the end of the enemy turn.
   effects: {}
   guid: bfdb8baa-69b8-4a80-f6df-02f34eaabfbe
-  name: Traplock
+  name: Cripple2
 - id: 3675
   slug: hurrah
   description: >-
@@ -7925,7 +7925,7 @@
     - grand
   effects: {}
   guid: 0bbaecc7-afe6-936e-d179-341c170be602
-  name: General2
+  name: the Other Gerneral
   power: 7
 - id: 3654
   slug: motherflapper
@@ -7934,7 +7934,7 @@
     - grand
   effects: {}
   guid: 46b7f28f-e6b9-3491-9078-6fac5cb54aa3
-  name: Motherflapper
+  name: Mother Flapper
   power: 7
 - id: 3670
   slug: hastegiver
@@ -7977,7 +7977,7 @@
     creatures with power lower than that damage.
   effects: {}
   guid: def5ff35-2971-1ac5-310f-685a4b634602
-  name: Fury2
+  name: Fury
 - id: 3617
   slug: specialo
   description: >-
@@ -8019,7 +8019,7 @@
     attack and activate %%0.
   effects: {}
   guid: 2c1a8a6c-21bb-c0d7-60f7-7b1a3d58da5a
-  name: Redirect in
+  name: Portal Alpha
 - id: 3199
   slug: actiontaker
   description: >-
@@ -8051,13 +8051,13 @@
     the turn it was activated.
   effects: {}
   guid: cb87a5eb-7573-aef6-db9f-15ee0641c1a0
-  name: Mass Depower
+  name: Massive Temporary Depowering
 - id: 3638
   slug: harrasser1
   description: "I cost 3 mana to be summoned manually.\nI cannot be used as a tribute.\rI do not suffer summon exhaustion.\rReturn me to your hand at the end of your turn."
   effects: {}
   guid: bb4f4dd5-4f69-7e22-5f50-171a0a151cd6
-  name: Harrasser1
+  name: Harrassing Mia
   power: 1
 - id: 3660
   slug: pwrdowner
@@ -8075,7 +8075,7 @@
     - grand
   effects: {}
   guid: 62064fce-95ed-20e5-d93e-a355aeac206c
-  name: Tempower2
+  name: Hot Mess
   power: 14
 - id: 895
   slug: traptrap
@@ -8085,13 +8085,13 @@
     destroy it.
   effects: {}
   guid: 53287d54-043a-dcbd-b52c-e4d1b2728bee
-  name: Traptrap
+  name: Trap Trap
 - id: 3624
   slug: angered
   description: My power is raised by 3 while there is an opposing enemy creature.
   effects: {}
   guid: ea9b4a78-31f4-99cc-1e33-5de272a0497e
-  name: Angered
+  name: Ti364w
   power: 3
 - id: 2468
   slug: drawhater
@@ -8112,7 +8112,7 @@
       allowedLots:
         - unit-field
   guid: bac2dd35-ae73-6040-bd9f-b3118c58bde7
-  name: Drawhater
+  name: Tithonus
   power: 8
   art: /tithonus
 - id: 3614
@@ -8140,7 +8140,7 @@
     face-down in the same place, then kill me, but leave a token in my place.
   effects: {}
   guid: 549f33bd-191e-d031-7f9e-a0f96cf4ed67
-  name: Trapsaver2
+  name: Re Trapper
   power: 3
 - id: 3640
   slug: token-summoner2
@@ -8163,7 +8163,7 @@
   description: Increase my power by 1 every time a trap is activated.
   effects: {}
   guid: e38c7dce-a881-b3de-8e0c-41fc889f6454
-  name: Traprager
+  name: Trap Rager
   power: 3
 - id: 3627
   slug: trapkiller0
@@ -8196,7 +8196,7 @@
     destoy it.
   effects: {}
   guid: c79a39df-df5e-fc05-6dc9-bf67251cb06c
-  name: Swap Ultimatum
+  name: Ultimatum
 - id: 3705
   slug: megatrap
   type: 1
@@ -8205,7 +8205,7 @@
     creature with power higher than 16. Destroy it instantly.
   effects: {}
   guid: eb53f080-49e1-6961-4f8e-36e0b4dec2bf
-  name: Megatrap
+  name: Mega Trap
 - id: 3595
   slug: angered2
   description: My power is raised by 4 while there is an opposing face-down creature.
@@ -8265,7 +8265,7 @@
     - sneak
   effects: {}
   guid: 578ce449-ef5c-aa32-a11d-a524e49e024b
-  name: Trapreturner
+  name: Trapster
   power: 2
 - id: 890
   slug: loneshield
@@ -8293,7 +8293,7 @@
     - sneak
   effects: {}
   guid: f723ddaf-ac09-82fa-ee78-91e29ef7ec29
-  name: Decksummoner
+  name: Summoner D
   power: 3
 - id: 3085
   slug: bomb
@@ -8323,7 +8323,7 @@
     - sneak
   effects: {}
   guid: 8b7c6999-27bf-f797-11ab-d480b7da727c
-  name: Bloodmerc
+  name: Blood Merc
   power: 7
 - id: 832
   slug: marco
@@ -8350,7 +8350,7 @@
     - sneak
   effects: {}
   guid: 29b41a20-f540-1dd8-4a89-4c6967886f91
-  name: Resurrecter1
+  name: Necro Switcher
   power: 2
 - id: 3080
   slug: fateweaver
@@ -8382,7 +8382,7 @@
         - grave
   art: /benu-bird
   guid: daf9dcb2-0b3e-772b-1538-1d88ab4dafcf
-  name: Returner
+  name: the Benu Bird
   power: 2
 - id: 3126
   slug: badfate
@@ -8393,7 +8393,7 @@
     - sneak
   effects: {}
   guid: 7c3aa978-0db6-ed1d-3e05-b57d8a929538
-  name: Badfate
+  name: Bad Fate
   power: 2
 - id: 833
   slug: polo
@@ -8430,7 +8430,7 @@
     - grand
   effects: {}
   guid: fdeaa153-4715-fb31-53d6-2faa1c166070
-  name: Berserker 0.9akrgp0f6r90.kd08galnyl
+  name: Berserker
   power: 12
 - id: 3082
   slug: resurrecter4
@@ -8441,7 +8441,7 @@
     - sneak
   effects: {}
   guid: 5cb35395-f463-5d0c-62c4-f87cc6914c4d
-  name: Resurrecter4
+  name: Spirit of Rebirth
   power: 1
 - id: 3204
   slug: bloodlink
@@ -8454,7 +8454,7 @@
     the end of the enemy's turn.
   effects: {}
   guid: 3257f4d5-4045-02c5-4e9d-29d36cb550dd
-  name: Bloodlink
+  name: Blood Link
 - id: 3205
   slug: antiflip-safe
   type: 1
@@ -8463,7 +8463,7 @@
     Negate that effect.
   effects: {}
   guid: 3a418778-d88e-8579-2696-b38ebacadb12
-  name: Antiflip Safe
+  name: No Flippers!
 - id: 884
   slug: honorable-flappy-bird
   description: >-
@@ -8471,21 +8471,21 @@
     there is no opposing enemy creature.
   effects: {}
   guid: 8b81fdc3-3224-14b9-7c8a-67141ffe168c
-  name: Honorable Flappy Bird
+  name: Flappy Bird of Honor
   power: 5
 - id: 3368
   slug: ed-0.2xcurakuczp0.u1bd94t67sb
   description: "When I am summoned, if possible:\nIf @edd is in play, add @eddy from your deck to your hand.\rIf %%1 is in play, add %%0 from your deck to your hand"
   effects: {}
   guid: cfc28279-e8b4-e29c-b241-ea5f56cd9ee9
-  name: Ed 0.2xcurakuczp0.u1bd94t67sb
+  name: Ed
   power: 4
 - id: 3369
   slug: edd-0.t277vg02nt90.lupaugkdbn
   description: "When I am summoned, if possible:\nIf @ed is in play, add @eddy from your deck to your hand.\rIf %%1 is in play, add %%0 from your deck to your hand"
   effects: {}
   guid: 6aafb529-b38b-131d-3470-a337848a160d
-  name: Edd 0.t277vg02nt90.lupaugkdbn
+  name: Edd
   power: 4
 - id: 3262
   slug: enough
@@ -8496,7 +8496,7 @@
     immediately.
   effects: {}
   guid: 1ff9222a-692f-cc2d-f389-0779631f88d0
-  name: Enough
+  name: Flash Mine
 - id: 3074
   slug: drawban3
   description: >-
@@ -8508,7 +8508,7 @@
     - sneak
   effects: {}
   guid: 5180a206-cfca-c7f0-ddaa-29d8fbed88ab
-  name: Drawban3
+  name: Draw Banner 3
   power: 3
 - id: 3217
   slug: atk2move1
@@ -8518,7 +8518,7 @@
     it to relocate there instead.
   effects: {}
   guid: a3eca6d3-bc96-5baf-089a-e0ba7f08f8fe
-  name: Atk2move1
+  name: Shock Magnet
 - id: 3111
   slug: immortal2
   description: |-
@@ -8528,7 +8528,7 @@
     - sneak
   effects: {}
   guid: d579a2e6-5e21-5dcb-1e6d-5922e8566001
-  name: Immortal2
+  name: Immortal Bob
   power: 3
 - id: 3356
   slug: evo-a-f2
@@ -8537,7 +8537,7 @@
     - sneak
   effects: {}
   guid: a71db399-eb50-b647-0597-2a9d1696872a
-  name: Evo A F2
+  name: Cocoon
   power: 2
 - id: 3133
   slug: immortal1
@@ -8548,14 +8548,14 @@
     - sneak
   effects: {}
   guid: 4ffdc763-d155-cd51-1bd3-fedbe4ded079
-  name: Immortal1
+  name: Eternal Billy
   power: 2
 - id: 3397
   slug: com-g0-5
   description: Combines with G0
   effects: {}
   guid: 6130e7e1-7a1f-9b1f-76ed-4632716fa825
-  name: Com G0 5
+  name: Grand Part 5
   power: 2
 - id: 3271
   slug: harshfred
@@ -8564,7 +8564,7 @@
     damage.
   effects: {}
   guid: 6f150a04-f054-88fa-e6a8-982f43e03832
-  name: Harshfred
+  name: Harsh Fred
   power: 2
 - id: 2386
   slug: zig
@@ -8589,28 +8589,28 @@
   description: Combines with G0
   effects: {}
   guid: 67918f1b-3ebe-3da2-11c5-2d631b905324
-  name: Com G0 1
+  name: Grand Part 1
   power: 2
 - id: 3394
   slug: com-g0-2
   description: Combines with G0
   effects: {}
   guid: 65fe3963-09b3-986b-2e63-0ed4a90382e2
-  name: Com G0 2
+  name: Grand Part 2
   power: 2
 - id: 3395
   slug: com-g0-3
   description: Combines with G0
   effects: {}
   guid: fe5567e4-a314-0ea9-a527-7368c3014074
-  name: Com G0 3
+  name: Grand Part 3
   power: 2
 - id: 3396
   slug: com-g0-4
   description: Combines with G0
   effects: {}
   guid: 873543ef-8ee1-8b9c-2c88-af4a7a759b14
-  name: Com G0 4
+  name: Grand Part 4
   power: 2
 - id: 3411
   slug: com-gh-2
@@ -8619,7 +8619,7 @@
     - grand
   effects: {}
   guid: 3e630992-e3a1-0534-15ea-d4ad15f18993
-  name: Com Gh 2
+  name: Grand Half Omega
   power: 8
 - id: 3410
   slug: com-gh-1
@@ -8628,7 +8628,7 @@
     - grand
   effects: {}
   guid: 383480df-7830-309f-ee8b-e65b84cefea3
-  name: Com Gh 1
+  name: Grand Half Alpha
   power: 8
 - id: 3349
   slug: linked-bro2
@@ -8637,7 +8637,7 @@
     Linked Bros in play, destroy me.
   effects: {}
   guid: 352d7622-24e9-2ebd-d24b-ae39367deec1
-  name: Linked Bro2
+  name: Linked Bro
   power: 6
 - id: 3348
   slug: linked-bro1
@@ -8646,7 +8646,7 @@
     Linked Bros in play, destroy me.
   effects: {}
   guid: 95bf1c7a-7301-d952-6d4a-a27bbb2d25d0
-  name: Linked Bro1
+  name: Linked Bro
   power: 8
 - id: 3216
   slug: atk2move2
@@ -8656,7 +8656,7 @@
     it to perform a free relocation there first. The attack continues.
   effects: {}
   guid: f891e431-0d53-825b-a0c8-e8e4bb88e0b0
-  name: Atk2move2
+  name: Magnet
 - id: 811
   slug: defmove-right
   type: 1
@@ -8666,13 +8666,13 @@
     to this column.
   effects: {}
   guid: 494745cc-1889-d335-7999-aceb1dedbbff
-  name: Defmove Right
+  name: Defense From the East
 - id: 3354
   slug: 8ball-3
   description: When I die, if possible summon another 8-Ball from your deck in my place.
   effects: {}
   guid: 87cfa011-e85e-8604-5dfc-0e09e696f167
-  name: 8ball 3
+  name: 8 Ball 3
   power: 1
 - id: 3128
   slug: lategamer
@@ -8683,7 +8683,7 @@
     - sneak
   effects: {}
   guid: e387c8bf-674e-6aba-62be-cdf6cb983f14
-  name: Lategamer
+  name: Late Gamer
   power: 6
 - id: 2449
   slug: jill
@@ -8717,7 +8717,7 @@
         - unit-field
   art: /eurydice
   guid: 6522a282-a424-a7cc-a462-d4dc93f446a2
-  name: Jill
+  name: Eurydice
   power: 4
 - id: 2448
   slug: jack
@@ -8751,7 +8751,7 @@
         - unit-field
   art: /orpheus
   guid: 69e94d75-3b59-c2c5-3551-5b0e401031ee
-  name: Jack
+  name: Orpheus
   power: 4
 - id: 784
   slug: nona
@@ -8778,7 +8778,7 @@
     this column.
   effects: {}
   guid: 78242ddf-4726-ea12-4350-a5a3c1c52909
-  name: Defmove Left
+  name: Defense From the West
 - id: 3129
   slug: kamikaze2
   description: |-
@@ -8799,7 +8799,7 @@
     - sneak
   effects: {}
   guid: bafc70b8-5300-ef89-d0c3-6d9929813745
-  name: Glassspike
+  name: Glass Spike
 - id: 3367
   slug: forbidden4
   description: >-
@@ -8807,7 +8807,7 @@
     raised by 14
   effects: {}
   guid: 7ad0255f-50af-6414-e62d-dac462ce89b3
-  name: Forbidden4
+  name: Forbidden Spirit 4
   power: 2
 - id: 3364
   slug: forbidden1
@@ -8816,7 +8816,7 @@
     raised by 14
   effects: {}
   guid: ddfbd7da-2675-448b-707b-eb89959acc7d
-  name: Forbidden1
+  name: Forbidden Spirit 1
   power: 2
 - id: 3365
   slug: forbidden2
@@ -8825,7 +8825,7 @@
     raised by 14
   effects: {}
   guid: 7657ad12-6c0e-2179-ffc6-0554fafb2338
-  name: Forbidden2
+  name: Forbidden Spirit 2
   power: 2
 - id: 3366
   slug: forbidden3
@@ -8834,7 +8834,7 @@
     raised by 14
   effects: {}
   guid: 55ef873d-2099-ec7c-c46d-cd262688d11e
-  name: Forbidden3
+  name: Forbidden Spirit 3
   power: 2
 - id: 788
   slug: stunner
@@ -8866,7 +8866,7 @@
     - sneak
   effects: {}
   guid: bf15a598-99dd-9e77-7d79-dc9cc0b79759
-  name: Trapkiller
+  name: Trap Diffuser
   power: 3
 - id: 3075
   slug: shield8
@@ -8875,7 +8875,7 @@
     - sneak
   effects: {}
   guid: 58ebdd7a-1969-432a-0635-79f8239af518
-  name: Shield8
+  name: Tricky Shield
   power: 7
 - id: 2423
   slug: necropy2
@@ -8895,7 +8895,7 @@
         - grave
   art: /kaliya-the-naga
   guid: da711770-5ed0-4617-0f2a-b520d56d8912
-  name: Necropy2
+  name: Necropy 2
 - id: 3135
   slug: safebuffer
   description: |-
@@ -8905,7 +8905,7 @@
     - sneak
   effects: {}
   guid: 77192957-d7b3-955a-18c6-5b94ac8263f6
-  name: Safebuffer
+  name: Safe Buffer
   power: 1
 - id: 2391
   slug: spike
@@ -8929,7 +8929,7 @@
     to the enemy equal to the power of the enemy creature opposite to %%0.
   effects: {}
   guid: 31ccc661-eefd-4154-411c-bb4cda51bf4a
-  name: Redirect Out
+  name: Portal Omega
 - id: 512
   slug: swap-left
   description: >-
@@ -8941,7 +8941,7 @@
     - sneak
   effects: {}
   guid: eac5b27b-4b9e-a7d9-7925-03cd04143f3c
-  name: Swap Left
+  name: Swappy Left
   power: 2
 - id: 513
   slug: swap-right
@@ -8954,7 +8954,7 @@
     - sneak
   effects: {}
   guid: 80a65a01-fdfd-db9b-2cf1-af915fa69550
-  name: Swap Right
+  name: Swappy R
   power: 2
 - id: 3726
   slug: tempower
@@ -9013,7 +9013,7 @@
     activating, then flip it back face-down.
   effects: {}
   guid: 9cab270a-6a2d-2fe7-9a9b-81d023506f6f
-  name: Trappeek
+  name: Trap Peek
 - id: 3229
   slug: trapsteal
   type: 1
@@ -9022,7 +9022,7 @@
     instead.
   effects: {}
   guid: 0ede5b95-6432-3187-bb55-052585af2047
-  name: Trapsteal
+  name: Trap Steal
 - id: 3690
   slug: trapsteal2
   type: 1
@@ -9032,7 +9032,7 @@
     added to your hand, aborting its activation.
   effects: {}
   guid: 58c2888e-ba35-2855-8cf1-88dd322c6b61
-  name: Trapsteal2
+  name: Trap Trap 2
 - id: 3203
   slug: deadly-nonsacrifice
   type: 1
@@ -9042,7 +9042,7 @@
     to both creatures' power.
   effects: {}
   guid: 38acdf61-ff1e-9320-8971-97f15e8f8ed5
-  name: Deadly Nonsacrifice
+  name: Deadly Non Sacrifice
 - id: 3206
   slug: enemyhealer
   type: 1
@@ -9063,7 +9063,7 @@
     Force is to perform a free attack first.
   effects: {}
   guid: 888dc07b-ecd3-dfc5-f719-77799cc6f469
-  name: Move2atk
+  name: Taunt
 - id: 3708
   slug: move2ctrl
   type: 1
@@ -9082,7 +9082,7 @@
     5.
   effects: {}
   guid: a4bab6bb-9e88-8681-b8d4-c5d92dda69a7
-  name: Forsaken4
+  name: Forsaken Being 4
 - id: 3360
   slug: forsaken1
   description: >-
@@ -9090,7 +9090,7 @@
     5.
   effects: {}
   guid: 8158a724-e2ed-cb8f-532c-5c35c3a2707f
-  name: Forsaken1
+  name: Forsaken Being 1
 - id: 3361
   slug: forsaken2
   description: >-
@@ -9098,7 +9098,7 @@
     5.
   effects: {}
   guid: f039c4d5-f29f-4a29-89ca-2e6e496f2807
-  name: Forsaken2
+  name: Forsaken Being 2
 - id: 3362
   slug: forsaken3
   description: >-
@@ -9106,7 +9106,7 @@
     5.
   effects: {}
   guid: fdf1517b-dbf4-ec58-32f3-17ccdb8cf46e
-  name: Forsaken3
+  name: Forsaken Being 3
 - id: 3338
   slug: grandbro1
   description: My power is raised by 3 while a friendly @grandbro2 is also in play.
@@ -9114,7 +9114,7 @@
     - grand
   effects: {}
   guid: 9b99f011-c6bb-6588-08e9-30f71d170d0b
-  name: Grandbro1
+  name: "Supreme Bro #1"
   power: 9
 - id: 3339
   slug: grandbro2
@@ -9123,60 +9123,60 @@
     - grand
   effects: {}
   guid: 9b71909f-ed1f-990e-aa91-798505b8e534
-  name: Grandbro2
+  name: "Supreme Bro #2"
   power: 9
 - id: 3380
   slug: nightelf1
   description: My power is raised by 1 for each other NightElf in your graveyard.
   effects: {}
   guid: 6bb48cb7-2c58-403d-9384-ddf943890f29
-  name: Nightelf1
+  name: Nightelf 1
   power: 4
 - id: 3383
   slug: nightelf4
   description: My power is raised by 1 for each other NightElf in your graveyard.
   effects: {}
   guid: 2002c965-391f-e088-1501-cd2683868e33
-  name: Nightelf4
+  name: Nightelf 4
   power: 4
 - id: 3382
   slug: nightelf3
   description: My power is raised by 1 for each other NightElf in your graveyard.
   effects: {}
   guid: 764d98ba-fb94-3186-261b-c5a3deab8e07
-  name: Nightelf3
+  name: Nightelf 3
   power: 4
 - id: 3381
   slug: nightelf2
   description: My power is raised by 1 for each other NightElf in your graveyard.
   effects: {}
   guid: b0f374e1-341c-86dc-9c90-57d1f97c15ff
-  name: Nightelf2
+  name: Nightelf 2
   power: 4
 - id: 3376
   slug: broodelf1
   description: My power is raised by 3 for each other BroodElf in your graveyard.
   effects: {}
   guid: 291cfe27-a584-b697-61c0-c41739b0b570
-  name: Broodelf1
+  name: Broodelf
 - id: 3379
   slug: broodelf4
   description: My power is raised by 3 for each other BroodElf in your graveyard.
   effects: {}
   guid: 025c9c88-455c-5f69-8157-1095fc114fb5
-  name: Broodelf4
+  name: Broodelf
 - id: 3378
   slug: broodelf3
   description: My power is raised by 3 for each other BroodElf in your graveyard.
   effects: {}
   guid: 32283a82-f9bf-fb5a-37a3-93215565c9ec
-  name: Broodelf3
+  name: Broodelf
 - id: 3377
   slug: broodelf2
   description: My power is raised by 3 for each other BroodElf in your graveyard.
   effects: {}
   guid: 64c1c312-e976-0b36-81df-11f685484793
-  name: Broodelf2
+  name: Broodelf
 - id: 3692
   slug: summon2atk
   type: 1
@@ -9196,7 +9196,7 @@
     - sneak
   effects: {}
   guid: b7ac31bc-2c37-0ee4-7160-e95d3a436cf4
-  name: Swapper 0.a9gt7cbhjhe0.a1ggmjtnwa5
+  name: Swapper
   power: 2
 - id: 3650
   slug: 67c0bf8c
@@ -9207,7 +9207,7 @@
     - grand
   effects: {}
   guid: 67c0bf8c-bb8d-8f86-08d0-f51643d36767
-  name: 67c0bf8c
+  name: ""
   power: 9
 - id: 3136
   slug: grandgrandpaul
@@ -9229,7 +9229,7 @@
     - sneak
   effects: {}
   guid: c959736c-9cec-bee0-2ed6-22fc731a2181
-  name: Hane
+  name: Ppjeoy
   power: 4
 - id: 3651
   slug: m7x4yl
@@ -9250,7 +9250,7 @@
     - grand
   effects: {}
   guid: c216f978-045e-58f2-6bbf-9b56f7503df2
-  name: Black Hood2
+  name: Black Hood
   power: 7
 - id: 3665
   slug: trapsaver3
@@ -9261,7 +9261,7 @@
     - grand
   effects: {}
   guid: 385be7e6-832b-3377-aedf-5d324eb142f8
-  name: Trapsaver3
+  name: Re Trapper2
   power: 9
 - id: 3691
   slug: dmgup
@@ -9311,7 +9311,7 @@
     its effect negated.
   effects: {}
   guid: 9742ac7a-5849-851e-cbf9-231674302475
-  name: Traptrap2
+  name: Trap Trap 2
 - id: 3664
   slug: doomsday
   description: When I die, destroy all creatures.
@@ -9329,7 +9329,7 @@
     Destroy all enemy creatures with power lower than that damage.
   effects: {}
   guid: e1401275-6b07-9526-cd78-530e64e9a18c
-  name: Fury 0.eja2sswbacn0.hei8ehr4s4l
+  name: Fury
 - id: 941
   slug: crowdpowered
   description: Raise my power by 1 for each creature in play, other than me.
@@ -9337,7 +9337,7 @@
     - sneak
   effects: {}
   guid: 35bf3d89-85d3-2fe2-71bd-de40ff122c97
-  name: Crowdpowered
+  name: Crowd Powered
 - id: 2454
   slug: mario
   description: |-
@@ -9364,7 +9364,7 @@
         - unit-field
   art: /amphitrite
   guid: aed48434-2260-dce3-9f4c-1afd8ba8f782
-  name: Mario
+  name: Amphitrite
   power: 9
 - id: 3687
   slug: retrap
@@ -9374,7 +9374,7 @@
     occupied trap-field.
   effects: {}
   guid: eaad2475-1dd3-4c21-0379-42aa514c437a
-  name: Retrap
+  name: Re Trap
 - id: 3408
   slug: com-g3-1
   description: Combines with G3
@@ -9387,7 +9387,7 @@
   description: Combines with G3
   effects: {}
   guid: 6e836469-123e-ed99-7bbf-ca73907e6b35
-  name: Com G3 2
+  name: Com G3 1
   power: 5
 - id: 3192
   slug: grand-copycat
@@ -9409,7 +9409,7 @@
     Negate that effect.
   effects: {}
   guid: a88919dd-bfea-aaf9-c14d-8604345e5443
-  name: Antiflip Combat
+  name: No Flippers!
 - id: 2381
   slug: manadrain
   type: 1
@@ -9418,7 +9418,7 @@
     is depleted instantly.
   effects: {}
   guid: 1ff775c2-57cb-d1ef-2854-2d934dd2fc02
-  name: Manadrain
+  name: Mana Drain
 - id: 2473
   slug: eject
   type: 1
@@ -9436,7 +9436,7 @@
       perform: op.addToHand(event.card, event.card.owner)
   art: /traps/fata-morgana
   guid: df830212-fd3c-40f8-9430-688259d6bd32
-  name: Eject
+  name: Fata Morgana
 - id: 3648
   slug: swapper3
   description: >-
@@ -9480,7 +9480,7 @@
     - sneak
   effects: {}
   guid: c01297f9-5986-4389-ba90-f6ade0582356
-  name: Bloodhaggler2
+  name: Blood Haggler Ii
   power: 3
 - id: 3698
   slug: summon2move
@@ -9513,7 +9513,7 @@
     creature attacks until the end of your own turn.
   effects: {}
   guid: 4966f3b2-888a-6615-58a3-263676e8237c
-  name: Empower3
+  name: Empower Iii
 - id: 925
   slug: super-empower
   type: 1
@@ -9609,7 +9609,7 @@
     column. Flip your creature face-down.
   effects: {}
   guid: 4cc59fd7-1b0e-c572-8f75-60a6003ff25a
-  name: Reflip1
+  name: T1fys8
 - id: 3702
   slug: reflip2
   type: 1
@@ -9619,7 +9619,7 @@
     your creature face-down.
   effects: {}
   guid: ebd1e07b-78ed-146c-ce90-d054f352ff21
-  name: Reflip2
+  name: Kw55ly
 - id: 3130
   slug: crippler-0.gqf1wc0wyp50.3v0cw28e366
   description: |-
@@ -9629,7 +9629,7 @@
     - sneak
   effects: {}
   guid: 5daeb47d-6569-d609-3b90-d616753de36c
-  name: Crippler 0.gqf1wc0wyp50.3v0cw28e366
+  name: Crippler
   power: 2
 - id: 3649
   slug: directo1
