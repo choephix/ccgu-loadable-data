@@ -1766,7 +1766,7 @@
   power: 5
   art: /tokens/nisse
 - id: 2451
-  slug: puss-in-boots
+  slug: puss
   description: +1{{ap}} when I'm played
   lore: With a sly purr and an unerring knack for opportunity, this dapper feline
     brings fortune to his master.
