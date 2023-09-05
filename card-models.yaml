@@ -666,7 +666,7 @@
         - unit-field
   guid: d925b49a-7704-a851-02c2-3b706f9d6e9a
   name: Kombinato
-- id: 2446
+- id: 2444
   slug: goldilocks
   description: |-
     Draw 1 card from the enemy deck
@@ -851,7 +851,7 @@
   power: 5
   name: Krali Marko
   art: /krali-marko
-- id: 2437
+- id: 2446
   slug: dr-jekyll
   description: |-
     9{{powered}} Lv2 token spawns in your hand when I'm played
@@ -972,7 +972,7 @@
         - hand
   guid: d9c3bad0-12f4-5861-fed5-cd8885fa1b8e
   name: the Hand
-- id: 2495
+- id: 2479
   slug: mother-shipton
   description: |-
     Keep the top card in both decks face up
@@ -1673,7 +1673,7 @@
   guid: e3b41aa1-0f98-ec62-7c2b-2f8414025180
   name: Helm of Awe
   art: /traps/helm-of-awe
-- id: 2445
+- id: 2460
   slug: anne-bonny
   description: Enemy draws 1 card when I attack
   lore: Swashbuckling through the high seas, Anne Bonny personifies the wild and
@@ -1926,7 +1926,7 @@
   guid: afe2f4b6-3b5a-e47f-8ac1-fddbe4836fff
   name: Tiger
   power: 5
-- id: 2460
+- id: 2445
   slug: lilith
   description: |-
     +X{{power}}, equal to the enemy grave's top card
