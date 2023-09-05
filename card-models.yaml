@@ -1,20 +1,20 @@
 - id: 2374
-  slug: all-out-johhny2
-  description: At the end of your turn discard all cards in your hand
+  slug: all-out-johhny-v2
+  description: Discard your hand when I'm played
   status: 1
   effects:
     active:
-      eventName: TurnEnd
+      eventName: DeployUnit
       eventStatus: began
-      condition: event.player === player
+      condition: event.card === card
       perform: |-
-        while ( player.hand.cards.length )
-          op.discard( player.hand.cards[ 0 ] )
+        while (player.hand.cards.length)
+          op.discard(player.hand.cards[0])
       allowedLots:
         - unit-field
   guid: cb795b5c-f241-e904-0fe7-1394d217b4a1
   name: All Out Johhny v2
-  power: 9
+  power: 7
   art: /temp/she1
 - id: 2431
   slug: puzzled-mule
@@ -1313,7 +1313,7 @@
         const foe = get.opposingUnit(card)
         op.kill(card)
         const lot = get.opposingUnitField(card)
-        op.spawnToken(lot, 'animal-token')
+        op.spawnToken(lot, 'tiger-token')
       allowedLots:
         - unit-field
   guid: 3333ae13-1e75-d843-e1ec-cfbda098cb8d
@@ -1629,7 +1629,7 @@
   art: /temp/beartrap
   name: Fool's Fire
 - id: 2357
-  slug: mephistopheles
+  slug: mephisto-token
   lore: Engaging in a pact with Mephistopheles is a gamble with fate itself, where
     the promise of power could metamorphose into a deadly backlash.
   effects: {}
@@ -1638,7 +1638,7 @@
   name: Mephistopheles
   power: 9
 - id: 2356
-  slug: grendels-mother
+  slug: grendels-mom-token
   lore: A lurking terror in the deep, Grendel's Mother rises to exact vengeance,
     her monstrous retribution a nightmare awakened by her offspring's demise.
   tags:
@@ -1648,7 +1648,7 @@
   name: Grendel's Mother
   art: /grendel-mom
   power: 7
-- id: 2436
+- id: 2433
   slug: grendel
   description: 7{{powered}} token spawns in your hand when I die from combat
   lore: Be on guard dispatching this particular foe, for you are bound to invite
@@ -1777,7 +1777,7 @@
   name: Siren Song
   art: /traps/siren
 - id: 2355
-  slug: will-o-the-wisp
+  slug: wisp-token
   notes: better fits a trap
   tags:
     - token
@@ -1787,7 +1787,7 @@
   power: 5
   art: /tokens/wisp
 - id: 2354
-  slug: nisse
+  slug: nisse-token
   lore: Emerging from the quiet corners, the Nisse springs into action when least
     expected, their helpful nature a surprise boon in troubled times.
   tags:
@@ -1797,7 +1797,7 @@
   name: Nisse
   power: 5
   art: /tokens/nisse
-- id: 2451
+- id: 2448
   slug: puss
   description: +1{{ap}} when I'm played
   lore: With a sly purr and an unerring knack for opportunity, this dapper feline
@@ -1817,7 +1817,7 @@
   guid: d733ae6a-414f-023c-4992-e99fea422de6
   name: Puss in Boots
   power: 4
-- id: 2450
+- id: 2432
   slug: reynard-the-fox
   description: Draw 2 cards when I'm played
   lore: Wily and crafty, Reynard weaves through life's puzzles with sly ease, his
@@ -1948,7 +1948,7 @@
   guid: 63c6f0af-4d22-cfa1-6999-386cd74e7f8f
   name: Ada Lovelace
 - id: 2353
-  slug: tiger
+  slug: tiger-token
   lore: Ntikuma, Anansi's son in some tales
   notes: Ntikuma?
   tags:
@@ -2059,7 +2059,7 @@
   guid: 346dd8d7-aa5b-ff34-edab-afa418560233
   name: Grand Decker
 - id: 2352
-  slug: disappearing-grin
+  slug: grin-token
   lore: A grin without a cat?
   notes: |-
     The Grin Without a Cat?
@@ -2288,7 +2288,7 @@
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   name: Nyx
   power: 6
-- id: 2433
+- id: 2437
   slug: faust
   description: |-
     9{{powered}} token spawns in front of me before I'm played
@@ -2343,7 +2343,7 @@
   guid: 549b8197-538b-0a31-673d-e0b8e59fcc32
   name: Gideon
   power: 3
-- id: 2452
+- id: 2451
   slug: jeanne-darc
   description: +4{{power}} to adjacent ally units
   lore: A national heroine of France and a Catholic saint, Joan of Arc led the
@@ -2790,7 +2790,7 @@
   guid: a9fb5b3c-0c8a-a10c-6a8c-8ed91952bc46
   name: Mercury
   power: 5
-- id: 2458
+- id: 2436
   slug: brer-rabbit
   lore: As nimble as the wind and as elusive as a thought, Br'er Rabbit darts
     through life's mazes, always a hop ahead of trouble.
@@ -2809,7 +2809,7 @@
   guid: 44372e4e-629c-387c-6162-e52dccc7029c
   name: Flashforward
   power: 4
-- id: 2432
+- id: 2435
   slug: thumbelina
   description: I return to your hand after your turn
   lore: Tiny but swift, Thumbelina flutters through life, her nimble size making
@@ -3478,7 +3478,7 @@
   guid: 6f7f792b-0da9-f90d-a7a5-9245606bbae8
   name: Trapazan
   power: 5
-- id: 2435
+- id: 2452
   slug: robin-goodfellow
   description: |-
     Discard me as your turn ends
@@ -4993,7 +4993,7 @@
   power: 4
 - id: 2375
   slug: all-out-johhny
-  description: At the end of your turn discard all cards in your hand
+  description: Discard your hand as your turn ends
   status: 1
   effects:
     active:
@@ -8574,7 +8574,7 @@
   guid: 6522a282-a424-a7cc-a462-d4dc93f446a2
   name: Eurydice
   power: 4
-- id: 2448
+- id: 2450
   slug: orpheus
   description: |-
     Revive Eurydice to my LEFT
