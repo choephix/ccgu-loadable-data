@@ -1,3 +1,21 @@
+- id: 2374
+  slug: all-out-johhny2
+  description: At the end of your turn discard all cards in your hand
+  status: 1
+  effects:
+    active:
+      eventName: TurnEnd
+      eventStatus: began
+      condition: event.player === player
+      perform: |-
+        while ( player.hand.cards.length )
+          op.discard( player.hand.cards[ 0 ] )
+      allowedLots:
+        - unit-field
+  guid: cb795b5c-f241-e904-0fe7-1394d217b4a1
+  name: All Out Johhny v2
+  power: 9
+  art: /temp/she1
 - id: 2431
   slug: puzzled-mule
   type: 1
@@ -11,6 +29,7 @@
         op.draw(player)
         op.draw(player)
   guid: c2f23ae4-816a-02a6-34f9-cd479f74f62d
+  name: puzzled-mule
 - id: 2161
   slug: wainamoinen
   lore: His melodies echo in the whisper of the pines, the rustling of the reeds,
@@ -4988,7 +5007,8 @@
         - unit-field
   guid: cb795b5c-f241-e904-0fe7-1394d217b4a1
   name: All Out Johhny
-  power: 8
+  power: 9
+  art: /temp/she1
 - id: 2822
   slug: handy-mike
   description: When I die - draw two cards.
