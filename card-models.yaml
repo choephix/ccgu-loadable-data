@@ -1,3 +1,21 @@
+- id: 2410
+  slug: ring-of-gyges
+  type: 1
+  description: |-
+    Save your unit here on enemy attack
+    but take the damage directly
+  effects:
+    active:
+      eventName: UnitAttack
+      eventStatus: began
+      condition: event.card === get.opposingUnit(card)
+      perform: |-
+        op.addTempFx(
+          card, 
+          tg => tg.pass.addTag(card, 'incorporeal'))
+  guid: c83a662f-67f0-5a72-a872-ce62cbfe39dd
+  name: Ring of Gyges
+  art: /traps/ring-of-gyges
 - id: 2426
   slug: river-lethe
   type: 1
@@ -2342,7 +2360,7 @@
   guid: 2b0ed5c3-5521-ca41-f2bb-ff7607b08fea
   name: Faust
   power: 5
-- id: 2402
+- id: 2316
   slug: marvellous-koi
   description: |-
     On deploy: Gain 10{{hp}}
