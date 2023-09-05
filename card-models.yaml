@@ -11,6 +11,7 @@
   description: |-
     Save your unit here on enemy attack
     but take the damage directly
+  lore: Cloaked in powerful magic, its wearer becomes a phantom — observed by none...
   effects:
     active:
       eventName: UnitAttack
@@ -575,6 +576,8 @@
   name: Coyolxauhqui
 - id: 2114
   slug: carmilla
+  lore: Her beguiling charm belies a grisly hunger, obscured by the blush of
+    eternal youth.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a536
   art: /hires/carmilla
@@ -1130,6 +1133,8 @@
 - id: 2484
   slug: gremlin
   description: "Combat-Flip: Set enemy{{ap}} to 0"
+  lore: Spawned in the darkest corners of annoyance, their impish laughter echoes
+    in the din.
   tags:
     - sneak
   effects:
@@ -2070,6 +2075,7 @@
   slug: poison-apple
   type: 1
   description: -4{{power}} to enemy unit attacking here
+  lore: An emblem of fatal deceit, poised to drain life essence with a single bite.
   effects:
     active:
       eventName: UnitAttack
