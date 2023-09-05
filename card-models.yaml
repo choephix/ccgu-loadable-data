@@ -17,9 +17,10 @@
       eventStatus: began
       condition: event.card === get.opposingUnit(card)
       perform: |-
+        const ally = get.sameLaneUnit(card)
         op.addTempFx(
-          card, 
-          tg => tg.pass.addTag(card, 'incorporeal'))
+          ally, 
+          tg => tg.pass.addTag(ally, 'incorporeal'))
   guid: c83a662f-67f0-5a72-a872-ce62cbfe39dd
   name: Ring of Gyges
   art: /traps/ring-of-gyges
