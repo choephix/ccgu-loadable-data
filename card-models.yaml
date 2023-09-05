@@ -1,3 +1,10 @@
+- id: 2117
+  slug: fafnir
+  effects: {}
+  guid: 0b1a1099-8775-303c-2309-abff7b4ff062
+  name: Fafnir
+  art: /fafnir
+  power: 5
 - id: 2410
   slug: ring-of-gyges
   type: 1
@@ -239,13 +246,6 @@
   art: /fionn-mac-cumhaill
   power: 5
   name: Fionn Mac Cumhaill
-- id: 2117
-  slug: fafnir
-  effects: {}
-  guid: 53de8275-75a6-0b72-584f-ec52a6b7a583
-  art: /fafnir
-  power: 5
-  name: Fafnir
 - id: 2103
   slug: dietrich
   effects: {}
@@ -2285,7 +2285,7 @@
   name: Galatea
   power: 8
 - id: 2492
-  slug: fafnir-0.89cdroe7spq0.shstdhd9o3
+  slug: fafnir-0
   description: |-
     Combat-Flip:
     Destroy opposing creature and take damage equal to its power.
