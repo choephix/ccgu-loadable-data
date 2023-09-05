@@ -6,49 +6,49 @@
   power: 5
   art: /hires/aramis
 - id: 2246
-  slug: dwarf-quee
+  slug: dwarf7
   effects: {}
   guid: c95360e4-66d3-bd41-c931-2982cf50fad6
   name: Quee the Dwarf
   power: 2
   art: /demo/dwarf7
 - id: 2245
-  slug: dwarf-whick
+  slug: dwarf6
   effects: {}
   guid: c95360e4-66d3-bd41-c931-2982cf50fad6
   name: Whick the Dwarf
   power: 2
   art: /demo/dwarf6
 - id: 2244
-  slug: dwarf-plick
+  slug: dwarf5
   effects: {}
   guid: c95360e4-66d3-bd41-c931-2982cf50fad6
   name: Plick the Dwarf
   power: 2
   art: /demo/dwarf5
 - id: 2243
-  slug: dwarf-slick
+  slug: dwarf4
   effects: {}
   guid: c95360e4-66d3-bd41-c931-2982cf50fad6
   name: Snick the Dwarf
   power: 2
   art: /demo/dwarf4
 - id: 2242
-  slug: dwarf-glick
+  slug: dwarf3
   effects: {}
   guid: c95360e4-66d3-bd41-c931-2982cf50fad6
   name: Glick the Dwarf
   power: 2
   art: /demo/dwarf3
 - id: 2241
-  slug: dwarf-flick
+  slug: dwarf2
   effects: {}
   guid: c95360e4-66d3-bd41-c931-2982cf50fad6
   name: Flick the Dwarf
   power: 2
   art: /demo/dwarf2
 - id: 2240
-  slug: dwarf-blick
+  slug: dwarf1
   effects: {}
   guid: c95360e4-66d3-bd41-c931-2982cf50fad6
   name: Blick the Dwarf
