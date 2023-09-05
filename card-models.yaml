@@ -1,5 +1,6 @@
 - id: 2117
   slug: fafnir
+  lore: Guardian of stolen hoard, his heart corrupted; he became the overlord.
   effects: {}
   guid: 0b1a1099-8775-303c-2309-abff7b4ff062
   name: Fafnir
@@ -95,6 +96,8 @@
   name: Wainamoinen
 - id: 2258
   slug: athos
+  lore: The last of the valiant trio, his wisdom runs as deep as his loyalty, a
+    mountain untouched by time's erosion.
   effects: {}
   guid: 26d818d3-9f6b-1198-cb6a-12826ee124dd
   name: Athos
@@ -151,6 +154,8 @@
   art: /demo/dwarf1
 - id: 2211
   slug: viracocha
+  lore: Out of the primordial waters, the creator disperses, his work bringing
+    life to all corners.
   tags:
     - grand
   effects: {}
@@ -160,6 +165,7 @@
   name: Viracocha
 - id: 2065
   slug: vasilisa
+  lore: Guided by a doll, through Baba Yaga's hall
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a596
   art: /vasilisa
@@ -167,6 +173,7 @@
   name: Vasilisa
 - id: 2209
   slug: susanoo
+  lore: Storm God, serpent slayer, his tale is wound with divine layer.
   tags:
     - grand
   effects: {}
@@ -176,6 +183,7 @@
   name: Susanoo
 - id: 2213
   slug: shennong
+  lore: Divine farmer, immortal healer, his wisdom mankind's revealer.
   tags:
     - grand
   effects: {}
@@ -185,6 +193,7 @@
   name: Shennong
 - id: 2053
   slug: reluctant-dragon
+  lore: Amiable and shy, preferring poetry to flaming sky.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a593
   art: /reluctant-dragon
@@ -192,6 +201,7 @@
   name: Reluctant Dragon
 - id: 2217
   slug: nuwa
+  lore: Fixer of the sky, creator of all life, her efforts ensured the world rife.
   tags:
     - grand
   effects: {}
@@ -201,6 +211,7 @@
   name: Nuwa
 - id: 2100
   slug: momotaro
+  lore: Born from peach, demons' foe, his story is echoed in summer's glow.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a591
   art: /momotaro
@@ -208,6 +219,8 @@
   name: Momotaro
 - id: 2126
   slug: lugh
+  lore: Master of all skills, step forth, illuminate the world with your radiant
+    worth.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a590
   art: /lugh
@@ -215,6 +228,7 @@
   name: Lugh
 - id: 2125
   slug: kaliya-the-naga
+  lore: Vanquished by a divine flute, surrendered to a youth's firm refute.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a589
   art: /kaliya-the-naga
@@ -222,6 +236,7 @@
   name: Kaliya the Naga
 - id: 2049
   slug: imp
+  lore: Where mischief dances and shadows play, there naughtiness has its way.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a588
   art: /imp
@@ -229,6 +244,8 @@
   name: Imp
 - id: 2118
   slug: ilya-muromets
+  lore: In slumber awakened, the knight grows tall, answering unquestioningly
+    Kiev’s call.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a587
   art: /ilya-muromets
@@ -236,6 +253,7 @@
   name: Ilya Muromets
 - id: 2119
   slug: frithiof
+  lore: Evoked by love’s undying flame, he faced kingdoms and gods in his name.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a585
   art: /frithiof
@@ -243,6 +261,8 @@
   name: Frithiof
 - id: 2116
   slug: fionn-mac-cumhaill
+  lore: In the wisdom of the Salmon's embrace, he guards Ireland with
+    extraordinary grace.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a584
   art: /fionn-mac-cumhaill
@@ -250,6 +270,8 @@
   name: Fionn Mac Cumhaill
 - id: 2103
   slug: dietrich
+  lore: Exiled prince bearing a hero's will, his trials and tribulations essence
+    distilled.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a582
   art: /dietrich
@@ -257,6 +279,7 @@
   name: Dietrich
 - id: 2216
   slug: dazhbog
+  lore: Son of heaven, ember-eyed, warming the earth in his radiant ride.
   tags:
     - grand
   effects: {}
@@ -266,6 +289,7 @@
   name: Dazhbog
 - id: 2068
   slug: costello
+  lore: Bringing laughter in his wake, for the world is his vaudevillian stage.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a580
   art: /costello
@@ -273,6 +297,8 @@
   name: Costello
 - id: 2102
   slug: bran-the-blessed
+  lore: In war or peace, his wisdom plays the test, a ruler's heart beats within
+    his chest.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a579
   art: /bran-the-blessed
@@ -280,6 +306,7 @@
   name: Bran the Blessed
 - id: 2112
   slug: beowulf
+  lore: With courage swelling in his chest, he lays monsters and dragons to rest.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a578
   art: /beowulf
@@ -287,6 +314,7 @@
   name: Beowulf
 - id: 2056
   slug: bennu-bird
+  lore: From ashes rises back to life, the sun-bringing fire bird, ending strife.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a577
   art: /benu-bird
@@ -294,6 +322,7 @@
   name: Bennu
 - id: 2127
   slug: arjuna
+  lore: Guided by the divine charioteer, rides the hero in celestial gear.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a576
   art: /arjuna
@@ -301,6 +330,7 @@
   name: Arjuna
 - id: 2105
   slug: alexander-nevsky
+  lore: Defender of his homeland, his might stemmed the foreign hand.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a574
   art: /alexander-nevsky
@@ -308,6 +338,7 @@
   name: Alexander Nevsky
 - id: 2055
   slug: zhar-ptitsa
+  lore: Across realms and dreams it flits, leaving traces of sparks as it wits.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a573
   art: /hires/zhar-ptitsa
@@ -315,6 +346,7 @@
   name: Zhar Ptitsa
 - id: 2115
   slug: yue-fei
+  lore: In heart, on skin, the Emperor’s call, his unwavering loyalty inspiring all.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a572
   art: /hires/yue-fei
@@ -322,6 +354,7 @@
   name: Yue Fei
 - id: 2215
   slug: yemaya
+  lore: Mother of waters deep, her healing touch cradles the world to sleep
   tags:
     - grand
   effects: {}
@@ -331,6 +364,7 @@
   name: Yemaya
 - id: 2214
   slug: ukko
+  lore: Upon his chariot of fire, steers the tempestuous weather's choir.
   tags:
     - grand
   effects: {}
@@ -340,6 +374,7 @@
   name: Ukko
 - id: 2064
   slug: tsarevna
+  lore: Upon his chariot of fire, steers the tempestuous weather's choir.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a569
   art: /hires/tsarevna
@@ -347,6 +382,7 @@
   name: Tsarevna
 - id: 2067
   slug: tawaddud
+  lore: Of tales and riddles are her dwelt, a legacy weaving an ever-changing pelt.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a568
   art: /hires/tawaddud
@@ -354,6 +390,7 @@
   name: Tawaddud
 - id: 2208
   slug: tangra
+  lore: Beneath a sky divine, the cosmic dance of creation is outlined.
   tags:
     - grand
   effects: {}
@@ -363,6 +400,7 @@
   name: Tangra
 - id: 2212
   slug: stribog
+  lore: Keeper of gusts and gale, he conducts the symphony of every squall and hail.
   tags:
     - grand
   effects: {}
@@ -372,6 +410,7 @@
   name: Stribog
 - id: 2066
   slug: snow-white
+  lore: Defying the jealous queen, a princess finds union in dwarven hearts serene.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a565
   art: /hires/snow-white
@@ -379,6 +418,7 @@
   name: Snow White
 - id: 2120
   slug: snow-queen
+  lore: In her glass castle of eternal winter, she rules with an icy splinter.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a564
   art: /hires/snow-queen
@@ -386,6 +426,8 @@
   name: Snow Queen
 - id: 2081
   slug: rusalka
+  lore: In moon-kissed waters, she lures the unwary, her enchanting songs looming
+    deadly yet airy.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a563
   art: /hires/rusalka
@@ -393,6 +435,7 @@
   name: Rusalka
 - id: 2099
   slug: rose-red
+  lore: Cheerful and rosy, heart wild as a doe, she marvels at nature's ebb and flow.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a562
   art: /hires/rose-red
@@ -400,13 +443,16 @@
   name: Rose Red
 - id: 2051
   slug: rebecca
+  lore: Her relentless spirit - a beacon alight, propelling injustice into the night.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a561
   art: /hires/rebecca
   power: 1
   name: Rebecca
-- id: 2195
+- id: 2194
   slug: ran
+  lore: Beneath the roaring waves she gleefully hides, enticing seafarers with her
+    hypnotic tides.
   tags:
     - grand
   effects: {}
@@ -416,6 +462,8 @@
   name: Ran
 - id: 2104
   slug: queen-tomyris
+  lore: In revenge, her enemies' blood she sought, and brought a tyrant king to
+    nought.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a559
   art: /hires/queen-tomyris
@@ -423,6 +471,7 @@
   name: Queen Tomyris
 - id: 2052
   slug: queen-of-hearts
+  lore: A regal hand metes out justice, her whim enough to make heads roll.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a558
   art: /hires/queen-of-hearts
@@ -430,6 +479,7 @@
   name: Queen of Hearts
 - id: 2256
   slug: porthos
+  lore: Under his jolly demeanor lie a loyal heart and a quick blade.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a557
   art: /hires/porthos
@@ -437,13 +487,17 @@
   name: Porthos
 - id: 2096
   slug: pippi
+  lore: Ever the whirlwind of mischief and strength, she rules her own world, and
+    all who enter.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a556
   art: /hires/pippi
   power: 4
   name: Pippi
-- id: 2194
+- id: 2193
   slug: oshun
+  lore: Her liquid gold essence soothes and nurtures, bestowing the sweetest of
+    life's gifts.
   tags:
     - grand
   effects: {}
@@ -453,6 +507,7 @@
   name: Oshun
 - id: 2122
   slug: ogma
+  lore: Wordsmith of the divine, his eloquent speech enchants gods and mortals alike.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a554
   art: /hires/ogma
@@ -460,6 +515,8 @@
   name: Ogma
 - id: 2054
   slug: nostradamus
+  lore: His gaze seers into the inky veil of tomorrow, writing the world's unwoven
+    tapestry.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a553
   art: /hires/nostradamus
@@ -467,6 +524,8 @@
   name: Nostradamus
 - id: 2084
   slug: moriarty
+  lore: As the puppet master behind society's curtain, chaos is but a plucked
+    string away.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a552
   art: /hires/moriarty
@@ -474,6 +533,8 @@
   name: Moriarty
 - id: 2097
   slug: morgiana
+  lore: With ever watchful eyes and swift, deft steps, she turns peril into
+    salvation.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a551
   art: /hires/morgiana
@@ -481,6 +542,8 @@
   name: Morgiana
 - id: 2086
   slug: madame-defarge
+  lore: Her knitting needles orchestrate a symphony of rebellion, each loop
+    echoing the heartbeat of revolution.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a550
   art: /hires/madame-defarge
@@ -488,6 +551,8 @@
   name: Madame Defarge
 - id: 2098
   slug: little-red-riding-hood
+  lore: Her story is a crimson thread woven through the woolly fabric of childhood
+    cautionary tales.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a549
   art: /hires/little-red-riding-hood
@@ -495,6 +560,8 @@
   name: Little Red Riding Hood
 - id: 2057
   slug: lady-macbeth
+  lore: In the ominous whispers of ambition, she weaves a tapestry soaked in royal
+    crimson.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a548
   art: /hires/lady-macbeth
@@ -502,15 +569,17 @@
   name: Lady Macbeth
 - id: 2048
   slug: kai
+  lore: Bound by icy enchantments yet unfettered in spirit, he embodies resilience
+    against chilling absence of feeling.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a547
   art: /hires/kai
   power: 1
   name: Kai
-- id: 2193
+- id: 2179
   slug: jengu-sawa
-  tags:
-    - grand
+  lore: Amidst the river's melodious flow, they dance, their frolic carrying the
+    rhythm of healing and prosperity."
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a546
   art: /hires/jengu-sawa
@@ -518,6 +587,8 @@
   name: Jengu Sawa
 - id: 2082
   slug: irene-adler
+  lore: Behind the veiled eyes, a mind as sharp as any detective's resonates with
+    intelligent defiance.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a545
   art: /hires/irene-adler
@@ -525,6 +596,8 @@
   name: Irene Adler
 - id: 2070
   slug: hasan-of-basra
+  lore: Through his enlightened lens, everyday life becomes scripture, scribed in
+    deeds rather than ink.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a543
   art: /hires/hasan-of-basra
@@ -532,6 +605,8 @@
   name: Hasan of Basra
 - id: 2085
   slug: harun-al-rashid
+  lore: His court, a beacon of enlightenment, where knowledge flows freely,
+    irrigating the thirsty fields of human intellect.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a542
   art: /hires/harun-al-rasahid
@@ -539,6 +614,8 @@
   name: Harun Al Rashid
 - id: 2101
   slug: guillaume-d-orange
+  lore: His name, a song of bravery, echoes in every warrior's heart pledging
+    fealty to honor.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a541
   art: /hires/guillaume-d-orange
@@ -546,6 +623,7 @@
   name: Guillaume D'Orange
 - id: 2113
   slug: grace-o-malley
+  lore: Fierce as the untamed winds, she sails not as a queen but as a tempest tamed.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a540
   art: /hires/grace-o-malley
@@ -553,13 +631,17 @@
   name: Grace O'Malley
 - id: 2080
   slug: gerda
+  lore: Frost-kissed determination guides her through the realm of eternal
+    winter—a thawing warmth against chilling despair.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a539
   art: /hires/gerda
   power: 3
   name: Gerda
-- id: 2121
+- id: 2178
   slug: freyr
+  lore: In his hands, the otherwise barren fields bloom into lush landscapes of
+    ripe abundance.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a538
   art: /hires/freyr
@@ -567,6 +649,8 @@
   name: Freyr
 - id: 2210
   slug: coyolxauhqui
+  lore: From disassembly came her eternal reign over the night sky, a fragmented
+    goddess illuminating the darkness.
   tags:
     - grand
   effects: {}
@@ -585,6 +669,8 @@
   name: Carmilla
 - id: 2050
   slug: briar-rose
+  lore: Around her, thorns grow into walls, protecting a beauty untouched by time
+    yet bound by a spell.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a535
   art: /hires/briar-rose
@@ -592,6 +678,8 @@
   name: Briar Rose
 - id: 2106
   slug: boudica
+  lore: Carved from the ancient spirit of the land, she's a storm that leaves
+    empires quaking
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a534
   art: /hires/boudica
@@ -599,6 +687,8 @@
   name: Boudica
 - id: 2069
   slug: bluebeard
+  lore: His chilling laughter lends an eerie resonance to each echoing step on
+    blood-soaked stone.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a533
   art: /hires/bluebeard
@@ -606,13 +696,17 @@
   name: Bluebeard
 - id: 2257
   slug: aramis
+  lore: His faith mingles with daring gambits, teaching lessons in valor both in
+    sermons and swordplay.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a532
   art: /hires/aramis
   power: 5
   name: Aramis
-- id: 2192
+- id: 2224
   slug: aglea
+  lore: Reveling in brilliance, she brings the light that even the darkest corners
+    cannot repel.
   tags:
     - grand
   effects: {}
@@ -622,6 +716,8 @@
   name: Aglea
 - id: 2083
   slug: mad-arab
+  lore: By the flickering candlelight, he communes with unthinkable horrors in
+    cryptic whispers.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a530
   art: /hires/abdul-alhazred
@@ -676,6 +772,8 @@
     Add "Hansel" from your deck to your hand
     when I enter play
     if possible
+  lore: In the belly of despair, her courage ignites, burning brighter than any
+    witches' oven.
   effects:
     active:
       eventName: DeployUnit
@@ -702,6 +800,8 @@
     Add "Gretel" from your deck to your hand
     when I enter play
     if possible
+  lore: In the sinister forest's heart, his guile blooms, turning even breadcrumbs
+    into a lifeline.
   effects:
     active:
       eventName: DeployUnit
@@ -752,6 +852,8 @@
   description: |-
     Draw 1 card from the enemy deck
     when I'm played
+  lore: A curious blend of mischief and innocence paints her path through the
+    unexpected
   effects:
     active:
       eventName: DeployUnit
@@ -770,8 +872,8 @@
   power: 2
 - id: 2163
   slug: siegfried
-  lore: Unyielding in spirit, his steel slashes through legends, his valor echoed
-    in dragon's roars.
+  lore: Fearless dragon slayer, with heart as pure as his blade, by his honor
+    he'll never be swayed.
   effects: {}
   guid: 56d82a3c-ca92-6ef6-6a6c-617c196146ce
   name: Siegfried
@@ -885,6 +987,8 @@
   slug: camazotz
   lore: Under the cloak of darkness, the bat god swoops, an embodiment of primal
     fears.
+  notes: In cryptic shadows lurk fearsome eyes, heralding the night's unwholesome
+    surprise...
   tags:
     - grand
   effects: {}
@@ -905,11 +1009,8 @@
   art: /angra-mainyu
 - id: 2087
   slug: anne-dieu-le-veut
-  lore: Anne "Dieu-Le-Veut" de Graaf[1] also called Marie-Anne or Marianne (28
-    August 1661 – 11 January 1710)[2] was a French pirate. Alongside Jacquotte
-    Delahaye, she was one of very few female buccaneers.[3] While Delahaye was
-    likely fictional,[4][1] Dieu-le-Veut was real; however, many of her exploits
-    are inventions of later writers.[5]
+  lore: One bullet ends a disgrace, beginning a legacy fierce as the Caribbean
+    embrace.
   effects: {}
   guid: f2f83d34-df98-f80f-6f66-baf7eb377921
   name: Anne Dieu Le Veut
@@ -937,6 +1038,8 @@
   description: |-
     9{{powered}} Lv2 token spawns in your hand when I'm played
     Only I can be the tribute for it
+  lore: Though a man of science, he veers closer to the monstrous, revealing the
+    dichotomy of human nature.
   effects:
     active:
       eventName: DeployUnit
@@ -954,6 +1057,8 @@
   description: |-
     I can only be played over Dr Jekyll
     already in play on your side
+  lore: Where control surrenders to instinct, there he thrives, baring the beast
+    lurking within each man.
   tags:
     - token
     - grand
@@ -994,6 +1099,8 @@
 - id: 2419
   slug: kobold
   description: "Combat-Flip: Set enemy {{ap}} to 0"
+  lore: In mines deep, or aboard sea-bound ships, playful menace always upon his
+    lips.
   tags:
     - sneak
   effects:
@@ -1111,6 +1218,8 @@
 - id: 2506
   slug: huitzilopochtli-v3
   description: When ally unit dies, add its power to mine
+  lore: A hummingbird's heart beating the war drum, his existence keeps darkness
+    overcome.
   notes: Huītzilōpōchtli?
   tags:
     - grand
@@ -1148,8 +1257,8 @@
 - id: 2425
   slug: huitzilopochtli-v2
   description: I kill and take the power of any unit you play face up
-  lore: An Aztec deity of the sun and war, Huitzilopochtli was central to the
-    Aztec religion, often requiring human sacrifice for his appeasement.
+  lore: A hummingbird's heart beating the war drum, his existence keeps darkness
+    overcome.
   notes: Huītzilōpōchtli?
   tags:
     - grand
@@ -1173,8 +1282,8 @@
 - id: 2424
   slug: huitzilopochtli-0.zdlq2khbnm0.ocg3g6mk3dq
   description: When I enter play, I destroy all ally units and take their current power.
-  lore: An Aztec deity of the sun and war, Huitzilopochtli was central to the
-    Aztec religion, often requiring human sacrifice for his appeasement.
+  lore: A hummingbird's heart beating the war drum, his existence keeps darkness
+    overcome.
   notes: Huītzilōpōchtli?
   tags:
     - grand
@@ -4581,8 +4690,8 @@
 - id: 2474
   slug: sir-gawain
   description: I will not attack without a foe here
-  lore: Clad in shining armor, his unwavering nobility lights the path to
-    chivalry, his sword striking down any semblance of dishonor.
+  lore: A paragon of chivalry, his deeds are woven into the vivid tapestry of
+    knightly valor.
   pdc: -1
   status: 2
   priority: 8
