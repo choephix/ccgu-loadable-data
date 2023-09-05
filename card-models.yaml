@@ -687,7 +687,7 @@
   art: /hires/goldilocks
   name: Goldilocks
   power: 2
-- id: 2164
+- id: 2163
   slug: siegfried
   lore: Unyielding in spirit, his steel slashes through legends, his valor echoed
     in dragon's roars.
@@ -780,7 +780,7 @@
   guid: 626f3b6b-e52b-6c43-143d-12e9702f9177
   power: 4
   name: Vivacious Benjamin
-- id: 2163
+- id: 2162
   slug: sigurd
   lore: Unyielding in spirit, his steel slashes through legends, his valor echoed
     in dragon's roars.
@@ -834,12 +834,12 @@
   name: Anne Dieu Le Veut
   art: /anne-dieu-le-veut
   power: 3
-- id: 2162
+- id: 2088
   slug: tatterhood
   lore: The ragged cloak may fool the eye, but her bravery is in plain sight.
   effects: {}
   guid: c4b8f04d-ea8b-59ee-d26d-1409140b1a37
-  power: 5
+  power: 3
   art: /tatterhood
   name: Tatterhood
 - id: 2160
@@ -1567,7 +1567,7 @@
   name: the Undine
   art: /undine
   power: 3
-- id: 2166
+- id: 2165
   slug: jabberwock
   lore: Brimbling with murkitude in the duskish dim, skraggling with its
     blibberous eyes and grinfanging jaws, hurling a frumious shiver of dread
@@ -4175,7 +4175,7 @@
   name: Sloth Wyrm
   power: 15
 - id: 2440
-  slug: nemesiss-strike!
+  slug: nemesiss-strike
   type: 1
   description: Kill enemy unit here after direct attack
   lore: When fury is unbridled, an unseen force prepares, its retribution swift
@@ -4724,7 +4724,7 @@
   guid: 073a7154-da48-f617-57a4-ac15748e5d6f
   name: Grand10
   power: 10
-- id: 2165
+- id: 2164
   slug: tomoe-gozen
   lore: Samurai warrior maiden, her blade, as swift as cherry blossoms in the
     wind, was a beacon of grace and terror on the battlefield.
