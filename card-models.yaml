@@ -12,11 +12,15 @@
       eventStatus: began
       condition: |-
         event.card === get.opposingUnit(card) &&
-        event.card.isFaceUp
+        get.sameLaneUnit(card)
       perform: |-
+        const ally = get.sameLaneUnit(card)
+        const foe = get.opposingUnit(card)
+        const DELTA = 6
         op.addTempFx(
-          event.card, 
-          tg => tg.pass.lowerPower(event.card, 4))
+          ally, tg => tg.pass.lowerPower(ally, DELTA))
+        op.addTempFx(
+          foe, tg => tg.pass.lowerPower(foe, DELTA))
   guid: 3ee6755d-845a-f87c-fed7-9594b1e29bcd
   art: /traps/river-lethe
   name: River Lethe
