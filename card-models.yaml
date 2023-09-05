@@ -822,7 +822,7 @@
   name: Angra Mainyu
   power: 10
   art: /angra-mainyu
-- id: 2165
+- id: 2087
   slug: anne-dieu-le-veut
   lore: Anne "Dieu-Le-Veut" de Graaf[1] also called Marie-Anne or Marianne (28
     August 1661 – 11 January 1710)[2] was a French pirate. Alongside Jacquotte
@@ -833,7 +833,7 @@
   guid: f2f83d34-df98-f80f-6f66-baf7eb377921
   name: Anne Dieu Le Veut
   art: /anne-dieu-le-veut
-  power: 5
+  power: 3
 - id: 2162
   slug: tatterhood
   lore: The ragged cloak may fool the eye, but her bravery is in plain sight.
@@ -4724,7 +4724,7 @@
   guid: 073a7154-da48-f617-57a4-ac15748e5d6f
   name: Grand10
   power: 10
-- id: 2469
+- id: 2165
   slug: tomoe-gozen
   lore: Samurai warrior maiden, her blade, as swift as cherry blossoms in the
     wind, was a beacon of grace and terror on the battlefield.
