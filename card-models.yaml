@@ -1,3 +1,25 @@
+- id: 2426
+  slug: river-lethe
+  type: 1
+  description: |-
+    -6{{power}} to units here on enemy attack
+    only if you have one too
+  lore: Imbibe the waters of oblivion, where memory fades and strength wanes, your
+    past swallowed by a tranquil current.
+  effects:
+    active:
+      eventName: UnitAttack
+      eventStatus: began
+      condition: |-
+        event.card === get.opposingUnit(card) &&
+        event.card.isFaceUp
+      perform: |-
+        op.addTempFx(
+          event.card, 
+          tg => tg.pass.lowerPower(event.card, 4))
+  guid: 3ee6755d-845a-f87c-fed7-9594b1e29bcd
+  art: /traps/river-lethe
+  name: River Lethe
 - id: 2374
   slug: all-out-johhny-v2
   description: Discard your hand when I'm played
@@ -17,7 +39,7 @@
   power: 7
   art: /temp/she1
 - id: 2431
-  slug: puzzled-mule
+  slug: thunderstones
   type: 1
   description: Draw two cards when enemy attacks here
   effects:
@@ -29,7 +51,8 @@
         op.draw(player)
         op.draw(player)
   guid: c2f23ae4-816a-02a6-34f9-cd479f74f62d
-  name: puzzled-mule
+  name: Thunderstones
+  art: /traps/thunderstones
 - id: 2161
   slug: wainamoinen
   lore: His melodies echo in the whisper of the pines, the rustling of the reeds,
@@ -942,7 +965,7 @@
   name: C. Auguste Dupin
   art: /hires/dupin
   power: 2
-- id: 2420
+- id: 2419
   slug: kobold
   description: "Combat-Flip: Set enemy {{ap}} to 0"
   tags:
@@ -975,7 +998,7 @@
         op.forceSwap(a, b)
   guid: 94ce8835-809b-bf91-926a-05d3fefee344
   name: Zany Squirrel
-- id: 2421
+- id: 2420
   slug: spying-james2
   description: |-
     Keep the top enemy deck card face up
@@ -1094,7 +1117,7 @@
   power: 2
   art: /gremlin
   name: Gremlin
-- id: 2426
+- id: 2425
   slug: huitzilopochtli-v2
   description: I kill and take the power of any unit you play face up
   lore: An Aztec deity of the sun and war, Huitzilopochtli was central to the
@@ -1119,7 +1142,7 @@
   guid: 0b849789-9d28-adb8-5d30-f63f2fb61675
   name: Huitzilopochtli V2
   art: /huitzilopochtli
-- id: 2425
+- id: 2424
   slug: huitzilopochtli-0.zdlq2khbnm0.ocg3g6mk3dq
   description: When I enter play, I destroy all ally units and take their current power.
   lore: An Aztec deity of the sun and war, Huitzilopochtli was central to the
@@ -1836,7 +1859,7 @@
   guid: 15f64461-95cc-c62e-ca23-11dc1495fba7
   name: Reynard the Fox
   power: 2
-- id: 2422
+- id: 2421
   slug: puss-in-boots-v2
   description: +2{{ap}} when you deploy me
   lore: With a sly purr and an unerring knack for opportunity, this dapper feline
@@ -2021,11 +2044,9 @@
   name: Jeanne Hachette
   power: 3
 - id: 2441
-  slug: river-lethe
+  slug: poison-apple
   type: 1
-  description: -4{{power}} to enemy unit beginning to attack here
-  lore: Imbibe the waters of oblivion, where memory fades and strength wanes, your
-    past swallowed by a tranquil current.
+  description: -4{{power}} to enemy unit attacking here
   effects:
     active:
       eventName: UnitAttack
@@ -2039,7 +2060,7 @@
           tg => tg.pass.lowerPower(event.card, 4))
   art: /traps/river-lethe
   guid: 3ee6755d-845a-f87c-fed7-9594b1e29bcd
-  name: River Lethe
+  name: Poison Apple
 - id: 561
   slug: grand-decker
   description: +1 per card in the enemy's deck!
@@ -3865,7 +3886,7 @@
   effects: {}
   guid: 3a9064a6-de2e-fcc7-a434-90545668b8c8
   name: 3a9064a6
-- id: 2424
+- id: 2423
   slug: a8bcec64
   description: +5{{power}} while the enemy has a trap here
   notes: Jack Churchill?
@@ -8737,7 +8758,7 @@
   guid: 58ebdd7a-1969-432a-0635-79f8239af518
   name: Tricky Shield
   power: 7
-- id: 2423
+- id: 2422
   slug: necropy-2
   description: |-
     +X{{power}}, equal to the enemy grave's top card
