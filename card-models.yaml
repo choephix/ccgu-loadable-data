@@ -1,3 +1,10 @@
+- id: 2258
+  slug: athos
+  effects: {}
+  guid: 26d818d3-9f6b-1198-cb6a-12826ee124dd
+  name: Athos
+  power: 5
+  art: /hires/aramis
 - id: 2246
   slug: dwarf-quee
   effects: {}
@@ -56,12 +63,12 @@
   art: /viracocha
   power: 5
   name: Viracocha
-- id: 2124
+- id: 2065
   slug: vasilisa
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a596
   art: /vasilisa
-  power: 5
+  power: 2
   name: Vasilisa
 - id: 2209
   slug: susanoo
@@ -81,12 +88,12 @@
   art: /shennong
   power: 5
   name: Shennong
-- id: 2140
+- id: 2053
   slug: reluctant-dragon
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a593
   art: /reluctant-dragon
-  power: 5
+  power: 1
   name: Reluctant Dragon
 - id: 2217
   slug: nuwa
@@ -97,12 +104,12 @@
   art: /nuwa
   power: 5
   name: Nuwa
-- id: 2119
+- id: 2100
   slug: momotaro
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a591
   art: /momotaro
-  power: 5
+  power: 4
   name: Momotaro
 - id: 2178
   slug: lugh
@@ -118,47 +125,47 @@
   art: /kaliya-the-naga
   power: 5
   name: Kaliya the Naga
-- id: 2141
+- id: 2049
   slug: imp
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a588
   art: /imp
-  power: 5
+  power: 1
   name: Imp
-- id: 2152
+- id: 2118
   slug: ilya-muromets
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a587
   art: /ilya-muromets
   power: 5
   name: Ilya Muromets
-- id: 2120
+- id: 2119
   slug: frithiof
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a585
   art: /frithiof
   power: 5
   name: Frithiof
-- id: 2121
+- id: 2116
   slug: fionn-mac-cumhaill
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a584
   art: /fionn-mac-cumhaill
   power: 5
   name: Fionn Mac Cumhaill
-- id: 2122
+- id: 2117
   slug: fafnir
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a583
   art: /fafnir
   power: 5
   name: Fafnir
-- id: 2150
+- id: 2103
   slug: dietrich
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a582
   art: /dietrich
-  power: 5
+  power: 4
   name: Dietrich
 - id: 2216
   slug: dazhbog
@@ -169,34 +176,34 @@
   art: /dazhbog
   power: 5
   name: Dazhbog
-- id: 2148
+- id: 2068
   slug: costello
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a580
   art: /costello
-  power: 5
+  power: 2
   name: Costello
-- id: 2135
+- id: 2102
   slug: bran-the-blessed
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a579
   art: /bran-the-blessed
-  power: 5
+  power: 4
   name: Bran the Blessed
-- id: 2115
+- id: 2112
   slug: beowulf
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a578
   art: /beowulf
   power: 5
   name: Beowulf
-- id: 2142
-  slug: benu-bird
+- id: 2056
+  slug: bennu-bird
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a577
   art: /benu-bird
-  power: 5
-  name: Benu Bird
+  power: 1
+  name: Bennu
 - id: 2176
   slug: arjuna
   effects: {}
@@ -204,28 +211,28 @@
   art: /arjuna
   power: 5
   name: Arjuna
-- id: 2147
+- id: 2085
   slug: anne-bonny
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a575
   art: /anne-bonny
-  power: 5
+  power: 3
   name: Anne Bonny
-- id: 2151
+- id: 2105
   slug: alexander-nevsky
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a574
   art: /alexander-nevsky
-  power: 5
+  power: 4
   name: Alexander Nevsky
-- id: 2160
+- id: 2055
   slug: zhar-ptitsa
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a573
   art: /hires/zhar-ptitsa
-  power: 5
+  power: 1
   name: Zhar Ptitsa
-- id: 2149
+- id: 2115
   slug: yue-fei
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a572
@@ -250,19 +257,19 @@
   art: /hires/ukko
   power: 5
   name: Ukko
-- id: 2126
+- id: 2071
   slug: tsarevna
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a569
   art: /hires/tsarevna
-  power: 5
+  power: 2
   name: Tsarevna
-- id: 2132
+- id: 2067
   slug: tawaddud
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a568
   art: /hires/tawaddud
-  power: 5
+  power: 2
   name: Tawaddud
 - id: 2208
   slug: tangra
@@ -282,40 +289,40 @@
   art: /stribog
   power: 5
   name: Stribog
-- id: 2113
+- id: 2066
   slug: snow-white
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a565
   art: /hires/snow-white
-  power: 5
+  power: 2
   name: Snow White
-- id: 2128
+- id: 2120
   slug: snow-queen
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a564
   art: /hires/snow-queen
   power: 5
   name: Snow Queen
-- id: 2143
+- id: 2081
   slug: rusalka
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a563
   art: /hires/rusalka
-  power: 5
+  power: 3
   name: Rusalka
-- id: 2117
+- id: 2099
   slug: rose-red
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a562
   art: /hires/rose-red
-  power: 5
+  power: 4
   name: Rose Red
-- id: 2137
+- id: 2051
   slug: rebecca
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a561
   art: /hires/rebecca
-  power: 5
+  power: 1
   name: Rebecca
 - id: 2195
   slug: ran
@@ -326,19 +333,19 @@
   art: /hires/ran
   power: 5
   name: Ran
-- id: 2155
+- id: 2104
   slug: queen-tomyris
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a559
   art: /hires/queen-tomyris
-  power: 5
+  power: 4
   name: Queen Tomyris
-- id: 2134
+- id: 2052
   slug: queen-of-hearts
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a558
   art: /hires/queen-of-hearts
-  power: 5
+  power: 1
   name: Queen of Hearts
 - id: 2256
   slug: porthos
@@ -347,12 +354,12 @@
   art: /hires/porthos
   power: 5
   name: Porthos
-- id: 2118
+- id: 2096
   slug: pippi
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a556
   art: /hires/pippi
-  power: 5
+  power: 4
   name: Pippi
 - id: 2194
   slug: oshun
@@ -363,61 +370,61 @@
   art: /hires/oshun
   power: 5
   name: Oshun
-- id: 2125
+- id: 2122
   slug: ogma
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a554
   art: /hires/ogma
   power: 5
   name: Ogma
-- id: 2157
+- id: 2054
   slug: nostradamus
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a553
   art: /hires/nostradamus
-  power: 5
+  power: 1
   name: Nostradamus
-- id: 2133
+- id: 2084
   slug: moriarty
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a552
   art: /hires/moriarty
-  power: 5
+  power: 3
   name: Moriarty
-- id: 2131
+- id: 2097
   slug: morgiana
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a551
   art: /hires/morgiana
-  power: 5
+  power: 4
   name: Morgiana
-- id: 2153
+- id: 2086
   slug: madame-defarge
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a550
   art: /hires/madame-defarge
-  power: 5
+  power: 3
   name: Madame Defarge
-- id: 2112
+- id: 2098
   slug: little-red-riding-hood
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a549
   art: /hires/little-red-riding-hood
-  power: 5
+  power: 4
   name: Little Red Riding Hood
-- id: 2136
+- id: 2064
   slug: lady-macbeth
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a548
   art: /hires/lady-macbeth
-  power: 5
+  power: 2
   name: Lady Macbeth
-- id: 2129
+- id: 2048
   slug: kai
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a547
   art: /hires/kai
-  power: 5
+  power: 1
   name: Kai
 - id: 2193
   slug: jengu-sawa
@@ -428,49 +435,49 @@
   art: /hires/jengu-sawa
   power: 5
   name: Jengu Sawa
-- id: 2138
+- id: 2082
   slug: irene-adler
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a545
   art: /hires/irene-adler
-  power: 5
+  power: 3
   name: Irene Adler
-- id: 2154
+- id: 2070
   slug: hasan-of-basra
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a543
   art: /hires/hasan-of-basra
-  power: 5
+  power: 2
   name: Hasan of Basra
-- id: 2146
-  slug: harun-al-rasahid
+- id: 2087
+  slug: harun-al-rashid
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a542
   art: /hires/harun-al-rasahid
-  power: 5
-  name: Harun Al Rasahid
-- id: 2144
+  power: 3
+  name: Harun Al Rashid
+- id: 2101
   slug: guillaume-d-orange
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a541
   art: /hires/guillaume-d-orange
-  power: 5
+  power: 4
   name: Guillaume D'Orange
-- id: 2145
+- id: 2113
   slug: grace-o-malley
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a540
   art: /hires/grace-o-malley
   power: 5
   name: Grace O'Malley
-- id: 2130
+- id: 2080
   slug: gerda
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a539
   art: /hires/gerda
-  power: 5
+  power: 3
   name: Gerda
-- id: 2123
+- id: 2121
   slug: freyr
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a538
@@ -486,33 +493,33 @@
   art: /hires/coyolxauhqui
   power: 5
   name: Coyolxauhqui
-- id: 2161
+- id: 2114
   slug: carmilla
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a536
   art: /hires/carmilla
   power: 5
   name: Carmilla
-- id: 2114
+- id: 2050
   slug: briar-rose
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a535
   art: /hires/briar-rose
-  power: 5
+  power: 1
   name: Briar Rose
-- id: 2156
+- id: 2106
   slug: boudica
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a534
   art: /hires/boudica
-  power: 5
+  power: 4
   name: Boudica
-- id: 2116
+- id: 2069
   slug: bluebeard
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a533
   art: /hires/bluebeard
-  power: 5
+  power: 2
   name: Bluebeard
 - id: 2257
   slug: aramis
@@ -530,12 +537,12 @@
   art: /hires/aglea
   power: 5
   name: Aglea
-- id: 2139
+- id: 2083
   slug: abdul-alhazred
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a530
   art: /hires/abdul-alhazred
-  power: 5
+  power: 3
   name: Abdul Alhazred
 - id: 2323
   slug: generic4
@@ -5077,7 +5084,7 @@
   guid: 40d665ac-fea0-6997-e643-4d5e1c5c87f9
   name: Time Lord
   power: 10
-- id: 2048
+- id: 1024
   slug: nuke-virus
   description: >-
     Combat-Flip:
