@@ -2062,7 +2062,7 @@
         op.addTempFx(
           event.card, 
           tg => tg.pass.lowerPower(event.card, 4))
-  art: /traps/river-lethe
+  art: /traps/poison-apple
   guid: 3ee6755d-845a-f87c-fed7-9594b1e29bcd
   name: Poison Apple
 - id: 561
