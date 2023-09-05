@@ -4,42 +4,49 @@
   guid: c95360e4-66d3-bd41-c931-2982cf50fad6
   name: Quee the Dwarf
   power: 2
+  art: /demo/dwarf7
 - id: 2245
   slug: dwarf-whick
   effects: {}
   guid: c95360e4-66d3-bd41-c931-2982cf50fad6
   name: Whick the Dwarf
   power: 2
+  art: /demo/dwarf6
 - id: 2244
   slug: dwarf-plick
   effects: {}
   guid: c95360e4-66d3-bd41-c931-2982cf50fad6
   name: Plick the Dwarf
   power: 2
+  art: /demo/dwarf5
 - id: 2243
   slug: dwarf-slick
   effects: {}
   guid: c95360e4-66d3-bd41-c931-2982cf50fad6
   name: Snick the Dwarf
   power: 2
+  art: /demo/dwarf4
 - id: 2242
   slug: dwarf-glick
   effects: {}
   guid: c95360e4-66d3-bd41-c931-2982cf50fad6
   name: Glick the Dwarf
   power: 2
+  art: /demo/dwarf3
 - id: 2241
   slug: dwarf-flick
   effects: {}
   guid: c95360e4-66d3-bd41-c931-2982cf50fad6
   name: Flick the Dwarf
   power: 2
+  art: /demo/dwarf2
 - id: 2240
   slug: dwarf-blick
   effects: {}
   guid: c95360e4-66d3-bd41-c931-2982cf50fad6
   name: Blick the Dwarf
   power: 2
+  art: /demo/dwarf1
 - id: 2195
   slug: viracocha
   effects: {}
