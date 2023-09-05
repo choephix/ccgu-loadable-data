@@ -1,3 +1,16 @@
+- id: 2431
+  slug: puzzled-mule
+  type: 1
+  description: Draw two cards when enemy attacks here
+  effects:
+    active:
+      eventName: UnitAttack
+      eventStatus: began
+      condition: event.card === get.opposingUnit(card)
+      perform: |-
+        op.draw(player)
+        op.draw(player)
+  guid: c2f23ae4-816a-02a6-34f9-cd479f74f62d
 - id: 2161
   slug: wainamoinen
   lore: His melodies echo in the whisper of the pines, the rustling of the reeds,
