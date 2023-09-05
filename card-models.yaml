@@ -1,3 +1,12 @@
+- id: 2161
+  slug: wainamoinen
+  lore: His melodies echo in the whisper of the pines, the rustling of the reeds,
+    the lapping of the waves.
+  effects: {}
+  guid: 27d5557b-d462-8f02-3c4e-273c64130473
+  power: 5
+  art: /wainamoinen
+  name: Wainamoinen
 - id: 2258
   slug: athos
   effects: {}
@@ -211,13 +220,6 @@
   art: /arjuna
   power: 5
   name: Arjuna
-- id: 2085
-  slug: anne-bonny
-  effects: {}
-  guid: 53de8275-75a6-0b72-584f-ec52a6b7a575
-  art: /anne-bonny
-  power: 3
-  name: Anne Bonny
 - id: 2105
   slug: alexander-nevsky
   effects: {}
@@ -449,7 +451,7 @@
   art: /hires/hasan-of-basra
   power: 2
   name: Hasan of Basra
-- id: 2087
+- id: 2085
   slug: harun-al-rashid
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a542
@@ -685,8 +687,10 @@
   art: /hires/goldilocks
   name: Goldilocks
   power: 2
-- id: 2550
+- id: 2164
   slug: siegfried
+  lore: Unyielding in spirit, his steel slashes through legends, his valor echoed
+    in dragon's roars.
   effects: {}
   guid: 56d82a3c-ca92-6ef6-6a6c-617c196146ce
   name: Siegfried
@@ -776,16 +780,7 @@
   guid: 626f3b6b-e52b-6c43-143d-12e9702f9177
   power: 4
   name: Vivacious Benjamin
-- id: 2545
-  slug: wainamoinen
-  lore: His melodies echo in the whisper of the pines, the rustling of the reeds,
-    the lapping of the waves.
-  effects: {}
-  guid: 27d5557b-d462-8f02-3c4e-273c64130473
-  power: 5
-  art: /wainamoinen
-  name: Wainamoinen
-- id: 2548
+- id: 2163
   slug: sigurd
   lore: Unyielding in spirit, his steel slashes through legends, his valor echoed
     in dragon's roars.
@@ -805,7 +800,7 @@
   power: 10
   art: /raijin
   name: Raijin
-- id: 2553
+- id: 2177
   slug: camazotz
   lore: Under the cloak of darkness, the bat god swoops, an embodiment of primal
     fears.
@@ -816,7 +811,7 @@
   power: 10
   name: Camazotz
   art: /camazotz
-- id: 2552
+- id: 2176
   slug: angra-mainyu
   lore: His essence, a chilling wind tearing through creation, a herald of eternal
     night.
@@ -827,7 +822,7 @@
   name: Angra Mainyu
   power: 10
   art: /angra-mainyu
-- id: 2549
+- id: 2165
   slug: anne-dieu-le-veut
   lore: Anne "Dieu-Le-Veut" de Graaf[1] also called Marie-Anne or Marianne (28
     August 1661 – 11 January 1710)[2] was a French pirate. Alongside Jacquotte
@@ -839,7 +834,7 @@
   name: Anne Dieu Le Veut
   art: /anne-dieu-le-veut
   power: 5
-- id: 2546
+- id: 2162
   slug: tatterhood
   lore: The ragged cloak may fool the eye, but her bravery is in plain sight.
   effects: {}
@@ -847,7 +842,7 @@
   power: 5
   art: /tatterhood
   name: Tatterhood
-- id: 2544
+- id: 2160
   slug: krali-marko
   lore: His valor is etched in the rhythms of the Balkan winds, his tales sung by
     the earth.
@@ -1572,7 +1567,7 @@
   name: the Undine
   art: /undine
   power: 3
-- id: 2551
+- id: 2166
   slug: jabberwock
   lore: Brimbling with murkitude in the duskish dim, skraggling with its
     blibberous eyes and grinfanging jaws, hurling a frumious shiver of dread
@@ -1679,7 +1674,7 @@
   name: Helm of Awe
   art: /traps/helm-of-awe
 - id: 2445
-  slug: anne-bonny-0.sb8va48abcc0.cnt9si0ozn
+  slug: anne-bonny
   description: Enemy draws 1 card when I attack
   lore: Swashbuckling through the high seas, Anne Bonny personifies the wild and
     daring spirit of a pirate, fearlessly charting her own course amidst life's
