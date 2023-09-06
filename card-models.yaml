@@ -1140,8 +1140,8 @@
   slug: zany-squirrel
   type: 1
   description: |-
-    Your units here and to the left swap places on enemy attack
-    if possible
+    Swap your units here and on the left  when enemy attacks
+    if you have both
   effects:
     active:
       eventName: UnitAttack
