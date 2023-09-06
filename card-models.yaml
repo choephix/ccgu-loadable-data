@@ -1053,7 +1053,7 @@
   art: /hires/jekyll
   power: 2
 - id: 2360
-  slug: mr-hyde
+  slug: hyde-token
   description: |-
     I can only be played over Dr Jekyll
     already in play on your side
@@ -1353,7 +1353,7 @@
   guid: a6ac2665-a6a1-5b03-acba-9bb4da42419c
   name: Rush 'n Die!
 - id: 2359
-  slug: clay-golem
+  slug: clay-golem-token
   lore: From earth to life, he strides, a testament to the mystery of creation.
   tags:
     - token
@@ -1377,7 +1377,9 @@
         event.card === card &&
         card.lot?.isUnitField &&
         card.prevLot?.isUnitField
-      perform: op.spawnToken(card.prevLot, 'big-token')
+      perform: |-
+        const TOKEN = 'clay-golem-token'
+        op.spawnToken(card.prevLot, TOKEN)
       allowedLots:
         - unit-field
         - grave
