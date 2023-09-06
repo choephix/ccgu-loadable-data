@@ -1966,7 +1966,9 @@
   art: /tokens/nisse
 - id: 2448
   slug: puss
-  description: +1{{ap}} when I'm played
+  description: |-
+    +1{{ap}} when I'm played
+    if on your turn
   lore: With a sly purr and an unerring knack for opportunity, this dapper feline
     brings fortune to his master.
   pdc: -1
@@ -1976,7 +1978,7 @@
     active:
       eventName: DeployUnit
       eventStatus: ended
-      condition: event.card === card
+      condition: event.card === card && faq.hasTurn(player)
       perform: player.actionPoints += 1
       allowedLots:
         - unit-field
