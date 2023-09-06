@@ -3,6 +3,7 @@
   description: +1{{power}} whenever a card enters your hand
   effects: {}
   guid: 788e5108-566a-9864-de4d-d945ca250f14
+  name: sparkling-ferret
 - id: 2117
   slug: fafnir
   lore: Guardian of stolen hoard, his heart corrupted; he became the overlord.
@@ -2781,7 +2782,7 @@
   art: /traps//battle-of-trenton
   guid: 294447b1-beb2-1618-5d29-8182eee4f481
   name: the Battle of Trenton
-- id: 2428
+- id: 2426
   slug: the-battle-of-trenton-v2
   type: 1
   description: >-
