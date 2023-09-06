@@ -3,21 +3,20 @@
   description: +1 to allies after I die
   effects:
     active:
-      eventName: DeployUnit
+      eventName: UnitDie
       eventStatus: ended
-      condition: |-
-        event.card.controller === player &&
-        player.grave.topCard === card
+      condition: event.card === card
       perform: |-
-        op.addTempFx(
-          event.defender, 
-          tg => tg.pass.raisePower(event.defender, 1))
+        for (const u of player.units) {
+          op.addTempFx(
+            u, tg => tg.pass.raisePower(u,1))
+        }
       allowedLots:
         - grave
   guid: 2cbcf528-4359-b374-a54a-80733cbdcc2e
   name: Rani Lakshmibai
   power: 3
-  art: /hires/boudica
+  art: /temp/she2
 - id: 2328
   slug: boudica2
   description: +1 to units you deploy while I'm on top of your grave
@@ -29,9 +28,8 @@
         event.card.controller === player &&
         player.grave.topCard === card
       perform: |-
-        op.addTempFx(
-          event.defender, 
-          tg => tg.pass.raisePower(event.defender, 1))
+        const u = event.card
+        op.addTempFx(u, tg => tg.pass.raisePower(u,1))
       allowedLots:
         - grave
   guid: 2cbcf528-4359-b374-a54a-80733cbdcc2e
@@ -49,14 +47,14 @@
         event.card.controller === player &&
         player.grave.topCard === card
       perform: |-
-        op.addTempFx(
-          event.defender, 
-          tg => tg.pass.raisePower(event.defender, 2))
+        const u = event.card
+        op.addTempFx(u, tg => tg.pass.raisePower(u,2))
       allowedLots:
         - grave
   guid: 2cbcf528-4359-b374-a54a-80733cbdcc2e
   name: Hathan Hale
   power: 1
+  art: /temp/she3
 - id: 2326
   slug: faithful-herd
   description: |-
@@ -66,6 +64,7 @@
   effects: {}
   guid: f1a7812e-96af-5d1c-e694-3fabfae6e2e5
   name: faithful-herd
+  art: /temp/she2
 - id: 2528
   slug: raijin2
   description: |-
