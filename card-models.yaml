@@ -1,5 +1,5 @@
 - id: 2329
-  slug: boudica
+  slug: rani-lakshmibai
   description: +1 to allies after I die
   effects:
     active:
@@ -15,7 +15,7 @@
       allowedLots:
         - grave
   guid: 2cbcf528-4359-b374-a54a-80733cbdcc2e
-  name: Boudica
+  name: Rani Lakshmibai
   power: 3
   art: /hires/boudica
 - id: 2328
