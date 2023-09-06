@@ -7370,7 +7370,7 @@
   guid: aa43b737-6193-cb9d-3ebe-7bea5a77302a
   name: Achilles
   power: 4
-  art: /achiles
+  art: /achilles
 - id: 3324
   slug: hired-mage
   description: At the end of your turn if you have no mana - destroy me.
