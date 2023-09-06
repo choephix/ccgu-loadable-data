@@ -11,7 +11,7 @@
   name: Fafnir
   art: /fafnir
   power: 5
-- id: 2410
+- id: 2474
   slug: ring-of-gyges
   type: 1
   description: |-
@@ -31,7 +31,7 @@
   guid: c83a662f-67f0-5a72-a872-ce62cbfe39dd
   name: Ring of Gyges
   art: /traps/ring-of-gyges
-- id: 2426
+- id: 2442
   slug: river-lethe
   type: 1
   description: |-
@@ -75,7 +75,7 @@
   name: All Out Johhny v2
   power: 7
   art: /temp/she1
-- id: 2431
+- id: 2458
   slug: thunderstones
   type: 1
   description: Draw two cards when enemy attacks here
@@ -884,7 +884,7 @@
   name: Siegfried
   art: /hires/siegfried
   power: 5
-- id: 2442
+- id: 2460
   slug: roadrunner
   lore: Its cackle echoes across the desert, a dancer whose stage is the shifting
     dunes.
@@ -1786,7 +1786,7 @@
   name: Jabberwock
   power: 5
   art: /jabberwock
-- id: 2427
+- id: 2431
   slug: fools-fire
   type: 1
   description: |-
@@ -1882,7 +1882,7 @@
   guid: e3b41aa1-0f98-ec62-7c2b-2f8414025180
   name: Helm of Awe
   art: /traps/helm-of-awe
-- id: 2460
+- id: 2445
   slug: anne-bonny
   description: Enemy draws 1 card when I attack
   lore: Swashbuckling through the high seas, Anne Bonny personifies the wild and
@@ -2137,7 +2137,7 @@
   guid: afe2f4b6-3b5a-e47f-8ac1-fddbe4836fff
   name: Tiger
   power: 5
-- id: 2445
+- id: 2475
   slug: lilith
   description: |-
     +X{{power}}, equal to the enemy grave's top card
@@ -2306,18 +2306,6 @@
   art: /ereshkigal
   guid: b4a87403-430f-7687-e001-98dc71c53a73
   name: Ereshkigal
-- id: 2383
-  slug: novel-lynx
-  description: +10 during your turn
-  tags:
-    - grand
-  effects:
-    passive:
-      condition: faq.hasTurn(card)
-      perform: pass.raisePower(card, 10)
-  guid: 9d913bd6-cf60-e796-d57d-ef6d9465f77d
-  power: 4
-  name: Novel Lynx
 - id: 256
   slug: generic5
   pdc: -1
@@ -2327,7 +2315,7 @@
   guid: a0537d41-fb40-021c-e3bf-43de93a71b4d
   name: Generic5
   power: 5
-- id: 2475
+- id: 2469
   slug: porcupine-spirit
   description: I deal 3 damage the the enemy player when attacked.
   lore: The porcupine is a mammal with sharp quills that can cause pain to
@@ -2504,7 +2492,7 @@
   guid: 2eb984ca-fea4-fc3b-52a5-9d81eaee4740
   name: Marvellous Koi
   power: 1
-- id: 2490
+- id: 2493
   slug: gideon
   description: +3{{power}} during enemy turn
   lore: From a wellspring of faith amidst weakness and poverty, Gideon summons
@@ -4124,7 +4112,7 @@
   guid: bdaf0351-9f2b-859c-d4e7-7b35dcae8645
   name: Muleta
 - id: 2382
-  slug: nameless-804e
+  slug: will-o-the-wisp
   type: 1
   description: Activate when an enemy unit is deployed and the opposing unit field
     is empty. Move the unit there.
@@ -4132,7 +4120,7 @@
   priority: 3
   effects: {}
   guid: ecf87384-4b2b-ceed-ffb1-c510eea1a14e
-  name: Nameless 804e
+  name: Will O' the Wisp
 - id: 898
   slug: wandering-kyle
   description: +7{{hp}} to the enemy when I die
@@ -4182,7 +4170,7 @@
   effects: {}
   guid: 9d559a67-558f-c648-b17c-a6c6da4dae1d
   name: Balanced Antitrap
-- id: 2399
+- id: 2315
   slug: grand-disarmer
   description: |-
     When ANY trap is about to activate on this lane, destroy me and that trap.
@@ -4706,7 +4694,7 @@
   guid: 00badf76-e490-b5e6-9b31-a3986978ca5e
   name: Grand Traitor
   power: 14
-- id: 2474
+- id: 2478
   slug: sir-gawain
   description: I will not attack without a foe here
   lore: A paragon of chivalry, his deeds are woven into the vivid tapestry of
