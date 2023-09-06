@@ -2194,7 +2194,9 @@
   power: 1
 - id: 2466
   slug: jeanne-hachette
-  description: +1{{power}} to other ally units in play
+  description: |-
+    +1{{power}} to ally units
+    in play
   lore: Her courage shining like a beacon, Jeanne Hachette stands tall, inspiring
     others to embrace valor, even against overwhelming odds.
   effects:
@@ -2384,7 +2386,9 @@
   name: Mad Jack
 - id: 2400
   slug: king-leonidas-i
-  description: All your units gain power equal to the number of enemy units in play.
+  description: |-
+    +X{{power}} to ally units, equal to the number of enemy units
+    in play
   lore: Against overwhelming odds, King Leonidas I valiantly led his Spartan
     warriors at Thermopylae, holding back an immense Persian force and etching
     his name into history as the embodiment of defiance and courage.
