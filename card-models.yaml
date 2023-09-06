@@ -1447,7 +1447,7 @@
   art: /mars
   power: 8
 - id: 2358
-  slug: wild-animal
+  slug: animal-token
   lore: Humanity shed under her gaze, now echoes in the wilderness, longing for
     the moon.
   tags:
@@ -1475,7 +1475,7 @@
         const foe = get.opposingUnit(card)
         op.kill(card)
         const lot = get.opposingUnitField(card)
-        op.spawnToken(lot, 'tiger-token')
+        op.spawnToken(lot, 'animal-token')
       allowedLots:
         - unit-field
   guid: 3333ae13-1e75-d843-e1ec-cfbda098cb8d
