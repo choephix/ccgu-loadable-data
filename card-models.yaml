@@ -1,3 +1,8 @@
+- id: 2347
+  slug: sparkling-ferret
+  description: +1{{power}} whenever a card enters your hand
+  effects: {}
+  guid: 788e5108-566a-9864-de4d-d945ca250f14
 - id: 2117
   slug: fafnir
   lore: Guardian of stolen hoard, his heart corrupted; he became the overlord.
