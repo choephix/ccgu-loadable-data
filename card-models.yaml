@@ -1,3 +1,11 @@
+- id: 2326
+  slug: faithful-herd
+  description: |-
+    All allies auto-attack when I die
+    I must die in combat
+    Auto-attacks are free
+  effects: {}
+  guid: f1a7812e-96af-5d1c-e694-3fabfae6e2e5
 - id: 2528
   slug: raijin2
   description: |-
@@ -1593,7 +1601,12 @@
   name: Elegant Walter
 - id: 2495
   slug: witty-meerkat
-  description: +2 to ally units while I am on top of your grave
+  description: +2 to allies while I am on top of your grave
+  notes: |-
+    Nathan Hale?
+    Boudica?
+    Spartacus?
+    Cú Chulainn?
   effects:
     passive:
       allowedLots:
