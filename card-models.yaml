@@ -837,7 +837,7 @@
   name: Hansel
   art: /hires/hansel
   power: 4
-- id: 2362
+- id: 2363
   slug: kombinato
   description: +X{{power}}, the sum from adjacent ally units
   tags:
@@ -1220,7 +1220,7 @@
   guid: 6df4249c-c165-b329-a9c7-4df9d6d96749
   name: "007"
   power: 3
-- id: 2366
+- id: 2346
   slug: outstanding-owl
   description: When I kill a unit, add its power to mine
   effects:
@@ -1387,7 +1387,7 @@
   power: 10
   name: Clay Golem
   art: /tokens/golem
-- id: 2502
+- id: 2499
   slug: rabbi-loew
   description: 10{{powered}} token spawns in my place after I relocate
   lore: A humble man with divine instruction, turning earthen dust to fervent life.
@@ -1591,7 +1591,7 @@
   guid: 767a8487-8298-efb4-a42d-a5ebf4d6e611
   power: 2
   name: Elegant Walter
-- id: 2364
+- id: 2495
   slug: witty-meerkat
   description: +2 to ally units while I am on top of your grave
   effects:
@@ -1600,6 +1600,8 @@
         - grave
   guid: 00a2376c-237e-025a-b712-deb56e3352b6
   name: Witty Meerkat
+  power: 2
+  art: /temp/she4
 - id: 2373
   slug: mythical-hoki
   description: |-
@@ -1618,7 +1620,7 @@
         - unit-field
   guid: 1f3367be-04db-e6bb-c2cb-2f4cb0af2818
   name: Mythical Hoki
-- id: 2367
+- id: 2502
   slug: famous-brian
   description: I can only be played while you have no other cards
   effects:
@@ -2112,7 +2114,7 @@
   guid: e156e58b-3903-0196-a55c-cef515c0dcdd
   name: Selfless Sparrow
   power: 1
-- id: 2500
+- id: 2530
   slug: ada-lovelace
   description: |-
     +X{{power}}, X = 2 exponentiated by your energy
@@ -2277,7 +2279,7 @@
   guid: c975d9b5-3f58-30c1-1192-d8cb2d5ae481
   name: Bouncy
   power: 5
-- id: 2365
+- id: 2508
   slug: fibre-turtle
   description: |-
     No ally units in play?
@@ -8405,7 +8407,7 @@
   effects: {}
   guid: cdcd74a9-158b-7117-a9c4-4732b4f7cc14
   name: Fateweaver
-- id: 2499
+- id: 2500
   slug: bennu
   description: I return to your hand if I'm on top of your grave as your turn begins
   lore: In the dance of life and death, the Benu Bird twirls, its resurrection an
