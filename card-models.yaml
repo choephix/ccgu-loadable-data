@@ -4131,6 +4131,8 @@
   type: 1
   description: Activate when an enemy unit is deployed and the opposing unit field
     is empty. Move the unit there.
+  lore: Leading wayward travelers astray, its elusive light a tantalizing
+    trickster in the twilight.
   pdc: -1
   priority: 3
   effects: {}
