@@ -2419,7 +2419,7 @@
   guid: b6b71451-926d-ece6-d0d3-0b71508871e1
   name: Galatea
   power: 8
-- id: 2492
+- id: 2428
   slug: fafnir-0
   description: |-
     Combat-Flip:
@@ -3693,7 +3693,7 @@
   guid: b3dba8a0-17b9-532b-e7ac-e4922eb429e2
   name: Flipouch
   power: 5
-- id: 2388
+- id: 2404
   slug: kamikazejoe
   description: I die after attacking
   tags:
@@ -7701,7 +7701,7 @@
   guid: 55960ff8-4bf7-401e-f4f1-984ed93f7b8f
   name: Haste Contracter
   power: 1
-- id: 2389
+- id: 2405
   slug: drawttack
   description: Every time I complete an attack, if I'm still in play, draw 1 card.
   effects: {}
