@@ -1062,16 +1062,26 @@
   description: |-
     I can only be played over Dr Jekyll
     already in play on your side
+    Discard me if Dr Jekyll is in the grave
   lore: Where control surrenders to instinct, there he thrives, baring the beast
     lurking within each man.
   tags:
     - token
     - grand
   effects:
+    active:
+      eventName: Any
+      eventStatus: ended
+      condition: |-
+        const PARTNER_NAME = 'dr-jekyll'
+        player.grave.cards
+          .some(c => c.slug === PARTNER_NAME)
+      allowedLots:
+        - hand
     overrides:
       blockDeploymentTo: "let tribute = field.topCard\r
 
-        tribute?.slug != 'jekyll'"
+        tribute?.slug != 'dr-jekyll'"
   guid: fa49b33e-53d4-3730-0c31-86dc9244ce2f
   name: Mr Hyde
   power: 12
