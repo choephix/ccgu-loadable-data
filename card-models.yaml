@@ -1217,7 +1217,7 @@
   name: Outstanding Owl
 - id: 2506
   slug: huitzilopochtli-v3
-  description: When ally unit dies, add its power to mine
+  description: When ally unit dies in combat, add its power to mine
   lore: A hummingbird's heart beating the war drum, his existence keeps darkness
     overcome.
   notes: Huītzilōpōchtli?
