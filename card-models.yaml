@@ -2355,7 +2355,7 @@
   guid: c975d9b5-3f58-30c1-1192-d8cb2d5ae481
   name: Bouncy
   power: 5
-- id: 2508
+- id: 2503
   slug: fibre-turtle
   description: |-
     No ally units in play?
@@ -2373,7 +2373,7 @@
   guid: 847fc569-a396-f9da-3422-837392c88113
   name: Fibre Turtle
   power: 7
-- id: 2503
+- id: 2508
   slug: ereshkigal
   description: +1{{power}} for each card in your graveyard
   lore: The dreaded queen of the underworld, rules over death's silent realm, her
