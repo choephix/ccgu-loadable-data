@@ -1,3 +1,28 @@
+- id: 2528
+  slug: raijin2
+  description: |-
+    +X{{power}}, X = 2 exponentiated by your energy
+    0 Energy = 1 Power
+    1 Energy = 2 Power
+    2 Energy = 4 Power
+    3 Energy = 8 power
+    and so on...
+  lore: As the heavens darken, his fury ignites, a power as raw and tempestuous as
+    the storm itself.
+  tags:
+    - grand
+  effects:
+    passive:
+      condition: "true"
+      perform: |-
+        let mul = card.lot.index
+        pass.raisePower(card, 2 ** mul)
+      allowedLots:
+        - unit-field
+        - hand
+        - grave
+  guid: 63c6f0af-4d22-cfa1-6999-386cd74e7f8f
+  name: Raijin
 - id: 2347
   slug: sparkling-ferret
   description: +1{{power}} whenever a card enters your hand
@@ -58,9 +83,10 @@
   guid: 3ee6755d-845a-f87c-fed7-9594b1e29bcd
   art: /traps/river-lethe
   name: River Lethe
-- id: 2374
+- id: 2494
   slug: all-out-johhny-v2
   description: Discard your hand when I'm played
+  notes: All Out Jenna
   status: 1
   effects:
     active:
@@ -318,14 +344,6 @@
   art: /beowulf
   power: 5
   name: Beowulf
-- id: 2056
-  slug: bennu-bird
-  lore: From ashes rises back to life, the sun-bringing fire bird, ending strife.
-  effects: {}
-  guid: 53de8275-75a6-0b72-584f-ec52a6b7a577
-  art: /benu-bird
-  power: 1
-  name: Bennu
 - id: 2127
   slug: arjuna
   lore: Guided by the divine charioteer, rides the hero in celestial gear.
@@ -342,7 +360,7 @@
   art: /alexander-nevsky
   power: 4
   name: Alexander Nevsky
-- id: 2055
+- id: 2056
   slug: zhar-ptitsa
   lore: Across realms and dreams it flits, leaving traces of sparks as it wits.
   effects: {}
@@ -511,7 +529,7 @@
   art: /hires/oshun
   power: 5
   name: Oshun
-- id: 2122
+- id: 2121
   slug: ogma
   lore: Wordsmith of the divine, his eloquent speech enchants gods and mortals alike.
   effects: {}
@@ -537,15 +555,6 @@
   art: /hires/moriarty
   power: 3
   name: Moriarty
-- id: 2097
-  slug: morgiana
-  lore: With ever watchful eyes and swift, deft steps, she turns peril into
-    salvation.
-  effects: {}
-  guid: 53de8275-75a6-0b72-584f-ec52a6b7a551
-  art: /hires/morgiana
-  power: 4
-  name: Morgiana
 - id: 2086
   slug: madame-defarge
   lore: Her knitting needles orchestrate a symphony of rebellion, each loop
@@ -564,7 +573,7 @@
   art: /hires/little-red-riding-hood
   power: 4
   name: Little Red Riding Hood
-- id: 2057
+- id: 2055
   slug: lady-macbeth
   lore: In the ominous whispers of ambition, she weaves a tapestry soaked in royal
     crimson.
@@ -682,7 +691,7 @@
   art: /hires/briar-rose
   power: 1
   name: Briar Rose
-- id: 2106
+- id: 2097
   slug: boudica
   lore: Carved from the ancient spirit of the land, she's a storm that leaves
     empires quaking
@@ -978,7 +987,7 @@
   power: 5
   name: Sigurd
   art: /sigurd
-- id: 2453
+- id: 2529
   slug: raijin
   lore: As the heavens darken, his fury ignites, a power as raw and tempestuous as
     the storm itself.
@@ -2333,7 +2342,7 @@
   name: Porcupine Spirit
   power: 1
   art: /porcupine
-- id: 2393
+- id: 2392
   slug: duelista
   description: While both player have only one unit in play each, both have +10{{power}}
   effects: {}
@@ -2848,7 +2857,7 @@
   guid: c75dbcf9-9f9a-a55f-c949-5b59b076e58a
   name: Salamander
   power: 7
-- id: 2376
+- id: 2393
   slug: time-reverser
   description: |-
     Combat-Flip:
@@ -3701,7 +3710,7 @@
         - unit-field
   guid: da1d63dc-c3a5-7c69-49c4-148a17a842e0
   name: Kamikazejoe
-  power: 2
+  power: 1
 - id: 885
   slug: unbreakable-2
   description: >-
@@ -4032,14 +4041,17 @@
   effects: {}
   guid: 3a9064a6-de2e-fcc7-a434-90545668b8c8
   name: 3a9064a6
-- id: 2423
-  slug: a8bcec64
+- id: 2453
+  slug: morgiana2
   description: +5{{power}} while the enemy has a trap here
+  lore: With ever watchful eyes and swift, deft steps, she turns peril into
+    salvation.
   notes: Jack Churchill?
   effects: {}
   guid: a8bcec64-adb7-7e49-03de-bb12bc83ea71
-  name: A8bcec64
+  name: Morgiana
   power: 2
+  art: /hires/morgiana
 - id: 1082
   slug: 78d2e0e9
   description: My power equals the amount of cards in your grave.
@@ -4092,7 +4104,7 @@
   effects: {}
   guid: 8cc4afa4-1276-5506-1c7d-aa1052afd931
   name: Drawnecro
-- id: 2508
+- id: 2490
   slug: muleta
   type: 1
   description: Force enemy unit deployed here to attack
@@ -4449,7 +4461,7 @@
   guid: c4e29441-a2d6-5d2e-e90d-67c1d4b90213
   name: Zhu Bajie
   power: 10
-- id: 2499
+- id: 2418
   slug: count-dracula
   description: -3{{power}} per other friendly unit in play
   lore: Exceptionally strong, but doesn't like crowds.
@@ -5661,7 +5673,7 @@
   guid: aae47116-0b38-c940-032b-b0ceb6723a9e
   name: Jerry
   power: 3
-- id: 2392
+- id: 2376
   slug: brain-leech-0
   description: "Safe-Flip
 
@@ -8393,11 +8405,12 @@
   effects: {}
   guid: cdcd74a9-158b-7117-a9c4-4732b4f7cc14
   name: Fateweaver
-- id: 2417
-  slug: the-benu-bird
+- id: 2499
+  slug: bennu
   description: I return to your hand if I'm on top of your grave as your turn begins
   lore: In the dance of life and death, the Benu Bird twirls, its resurrection an
     awe-inspiring spectacle of rebirth that defies the finality of the end.
+  notes: From ashes rises back to life, the sun-bringing fire bird, ending strife...
   tags:
     - sneak
   effects:
@@ -8907,14 +8920,14 @@
 - id: 2422
   slug: necropy-2
   description: |-
-    +X{{power}}, equal to the enemy grave's top card
+    +X{{power}}, equal to your grave's top card
     +0{{power}} if not a unit
   effects:
     passive:
       condition: "true"
       perform: |-
         const amount = 
-          opponent.grave.topCard?.power || 0
+          player.grave.topCard?.power || 0
         pass.raisePower(card, amount)
       allowedLots:
         - unit-field
@@ -8934,20 +8947,20 @@
   guid: 77192957-d7b3-955a-18c6-5b94ac8263f6
   name: Safe Buffer
   power: 1
-- id: 2391
+- id: 2409
   slug: spike
   description: |-
     Combat-Flip
-    -3{{hp}} to the enemy
+    -2{{hp}} to the enemy
   tags:
     - sneak
   effects:
     flip:
       manner: combat
-      perform: op.damage( opponent, 3 )
+      perform: op.damage(opponent, 2)
   guid: e4b1f6be-1494-a0b6-75da-9f33b33ae1d6
   name: Spike
-  power: 3
+  power: 1
 - id: 3699
   slug: redirect-out
   type: 1
