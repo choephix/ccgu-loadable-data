@@ -11,7 +11,7 @@
       perform: |-
         op.addTempFx(
           event.defender, 
-          tg => tg.pass.raisePower(event.defender, 2))
+          tg => tg.pass.raisePower(event.defender, 1))
       allowedLots:
         - grave
   guid: 2cbcf528-4359-b374-a54a-80733cbdcc2e
@@ -740,7 +740,7 @@
   power: 1
   name: Briar Rose
 - id: 2097
-  slug: boudica
+  slug: boudica-0.6yv23ktocqi0.k0hh9mg6x29
   lore: Carved from the ancient spirit of the land, she's a storm that leaves
     empires quaking
   effects: {}
