@@ -1,3 +1,15 @@
+- id: 2327
+  slug: highhanded-jackal
+  description: +2 to units you deploy while I'm on top of your grave
+  effects:
+    active:
+      eventName: DeployUnit
+      condition: |-
+        event.card.controller === player &&
+        player.grave.topCard === card
+      allowedLots:
+        - grave
+  guid: 2cbcf528-4359-b374-a54a-80733cbdcc2e
 - id: 2326
   slug: faithful-herd
   description: |-
@@ -1607,6 +1619,8 @@
     Boudica?
     Spartacus?
     Cú Chulainn?
+    Nathan Hale?
+    Rani Lakshmibai?
   effects:
     passive:
       allowedLots:
