@@ -1,3 +1,21 @@
+- id: 2311
+  slug: blushing-human
+  description: |-
+    +2 after I move
+    every time
+  effects:
+    active:
+      eventName: UnitRelocate
+      condition: |-
+        event.card === card &&
+        faq.isInPlay(card)
+      perform: |-
+        op.addTempFx(
+          card, tg => tg.pass.raisePower(card, 2))
+      allowedLots:
+        - unit-field
+  guid: e4a4712c-a40b-912a-5507-2def8b8a6dfd
+  power: 1
 - id: 2334
   slug: sir-breuse-sans-pite
   description: I only attack directly
