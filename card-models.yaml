@@ -2593,7 +2593,7 @@
   power: 3
 - id: 2451
   slug: jeanne-darc
-  description: +4{{power}} to adjacent ally units
+  description: +2{{power}} to adjacent ally units
   lore: A national heroine of France and a Catholic saint, Joan of Arc led the
     French army to several crucial victories during the Hundred Years' War after
     claiming to have received visions from saints.
