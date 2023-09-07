@@ -127,7 +127,7 @@
   guid: f1a7812e-96af-5d1c-e694-3fabfae6e2e5
   name: Abdul Alhazred
   art: /hires/abdul-alhazred
-- id: 2528
+- id: 2406
   slug: raijin2
   description: |-
     +X{{power}}, X = 2 exponentiated by your energy
@@ -1089,7 +1089,7 @@
   power: 5
   name: Sigurd
   art: /sigurd
-- id: 2529
+- id: 2407
   slug: raijin
   lore: As the heavens darken, his fury ignites, a power as raw and tempestuous as
     the storm itself.
@@ -2217,7 +2217,7 @@
   guid: e156e58b-3903-0196-a55c-cef515c0dcdd
   name: Selfless Sparrow
   power: 1
-- id: 2530
+- id: 2408
   slug: ada-lovelace
   description: |-
     +X{{power}}, X = 2 exponentiated by your energy
