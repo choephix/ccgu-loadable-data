@@ -1650,8 +1650,10 @@
   power: 2
   name: Elegant Walter
 - id: 2495
-  slug: witty-meerkat
+  slug: joan-of-arc
   description: +2 to allies while I am on top of your grave
+  lore: Her torch, extinguished in this world, shines brightly in the hearts of
+    the brave.
   notes: |-
     Nathan Hale?
     Boudica?
@@ -1666,7 +1668,7 @@
   guid: 00a2376c-237e-025a-b712-deb56e3352b6
   name: Jeanne d'Arc
   power: 2
-  art: /temp/she4
+  art: /joan-of-arc
 - id: 2373
   slug: mythical-hoki
   description: |-
@@ -2258,13 +2260,12 @@
   name: Horatius Cocles
   power: 1
 - id: 2466
-  slug: jeanne-hachette
+  slug: geronimo
   description: |-
     +1{{power}} to ally units
     in play
-  lore: Her courage shining like a beacon, Jeanne Hachette stands tall, inspiring
-    others to embrace valor, even against overwhelming odds.
-  notes: Robert the Bruce
+  lore: His echoes resonate in the heartland, the enduring song of defiance.
+  notes: Toussaint L'Ouverture?
   effects:
     passive:
       condition: "true"
@@ -2277,7 +2278,7 @@
         - unit-field
   art: /joan-the-hatchet
   guid: e848b4d8-311f-6eaa-e803-b3c88677863a
-  name: Jeanne Hachette
+  name: Geronimo
   power: 3
 - id: 2441
   slug: poison-apple
@@ -2593,11 +2594,10 @@
   name: Gideon
   power: 3
 - id: 2451
-  slug: jeanne-darc
+  slug: joan-the-hatchet
   description: +2{{power}} to adjacent ally units
-  lore: A national heroine of France and a Catholic saint, Joan of Arc led the
-    French army to several crucial victories during the Hundred Years' War after
-    claiming to have received visions from saints.
+  lore: Her courage shining like a beacon, Jeanne Hachette stands tall, inspiring
+    others to embrace valor, even against overwhelming odds.
   pdc: -1
   status: 2
   priority: 7
@@ -2610,9 +2610,9 @@
         }
       allowedLots:
         - unit-field
-  art: /joan-of-arc
+  art: /joan-the-hatchet
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
-  name: Jeanne D'arc
+  name: Jeanne Hachette
   power: 2
 - id: 2470
   slug: hanuman
