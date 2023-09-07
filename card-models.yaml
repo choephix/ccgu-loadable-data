@@ -1103,7 +1103,7 @@
   name: Krali Marko
   art: /krali-marko
 - id: 2446
-  slug: dr-jekyll
+  slug: jekyll
   description: |-
     9{{powered}} Lv2 token spawns in your hand when I'm played
     Only I can be the tribute for it
@@ -1145,7 +1145,7 @@
     overrides:
       blockDeploymentTo: "let tribute = field.topCard\r
 
-        tribute?.slug != 'dr-jekyll'"
+        tribute?.slug != 'jekyll'"
   guid: fa49b33e-53d4-3730-0c31-86dc9244ce2f
   name: Mr Hyde
   power: 13
