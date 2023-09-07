@@ -66,15 +66,17 @@
   power: 1
   art: /temp/she3
 - id: 2326
-  slug: faithful-herd
+  slug: mad-arab
   description: |-
     All allies auto-attack when I die
     I must die in combat
     Auto-attacks are free
+  lore: By the flickering candlelight, he communes with unthinkable horrors in
+    cryptic whispers.
   effects: {}
   guid: f1a7812e-96af-5d1c-e694-3fabfae6e2e5
-  name: faithful-herd
-  art: /temp/she2
+  name: Abdul Alhazred
+  art: /hires/abdul-alhazred
 - id: 2528
   slug: raijin2
   description: |-
@@ -797,15 +799,6 @@
   art: /hires/aglea
   power: 5
   name: Aglea
-- id: 2083
-  slug: mad-arab
-  lore: By the flickering candlelight, he communes with unthinkable horrors in
-    cryptic whispers.
-  effects: {}
-  guid: 53de8275-75a6-0b72-584f-ec52a6b7a530
-  art: /hires/abdul-alhazred
-  power: 3
-  name: Abdul Alhazred
 - id: 2323
   slug: generic4
   effects: {}
