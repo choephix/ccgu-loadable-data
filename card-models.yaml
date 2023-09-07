@@ -1,3 +1,20 @@
+- id: 2330
+  slug: $pricy-attack
+  description: -5{{hp}} for you when I attack
+  lore: A cunning imp, forever bound to his word, known for turning straw into
+    gold and names into curses.
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: event.card === card
+      perform: op.damage(player, 5)
+      allowedLots:
+        - unit-field
+  guid: b3e4bf61-fc6d-148a-ce61-9ad3fcc33bb5
+  art: /rumpelstiltskin
+  name: Rumpelstiltskin v2
+  power: 8
 - id: 2304
   slug: enthusiastic-mark
   description: I go to the enemy hand if I'm in your grave as your turn starts
@@ -8,7 +25,7 @@
   guid: bf54e1f0-eb47-ea60-9f53-8969175acd91
   power: 14
   name: enthusiastic-mark
-- id: 2329
+- id: 2339
   slug: rani-lakshmibai
   description: +1 to allies after I die
   effects:
@@ -27,7 +44,7 @@
   name: Rani Lakshmibai
   power: 3
   art: /temp/she2
-- id: 2328
+- id: 2338
   slug: boudica2
   description: +1 to units you deploy while I'm on top of your grave
   lore: Carved from the ancient spirit of the land, she's a storm that leaves
@@ -48,7 +65,7 @@
   name: Boudica
   power: 3
   art: /hires/boudica
-- id: 2327
+- id: 2337
   slug: nathan-hale
   description: +2 to units you deploy while I'm on top of your grave
   effects:
@@ -67,7 +84,7 @@
   name: Hathan Hale
   power: 1
   art: /temp/she3
-- id: 2326
+- id: 2336
   slug: mad-arab
   description: |-
     All allies auto-attack when I die
@@ -891,7 +908,7 @@
   name: Hansel
   art: /hires/hansel
   power: 4
-- id: 2363
+- id: 2345
   slug: kombinato
   description: +X{{power}}, the sum from adjacent ally units
   tags:
@@ -7527,9 +7544,9 @@
   guid: 573b5edb-f33c-4ef4-01de-9faaa0857931
   name: Cheerleader Harpy 2
   power: 4
-- id: 2463
+- id: 2329
   slug: $pricy-attack
-  description: -5{{hp}} for you when I attack
+  description: -5{{hp}} to you before I attack
   lore: A cunning imp, forever bound to his word, known for turning straw into
     gold and names into curses.
   effects:
