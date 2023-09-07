@@ -1148,7 +1148,7 @@
         tribute?.slug != 'dr-jekyll'"
   guid: fa49b33e-53d4-3730-0c31-86dc9244ce2f
   name: Mr Hyde
-  power: 12
+  power: 13
   art: /hires/hyde
 - id: 2447
   slug: c-auguste-dupin
