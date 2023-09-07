@@ -1,6 +1,21 @@
+- id: 2361
+  slug: sir-gawain
+  description: I will not attack without a foe here
+  lore: A paragon of chivalry, his deeds are woven into the vivid tapestry of
+    knightly valor.
+  pdc: -1
+  status: 2
+  priority: 8
+  effects:
+    overrides:
+      blockDeploymentTo: get.opposingUnit(field)
+  guid: 00064144-b333-3249-8dbf-72397801491f
+  art: /gawain
+  name: Sir Gawain
+  power: 6
 - id: 2330
   slug: $pricy-attack
-  description: -5{{hp}} for you when I attack
+  description: -8{{hp}} for you when I'm played
   lore: A cunning imp, forever bound to his word, known for turning straw into
     gold and names into curses.
   effects:
@@ -4788,7 +4803,7 @@
   name: Grand Traitor
   power: 14
 - id: 2478
-  slug: sir-gawain
+  slug: william-marshal
   description: I will not attack without a foe here
   lore: A paragon of chivalry, his deeds are woven into the vivid tapestry of
     knightly valor.
@@ -4803,7 +4818,7 @@
         - unit-field
   art: /gawain
   guid: 00064144-b333-3249-8dbf-72397801491f
-  name: Sir Gawain
+  name: William Marshal
   power: 8
 - id: 523
   slug: expolosive-mech
