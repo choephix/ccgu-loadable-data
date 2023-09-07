@@ -30,6 +30,8 @@
 - id: 2328
   slug: boudica2
   description: +1 to units you deploy while I'm on top of your grave
+  lore: Carved from the ancient spirit of the land, she's a storm that leaves
+    empires quaking.
   effects:
     active:
       eventName: DeployUnit
@@ -761,15 +763,6 @@
   art: /hires/briar-rose
   power: 1
   name: Briar Rose
-- id: 2341
-  slug: boudica
-  lore: Carved from the ancient spirit of the land, she's a storm that leaves
-    empires quaking
-  effects: {}
-  guid: 53de8275-75a6-0b72-584f-ec52a6b7a534
-  art: /hires/boudica
-  power: 4
-  name: Boudica
 - id: 2069
   slug: bluebeard
   lore: His chilling laughter lends an eerie resonance to each echoing step on
