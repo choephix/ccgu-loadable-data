@@ -1137,9 +1137,8 @@
       eventName: Any
       eventStatus: ended
       condition: |-
-        const PARTNER_NAME = 'dr-jekyll'
-        player.grave.cards
-          .some(c => c.slug === PARTNER_NAME)
+        const BASE = 'jekyll'
+        player.grave.cards.some(c => c.slug === BASE)
       allowedLots:
         - hand
     overrides:
