@@ -48,7 +48,7 @@
   name: Sir Gawain
   power: 6
 - id: 2329
-  slug: $pricy-attack
+  slug: $pricy-deploy
   description: -8{{hp}} for you when I'm played
   lore: A cunning imp, forever bound to his word, known for turning straw into
     gold and names into curses.
