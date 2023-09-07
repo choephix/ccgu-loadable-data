@@ -46,7 +46,7 @@
   art: /rumpelstiltskin
   name: Rumpelstiltskin v2
   power: 8
-- id: 2304
+- id: 2308
   slug: enthusiastic-mark
   description: I go to the enemy hand if I'm in your grave as your turn starts
   notes: |-
@@ -56,7 +56,7 @@
   guid: bf54e1f0-eb47-ea60-9f53-8969175acd91
   power: 14
   name: enthusiastic-mark
-- id: 2339
+- id: 2340
   slug: rani-lakshmibai
   description: +1 to allies after I die
   effects:
@@ -75,7 +75,7 @@
   name: Rani Lakshmibai
   power: 3
   art: /temp/she2
-- id: 2338
+- id: 2339
   slug: boudica2
   description: +1 to units you deploy while I'm on top of your grave
   lore: Carved from the ancient spirit of the land, she's a storm that leaves
@@ -96,7 +96,7 @@
   name: Boudica
   power: 3
   art: /hires/boudica
-- id: 2337
+- id: 2338
   slug: nathan-hale
   description: +2 to units you deploy while I'm on top of your grave
   effects:
@@ -840,28 +840,28 @@
   art: /hires/aglea
   power: 5
   name: Aglea
-- id: 2323
+- id: 2307
   slug: generic4
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a425
   art: /temp/she4
   power: 4
   name: Generic4
-- id: 2322
+- id: 2306
   slug: generic3
   effects: {}
   guid: b7bbfa47-a32a-a87f-f9b5-f0da096c4cb0
   art: /temp/she3
   power: 3
   name: Generic3
-- id: 2321
+- id: 2305
   slug: generic2
   effects: {}
   guid: cd11bc5e-b2e4-c4fe-e8aa-ae1643c9e6b4
   power: 2
   art: /temp/she2
   name: Generic2
-- id: 2320
+- id: 2304
   slug: generic1
   effects: {}
   guid: 5318668b-0ec7-8803-e561-44108ff70063
@@ -1962,7 +1962,7 @@
   name: Grendel
   art: /grendel
   power: 3
-- id: 2414
+- id: 2335
   slug: spatial-pygmy
   description: The moment there is no enemy here I return to the hand
   effects:
@@ -7811,7 +7811,7 @@
   guid: 55960ff8-4bf7-401e-f4f1-984ed93f7b8f
   name: Haste Contracter
   power: 1
-- id: 2405
+- id: 2374
   slug: harun-al-rashid
   description: |-
     Draw a card after my attack
@@ -8733,7 +8733,7 @@
   guid: 6f150a04-f054-88fa-e6a8-982f43e03832
   name: Harsh Fred
   power: 2
-- id: 2386
+- id: 2326
   slug: zig
   description: At the beginning of your turn if a card named @zag is in your
     graveyard - add it to your hand.
@@ -8741,7 +8741,7 @@
   guid: 1978d04a-dacb-fdaa-01c3-e09c8cd3bf69
   name: Zig
   power: 2
-- id: 2385
+- id: 2325
   slug: zag
   description: At the beginning of your turn if a card named @zig is in your
     graveyard - add it to your hand.
