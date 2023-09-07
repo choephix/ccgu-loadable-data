@@ -12,7 +12,7 @@
         - unit-field
   guid: 00064144-b333-3249-8dbf-72397801491f
   art: /gawain
-  name: Mordred
+  name: Sir Breuse Sans Pite
   power: 7
 - id: 2333
   slug: sir-gawain
@@ -29,7 +29,7 @@
   art: /gawain
   name: Sir Gawain
   power: 6
-- id: 2330
+- id: 2329
   slug: $pricy-attack
   description: -8{{hp}} for you when I'm played
   lore: A cunning imp, forever bound to his word, known for turning straw into
@@ -7578,7 +7578,7 @@
   guid: 573b5edb-f33c-4ef4-01de-9faaa0857931
   name: Cheerleader Harpy 2
   power: 4
-- id: 2329
+- id: 2328
   slug: $pricy-attack
   description: -5{{hp}} to you before I attack
   lore: A cunning imp, forever bound to his word, known for turning straw into
