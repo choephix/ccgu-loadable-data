@@ -8,7 +8,7 @@
   priority: 8
   effects:
     overrides:
-      blockDeploymentTo: get.opposingUnit(field)
+      blockDeploymentTo: "!get.opposingUnit(field)"
   guid: 00064144-b333-3249-8dbf-72397801491f
   art: /gawain
   name: Sir Gawain
