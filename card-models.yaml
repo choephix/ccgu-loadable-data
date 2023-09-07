@@ -1,3 +1,16 @@
+- id: 2334
+  slug: mordred
+  description: I only attack directly
+  pdc: -1
+  status: 2
+  priority: 8
+  effects:
+    overrides:
+      blockDeploymentTo: "!get.opposingUnit(field)"
+  guid: 00064144-b333-3249-8dbf-72397801491f
+  art: /gawain
+  name: Mordred
+  power: 6
 - id: 2333
   slug: sir-gawain
   description: I will not attack without a foe here
@@ -4807,6 +4820,9 @@
   description: I will not attack without a foe here
   lore: A paragon of chivalry, his deeds are woven into the vivid tapestry of
     knightly valor.
+  notes: |-
+    Sir Galahad?
+    Might be cool to have them all arthurian
   pdc: -1
   status: 2
   priority: 8
