@@ -1,3 +1,12 @@
+- id: 2330
+  slug: enthusiastic-mark
+  description: I go to the enemy hand if I'm in your grave as your turn starts
+  notes: |-
+    Too risky?
+    Enemy will always have him once he dies.
+  effects: {}
+  guid: bf54e1f0-eb47-ea60-9f53-8969175acd91
+  power: 14
 - id: 2329
   slug: rani-lakshmibai
   description: +1 to allies after I die
