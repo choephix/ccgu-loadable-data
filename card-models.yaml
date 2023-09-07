@@ -6,6 +6,7 @@
   effects:
     active:
       eventName: UnitRelocate
+      eventStatus: ended
       condition: |-
         event.card === card &&
         faq.isInPlay(card)
