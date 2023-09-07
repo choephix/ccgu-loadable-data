@@ -34,7 +34,7 @@
   power: 7
 - id: 2333
   slug: sir-gawain
-  description: I will not attack without a foe here
+  description: I can only be played against a foe
   lore: A paragon of chivalry, his deeds are woven into the vivid tapestry of
     knightly valor.
   pdc: -1
