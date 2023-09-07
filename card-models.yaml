@@ -1,6 +1,6 @@
 - id: 2513
   slug: famous-brian2
-  description: I can only be played while you have no other cards in hand
+  description: I must be your only card in hand to deploy me
   effects:
     overrides:
       blockDeploymentTo: player.hand.cards.some(c => c !== card)
@@ -1754,7 +1754,7 @@
   name: Mythical Hoki
 - id: 2512
   slug: famous-brian
-  description: I can only be played while you have no other units
+  description: You must have no other units in play to deploy me
   effects:
     overrides:
       blockDeploymentTo: player.units.length > 0
