@@ -1,3 +1,12 @@
+- id: 2513
+  slug: famous-brian2
+  description: I can only be played while you have no other cards in hand
+  effects:
+    overrides:
+      blockDeploymentTo: player.hand.cards.some(c => c !== card)
+  guid: 0bf83fa5-e3bb-7bca-f0a3-56c94d85014b
+  power: 8
+  name: Famous Brian
 - id: 2311
   slug: blushing-human
   description: |-
@@ -17,6 +26,7 @@
         - unit-field
   guid: e4a4712c-a40b-912a-5507-2def8b8a6dfd
   power: 1
+  name: blushing-human
 - id: 2334
   slug: sir-breuse-sans-pite
   description: I only attack directly
@@ -1742,9 +1752,9 @@
         - unit-field
   guid: 1f3367be-04db-e6bb-c2cb-2f4cb0af2818
   name: Mythical Hoki
-- id: 2502
+- id: 2512
   slug: famous-brian
-  description: I can only be played while you have no other cards
+  description: I can only be played while you have no other units
   effects:
     overrides:
       blockDeploymentTo: player.units.length > 0
