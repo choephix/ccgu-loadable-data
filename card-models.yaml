@@ -6,7 +6,7 @@
       blockDeploymentTo: player.hand.cards.some(c => c !== card)
   guid: 0bf83fa5-e3bb-7bca-f0a3-56c94d85014b
   power: 8
-  name: Famous Brian
+  name: Famous Brian X
 - id: 2311
   slug: blushing-human
   description: |-
