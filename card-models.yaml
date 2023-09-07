@@ -685,15 +685,6 @@
   art: /hires/hasan-of-basra
   power: 2
   name: Hasan of Basra
-- id: 2085
-  slug: harun-al-rashid
-  lore: His court, a beacon of enlightenment, where knowledge flows freely,
-    irrigating the thirsty fields of human intellect.
-  effects: {}
-  guid: 53de8275-75a6-0b72-584f-ec52a6b7a542
-  art: /hires/harun-al-rasahid
-  power: 3
-  name: Harun Al Rashid
 - id: 2101
   slug: guillaume-d-orange
   lore: His name, a song of bravery, echoes in every warrior's heart pledging
@@ -2501,6 +2492,7 @@
   slug: fafnir-0
   description: |-
     Combat-Flip:
+    Kill enemy unit here
     Destroy opposing creature and take damage equal to its power.
   lore: Fafnir, a dwarf turned dragon, was killed by Sigurd, but his blood also
     caused Sigurd's eventual death.
@@ -3143,7 +3135,7 @@
         - unit-field
   guid: b9184642-b505-f7e6-c6c7-71c4e84a7065
   name: Knightmare Shield
-  power: 4
+  power: 3
 - id: 2370
   slug: knightmare-sword
   description: |-
@@ -3176,7 +3168,7 @@
         - unit-field
   guid: b9184642-b505-f7e6-c6c7-71c4e84a7065
   name: Knightmare Sword
-  power: 4
+  power: 3
 - id: 8
   slug: --sepuku
   effects:
@@ -7780,12 +7772,24 @@
   name: Haste Contracter
   power: 1
 - id: 2405
-  slug: drawttack
-  description: Every time I complete an attack, if I'm still in play, draw 1 card.
-  effects: {}
+  slug: harun-al-rashid
+  description: |-
+    Draw a card after my attack
+    if I'm still in play
+  lore: His court, a beacon of enlightenment, where knowledge flows freely,
+    irrigating the thirsty fields of human intellect.
+  effects:
+    active:
+      eventName: UnitAttack
+      eventStatus: ended
+      condition: event.card === card
+      perform: op.draw(player)
+      allowedLots:
+        - unit-field
   guid: d3652985-d44b-8bc4-a4af-e6be3f556199
-  name: Drawttack
-  power: 2
+  name: Harun al-Rashid
+  power: 3
+  art: /hires/harun-al-rasahid
 - id: 3606
   slug: traitor
   description: At the begnning of your turn if there is no opposing enemy
