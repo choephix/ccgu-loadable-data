@@ -1664,7 +1664,7 @@
       allowedLots:
         - grave
   guid: 00a2376c-237e-025a-b712-deb56e3352b6
-  name: Witty Meerkat
+  name: Jeanne d'Arc
   power: 2
   art: /temp/she4
 - id: 2373
@@ -2264,6 +2264,7 @@
     in play
   lore: Her courage shining like a beacon, Jeanne Hachette stands tall, inspiring
     others to embrace valor, even against overwhelming odds.
+  notes: Robert the Bruce
   effects:
     passive:
       condition: "true"
