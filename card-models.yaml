@@ -1,8 +1,6 @@
 - id: 2334
   slug: mordred
   description: I only attack directly
-  lore: A paragon of chivalry, his deeds are woven into the vivid tapestry of
-    knightly valor.
   pdc: -1
   status: 2
   priority: 8
