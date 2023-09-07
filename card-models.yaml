@@ -1,12 +1,17 @@
 - id: 2334
   slug: mordred
   description: I only attack directly
+  lore: A paragon of chivalry, his deeds are woven into the vivid tapestry of
+    knightly valor.
   pdc: -1
   status: 2
   priority: 8
   effects:
-    overrides:
-      blockDeploymentTo: "!get.opposingUnit(field)"
+    passive:
+      condition: get.opposingUnit( card )
+      perform: pass.addTag(card, Tag.NOATTACK)
+      allowedLots:
+        - unit-field
   guid: 00064144-b333-3249-8dbf-72397801491f
   art: /gawain
   name: Mordred
