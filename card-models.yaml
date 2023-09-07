@@ -749,7 +749,7 @@
   art: /hires/briar-rose
   power: 1
   name: Briar Rose
-- id: 2097
+- id: 2341
   slug: boudica
   lore: Carved from the ancient spirit of the land, she's a storm that leaves
     empires quaking
@@ -1654,13 +1654,6 @@
   description: +2 to allies while I am on top of your grave
   lore: Her torch, extinguished in this world, shines brightly in the hearts of
     the brave.
-  notes: |-
-    Nathan Hale?
-    Boudica?
-    Spartacus?
-    Cú Chulainn?
-    Nathan Hale?
-    Rani Lakshmibai?
   effects:
     passive:
       allowedLots:
