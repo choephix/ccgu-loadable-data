@@ -1,4 +1,4 @@
-- id: 2330
+- id: 2304
   slug: enthusiastic-mark
   description: I go to the enemy hand if I'm in your grave as your turn starts
   notes: |-
@@ -7,6 +7,7 @@
   effects: {}
   guid: bf54e1f0-eb47-ea60-9f53-8969175acd91
   power: 14
+  name: enthusiastic-mark
 - id: 2329
   slug: rani-lakshmibai
   description: +1 to allies after I die
