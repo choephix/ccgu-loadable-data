@@ -7528,7 +7528,7 @@
   name: Cheerleader Harpy 2
   power: 4
 - id: 2463
-  slug: rumpelstiltskin
+  slug: $pricy-attack
   description: -5{{hp}} for you when I attack
   lore: A cunning imp, forever bound to his word, known for turning straw into
     gold and names into curses.
