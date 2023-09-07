@@ -1,3 +1,11 @@
+- id: 2544
+  slug: sawdustish-jerboa
+  description: Players discard their hands when I die.
+  tags:
+    - grand
+  effects: {}
+  guid: 343ead69-d7f7-fa83-a2f3-6b5289f07b9d
+  power: 9
 - id: 2513
   slug: famous-brian2
   description: I must be your only card in hand to deploy me
