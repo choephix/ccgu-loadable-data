@@ -98,7 +98,7 @@
   art: /rumpelstiltskin
   name: Rumpelstiltskin v2
   power: 8
-- id: 2308
+- id: 2309
   slug: enthusiastic-mark
   description: I go to the enemy hand if I'm in your grave as your turn starts
   notes: |-
@@ -772,7 +772,7 @@
   art: /hires/kai
   power: 1
   name: Kai
-- id: 2179
+- id: 2147
   slug: jengu-sawa
   lore: Amidst the river's melodious flow, they dance, their frolic carrying the
     rhythm of healing and prosperity."
