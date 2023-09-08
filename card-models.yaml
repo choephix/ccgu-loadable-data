@@ -40,7 +40,7 @@
   effects: {}
   guid: a6a58c63-d0fe-6a7f-d55c-77406c8b17ce
   name: reversible-squamata
-- id: 2373
+- id: 2375
   slug: $mass-discardo
   description: |-
     Players discard their hands when I die.
@@ -51,7 +51,7 @@
   guid: 343ead69-d7f7-fa83-a2f3-6b5289f07b9d
   power: 9
   name: "REDACTED #11"
-- id: 2528
+- id: 2389
   slug: $only-one-in-hand
   description: I must be your only card in hand to deploy me
   effects:
@@ -1809,7 +1809,7 @@
         - unit-field
   guid: 1f3367be-04db-e6bb-c2cb-2f4cb0af2818
   name: Mythical Hoki
-- id: 2512
+- id: 2373
   slug: $only-one-in-play
   description: You must have no other units in play to deploy me
   effects:
