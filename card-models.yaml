@@ -13,7 +13,9 @@
   guid: a6a58c63-d0fe-6a7f-d55c-77406c8b17ce
 - id: 2544
   slug: sawdustish-jerboa
-  description: Players discard their hands when I die.
+  description: |-
+    Players discard their hands when I die.
+    Both you and the enemy
   tags:
     - grand
   effects: {}
