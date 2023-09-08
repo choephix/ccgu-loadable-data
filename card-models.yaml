@@ -979,6 +979,7 @@
 - id: 2345
   slug: kombinato
   description: +X{{power}}, the sum from adjacent ally units
+  notes: Effect broken by bug!
   tags:
     - grand
   effects:
