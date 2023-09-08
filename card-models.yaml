@@ -2254,7 +2254,7 @@
   power: 4
   art: /cuchulainn
 - id: 2478
-  slug: will-o-the-wisp2
+  slug: will-o-the-wisp
   description: |-
     Move enemy unit here when deployed anywhere
     if possible
@@ -4326,7 +4326,7 @@
   guid: bdaf0351-9f2b-859c-d4e7-7b35dcae8645
   name: Muleta
 - id: 2382
-  slug: will-o-the-wisp
+  slug: will-o-the-wisp2
   type: 1
   description: |-
     Move enemy unit here when deployed anywhere
