@@ -34,7 +34,8 @@
         - unit-field
   guid: e4a4712c-a40b-912a-5507-2def8b8a6dfd
   power: 1
-  name: blushing-human
+  name: "REDACTED #1"
+  art: /temp/she5
 - id: 2334
   slug: sir-breuse-sans-pite
   description: I only attack directly
@@ -265,7 +266,7 @@
       allowedLots:
         - unit-field
   guid: cb795b5c-f241-e904-0fe7-1394d217b4a1
-  name: All Out Johhny v2
+  name: "REDACTED #2"
   power: 7
   art: /temp/she1
 - id: 2458
@@ -976,7 +977,7 @@
   name: Hansel
   art: /hires/hansel
   power: 4
-- id: 2345
+- id: 2313
   slug: kombinato
   description: +X{{power}}, the sum from adjacent ally units
   notes: Effect broken by bug!
@@ -1066,7 +1067,7 @@
 - id: 2350
   slug: crowded-justin
   description: |-
-    Enemy draws 1 cards
+    Enemy draws 2 cards
     when I'm played
   effects:
     active:
@@ -2438,7 +2439,7 @@
         - hand
         - grave
   guid: 847fc569-a396-f9da-3422-837392c88113
-  name: Fibre Turtle
+  name: "REDACTED #10"
   power: 7
 - id: 2508
   slug: ereshkigal
@@ -7497,7 +7498,7 @@
   guid: e15e6908-0326-2866-ff73-f17594272af3
   name: Token Pooper
   power: 4
-- id: 2314
+- id: 2345
   slug: achilles
   description: +1 every time an ally dies
   lore: He mourns not in silence, but in thunderous fury, his sorrow echoing
