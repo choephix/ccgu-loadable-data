@@ -8656,7 +8656,7 @@
   effects: {}
   guid: cdcd74a9-158b-7117-a9c4-4732b4f7cc14
   name: Fateweaver
-- id: 2500
+- id: 2492
   slug: bennu
   description: I return to your hand if I'm on top of your grave as your turn begins
   lore: In the dance of life and death, the Benu Bird twirls, its resurrection an
@@ -9198,7 +9198,7 @@
   guid: 77192957-d7b3-955a-18c6-5b94ac8263f6
   name: Safe Buffer
   power: 1
-- id: 2492
+- id: 2494
   slug: $spike
   description: |-
     Combat-Flip
