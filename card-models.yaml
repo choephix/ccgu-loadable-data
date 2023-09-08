@@ -275,7 +275,7 @@
   effects:
     active:
       eventName: UnitAttack
-      eventStatus: began
+      eventStatus: ended
       condition: event.card === get.opposingUnit(card)
       perform: |-
         op.draw(player)
