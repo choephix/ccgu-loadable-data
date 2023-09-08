@@ -251,7 +251,7 @@
   art: /traps/river-lethe
   name: River Lethe
 - id: 2370
-  slug: all-out-johhny-v2
+  slug: $all-out-johhny-a
   description: Discard your hand when I'm played
   notes: All Out Jenna
   status: 1
@@ -5324,7 +5324,7 @@
   name: Immortal Bob
   power: 4
 - id: 2386
-  slug: all-out-johhny
+  slug: $all-out-johhny-b
   description: Discard your hand as your turn ends
   status: 1
   effects:
@@ -9084,7 +9084,7 @@
   name: Tricky Shield
   power: 7
 - id: 2371
-  slug: necropy-2
+  slug: $necropy-2
   description: |-
     +X{{power}}, equal to your grave's top card
     +0{{power}} if not a unit
