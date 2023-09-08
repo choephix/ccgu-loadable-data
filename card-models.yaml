@@ -9,8 +9,8 @@
     passive:
       condition: "true"
       perform: |-
-        player.units.forEach( unit => 
-          pass.addTag( unit, Tag.SWAPPER ) )
+        const all = [...player.units, opponent.units]
+        all.forEach(u => pass.addTag(u, Tag.SWAPPER))
       allowedLots:
         - unit-field
   guid: 19fe6c19-e34d-8ca6-92fc-798133db3662
