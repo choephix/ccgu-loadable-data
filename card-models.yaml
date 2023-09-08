@@ -2716,10 +2716,12 @@
   name: Marvellous Koi
   power: 1
 - id: 2493
-  slug: gideon
+  slug: gideon2
   description: +3{{power}} during enemy turn
   lore: From a wellspring of faith amidst weakness and poverty, Gideon summons
     strength, his spirit shining brightly in the darkest of trials.
+  tags:
+    - sneak
   effects:
     passive:
       condition: get.currentPlayer === opponent
