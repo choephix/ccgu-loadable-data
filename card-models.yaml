@@ -4,30 +4,7 @@
     - rush
   effects: {}
   guid: 45f5588b-4b20-155b-63bd-e9de7b9c9e62
-- id: 2413
-  slug: will-o-the-wisp2
-  description: |-
-    Move enemy unit here when deployed anywhere
-    if possible
-  lore: Leading wayward travelers astray, its elusive light a tantalizing
-    trickster in the twilight.
-  tags:
-    - global
-  pdc: -1
-  priority: 3
-  effects:
-    active:
-      eventName: DeployUnit
-      eventStatus: ended
-      condition: |-
-        event.card.player === opponent &&
-        !get.opposingUnitField(card).hasCards
-      perform: |-
-        const dest = get.opposingUnitField(card)
-        op.moveTo(event.card, dest)
-  guid: ecf87384-4b2b-ceed-ffb1-c510eea1a14e
-  name: Will O' the Wisp
-  power: 1
+  name: $zero-rush
 - id: 2376
   slug: $steal-with-unit
   type: 1
@@ -54,6 +31,7 @@
   description: Kill enemy unit deployed here, but take damage equal to its powe
   effects: {}
   guid: b59fa89c-4197-eff8-8bef-e90198dd3dbe
+  name: lucky-randy
 - id: 2328
   slug: reversible-squamata
   type: 1
@@ -61,6 +39,7 @@
   notes: Renders both ring of gyges and nemesis stike useless!
   effects: {}
   guid: a6a58c63-d0fe-6a7f-d55c-77406c8b17ce
+  name: reversible-squamata
 - id: 2373
   slug: $mass-discardo
   description: |-
@@ -2274,7 +2253,7 @@
   name: Cu Chulainn
   power: 4
   art: /cuchulainn
-- id: 2412
+- id: 2397
   slug: will-o-the-wisp2
   description: |-
     Move enemy unit here when deployed anywhere
