@@ -67,7 +67,7 @@
   art: /gawain
   name: Sir Gawain
   power: 6
-- id: 2329
+- id: 2402
   slug: $pricy-deploy
   description: -8{{hp}} for you when I'm played
   lore: A cunning imp, forever bound to his word, known for turning straw into
@@ -1576,7 +1576,7 @@
   name: Anansi
   power: 3
   art: /anansi
-- id: 2401
+- id: 2417
   slug: hervor
   lore: Amidst spectres, she walks, her courage casting ripples in the echoing
     silence.
@@ -7618,7 +7618,7 @@
   guid: 573b5edb-f33c-4ef4-01de-9faaa0857931
   name: Cheerleader Harpy 2
   power: 4
-- id: 2328
+- id: 2401
   slug: $pricy-attack
   description: -5{{hp}} to you before I attack
   lore: A cunning imp, forever bound to his word, known for turning straw into
