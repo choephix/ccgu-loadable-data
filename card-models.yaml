@@ -2462,9 +2462,7 @@
   power: 5
 - id: 2374
   slug: $soft-grand
-  description: |-
-    No ally units in play?
-    I do not require a sacrifice then.
+  description: I do not require a sacrifice while no allies are in play
   tags:
     - grand
   effects:
@@ -2768,11 +2766,9 @@
 - id: 2377
   slug: $steal-with-blood
   type: 1
-  description: >-
-    When opposing enemy unit is deployed: Take damage equal to its power, but
-    also move it to your side.
-
-    You must have no unit here.
+  description: |-
+    Steal enemy unit deployed here, but take damage equal to its power
+    You must have no unit here
   pdc: -1
   priority: 3
   effects:
