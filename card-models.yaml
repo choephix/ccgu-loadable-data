@@ -1,4 +1,4 @@
-- id: 2344
+- id: 2399
   slug: $zero-rush
   tags:
     - rush
@@ -4744,7 +4744,7 @@
   name: Vampirefang
   power: 2
 - id: 2398
-  slug: spearhead
+  slug: $spearhead
   tags:
     - piercing
   pdc: -1
