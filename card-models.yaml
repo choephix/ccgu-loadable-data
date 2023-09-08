@@ -1328,7 +1328,7 @@
   power: 2
 - id: 2419
   slug: kobold
-  description: "Combat-Flip: Set enemy {{ap}} to 0"
+  description: "Combat-Flip: Set enemy{{ap}} to 0"
   lore: In mines deep, or aboard sea-bound ships, playful menace always upon his
     lips.
   tags:
