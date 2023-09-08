@@ -1,3 +1,16 @@
+- id: 2329
+  slug: lucky-randy
+  type: 1
+  description: Kill enemy unit deployed here, but take damage equal to its powe
+  effects: {}
+  guid: b59fa89c-4197-eff8-8bef-e90198dd3dbe
+- id: 2328
+  slug: reversible-squamata
+  type: 1
+  description: Kill enemy unit attacking here, but take damage equal to its power
+  notes: Renders both ring of gyges and nemesis stike useless!
+  effects: {}
+  guid: a6a58c63-d0fe-6a7f-d55c-77406c8b17ce
 - id: 2544
   slug: sawdustish-jerboa
   description: Players discard their hands when I die.
@@ -6,6 +19,7 @@
   effects: {}
   guid: 343ead69-d7f7-fa83-a2f3-6b5289f07b9d
   power: 9
+  name: sawdustish-jerboa
 - id: 2513
   slug: famous-brian2
   description: I must be your only card in hand to deploy me
