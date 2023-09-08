@@ -4,7 +4,7 @@
     - rush
   effects: {}
   guid: 45f5588b-4b20-155b-63bd-e9de7b9c9e62
-- id: 2383
+- id: 2413
   slug: will-o-the-wisp2
   description: |-
     Move enemy unit here when deployed anywhere
@@ -72,15 +72,15 @@
   guid: 343ead69-d7f7-fa83-a2f3-6b5289f07b9d
   power: 9
   name: "REDACTED #11"
-- id: 2513
-  slug: famous-brian2
+- id: 2528
+  slug: $only-one-in-hand
   description: I must be your only card in hand to deploy me
   effects:
     overrides:
       blockDeploymentTo: player.hand.cards.some(c => c !== card)
   guid: 0bf83fa5-e3bb-7bca-f0a3-56c94d85014b
   power: 8
-  name: Famous Brian X
+  name: "REDACTED #6B"
 - id: 2369
   slug: $grow-on-move
   description: |-
@@ -1831,14 +1831,14 @@
   guid: 1f3367be-04db-e6bb-c2cb-2f4cb0af2818
   name: Mythical Hoki
 - id: 2512
-  slug: famous-brian
+  slug: $only-one-in-play
   description: You must have no other units in play to deploy me
   effects:
     overrides:
       blockDeploymentTo: player.units.length > 0
   guid: 0bf83fa5-e3bb-7bca-f0a3-56c94d85014b
   power: 8
-  name: Famous Brian
+  name: "REDACTED #6A"
 - id: 62
   slug: --grave-filler3
   effects:
@@ -2274,7 +2274,7 @@
   name: Cu Chulainn
   power: 4
   art: /cuchulainn
-- id: 2497
+- id: 2412
   slug: will-o-the-wisp2
   description: |-
     Move enemy unit here when deployed anywhere
@@ -2296,7 +2296,7 @@
         - unit-field
   guid: c234e201-18a9-99f7-377d-69606c728a40
   name: Will O' the Wisp
-  power: 3
+  power: 1
   art: /wisp
 - id: 2480
   slug: selfless-sparrow
@@ -2567,7 +2567,7 @@
   effects: {}
   guid: c46378a8-85b1-e150-b4b6-27a04f01e319
   name: the Manananggal
-- id: 2413
+- id: 2428
   slug: diomedes
   description: -1{{power}} to all enemy units
   lore: With a warrior's heart and an unyielding spirit, Diomedes strikes fear
