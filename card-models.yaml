@@ -1,3 +1,33 @@
+- id: 2344
+  slug: $zero-rush
+  tags:
+    - rush
+  effects: {}
+  guid: 45f5588b-4b20-155b-63bd-e9de7b9c9e62
+- id: 2383
+  slug: will-o-the-wisp2
+  description: |-
+    Move enemy unit here when deployed anywhere
+    if possible
+  lore: Leading wayward travelers astray, its elusive light a tantalizing
+    trickster in the twilight.
+  tags:
+    - global
+  pdc: -1
+  priority: 3
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: |-
+        event.card.player === opponent &&
+        !get.opposingUnitField(card).hasCards
+      perform: |-
+        const dest = get.opposingUnitField(card)
+        op.moveTo(event.card, dest)
+  guid: ecf87384-4b2b-ceed-ffb1-c510eea1a14e
+  name: Will O' the Wisp
+  power: 1
 - id: 2376
   slug: $steal-with-unit
   type: 1
@@ -4319,13 +4349,25 @@
 - id: 2382
   slug: will-o-the-wisp
   type: 1
-  description: Activate when an enemy unit is deployed and the opposing unit field
-    is empty. Move the unit there.
+  description: |-
+    Move enemy unit here when deployed anywhere else
+    if possible
   lore: Leading wayward travelers astray, its elusive light a tantalizing
     trickster in the twilight.
+  tags:
+    - global
   pdc: -1
   priority: 3
-  effects: {}
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: |-
+        event.card.player === opponent &&
+        !get.opposingUnitField(card).hasCards
+      perform: |-
+        const dest = get.opposingUnitField(card)
+        op.moveTo(event.card, dest)
   guid: ecf87384-4b2b-ceed-ffb1-c510eea1a14e
   name: Will O' the Wisp
 - id: 898
