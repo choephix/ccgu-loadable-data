@@ -1,3 +1,21 @@
+- id: 2362
+  slug: loki
+  description: |-
+    All units gain #swapper 
+    while I'm in play
+  tags:
+    - grand
+  effects:
+    passive:
+      condition: "true"
+      perform: |-
+        player.units.forEach( unit => 
+          pass.addTag( unit, Tag.SWAPPER ) )
+      allowedLots:
+        - unit-field
+  guid: 19fe6c19-e34d-8ca6-92fc-798133db3662
+  name: Loki
+  power: 5
 - id: 2399
   slug: $zero-rush
   tags:
@@ -112,7 +130,7 @@
   art: /gawain
   name: Sir Gawain
   power: 6
-- id: 2402
+- id: 2387
   slug: $pricy-deploy
   description: -8{{hp}} for you when I'm played
   lore: A cunning imp, forever bound to his word, known for turning straw into
@@ -1791,7 +1809,7 @@
   name: Jeanne d'Arc
   power: 2
   art: /joan-of-arc
-- id: 2388
+- id: 2397
   slug: mythical-hoki
   description: |-
     +X{{ap}} equal to the enemy's numeric superiority
@@ -3180,7 +3198,7 @@
   guid: 2c064020-07e5-d2da-ed69-734025104d9f
   name: Br'er Rabbit
   power: 3
-- id: 2387
+- id: 2383
   slug: flashforward
   description: When I am summoned, you draw 2 cards and the enemy draws 3 cards.
   effects: {}
@@ -3785,7 +3803,9 @@
   power: 10
 - id: 2368
   slug: loki-/-merlin
-  description: "All ally units gain #swapper while I am in play."
+  description: |-
+    All ally units gain #swapper
+    while I'm in play
   tags:
     - grand
   effects:
@@ -7683,7 +7703,7 @@
   guid: 573b5edb-f33c-4ef4-01de-9faaa0857931
   name: Cheerleader Harpy 2
   power: 4
-- id: 2401
+- id: 2388
   slug: $pricy-attack
   description: -5{{hp}} to you before I attack
   lore: A cunning imp, forever bound to his word, known for turning straw into
