@@ -17,6 +17,7 @@
         const cardB = get.sameLaneUnit(card)
         op.forceSwap(cardA, cardB)
   guid: c27322f1-17a5-cb53-c4b8-1b602e73bbd0
+  name: "REDACTED #91"
 - id: 2329
   slug: lucky-randy
   type: 1
@@ -30,7 +31,7 @@
   notes: Renders both ring of gyges and nemesis stike useless!
   effects: {}
   guid: a6a58c63-d0fe-6a7f-d55c-77406c8b17ce
-- id: 2375
+- id: 2373
   slug: $mass-discardo
   description: |-
     Players discard their hands when I die.
@@ -2601,7 +2602,7 @@
   guid: b6b71451-926d-ece6-d0d3-0b71508871e1
   name: Galatea
   power: 8
-- id: 2372
+- id: 2365
   slug: fafnir-0
   description: |-
     Combat-Flip:
@@ -2783,7 +2784,7 @@
         const myField = get.sameLaneUnitField(card)
         op.moveTo(event.card, myField)
   guid: ecf87384-4b2b-ceed-ffb1-c510eea1a14e
-  name: Costly Indoctronation
+  name: "REDACTED #92"
 - id: 2380
   slug: cookable-mammal
   type: 1
@@ -7234,13 +7235,13 @@
   guid: 9228b01a-6cc0-83c0-78df-1d377137b0b8
   name: Overly Excited Tim
   power: 7
-- id: 2373
-  slug: rz6p0r
-  description: After I attack the enemy directly, I am destroyed.
+- id: 2372
+  slug: $die-on-enemy-damage
+  description: I die once the enemy takes damage
   effects: {}
   guid: 7ee79cb2-1be0-9ebd-ae6f-c788563f701d
   name: "REDACTED #5"
-  power: 6
+  power: 7
   art: /temp/she5
 - id: 3283
   slug: problematic-sam
