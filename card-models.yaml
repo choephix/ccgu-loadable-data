@@ -1204,7 +1204,7 @@
   power: 10
   art: /raijin
   name: Raijin
-- id: 2177
+- id: 2176
   slug: camazotz
   lore: Under the cloak of darkness, the bat god swoops, an embodiment of primal
     fears.
@@ -1217,7 +1217,7 @@
   power: 10
   name: Camazotz
   art: /camazotz
-- id: 2176
+- id: 2177
   slug: angra-mainyu
   lore: His essence, a chilling wind tearing through creation, a herald of eternal
     night.
