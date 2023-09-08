@@ -15,7 +15,7 @@
   guid: 0bf83fa5-e3bb-7bca-f0a3-56c94d85014b
   power: 8
   name: Famous Brian X
-- id: 2311
+- id: 2369
   slug: blushing-human
   description: |-
     +2 after I move
@@ -35,7 +35,7 @@
   guid: e4a4712c-a40b-912a-5507-2def8b8a6dfd
   power: 1
   name: "REDACTED #1"
-  art: /temp/she5
+  art: /temp/she1
 - id: 2334
   slug: sir-breuse-sans-pite
   description: I only attack directly
@@ -250,7 +250,7 @@
   guid: 3ee6755d-845a-f87c-fed7-9594b1e29bcd
   art: /traps/river-lethe
   name: River Lethe
-- id: 2494
+- id: 2370
   slug: all-out-johhny-v2
   description: Discard your hand when I'm played
   notes: All Out Jenna
@@ -266,9 +266,9 @@
       allowedLots:
         - unit-field
   guid: cb795b5c-f241-e904-0fe7-1394d217b4a1
-  name: "REDACTED #2"
+  name: "REDACTED #2A"
   power: 7
-  art: /temp/she1
+  art: /temp/she2
 - id: 2458
   slug: thunderstones
   type: 1
@@ -1744,7 +1744,7 @@
   name: Jeanne d'Arc
   power: 2
   art: /joan-of-arc
-- id: 2373
+- id: 2388
   slug: mythical-hoki
   description: |-
     +X{{ap}} equal to the enemy's numeric superiority
@@ -2423,7 +2423,7 @@
   guid: c975d9b5-3f58-30c1-1192-d8cb2d5ae481
   name: Bouncy
   power: 5
-- id: 2503
+- id: 2374
   slug: fibre-turtle
   description: |-
     No ally units in play?
@@ -2441,6 +2441,7 @@
   guid: 847fc569-a396-f9da-3422-837392c88113
   name: "REDACTED #10"
   power: 7
+  art: /temp/she6
 - id: 2508
   slug: ereshkigal
   description: +1{{power}} for each card in your graveyard
@@ -2565,7 +2566,7 @@
   guid: b6b71451-926d-ece6-d0d3-0b71508871e1
   name: Galatea
   power: 8
-- id: 2428
+- id: 2372
   slug: fafnir-0
   description: |-
     Combat-Flip:
@@ -2586,9 +2587,9 @@
           op.kill(foe)
           op.damage(player, hpcost)
         }
-  art: /fafnir
+  art: /temp/she4
   guid: bb757a5a-ddfa-73e6-9da0-0526faf78c3e
-  name: Fafnir
+  name: "REDACTED #4"
   power: 1
 - id: 2438
   slug: nyx
@@ -3057,7 +3058,7 @@
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   name: Ajax the Great
   power: 4
-- id: 2390
+- id: 2405
   slug: geinhildr
   description: +1{{power}} per ANY unit in play.
   pdc: -1
@@ -3179,7 +3180,7 @@
   guid: 880e607b-9629-b54e-5e35-2789092bac94
   name: Fenrir
   power: 6
-- id: 2369
+- id: 2366
   slug: knightmare-shield
   description: |-
     When I am deployed, if possible, deploy @knightmare-sword my right.
@@ -3212,7 +3213,7 @@
   guid: b9184642-b505-f7e6-c6c7-71c4e84a7065
   name: Knightmare Shield
   power: 3
-- id: 2370
+- id: 2367
   slug: knightmare-sword
   description: |-
     When I am deployed, if possible, deploy @knightmare-shield to my left.
@@ -3917,8 +3918,7 @@
 - id: 2396
   slug: bosstrap
   type: 1
-  description: Kill enemy unit with 10{{power}} or above, beginning a direct
-    attack here with
+  description: Kill enemy unit with 10{{power}} or above attacking here directly
   effects:
     active:
       eventName: UnitAttackDirect
@@ -5323,7 +5323,7 @@
   guid: 7d41f504-7d39-2206-5921-d540a8c3a7f6
   name: Immortal Bob
   power: 4
-- id: 2375
+- id: 2386
   slug: all-out-johhny
   description: Discard your hand as your turn ends
   status: 1
@@ -5338,9 +5338,9 @@
       allowedLots:
         - unit-field
   guid: cb795b5c-f241-e904-0fe7-1394d217b4a1
-  name: All Out Johhny
+  name: "REDACTED #2B"
   power: 9
-  art: /temp/she1
+  art: /temp/she2
 - id: 2822
   slug: handy-mike
   description: When I die - draw two cards.
@@ -5549,7 +5549,7 @@
   guid: e9150e38-ab00-7ffe-82b7-3432223efa0f
   name: Magi Resistent Tom
   power: 9
-- id: 2372
+- id: 2375
   slug: mike
   description: Draw 3 cards when I die
   effects:
@@ -7191,13 +7191,14 @@
   guid: 9228b01a-6cc0-83c0-78df-1d377137b0b8
   name: Overly Excited Tim
   power: 7
-- id: 2378
+- id: 2373
   slug: rz6p0r
   description: After I attack the enemy directly, I am destroyed.
   effects: {}
   guid: 7ee79cb2-1be0-9ebd-ae6f-c788563f701d
-  name: Rz6p0r
+  name: "REDACTED #5"
   power: 6
+  art: /temp/she5
 - id: 3283
   slug: problematic-sam
   description: I cannot be summoned on a field with an opposing enemy creature in play.
@@ -7850,7 +7851,7 @@
   guid: 55960ff8-4bf7-401e-f4f1-984ed93f7b8f
   name: Haste Contracter
   power: 1
-- id: 2374
+- id: 2378
   slug: harun-al-rashid
   description: |-
     Draw a card after my attack
@@ -9082,7 +9083,7 @@
   guid: 58ebdd7a-1969-432a-0635-79f8239af518
   name: Tricky Shield
   power: 7
-- id: 2422
+- id: 2371
   slug: necropy-2
   description: |-
     +X{{power}}, equal to your grave's top card
@@ -9098,9 +9099,9 @@
         - unit-field
         - hand
         - grave
-  art: /kaliya-the-naga
+  art: /temp/she3
   guid: da711770-5ed0-4617-0f2a-b520d56d8912
-  name: Necropy 2
+  name: "REDACTED #3"
 - id: 3135
   slug: safebuffer
   description: |-
