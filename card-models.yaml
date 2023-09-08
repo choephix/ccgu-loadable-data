@@ -2438,7 +2438,7 @@
   name: Bouncy
   power: 5
 - id: 2374
-  slug: fibre-turtle
+  slug: $soft-grand
   description: |-
     No ally units in play?
     I do not require a sacrifice then.
