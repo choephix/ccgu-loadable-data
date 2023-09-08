@@ -9198,8 +9198,8 @@
   guid: 77192957-d7b3-955a-18c6-5b94ac8263f6
   name: Safe Buffer
   power: 1
-- id: 2409
-  slug: spike
+- id: 2492
+  slug: $spike
   description: |-
     Combat-Flip
     -2{{hp}} to the enemy
