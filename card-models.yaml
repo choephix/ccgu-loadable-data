@@ -269,7 +269,7 @@
   name: Fafnir
   art: /fafnir
   power: 10
-- id: 2474
+- id: 2458
   slug: ring-of-gyges
   type: 1
   description: |-
@@ -289,7 +289,7 @@
   guid: c83a662f-67f0-5a72-a872-ce62cbfe39dd
   name: Ring of Gyges
   art: /traps/ring-of-gyges
-- id: 2442
+- id: 2455
   slug: river-lethe
   type: 1
   description: |-
@@ -334,7 +334,7 @@
   name: "REDACTED #2A"
   power: 7
   art: /temp/she2
-- id: 2458
+- id: 2511
   slug: thunderstones
   type: 1
   description: Draw two cards when enemy attacks here
@@ -2080,7 +2080,7 @@
   guid: 4923e18b-2a7a-83e8-e321-a2f534895d67
   name: Spatial Pygmy
   power: 9
-- id: 2511
+- id: 2487
   slug: helm-of-awe
   type: 1
   description: +3{{power}} to your unit when attacked
@@ -2151,7 +2151,7 @@
   guid: 588cfcb1-4ea3-b069-785a-0c4658c72384
   name: Give Me the Money!
   power: 5
-- id: 2457
+- id: 2441
   slug: siren-song
   type: 1
   description: Enemy unit beginning an attack anywhere, moves here first
@@ -2420,7 +2420,7 @@
   guid: e848b4d8-311f-6eaa-e803-b3c88677863a
   name: Geronimo
   power: 3
-- id: 2441
+- id: 2439
   slug: poison-apple
   type: 1
   description: -4{{power}} to enemy unit attacking here
@@ -2820,7 +2820,7 @@
   effects: {}
   guid: 6a1bcab6-431f-855c-b412-f11ed20bea7e
   name: Cookable Mammal
-- id: 2472
+- id: 2490
   slug: rubber-tree
   type: 1
   description: On direct attack by enemy unit here, first heal by its power
@@ -2859,7 +2859,7 @@
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   name: Karna
   power: 9
-- id: 2489
+- id: 2472
   slug: draugrs-curse
   type: 1
   description: |-
@@ -2965,7 +2965,7 @@
         op.spawnToken(field, 'token-1')
   guid: 7b56a5c5-71bc-d653-3098-2dd6e8e17b3b
   name: Token On Attack
-- id: 2471
+- id: 2474
   slug: call-of-the-nisse
   type: 1
   description: |-
@@ -2986,7 +2986,7 @@
   art: /traps/nisse
   guid: 7b56a5c5-71bc-d653-3098-2dd6e8e17b3b
   name: Call of the Nisse
-- id: 2439
+- id: 2457
   slug: the-battle-of-trenton
   type: 1
   description: |-
@@ -3728,7 +3728,7 @@
   guid: 175c9ca8-d248-7609-c6af-0c09f2094056
   name: Fate Forward
   power: 4
-- id: 2455
+- id: 2440
   slug: cauldron-of-rebirth
   type: 1
   description: |-
@@ -4325,7 +4325,7 @@
   effects: {}
   guid: 8cc4afa4-1276-5506-1c7d-aa1052afd931
   name: Drawnecro
-- id: 2490
+- id: 2488
   slug: muleta
   type: 1
   description: Force enemy unit deployed here to attack
@@ -4454,7 +4454,7 @@
   guid: 0227eaaf-1a18-94d7-1430-4f9842b92784
   name: Chickeng1
   power: 14
-- id: 2488
+- id: 2471
   slug: the-evil-eye
   type: 1
   description: -5{{power}} to enemy unit deployed here face-up
@@ -4620,7 +4620,7 @@
   guid: 54906067-1fd6-f6bb-cd8d-4b03141e3efe
   name: Sloth Wyrm
   power: 15
-- id: 2440
+- id: 2442
   slug: nemesiss-strike
   type: 1
   description: Kill enemy unit here after direct attack
@@ -5120,7 +5120,7 @@
   effects: {}
   guid: 3116a4e6-a681-43fd-41a9-07b98c176174
   name: Mirrorforce
-- id: 2487
+- id: 2473
   slug: quicksand
   type: 1
   description: Kill enemy unit relocating here
@@ -9679,7 +9679,7 @@
   effects: {}
   guid: 1ff775c2-57cb-d1ef-2854-2d934dd2fc02
   name: Mana Drain
-- id: 2473
+- id: 2489
   slug: fata-morgana
   type: 1
   description: |-
