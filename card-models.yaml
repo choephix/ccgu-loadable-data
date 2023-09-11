@@ -1,3 +1,43 @@
+- id: 2544
+  slug: assertive-whippet
+  description: |-
+    Has the power of the weakest enemy unit
+    in play
+  effects:
+    passive:
+      condition: "true"
+      perform: |-
+        const candidates = [...opponent.units];
+        candidates.sort((a, b) => a.power - b.power)
+        const power = candidates[0]?.power || 0;
+        pass.raisePower(card, power)
+      allowedLots:
+        - unit-field
+        - hand
+        - grave
+  guid: 6b09bd92-79ab-ceec-f426-497dcd1aa5c5
+  name: "REDACTED #7B"
+  art: /temp/she4
+- id: 2528
+  slug: assertive-whippet
+  description: |-
+    Has the power of the weakest enemy unit
+    in play
+  effects:
+    passive:
+      condition: "true"
+      perform: |-
+        const candidates = [...opponent.units];
+        candidates.sort((a, b) => a.power - b.power)
+        const power = candidates[0]?.power || 0;
+        pass.raisePower(card, power)
+      allowedLots:
+        - unit-field
+        - hand
+        - grave
+  guid: 6b09bd92-79ab-ceec-f426-497dcd1aa5c5
+  name: "REDACTED #7A"
+  art: /temp/she4
 - id: 2378
   slug: wandering-stephen
   description: |-
@@ -8,6 +48,7 @@
   effects: {}
   guid: ebbc0f6d-a161-e837-fd36-ea2cdbba123c
   name: "REDACTED #12"
+  art: /temp/she1
 - id: 2362
   slug: loki
   description: |-
@@ -79,6 +120,7 @@
   guid: 343ead69-d7f7-fa83-a2f3-6b5289f07b9d
   power: 9
   name: "REDACTED #11"
+  art: /temp/she2
 - id: 2389
   slug: $only-one-in-hand
   description: I must be your only card in hand to deploy me
@@ -88,6 +130,7 @@
   guid: 0bf83fa5-e3bb-7bca-f0a3-56c94d85014b
   power: 8
   name: "REDACTED #6B"
+  art: /temp/she4
 - id: 2369
   slug: $grow-on-move
   description: |-
@@ -1846,6 +1889,7 @@
   guid: 0bf83fa5-e3bb-7bca-f0a3-56c94d85014b
   power: 8
   name: "REDACTED #6A"
+  art: /temp/she6
 - id: 62
   slug: --grave-filler3
   effects:
@@ -2562,7 +2606,7 @@
   name: Porcupine Spirit
   power: 1
   art: /porcupine
-- id: 2392
+- id: 2409
   slug: duelista
   description: While both player have only one unit in play each, both have +10{{power}}
   effects: {}
@@ -3087,7 +3131,7 @@
   guid: c75dbcf9-9f9a-a55f-c949-5b59b076e58a
   name: Salamander
   power: 7
-- id: 2393
+- id: 2410
   slug: time-reverser
   description: |-
     Combat-Flip:
@@ -5644,7 +5688,7 @@
   guid: e9150e38-ab00-7ffe-82b7-3432223efa0f
   name: Magi Resistent Tom
   power: 9
-- id: 2391
+- id: 2423
   slug: mike
   description: Draw 3 cards when I die
   effects:
