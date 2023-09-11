@@ -1,4 +1,42 @@
-- id: 2329
+- id: 2332
+  slug: sir-tristan
+  effects: {}
+  guid: 42511fb5-e0c2-435a-472a-a1b726b015cf
+  name: Sir Tristan
+  power: 8
+- id: 2334
+  slug: sir-lancelot
+  description: Return me to your hand if no foe is facing me as your turn ends
+  effects:
+    active:
+      eventName: TurnEnd
+      eventStatus: ended
+      condition: |-
+        event.player === player &&
+        !get.opposingUnit(card)
+      perform: op.addToHand(card, player)
+      allowedLots:
+        - unit-field
+  guid: 4923e18b-2a7a-83e8-e321-a2f534895d67
+  name: Sir Lancelot
+  power: 9
+- id: 2333
+  slug: sir-lamorak
+  description: Return me to your hand if no foe is facing me as your turn begins
+  effects:
+    active:
+      eventName: TurnBegin
+      eventStatus: ended
+      condition: |-
+        event.player === player &&
+        !get.opposingUnit(card)
+      perform: op.addToHand(card, player)
+      allowedLots:
+        - unit-field
+  guid: 4923e18b-2a7a-83e8-e321-a2f534895d67
+  name: Sir Lamorak
+  power: 8
+- id: 2327
   slug: sir-gawain
   description: I can only be played against a foe
   lore: A paragon of chivalry, his deeds are woven into the vivid tapestry of
@@ -14,20 +52,6 @@
   art: /gawain
   name: Sir Gawain
   power: 6
-- id: 2333
-  slug: sir-lamorak
-  description: Return me to your hand if no foe is facing me as your turn begins
-  effects: {}
-  guid: 1f6c33d8-4e3b-50ba-098d-c5be0a0d1ac2
-  name: Sir Lamorak
-  power: 8
-- id: 2331
-  slug: sir-lancelot
-  description: Return me to your hand if no foe is facing me as your turn ends
-  effects: {}
-  guid: d62263db-dae8-30e5-7e03-51c5f8fdf520
-  power: 9
-  name: Sir Lancelot
 - id: 2391
   slug: assertive-whippet2
   description: |-
@@ -131,14 +155,14 @@
         op.forceSwap(cardA, cardB)
   guid: c27322f1-17a5-cb53-c4b8-1b602e73bbd0
   name: "REDACTED #91"
-- id: 2327
+- id: 2342
   slug: lucky-randy
   type: 1
   description: Kill enemy unit deployed here, but take damage equal to its powe
   effects: {}
   guid: b59fa89c-4197-eff8-8bef-e90198dd3dbe
   name: lucky-randy
-- id: 2328
+- id: 2343
   slug: reversible-squamata
   type: 1
   description: Kill enemy unit attacking here, but take damage equal to its power
@@ -189,7 +213,7 @@
   power: 1
   name: "REDACTED #1"
   art: /temp/she1
-- id: 2330
+- id: 2328
   slug: sir-breuse-sans-pite
   description: I only attack directly
   pdc: -1
@@ -205,7 +229,7 @@
   art: /gawain
   name: Sir Breuse Sans Pite
   power: 7
-- id: 2334
+- id: 2330
   slug: sir-geraint
   description: I can only be played against a foe
   lore: A paragon of chivalry, his deeds are woven into the vivid tapestry of
@@ -237,7 +261,7 @@
   art: /rumpelstiltskin
   name: Rumpelstiltskin v2
   power: 8
-- id: 2309
+- id: 2311
   slug: enthusiastic-mark
   description: I go to the enemy hand if I'm in your grave as your turn starts
   notes: |-
@@ -5033,7 +5057,7 @@
   guid: 00badf76-e490-b5e6-9b31-a3986978ca5e
   name: Grand Traitor
   power: 14
-- id: 2332
+- id: 2329
   slug: sir-galahad
   description: I will not attack without a foe here
   lore: A paragon of chivalry, his deeds are woven into the vivid tapestry of
@@ -8949,7 +8973,7 @@
   guid: 6f150a04-f054-88fa-e6a8-982f43e03832
   name: Harsh Fred
   power: 2
-- id: 2326
+- id: 2310
   slug: zig
   description: At the beginning of your turn if a card named @zag is in your
     graveyard - add it to your hand.
@@ -8957,7 +8981,7 @@
   guid: 1978d04a-dacb-fdaa-01c3-e09c8cd3bf69
   name: Zig
   power: 2
-- id: 2325
+- id: 2309
   slug: zag
   description: At the beginning of your turn if a card named @zig is in your
     graveyard - add it to your hand.
