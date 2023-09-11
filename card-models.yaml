@@ -1,3 +1,13 @@
+- id: 2378
+  slug: wandering-stephen
+  description: |-
+    Take your grave's top card, if it's a trap
+    when I'm played
+  tags:
+    - grand
+  effects: {}
+  guid: ebbc0f6d-a161-e837-fd36-ea2cdbba123c
+  name: "REDACTED #12"
 - id: 2362
   slug: loki
   description: |-
