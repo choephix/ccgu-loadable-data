@@ -1,12 +1,68 @@
+- id: 2333
+  slug: genius-marmoset
+  notes: "score: 6/8"
+  effects: {}
+  guid: fd7f2c27-8760-5606-bcb0-03b0bdd13214
+  name: Sir Gareth
 - id: 2332
+  slug: old-fashioned-dragonfly
+  notes: "score: 7/8"
+  effects: {}
+  guid: e1c26025-ac25-5f3c-22b2-a8a01259f4ec
+  name: Sir Bors
+- id: 2330
+  slug: clever-locust
+  notes: "score: 6/8"
+  effects: {}
+  guid: ae8ce28a-c504-a98c-0c86-a3610603d6fa
+  name: Sir Erec
+  power: 5
+- id: 2328
+  slug: tough-robert
+  notes: "score: 3/8"
+  effects: {}
+  guid: b1a580c7-b1ee-d449-70c3-1bd81d961926
+  power: 4
+  name: Sir Agravain
+- id: 2327
+  slug: childly-queenconch
+  notes: "score: 7/8"
+  effects: {}
+  guid: 87f0e7d9-7d30-0f9a-7ea4-74e78a3a04bf
+  name: Sir Bedivere
+  power: 5
+- id: 2326
+  slug: adventurous-noah
+  notes: "score: 5/8"
+  effects: {}
+  guid: d1078c96-c578-8c40-c3ba-3964a7253b07
+  name: Sir Kay
+  power: 4
+- id: 2325
+  slug: evil-cuckoo
+  notes: "score: 2/8"
+  effects: {}
+  guid: ef35ac40-74fc-ea86-3e5a-121d58c8a5a4
+  name: Sir Mordred
+  power: 6
+- id: 2323
+  slug: filthy-crow
+  notes: "score: 7/8"
+  effects: {}
+  guid: 0b8a269b-4c70-3536-22ae-8d4c761f1e69
+  name: Sir Percival
+  power: 5
+- id: 2324
   slug: sir-tristan
+  notes: "score: 6/8"
   effects: {}
   guid: 42511fb5-e0c2-435a-472a-a1b726b015cf
   name: Sir Tristan
   power: 8
-- id: 2334
+- id: 2320
   slug: sir-lancelot
   description: Return me to your hand if no foe is facing me as your turn ends
+  notes: "score: 5/8"
   effects:
     active:
       eventName: TurnEnd
@@ -20,9 +76,10 @@
   guid: 4923e18b-2a7a-83e8-e321-a2f534895d67
   name: Sir Lancelot
   power: 9
-- id: 2333
+- id: 2331
   slug: sir-lamorak
   description: Return me to your hand if no foe is facing me as your turn begins
+  notes: "score: 6/8"
   effects:
     active:
       eventName: TurnBegin
@@ -36,12 +93,14 @@
   guid: 4923e18b-2a7a-83e8-e321-a2f534895d67
   name: Sir Lamorak
   power: 8
-- id: 2327
+- id: 2321
   slug: sir-gawain
   description: I can only be played against a foe
   lore: A paragon of chivalry, his deeds are woven into the vivid tapestry of
     knightly valor.
-  notes: Could find a different effect!
+  notes: |-
+    score: 7/8
+    Should find a different effect!
   pdc: -1
   status: 2
   priority: 8
@@ -213,7 +272,7 @@
   power: 1
   name: "REDACTED #1"
   art: /temp/she1
-- id: 2328
+- id: 2337
   slug: sir-breuse-sans-pite
   description: I only attack directly
   pdc: -1
@@ -229,11 +288,12 @@
   art: /gawain
   name: Sir Breuse Sans Pite
   power: 7
-- id: 2330
+- id: 2329
   slug: sir-geraint
   description: I can only be played against a foe
   lore: A paragon of chivalry, his deeds are woven into the vivid tapestry of
     knightly valor.
+  notes: "score: 6/8"
   pdc: -1
   status: 2
   priority: 8
@@ -2181,7 +2241,7 @@
   name: Grendel
   art: /grendel
   power: 3
-- id: 2335
+- id: 2334
   slug: spatial-pygmy
   description: The moment there is no enemy here I return to the hand
   effects:
@@ -5057,12 +5117,13 @@
   guid: 00badf76-e490-b5e6-9b31-a3986978ca5e
   name: Grand Traitor
   power: 14
-- id: 2329
+- id: 2322
   slug: sir-galahad
   description: I will not attack without a foe here
   lore: A paragon of chivalry, his deeds are woven into the vivid tapestry of
     knightly valor.
   notes: |-
+    score: 8/8
     Might be cool to have them all arthurian
     Else - William Marshal...
   pdc: -1
