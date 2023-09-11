@@ -1,7 +1,7 @@
 - id: 2544
   slug: assertive-whippet2
   description: |-
-    Has the power of the weakest enemy unit
+    Has the power of the strongest enemy unit
     in play
   tags:
     - grand
@@ -23,8 +23,9 @@
 - id: 2528
   slug: assertive-whippet
   description: |-
-    Has the power of the weakest enemy unit
+    Has the power of the weakest unit
     in play
+    on both sides
   effects:
     passive:
       condition: "true"
