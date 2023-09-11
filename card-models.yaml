@@ -1,3 +1,33 @@
+- id: 2329
+  slug: sir-gawain
+  description: I can only be played against a foe
+  lore: A paragon of chivalry, his deeds are woven into the vivid tapestry of
+    knightly valor.
+  notes: Could find a different effect!
+  pdc: -1
+  status: 2
+  priority: 8
+  effects:
+    overrides:
+      blockDeploymentTo: "!get.opposingUnit(field)"
+  guid: 00064144-b333-3249-8dbf-72397801491f
+  art: /gawain
+  name: Sir Gawain
+  power: 6
+- id: 2333
+  slug: sir-lamorak
+  description: Return me to your hand if no foe is facing me as your turn begins
+  effects: {}
+  guid: 1f6c33d8-4e3b-50ba-098d-c5be0a0d1ac2
+  name: Sir Lamorak
+  power: 8
+- id: 2331
+  slug: sir-lancelot
+  description: Return me to your hand if no foe is facing me as your turn ends
+  effects: {}
+  guid: d62263db-dae8-30e5-7e03-51c5f8fdf520
+  power: 9
+  name: Sir Lancelot
 - id: 2391
   slug: assertive-whippet2
   description: |-
@@ -101,7 +131,7 @@
         op.forceSwap(cardA, cardB)
   guid: c27322f1-17a5-cb53-c4b8-1b602e73bbd0
   name: "REDACTED #91"
-- id: 2329
+- id: 2327
   slug: lucky-randy
   type: 1
   description: Kill enemy unit deployed here, but take damage equal to its powe
@@ -159,7 +189,7 @@
   power: 1
   name: "REDACTED #1"
   art: /temp/she1
-- id: 2334
+- id: 2330
   slug: sir-breuse-sans-pite
   description: I only attack directly
   pdc: -1
@@ -175,8 +205,8 @@
   art: /gawain
   name: Sir Breuse Sans Pite
   power: 7
-- id: 2333
-  slug: sir-gawain
+- id: 2334
+  slug: sir-geraint
   description: I can only be played against a foe
   lore: A paragon of chivalry, his deeds are woven into the vivid tapestry of
     knightly valor.
@@ -188,7 +218,7 @@
       blockDeploymentTo: "!get.opposingUnit(field)"
   guid: 00064144-b333-3249-8dbf-72397801491f
   art: /gawain
-  name: Sir Gawain
+  name: Sir Geraint
   power: 6
 - id: 2387
   slug: $pricy-deploy
@@ -5004,13 +5034,13 @@
   name: Grand Traitor
   power: 14
 - id: 2332
-  slug: william-marshal
+  slug: sir-galahad
   description: I will not attack without a foe here
   lore: A paragon of chivalry, his deeds are woven into the vivid tapestry of
     knightly valor.
   notes: |-
-    Sir Galahad?
     Might be cool to have them all arthurian
+    Else - William Marshal...
   pdc: -1
   status: 2
   priority: 8
@@ -5022,7 +5052,7 @@
         - unit-field
   art: /gawain
   guid: 00064144-b333-3249-8dbf-72397801491f
-  name: William Marshal
+  name: Sir Galahad
   power: 8
 - id: 523
   slug: expolosive-mech
