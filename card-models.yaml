@@ -55,7 +55,7 @@
   guid: ebbc0f6d-a161-e837-fd36-ea2cdbba123c
   name: "REDACTED #12"
   art: /temp/she1
-- id: 2362
+- id: 2528
   slug: loki
   description: |-
     All units gain #swapper 
@@ -66,7 +66,8 @@
     passive:
       condition: "true"
       perform: |-
-        const all = [...player.units, opponent.units]
+        const all = [
+          ...player.units, ...opponent.units]
         all.forEach(u => pass.addTag(u, Tag.SWAPPER))
       allowedLots:
         - unit-field
@@ -3861,7 +3862,7 @@
   guid: df2fa72c-6500-3207-0d6b-65f87574901c
   name: Prickly Goshawk
   power: 10
-- id: 2368
+- id: 2512
   slug: loki-/-merlin
   description: |-
     All ally units gain #swapper
