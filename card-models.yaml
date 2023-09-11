@@ -3,6 +3,8 @@
   description: |-
     Has the power of the weakest enemy unit
     in play
+  tags:
+    - grand
   effects:
     passive:
       condition: "true"
@@ -27,7 +29,10 @@
     passive:
       condition: "true"
       perform: |-
-        const candidates = [...opponent.units];
+        const candidates = [
+          ...opponent.units, 
+          ...player.units
+        ];
         candidates.sort((a, b) => a.power - b.power)
         const power = candidates[0]?.power || 0;
         pass.raisePower(card, power)
