@@ -4893,7 +4893,7 @@
   guid: c4e29441-a2d6-5d2e-e90d-67c1d4b90213
   name: Zhu Bajie
   power: 10
-- id: 2418
+- id: 2392
   slug: count-dracula
   description: -3{{power}} per other friendly unit in play
   lore: Exceptionally strong, but doesn't like crowds.
@@ -4912,7 +4912,7 @@
         - grave
   art: /dracula
   guid: 0e0640e1-917e-9491-34ca-bb8f8a8a4e45
-  name: Count Dracula
+  name: "REDrACulTED #8"
   power: 9
 - id: 785
   slug: flipouch5
