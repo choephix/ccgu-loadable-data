@@ -6,6 +6,7 @@
   effects: {}
   guid: 8873baa3-d8fd-3d6b-cdd1-f199b3dff5b0
   power: 1
+  name: brainy-mallard
 - id: 2333
   slug: genius-marmoset
   notes: "score: 6/8"
@@ -293,7 +294,7 @@
       allowedLots:
         - unit-field
   guid: 00064144-b333-3249-8dbf-72397801491f
-  art: /gawain
+  art: /b2/breuse-sans-pite
   name: Sir Breuse Sans Pite
   power: 7
 - id: 2329
@@ -357,7 +358,7 @@
   guid: 2cbcf528-4359-b374-a54a-80733cbdcc2e
   name: Rani Lakshmibai
   power: 3
-  art: /temp/she2
+  art: /b2/rani-lakshmibai
 - id: 2339
   slug: boudica2
   description: +1 to units you deploy while I'm on top of your grave
@@ -397,7 +398,7 @@
   guid: 2cbcf528-4359-b374-a54a-80733cbdcc2e
   name: Hathan Hale
   power: 1
-  art: /temp/she3
+  art: /b2/nathan-hale
 - id: 2336
   slug: mad-arab
   description: |-
