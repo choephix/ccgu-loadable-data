@@ -2262,7 +2262,7 @@
   name: Grendel
   art: /grendel
   power: 3
-- id: 2334
+- id: 2335
   slug: spatial-pygmy
   description: The moment there is no enemy here I return to the hand
   effects:
