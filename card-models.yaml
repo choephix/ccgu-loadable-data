@@ -207,6 +207,7 @@
   guid: 19fe6c19-e34d-8ca6-92fc-798133db3662
   name: Loki
   power: 9
+  art: /tokens/wisp
 - id: 2399
   slug: $zero-rush
   tags:
@@ -4014,6 +4015,7 @@
   guid: 19fe6c19-e34d-8ca6-92fc-798133db3662
   name: Loki / Merlin
   power: 5
+  art: /tokens/wisp
 - id: 4
   slug: --wall-cannon
   description: Increase my power by 10 while @wall is in play on your side.
