@@ -238,7 +238,7 @@
 - id: 2342
   slug: lucky-randy
   type: 1
-  description: Kill enemy unit deployed here, but take damage equal to its powe
+  description: Kill enemy unit deployed here, but take damage equal to its power
   effects: {}
   guid: b59fa89c-4197-eff8-8bef-e90198dd3dbe
   name: lucky-randy
