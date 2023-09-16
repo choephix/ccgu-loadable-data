@@ -1,3 +1,18 @@
+- id: 2418
+  slug: hervor
+  description: +5{{power}} against a GRAND unit
+  lore: Amidst spectres, she walks, her courage casting ripples in the echoing
+    silence.
+  effects:
+    passive:
+      condition: get.opposingUnit(card)?.hasTag('grand')
+      perform: pass.raisePower(card, 10)
+      allowedLots:
+        - unit-field
+  guid: 1eef8f4d-e56d-2825-8210-b80f3188c944
+  name: Hervor
+  power: 4
+  art: /hervor
 - id: 2362
   slug: brainy-mallard
   description: |-
@@ -1834,16 +1849,6 @@
   name: Anansi
   power: 3
   art: /anansi
-- id: 2417
-  slug: hervor
-  lore: Amidst spectres, she walks, her courage casting ripples in the echoing
-    silence.
-  notes: FX?!
-  effects: {}
-  guid: 9ed01029-778e-d8fd-c232-25febf259bb2
-  power: 5
-  art: /hervor
-  name: Hervor
 - id: 2504
   slug: mars-ultor
   description: ALL units auto-attack as their player's turn starts
