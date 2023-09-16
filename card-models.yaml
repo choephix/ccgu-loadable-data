@@ -7650,7 +7650,7 @@
   guid: 2f2f474a-e268-7bfb-81a2-f69188d45516
   name: Trap Powered
   power: 4
-- id: 2496
+- id: 2463
   slug: wayland-the-smith
   description: +1{{power}} per card in your hand
   lore: His hammer strikes the anvil like lightning, forging from fire and metal
