@@ -158,7 +158,7 @@
   description: |-
     Has the power of the weakest unit
     in play
-    on both sides
+    on either side
   effects:
     passive:
       condition: "true"
