@@ -1,4 +1,4 @@
-- id: 2418
+- id: 2417
   slug: hervor
   description: +5{{power}} against a GRAND unit
   lore: Amidst spectres, she walks, her courage casting ripples in the echoing
@@ -403,7 +403,7 @@
         - grave
   guid: 2cbcf528-4359-b374-a54a-80733cbdcc2e
   name: Boudica
-  power: 3
+  power: 4
   art: /hires/boudica
 - id: 2338
   slug: nathan-hale
