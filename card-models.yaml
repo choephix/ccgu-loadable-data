@@ -1,10 +1,3 @@
-- id: 2308
-  slug: generic5
-  effects: {}
-  guid: ac6c9cc0-b77e-89f8-baa7-a52fb45d46c1
-  name: Generic5!
-  power: 5
-  art: /temp/she5
 - id: 2362
   slug: brainy-mallard
   description: |-
@@ -1145,7 +1138,7 @@
   art: /hires/aglea
   power: 5
   name: Aglea
-- id: 2307
+- id: 2310
   slug: generic4
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a425
@@ -9063,7 +9056,7 @@
   guid: 6f150a04-f054-88fa-e6a8-982f43e03832
   name: Harsh Fred
   power: 2
-- id: 2310
+- id: 2309
   slug: zig
   description: At the beginning of your turn if a card named @zag is in your
     graveyard - add it to your hand.
@@ -9071,7 +9064,7 @@
   guid: 1978d04a-dacb-fdaa-01c3-e09c8cd3bf69
   name: Zig
   power: 2
-- id: 2309
+- id: 2307
   slug: zag
   description: At the beginning of your turn if a card named @zig is in your
     graveyard - add it to your hand.
