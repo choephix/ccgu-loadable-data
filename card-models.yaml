@@ -7787,12 +7787,12 @@
   guid: e15e6908-0326-2866-ff73-f17594272af3
   name: Token Pooper
   power: 4
-- id: 2345
+- id: 2314
   slug: achilles
   description: +1 every time an ally dies
   lore: He mourns not in silence, but in thunderous fury, his sorrow echoing
     through each enemy's defeat.
-  notes: Resets after I finish an attack?
+  notes: How to reset after atk!?
   effects:
     active:
       eventName: UnitDie
