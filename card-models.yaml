@@ -1838,11 +1838,10 @@
   slug: hervor
   lore: Amidst spectres, she walks, her courage casting ripples in the echoing
     silence.
-  tags:
-    - noattack
+  notes: FX?!
   effects: {}
   guid: 9ed01029-778e-d8fd-c232-25febf259bb2
-  power: 7
+  power: 5
   art: /hervor
   name: Hervor
 - id: 2504
