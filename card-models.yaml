@@ -1,4 +1,11 @@
-- id: 2364
+- id: 2308
+  slug: generic5
+  effects: {}
+  guid: ac6c9cc0-b77e-89f8-baa7-a52fb45d46c1
+  name: Generic5!
+  power: 5
+  art: /temp/she5
+- id: 2362
   slug: brainy-mallard
   description: |-
     +1{{ap}} as your turn begins
