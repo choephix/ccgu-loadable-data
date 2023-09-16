@@ -206,13 +206,13 @@
   name: Loki
   power: 9
   art: /tokens/wisp
-- id: 2399
+- id: 2385
   slug: $zero-rush
   tags:
     - rush
   effects: {}
   guid: 45f5588b-4b20-155b-63bd-e9de7b9c9e62
-  name: $zero-rush
+  name: "REDACTED #00"
 - id: 2376
   slug: $steal-with-unit
   type: 1
@@ -323,7 +323,7 @@
   art: /b2/sir-geraint
   name: Sir Geraint
   power: 6
-- id: 2387
+- id: 2404
   slug: $pricy-deploy
   description: -8{{hp}} for you when I'm played
   lore: A cunning imp, forever bound to his word, known for turning straw into
@@ -2001,7 +2001,7 @@
   name: Jeanne d'Arc
   power: 2
   art: /joan-of-arc
-- id: 2397
+- id: 2414
   slug: mythical-hoki
   description: |-
     +X{{ap}} equal to the enemy's numeric superiority
@@ -3322,8 +3322,8 @@
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   name: Ajax the Great
   power: 4
-- id: 2405
-  slug: geinhildr
+- id: 2395
+  slug: $buff-per-unit
   description: +1{{power}} per ANY unit in play.
   pdc: -1
   status: 2
@@ -3341,8 +3341,9 @@
         - hand
         - grave
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
-  name: Geinhildr
+  name: "REDACTED #11"
   power: 1
+  art: /temp/she2
 - id: 2485
   slug: the-cheshire-cat
   description: 0{{powered}} token spawns in my place after I die in combat
@@ -4127,6 +4128,7 @@
   guid: da1d63dc-c3a5-7c69-49c4-148a17a842e0
   name: "REDACTED #10"
   power: 1
+  art: /temp/she1
 - id: 885
   slug: unbreakable-2
   description: >-
@@ -4687,6 +4689,7 @@
   guid: 9d9d8250-25d2-e17b-5fc6-7dc75993e29c
   name: "REDACTED #9"
   power: 1
+  art: /temp/she3
 - id: 920
   slug: quickgiver-0
   type: 1
@@ -7898,7 +7901,7 @@
   guid: 573b5edb-f33c-4ef4-01de-9faaa0857931
   name: Cheerleader Harpy 2
   power: 4
-- id: 2388
+- id: 2405
   slug: $pricy-attack
   description: -5{{hp}} to you before I attack
   lore: A cunning imp, forever bound to his word, known for turning straw into
