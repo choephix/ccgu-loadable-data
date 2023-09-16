@@ -9,21 +9,21 @@
   name: brainy-mallard
 - id: 2333
   slug: genius-marmoset
-  notes: "valor: 6/8"
+  notes: "chivalry: 6/8"
   effects: {}
   guid: fd7f2c27-8760-5606-bcb0-03b0bdd13214
   name: Sir Gareth
   art: /b2/sir-gareth
 - id: 2332
   slug: old-fashioned-dragonfly
-  notes: "valor: 7/8"
+  notes: "chivalry: 7/8"
   effects: {}
   guid: e1c26025-ac25-5f3c-22b2-a8a01259f4ec
   name: Sir Bors
   art: /b2/sir-bors
 - id: 2330
   slug: clever-locust
-  notes: "valor: 6/8"
+  notes: "chivalry: 6/8"
   effects: {}
   guid: ae8ce28a-c504-a98c-0c86-a3610603d6fa
   name: Sir Erec
@@ -31,7 +31,7 @@
   art: /b2/sir-erec
 - id: 2328
   slug: tough-robert
-  notes: "valor: 3/8"
+  notes: "chivalry: 3/8"
   effects: {}
   guid: b1a580c7-b1ee-d449-70c3-1bd81d961926
   power: 4
@@ -39,7 +39,7 @@
   art: /b2/sir-agravain
 - id: 2327
   slug: childly-queenconch
-  notes: "valor: 7/8"
+  notes: "chivalry: 7/8"
   effects: {}
   guid: 87f0e7d9-7d30-0f9a-7ea4-74e78a3a04bf
   name: Sir Bedivere
@@ -47,7 +47,7 @@
   art: /b2/sir-bedivere
 - id: 2326
   slug: adventurous-noah
-  notes: "valor: 5/8"
+  notes: "chivalry: 5/8"
   effects: {}
   guid: d1078c96-c578-8c40-c3ba-3964a7253b07
   name: Sir Kay
@@ -55,7 +55,7 @@
   art: /b2/sir-kay
 - id: 2325
   slug: evil-cuckoo
-  notes: "valor: 2/8"
+  notes: "chivalry: 2/8"
   effects: {}
   guid: ef35ac40-74fc-ea86-3e5a-121d58c8a5a4
   name: Sir Mordred
@@ -63,7 +63,7 @@
   art: /b2/sir-mordred
 - id: 2323
   slug: filthy-crow
-  notes: "valor: 7/8"
+  notes: "chivalry: 7/8"
   effects: {}
   guid: 0b8a269b-4c70-3536-22ae-8d4c761f1e69
   name: Sir Percival
@@ -71,7 +71,7 @@
   art: /b2/sir-percival
 - id: 2324
   slug: sir-tristan
-  notes: "valor: 6/8"
+  notes: "chivalry: 6/8"
   effects: {}
   guid: 42511fb5-e0c2-435a-472a-a1b726b015cf
   name: Sir Tristan
@@ -80,7 +80,7 @@
 - id: 2320
   slug: sir-lancelot
   description: Return me to your hand if no foe is facing me as your turn ends
-  notes: "valor: 5/8"
+  notes: "chivalry: 5/8"
   effects:
     active:
       eventName: TurnEnd
@@ -98,7 +98,7 @@
 - id: 2331
   slug: sir-lamorak
   description: Return me to your hand if no foe is facing me as your turn begins
-  notes: "valor: 6/8"
+  notes: "chivalry: 6/8"
   effects:
     active:
       eventName: TurnBegin
@@ -119,7 +119,7 @@
   lore: A paragon of chivalry, his deeds are woven into the vivid tapestry of
     knightly valor.
   notes: |-
-    valor: 7/8
+    chivalry: 7/8
     Should find a different effect!
   pdc: -1
   status: 2
@@ -314,7 +314,7 @@
   description: I can only be played against a foe
   lore: A paragon of chivalry, his deeds are woven into the vivid tapestry of
     knightly valor.
-  notes: "valor: 6/8"
+  notes: "chivalry: 6/8"
   pdc: -1
   status: 2
   priority: 8
@@ -5145,7 +5145,7 @@
   lore: A paragon of chivalry, his deeds are woven into the vivid tapestry of
     knightly valor.
   notes: |-
-    valor: 8/8
+    chivalry: 8/8
     Might be cool to have them all arthurian
     Else - William Marshal...
   pdc: -1
