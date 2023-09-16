@@ -5,7 +5,6 @@
     if I'm in play
   effects: {}
   guid: 8873baa3-d8fd-3d6b-cdd1-f199b3dff5b0
-  power: 1
   name: brainy-mallard
 - id: 2333
   slug: genius-marmoset
@@ -14,6 +13,7 @@
   guid: fd7f2c27-8760-5606-bcb0-03b0bdd13214
   name: Sir Gareth
   art: /b2/sir-gareth
+  power: 5
 - id: 2332
   slug: old-fashioned-dragonfly
   notes: "chivalry: 7/8"
@@ -21,6 +21,7 @@
   guid: e1c26025-ac25-5f3c-22b2-a8a01259f4ec
   name: Sir Bors
   art: /b2/sir-bors
+  power: 5
 - id: 2330
   slug: clever-locust
   notes: "chivalry: 6/8"
@@ -114,23 +115,20 @@
   power: 8
   art: /b2/sir-lamorak
 - id: 2321
-  slug: sir-gawain
-  description: I can only be played against a foe
+  slug: sir-galahad
   lore: A paragon of chivalry, his deeds are woven into the vivid tapestry of
     knightly valor.
-  notes: |-
-    chivalry: 7/8
-    Should find a different effect!
+  notes: "chivalry: 8/8"
+  tags:
+    - noattack
   pdc: -1
   status: 2
   priority: 8
-  effects:
-    overrides:
-      blockDeploymentTo: "!get.opposingUnit(field)"
+  effects: {}
   guid: 00064144-b333-3249-8dbf-72397801491f
-  art: /gawain
-  name: Sir Gawain
-  power: 6
+  art: /b2/sir-galahad
+  name: Sir Galahad
+  power: 8
 - id: 2391
   slug: $copy-strongest-foe
   description: |-
@@ -186,7 +184,7 @@
     - grand
   effects: {}
   guid: ebbc0f6d-a161-e837-fd36-ea2cdbba123c
-  name: "REDACTED #12"
+  name: "REDACTED #102"
   art: /temp/she1
 - id: 2528
   slug: loki
@@ -260,7 +258,7 @@
   effects: {}
   guid: 343ead69-d7f7-fa83-a2f3-6b5289f07b9d
   power: 9
-  name: "REDACTED #11"
+  name: "REDACTED #101"
   art: /temp/she2
 - id: 2389
   slug: $only-one-in-hand
@@ -2698,7 +2696,7 @@
         - hand
         - grave
   guid: 847fc569-a396-f9da-3422-837392c88113
-  name: "REDACTED #10"
+  name: "REDACTED #100"
   power: 7
   art: /temp/she6
 - id: 2508
@@ -3146,7 +3144,7 @@
         op.spawnToken(field, 'token-9')
   guid: 7b56a5c5-71bc-d653-3098-2dd6e8e17b3b
   name: Token After Attack
-- id: 2395
+- id: 2412
   slug: token-on-attack
   type: 1
   effects:
@@ -4110,8 +4108,8 @@
   guid: b3dba8a0-17b9-532b-e7ac-e4922eb429e2
   name: Flipouch
   power: 5
-- id: 2404
-  slug: kamikazejoe
+- id: 2394
+  slug: $kamikaze
   description: I die after attacking
   tags:
     - rush
@@ -4128,7 +4126,7 @@
       allowedLots:
         - unit-field
   guid: da1d63dc-c3a5-7c69-49c4-148a17a842e0
-  name: Kamikazejoe
+  name: "REDACTED #10"
   power: 1
 - id: 885
   slug: unbreakable-2
@@ -4673,8 +4671,8 @@
   art: /traps/evil-eye
   guid: e3b41aa1-0f98-ec62-7c2b-2f8414025180
   name: the Evil Eye
-- id: 2379
-  slug: autoatk
+- id: 2393
+  slug: $autoatk
   description: I perform a free attack when deployed
   pdc: -1
   status: 2
@@ -4688,7 +4686,7 @@
       allowedLots:
         - unit-field
   guid: 9d9d8250-25d2-e17b-5fc6-7dc75993e29c
-  name: Autoatk
+  name: "REDACTED #9"
   power: 1
 - id: 920
   slug: quickgiver-0
@@ -5140,12 +5138,12 @@
   name: Grand Traitor
   power: 14
 - id: 2322
-  slug: sir-galahad
+  slug: sir-gawain
   description: I will not attack without a foe here
   lore: A paragon of chivalry, his deeds are woven into the vivid tapestry of
     knightly valor.
   notes: |-
-    chivalry: 8/8
+    chivalry: 7/8
     Might be cool to have them all arthurian
     Else - William Marshal...
   pdc: -1
@@ -5157,10 +5155,10 @@
       perform: pass.addTag( card, Tag.NOATTACK )
       allowedLots:
         - unit-field
-  art: /b2/sir-galahad
+  art: /gawain
   guid: 00064144-b333-3249-8dbf-72397801491f
-  name: Sir Galahad
-  power: 8
+  name: Sir Gawain
+  power: 7
 - id: 523
   slug: expolosive-mech
   description: "#Grand I cannot be $deployed manually while you have less than %3
@@ -5786,7 +5784,7 @@
   guid: 65591d48-dbec-6af4-034e-c0eb08f6795e
   name: Grand Traitor
   power: 14
-- id: 2394
+- id: 2427
   slug: time-bug
   description: |-
     Combat-Flip:
