@@ -132,9 +132,9 @@
   name: Sir Gawain
   power: 6
 - id: 2391
-  slug: assertive-whippet2
+  slug: $copy-strongest-foe
   description: |-
-    Has the power of the strongest enemy unit
+    Has the power of the strongest foe
     in play
   tags:
     - grand
@@ -154,7 +154,7 @@
   name: "REDACTED #7B"
   art: /temp/she4
 - id: 2390
-  slug: assertive-whippet
+  slug: $copy-weakest
   description: |-
     Has the power of the weakest unit
     in play
@@ -9371,6 +9371,7 @@
   description: |-
     +X{{power}}, equal to your grave's top card
     +0{{power}} if not a unit
+  notes: $necropy-2
   effects:
     passive:
       condition: "true"
