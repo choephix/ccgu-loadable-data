@@ -70,7 +70,7 @@
   name: Sir Percival
   power: 5
   art: /b2/sir-percival
-- id: 2324
+- id: 2323
   slug: sir-tristan
   notes: "chivalry: 6/8"
   effects: {}
@@ -96,7 +96,7 @@
   name: Sir Lancelot
   power: 9
   art: /b2/sir-lancelot
-- id: 2323
+- id: 2322
   slug: sir-lamorak
   description: Return me to your hand if no foe is facing me as your turn begins
   notes: "chivalry: 6/8"
@@ -5137,7 +5137,7 @@
   guid: 00badf76-e490-b5e6-9b31-a3986978ca5e
   name: Grand Traitor
   power: 14
-- id: 2322
+- id: 2324
   slug: sir-gawain
   description: I will not attack without a foe here
   lore: A paragon of chivalry, his deeds are woven into the vivid tapestry of
