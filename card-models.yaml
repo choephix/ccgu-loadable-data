@@ -6,7 +6,7 @@
   effects: {}
   guid: 8873baa3-d8fd-3d6b-cdd1-f199b3dff5b0
   name: brainy-mallard
-- id: 2333
+- id: 2329
   slug: genius-marmoset
   notes: "chivalry: 6/8"
   effects: {}
@@ -14,7 +14,7 @@
   name: Sir Gareth
   art: /b2/sir-gareth
   power: 5
-- id: 2332
+- id: 2328
   slug: old-fashioned-dragonfly
   notes: "chivalry: 7/8"
   effects: {}
@@ -30,7 +30,7 @@
   name: Sir Erec
   power: 5
   art: /b2/sir-erec
-- id: 2328
+- id: 2332
   slug: tough-robert
   notes: "chivalry: 3/8"
   effects: {}
@@ -46,7 +46,7 @@
   name: Sir Bedivere
   power: 5
   art: /b2/sir-bedivere
-- id: 2326
+- id: 2333
   slug: adventurous-noah
   notes: "chivalry: 5/8"
   effects: {}
@@ -54,7 +54,7 @@
   name: Sir Kay
   power: 4
   art: /b2/sir-kay
-- id: 2325
+- id: 2326
   slug: evil-cuckoo
   notes: "chivalry: 2/8"
   effects: {}
@@ -62,7 +62,7 @@
   name: Sir Mordred
   power: 6
   art: /b2/sir-mordred
-- id: 2323
+- id: 2331
   slug: filthy-crow
   notes: "chivalry: 7/8"
   effects: {}
@@ -96,7 +96,7 @@
   name: Sir Lancelot
   power: 9
   art: /b2/sir-lancelot
-- id: 2331
+- id: 2323
   slug: sir-lamorak
   description: Return me to your hand if no foe is facing me as your turn begins
   notes: "chivalry: 6/8"
@@ -307,7 +307,7 @@
   art: /b2/breuse-sans-pite
   name: Sir Breuse Sans Pite
   power: 7
-- id: 2329
+- id: 2325
   slug: sir-geraint
   description: I can only be played against a foe
   lore: A paragon of chivalry, his deeds are woven into the vivid tapestry of
