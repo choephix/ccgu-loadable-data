@@ -1,22 +1,22 @@
 - id: 2387
   slug: $both-draw
-  description: Draw 2 cards when I'm played
-  lore: Wily and crafty, Reynard weaves through life's puzzles with sly ease, his
-    cunning as elusive and unpredictable as a fox's trail in the woodland.
+  description: |-
+    Both players draw
+    when I'm played
   effects:
     active:
       eventName: DeployUnit
       eventStatus: ended
       condition: event.card === card
       perform: |-
-        op.draw( player )
-        op.draw( player )
+        op.draw(player)
+        op.draw(opponent)
       allowedLots:
         - unit-field
   guid: 15f64461-95cc-c62e-ca23-11dc1495fba7
-  art: /reynard-the-fox
-  name: Reynard the Fox
-  power: 2
+  art: /temp/she5
+  name: "REDACTED #12"
+  power: 4
 - id: 2417
   slug: hervor
   description: +5{{power}} against a GRAND unit
