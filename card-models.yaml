@@ -2242,7 +2242,7 @@
   name: Grendel's Mother
   art: /grendel-mom
   power: 7
-- id: 2433
+- id: 2437
   slug: grendel
   description: 7{{powered}} token spawns in your hand when I die from combat
   lore: Be on guard dispatching this particular foe, for you are bound to invite
@@ -2391,7 +2391,7 @@
   name: Nisse
   power: 5
   art: /tokens/nisse
-- id: 2448
+- id: 2433
   slug: puss
   description: |-
     +1{{ap}} when I'm played
@@ -2413,7 +2413,7 @@
   guid: d733ae6a-414f-023c-4992-e99fea422de6
   name: Puss in Boots
   power: 4
-- id: 2432
+- id: 2449
   slug: reynard-the-fox
   description: Draw 2 cards when I'm played
   lore: Wily and crafty, Reynard weaves through life's puzzles with sly ease, his
@@ -2451,7 +2451,7 @@
   guid: d733ae6a-414f-023c-4992-e99fea422de6
   name: Puss in Boots V2
   power: 2
-- id: 2434
+- id: 2436
   slug: cu-chulainn
   description: +2 while facing an enemy trap
   lore: A titan against contraptions, he stands, fearless and invincible, a
@@ -2875,7 +2875,7 @@
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   name: Nyx
   power: 6
-- id: 2437
+- id: 2451
   slug: faust
   description: |-
     9{{powered}} token spawns in front of me before I'm played
@@ -2930,7 +2930,7 @@
   guid: 549b8197-538b-0a31-673d-e0b8e59fcc32
   name: Gideon
   power: 3
-- id: 2451
+- id: 2450
   slug: joan-the-hatchet
   description: +2{{power}} to adjacent ally units
   lore: Her courage shining like a beacon, Jeanne Hachette stands tall, inspiring
@@ -3385,7 +3385,7 @@
   guid: a9fb5b3c-0c8a-a10c-6a8c-8ed91952bc46
   name: Mercury
   power: 5
-- id: 2436
+- id: 2434
   slug: brer-rabbit
   lore: As nimble as the wind and as elusive as a thought, Br'er Rabbit darts
     through life's mazes, always a hop ahead of trouble.
@@ -4076,7 +4076,7 @@
   guid: 6f7f792b-0da9-f90d-a7a5-9245606bbae8
   name: Trapazan
   power: 5
-- id: 2452
+- id: 2453
   slug: puck
   description: |-
     Discard me as your turn ends
@@ -4463,7 +4463,7 @@
   effects: {}
   guid: 3a9064a6-de2e-fcc7-a434-90545668b8c8
   name: 3a9064a6
-- id: 2453
+- id: 2452
   slug: morgiana2
   description: +5{{power}} while the enemy has a trap here
   lore: With ever watchful eyes and swift, deft steps, she turns peril into
@@ -9174,7 +9174,7 @@
   guid: e387c8bf-674e-6aba-62be-cdf6cb983f14
   name: Late Gamer
   power: 6
-- id: 2449
+- id: 2432
   slug: eurydice
   description: |-
     Revive Orpheus to my RIGHT
@@ -9208,7 +9208,7 @@
   guid: 6522a282-a424-a7cc-a462-d4dc93f446a2
   name: Eurydice
   power: 4
-- id: 2450
+- id: 2448
   slug: orpheus
   description: |-
     Revive Eurydice to my LEFT
