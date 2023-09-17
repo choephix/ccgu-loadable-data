@@ -1,8 +1,6 @@
 - id: 2365
   slug: $depowerer2
-  description: |-
-    -2{{power}} to enemy unit here
-    while I'm in play
+  description: "Combat-Flip: -2{{power}} to enemy unit here"
   tags:
     - sneak
   effects:
