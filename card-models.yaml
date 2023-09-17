@@ -1,3 +1,17 @@
+- id: 2345
+  slug: curious-vincent
+  description: Enemy unit here has PIERCING
+  notes: PIERCING should be renamed to OVERKILL...
+  effects:
+    passive:
+      condition: get.opposingUnit(card)
+      perform: |-
+        const foe = get.opposingUnit(card)
+        pass.addTag(card, Tag.PIERCING)
+      allowedLots:
+        - unit-field
+  guid: ae1e9d1b-592a-c50b-55c2-9230d6c2fd28
+  power: 7
 - id: 2387
   slug: $both-draw
   description: |-
