@@ -1,4 +1,4 @@
-- id: 2345
+- id: 2397
   slug: $pierced
   description: Enemy unit here has PIERCING
   notes: PIERCING should be renamed to OVERKILL...
@@ -12,7 +12,8 @@
         - unit-field
   guid: ae1e9d1b-592a-c50b-55c2-9230d6c2fd28
   power: 7
-- id: 2387
+  name: "REDACTED #13"
+- id: 2396
   slug: $both-draw
   description: |-
     Both players draw
@@ -4222,7 +4223,7 @@
   guid: 2c064020-07e5-d2da-ed69-734025104d9f
   name: the Swapper
   power: 3
-- id: 2396
+- id: 2379
   slug: bosstrap
   type: 1
   description: Kill enemy unit with 10{{power}} or above attacking here directly
@@ -4977,7 +4978,7 @@
   guid: e8d29482-9996-f3ed-a02b-f0c4219e8c5a
   name: Vampirefang
   power: 2
-- id: 2398
+- id: 2399
   slug: $spearhead
   tags:
     - piercing
