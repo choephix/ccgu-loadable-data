@@ -372,7 +372,7 @@
   art: /b2/sir-geraint
   name: Sir Geraint
   power: 6
-- id: 2404
+- id: 2387
   slug: $pricy-deploy
   description: -8{{hp}} for you when I'm played
   lore: A cunning imp, forever bound to his word, known for turning straw into
@@ -1726,7 +1726,7 @@
   power: 2
   art: /gremlin
   name: Gremlin
-- id: 2425
+- id: 2423
   slug: huitzilopochtli-v2
   description: I kill and take the power of any unit you play face up
   lore: A hummingbird's heart beating the war drum, his existence keeps darkness
@@ -1751,7 +1751,7 @@
   guid: 0b849789-9d28-adb8-5d30-f63f2fb61675
   name: Huitzilopochtli V2
   art: /huitzilopochtli
-- id: 2424
+- id: 2422
   slug: huitzilopochtli
   description: When I enter play, I destroy all ally units and take their current power.
   lore: A hummingbird's heart beating the war drum, his existence keeps darkness
@@ -1779,7 +1779,7 @@
       allowedLots:
         - unit-field
   guid: 43adbf73-8c1c-e269-13aa-4d761a548e3e
-  name: Huitzilopochtli
+  name: Huitzilopochtli V1
   art: /huitzilopochtli
 - id: 43
   slug: --force-all-atk
@@ -3243,7 +3243,7 @@
   art: /traps//battle-of-trenton
   guid: 294447b1-beb2-1618-5d29-8182eee4f481
   name: the Battle of Trenton
-- id: 2426
+- id: 2424
   slug: the-battle-of-trenton-v2
   type: 1
   description: >-
@@ -5871,7 +5871,7 @@
   guid: e9150e38-ab00-7ffe-82b7-3432223efa0f
   name: Magi Resistent Tom
   power: 9
-- id: 2423
+- id: 2425
   slug: mike
   description: Draw 3 cards when I die
   effects:
@@ -7940,7 +7940,7 @@
   guid: 573b5edb-f33c-4ef4-01de-9faaa0857931
   name: Cheerleader Harpy 2
   power: 4
-- id: 2405
+- id: 2388
   slug: $pricy-attack
   description: -5{{hp}} to you before I attack
   lore: A cunning imp, forever bound to his word, known for turning straw into
