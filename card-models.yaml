@@ -1,5 +1,5 @@
 - id: 2345
-  slug: curious-vincent
+  slug: $pierced
   description: Enemy unit here has PIERCING
   notes: PIERCING should be renamed to OVERKILL...
   effects:
