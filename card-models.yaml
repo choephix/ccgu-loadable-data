@@ -564,7 +564,7 @@
 - id: 2511
   slug: thunderstones
   type: 1
-  description: Draw two cards when enemy attacks here
+  description: Draw two cards after enemy attacks here
   effects:
     active:
       eventName: UnitAttack
