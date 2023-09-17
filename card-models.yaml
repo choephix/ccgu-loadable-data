@@ -1,4 +1,4 @@
-- id: 2364
+- id: 2365
   slug: $depowerer2
   description: |-
     -3{{power}} to enemy unit here
@@ -16,8 +16,8 @@
         - unit-field
   guid: 2875d608-e153-2e48-ebe2-e71a8f5b7b22
   power: 1
-  name: "REDACTED #98"
-- id: 2363
+  name: "REDACTED #97"
+- id: 2364
   slug: $depowerer
   description: |-
     -3{{power}} to enemy unit here
@@ -2899,7 +2899,7 @@
   guid: b6b71451-926d-ece6-d0d3-0b71508871e1
   name: Galatea
   power: 8
-- id: 2365
+- id: 2363
   slug: fafnir-0
   description: |-
     Combat-Flip:
