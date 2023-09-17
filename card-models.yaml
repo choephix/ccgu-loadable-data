@@ -17,7 +17,7 @@
 - id: 2364
   slug: $depowerer
   description: |-
-    -3{{power}} to enemy unit here
+    -4{{power}} to enemy unit here
     while I'm in play
   tags:
     - sneak
@@ -25,7 +25,7 @@
     passive:
       condition: get.opposingUnit(card)
       perform: |-
-        const debuff = 3
+        const debuff = 4
         const foe = get.opposingUnit(card)
         pass.lowerPower(foe, debuff)
       allowedLots:
