@@ -1,3 +1,41 @@
+- id: 2364
+  slug: $depowerer2
+  description: |-
+    -3{{power}} to enemy unit here
+    while I'm in play
+  tags:
+    - sneak
+  effects:
+    passive:
+      condition: get.opposingUnit(card)
+      perform: |-
+        const debuff = 3
+        const foe = get.opposingUnit(card)
+        pass.lowerPower(foe, debuff)
+      allowedLots:
+        - unit-field
+  guid: 2875d608-e153-2e48-ebe2-e71a8f5b7b22
+  power: 1
+  name: "REDACTED #98"
+- id: 2363
+  slug: $depowerer
+  description: |-
+    -3{{power}} to enemy unit here
+    while I'm in play
+  tags:
+    - sneak
+  effects:
+    passive:
+      condition: get.opposingUnit(card)
+      perform: |-
+        const debuff = 3
+        const foe = get.opposingUnit(card)
+        pass.lowerPower(foe, debuff)
+      allowedLots:
+        - unit-field
+  guid: 2875d608-e153-2e48-ebe2-e71a8f5b7b22
+  power: 1
+  name: "REDACTED #98"
 - id: 2397
   slug: $pierced
   description: Enemy unit here has PIERCING
@@ -2884,7 +2922,7 @@
         }
   art: /temp/she4
   guid: bb757a5a-ddfa-73e6-9da0-0526faf78c3e
-  name: "REDACTED #101"
+  name: "REDACTED #99"
   power: 1
 - id: 2438
   slug: nyx
