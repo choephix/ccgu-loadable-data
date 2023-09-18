@@ -635,7 +635,7 @@
   power: 5
   art: /wainamoinen
   name: Wainamoinen
-- id: 2258
+- id: 2130
   slug: athos
   lore: The last of the valiant trio, his wisdom runs as deep as his loyalty, a
     mountain untouched by time's erosion.
@@ -1010,7 +1010,7 @@
   art: /hires/queen-of-hearts
   power: 1
   name: Queen of Hearts
-- id: 2256
+- id: 2128
   slug: porthos
   lore: Under his jolly demeanor lie a loyal heart and a quick blade.
   effects: {}
@@ -1200,7 +1200,7 @@
   art: /hires/bluebeard
   power: 2
   name: Bluebeard
-- id: 2257
+- id: 2129
   slug: aramis
   lore: His faith mingles with daring gambits, teaching lessons in valor both in
     sermons and swordplay.
@@ -1220,28 +1220,28 @@
   art: /hires/aglea
   power: 5
   name: Aglea
-- id: 2307
+- id: 2563
   slug: generic4
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a425
   art: /temp/she4
   power: 4
   name: Generic4
-- id: 2306
+- id: 2562
   slug: generic3
   effects: {}
   guid: b7bbfa47-a32a-a87f-f9b5-f0da096c4cb0
   art: /temp/she3
   power: 3
   name: Generic3
-- id: 2305
+- id: 2561
   slug: generic2
   effects: {}
   guid: cd11bc5e-b2e4-c4fe-e8aa-ae1643c9e6b4
   power: 2
   art: /temp/she2
   name: Generic2
-- id: 2304
+- id: 2560
   slug: generic1
   effects: {}
   guid: 5318668b-0ec7-8803-e561-44108ff70063
@@ -2793,7 +2793,7 @@
   art: /ereshkigal
   guid: b4a87403-430f-7687-e001-98dc71c53a73
   name: Ereshkigal
-- id: 2308
+- id: 2564
   slug: generic5
   pdc: -1
   status: 7
@@ -3664,7 +3664,7 @@
   guid: 9c32f1a1-8046-6cfe-759f-85907347d9ca
   name: the Destroyer
   power: 1
-- id: 2576
+- id: 2640
   slug: hr-token
   tags:
     - token
@@ -3682,7 +3682,7 @@
         - unit-field
   guid: 5c9410d6-9dd9-f4b7-cb74-8a42ad81f503
   name: Hr Token
-- id: 2560
+- id: 2641
   slug: hr-token-master-grand
   description: |-
     Fill your side with 0 power "bomb-tribute" tokens.
