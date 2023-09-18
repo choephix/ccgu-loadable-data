@@ -1,346 +1,364 @@
-- art: /temp/a101
+- id: 2867
+  slug: hr-token
+  tags:
+    - token
+    - rush
+    - grand
+  effects:
+    active:
+      eventName: TurnEnd
+      eventStatus: began
+      condition: faq.isInPlay(card)
+      perform: |-
+        op.kill(card)
+        op.damage(player, 5)
+      allowedLots:
+        - unit-field
+  guid: 5c9410d6-9dd9-f4b7-cb74-8a42ad81f503
+  name: Hr Token
+- id: 2565
+  slug: generic_a_101
   effects: {}
+  art: /temp/a101
   guid: bc45d63a-05f2-465c-9b4a-f85e14398915
-  id: 2565
   name: Generic a101
   power: 1
-  slug: generic_a_101
-- art: /temp/a201
+- id: 2566
+  slug: generic_a_201
   effects: {}
+  art: /temp/a201
   guid: ec7cd823-101c-4bde-b0cd-c5d33cd1f6b0
-  id: 2566
   name: Generic a201
   power: 2
-  slug: generic_a_201
-- art: /temp/a202
+- id: 2567
+  slug: generic_a_202
   effects: {}
+  art: /temp/a202
   guid: e66cda98-f4df-4dc9-aec6-569a9bf37530
-  id: 2567
   name: Generic a202
   power: 2
-  slug: generic_a_202
-- art: /temp/a203
+- id: 2568
+  slug: generic_a_203
   effects: {}
+  art: /temp/a203
   guid: adc45d70-feb2-47f0-be47-c827fecaef9b
-  id: 2568
   name: Generic a203
   power: 2
-  slug: generic_a_203
-- art: /temp/a204
+- id: 2569
+  slug: generic_a_204
   effects: {}
+  art: /temp/a204
   guid: e019a936-68a6-4957-816f-67cdd36a7093
-  id: 2569
   name: Generic a204
   power: 2
-  slug: generic_a_204
-- art: /temp/a301
+- id: 2570
+  slug: generic_a_301
   effects: {}
+  art: /temp/a301
   guid: 4679c8d9-71d3-40c3-abb2-48b566bbd7cb
-  id: 2570
   name: Generic a301
   power: 3
-  slug: generic_a_301
-- art: /temp/a302
+- id: 2571
+  slug: generic_a_302
   effects: {}
+  art: /temp/a302
   guid: a29de7b3-dcfe-45a7-85b0-ec1ac351e1e7
-  id: 2571
   name: Generic a302
   power: 3
-  slug: generic_a_302
-- art: /temp/a303
+- id: 2572
+  slug: generic_a_303
   effects: {}
+  art: /temp/a303
   guid: ddceaaab-24a2-47b9-8ab6-0e95daf77ac4
-  id: 2572
   name: Generic a303
   power: 3
-  slug: generic_a_303
-- art: /temp/a401
+- id: 2573
+  slug: generic_a_401
   effects: {}
+  art: /temp/a401
   guid: 2928b548-cd16-45b6-a1c8-4b99634699af
-  id: 2573
   name: Generic a401
   power: 4
-  slug: generic_a_401
-- art: /temp/a402
+- id: 2574
+  slug: generic_a_402
   effects: {}
+  art: /temp/a402
   guid: 1fb8902a-cde8-4b9f-a6ed-8b259e5037d5
-  id: 2574
   name: Generic a402
   power: 4
-  slug: generic_a_402
-- art: /temp/a403
+- id: 2575
+  slug: generic_a_403
   effects: {}
+  art: /temp/a403
   guid: 2896a4aa-172c-45cf-9523-b6bf4939eace
-  id: 2575
   name: Generic a403
   power: 4
-  slug: generic_a_403
-- art: /temp/a404
+- id: 2576
+  slug: generic_a_404
   effects: {}
+  art: /temp/a404
   guid: 5d195074-586b-4644-ab15-ebe9bf43e1b0
-  id: 2576
   name: Generic a404
   power: 4
-  slug: generic_a_404
-- art: /temp/a405
+- id: 2577
+  slug: generic_a_405
   effects: {}
+  art: /temp/a405
   guid: 1f3fbcae-8d75-40c5-a85b-d4f2e1b837c9
-  id: 2577
   name: Generic a405
   power: 4
-  slug: generic_a_405
-- art: /temp/a501
+- id: 2578
+  slug: generic_a_501
   effects: {}
+  art: /temp/a501
   guid: 05e1574b-edb8-434f-a377-03c2168a899f
-  id: 2578
   name: Generic a501
   power: 5
-  slug: generic_a_501
-- art: /temp/a502
+- id: 2579
+  slug: generic_a_502
   effects: {}
+  art: /temp/a502
   guid: f33f6d81-cf50-4297-ada2-0455e8b68349
-  id: 2579
   name: Generic a502
   power: 5
-  slug: generic_a_502
-- art: /temp/a503
+- id: 2580
+  slug: generic_a_503
   effects: {}
+  art: /temp/a503
   guid: b5d6525a-00de-4ceb-8d2b-b40abb569643
-  id: 2580
   name: Generic a503
   power: 5
-  slug: generic_a_503
-- art: /temp/a504
+- id: 2581
+  slug: generic_a_504
   effects: {}
+  art: /temp/a504
   guid: 192c559c-42a3-4dc1-9a43-ae6bb293fc03
-  id: 2581
   name: Generic a504
   power: 5
-  slug: generic_a_504
-- art: /temp/a505
+- id: 2582
+  slug: generic_a_505
   effects: {}
+  art: /temp/a505
   guid: 909d13fc-6ba0-4cc5-8df7-5274bb95bb8e
-  id: 2582
   name: Generic a505
   power: 5
-  slug: generic_a_505
-- art: /temp/a506
+- id: 2583
+  slug: generic_a_506
   effects: {}
+  art: /temp/a506
   guid: cc7858ae-a334-4a01-a22f-757fbdd00039
-  id: 2583
   name: Generic a506
   power: 5
-  slug: generic_a_506
-- art: /temp/a507
+- id: 2584
+  slug: generic_a_507
   effects: {}
+  art: /temp/a507
   guid: ba61e1b4-e02d-4cdf-92ca-c94c39b7c5aa
-  id: 2584
   name: Generic a507
   power: 5
-  slug: generic_a_507
-- art: /temp/a508
+- id: 2585
+  slug: generic_a_508
   effects: {}
+  art: /temp/a508
   guid: 2f2347d7-0083-47e9-83ec-43d1bc32098d
-  id: 2585
   name: Generic a508
   power: 5
-  slug: generic_a_508
-- art: /temp/b101
+- id: 2586
+  slug: generic_b_101
   effects: {}
+  art: /temp/b101
   guid: b909bde6-9c60-4a68-af68-602b92fb4118
-  id: 2586
   name: Generic b101
   power: 1
-  slug: generic_b_101
-- art: /temp/b102
+- id: 2587
+  slug: generic_b_102
   effects: {}
+  art: /temp/b102
   guid: 83c68685-5119-4285-a450-81cd029f94f9
-  id: 2587
   name: Generic b102
   power: 1
-  slug: generic_b_102
-- art: /temp/b103
+- id: 2588
+  slug: generic_b_103
   effects: {}
+  art: /temp/b103
   guid: dbfe5f92-327e-46c6-bf84-fbceb2628d29
-  id: 2588
   name: Generic b103
   power: 1
-  slug: generic_b_103
-- art: /temp/b104
+- id: 2589
+  slug: generic_b_104
   effects: {}
+  art: /temp/b104
   guid: 7401e027-33f2-4950-8cf0-480f70a2b348
-  id: 2589
   name: Generic b104
   power: 1
-  slug: generic_b_104
-- art: /temp/b201
+- id: 2590
+  slug: generic_b_201
   effects: {}
+  art: /temp/b201
   guid: b7991bac-fbc6-4ecf-94ba-ec8f13747202
-  id: 2590
   name: Generic b201
   power: 2
-  slug: generic_b_201
-- art: /temp/b301
+- id: 2591
+  slug: generic_b_301
   effects: {}
+  art: /temp/b301
   guid: 06b54c89-0298-48b8-b9b7-010a7256eb19
-  id: 2591
   name: Generic b301
   power: 3
-  slug: generic_b_301
-- art: /temp/b302
+- id: 2592
+  slug: generic_b_302
   effects: {}
+  art: /temp/b302
   guid: 8fe4da2d-de78-4f03-bc30-db61727ba978
-  id: 2592
   name: Generic b302
   power: 3
-  slug: generic_b_302
-- art: /temp/b303
+- id: 2593
+  slug: generic_b_303
   effects: {}
+  art: /temp/b303
   guid: 4ff78fba-1664-4ada-86e8-9620d2f3b963
-  id: 2593
   name: Generic b303
   power: 3
-  slug: generic_b_303
-- art: /temp/b401
+- id: 2594
+  slug: generic_b_401
   effects: {}
+  art: /temp/b401
   guid: d165a257-766f-4788-a6f4-51be57571b1d
-  id: 2594
   name: Generic b401
   power: 4
-  slug: generic_b_401
-- art: /temp/b402
+- id: 2595
+  slug: generic_b_402
   effects: {}
+  art: /temp/b402
   guid: a8f91c3d-6f38-4c7c-9de8-7e7121b26654
-  id: 2595
   name: Generic b402
   power: 4
-  slug: generic_b_402
-- art: /temp/b403
+- id: 2596
+  slug: generic_b_403
   effects: {}
+  art: /temp/b403
   guid: 8d303d0b-c1b2-42ea-ba4e-69cd1204a829
-  id: 2596
   name: Generic b403
   power: 4
-  slug: generic_b_403
-- art: /temp/b404
+- id: 2597
+  slug: generic_b_404
   effects: {}
+  art: /temp/b404
   guid: 3feee9ce-56ae-429f-9dcd-7ef54e2dee5c
-  id: 2597
   name: Generic b404
   power: 4
-  slug: generic_b_404
-- art: /temp/b501
+- id: 2598
+  slug: generic_b_501
   effects: {}
+  art: /temp/b501
   guid: f172c5a4-334d-4b39-836f-10c4e0c4a637
-  id: 2598
   name: Generic b501
   power: 5
-  slug: generic_b_501
-- art: /temp/b502
+- id: 2599
+  slug: generic_b_502
   effects: {}
+  art: /temp/b502
   guid: 6ed631db-6be8-4f67-b23d-9851359aee4f
-  id: 2599
   name: Generic b502
   power: 5
-  slug: generic_b_502
-- art: /temp/b503
+- id: 2600
+  slug: generic_b_503
   effects: {}
+  art: /temp/b503
   guid: 4b31c109-ecb9-4c8d-973f-86c595a39bdc
-  id: 2600
   name: Generic b503
   power: 5
-  slug: generic_b_503
-- art: /temp/b504
+- id: 2601
+  slug: generic_b_504
   effects: {}
+  art: /temp/b504
   guid: c0bfcc2b-0288-41c9-983f-a9b8b79f7bbf
-  id: 2601
   name: Generic b504
   power: 5
-  slug: generic_b_504
-- art: /temp/b505
+- id: 2602
+  slug: generic_b_505
   effects: {}
+  art: /temp/b505
   guid: a35a9e5f-cf05-4a28-b0d9-028d35c29a4e
-  id: 2602
   name: Generic b505
   power: 5
-  slug: generic_b_505
-- art: /temp/b506
+- id: 2603
+  slug: generic_b_506
   effects: {}
+  art: /temp/b506
   guid: 7b39dfd3-3443-40fb-a0f6-d9c260a8e402
-  id: 2603
   name: Generic b506
   power: 5
-  slug: generic_b_506
-- art: /temp/b507
+- id: 2604
+  slug: generic_b_507
   effects: {}
+  art: /temp/b507
   guid: 2f46f4c5-ea4e-454c-a8cf-599ab39e4d52
-  id: 2604
   name: Generic b507
   power: 5
-  slug: generic_b_507
-- art: /temp/b508
+- id: 2605
+  slug: generic_b_508
   effects: {}
+  art: /temp/b508
   guid: 5a0bcc5c-9ba6-49ff-afbb-b3de22581b85
-  id: 2605
   name: Generic b508
   power: 5
-  slug: generic_b_508
-- art: /temp/b509
+- id: 2606
+  slug: generic_b_509
   effects: {}
+  art: /temp/b509
   guid: fb8beba8-5a84-4b1b-8947-3323b35501de
-  id: 2606
   name: Generic b509
   power: 5
-  slug: generic_b_509
-- art: /temp/b510
+- id: 2607
+  slug: generic_b_510
   effects: {}
+  art: /temp/b510
   guid: a23b41fe-9ce8-4d78-9879-c38c3758b47f
-  id: 2607
   name: Generic b510
   power: 5
-  slug: generic_b_510
-- art: /temp/b511
+- id: 2608
+  slug: generic_b_511
   effects: {}
+  art: /temp/b511
   guid: 285ebd54-bdf9-4261-9449-dc0019703b0f
-  id: 2608
   name: Generic b511
   power: 5
-  slug: generic_b_511
-- art: /temp/b512
+- id: 2609
+  slug: generic_b_512
   effects: {}
+  art: /temp/b512
   guid: b6d46f6c-0309-445c-9ac7-51bfa8d41261
-  id: 2609
   name: Generic b512
   power: 5
-  slug: generic_b_512
-- art: /temp/b513
+- id: 2610
+  slug: generic_b_513
   effects: {}
+  art: /temp/b513
   guid: 95c44940-5b2d-476d-905e-1d48404a8388
-  id: 2610
   name: Generic b513
   power: 5
-  slug: generic_b_513
-- art: /temp/b514
+- id: 2611
+  slug: generic_b_514
   effects: {}
+  art: /temp/b514
   guid: d7ec2515-9530-40e3-b84c-00e3fd3393a0
-  id: 2611
   name: Generic b514
   power: 5
-  slug: generic_b_514
-- art: /temp/b515
+- id: 2612
+  slug: generic_b_515
   effects: {}
+  art: /temp/b515
   guid: b2a78a27-f87f-4efe-87f2-8aa35721a967
-  id: 2612
   name: Generic b515
   power: 5
-  slug: generic_b_515
-- art: /temp/b516
+- id: 2613
+  slug: generic_b_516
   effects: {}
+  art: /temp/b516
   guid: 0d28e90e-34d9-4936-867b-9e4f684abca1
-  id: 2613
   name: Generic b516
   power: 5
-  slug: generic_b_516
 - id: 2365
   slug: $depowerer2
   description: "Combat-Flip: -2{{power}} to enemy unit here"
@@ -3226,13 +3244,13 @@
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   name: King Leonidas I
   power: 5
-- id: 2625
+- id: 2864
   slug: Pygmalion
   effects: {}
   guid: 02fff8fa-e1cd-a7f9-4c98-b3d7c21de154
   name: Pygmalion
   power: 4
-- id: 2624
+- id: 2865
   slug: Galatea
   description: Cannot move or attack unless Pygmalion is also in play.
   effects: {}
@@ -4007,25 +4025,7 @@
   guid: 9c32f1a1-8046-6cfe-759f-85907347d9ca
   name: the Destroyer
   power: 1
-- id: 2640
-  slug: hr-token
-  tags:
-    - token
-    - rush
-    - grand
-  effects:
-    active:
-      eventName: TurnEnd
-      eventStatus: began
-      condition: faq.isInPlay(card)
-      perform: |-
-        op.kill(card)
-        op.damage(player, 5)
-      allowedLots:
-        - unit-field
-  guid: 5c9410d6-9dd9-f4b7-cb74-8a42ad81f503
-  name: Hr Token
-- id: 2641
+- id: 2868
   slug: hr-token-master-grand
   description: |-
     Fill your side with 0 power "bomb-tribute" tokens.
