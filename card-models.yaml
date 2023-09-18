@@ -1005,49 +1005,49 @@
   name: Athos
   power: 5
   art: /hires/aramis
-- id: 2246
+- id: 2630
   slug: dwarf7
   effects: {}
   guid: c95360e4-66d3-bd41-c931-2982cf50fad6
   name: Quee the Dwarf
   power: 2
   art: /demo/dwarf7
-- id: 2245
+- id: 2629
   slug: dwarf6
   effects: {}
   guid: c95360e4-66d3-bd41-c931-2982cf50fad6
   name: Whick the Dwarf
   power: 2
   art: /demo/dwarf6
-- id: 2244
+- id: 2628
   slug: dwarf5
   effects: {}
   guid: c95360e4-66d3-bd41-c931-2982cf50fad6
   name: Plick the Dwarf
   power: 2
   art: /demo/dwarf5
-- id: 2243
+- id: 2627
   slug: dwarf4
   effects: {}
   guid: c95360e4-66d3-bd41-c931-2982cf50fad6
   name: Snick the Dwarf
   power: 2
   art: /demo/dwarf4
-- id: 2242
+- id: 2626
   slug: dwarf3
   effects: {}
   guid: c95360e4-66d3-bd41-c931-2982cf50fad6
   name: Glick the Dwarf
   power: 2
   art: /demo/dwarf3
-- id: 2241
+- id: 2625
   slug: dwarf2
   effects: {}
   guid: c95360e4-66d3-bd41-c931-2982cf50fad6
   name: Flick the Dwarf
   power: 2
   art: /demo/dwarf2
-- id: 2240
+- id: 2624
   slug: dwarf1
   effects: {}
   guid: c95360e4-66d3-bd41-c931-2982cf50fad6
