@@ -125,8 +125,8 @@
   guid: 1f3fbcae-8d75-40c5-a85b-d4f2e1b837c9
   name: Sindbad
   power: 4
-- id: 2576
-  slug: generic_a_501
+- id: 2579
+  slug: generic_a_504
   lore: In heart, on skin, the Emperor’s call, his unwavering loyalty inspiring all.
   effects: {}
   art: /hires/yue-fei
@@ -150,8 +150,8 @@
   guid: b5d6525a-00de-4ceb-8d2b-b40abb569643
   name: Grace O'Malley
   power: 5
-- id: 2579
-  slug: generic_a_504
+- id: 2576
+  slug: generic_a_501
   lore: His valor is etched in the rhythms of the Balkan winds, his tales sung by
     the earth.
   effects: {}
