@@ -18,38 +18,44 @@
   name: Hr Token
 - id: 2560
   slug: generic_a_101
+  lore: Bound by icy enchantments yet unfettered in spirit, he embodies resilience
+    against chilling absence of feeling.
   effects: {}
-  art: /temp/a101
+  art: /hires/kai
   guid: bc45d63a-05f2-465c-9b4a-f85e14398915
-  name: Generic a101
+  name: Kai
   power: 1
 - id: 2561
   slug: generic_a_201
+  lore: Of tales and riddles are her dwelt, a legacy weaving an ever-changing pelt.
   effects: {}
-  art: /temp/a201
+  art: /hires/tawaddud
   guid: ec7cd823-101c-4bde-b0cd-c5d33cd1f6b0
-  name: Generic a201
+  name: Tawaddud
   power: 2
 - id: 2562
   slug: generic_a_202
+  lore: Defying the jealous queen, a princess finds union in dwarven hearts serene.
   effects: {}
-  art: /temp/a202
+  art: /hires/snow-white
   guid: e66cda98-f4df-4dc9-aec6-569a9bf37530
-  name: Generic a202
+  name: Snow White
   power: 2
 - id: 2563
   slug: generic_a_203
+  lore: Guided by a doll, through Baba Yaga's hall
   effects: {}
-  art: /temp/a203
+  art: /vasilisa
   guid: adc45d70-feb2-47f0-be47-c827fecaef9b
-  name: Generic a203
+  name: Vasilisa the Beautiful
   power: 2
 - id: 2564
   slug: generic_a_204
+  lore: Across realms and dreams it flits, leaving traces of sparks as it wits.
   effects: {}
-  art: /temp/a204
+  art: /hires/zhar-ptitsa
   guid: e019a936-68a6-4957-816f-67cdd36a7093
-  name: Generic a204
+  name: Zhar Ptitsa
   power: 2
 - id: 2565
   slug: generic_a_301
@@ -165,31 +171,37 @@
   power: 5
 - id: 2592
   slug: generic_b_101
+  lore: A regal hand metes out justice, her whim enough to make heads roll.
   effects: {}
-  art: /temp/b101
+  art: /hires/queen-of-hearts
   guid: b909bde6-9c60-4a68-af68-602b92fb4118
-  name: Generic b101
+  name: Queen of Hearts
   power: 1
 - id: 2593
   slug: generic_b_102
+  lore: Around her, thorns grow into walls, protecting a beauty untouched by time
+    yet bound by a spell.
   effects: {}
-  art: /temp/b102
+  art: /hires/briar-rose
   guid: 83c68685-5119-4285-a450-81cd029f94f9
-  name: Generic b102
+  name: Briar Rose
   power: 1
 - id: 2594
   slug: generic_b_103
+  lore: His gaze seers into the inky veil of tomorrow, writing the world's unwoven
+    tapestry.
   effects: {}
-  art: /temp/b103
+  art: /hires/nostradamus
   guid: dbfe5f92-327e-46c6-bf84-fbceb2628d29
-  name: Generic b103
+  name: Nostradamus
   power: 1
 - id: 2595
   slug: generic_b_104
+  lore: Her relentless spirit - a beacon alight, propelling injustice into the night.
   effects: {}
-  art: /temp/b104
+  art: /hires/rebecca
   guid: 7401e027-33f2-4950-8cf0-480f70a2b348
-  name: Generic b104
+  name: Rebecca
   power: 1
 - id: 2596
   slug: generic_b_201
