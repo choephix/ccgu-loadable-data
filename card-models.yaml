@@ -1144,7 +1144,7 @@
   art: /imp
   power: 1
   name: Imp
-- id: 2118
+- id: 2117
   slug: ilya-muromets
   lore: In slumber awakened, the knight grows tall, answering unquestioningly
     Kiev’s call.
@@ -1399,7 +1399,7 @@
   art: /hires/oshun
   power: 5
   name: Oshun
-- id: 2121
+- id: 2118
   slug: ogma
   lore: Wordsmith of the divine, his eloquent speech enchants gods and mortals alike.
   effects: {}
@@ -1866,7 +1866,7 @@
   name: Angra Mainyu
   power: 10
   art: /angra-mainyu
-- id: 2087
+- id: 2083
   slug: anne-dieu-le-veut
   lore: One bullet ends a disgrace, beginning a legacy fierce as the Caribbean
     embrace.
