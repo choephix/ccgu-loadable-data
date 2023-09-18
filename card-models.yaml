@@ -59,80 +59,96 @@
   power: 2
 - id: 2565
   slug: generic_a_301
+  lore: The ragged cloak may fool the eye, but her bravery is in plain sight.
   effects: {}
-  art: /temp/a301
+  art: /tatterhood
   guid: 4679c8d9-71d3-40c3-abb2-48b566bbd7cb
-  name: Generic a301
+  name: Tatterhood
   power: 3
 - id: 2566
   slug: generic_a_302
+  lore: One bullet ends a disgrace, beginning a legacy fierce as the Caribbean
+    embrace.
   effects: {}
-  art: /temp/a302
+  art: /anne-dieu-le-veut
   guid: a29de7b3-dcfe-45a7-85b0-ec1ac351e1e7
-  name: Generic a302
+  name: Anne Dieu Le Veut
   power: 3
 - id: 2567
   slug: generic_a_303
+  lore: Frost-kissed determination guides her through the realm of eternal
+    winter—a thawing warmth against chilling despair.
   effects: {}
-  art: /temp/a303
+  art: /hires/gerda
   guid: ddceaaab-24a2-47b9-8ab6-0e95daf77ac4
-  name: Generic a303
+  name: Gerda
   power: 3
 - id: 2568
   slug: generic_a_401
+  lore: Ever the whirlwind of mischief and strength, she rules her own world, and
+    all who enter.
   effects: {}
-  art: /temp/a401
+  art: /hires/pippi
   guid: 2928b548-cd16-45b6-a1c8-4b99634699af
-  name: Generic a401
+  name: Pippi
   power: 4
 - id: 2569
   slug: generic_a_402
+  lore: Born from peach, demons' foe, his story is echoed in summer's glow.
   effects: {}
-  art: /temp/a402
+  art: /momotaro
   guid: 1fb8902a-cde8-4b9f-a6ed-8b259e5037d5
-  name: Generic a402
+  name: Momotaro
   power: 4
 - id: 2570
   slug: generic_a_403
+  lore: Exiled prince bearing a hero's will, his trials and tribulations essence
+    distilled.
   effects: {}
-  art: /temp/a403
+  art: /dietrich
   guid: 2896a4aa-172c-45cf-9523-b6bf4939eace
-  name: Generic a403
+  name: Dietrich
   power: 4
 - id: 2571
   slug: generic_a_404
+  lore: In revenge, her enemies' blood she sought, and brought a tyrant king to
+    nought.
   effects: {}
-  art: /temp/a404
+  art: /hires/queen-tomyris
   guid: 5d195074-586b-4644-ab15-ebe9bf43e1b0
-  name: Generic a404
+  name: Queen Tomyris
   power: 4
 - id: 2572
   slug: generic_a_405
   effects: {}
-  art: /temp/a405
+  art: /hires/sinbad
   guid: 1f3fbcae-8d75-40c5-a85b-d4f2e1b837c9
-  name: Generic a405
+  name: Sindbad
   power: 4
 - id: 2576
   slug: generic_a_501
+  lore: In heart, on skin, the Emperor’s call, his unwavering loyalty inspiring all.
   effects: {}
-  art: /temp/a501
+  art: /hires/yue-fei
   guid: 05e1574b-edb8-434f-a377-03c2168a899f
-  name: Generic a501
+  name: Yue Fei
   power: 5
 - id: 2577
   slug: generic_a_502
+  lore: In the wisdom of the Salmon's embrace, he guards Ireland with
+    extraordinary grace.
   effects: {}
-  art: /temp/a502
+  art: /fionn-mac-cumhaill
   guid: f33f6d81-cf50-4297-ada2-0455e8b68349
-  name: Generic a502
+  name: Fionn Mac Cumhaill
   power: 5
 - id: 2578
   slug: generic_a_503
+  lore: Fierce as the untamed winds, she sails not as a queen but as a tempest tamed.
   effects: {}
-  art: /temp/a503
+  art: /hires/grace-o-malley
   guid: b5d6525a-00de-4ceb-8d2b-b40abb569643
-  name: Generic a503
+  name: Grace O'Malley
   power: 5
 - id: 2579
   slug: generic_a_504
@@ -205,45 +221,56 @@
   power: 1
 - id: 2596
   slug: generic_b_201
+  lore: Her knitting needles orchestrate a symphony of rebellion, each loop
+    echoing the heartbeat of revolution.
   effects: {}
-  art: /temp/b201
+  art: /hires/madame-defarge
   guid: b7991bac-fbc6-4ecf-94ba-ec8f13747202
-  name: Generic b201
+  name: Madame Defarge
   power: 2
 - id: 2597
   slug: generic_b_301
+  lore: Behind the veiled eyes, a mind as sharp as any detective's resonates with
+    intelligent defiance.
   effects: {}
-  art: /temp/b301
+  art: /hires/irene-adler
   guid: 06b54c89-0298-48b8-b9b7-010a7256eb19
-  name: Generic b301
+  name: Irene Adler
   power: 3
 - id: 2598
   slug: generic_b_302
+  lore: His chilling laughter lends an eerie resonance to each echoing step on
+    blood-soaked stone.
   effects: {}
-  art: /temp/b302
+  art: /hires/bluebeard
   guid: 8fe4da2d-de78-4f03-bc30-db61727ba978
-  name: Generic b302
+  name: Bluebeard
   power: 3
 - id: 2599
   slug: generic_b_303
+  lore: Her story is a crimson thread woven through the woolly fabric of childhood
+    cautionary tales.
   effects: {}
-  art: /temp/b303
+  art: /hires/little-red-riding-hood
   guid: 4ff78fba-1664-4ada-86e8-9620d2f3b963
-  name: Generic b303
+  name: Little Red Riding Hood
   power: 3
 - id: 2600
   slug: generic_b_401
+  lore: His name, a song of bravery, echoes in every warrior's heart pledging
+    fealty to honor.
   effects: {}
-  art: /temp/b401
+  art: /hires/guillaume-d-orange
   guid: d165a257-766f-4788-a6f4-51be57571b1d
-  name: Generic b401
+  name: Guillaume D'Orange
   power: 4
 - id: 2601
   slug: generic_b_402
+  lore: Defender of his homeland, his might stemmed the foreign hand.
   effects: {}
-  art: /temp/b402
+  art: /alexander-nevsky
   guid: a8f91c3d-6f38-4c7c-9de8-7e7121b26654
-  name: Generic b402
+  name: Alexander Nevsky
   power: 4
 - id: 2602
   slug: generic_b_403
@@ -259,19 +286,21 @@
   guid: 3feee9ce-56ae-429f-9dcd-7ef54e2dee5c
   name: Generic b404
   power: 4
-- id: 2608
-  slug: generic_b_501
-  effects: {}
-  art: /temp/b501
-  guid: f172c5a4-334d-4b39-836f-10c4e0c4a637
-  name: Generic b501
-  power: 5
 - id: 2609
   slug: generic_b_502
+  lore: With courage swelling in his chest, he lays monsters and dragons to rest.
   effects: {}
-  art: /temp/b502
+  art: /beowulf
+  guid: f172c5a4-334d-4b39-836f-10c4e0c4a637
+  name: Beowulf
+  power: 5
+- id: 2608
+  slug: generic_b_501
+  lore: In her glass castle of eternal winter, she rules with an icy splinter.
+  effects: {}
+  art: /hires/snow-queen
   guid: 6ed631db-6be8-4f67-b23d-9851359aee4f
-  name: Generic b502
+  name: Snow Queen
   power: 5
 - id: 2610
   slug: generic_b_503
