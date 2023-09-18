@@ -152,38 +152,47 @@
   power: 5
 - id: 2579
   slug: generic_a_504
+  lore: His valor is etched in the rhythms of the Balkan winds, his tales sung by
+    the earth.
   effects: {}
-  art: /temp/a504
+  art: /krali-marko
   guid: 192c559c-42a3-4dc1-9a43-ae6bb293fc03
-  name: Generic a504
+  name: Krali Marko
   power: 5
 - id: 2580
   slug: generic_a_505
+  lore: Brimbling with murkitude in the duskish dim, skraggling with its
+    blibberous eyes and grinfanging jaws, hurling a frumious shiver of dread
+    into the heart of the most bandersome quester.
   effects: {}
-  art: /temp/a505
+  art: /jabberwock
   guid: 909d13fc-6ba0-4cc5-8df7-5274bb95bb8e
-  name: Generic a505
+  name: Jabberwock
   power: 5
 - id: 2581
   slug: generic_a_506
+  lore: Evoked by love’s undying flame, he faced kingdoms and gods in his name.
   effects: {}
-  art: /temp/a506
+  art: /frithiof
   guid: cc7858ae-a334-4a01-a22f-757fbdd00039
-  name: Generic a506
+  name: Frithiof
   power: 5
 - id: 2582
   slug: generic_a_507
+  lore: Guided by the divine charioteer, rides the hero in celestial gear.
   effects: {}
-  art: /temp/a507
+  art: /arjuna
   guid: ba61e1b4-e02d-4cdf-92ca-c94c39b7c5aa
-  name: Generic a507
+  name: Arjuna
   power: 5
 - id: 2583
   slug: generic_a_508
+  lore: Her beguiling charm belies a grisly hunger, obscured by the blush of
+    eternal youth.
   effects: {}
-  art: /temp/a508
+  art: /hires/carmilla
   guid: 2f2347d7-0083-47e9-83ec-43d1bc32098d
-  name: Generic a508
+  name: Carmilla
   power: 5
 - id: 2592
   slug: generic_b_101
@@ -274,17 +283,20 @@
   power: 4
 - id: 2602
   slug: generic_b_403
+  lore: Cheerful and rosy, heart wild as a doe, she marvels at nature's ebb and flow.
   effects: {}
-  art: /temp/b403
+  art: /hires/rose-red
   guid: 8d303d0b-c1b2-42ea-ba4e-69cd1204a829
-  name: Generic b403
+  name: Rose Red
   power: 4
 - id: 2603
   slug: generic_b_404
+  lore: In war or peace, his wisdom plays the test, a ruler's heart beats within
+    his chest.
   effects: {}
-  art: /temp/b404
+  art: /bran-the-blessed
   guid: 3feee9ce-56ae-429f-9dcd-7ef54e2dee5c
-  name: Generic b404
+  name: Bran the Blessed
   power: 4
 - id: 2609
   slug: generic_b_502
@@ -304,101 +316,55 @@
   power: 5
 - id: 2610
   slug: generic_b_503
+  lore: Wordsmith of the divine, his eloquent speech enchants gods and mortals alike.
   effects: {}
-  art: /temp/b503
+  art: /hires/ogma
   guid: 4b31c109-ecb9-4c8d-973f-86c595a39bdc
-  name: Generic b503
+  name: Ogma
   power: 5
 - id: 2611
   slug: generic_b_504
+  lore: Master of all skills, step forth, illuminate the world with your radiant
+    worth.
   effects: {}
-  art: /temp/b504
+  art: /lugh
   guid: c0bfcc2b-0288-41c9-983f-a9b8b79f7bbf
-  name: Generic b504
+  name: Lugh
   power: 5
 - id: 2612
   slug: generic_b_505
+  lore: Fearless dragon slayer, with heart as pure as his blade, by his honor
+    he'll never be swayed.
   effects: {}
-  art: /temp/b505
+  art: /hires/siegfried
   guid: a35a9e5f-cf05-4a28-b0d9-028d35c29a4e
-  name: Generic b505
+  name: Siegfried
   power: 5
 - id: 2613
   slug: generic_b_506
+  lore: Samurai warrior maiden, her blade, as swift as cherry blossoms in the
+    wind, was a beacon of grace and terror on the battlefield.
   effects: {}
-  art: /temp/b506
+  art: /tomoe-gozen
   guid: 7b39dfd3-3443-40fb-a0f6-d9c260a8e402
-  name: Generic b506
+  name: Tomoe Gozen
   power: 5
 - id: 2614
   slug: generic_b_507
+  lore: In slumber awakened, the knight grows tall, answering unquestioningly
+    Kiev’s call.
   effects: {}
-  art: /temp/b507
+  art: /ilya-muromets
   guid: 2f46f4c5-ea4e-454c-a8cf-599ab39e4d52
-  name: Generic b507
+  name: Ilya Muromets
   power: 5
 - id: 2615
   slug: generic_b_508
+  lore: Vanquished by a divine flute, surrendered to a youth's firm refute.
   effects: {}
-  art: /temp/b508
+  art: /kaliya-the-naga
   guid: 5a0bcc5c-9ba6-49ff-afbb-b3de22581b85
-  name: Generic b508
-  power: 5
-- id: 2616
-  slug: generic_b_509
-  effects: {}
-  art: /temp/b509
-  guid: fb8beba8-5a84-4b1b-8947-3323b35501de
-  name: Generic b509
-  power: 5
-- id: 2617
-  slug: generic_b_510
-  effects: {}
-  art: /temp/b510
-  guid: a23b41fe-9ce8-4d78-9879-c38c3758b47f
-  name: Generic b510
-  power: 5
-- id: 2618
-  slug: generic_b_511
-  effects: {}
-  art: /temp/b511
-  guid: 285ebd54-bdf9-4261-9449-dc0019703b0f
-  name: Generic b511
-  power: 5
-- id: 2619
-  slug: generic_b_512
-  effects: {}
-  art: /temp/b512
-  guid: b6d46f6c-0309-445c-9ac7-51bfa8d41261
-  name: Generic b512
-  power: 5
-- id: 2620
-  slug: generic_b_513
-  effects: {}
-  art: /temp/b513
-  guid: 95c44940-5b2d-476d-905e-1d48404a8388
-  name: Generic b513
-  power: 5
-- id: 2621
-  slug: generic_b_514
-  effects: {}
-  art: /temp/b514
-  guid: d7ec2515-9530-40e3-b84c-00e3fd3393a0
-  name: Generic b514
-  power: 5
-- id: 2622
-  slug: generic_b_515
-  effects: {}
-  art: /temp/b515
-  guid: b2a78a27-f87f-4efe-87f2-8aa35721a967
-  name: Generic b515
-  power: 5
-- id: 2623
-  slug: generic_b_516
-  effects: {}
-  art: /temp/b516
-  guid: 0d28e90e-34d9-4936-867b-9e4f684abca1
-  name: Generic b516
+  name: Kaliya the Naga
   power: 5
 - id: 2365
   slug: $depowerer2
