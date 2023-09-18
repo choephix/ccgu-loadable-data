@@ -3051,7 +3051,7 @@
         }
       allowedLots:
         - unit-field
-  art: /joan-the-hatchet
+  art: /b2/geronimo
   guid: e848b4d8-311f-6eaa-e803-b3c88677863a
   name: Geronimo
   power: 3
