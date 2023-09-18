@@ -1,3 +1,346 @@
+- art: /temp/a101
+  effects: {}
+  guid: bc45d63a-05f2-465c-9b4a-f85e14398915
+  id: 2565
+  name: Generic a101
+  power: 1
+  slug: generic_a_101
+- art: /temp/a201
+  effects: {}
+  guid: ec7cd823-101c-4bde-b0cd-c5d33cd1f6b0
+  id: 2566
+  name: Generic a201
+  power: 2
+  slug: generic_a_201
+- art: /temp/a202
+  effects: {}
+  guid: e66cda98-f4df-4dc9-aec6-569a9bf37530
+  id: 2567
+  name: Generic a202
+  power: 2
+  slug: generic_a_202
+- art: /temp/a203
+  effects: {}
+  guid: adc45d70-feb2-47f0-be47-c827fecaef9b
+  id: 2568
+  name: Generic a203
+  power: 2
+  slug: generic_a_203
+- art: /temp/a204
+  effects: {}
+  guid: e019a936-68a6-4957-816f-67cdd36a7093
+  id: 2569
+  name: Generic a204
+  power: 2
+  slug: generic_a_204
+- art: /temp/a301
+  effects: {}
+  guid: 4679c8d9-71d3-40c3-abb2-48b566bbd7cb
+  id: 2570
+  name: Generic a301
+  power: 3
+  slug: generic_a_301
+- art: /temp/a302
+  effects: {}
+  guid: a29de7b3-dcfe-45a7-85b0-ec1ac351e1e7
+  id: 2571
+  name: Generic a302
+  power: 3
+  slug: generic_a_302
+- art: /temp/a303
+  effects: {}
+  guid: ddceaaab-24a2-47b9-8ab6-0e95daf77ac4
+  id: 2572
+  name: Generic a303
+  power: 3
+  slug: generic_a_303
+- art: /temp/a401
+  effects: {}
+  guid: 2928b548-cd16-45b6-a1c8-4b99634699af
+  id: 2573
+  name: Generic a401
+  power: 4
+  slug: generic_a_401
+- art: /temp/a402
+  effects: {}
+  guid: 1fb8902a-cde8-4b9f-a6ed-8b259e5037d5
+  id: 2574
+  name: Generic a402
+  power: 4
+  slug: generic_a_402
+- art: /temp/a403
+  effects: {}
+  guid: 2896a4aa-172c-45cf-9523-b6bf4939eace
+  id: 2575
+  name: Generic a403
+  power: 4
+  slug: generic_a_403
+- art: /temp/a404
+  effects: {}
+  guid: 5d195074-586b-4644-ab15-ebe9bf43e1b0
+  id: 2576
+  name: Generic a404
+  power: 4
+  slug: generic_a_404
+- art: /temp/a405
+  effects: {}
+  guid: 1f3fbcae-8d75-40c5-a85b-d4f2e1b837c9
+  id: 2577
+  name: Generic a405
+  power: 4
+  slug: generic_a_405
+- art: /temp/a501
+  effects: {}
+  guid: 05e1574b-edb8-434f-a377-03c2168a899f
+  id: 2578
+  name: Generic a501
+  power: 5
+  slug: generic_a_501
+- art: /temp/a502
+  effects: {}
+  guid: f33f6d81-cf50-4297-ada2-0455e8b68349
+  id: 2579
+  name: Generic a502
+  power: 5
+  slug: generic_a_502
+- art: /temp/a503
+  effects: {}
+  guid: b5d6525a-00de-4ceb-8d2b-b40abb569643
+  id: 2580
+  name: Generic a503
+  power: 5
+  slug: generic_a_503
+- art: /temp/a504
+  effects: {}
+  guid: 192c559c-42a3-4dc1-9a43-ae6bb293fc03
+  id: 2581
+  name: Generic a504
+  power: 5
+  slug: generic_a_504
+- art: /temp/a505
+  effects: {}
+  guid: 909d13fc-6ba0-4cc5-8df7-5274bb95bb8e
+  id: 2582
+  name: Generic a505
+  power: 5
+  slug: generic_a_505
+- art: /temp/a506
+  effects: {}
+  guid: cc7858ae-a334-4a01-a22f-757fbdd00039
+  id: 2583
+  name: Generic a506
+  power: 5
+  slug: generic_a_506
+- art: /temp/a507
+  effects: {}
+  guid: ba61e1b4-e02d-4cdf-92ca-c94c39b7c5aa
+  id: 2584
+  name: Generic a507
+  power: 5
+  slug: generic_a_507
+- art: /temp/a508
+  effects: {}
+  guid: 2f2347d7-0083-47e9-83ec-43d1bc32098d
+  id: 2585
+  name: Generic a508
+  power: 5
+  slug: generic_a_508
+- art: /temp/b101
+  effects: {}
+  guid: b909bde6-9c60-4a68-af68-602b92fb4118
+  id: 2586
+  name: Generic b101
+  power: 1
+  slug: generic_b_101
+- art: /temp/b102
+  effects: {}
+  guid: 83c68685-5119-4285-a450-81cd029f94f9
+  id: 2587
+  name: Generic b102
+  power: 1
+  slug: generic_b_102
+- art: /temp/b103
+  effects: {}
+  guid: dbfe5f92-327e-46c6-bf84-fbceb2628d29
+  id: 2588
+  name: Generic b103
+  power: 1
+  slug: generic_b_103
+- art: /temp/b104
+  effects: {}
+  guid: 7401e027-33f2-4950-8cf0-480f70a2b348
+  id: 2589
+  name: Generic b104
+  power: 1
+  slug: generic_b_104
+- art: /temp/b201
+  effects: {}
+  guid: b7991bac-fbc6-4ecf-94ba-ec8f13747202
+  id: 2590
+  name: Generic b201
+  power: 2
+  slug: generic_b_201
+- art: /temp/b301
+  effects: {}
+  guid: 06b54c89-0298-48b8-b9b7-010a7256eb19
+  id: 2591
+  name: Generic b301
+  power: 3
+  slug: generic_b_301
+- art: /temp/b302
+  effects: {}
+  guid: 8fe4da2d-de78-4f03-bc30-db61727ba978
+  id: 2592
+  name: Generic b302
+  power: 3
+  slug: generic_b_302
+- art: /temp/b303
+  effects: {}
+  guid: 4ff78fba-1664-4ada-86e8-9620d2f3b963
+  id: 2593
+  name: Generic b303
+  power: 3
+  slug: generic_b_303
+- art: /temp/b401
+  effects: {}
+  guid: d165a257-766f-4788-a6f4-51be57571b1d
+  id: 2594
+  name: Generic b401
+  power: 4
+  slug: generic_b_401
+- art: /temp/b402
+  effects: {}
+  guid: a8f91c3d-6f38-4c7c-9de8-7e7121b26654
+  id: 2595
+  name: Generic b402
+  power: 4
+  slug: generic_b_402
+- art: /temp/b403
+  effects: {}
+  guid: 8d303d0b-c1b2-42ea-ba4e-69cd1204a829
+  id: 2596
+  name: Generic b403
+  power: 4
+  slug: generic_b_403
+- art: /temp/b404
+  effects: {}
+  guid: 3feee9ce-56ae-429f-9dcd-7ef54e2dee5c
+  id: 2597
+  name: Generic b404
+  power: 4
+  slug: generic_b_404
+- art: /temp/b501
+  effects: {}
+  guid: f172c5a4-334d-4b39-836f-10c4e0c4a637
+  id: 2598
+  name: Generic b501
+  power: 5
+  slug: generic_b_501
+- art: /temp/b502
+  effects: {}
+  guid: 6ed631db-6be8-4f67-b23d-9851359aee4f
+  id: 2599
+  name: Generic b502
+  power: 5
+  slug: generic_b_502
+- art: /temp/b503
+  effects: {}
+  guid: 4b31c109-ecb9-4c8d-973f-86c595a39bdc
+  id: 2600
+  name: Generic b503
+  power: 5
+  slug: generic_b_503
+- art: /temp/b504
+  effects: {}
+  guid: c0bfcc2b-0288-41c9-983f-a9b8b79f7bbf
+  id: 2601
+  name: Generic b504
+  power: 5
+  slug: generic_b_504
+- art: /temp/b505
+  effects: {}
+  guid: a35a9e5f-cf05-4a28-b0d9-028d35c29a4e
+  id: 2602
+  name: Generic b505
+  power: 5
+  slug: generic_b_505
+- art: /temp/b506
+  effects: {}
+  guid: 7b39dfd3-3443-40fb-a0f6-d9c260a8e402
+  id: 2603
+  name: Generic b506
+  power: 5
+  slug: generic_b_506
+- art: /temp/b507
+  effects: {}
+  guid: 2f46f4c5-ea4e-454c-a8cf-599ab39e4d52
+  id: 2604
+  name: Generic b507
+  power: 5
+  slug: generic_b_507
+- art: /temp/b508
+  effects: {}
+  guid: 5a0bcc5c-9ba6-49ff-afbb-b3de22581b85
+  id: 2605
+  name: Generic b508
+  power: 5
+  slug: generic_b_508
+- art: /temp/b509
+  effects: {}
+  guid: fb8beba8-5a84-4b1b-8947-3323b35501de
+  id: 2606
+  name: Generic b509
+  power: 5
+  slug: generic_b_509
+- art: /temp/b510
+  effects: {}
+  guid: a23b41fe-9ce8-4d78-9879-c38c3758b47f
+  id: 2607
+  name: Generic b510
+  power: 5
+  slug: generic_b_510
+- art: /temp/b511
+  effects: {}
+  guid: 285ebd54-bdf9-4261-9449-dc0019703b0f
+  id: 2608
+  name: Generic b511
+  power: 5
+  slug: generic_b_511
+- art: /temp/b512
+  effects: {}
+  guid: b6d46f6c-0309-445c-9ac7-51bfa8d41261
+  id: 2609
+  name: Generic b512
+  power: 5
+  slug: generic_b_512
+- art: /temp/b513
+  effects: {}
+  guid: 95c44940-5b2d-476d-905e-1d48404a8388
+  id: 2610
+  name: Generic b513
+  power: 5
+  slug: generic_b_513
+- art: /temp/b514
+  effects: {}
+  guid: d7ec2515-9530-40e3-b84c-00e3fd3393a0
+  id: 2611
+  name: Generic b514
+  power: 5
+  slug: generic_b_514
+- art: /temp/b515
+  effects: {}
+  guid: b2a78a27-f87f-4efe-87f2-8aa35721a967
+  id: 2612
+  name: Generic b515
+  power: 5
+  slug: generic_b_515
+- art: /temp/b516
+  effects: {}
+  guid: 0d28e90e-34d9-4936-867b-9e4f684abca1
+  id: 2613
+  name: Generic b516
+  power: 5
+  slug: generic_b_516
 - id: 2365
   slug: $depowerer2
   description: "Combat-Flip: -2{{power}} to enemy unit here"
