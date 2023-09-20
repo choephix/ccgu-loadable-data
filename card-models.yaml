@@ -1,3 +1,26 @@
+- id: 2401
+  slug: $reverse-piercing
+  description: |-
+    Before I attack a unit, take damage equal to the difference in our power
+    if it's weaker
+  effects:
+    active:
+      eventName: UnitAttack
+      eventStatus: began
+      condition: |-
+        const foe = get.opposingUnit(card)
+        event.card === card &&
+        foe && foe.power < card.power
+      perform: |-
+        const foe = get.opposingUnit(card)
+        const dmg = card.power - foe.power
+        op.damage(player, dmg)
+      allowedLots:
+        - unit-field
+  guid: 35a03812-9e08-ce45-504e-aaad23fda847
+  name: "REDACTED #14"
+  art: /redacted/generic_21
+  power: 8
 - id: 2867
   slug: hr-token
   tags:
@@ -2416,7 +2439,7 @@
         - unit-field
   guid: 0ae1518f-a398-4c1d-39c6-bc1467df0b17
   name: Draupnir
-- id: 2403
+- id: 2418
   slug: elegant-walter
   description: -3{{power}} to enemy unit here when I die
   effects:
@@ -2448,7 +2471,7 @@
   name: Jeanne d'Arc
   power: 2
   art: /joan-of-arc
-- id: 2414
+- id: 2412
   slug: mythical-hoki
   description: |-
     +X{{ap}} equal to the enemy's numeric superiority
@@ -3578,6 +3601,7 @@
   slug: $token-after-attack
   type: 1
   description: After enemy direct attack here, deploy a 10 power token here
+  notes: Token After Attack
   effects:
     active:
       eventName: UnitAttackDirect
@@ -3592,7 +3616,7 @@
   guid: 7b56a5c5-71bc-d653-3098-2dd6e8e17b3b
   name: "REDACTED #93"
   art: /traps/dwarven-face
-- id: 2412
+- id: 2414
   slug: token-on-attack
   type: 1
   effects:
