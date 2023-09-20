@@ -3591,6 +3591,7 @@
         op.spawnToken(field, token)
   guid: 7b56a5c5-71bc-d653-3098-2dd6e8e17b3b
   name: "REDACTED #93"
+  art: /traps/dwarven-face
 - id: 2412
   slug: token-on-attack
   type: 1
