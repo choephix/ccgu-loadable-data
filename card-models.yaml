@@ -382,6 +382,7 @@
   guid: 2875d608-e153-2e48-ebe2-e71a8f5b7b22
   power: 1
   name: "REDACTED #97"
+  art: /redacted/generic_80
 - id: 2364
   slug: $depowerer
   description: |-
@@ -401,6 +402,7 @@
   guid: 2875d608-e153-2e48-ebe2-e71a8f5b7b22
   power: 1
   name: "REDACTED #98"
+  art: /redacted/generic_22
 - id: 2397
   slug: $pierced
   description: Enemy unit here has PIERCING
@@ -416,6 +418,7 @@
   guid: ae1e9d1b-592a-c50b-55c2-9230d6c2fd28
   power: 7
   name: "REDACTED #13"
+  art: /redacted/generic_81
 - id: 2396
   slug: $both-draw
   description: |-
@@ -432,7 +435,7 @@
       allowedLots:
         - unit-field
   guid: 15f64461-95cc-c62e-ca23-11dc1495fba7
-  art: /temp/she5
+  art: /redacted/generic_15
   name: "REDACTED #12"
   power: 4
 - id: 2417
@@ -602,7 +605,7 @@
         - grave
   guid: 6b09bd92-79ab-ceec-f426-497dcd1aa5c5
   name: "REDACTED #7B"
-  art: /temp/she4
+  art: /redacted/generic_05
 - id: 2390
   slug: $copy-weakest
   description: |-
@@ -626,7 +629,7 @@
         - grave
   guid: 6b09bd92-79ab-ceec-f426-497dcd1aa5c5
   name: "REDACTED #7A"
-  art: /temp/she4
+  art: /redacted/generic_45
 - id: 2378
   slug: wandering-stephen
   description: |-
@@ -637,7 +640,7 @@
   effects: {}
   guid: ebbc0f6d-a161-e837-fd36-ea2cdbba123c
   name: "REDACTED #102"
-  art: /temp/she1
+  art: /redacted/generic_96
 - id: 2528
   slug: loki
   description: |-
@@ -665,6 +668,7 @@
   effects: {}
   guid: 45f5588b-4b20-155b-63bd-e9de7b9c9e62
   name: "REDACTED #00"
+  art: /redacted/generic_10
 - id: 2376
   slug: $steal-with-unit
   type: 1
@@ -685,6 +689,7 @@
         op.forceSwap(cardA, cardB)
   guid: c27322f1-17a5-cb53-c4b8-1b602e73bbd0
   name: "REDACTED #91"
+  art: /traps/demonic-skull
 - id: 2342
   slug: lucky-randy
   type: 1
@@ -711,7 +716,7 @@
   guid: 343ead69-d7f7-fa83-a2f3-6b5289f07b9d
   power: 9
   name: "REDACTED #101"
-  art: /temp/she2
+  art: /redacted/generic_53
 - id: 2389
   slug: $only-one-in-hand
   description: I must be your only card in hand to deploy me
@@ -721,7 +726,7 @@
   guid: 0bf83fa5-e3bb-7bca-f0a3-56c94d85014b
   power: 8
   name: "REDACTED #6B"
-  art: /temp/she4
+  art: /redacted/generic_60
 - id: 2369
   slug: $grow-on-move
   description: |-
@@ -742,7 +747,7 @@
   guid: e4a4712c-a40b-912a-5507-2def8b8a6dfd
   power: 1
   name: "REDACTED #1"
-  art: /temp/she1
+  art: /redacted/generic_33
 - id: 2337
   slug: sir-breuse-sans-pite
   description: I only attack directly
@@ -978,7 +983,7 @@
   guid: cb795b5c-f241-e904-0fe7-1394d217b4a1
   name: "REDACTED #2A"
   power: 7
-  art: /temp/she2
+  art: /redacted/generic_73
 - id: 2511
   slug: thunderstones
   type: 1
@@ -2470,7 +2475,7 @@
   guid: 0bf83fa5-e3bb-7bca-f0a3-56c94d85014b
   power: 8
   name: "REDACTED #6A"
-  art: /temp/she6
+  art: /redacted/generic_30
 - id: 62
   slug: --grave-filler3
   effects:
@@ -3139,7 +3144,7 @@
   guid: 847fc569-a396-f9da-3422-837392c88113
   name: "REDACTED #100"
   power: 8
-  art: /temp/she6
+  art: /redacted/generic_40
 - id: 2508
   slug: ereshkigal
   description: +1{{power}} for each card in your graveyard
@@ -3270,8 +3275,6 @@
     Combat-Flip:
     Kill enemy unit here
     Destroy opposing creature and take damage equal to its power.
-  lore: Fafnir, a dwarf turned dragon, was killed by Sigurd, but his blood also
-    caused Sigurd's eventual death.
   notes: King Pyrrhus?
   tags:
     - sneak
@@ -3285,7 +3288,7 @@
           op.kill(foe)
           op.damage(player, hpcost)
         }
-  art: /temp/she4
+  art: /redacted/generic_39
   guid: bb757a5a-ddfa-73e6-9da0-0526faf78c3e
   name: "REDACTED #99"
   power: 1
@@ -3447,6 +3450,7 @@
         op.moveTo(event.card, myField)
   guid: ecf87384-4b2b-ceed-ffb1-c510eea1a14e
   name: "REDACTED #92"
+  art: /traps/dwarven-face
 - id: 2380
   slug: cookable-mammal
   type: 1
@@ -3570,9 +3574,10 @@
   guid: f6089e84-65fc-5342-5389-15642b3dff64
   name: Token 6
   power: 6
-- id: 2411
-  slug: token-after-attack
+- id: 2398
+  slug: $token-after-attack
   type: 1
+  description: After enemy direct attack here, deploy a 10 power token here
   effects:
     active:
       eventName: UnitAttackDirect
@@ -3581,10 +3586,11 @@
         get.opposingUnit(card) === event.card &&
         !get.sameLaneUnit(card)
       perform: |-
+        const token = "clay-golem-token"
         const field = get.sameLaneUnitField(card)
-        op.spawnToken(field, 'token-9')
+        op.spawnToken(field, token)
   guid: 7b56a5c5-71bc-d653-3098-2dd6e8e17b3b
-  name: Token After Attack
+  name: "REDACTED #93"
 - id: 2412
   slug: token-on-attack
   type: 1
@@ -3656,6 +3662,7 @@
     The attack continues.
   lore: George Washington led a surprise attack against Hessian forces at Trenton,
     New Jersey, during the American Revolutionary War.
+  notes: the Battle of Trenton V2...
   effects:
     active:
       eventName: UnitAttack
@@ -3670,7 +3677,8 @@
           get.sameLaneUnitField(card)
         )
   guid: 294447b1-beb2-1618-5d29-8182eee4f481
-  name: the Battle of Trenton V2
+  name: The Trident
+  art: /traps/trident
 - id: 2510
   slug: the-nightingale
   type: 1
@@ -3785,7 +3793,7 @@
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   name: "REDACTED #11"
   power: 1
-  art: /temp/she2
+  art: /redacted/generic_34
 - id: 2485
   slug: the-cheshire-cat
   description: 0{{powered}} token spawns in my place after I die in combat
@@ -4552,7 +4560,7 @@
   guid: da1d63dc-c3a5-7c69-49c4-148a17a842e0
   name: "REDACTED #10"
   power: 1
-  art: /temp/she1
+  art: /redacted/generic_01
 - id: 885
   slug: unbreakable-2
   description: >-
@@ -4609,7 +4617,7 @@
   name: the Swapper
   power: 3
 - id: 2379
-  slug: bosstrap
+  slug: $bosstrap
   type: 1
   description: Kill enemy unit with 10{{power}} or above attacking here directly
   effects:
@@ -4622,6 +4630,7 @@
       perform: op.kill(get.opposingUnit(card))
   guid: 53828163-ed73-e387-3634-8cf87831dff2
   name: Bosstrap
+  art: /traps/icarus-wings
 - id: 1010
   slug: sensho
   description: Cannot begin attack while there is no opposing enemy creature
@@ -5113,7 +5122,7 @@
   guid: 9d9d8250-25d2-e17b-5fc6-7dc75993e29c
   name: "REDACTED #9"
   power: 1
-  art: /temp/she3
+  art: /redacted/generic_08
 - id: 920
   slug: quickgiver-0
   type: 1
@@ -5373,6 +5382,7 @@
   guid: 1dceec66-3bae-a21b-2d2c-dac0160cbc43
   name: Spearhead
   power: 1
+  art: /redacted/generic_86
 - id: 870
   slug: honoraro-grand
   description: Adjacent friendly units' power is raised by 4.
@@ -6047,7 +6057,7 @@
   guid: cb795b5c-f241-e904-0fe7-1394d217b4a1
   name: "REDACTED #2B"
   power: 9
-  art: /temp/she2
+  art: /redacted/generic_70
 - id: 2822
   slug: handy-mike
   description: When I die - draw two cards.
@@ -7905,7 +7915,7 @@
   guid: 7ee79cb2-1be0-9ebd-ae6f-c788563f701d
   name: "REDACTED #5"
   power: 8
-  art: /temp/she5
+  art: /redacted/generic_06
 - id: 3283
   slug: problematic-sam
   description: I cannot be summoned on a field with an opposing enemy creature in play.
@@ -9807,7 +9817,7 @@
         - unit-field
         - hand
         - grave
-  art: /temp/she3
+  art: /redacted/generic_82
   guid: da711770-5ed0-4617-0f2a-b520d56d8912
   name: "REDACTED #3"
 - id: 3135
