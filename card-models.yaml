@@ -897,7 +897,10 @@
     Auto-attacks are free
   lore: By the flickering candlelight, he communes with unthinkable horrors in
     cryptic whispers.
-  effects: {}
+  effects:
+    active:
+      eventName: UnitDie
+      eventStatus: ended
   guid: f1a7812e-96af-5d1c-e694-3fabfae6e2e5
   name: Abdul Alhazred
   art: /hires/abdul-alhazred
