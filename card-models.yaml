@@ -660,7 +660,18 @@
     when I'm played
   tags:
     - grand
-  effects: {}
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: |-
+        event.card === card &&
+        !!player.grave.topCard?.isTrapType
+      perform: |-
+        const c = player.grave.topCard
+        op.addToHand(c, player)
+      allowedLots:
+        - unit-field
   guid: ebbc0f6d-a161-e837-fd36-ea2cdbba123c
   name: "REDACTED #102"
   art: /redacted/generic_96
@@ -735,7 +746,21 @@
     Both the enemy and you
   tags:
     - grand
-  effects: {}
+  effects:
+    active:
+      eventName: UnitDie
+      eventStatus: ended
+      condition: event.card === card
+      perform: |-
+        const emptyHand = p => {
+          while (p.hand.cards[0])
+            op.discard(p.hand.cards[0])
+        }
+        emptyHand(opponent)
+        emptyHand(player)
+      allowedLots:
+        - unit-field
+        - grave
   guid: 343ead69-d7f7-fa83-a2f3-6b5289f07b9d
   power: 9
   name: "REDACTED #101"
@@ -7948,7 +7973,14 @@
 - id: 2372
   slug: $die-on-enemy-damage
   description: I die once the enemy takes damage
-  effects: {}
+  effects:
+    active:
+      eventName: PlayerDamage
+      eventStatus: ended
+      condition: event.player === opponent
+      perform: op.kill(card)
+      allowedLots:
+        - unit-field
   guid: 7ee79cb2-1be0-9ebd-ae6f-c788563f701d
   name: "REDACTED #5"
   power: 8
