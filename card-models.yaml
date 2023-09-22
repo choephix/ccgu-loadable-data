@@ -901,6 +901,15 @@
     active:
       eventName: UnitDie
       eventStatus: ended
+      condition: event.card === card
+      perform: |-
+        for (const u of get.currentPlayer.units) {
+          if (!u.isFaceUp) continue
+          op.forceAttack(u)
+        }
+      allowedLots:
+        - unit-field
+        - grave
   guid: f1a7812e-96af-5d1c-e694-3fabfae6e2e5
   name: Abdul Alhazred
   art: /hires/abdul-alhazred
