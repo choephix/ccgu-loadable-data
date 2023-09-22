@@ -4958,7 +4958,6 @@
   description: +5{{power}} while the enemy has a trap here
   lore: With ever watchful eyes and swift, deft steps, she turns peril into
     salvation.
-  notes: Jack Churchill?
   effects:
     passive:
       condition: "!!get.opposingTrap(card)"
