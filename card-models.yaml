@@ -4959,7 +4959,12 @@
   lore: With ever watchful eyes and swift, deft steps, she turns peril into
     salvation.
   notes: Jack Churchill?
-  effects: {}
+  effects:
+    passive:
+      condition: "!!get.opposingTrap(card)"
+      perform: pass.raisePower(card, 5)
+      allowedLots:
+        - unit-field
   guid: a8bcec64-adb7-7e49-03de-bb12bc83ea71
   name: Morgiana
   power: 2
