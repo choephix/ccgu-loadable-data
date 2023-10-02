@@ -1,3 +1,12 @@
+- id: 2087
+  slug: mata-hari
+  lore: Her tale dances on the fragile wire of suspicion and charm - a cunning
+    vixen or a painted dove?
+  effects: {}
+  guid: 53de8275-75a6-0b72-584f-ec52a6b7a550
+  art: /hires/mata-hari
+  power: 3
+  name: Mata Hari
 - id: 2401
   slug: $reverse-piercing
   description: |-
