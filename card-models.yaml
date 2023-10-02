@@ -833,7 +833,7 @@
     overrides:
       blockDeploymentTo: player.hand.cards.some(c => c !== card)
   guid: 0bf83fa5-e3bb-7bca-f0a3-56c94d85014b
-  power: 8
+  power: 7
   name: "REDACTED #6B"
   art: /redacted/generic_60
 - id: 2369
@@ -2594,7 +2594,7 @@
     overrides:
       blockDeploymentTo: player.units.length > 0
   guid: 0bf83fa5-e3bb-7bca-f0a3-56c94d85014b
-  power: 8
+  power: 7
   name: "REDACTED #6A"
   art: /redacted/generic_30
 - id: 62
@@ -5097,9 +5097,9 @@
       eventName: DeployUnit
       eventStatus: ended
       condition: |-
-        event.card === get.opposingUnitField(card) &&
+        event.card === get.opposingUnit(card) &&
         event.card.isFaceUp
-      perform: op.forceAttack( event.card )
+      perform: op.forceAttack(event.card)
   art: /temp/beartrap
   guid: bdaf0351-9f2b-859c-d4e7-7b35dcae8645
   name: Muleta
