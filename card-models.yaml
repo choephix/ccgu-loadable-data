@@ -747,6 +747,7 @@
   description: |-
     Swap enemy unit deployed here with your own
     You must also have a unit here
+  notes: 🤷‍♂️...
   effects:
     active:
       eventName: DeployUnit
@@ -760,8 +761,8 @@
         const cardB = get.sameLaneUnit(card)
         op.forceSwap(cardA, cardB)
   guid: c27322f1-17a5-cb53-c4b8-1b602e73bbd0
-  name: "REDACTED #91"
-  art: /traps/demonic-skull
+  name: Prisoners of War
+  art: /traps/war-prison
 - id: 2342
   slug: lucky-randy
   type: 1
@@ -3533,6 +3534,7 @@
   description: |-
     Steal enemy unit deployed here, but take damage equal to its power
     You must have no unit here
+  notes: 🤷‍♂️ ...
   pdc: -1
   priority: 3
   effects:
@@ -3547,8 +3549,8 @@
         const myField = get.sameLaneUnitField(card)
         op.moveTo(event.card, myField)
   guid: ecf87384-4b2b-ceed-ffb1-c510eea1a14e
-  name: "REDACTED #92"
-  art: /traps/dwarven-face
+  name: Blood Oath
+  art: /traps/blood-spiral
 - id: 2380
   slug: cookable-mammal
   type: 1
