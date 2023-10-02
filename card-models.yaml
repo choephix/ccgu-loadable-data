@@ -1,3 +1,24 @@
+- id: 2408
+  slug: hermit
+  description: -3{{power}} per ally in play
+  lore: Doesn't like crowds.
+  pdc: -1
+  priority: 3
+  effects:
+    passive:
+      condition: player.units.some(c => c !== card)
+      perform: |-
+        let units = player.units
+        let allies = units.filter( c => c !== card )
+        pass.lowerPower( card, allies.length * 3 )
+      allowedLots:
+        - unit-field
+        - hand
+        - grave
+  guid: 0e0640e1-917e-9491-34ca-bb8f8a8a4e45
+  art: /b2/the-hermit
+  name: The Hermit
+  power: 9
 - id: 2121
   slug: enthusiastic-eric
   lore: A commander's iron will, his moustache bristling with the grit of conquest
@@ -3038,7 +3059,7 @@
   guid: e156e58b-3903-0196-a55c-cef515c0dcdd
   name: Selfless Sparrow
   power: 1
-- id: 2408
+- id: 2405
   slug: ada-lovelace
   description: |-
     +X{{power}}, X = 2 exponentiated by your energy
