@@ -3701,7 +3701,7 @@
         const field = get.sameLaneUnitField(card)
         op.spawnToken(field, token)
   guid: 7b56a5c5-71bc-d653-3098-2dd6e8e17b3b
-  name: "REDACTED #93"
+  name: Release
   art: /traps/dwarven-face
 - id: 2414
   slug: token-on-attack
