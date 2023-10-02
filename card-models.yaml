@@ -811,8 +811,8 @@
         - unit-field
   guid: e4a4712c-a40b-912a-5507-2def8b8a6dfd
   power: 1
-  name: "REDACTED #1"
-  art: /redacted/generic_33
+  name: The Pony Engine
+  art: /b2/pony-engine
 - id: 2337
   slug: sir-breuse-sans-pite
   description: I only attack directly
