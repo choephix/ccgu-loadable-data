@@ -1,3 +1,14 @@
+- id: 2361
+  slug: kraken-token
+  lore: A terror lurking beneath the waves, its release marks an eruption of
+    primal prowess.
+  tags:
+    - token
+  effects: {}
+  guid: ed9013e3-6d2e-2b71-e461-6261a54f366f
+  name: The Kraken
+  art: /tokens/kraken
+  power: 9
 - id: 2408
   slug: hermit
   description: -3{{power}} per ally in play
@@ -3677,8 +3688,7 @@
 - id: 2398
   slug: $token-after-attack
   type: 1
-  description: After enemy direct attack here, deploy a 10 power token here
-  notes: Token After Attack
+  description: After enemy direct attack here, deploy a 9 power token here
   effects:
     active:
       eventName: UnitAttackDirect
@@ -3687,7 +3697,7 @@
         get.opposingUnit(card) === event.card &&
         !get.sameLaneUnit(card)
       perform: |-
-        const token = "clay-golem-token"
+        const token = "kraken-token"
         const field = get.sameLaneUnitField(card)
         op.spawnToken(field, token)
   guid: 7b56a5c5-71bc-d653-3098-2dd6e8e17b3b
