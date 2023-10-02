@@ -4655,6 +4655,9 @@
 - id: 2394
   slug: $kamikaze
   description: I die after attacking
+  notes: |-
+    Dying is specific to worker bees in Apis mellifera colonies...
+    (European honey bee)
   tags:
     - rush
     - notribute
@@ -4670,9 +4673,9 @@
       allowedLots:
         - unit-field
   guid: da1d63dc-c3a5-7c69-49c4-148a17a842e0
-  name: The Bumblebee
+  name: Worker Bee
   power: 1
-  art: /redacted/generic_01
+  art: /hires/worker-bee
 - id: 885
   slug: unbreakable-2
   description: >-
