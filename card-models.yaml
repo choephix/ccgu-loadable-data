@@ -828,7 +828,7 @@
   art: /redacted/generic_53
 - id: 2389
   slug: $only-one-in-hand
-  description: I must be your only card in hand to deploy me
+  description: I must be your only card in hand to play me
   effects:
     overrides:
       blockDeploymentTo: player.hand.cards.some(c => c !== card)
@@ -2589,10 +2589,7 @@
   name: Mythical Hoki
 - id: 2373
   slug: $only-one-in-play
-  description: |-
-    I can't be deployed with allies in play
-    I can only be deployed with no allies in play
-    I must have no allies in play to be deployed
+  description: Can't be deployed with allies in play
   effects:
     overrides:
       blockDeploymentTo: player.units.length > 0
