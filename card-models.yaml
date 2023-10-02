@@ -3702,7 +3702,7 @@
         op.spawnToken(field, token)
   guid: 7b56a5c5-71bc-d653-3098-2dd6e8e17b3b
   name: Release
-  art: /traps/dwarven-face
+  art: /traps/kraken
 - id: 2414
   slug: token-on-attack
   type: 1
