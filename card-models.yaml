@@ -3259,9 +3259,7 @@
       condition: player.units.length === 0
       perform: pass.removeTag(card, 'grand')
       allowedLots:
-        - unit-field
         - hand
-        - grave
   guid: 847fc569-a396-f9da-3422-837392c88113
   name: "REDACTED #100"
   power: 8
