@@ -3903,9 +3903,9 @@
         - hand
         - grave
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
-  name: "REDACTED #11"
+  name: Robert the Bruce
   power: 1
-  art: /redacted/generic_34
+  art: /b2/robert-the-bruce
 - id: 2485
   slug: the-cheshire-cat
   description: 0{{powered}} token spawns in my place after I die in combat
@@ -5224,6 +5224,7 @@
 - id: 2393
   slug: $autoatk
   description: I perform a free attack when deployed
+  notes: 🤷‍♂️ ...
   pdc: -1
   status: 2
   priority: 3
