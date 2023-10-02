@@ -1,3 +1,12 @@
+- id: 2390
+  slug: muddy-pig
+  description: |-
+    Fill the enemy side with 'overheating-drone' tokens.
+    Play me only if there are 0 foes
+    currently in play
+  effects: {}
+  guid: f6f0a106-c7b8-c76d-c584-bceee04b3a63
+  power: 2
 - id: 2361
   slug: kraken-token
   lore: A terror lurking beneath the waves, its release marks an eruption of
@@ -9,7 +18,7 @@
   name: The Kraken
   art: /tokens/kraken
   power: 9
-- id: 2392
+- id: 2514
   slug: hermit
   description: -3{{power}} per ally in play
   lore: Doesn't like crowds.
@@ -47,7 +56,7 @@
   art: /hires/mata-hari
   power: 3
   name: Mata Hari
-- id: 2401
+- id: 2395
   slug: $reverse-piercing
   description: |-
     Before I attack a unit, take damage equal to the difference in our power
@@ -511,7 +520,7 @@
   art: /redacted/generic_15
   name: Glinda
   power: 4
-- id: 2417
+- id: 2513
   slug: hervor
   description: +5{{power}} against a GRAND unit
   lore: Amidst spectres, she walks, her courage casting ripples in the echoing
@@ -526,7 +535,7 @@
   name: Hervor
   power: 4
   art: /hervor
-- id: 2362
+- id: 2344
   slug: brainy-mallard
   description: |-
     +1{{ap}} as your turn begins
@@ -726,7 +735,7 @@
   guid: ebbc0f6d-a161-e837-fd36-ea2cdbba123c
   name: "REDACTED #102"
   art: /redacted/generic_96
-- id: 2528
+- id: 2544
   slug: loki
   description: |-
     All units gain #swapper 
@@ -848,7 +857,7 @@
   power: 1
   name: The Pony Engine
   art: /b2/pony-engine
-- id: 2337
+- id: 2498
   slug: sir-breuse-sans-pite
   description: I only attack directly
   pdc: -1
@@ -907,7 +916,7 @@
   guid: bf54e1f0-eb47-ea60-9f53-8969175acd91
   power: 14
   name: enthusiastic-mark
-- id: 2340
+- id: 2501
   slug: rani-lakshmibai
   description: +1 to allies after I die
   effects:
@@ -926,7 +935,7 @@
   name: Rani Lakshmibai
   power: 3
   art: /b2/rani-lakshmibai
-- id: 2339
+- id: 2500
   slug: boudica2
   description: +1 to units you deploy while I'm on top of your grave
   lore: Carved from the ancient spirit of the land, she's a storm that leaves
@@ -947,7 +956,7 @@
   name: Boudica
   power: 4
   art: /hires/boudica
-- id: 2338
+- id: 2499
   slug: nathan-hale
   description: +2 to units you deploy while I'm on top of your grave
   effects:
@@ -966,7 +975,7 @@
   name: Hathan Hale
   power: 1
   art: /b2/nathan-hale
-- id: 2336
+- id: 2503
   slug: mad-arab
   description: |-
     All allies auto-attack when I die
@@ -1015,7 +1024,7 @@
         - grave
   guid: 63c6f0af-4d22-cfa1-6999-386cd74e7f8f
   name: Raijin
-- id: 2347
+- id: 2346
   slug: sparkling-ferret
   description: +1{{power}} whenever a card enters your hand
   effects: {}
@@ -2187,7 +2196,7 @@
   guid: 6df4249c-c165-b329-a9c7-4df9d6d96749
   name: "007"
   power: 3
-- id: 2346
+- id: 2347
   slug: outstanding-owl
   description: When I kill a unit, add its power to mine
   effects:
@@ -2354,7 +2363,7 @@
   power: 10
   name: Clay Golem
   art: /tokens/golem
-- id: 2499
+- id: 2497
   slug: rabbi-loew
   description: 10{{powered}} token spawns in my place after I relocate
   lore: A humble man with divine instruction, turning earthen dust to fervent life.
@@ -2560,7 +2569,7 @@
   name: Jeanne d'Arc
   power: 2
   art: /joan-of-arc
-- id: 2412
+- id: 2400
   slug: mythical-hoki
   description: |-
     +X{{ap}} equal to the enemy's numeric superiority
@@ -2580,7 +2589,10 @@
   name: Mythical Hoki
 - id: 2373
   slug: $only-one-in-play
-  description: You must have no other units in play to deploy me
+  description: |-
+    I can't be deployed with allies in play
+    I can only be deployed with no allies in play
+    I must have no allies in play to be deployed
   effects:
     overrides:
       blockDeploymentTo: player.units.length > 0
@@ -3316,11 +3328,12 @@
   effects: {}
   guid: c46378a8-85b1-e150-b4b6-27a04f01e319
   name: the Manananggal
-- id: 2428
+- id: 2516
   slug: diomedes
   description: -1{{power}} to all enemy units
   lore: With a warrior's heart and an unyielding spirit, Diomedes strikes fear
     into the hearts of enemies, his mere presence a herald of impending doom.
+  notes: ??
   effects:
     passive:
       condition: "true"
@@ -3333,6 +3346,7 @@
   guid: e848b4d8-311f-6eaa-e803-b3c88677863a
   name: Diomedes
   art: /diomedes
+  power: 1
 - id: 704
   slug: mad-jack
   lore: Jack Churchill, nicknamed "Mad Jack," was a British soldier during World
@@ -3342,7 +3356,7 @@
   effects: {}
   guid: 87d3c8a9-5d67-0c75-2fa4-7819060c373c
   name: Mad Jack
-- id: 2400
+- id: 2512
   slug: king-leonidas-i
   description: |-
     +X{{power}} to ally units, equal to the number of enemy units
@@ -3687,7 +3701,7 @@
   guid: f6089e84-65fc-5342-5389-15642b3dff64
   name: Token 6
   power: 6
-- id: 2398
+- id: 2527
   slug: $token-after-attack
   type: 1
   description: After enemy direct attack here, deploy a 9 power token here
@@ -3776,7 +3790,6 @@
     The attack continues.
   lore: George Washington led a surprise attack against Hessian forces at Trenton,
     New Jersey, during the American Revolutionary War.
-  notes: the Battle of Trenton V2...
   effects:
     active:
       eventName: UnitAttack
@@ -3862,7 +3875,7 @@
   guid: 8e2d8db0-129c-bb90-5203-0ef032b79e93
   name: Banshee
   power: 1
-- id: 2498
+- id: 2496
   slug: ajax-the-great
   description: +1{{power}} per enemy unit in play.
   lore: A towering colossus of war, embodies indomitable strength and unwavering
@@ -3886,7 +3899,7 @@
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   name: Ajax the Great
   power: 4
-- id: 2395
+- id: 2515
   slug: $buff-per-unit
   description: +1{{power}} per ANY unit in play.
   pdc: -1
@@ -4541,7 +4554,7 @@
   guid: df2fa72c-6500-3207-0d6b-65f87574901c
   name: Prickly Goshawk
   power: 10
-- id: 2512
+- id: 2528
   slug: loki-/-merlin
   description: |-
     All ally units gain #swapper
@@ -5448,10 +5461,11 @@
   guid: c4e29441-a2d6-5d2e-e90d-67c1d4b90213
   name: Zhu Bajie
   power: 10
-- id: 2408
+- id: 2417
   slug: count-dracula
   description: -3{{power}} per other friendly unit in play
   lore: Exceptionally strong, but doesn't like crowds.
+  notes: DUPLICATE (The Hermit)
   pdc: -1
   priority: 3
   effects:
@@ -6388,7 +6402,7 @@
   guid: e9150e38-ab00-7ffe-82b7-3432223efa0f
   name: Magi Resistent Tom
   power: 9
-- id: 2425
+- id: 2401
   slug: mike
   description: Draw 3 cards when I die
   effects:
@@ -8697,7 +8711,7 @@
   guid: 55960ff8-4bf7-401e-f4f1-984ed93f7b8f
   name: Haste Contracter
   power: 1
-- id: 2341
+- id: 2502
   slug: harun-al-rashid
   description: |-
     Draw a card after my attack
