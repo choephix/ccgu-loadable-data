@@ -543,7 +543,7 @@
   effects: {}
   guid: 8873baa3-d8fd-3d6b-cdd1-f199b3dff5b0
   name: brainy-mallard
-- id: 2329
+- id: 2553
   slug: genius-marmoset
   notes: "chivalry: 6/8"
   effects: {}
@@ -551,7 +551,7 @@
   name: Sir Gareth
   art: /b2/sir-gareth
   power: 5
-- id: 2328
+- id: 2552
   slug: old-fashioned-dragonfly
   notes: "chivalry: 7/8"
   effects: {}
@@ -559,7 +559,7 @@
   name: Sir Bors
   art: /b2/sir-bors
   power: 5
-- id: 2330
+- id: 2554
   slug: clever-locust
   notes: "chivalry: 6/8"
   effects: {}
@@ -567,7 +567,7 @@
   name: Sir Erec
   power: 5
   art: /b2/sir-erec
-- id: 2332
+- id: 2556
   slug: tough-robert
   notes: "chivalry: 3/8"
   effects: {}
@@ -575,7 +575,7 @@
   power: 4
   name: Sir Agravain
   art: /b2/sir-agravain
-- id: 2327
+- id: 2551
   slug: childly-queenconch
   notes: "chivalry: 7/8"
   effects: {}
@@ -583,7 +583,7 @@
   name: Sir Bedivere
   power: 5
   art: /b2/sir-bedivere
-- id: 2333
+- id: 2557
   slug: adventurous-noah
   notes: "chivalry: 5/8"
   effects: {}
@@ -591,7 +591,7 @@
   name: Sir Kay
   power: 4
   art: /b2/sir-kay
-- id: 2326
+- id: 2550
   slug: evil-cuckoo
   notes: "chivalry: 2/8"
   effects: {}
@@ -599,7 +599,7 @@
   name: Sir Mordred
   power: 6
   art: /b2/sir-mordred
-- id: 2331
+- id: 2555
   slug: filthy-crow
   notes: "chivalry: 7/8"
   effects: {}
@@ -607,7 +607,7 @@
   name: Sir Percival
   power: 5
   art: /b2/sir-percival
-- id: 2323
+- id: 2547
   slug: sir-tristan
   notes: "chivalry: 6/8"
   effects: {}
@@ -615,7 +615,7 @@
   name: Sir Tristan
   power: 8
   art: /b2/sir-tristan
-- id: 2320
+- id: 2544
   slug: sir-lancelot
   description: Return me to your hand if no foe is facing me as your turn ends
   notes: "chivalry: 5/8"
@@ -633,7 +633,7 @@
   name: Sir Lancelot
   power: 9
   art: /b2/sir-lancelot
-- id: 2322
+- id: 2546
   slug: sir-lamorak
   description: Return me to your hand if no foe is facing me as your turn begins
   notes: "chivalry: 6/8"
@@ -651,7 +651,7 @@
   name: Sir Lamorak
   power: 8
   art: /b2/sir-lamorak
-- id: 2321
+- id: 2545
   slug: sir-galahad
   lore: A paragon of chivalry, his deeds are woven into the vivid tapestry of
     knightly valor.
@@ -735,7 +735,7 @@
   guid: ebbc0f6d-a161-e837-fd36-ea2cdbba123c
   name: "REDACTED #102"
   art: /redacted/generic_96
-- id: 2544
+- id: 2523
   slug: loki
   description: |-
     All units gain #swapper 
@@ -873,7 +873,7 @@
   art: /b2/breuse-sans-pite
   name: Sir Breuse Sans Pite
   power: 7
-- id: 2325
+- id: 2549
   slug: sir-geraint
   description: I can only be played against a foe
   lore: A paragon of chivalry, his deeds are woven into the vivid tapestry of
@@ -3328,7 +3328,7 @@
   effects: {}
   guid: c46378a8-85b1-e150-b4b6-27a04f01e319
   name: the Manananggal
-- id: 2516
+- id: 2519
   slug: diomedes
   description: -1{{power}} to all enemy units
   lore: With a warrior's heart and an unyielding spirit, Diomedes strikes fear
@@ -3356,7 +3356,7 @@
   effects: {}
   guid: 87d3c8a9-5d67-0c75-2fa4-7819060c373c
   name: Mad Jack
-- id: 2512
+- id: 2520
   slug: king-leonidas-i
   description: |-
     +X{{power}} to ally units, equal to the number of enemy units
@@ -3899,7 +3899,7 @@
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   name: Ajax the Great
   power: 4
-- id: 2515
+- id: 2512
   slug: $buff-per-unit
   description: +1{{power}} per ANY unit in play.
   pdc: -1
@@ -4554,7 +4554,7 @@
   guid: df2fa72c-6500-3207-0d6b-65f87574901c
   name: Prickly Goshawk
   power: 10
-- id: 2528
+- id: 2524
   slug: loki-/-merlin
   description: |-
     All ally units gain #swapper
@@ -5709,7 +5709,7 @@
   guid: 00badf76-e490-b5e6-9b31-a3986978ca5e
   name: Grand Traitor
   power: 14
-- id: 2324
+- id: 2548
   slug: sir-gawain
   description: I will not attack without a foe here
   lore: A paragon of chivalry, his deeds are woven into the vivid tapestry of
