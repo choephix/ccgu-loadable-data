@@ -766,7 +766,7 @@
       condition: |-
         const cardA = get.opposingUnit(card)
         const cardB = get.sameLaneUnit(card)
-        cardA && cardB
+        event.card === cardA && cardA && cardB
       perform: |-
         const cardA = get.opposingUnit(card)
         const cardB = get.sameLaneUnit(card)
