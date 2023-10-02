@@ -1,3 +1,10 @@
+- id: 2121
+  slug: enthusiastic-eric
+  lore: A commander's iron will, his moustache bristling with the grit of conquest
+    and the echoes of imperial might.
+  effects: {}
+  guid: a06498ef-ef15-3ffe-0b57-adc9273e92a4
+  name: 1st Earl Kitchener
 - id: 2087
   slug: mata-hari
   lore: Her tale dances on the fragile wire of suspicion and charm - a cunning
