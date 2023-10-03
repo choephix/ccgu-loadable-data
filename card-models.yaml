@@ -1,3 +1,9 @@
+- id: 2322
+  slug: attractive-penguin
+  description: After an enemy dies, I die. A token with the same power as the
+    enemy spawns in my place.
+  effects: {}
+  guid: 3e000694-d28c-4587-4ac3-083088e74bee
 - id: 2321
   slug: hypnotised-skipper
   notes: A warrior woman who trained heroes in combat...
