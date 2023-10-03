@@ -817,6 +817,7 @@
   description: |-
     All units gain #swapper 
     while I'm in play
+  notes: 81? 64? 50?
   tags:
     - grand
   effects:
@@ -831,7 +832,7 @@
   guid: 19fe6c19-e34d-8ca6-92fc-798133db3662
   name: Loki
   power: 9
-  art: /tokens/wisp
+  art: /redacted/generic_64
 - id: 2385
   slug: $zero-rush
   notes: "REDACTED #00"
