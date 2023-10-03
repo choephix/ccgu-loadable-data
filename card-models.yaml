@@ -697,6 +697,7 @@
   description: |-
     Has the power of the strongest foe
     in play
+  notes: "REDACTED #7B Doppelgänger"
   tags:
     - grand
   effects:
@@ -712,7 +713,7 @@
         - hand
         - grave
   guid: 6b09bd92-79ab-ceec-f426-497dcd1aa5c5
-  name: "REDACTED #7B"
+  name: Doppelganger
   art: /redacted/generic_05
 - id: 2315
   slug: $copy-weakest
