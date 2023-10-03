@@ -1,4 +1,36 @@
 - id: 2397
+  slug: $overkill-grand
+  notes: 🤷‍♂️ ...
+  tags:
+    - piercing
+    - grand
+  pdc: -1
+  priority: 3
+  effects: {}
+  guid: 1dceec66-3bae-a21b-2d2c-dac0160cbc43
+  name: Nergal
+  power: 5
+  art: /redacted/generic_38
+- id: 2516
+  slug: $overkilled
+  description: Enemy unit here has OVERKILL
+  notes: |-
+    REDACTED #13
+
+    PIERCING should be renamed to OVERKILL.
+  effects:
+    passive:
+      condition: get.opposingUnit(card)
+      perform: |-
+        const foe = get.opposingUnit(card)
+        pass.addTag(foe, Tag.PIERCING)
+      allowedLots:
+        - unit-field
+  guid: ae1e9d1b-592a-c50b-55c2-9230d6c2fd28
+  power: 6
+  name: Sir Guy of Gisbourne
+  art: /redacted/generic_81
+- id: 2392
   slug: $spawn-monkeys
   description: |-
     Fill both sides with 1{{powered}} tokens
@@ -35,19 +67,6 @@
   guid: d6494f77-be93-7ef5-c7f9-28c96e9dc415
   name: Ixtab
   power: 12
-- id: 2398
-  slug: $spearhead-grand
-  notes: 🤷‍♂️ ...
-  tags:
-    - piercing
-    - grand
-  pdc: -1
-  priority: 3
-  effects: {}
-  guid: 1dceec66-3bae-a21b-2d2c-dac0160cbc43
-  name: Nergal
-  power: 5
-  art: /redacted/generic_38
 - id: 2362
   slug: winged-monkey-token
   effects: {}
