@@ -1,3 +1,26 @@
+- id: 2368
+  slug: ugly-crow
+  description: |-
+    Kill all allies
+    when I'm played
+  tags:
+    - grand
+  effects: {}
+  guid: d6494f77-be93-7ef5-c7f9-28c96e9dc415
+  name: Ixtab
+  power: 12
+- id: 2398
+  slug: $spearhead-grand
+  tags:
+    - piercing
+    - grand
+  pdc: -1
+  priority: 3
+  effects: {}
+  guid: 1dceec66-3bae-a21b-2d2c-dac0160cbc43
+  name: Spearhead
+  power: 5
+  art: /redacted/generic_39
 - id: 2362
   slug: winged-monkey-token
   effects: {}
