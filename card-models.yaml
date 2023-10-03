@@ -507,13 +507,13 @@
   power: 1
   name: Huldra
   art: /redacted/generic_22
-- id: 2397
+- id: 2515
   slug: $pierced
   description: Enemy unit here has PIERCING
   notes: |-
-    PIERCING should be renamed to OVERKILL...
-
     REDACTED #13
+
+    PIERCING should be renamed to OVERKILL.
   effects:
     passive:
       condition: get.opposingUnit(card)
@@ -523,7 +523,7 @@
       allowedLots:
         - unit-field
   guid: ae1e9d1b-592a-c50b-55c2-9230d6c2fd28
-  power: 7
+  power: 6
   name: Sir Guy of Gisbourne
   art: /redacted/generic_81
 - id: 2396
