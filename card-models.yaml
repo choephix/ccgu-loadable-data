@@ -1,4 +1,4 @@
-- id: 2408
+- id: 2425
   slug: muddy-pig
   description: |-
     Fill the enemy side with 'overheating-drone' tokens.
@@ -3313,7 +3313,7 @@
   name: Porcupine Spirit
   power: 1
   art: /porcupine
-- id: 2409
+- id: 2426
   slug: duelista
   description: While both player have only one unit in play each, both have +10{{power}}
   effects: {}
@@ -3844,7 +3844,7 @@
   guid: c75dbcf9-9f9a-a55f-c949-5b59b076e58a
   name: Salamander
   power: 7
-- id: 2410
+- id: 2427
   slug: time-reverser
   description: |-
     Combat-Flip:
@@ -6353,7 +6353,7 @@
   guid: 65591d48-dbec-6af4-034e-c0eb08f6795e
   name: Grand Traitor
   power: 14
-- id: 2427
+- id: 2428
   slug: time-bug
   description: |-
     Combat-Flip:
