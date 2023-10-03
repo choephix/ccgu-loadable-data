@@ -1,3 +1,28 @@
+- id: 2397
+  slug: $spawn-monkeys
+  description: |-
+    Fill both sides with 1{{powered}} tokens
+    when I'm played
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: event.card === card
+      perform: |-
+        const TOKEN = 'winged-monkey-token'
+        const fields = [
+          ...player.fieldsUnit,
+          ...opponent.fieldsUnit
+        ]
+        for (const field of fields) {
+          if (field.hasCards) continue;
+          op.spawnToken(field, TOKEN);
+        }
+      allowedLots:
+        - unit-field
+  guid: 7bdf3e79-6f4c-f8a3-d5c5-061a332357dc
+  name: Gayelette
+  power: 4
 - id: 2368
   slug: ugly-crow
   description: |-
@@ -26,7 +51,7 @@
   effects: {}
   guid: 64521375-3678-e760-9c63-ae2f47903bf9
   name: Winged Monkey
-  power: 5
+  power: 1
   art: /tokens/winged-monkey
 - id: 2322
   slug: attractive-penguin
