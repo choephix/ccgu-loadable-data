@@ -1,3 +1,9 @@
+- id: 2321
+  slug: hypnotised-skipper
+  notes: A warrior woman who trained heroes in combat...
+  effects: {}
+  guid: 16ffb4c4-e08f-9182-8548-3c8979fd4fcb
+  name: Scathach
 - id: 2425
   slug: muddy-pig
   description: |-
@@ -470,6 +476,7 @@
   description: |-
     -4{{power}} to enemy unit here
     while I'm in play
+  notes: "REDACTED #98"
   tags:
     - sneak
   effects:
@@ -483,7 +490,7 @@
         - unit-field
   guid: 2875d608-e153-2e48-ebe2-e71a8f5b7b22
   power: 1
-  name: "REDACTED #98"
+  name: Huldra
   art: /redacted/generic_22
 - id: 2397
   slug: $pierced
@@ -829,13 +836,14 @@
   art: /redacted/generic_53
 - id: 2389
   slug: $only-one-in-hand
-  description: I must be your only card in hand to play me
+  description: Must be your only card in hand to play me
+  notes: "REDACTED #6B"
   effects:
     overrides:
       blockDeploymentTo: player.hand.cards.some(c => c !== card)
   guid: 0bf83fa5-e3bb-7bca-f0a3-56c94d85014b
   power: 7
-  name: "REDACTED #6B"
+  name: Atalanta
   art: /redacted/generic_60
 - id: 2369
   slug: $grow-on-move
@@ -3960,7 +3968,6 @@
   slug: brer-rabbit
   lore: As nimble as the wind and as elusive as a thought, Br'er Rabbit darts
     through life's mazes, always a hop ahead of trouble.
-  notes: Does not count as relocation for the other creature...
   tags:
     - swapper
   effects: {}
