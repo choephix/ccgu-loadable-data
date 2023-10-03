@@ -3716,9 +3716,11 @@
   guid: 7b56a5c5-71bc-d653-3098-2dd6e8e17b3b
   name: Release
   art: /traps/kraken
-- id: 2414
-  slug: token-on-attack
+- id: 2526
+  slug: $token-on-attack
   type: 1
+  description: Spawn a 0{{powered}} token on enemy attack here
+  notes: $token-on-attack
   effects:
     active:
       eventName: UnitAttackDirect
@@ -3728,9 +3730,9 @@
         !get.sameLaneUnit(card)
       perform: |-
         const field = get.sameLaneUnitField(card)
-        op.spawnToken(field, 'token-1')
+        op.spawnToken(field, 'token-0')
   guid: 7b56a5c5-71bc-d653-3098-2dd6e8e17b3b
-  name: Token On Attack
+  name: Barrier
 - id: 2474
   slug: call-of-the-nisse
   type: 1
