@@ -617,10 +617,10 @@
   art: /b2/sir-percival
 - id: 2547
   slug: sir-tristan
-  notes: "chivalry: 6/8"
+  notes: "chivalry: 6/8  ((Sir Tristan))"
   effects: {}
   guid: 42511fb5-e0c2-435a-472a-a1b726b015cf
-  name: Sir Tristan
+  name: Sir Tristram
   power: 8
   art: /b2/sir-tristan
 - id: 2544
@@ -2599,13 +2599,14 @@
 - id: 2373
   slug: $only-one-in-play
   description: Can't be deployed with allies in play
+  notes: "REDACTED #6A"
   effects:
     overrides:
       blockDeploymentTo: player.units.length > 0
   guid: 0bf83fa5-e3bb-7bca-f0a3-56c94d85014b
-  power: 7
-  name: "REDACTED #6A"
-  art: /redacted/generic_30
+  power: 8
+  name: Andraste
+  art: /redacted/generic_17
 - id: 62
   slug: --grave-filler3
   effects:
@@ -3272,7 +3273,7 @@
         - hand
   guid: 847fc569-a396-f9da-3422-837392c88113
   name: Lady of the Lake
-  power: 8
+  power: 7
   art: /redacted/generic_40
 - id: 2508
   slug: ereshkigal
