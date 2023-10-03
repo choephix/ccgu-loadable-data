@@ -457,6 +457,7 @@
 - id: 2365
   slug: $depowerer2
   description: "Combat-Flip: -2{{power}} to enemy unit here"
+  notes: "REDACTED #97"
   tags:
     - sneak
   effects:
@@ -469,7 +470,7 @@
           gt => gt.pass.lowerPower(foe, debuff))
   guid: 2875d608-e153-2e48-ebe2-e71a8f5b7b22
   power: 1
-  name: "REDACTED #97"
+  name: Lich
   art: /redacted/generic_80
 - id: 2364
   slug: $depowerer
@@ -8068,7 +8069,7 @@
   guid: 7ee79cb2-1be0-9ebd-ae6f-c788563f701d
   name: Sir Balin
   power: 8
-  art: /redacted/generic_06
+  art: /redacted/generic_66
 - id: 3283
   slug: problematic-sam
   description: I cannot be summoned on a field with an opposing enemy creature in play.
