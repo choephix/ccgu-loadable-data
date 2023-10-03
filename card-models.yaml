@@ -1,3 +1,9 @@
+- id: 2362
+  slug: winged-monkey-token
+  effects: {}
+  guid: 64521375-3678-e760-9c63-ae2f47903bf9
+  name: Winged Monkey
+  power: 5
 - id: 2322
   slug: attractive-penguin
   description: After an enemy dies, I die. A token with the same power as the
@@ -461,7 +467,7 @@
   guid: 5a0bcc5c-9ba6-49ff-afbb-b3de22581b85
   name: Kaliya the Naga
   power: 5
-- id: 2365
+- id: 2413
   slug: $depowerer2
   description: "Combat-Flip: -2{{power}} to enemy unit here"
   notes: "REDACTED #97, Lich"
@@ -479,7 +485,7 @@
   power: 1
   name: The Sandman
   art: /redacted/generic_80
-- id: 2364
+- id: 2412
   slug: $depowerer
   description: |-
     -4{{power}} to enemy unit here
@@ -3413,7 +3419,7 @@
   guid: b6b71451-926d-ece6-d0d3-0b71508871e1
   name: Galatea
   power: 8
-- id: 2363
+- id: 2409
   slug: fafnir-0
   description: |-
     Combat-Flip:
@@ -4041,7 +4047,7 @@
   guid: 880e607b-9629-b54e-5e35-2789092bac94
   name: Fenrir
   power: 6
-- id: 2366
+- id: 2333
   slug: knightmare-shield
   description: |-
     When I am deployed, if possible, deploy @knightmare-sword my right.
@@ -4074,7 +4080,7 @@
   guid: b9184642-b505-f7e6-c6c7-71c4e84a7065
   name: Knightmare Shield
   power: 3
-- id: 2367
+- id: 2332
   slug: knightmare-sword
   description: |-
     When I am deployed, if possible, deploy @knightmare-shield to my left.
