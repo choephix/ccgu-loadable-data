@@ -37,6 +37,7 @@
   power: 12
 - id: 2398
   slug: $spearhead-grand
+  notes: 🤷‍♂️ ...
   tags:
     - piercing
     - grand
@@ -44,9 +45,9 @@
   priority: 3
   effects: {}
   guid: 1dceec66-3bae-a21b-2d2c-dac0160cbc43
-  name: Spearhead
+  name: Nergal
   power: 5
-  art: /redacted/generic_39
+  art: /redacted/generic_38
 - id: 2362
   slug: winged-monkey-token
   effects: {}
