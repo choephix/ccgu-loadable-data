@@ -61,6 +61,7 @@
     enemy spawns in my place.
   effects: {}
   guid: 3e000694-d28c-4587-4ac3-083088e74bee
+  name: attractive-penguin
 - id: 2321
   slug: hypnotised-skipper
   notes: A warrior woman who trained heroes in combat...
@@ -569,7 +570,7 @@
       condition: get.opposingUnit(card)
       perform: |-
         const foe = get.opposingUnit(card)
-        pass.addTag(card, Tag.PIERCING)
+        pass.addTag(foe, Tag.PIERCING)
       allowedLots:
         - unit-field
   guid: ae1e9d1b-592a-c50b-55c2-9230d6c2fd28
