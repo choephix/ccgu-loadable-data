@@ -4,6 +4,7 @@
   guid: 64521375-3678-e760-9c63-ae2f47903bf9
   name: Winged Monkey
   power: 5
+  art: /tokens/winged-monkey
 - id: 2322
   slug: attractive-penguin
   description: After an enemy dies, I die. A token with the same power as the
