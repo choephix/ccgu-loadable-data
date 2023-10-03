@@ -74,6 +74,7 @@
   description: |-
     Before I attack a unit, take damage equal to the difference in our power
     if it's weaker
+  notes: "REDACTED #14"
   effects:
     active:
       eventName: UnitAttack
@@ -89,7 +90,7 @@
       allowedLots:
         - unit-field
   guid: 35a03812-9e08-ce45-504e-aaad23fda847
-  name: "REDACTED #14"
+  name: Mombi
   art: /redacted/generic_21
   power: 8
 - id: 2867
@@ -502,7 +503,10 @@
 - id: 2397
   slug: $pierced
   description: Enemy unit here has PIERCING
-  notes: PIERCING should be renamed to OVERKILL...
+  notes: |-
+    PIERCING should be renamed to OVERKILL...
+
+    REDACTED #13
   effects:
     passive:
       condition: get.opposingUnit(card)
@@ -513,7 +517,7 @@
         - unit-field
   guid: ae1e9d1b-592a-c50b-55c2-9230d6c2fd28
   power: 7
-  name: "REDACTED #13"
+  name: Sir Guy of Gisbourne
   art: /redacted/generic_81
 - id: 2396
   slug: $both-draw
