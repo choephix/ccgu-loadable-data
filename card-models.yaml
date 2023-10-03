@@ -765,11 +765,12 @@
   art: /tokens/wisp
 - id: 2385
   slug: $zero-rush
+  notes: "REDACTED #00"
   tags:
     - rush
   effects: {}
   guid: 45f5588b-4b20-155b-63bd-e9de7b9c9e62
-  name: "REDACTED #00"
+  name: Click Beetle
   art: /redacted/generic_10
 - id: 2376
   slug: $steal-with-unit
@@ -1098,7 +1099,7 @@
 - id: 2370
   slug: $all-out-johhny-a
   description: Discard your hand when I'm played
-  notes: All Out Jenna
+  notes: "REDACTED #2A"
   status: 1
   effects:
     active:
@@ -1111,7 +1112,7 @@
       allowedLots:
         - unit-field
   guid: cb795b5c-f241-e904-0fe7-1394d217b4a1
-  name: "REDACTED #2A"
+  name: Krampus
   power: 7
   art: /redacted/generic_73
 - id: 2511
@@ -6186,6 +6187,7 @@
 - id: 2386
   slug: $all-out-johhny-b
   description: Discard your hand as your turn ends
+  notes: "REDACTED #2B"
   status: 1
   effects:
     active:
@@ -6198,7 +6200,7 @@
       allowedLots:
         - unit-field
   guid: cb795b5c-f241-e904-0fe7-1394d217b4a1
-  name: "REDACTED #2B"
+  name: Minotaur
   power: 9
   art: /redacted/generic_70
 - id: 2822
