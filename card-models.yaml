@@ -1,4 +1,4 @@
-- id: 2390
+- id: 2408
   slug: muddy-pig
   description: |-
     Fill the enemy side with 'overheating-drone' tokens.
@@ -7,6 +7,7 @@
   effects: {}
   guid: f6f0a106-c7b8-c76d-c584-bceee04b3a63
   power: 2
+  name: muddy-pig
 - id: 2361
   slug: kraken-token
   lore: A terror lurking beneath the waves, its release marks an eruption of
@@ -3252,6 +3253,7 @@
 - id: 2374
   slug: $soft-grand
   description: I do not require a sacrifice while no allies are in play
+  notes: "REDACTED #100"
   tags:
     - grand
   effects:
@@ -3261,7 +3263,7 @@
       allowedLots:
         - hand
   guid: 847fc569-a396-f9da-3422-837392c88113
-  name: "REDACTED #100"
+  name: Lady of the Lake
   power: 8
   art: /redacted/generic_40
 - id: 2508
