@@ -1,3 +1,24 @@
+- id: 2528
+  slug: scathach
+  description: |-
+    +2 to units you play
+    while I'm also in play
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: |-
+        event.card.controller === player &&
+        player.grave.topCard === card
+      perform: |-
+        const u = event.card
+        op.addTempFx(u, tg => tg.pass.raisePower(u,2))
+      allowedLots:
+        - grave
+  guid: 2cbcf528-4359-b374-a54a-80733cbdcc2e
+  name: Scathach
+  power: 2
+  art: /b2/scathach
 - id: 2397
   slug: $overkill-grand
   notes: 🤷‍♂️ ...
@@ -14,8 +35,7 @@
 - id: 2516
   slug: $overkilled
   description: Enemy unit here has OVERKILL
-  notes: |-
-    REDACTED #13
+  notes: "REDACTED #13"
   effects:
     passive:
       condition: get.opposingUnit(card)
@@ -578,8 +598,7 @@
 - id: 2515
   slug: $pierced
   description: Enemy unit here has PIERCING
-  notes: |-
-    REDACTED #13
+  notes: "REDACTED #13"
   effects:
     passive:
       condition: get.opposingUnit(card)
