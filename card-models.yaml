@@ -1,3 +1,18 @@
+- id: 7
+  slug: --superkamikaze
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: event.card === card
+      perform: |-
+        op.damage(player, 60)
+        op.damage(opponent, 60)
+      allowedLots:
+        - unit-field
+  guid: d645eae2-fd08-db3b-f19e-a1bac71569b0
+  name: Super Kamikaze
+  power: 10
 - id: 2528
   slug: scathach
   description: |-
