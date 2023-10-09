@@ -2695,7 +2695,7 @@
     passive:
       condition: "true"
       perform: |-
-        for (const u of card.controller) {
+        for (const u of card.controller.units) {
           pass.raisePower(u, 2)
         }
       allowedLots:
