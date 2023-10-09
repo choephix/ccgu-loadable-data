@@ -2693,6 +2693,11 @@
     the brave.
   effects:
     passive:
+      condition: "true"
+      perform: |-
+        for (const u of card.controller) {
+          pass.raisePower(u, 2)
+        }
       allowedLots:
         - grave
   guid: 00a2376c-237e-025a-b712-deb56e3352b6
