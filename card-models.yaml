@@ -3910,7 +3910,7 @@
   guid: 294447b1-beb2-1618-5d29-8182eee4f481
   name: the Battle of Trenton
 - id: 2424
-  slug: the-battle-of-trenton-v2
+  slug: trident
   type: 1
   description: >-
     When opposing enemy unit attacks you directly, and there is a friendly unit
@@ -3919,6 +3919,7 @@
     The attack continues.
   lore: George Washington led a surprise attack against Hessian forces at Trenton,
     New Jersey, during the American Revolutionary War.
+  notes: the-battle-of-trenton-v2
   effects:
     active:
       eventName: UnitAttack
