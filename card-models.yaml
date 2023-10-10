@@ -1,3 +1,24 @@
+- id: 2616
+  slug: generic_b_X01
+  lore: Beneath a sky divine, the cosmic dance of creation is outlined.
+  tags:
+    - grand
+  effects: {}
+  guid: 309dac11-cb4b-37e1-a15c-f57ef6eee5dc
+  power: 10
+  name: Tangra
+  art: /hires/tangra
+- id: 2584
+  slug: generic_a_X01
+  lore: Under the cloak of darkness, the bat god swoops, an embodiment of primal
+    fears.
+  tags:
+    - grand
+  effects: {}
+  guid: 309dac11-cb4b-37e1-a15c-f57ef6eee5dc
+  power: 10
+  name: Camazotz
+  art: /camazotz
 - id: 7
   slug: --superkamikaze
   effects:
