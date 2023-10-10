@@ -3514,6 +3514,7 @@
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   name: King Leonidas I
   power: 5
+  art: /b2/leonidas
 - id: 2864
   slug: Pygmalion
   effects: {}
