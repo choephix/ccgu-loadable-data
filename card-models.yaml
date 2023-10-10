@@ -1,5 +1,5 @@
 - id: 2616
-  slug: generic_b_X01
+  slug: generic_b_x01
   lore: Beneath a sky divine, the cosmic dance of creation is outlined.
   tags:
     - grand
@@ -9,7 +9,7 @@
   name: Tangra
   art: /hires/tangra
 - id: 2584
-  slug: generic_a_X01
+  slug: generic_a_x01
   lore: Under the cloak of darkness, the bat god swoops, an embodiment of primal
     fears.
   tags:
