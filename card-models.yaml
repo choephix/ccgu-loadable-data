@@ -44,13 +44,13 @@
       eventName: DeployUnit
       eventStatus: ended
       condition: |-
-        event.card.controller === player &&
-        player.grave.topCard === card
+        faq.isInPlay(card) &&
+        event.card.controller === player
       perform: |-
         const u = event.card
         op.addTempFx(u, tg => tg.pass.raisePower(u,2))
       allowedLots:
-        - grave
+        - unit-field
   guid: 2cbcf528-4359-b374-a54a-80733cbdcc2e
   name: Scathach
   power: 2
