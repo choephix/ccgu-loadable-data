@@ -39,6 +39,8 @@
   description: |-
     +2 to units you play
     while I'm also in play
+  lore: In the heart of shadows, she molds champions with wisdom old as twilight's
+    cloak.
   effects:
     active:
       eventName: DeployUnit
@@ -71,6 +73,8 @@
 - id: 2516
   slug: $overkilled
   description: Enemy unit here has OVERKILL
+  lore: In every arrow sped in night's deceit hides a tale of a knight, too proud
+    for retreat.
   notes: "REDACTED #13"
   effects:
     passive:
@@ -165,7 +169,7 @@
 - id: 2514
   slug: hermit
   description: -3{{power}} per ally in play
-  lore: Doesn't like crowds.
+  lore: Within the silence of his solitude, wisdom's whispers echo through the ages.
   pdc: -1
   priority: 3
   effects:
@@ -634,6 +638,8 @@
 - id: 2515
   slug: $pierced
   description: Enemy unit here has PIERCING
+  lore: Cloaked in the shadows of Sherwood, he is the wolf hunting justice's
+    outlawed fleet.
   notes: "REDACTED #13"
   effects:
     passive:
@@ -888,6 +894,7 @@
   description: |-
     All units gain #swapper 
     while I'm in play
+  lore: Mischief is his mother tongue, spun from silvered web cunningly strung.
   notes: 81? 64? 50?
   tags:
     - grand
@@ -1011,6 +1018,7 @@
 - id: 2498
   slug: sir-breuse-sans-pite
   description: I only attack directly
+  lore: The terror of the table round, he collects fallen honor as a knight unbound.
   pdc: -1
   status: 2
   priority: 8
@@ -1070,6 +1078,7 @@
 - id: 2501
   slug: rani-lakshmibai
   description: +1 to allies after I die
+  lore: Her defiance against annexation, a saga written in the heart of the nation.
   effects:
     active:
       eventName: UnitDie
@@ -1110,6 +1119,8 @@
 - id: 2499
   slug: nathan-hale
   description: +2 to units you deploy while I'm on top of your grave
+  lore: A patriot's choice, the ultimate price; his echo remains, rousing spirits
+    like dice.
   effects:
     active:
       eventName: DeployUnit
@@ -4059,6 +4070,8 @@
 - id: 2512
   slug: $buff-per-unit
   description: +1{{power}} per ANY unit in play.
+  lore: Where the patriot's heart beats, uncrowned kings will rise, shaping
+    kingdoms in their defiant stride.
   pdc: -1
   status: 2
   priority: 7
