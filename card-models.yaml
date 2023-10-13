@@ -3765,7 +3765,7 @@
   effects:
     active:
       eventName: UnitAttackDirect
-      eventStatus: began
+      eventStatus: ended
       condition: |-
         event.card === get.opposingUnit(card) &&
         !get.sameLaneUnit( card )
@@ -4612,7 +4612,7 @@
   effects:
     active:
       eventName: UnitAttackDirect
-      eventStatus: began
+      eventStatus: ended
       condition: event.card === get.opposingUnit( card )
       perform: op.damage(opponent, 4)
   art: /traps/cactus
