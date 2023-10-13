@@ -1922,8 +1922,7 @@
 - id: 2459
   slug: gretel
   description: |-
-    Add "Hansel" from your deck to your hand
-    when I enter play
+    Move "Hansel" from your deck to your hand when I enter play
     if possible
   lore: In the belly of despair, her courage ignites, burning brighter than any
     witches' oven.
@@ -1950,8 +1949,7 @@
 - id: 2443
   slug: hansel
   description: |-
-    Add "Gretel" from your deck to your hand
-    when I enter play
+    Move "Gretel" from your deck to your hand when I enter play
     if possible
   lore: In the sinister forest's heart, his guile blooms, turning even breadcrumbs
     into a lifeline.
