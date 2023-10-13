@@ -3148,7 +3148,7 @@
   art: /puss
   guid: d733ae6a-414f-023c-4992-e99fea422de6
   name: Puss in Boots
-  power: 4
+  power: 3
 - id: 2449
   slug: reynard-the-fox
   description: Draw 2 cards when I'm played
