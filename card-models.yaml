@@ -53,6 +53,7 @@
       eventStatus: ended
       condition: |-
         faq.isInPlay(card) &&
+        event.card !== card &&
         event.card.controller === player
       perform: |-
         const u = event.card
