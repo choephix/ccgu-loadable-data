@@ -1,3 +1,27 @@
+- id: 2175
+  slug: agent-khan
+  effects: {}
+  guid: b429cf0a-0502-7528-9eda-1aa333a046d1
+  art: /b2/agent-khan
+  name: Agent Noor Inyat Khan
+  power: 5
+- id: 2517
+  slug: gideon2
+  description: +2{{power}} during your turn
+  lore: From a wellspring of faith amidst weakness and poverty, Gideon summons
+    strength, his spirit shining brightly in the darkest of trials.
+  effects:
+    passive:
+      condition: get.currentPlayer === opponent
+      perform: pass.raisePower(card, 2)
+      allowedLots:
+        - unit-field
+        - hand
+        - grave
+  guid: 549b8197-538b-0a31-673d-e0b8e59fcc32
+  art: /gideon
+  name: Gideon
+  power: 4
 - id: 10
   slug: --thehulk
   effects: {}
@@ -3664,6 +3688,8 @@
       perform: pass.raisePower(card, 3)
       allowedLots:
         - unit-field
+        - hand
+        - grave
   art: /gideon
   guid: 549b8197-538b-0a31-673d-e0b8e59fcc32
   name: Gideon
