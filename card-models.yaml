@@ -2706,7 +2706,7 @@
   name: Draupnir
 - id: 2418
   slug: elegant-walter
-  description: -3{{power}} to enemy unit here when I die
+  description: -2{{power}} to enemy unit here when I die
   effects:
     active:
       eventName: UnitDie
@@ -2718,7 +2718,7 @@
         const foe = get.opposingUnit(card)
         op.addTempFx(
           foe, 
-          tg => tg.pass.lowePower(foe, 3)
+          tg => tg.pass.lowePower(foe, 2)
         )
   guid: 767a8487-8298-efb4-a42d-a5ebf4d6e611
   power: 2
