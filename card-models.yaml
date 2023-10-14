@@ -10,7 +10,7 @@
   description: +2{{power}} during your turn
   effects:
     passive:
-      condition: get.currentPlayer === opponent
+      condition: get.currentPlayer === player
       perform: pass.raisePower(card, 2)
       allowedLots:
         - unit-field
