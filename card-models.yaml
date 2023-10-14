@@ -6,10 +6,8 @@
   name: Agent Noor Inyat Khan
   power: 5
 - id: 2517
-  slug: gideon2
+  slug: tikbalang
   description: +2{{power}} during your turn
-  lore: From a wellspring of faith amidst weakness and poverty, Gideon summons
-    strength, his spirit shining brightly in the darkest of trials.
   effects:
     passive:
       condition: get.currentPlayer === opponent
@@ -19,8 +17,8 @@
         - hand
         - grave
   guid: 549b8197-538b-0a31-673d-e0b8e59fcc32
-  art: /gideon
-  name: Gideon
+  art: /b2/tikbalang
+  name: Tikbalang
   power: 4
 - id: 10
   slug: --thehulk
