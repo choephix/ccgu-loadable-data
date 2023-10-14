@@ -5763,7 +5763,7 @@
   art: /zorro
   guid: e156e58b-3903-0196-a55c-cef515c0dcdd
   name: Zorro
-  power: 2
+  power: 3
 - id: 781
   slug: elijah
   description: My $power is raised by %4 during the enemy's turn
