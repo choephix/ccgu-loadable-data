@@ -2705,7 +2705,7 @@
   guid: 0ae1518f-a398-4c1d-39c6-bc1467df0b17
   name: Draupnir
 - id: 2418
-  slug: elegant-walter
+  slug: $depower-on-die
   description: -2{{power}} to enemy unit here when I die
   effects:
     active:
@@ -2720,6 +2720,8 @@
           foe, 
           tg => tg.pass.lowePower(foe, 2)
         )
+      allowedLots:
+        - unit-field
   guid: 767a8487-8298-efb4-a42d-a5ebf4d6e611
   power: 2
   name: Elegant Walter
