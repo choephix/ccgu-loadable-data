@@ -751,10 +751,16 @@
   art: /b2/sir-erec
 - id: 2556
   slug: tough-robert
+  description: +4{{power}} while not facing enemy unit
   notes: "chivalry: 3/8"
-  effects: {}
+  effects:
+    passive:
+      condition: "!get.opposingUnit(card)"
+      perform: ss.raisePower(card, 10)
+      allowedLots:
+        - unit-field
   guid: b1a580c7-b1ee-d449-70c3-1bd81d961926
-  power: 4
+  power: 2
   name: Sir Agravain
   art: /b2/sir-agravain
 - id: 2551
