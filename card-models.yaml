@@ -2466,7 +2466,7 @@
       manner: combat
       perform: opponent.actionPoints = 0
   guid: 330d7a66-d220-9e61-1941-9e78e53495ab
-  power: 2
+  power: 1
   art: /gremlin
   name: Gremlin
 - id: 2423
