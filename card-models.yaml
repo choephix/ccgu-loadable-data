@@ -1,3 +1,21 @@
+- id: 2425
+  slug: gremlin2
+  description: "Combat-Flip: -1{{ap}} for the enemy"
+  lore: Spawned in the darkest corners of annoyance, their impish laughter echoes
+    in the din.
+  notes: "#tamer"
+  tags:
+    - sneak
+  effects:
+    flip:
+      manner: combat
+      perform: |-
+        if (opponent.actionPoints > 0)
+          opponent.actionPoints--
+  guid: 330d7a66-d220-9e61-1941-9e78e53495ab
+  power: 2
+  art: /gremlin
+  name: Gremlin
 - id: 2175
   slug: agent-khan
   effects: {}
@@ -2307,7 +2325,7 @@
   power: 2
   art: /kobold
   name: Kobold
-- id: 2429
+- id: 2428
   slug: zany-squirrel
   type: 1
   description: |-
@@ -2440,6 +2458,7 @@
   description: "Combat-Flip: Set enemy{{ap}} to 0"
   lore: Spawned in the darkest corners of annoyance, their impish laughter echoes
     in the din.
+  notes: "#oldschool"
   tags:
     - sneak
   effects:
@@ -2969,7 +2988,7 @@
   name: Jabberwock
   power: 5
   art: /jabberwock
-- id: 2425
+- id: 2427
   slug: fools-fire
   type: 1
   description: |-
@@ -3515,7 +3534,7 @@
   name: Porcupine Spirit
   power: 1
   art: /porcupine
-- id: 2426
+- id: 2411
   slug: duelista
   description: While both player have only one unit in play each, both have +10{{power}}
   effects: {}
@@ -4050,7 +4069,7 @@
   guid: c75dbcf9-9f9a-a55f-c949-5b59b076e58a
   name: Salamander
   power: 7
-- id: 2427
+- id: 2431
   slug: time-reverser
   description: |-
     Combat-Flip:
@@ -6561,7 +6580,7 @@
   guid: 65591d48-dbec-6af4-034e-c0eb08f6795e
   name: Grand Traitor
   power: 14
-- id: 2428
+- id: 2429
   slug: time-bug
   description: |-
     Combat-Flip:
