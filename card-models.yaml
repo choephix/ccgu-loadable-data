@@ -174,7 +174,7 @@
   effects: {}
   guid: 16ffb4c4-e08f-9182-8548-3c8979fd4fcb
   name: Scathach
-- id: 2425
+- id: 2414
   slug: muddy-pig
   description: |-
     Fill the enemy side with 'overheating-drone' tokens.
@@ -2969,7 +2969,7 @@
   name: Jabberwock
   power: 5
   art: /jabberwock
-- id: 2431
+- id: 2425
   slug: fools-fire
   type: 1
   description: |-
