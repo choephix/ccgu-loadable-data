@@ -8,17 +8,27 @@
   tags:
     - grand
   effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: card === event.card
+      perform: |-
+        const bonusHP = 10
+        op.heal(player, bonusHP)
+        op.heal(opponent, bonusHP)
+      allowedLots:
+        - unit-field
     passive:
       condition: "true"
       perform: |-
         const all = [
           ...player.units, ...opponent.units]
-        all.forEach(u => pass.addTag(u, Tag.SWAPPER))
+        all.forEach(u => pass.addTag(u, Tag.SWIFT))
       allowedLots:
         - unit-field
   guid: 19fe6c19-e34d-8ca6-92fc-798133db3662
   name: Loki 2
-  power: 6
+  power: 5
   art: /redacted/generic_50
 - id: 2425
   slug: gremlin2
