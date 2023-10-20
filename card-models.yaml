@@ -388,7 +388,7 @@
   lore: Frost-kissed determination guides her through the realm of eternal
     winter—a thawing warmth against chilling despair.
   effects: {}
-  art: /hires/gerda
+  art: /d3/gerda
   guid: ddceaaab-24a2-47b9-8ab6-0e95daf77ac4
   name: Gerda
   power: 3
@@ -1221,7 +1221,7 @@
   guid: 2cbcf528-4359-b374-a54a-80733cbdcc2e
   name: Hathan Hale
   power: 1
-  art: /b2/nathan-hale
+  art: /d3/nathan-hale
 - id: 2503
   slug: mad-arab
   description: |-
@@ -2029,7 +2029,7 @@
         - unit-field
   guid: a21ea10a-6e3c-d9d1-5d6e-42031a246f8a
   name: Gretel
-  art: /hires/gretel
+  art: /d3/gretel
   power: 4
 - id: 2443
   slug: hansel
@@ -2056,7 +2056,7 @@
         - unit-field
   guid: 7af22b9f-1fdd-0dab-e195-624964e11a87
   name: Hansel
-  art: /hires/hansel
+  art: /d3/hansel
   power: 4
 - id: 2313
   slug: kombinato
@@ -2104,7 +2104,7 @@
       allowedLots:
         - unit-field
   guid: d4c10c3c-a82c-f92c-b878-67f96bb9a9ee
-  art: /hires/goldilocks
+  art: /d3/goldilocks
   name: Goldilocks
   power: 2
 - id: 2163
