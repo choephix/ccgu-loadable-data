@@ -1,3 +1,25 @@
+- id: 2537
+  slug: $swift-to-all
+  description: |-
+    All units gain #swift
+    while I'm in play
+  lore: Mischief is his mother tongue, spun from silvered web cunningly strung.
+  notes: 81? 64? 50?
+  tags:
+    - grand
+  effects:
+    passive:
+      condition: "true"
+      perform: |-
+        const all = [
+          ...player.units, ...opponent.units]
+        all.forEach(u => pass.addTag(u, Tag.SWAPPER))
+      allowedLots:
+        - unit-field
+  guid: 19fe6c19-e34d-8ca6-92fc-798133db3662
+  name: Loki 2
+  power: 6
+  art: /redacted/generic_50
 - id: 2425
   slug: gremlin2
   description: "Combat-Flip: -1{{ap}} for the enemy"
