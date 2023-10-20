@@ -210,7 +210,7 @@
   guid: 64521375-3678-e760-9c63-ae2f47903bf9
   name: Winged Monkey
   power: 1
-  art: /tokens/winged-monkey
+  art: /d3/winged-monkey
 - id: 2320
   slug: attractive-penguin
   description: After an enemy dies, I die. A token with the same power as the
@@ -397,7 +397,7 @@
   lore: Ever the whirlwind of mischief and strength, she rules her own world, and
     all who enter.
   effects: {}
-  art: /hires/pippi
+  art: /d3/pippi
   guid: 2928b548-cd16-45b6-a1c8-4b99634699af
   name: Pippi
   power: 4
@@ -474,7 +474,7 @@
     blibberous eyes and grinfanging jaws, hurling a frumious shiver of dread
     into the heart of the most bandersome quester.
   effects: {}
-  art: /jabberwock
+  art: /d3/jabberwock
   guid: 909d13fc-6ba0-4cc5-8df7-5274bb95bb8e
   name: Jabberwock
   power: 5
@@ -586,7 +586,7 @@
   slug: generic_b_402
   lore: Defender of his homeland, his might stemmed the foreign hand.
   effects: {}
-  art: /alexander-nevsky
+  art: /d3/alexander-nevsky
   guid: a8f91c3d-6f38-4c7c-9de8-7e7121b26654
   name: Alexander Nevsky
   power: 4
@@ -2680,7 +2680,7 @@
         - unit-field
   guid: 4e48f677-2c40-f391-8d32-bed911b09c20
   name: Mars Ultor
-  art: /mars
+  art: /d3/mars
   power: 8
 - id: 2358
   slug: animal-token
@@ -3207,7 +3207,7 @@
   guid: af573ebb-4f47-3a73-bfb5-73c25190d4c1
   name: Nisse
   power: 5
-  art: /tokens/nisse
+  art: /d3/nisse
 - id: 2433
   slug: puss
   description: |-
@@ -3332,7 +3332,7 @@
         op.forceRelocate( card, lot )
       allowedLots:
         - unit-field
-  art: /sparrow
+  art: /d3/selfless-sparrow
   guid: e156e58b-3903-0196-a55c-cef515c0dcdd
   name: Selfless Sparrow
   power: 1
@@ -3410,7 +3410,7 @@
         - hand
         - unit-field
         - grave
-  art: /horatius-cocles
+  art: /d3/horatius-cocles
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   name: Horatius Cocles
   power: 1
@@ -4097,7 +4097,7 @@
       perform: op.kill(card)
       allowedLots:
         - unit-field
-  art: /salamander
+  art: /d3/salamander
   guid: c75dbcf9-9f9a-a55f-c949-5b59b076e58a
   name: Salamander
   power: 7
@@ -4209,7 +4209,7 @@
     - swift
     - grand
   effects: {}
-  art: /mercury
+  art: /d3/mercury
   guid: a9fb5b3c-0c8a-a10c-6a8c-8ed91952bc46
   name: Mercury
   power: 5
@@ -5290,7 +5290,7 @@
   guid: a8bcec64-adb7-7e49-03de-bb12bc83ea71
   name: Morgiana
   power: 2
-  art: /hires/morgiana
+  art: /d3/morgiana
 - id: 1082
   slug: 78d2e0e9
   description: My power equals the amount of cards in your grave.
@@ -5360,7 +5360,7 @@
         event.card === get.opposingUnit(card) &&
         event.card.isFaceUp
       perform: op.forceAttack(event.card)
-  art: /temp/beartrap
+  art: /temp/muleta
   guid: bdaf0351-9f2b-859c-d4e7-7b35dcae8645
   name: Muleta
 - id: 2382
@@ -5712,7 +5712,7 @@
       perform: op.addToHand(card, player)
       allowedLots:
         - unit-field
-  art: /zhu-bajie
+  art: /d3/zhu-bajie
   guid: c4e29441-a2d6-5d2e-e90d-67c1d4b90213
   name: Zhu Bajie
   power: 10
@@ -5817,7 +5817,7 @@
         op.forceRelocate( card, lot )
       allowedLots:
         - unit-field
-  art: /zorro
+  art: /d3/zorro
   guid: e156e58b-3903-0196-a55c-cef515c0dcdd
   name: Zorro
   power: 4
@@ -9706,9 +9706,9 @@
       perform: op.addToHand( card, player )
       allowedLots:
         - grave
-  art: /benu-bird
+  art: /d3/benu
   guid: daf9dcb2-0b3e-772b-1538-1d88ab4dafcf
-  name: the Benu Bird
+  name: The Benu Bird
   power: 2
 - id: 3126
   slug: badfate
