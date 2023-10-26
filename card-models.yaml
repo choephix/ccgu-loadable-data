@@ -1443,7 +1443,7 @@
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a597
   art: /viracocha
-  power: 5
+  power: 10
   name: Viracocha
 - id: 2065
   slug: vasilisa
@@ -1461,7 +1461,7 @@
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a595
   art: /susanoo
-  power: 5
+  power: 10
   name: Susanoo
 - id: 2213
   slug: shennong
@@ -1471,7 +1471,7 @@
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a594
   art: /shennong
-  power: 5
+  power: 10
   name: Shennong
 - id: 2053
   slug: reluctant-dragon
@@ -1489,7 +1489,7 @@
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a592
   art: /nuwa
-  power: 5
+  power: 10
   name: Nuwa
 - id: 2100
   slug: momotaro
@@ -1567,7 +1567,7 @@
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a581
   art: /dazhbog
-  power: 5
+  power: 10
   name: Dazhbog
 - id: 2068
   slug: costello
@@ -1634,7 +1634,7 @@
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a571
   art: /hires/yemaya
-  power: 5
+  power: 10
   name: Yemaya
 - id: 2214
   slug: ukko
@@ -1644,7 +1644,7 @@
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a570
   art: /hires/ukko
-  power: 5
+  power: 10
   name: Ukko
 - id: 2064
   slug: tsarevna
@@ -1670,7 +1670,7 @@
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a567
   art: /hires/tangra
-  power: 5
+  power: 10
   name: Tangra
 - id: 2212
   slug: stribog
@@ -1680,7 +1680,7 @@
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a566
   art: /stribog
-  power: 5
+  power: 10
   name: Stribog
 - id: 2066
   slug: snow-white
@@ -1732,7 +1732,7 @@
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a560
   art: /hires/ran
-  power: 5
+  power: 10
   name: Ran
 - id: 2104
   slug: queen-tomyris
@@ -1777,7 +1777,7 @@
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a555
   art: /hires/oshun
-  power: 5
+  power: 10
   name: Oshun
 - id: 2118
   slug: ogma
@@ -1912,7 +1912,7 @@
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a537
   art: /hires/coyolxauhqui
-  power: 5
+  power: 10
   name: Coyolxauhqui
 - id: 2114
   slug: carmilla
@@ -1959,7 +1959,7 @@
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a531
   art: /hires/aglea
-  power: 5
+  power: 10
   name: Aglea
 - id: 2675
   slug: generic4
