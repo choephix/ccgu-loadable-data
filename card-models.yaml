@@ -10018,7 +10018,7 @@
       eventName: DeployUnit
       eventStatus: ended
       condition: |-
-        const PARTNER_NAME = 'jack'
+        const PARTNER_NAME = 'orpheus'
         const destination = get.rightUnitField(card)
         event.card === card &&
         !!destination && 
@@ -10051,7 +10051,7 @@
       eventName: DeployUnit
       eventStatus: ended
       condition: |-
-        const PARTNER_NAME = 'jill'
+        const PARTNER_NAME = 'eurydice'
         const destination = get.leftUnitField(card)
         event.card === card &&
         !!destination &&
