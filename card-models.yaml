@@ -10026,7 +10026,7 @@
         player.grave.cards
           .some(c => c.slug === PARTNER_NAME)
       perform: |-
-        const PARTNER_NAME = 'jack'
+        const PARTNER_NAME = 'orpheus'
         const destination = get.rightUnitField(card)
         const partner = player.grave.cards
           .find(c => c.slug === PARTNER_NAME)
@@ -10059,7 +10059,7 @@
         player.grave.cards
           .some(c => c.slug === PARTNER_NAME)
       perform: |-
-        const PARTNER_NAME = 'jill'
+        const PARTNER_NAME = 'eurydice'
         const destination = get.leftUnitField(card)
         const partner = player.grave.cards
           .find(c => c.slug === PARTNER_NAME)
