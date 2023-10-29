@@ -5360,7 +5360,7 @@
         event.card === get.opposingUnit(card) &&
         event.card.isFaceUp
       perform: op.forceAttack(event.card)
-  art: /temp/muleta
+  art: /traps/muleta
   guid: bdaf0351-9f2b-859c-d4e7-7b35dcae8645
   name: Muleta
 - id: 2382
