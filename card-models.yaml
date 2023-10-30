@@ -10,8 +10,10 @@
       condition: event.player === player
       perform: |-
         const bonus = event.amount
-        op.addTempFx(card, gt => 
-          gt.pass.raisePower(card, bonus))
+        op.addTempFx(
+          card, 
+          gt => gt.pass.raisePower(card, bonus)
+        )
       allowedLots:
         - unit-field
   guid: 52265fca-5c54-ef92-ee26-5a2f105e23f4
