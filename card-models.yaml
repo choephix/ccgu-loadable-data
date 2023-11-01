@@ -1,7 +1,7 @@
 - id: 2403
   slug: $grow-by-damage
   description: |-
-    +X{{hp}} on player damage
+    +X{{power}} on player damage
     equal to the damage
   effects:
     active:
@@ -17,8 +17,9 @@
       allowedLots:
         - unit-field
   guid: 52265fca-5c54-ef92-ee26-5a2f105e23f4
-  power: 2
+  power: 1
   art: /temp/she4
+  name: ...
 - id: 2537
   slug: $swift-to-all
   description: |-
