@@ -1,3 +1,11 @@
+- id: 2538
+  slug: volumed-ivorygull
+  description: Deal X enemy damage when die from enemy attack, equal to power diff
+  tags:
+    - grand
+  effects: {}
+  guid: 262418eb-cb6b-1573-1e26-02e3ef7f9ec8
+  power: 5
 - id: 2403
   slug: $grow-by-damage
   description: |-
