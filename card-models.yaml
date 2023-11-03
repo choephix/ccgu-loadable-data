@@ -1,3 +1,25 @@
+- id: 2529
+  slug: vasilisa
+  lore: Guided by a doll, through Baba Yaga's hall
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: event.card === card
+      perform: |-
+        op.spawnToken(
+          player.hand, 'vasilisas-doll-token')
+  guid: adc45d70-feb2-47f0-be47-c827fecaef9b
+  art: /vasilisa
+  name: Vasilisa the Beautiful
+  power: 2
+- id: 2363
+  slug: vasilisas-doll-token
+  effects: {}
+  guid: ed010cbe-b11a-e87f-7fdc-7ce3cfffb251
+  name: Vasilisa's Doll
+  power: 5
+  art: /d3/winged-monkey
 - id: 2538
   slug: volumed-ivorygull
   description: Deal X enemy damage when die from enemy attack, equal to power diff
@@ -1476,7 +1498,7 @@
   power: 10
   name: Viracocha
 - id: 2065
-  slug: vasilisa
+  slug: vasilisa0
   lore: Guided by a doll, through Baba Yaga's hall
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a596
