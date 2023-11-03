@@ -1,3 +1,18 @@
+- id: 2530
+  slug: vasilisa-evil
+  lore: Guided by a doll, through Baba Yaga's hall
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: event.card === card
+      perform: |-
+        op.spawnToken(
+          player.hand, 'vasilisas-doll-token')
+  guid: adc45d70-feb2-47f0-be47-c827fecaef9b
+  art: /vasilisa
+  name: Vasilisa the Vengeful
+  power: 2
 - id: 2529
   slug: vasilisa
   lore: Guided by a doll, through Baba Yaga's hall
