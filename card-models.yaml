@@ -100,7 +100,7 @@
   power: 2
   art: /gremlin
   name: Gremlin
-- id: 2175
+- id: 2169
   slug: agent-khan
   effects: {}
   guid: b429cf0a-0502-7528-9eda-1aa333a046d1
@@ -1500,6 +1500,7 @@
 - id: 2065
   slug: vasilisa0
   lore: Guided by a doll, through Baba Yaga's hall
+  notes: Replaced!
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a596
   art: /vasilisa
@@ -2163,6 +2164,7 @@
   slug: siegfried
   lore: Fearless dragon slayer, with heart as pure as his blade, by his honor
     he'll never be swayed.
+  notes: = Sigurd
   effects: {}
   guid: 56d82a3c-ca92-6ef6-6a6c-617c196146ce
   name: Siegfried
@@ -2256,6 +2258,7 @@
   slug: sigurd
   lore: Unyielding in spirit, his steel slashes through legends, his valor echoed
     in dragon's roars.
+  notes: = Siegfried
   effects: {}
   guid: 964bb188-f3ee-18da-b3aa-dcb13f933767
   power: 5
