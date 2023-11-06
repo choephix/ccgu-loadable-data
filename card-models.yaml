@@ -1,3 +1,58 @@
+- id: 2254
+  slug: mombi
+  effects: {}
+  guid: db898ab2-dc96-1761-f509-1c02cbc368c8
+  art: /d3/mombi
+  power: 5
+  name: Mombi
+- id: 2253
+  slug: jesse-james
+  effects: {}
+  guid: db898ab2-dc96-1761-f509-1c02cbc368c8
+  art: /d3/jesse-james
+  power: 5
+  name: Jesse James
+- id: 2252
+  slug: jacquotte-delahaye
+  effects: {}
+  guid: db898ab2-dc96-1761-f509-1c02cbc368c8
+  art: /d3/jacquotte-delahaye
+  power: 5
+  name: Jacquotte Delahaye
+- id: 2251
+  slug: ilya-muromets
+  effects: {}
+  guid: db898ab2-dc96-1761-f509-1c02cbc368c8
+  art: /d3/ilya-muromets
+  power: 5
+  name: Ilya Muromets
+- id: 2522
+  slug: eshu
+  description: |-
+    All units gain #swapper 
+    while I'm in play
+  tags:
+    - grand
+  effects:
+    passive:
+      condition: "true"
+      perform: |-
+        const all = [
+          ...player.units, ...opponent.units]
+        all.forEach(u => pass.addTag(u, Tag.SWAPPER))
+      allowedLots:
+        - unit-field
+  guid: 19fe6c19-e34d-8ca6-92fc-798133db3662
+  name: Eshu
+  power: 9
+  art: /d3/eshu
+- id: 2250
+  slug: cossak-mamay
+  effects: {}
+  guid: db898ab2-dc96-1761-f509-1c02cbc368c8
+  art: /d3/cossak-mamay
+  power: 5
+  name: Cossak Mamay
 - id: 2364
   slug: vasilisas-skull-token
   effects: {}
@@ -123,7 +178,7 @@
   power: 2
   art: /gremlin
   name: Gremlin
-- id: 2169
+- id: 2240
   slug: agent-khan
   effects: {}
   guid: b429cf0a-0502-7528-9eda-1aa333a046d1
@@ -210,7 +265,7 @@
   guid: 2cbcf528-4359-b374-a54a-80733cbdcc2e
   name: Scathach
   power: 2
-  art: /b2/scathach
+  art: /d3/scathach
 - id: 2397
   slug: $overkill-grand
   notes: 🤷‍♂️ ...
@@ -267,7 +322,7 @@
   guid: 7bdf3e79-6f4c-f8a3-d5c5-061a332357dc
   name: Gayelette
   power: 4
-  art: /redacted/generic_49
+  art: /d3/gayelette
 - id: 2368
   slug: ugly-crow
   description: |-
@@ -454,7 +509,7 @@
   lore: One bullet ends a disgrace, beginning a legacy fierce as the Caribbean
     embrace.
   effects: {}
-  art: /anne-dieu-le-veut
+  art: /d3/anne-dieu-le-veut
   guid: a29de7b3-dcfe-45a7-85b0-ec1ac351e1e7
   name: Anne Dieu Le Veut
   power: 3
@@ -841,7 +896,7 @@
   guid: 1eef8f4d-e56d-2825-8210-b80f3188c944
   name: Hervor
   power: 4
-  art: /hervor
+  art: /d3/hervor
 - id: 2344
   slug: brainy-mallard
   description: |-
@@ -1070,7 +1125,7 @@
   guid: 19fe6c19-e34d-8ca6-92fc-798133db3662
   name: Loki
   power: 9
-  art: /redacted/generic_64
+  art: /d3/loki
 - id: 2385
   slug: $zero-rush
   notes: "REDACTED #00"
@@ -1275,7 +1330,7 @@
   guid: 2cbcf528-4359-b374-a54a-80733cbdcc2e
   name: Boudica
   power: 4
-  art: /hires/boudica
+  art: /d3/boudica
 - id: 2499
   slug: nathan-hale
   description: +2 to units you deploy while I'm on top of your grave
@@ -3211,7 +3266,7 @@
   guid: dbac58dc-3398-249b-d14e-b2d02f3e8ffd
   name: Anne Bonny
   power: 6
-  art: /anne-bonny
+  art: /d3/anne-bonny
 - id: 2461
   slug: david
   description: +10{{power}} against a GRAND unit
@@ -3509,7 +3564,7 @@
         }
       allowedLots:
         - unit-field
-  art: /b2/geronimo
+  art: /d3/geronimo
   guid: e848b4d8-311f-6eaa-e803-b3c88677863a
   name: Geronimo
   power: 3
@@ -4227,7 +4282,7 @@
         - hand
         - unit-field
         - grave
-  art: /ajax
+  art: /d3/ajax
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   name: Ajax the Great
   power: 4
