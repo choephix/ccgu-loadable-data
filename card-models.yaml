@@ -4290,7 +4290,7 @@
         - grave
   art: /d3/ajax
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
-  name: Ajax the Great
+  name: Ajax
   power: 4
 - id: 2512
   slug: $buff-per-unit
