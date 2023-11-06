@@ -1,3 +1,10 @@
+- id: 2255
+  slug: nosferatu
+  effects: {}
+  guid: db898ab2-dc96-1761-f509-1c02cbc368c8
+  art: /d3/nosferatu
+  power: 5
+  name: Nosferatu
 - id: 2254
   slug: mombi
   effects: {}
@@ -59,7 +66,7 @@
   guid: ed010cbe-b11a-e87f-7fdc-7ce3cfffb251
   name: Vasilisa's Lantern
   power: 5
-  art: /d3/winged-monkey
+  art: /d3/vasilisa-skull
 - id: 2530
   slug: vasilisa-evil
   lore: Guided by a doll, through Baba Yaga's hall
@@ -96,7 +103,7 @@
   guid: ed010cbe-b11a-e87f-7fdc-7ce3cfffb251
   name: Vasilisa's Doll
   power: 5
-  art: /d3/winged-monkey
+  art: /d3/vasilisa-doll
 - id: 2538
   slug: volumed-ivorygull
   description: Deal X enemy damage when die from enemy attack, equal to power diff
@@ -197,7 +204,7 @@
         - hand
         - grave
   guid: 549b8197-538b-0a31-673d-e0b8e59fcc32
-  art: /b2/tikbalang
+  art: /d3/tikbalang
   name: Tikbalang
   power: 4
 - id: 10
@@ -1575,15 +1582,14 @@
   art: /viracocha
   power: 10
   name: Viracocha
-- id: 2065
+- id: 2249
   slug: vasilisa0
   lore: Guided by a doll, through Baba Yaga's hall
-  notes: Replaced!
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a596
-  art: /vasilisa
+  art: /d3/vasilisa
   power: 2
-  name: Vasilisa
+  name: Vasilisa the Beautiful
 - id: 2209
   slug: susanoo
   lore: Storm God, serpent slayer, his tale is wound with divine layer.
@@ -2557,7 +2563,7 @@
   guid: 6df4249c-c165-b329-a9c7-4df9d6d96749
   power: 3
   name: Mother Shipton
-  art: /temp/she1
+  art: /d3/mother-shipton
 - id: 39
   slug: --bond
   description: While I am in play - opponent keeps the top card in his deck
@@ -3329,7 +3335,7 @@
   guid: 8536fda6-014b-efa4-02a6-748ff457c472
   name: Will O' the Wisp
   power: 5
-  art: /tokens/wisp
+  art: /d3/wisp
 - id: 2354
   slug: nisse-token
   lore: Emerging from the quiet corners, the Nisse springs into action when least
