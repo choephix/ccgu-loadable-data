@@ -3158,7 +3158,7 @@
   guid: 8b7c3d76-d0d0-da77-e613-eb44e270b548
   name: Jabberwock
   power: 5
-  art: /jabberwock
+  art: /d3/jabberwock
 - id: 2427
   slug: fools-fire
   type: 1
