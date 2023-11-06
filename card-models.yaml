@@ -9588,7 +9588,7 @@
   guid: bac2dd35-ae73-6040-bd9f-b3118c58bde7
   name: Tithonus
   power: 8
-  art: /tithonus
+  art: /d3/tithonus
 - id: 3614
   slug: drawrager2
   description: Increase my power by 1 every time you draw a card.
