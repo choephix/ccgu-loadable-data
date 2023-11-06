@@ -62,6 +62,7 @@
   name: Cossak Mamay
 - id: 2364
   slug: vasilisas-skull-token
+  type: 1
   effects: {}
   guid: ed010cbe-b11a-e87f-7fdc-7ce3cfffb251
   name: Vasilisa's Lantern
