@@ -1739,12 +1739,12 @@
   art: /arjuna
   power: 5
   name: Arjuna
-- id: 2097
+- id: 2269
   slug: alexander-nevsky
   lore: Defender of his homeland, his might stemmed the foreign hand.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a574
-  art: /alexander-nevsky
+  art: /d3/alexander-nevsky
   power: 4
   name: Alexander Nevsky
 - id: 2056
@@ -2022,7 +2022,7 @@
   art: /hires/grace-o-malley
   power: 5
   name: Grace O'Malley
-- id: 2080
+- id: 2271
   slug: gerda
   lore: Frost-kissed determination guides her through the realm of eternal
     winter—a thawing warmth against chilling despair.
@@ -3149,7 +3149,7 @@
   name: the Undine
   art: /undine
   power: 3
-- id: 2165
+- id: 2270
   slug: jabberwock
   lore: Brimbling with murkitude in the duskish dim, skraggling with its
     blibberous eyes and grinfanging jaws, hurling a frumious shiver of dread
