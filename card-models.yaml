@@ -1662,15 +1662,6 @@
   art: /imp
   power: 1
   name: Imp
-- id: 2268
-  slug: ilya-muromets
-  lore: In slumber awakened, the knight grows tall, answering unquestioningly
-    Kiev’s call.
-  effects: {}
-  guid: 53de8275-75a6-0b72-584f-ec52a6b7a587
-  art: /d3/ilya-muromets
-  power: 5
-  name: Ilya Muromets
 - id: 2119
   slug: frithiof
   lore: Evoked by love’s undying flame, he faced kingdoms and gods in his name.
@@ -2748,7 +2739,7 @@
   guid: fd012f20-363d-6a76-d1c0-ccc5aca9868f
   power: 10
   name: Clay Golem
-  art: /tokens/golem
+  art: /d3/golem-of-prague
 - id: 2497
   slug: rabbi-loew
   description: 10{{powered}} token spawns in my place after I relocate
