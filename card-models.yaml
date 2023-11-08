@@ -1,3 +1,21 @@
+- id: 2302
+  slug: mombi1
+  effects:
+    active:
+      eventName: DeployUnit
+      eventStatus: ended
+      condition: |-
+        event.card === card &&
+        get.opposingUnit(card)
+      perform: |-
+        const foe = get.opposingUnit(card)
+        op.op.moveTo(foe, opponent.hand)
+      allowedLots:
+        - unit-field
+  guid: db898ab2-dc96-1761-f509-1c02cbc368c8
+  art: /d3/mombi
+  power: 5
+  name: Mombi
 - id: 1792
   slug: "@vasilisa"
   lore: Guided by a doll, through Baba Yaga's hall
