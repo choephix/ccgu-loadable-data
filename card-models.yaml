@@ -1,4 +1,14 @@
-- id: 2302
+- id: 2402
+  slug: fine-kyle
+  notes: empty shell
+  tags:
+    - rush
+  effects:
+    overrides:
+      blockDeploymentTo: "!get.opposingUnit(field)"
+  guid: 98160958-dd80-a138-0841-fa5dd2e8af1d
+  name: ...
+- id: 2246
   slug: mombi1
   effects:
     active:
@@ -9,7 +19,7 @@
         get.opposingUnit(card)
       perform: |-
         const foe = get.opposingUnit(card)
-        op.op.moveTo(foe, opponent.hand)
+        op.moveTo(foe, opponent.hand)
       allowedLots:
         - unit-field
   guid: db898ab2-dc96-1761-f509-1c02cbc368c8
