@@ -10,6 +10,7 @@
   name: ...
 - id: 2246
   slug: mombi1
+  notes: "1"
   effects:
     active:
       eventName: DeployUnit
