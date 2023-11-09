@@ -12,7 +12,7 @@
       blockDeploymentTo: "!get.opposingUnit(field)"
   guid: 98160958-dd80-a138-0841-fa5dd2e8af1d
   name: ...
-- id: 2246
+- id: 2322
   slug: mombi1
   notes: "1"
   effects:
