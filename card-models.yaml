@@ -1,3 +1,7 @@
+- id: 2321
+  slug: real-sean
+  effects: {}
+  guid: eb70ebd3-afe5-fe14-c9bd-05bd5eef88de
 - id: 2402
   slug: fine-kyle
   notes: empty shell
@@ -403,12 +407,6 @@
   effects: {}
   guid: 3e000694-d28c-4587-4ac3-083088e74bee
   name: attractive-penguin
-- id: 2321
-  slug: hypnotised-skipper
-  notes: A warrior woman who trained heroes in combat...
-  effects: {}
-  guid: 16ffb4c4-e08f-9182-8548-3c8979fd4fcb
-  name: Scathach
 - id: 2414
   slug: muddy-pig
   description: |-
