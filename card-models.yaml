@@ -1,10 +1,9 @@
----
 - id: 2168
   slug: lobisomem
   effects: {}
   guid: ccf3a287-0c50-15b3-d120-8177e612fb3e
   name: Lobisomem
-  art: "/d3/lobisomem"
+  art: /d3/lobisomem
   power: 5
 - id: 2167
   slug: mad-gasser-of-mattoon
@@ -12,43 +11,43 @@
   guid: 6bf6761c-4b44-3f33-d6a5-e8bc1c87481d
   name: Mad Gasser of Mattoon
   power: 5
-  art: "/d3/mad-gasser-of-mattoon"
+  art: /d3/mad-gasser-of-mattoon
 - id: 2166
   slug: britomart
   effects: {}
   guid: 6bf6761c-4b44-3f33-d6a5-e8bc1c87481d
   name: Britomart
   power: 5
-  art: "/d3/britomart"
+  art: /d3/britomart
 - id: 2408
   slug: friendly-sheep
-  description: "+{{hp}} before I'm killed by stronger unit, equal to our power difference"
-  notes: "+{{hp}} before I die, equal to enemy unit's superiority"
+  description: +{{hp}} before I'm killed by stronger unit, equal to our power difference
+  notes: +{{hp}} before I die, equal to enemy unit's superiority
   effects: {}
   guid: 4dab25e3-c8f7-5faa-ce1c-ef4fdd9843b7
-  name: "..."
+  name: ...
 - id: 2390
-  slug: "$combine-adjacents"
+  slug: $combine-adjacents
   description: |-
     Has the power of the strongest foe
     in play
   tags:
-  - grand
+    - grand
   effects:
     passive:
-      condition: 'true'
+      condition: "true"
       perform: |-
         const bonusL = get.leftUnit(card)?.power||0
         const bonusR = get.rightUnit(card)?.power||0
         pass.raisePower(card, bonusL + bonusR)
       allowedLots:
-      - unit-field
+        - unit-field
   guid: 6b09bd92-79ab-ceec-f426-497dcd1aa5c5
-  name: "..."
-  art: "/redacted/generic_06"
+  name: ...
+  art: /redacted/generic_06
 - id: 2404
   slug: clumsy-opossum
-  description: "+3{{power}} while against enemy unit"
+  description: +3{{power}} while against enemy unit
   effects: {}
   guid: a85d4bc8-3c9c-2f12-cde9-35717b46e69d
   power: 3
@@ -62,15 +61,15 @@
   slug: fine-kyle
   notes: empty shell
   tags:
-  - rush
+    - rush
   effects:
     overrides:
       blockDeploymentTo: "!get.opposingUnit(field)"
   guid: 98160958-dd80-a138-0841-fa5dd2e8af1d
-  name: "..."
+  name: ...
 - id: 2322
   slug: mombi1
-  notes: '1'
+  notes: "1"
   effects:
     active:
       eventName: DeployUnit
@@ -82,69 +81,71 @@
         const foe = get.opposingUnit(card)
         op.moveTo(foe, opponent.hand)
       allowedLots:
-      - unit-field
+        - unit-field
   guid: db898ab2-dc96-1761-f509-1c02cbc368c8
-  art: "/d3/mombi"
+  art: /d3/mombi
   power: 5
   name: Mombi
 - id: 2255
   slug: nosferatu
   effects: {}
   guid: db898ab2-dc96-1761-f509-1c02cbc368c8
-  art: "/d3/nosferatu"
+  art: /d3/nosferatu
   power: 5
   name: Nosferatu
 - id: 2254
   slug: mombi
   effects: {}
   guid: db898ab2-dc96-1761-f509-1c02cbc368c8
-  art: "/d3/mombi"
+  art: /d3/mombi
   power: 5
   name: Mombi
 - id: 2253
   slug: jesse-james
   effects: {}
   guid: db898ab2-dc96-1761-f509-1c02cbc368c8
-  art: "/d3/jesse-james"
+  art: /d3/jesse-james
   power: 5
   name: Jesse James
 - id: 2252
   slug: jacquotte-delahaye
   effects: {}
   guid: db898ab2-dc96-1761-f509-1c02cbc368c8
-  art: "/d3/jacquotte-delahaye"
+  art: /d3/jacquotte-delahaye
   power: 5
   name: Jacquotte Delahaye
 - id: 2251
   slug: ilya-muromets
   effects: {}
   guid: db898ab2-dc96-1761-f509-1c02cbc368c8
-  art: "/d3/ilya-muromets"
+  art: /d3/ilya-muromets
   power: 5
   name: Ilya Muromets
 - id: 2522
   slug: eshu
-  description: "All units gain #swapper \nwhile I'm in play"
+  description: |-
+    All units gain #swapper 
+    while I'm in play
   tags:
-  - grand
+    - grand
   effects:
     passive:
-      condition: 'true'
+      condition: "true"
       perform: |-
         const all = [
           ...player.units, ...opponent.units]
         all.forEach(u => pass.addTag(u, Tag.SWAPPER))
       allowedLots:
-      - unit-field
+        - unit-field
   guid: 19fe6c19-e34d-8ca6-92fc-798133db3662
   name: Eshu
   power: 9
-  art: "/d3/eshu"
+  art: /d3/eshu
 - id: 2250
   slug: cossak-mamay
   effects: {}
   guid: db898ab2-dc96-1761-f509-1c02cbc368c8
-  art: "/d3/cossak-mamay"
+  art: /d3/cossak-mamay
   power: 5
   name: Cossak Mamay
 - id: 2364
@@ -154,7 +155,7 @@
   guid: ed010cbe-b11a-e87f-7fdc-7ce3cfffb251
   name: Vasilisa's Lantern
   power: 5
-  art: "/d3/vasilisa-skull"
+  art: /d3/vasilisa-skull
 - id: 2530
   slug: vasilisa-evil
   lore: Guided by a doll, through Baba Yaga's hall
@@ -167,7 +168,7 @@
         op.spawnToken(
           player.hand, 'vasilisas-skull-token')
   guid: adc45d70-feb2-47f0-be47-c827fecaef9b
-  art: "/vasilisa"
+  art: /vasilisa
   name: Vasilisa the Vengeful
   power: 2
 - id: 2529
@@ -182,7 +183,7 @@
         op.spawnToken(
           player.hand, 'vasilisas-doll-token')
   guid: adc45d70-feb2-47f0-be47-c827fecaef9b
-  art: "/vasilisa"
+  art: /vasilisa
   name: Vasilisa the Beautiful
   power: 2
 - id: 2363
@@ -191,18 +192,18 @@
   guid: ed010cbe-b11a-e87f-7fdc-7ce3cfffb251
   name: Vasilisa's Doll
   power: 5
-  art: "/d3/vasilisa-doll"
+  art: /d3/vasilisa-doll
 - id: 2538
   slug: volumed-ivorygull
   description: Deal X enemy damage when die from enemy attack, equal to power diff
   tags:
-  - grand
+    - grand
   effects: {}
   guid: 262418eb-cb6b-1573-1e26-02e3ef7f9ec8
   power: 5
   name: volumed-ivorygull
 - id: 2403
-  slug: "$grow-by-damage"
+  slug: $grow-by-damage
   description: |-
     +X{{power}} on player damage
     equal to the damage
@@ -211,23 +212,27 @@
       eventName: PlayerDamage
       eventStatus: ended
       condition: event.player === player
-      perform: "const bonus = event.amount\nop.addTempFx(\n  card, \n  gt => gt.pass.raisePower(card,
-        bonus)\n)"
+      perform: |-
+        const bonus = event.amount
+        op.addTempFx(
+          card, 
+          gt => gt.pass.raisePower(card, bonus)
+        )
       allowedLots:
-      - unit-field
+        - unit-field
   guid: 52265fca-5c54-ef92-ee26-5a2f105e23f4
   power: 1
-  art: "/temp/she4"
-  name: "..."
+  art: /temp/she4
+  name: ...
 - id: 2537
-  slug: "$swift-to-all"
+  slug: $swift-to-all
   description: |-
     All units gain #swift
     while I'm in play
   lore: Mischief is his mother tongue, spun from silvered web cunningly strung.
   notes: 81? 64? 50?
   tags:
-  - grand
+    - grand
   effects:
     active:
       eventName: DeployUnit
@@ -238,27 +243,27 @@
         op.heal(player, bonusHP)
         op.heal(opponent, bonusHP)
       allowedLots:
-      - unit-field
+        - unit-field
     passive:
-      condition: 'true'
+      condition: "true"
       perform: |-
         const all = [
           ...player.units, ...opponent.units]
         all.forEach(u => pass.addTag(u, Tag.SWIFT))
       allowedLots:
-      - unit-field
+        - unit-field
   guid: 19fe6c19-e34d-8ca6-92fc-798133db3662
   name: Loki 2
   power: 5
-  art: "/redacted/generic_50"
+  art: /redacted/generic_50
 - id: 2425
   slug: gremlin2
-  description: 'Combat-Flip: -1{{ap}} for the enemy'
+  description: "Combat-Flip: -1{{ap}} for the enemy"
   lore: Spawned in the darkest corners of annoyance, their impish laughter echoes
     in the din.
   notes: "#tamer"
   tags:
-  - sneak
+    - sneak
   effects:
     flip:
       manner: combat
@@ -267,50 +272,51 @@
           opponent.actionPoints--
   guid: 330d7a66-d220-9e61-1941-9e78e53495ab
   power: 2
-  art: "/gremlin"
+  art: /gremlin
   name: Gremlin
-- id: 2240
+- id: 2256
   slug: agent-khan
   effects: {}
   guid: b429cf0a-0502-7528-9eda-1aa333a046d1
-  art: "/b2/agent-khan"
+  art: /b2/agent-khan
   name: Agent Noor Inyat Khan
   power: 5
 - id: 2517
   slug: tikbalang
-  description: "+2{{power}} during your turn"
+  description: +2{{power}} during your turn
   effects:
     passive:
       condition: get.currentPlayer === player
       perform: pass.raisePower(card, 2)
       allowedLots:
-      - unit-field
-      - hand
-      - grave
+        - unit-field
+        - hand
+        - grave
   guid: 549b8197-538b-0a31-673d-e0b8e59fcc32
-  art: "/d3/tikbalang"
+  art: /d3/tikbalang
   name: Tikbalang
   power: 4
 - id: 2616
   slug: generic_b_x01
   lore: Beneath a sky divine, the cosmic dance of creation is outlined.
   tags:
-  - grand
+    - grand
   effects: {}
   guid: 309dac11-cb4b-37e1-a15c-f57ef6eee5dc
   power: 10
   name: Tangra
-  art: "/hires/tangra"
+  art: /hires/tangra
 - id: 2584
   slug: generic_a_x01
-  lore: Under the cloak of darkness, the bat god swoops, an embodiment of primal fears.
+  lore: Under the cloak of darkness, the bat god swoops, an embodiment of primal
+    fears.
   tags:
-  - grand
+    - grand
   effects: {}
   guid: 309dac11-cb4b-37e1-a15c-f57ef6eee5dc
   power: 10
   name: Camazotz
-  art: "/d3/camazotz"
+  art: /d3/camazotz
 - id: 2528
   slug: scathach
   description: |-
@@ -330,30 +336,30 @@
         const u = event.card
         op.addTempFx(u, tg => tg.pass.raisePower(u,2))
       allowedLots:
-      - unit-field
+        - unit-field
   guid: 2cbcf528-4359-b374-a54a-80733cbdcc2e
   name: Scathach
   power: 2
-  art: "/d3/scathach"
+  art: /d3/scathach
 - id: 2397
-  slug: "$overkill-grand"
-  notes: "\U0001F937‍♂️ ..."
+  slug: $overkill-grand
+  notes: 🤷‍♂️ ...
   tags:
-  - overkill
-  - grand
+    - overkill
+    - grand
   pdc: -1
   priority: 3
   effects: {}
   guid: 1dceec66-3bae-a21b-2d2c-dac0160cbc43
   name: Nergal
   power: 5
-  art: "/redacted/generic_38"
+  art: /redacted/generic_38
 - id: 2516
-  slug: "$overkilled"
+  slug: $overkilled
   description: Enemy unit here has OVERKILL
   lore: In every arrow sped in night's deceit hides a tale of a knight, too proud
     for retreat.
-  notes: 'REDACTED #13'
+  notes: "REDACTED #13"
   effects:
     passive:
       condition: get.opposingUnit(card)
@@ -361,13 +367,13 @@
         const foe = get.opposingUnit(card)
         pass.addTag(foe, Tag.OVERKILL)
       allowedLots:
-      - unit-field
+        - unit-field
   guid: ae1e9d1b-592a-c50b-55c2-9230d6c2fd28
   power: 6
   name: Sir Guy of Gisbourne
-  art: "/redacted/generic_81"
+  art: /redacted/generic_81
 - id: 2392
-  slug: "$spawn-monkeys"
+  slug: $spawn-monkeys
   description: |-
     Fill both sides with 1{{powered}} tokens
     when I'm played
@@ -387,18 +393,18 @@
           op.spawnToken(field, TOKEN);
         }
       allowedLots:
-      - unit-field
+        - unit-field
   guid: 7bdf3e79-6f4c-f8a3-d5c5-061a332357dc
   name: Gayelette
   power: 4
-  art: "/d3/gayelette"
+  art: /d3/gayelette
 - id: 2368
   slug: ugly-crow
   description: |-
     Kill all allies
     when I'm played
   tags:
-  - grand
+    - grand
   effects: {}
   guid: d6494f77-be93-7ef5-c7f9-28c96e9dc415
   name: Ixtab
@@ -409,11 +415,11 @@
   guid: 64521375-3678-e760-9c63-ae2f47903bf9
   name: Winged Monkey
   power: 1
-  art: "/d3/winged-monkey"
+  art: /d3/winged-monkey
 - id: 2320
   slug: attractive-penguin
-  description: After an enemy dies, I die. A token with the same power as the enemy
-    spawns in my place.
+  description: After an enemy dies, I die. A token with the same power as the
+    enemy spawns in my place.
   effects: {}
   guid: 3e000694-d28c-4587-4ac3-083088e74bee
   name: attractive-penguin
@@ -429,18 +435,18 @@
   name: muddy-pig
 - id: 2361
   slug: kraken-token
-  lore: A terror lurking beneath the waves, its release marks an eruption of primal
-    prowess.
+  lore: A terror lurking beneath the waves, its release marks an eruption of
+    primal prowess.
   tags:
-  - token
+    - token
   effects: {}
   guid: ed9013e3-6d2e-2b71-e461-6261a54f366f
   name: The Kraken
-  art: "/tokens/kraken"
+  art: /tokens/kraken
   power: 9
 - id: 2514
   slug: hermit
-  description: "-3{{power}} per ally in play"
+  description: -3{{power}} per ally in play
   lore: Within the silence of his solitude, wisdom's whispers echo through the ages.
   pdc: -1
   priority: 3
@@ -452,11 +458,11 @@
         let allies = units.filter( c => c !== card )
         pass.lowerPower( card, allies.length * 3 )
       allowedLots:
-      - unit-field
-      - hand
-      - grave
+        - unit-field
+        - hand
+        - grave
   guid: 0e0640e1-917e-9491-34ca-bb8f8a8a4e45
-  art: "/b2/hermit"
+  art: /b2/hermit
   name: The Hermit
   power: 9
 - id: 2121
@@ -469,19 +475,19 @@
   name: 1st Earl Kitchener
 - id: 2087
   slug: mata-hari
-  lore: Her tale dances on the fragile wire of suspicion and charm - a cunning vixen
-    or a painted dove?
+  lore: Her tale dances on the fragile wire of suspicion and charm - a cunning
+    vixen or a painted dove?
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a550
-  art: "/hires/mata-hari"
+  art: /hires/mata-hari
   power: 3
   name: Mata Hari
 - id: 2395
-  slug: "$reverse-piercing"
+  slug: $reverse-piercing
   description: |-
     Before I attack a unit, take damage equal to the difference in our power
     if it's weaker
-  notes: 'REDACTED #14'
+  notes: "REDACTED #14"
   effects:
     active:
       eventName: UnitAttack
@@ -495,17 +501,17 @@
         const dmg = card.power - foe.power
         op.damage(player, dmg)
       allowedLots:
-      - unit-field
+        - unit-field
   guid: 35a03812-9e08-ce45-504e-aaad23fda847
   name: Mombi
-  art: "/redacted/generic_21"
+  art: /redacted/generic_21
   power: 8
 - id: 2560
   slug: generic_a_101
   lore: Bound by icy enchantments yet unfettered in spirit, he embodies resilience
     against chilling absence of feeling.
   effects: {}
-  art: "/hires/kai"
+  art: /hires/kai
   guid: bc45d63a-05f2-465c-9b4a-f85e14398915
   name: Kai
   power: 1
@@ -513,7 +519,7 @@
   slug: generic_a_201
   lore: Of tales and riddles are her dwelt, a legacy weaving an ever-changing pelt.
   effects: {}
-  art: "/hires/tawaddud"
+  art: /hires/tawaddud
   guid: ec7cd823-101c-4bde-b0cd-c5d33cd1f6b0
   name: Tawaddud
   power: 2
@@ -521,7 +527,7 @@
   slug: generic_a_202
   lore: Defying the jealous queen, a princess finds union in dwarven hearts serene.
   effects: {}
-  art: "/hires/snow-white"
+  art: /hires/snow-white
   guid: e66cda98-f4df-4dc9-aec6-569a9bf37530
   name: Snow White
   power: 2
@@ -529,7 +535,7 @@
   slug: generic_a_203
   lore: Guided by a doll, through Baba Yaga's hall
   effects: {}
-  art: "/vasilisa"
+  art: /vasilisa
   guid: adc45d70-feb2-47f0-be47-c827fecaef9b
   name: Vasilisa the Beautiful
   power: 2
@@ -537,7 +543,7 @@
   slug: generic_a_204
   lore: Across realms and dreams it flits, leaving traces of sparks as it wits.
   effects: {}
-  art: "/hires/zhar-ptitsa"
+  art: /hires/zhar-ptitsa
   guid: e019a936-68a6-4957-816f-67cdd36a7093
   name: Zhar Ptitsa
   power: 2
@@ -545,24 +551,25 @@
   slug: generic_a_301
   lore: The ragged cloak may fool the eye, but her bravery is in plain sight.
   effects: {}
-  art: "/tatterhood"
+  art: /tatterhood
   guid: 4679c8d9-71d3-40c3-abb2-48b566bbd7cb
   name: Tatterhood
   power: 3
 - id: 2566
   slug: generic_a_302
-  lore: One bullet ends a disgrace, beginning a legacy fierce as the Caribbean embrace.
+  lore: One bullet ends a disgrace, beginning a legacy fierce as the Caribbean
+    embrace.
   effects: {}
-  art: "/d3/anne-dieu-le-veut"
+  art: /d3/anne-dieu-le-veut
   guid: a29de7b3-dcfe-45a7-85b0-ec1ac351e1e7
   name: Anne Dieu Le Veut
   power: 3
 - id: 2567
   slug: generic_a_303
-  lore: Frost-kissed determination guides her through the realm of eternal winter—a
-    thawing warmth against chilling despair.
+  lore: Frost-kissed determination guides her through the realm of eternal
+    winter—a thawing warmth against chilling despair.
   effects: {}
-  art: "/d3/gerda"
+  art: /d3/gerda
   guid: ddceaaab-24a2-47b9-8ab6-0e95daf77ac4
   name: Gerda
   power: 3
@@ -571,7 +578,7 @@
   lore: Ever the whirlwind of mischief and strength, she rules her own world, and
     all who enter.
   effects: {}
-  art: "/d3/pippi"
+  art: /d3/pippi
   guid: 2928b548-cd16-45b6-a1c8-4b99634699af
   name: Pippi
   power: 4
@@ -579,30 +586,32 @@
   slug: generic_a_402
   lore: Born from peach, demons' foe, his story is echoed in summer's glow.
   effects: {}
-  art: "/momotaro"
+  art: /momotaro
   guid: 1fb8902a-cde8-4b9f-a6ed-8b259e5037d5
   name: Momotaro
   power: 4
 - id: 2570
   slug: generic_a_403
-  lore: Exiled prince bearing a hero's will, his trials and tribulations essence distilled.
+  lore: Exiled prince bearing a hero's will, his trials and tribulations essence
+    distilled.
   effects: {}
-  art: "/dietrich"
+  art: /dietrich
   guid: 2896a4aa-172c-45cf-9523-b6bf4939eace
   name: Dietrich
   power: 4
 - id: 2571
   slug: generic_a_404
-  lore: In revenge, her enemies' blood she sought, and brought a tyrant king to nought.
+  lore: In revenge, her enemies' blood she sought, and brought a tyrant king to
+    nought.
   effects: {}
-  art: "/hires/queen-tomyris"
+  art: /hires/queen-tomyris
   guid: 5d195074-586b-4644-ab15-ebe9bf43e1b0
   name: Queen Tomyris
   power: 4
 - id: 2572
   slug: generic_a_405
   effects: {}
-  art: "/hires/sinbad"
+  art: /hires/sinbad
   guid: 1f3fbcae-8d75-40c5-a85b-d4f2e1b837c9
   name: Sindbad
   power: 4
@@ -610,16 +619,16 @@
   slug: generic_a_504
   lore: In heart, on skin, the Emperor’s call, his unwavering loyalty inspiring all.
   effects: {}
-  art: "/hires/yue-fei"
+  art: /hires/yue-fei
   guid: 05e1574b-edb8-434f-a377-03c2168a899f
   name: Yue Fei
   power: 5
 - id: 2577
   slug: generic_a_502
-  lore: In the wisdom of the Salmon's embrace, he guards Ireland with extraordinary
-    grace.
+  lore: In the wisdom of the Salmon's embrace, he guards Ireland with
+    extraordinary grace.
   effects: {}
-  art: "/fionn-mac-cumhaill"
+  art: /fionn-mac-cumhaill
   guid: f33f6d81-cf50-4297-ada2-0455e8b68349
   name: Fionn Mac Cumhaill
   power: 5
@@ -627,7 +636,7 @@
   slug: generic_a_503
   lore: Fierce as the untamed winds, she sails not as a queen but as a tempest tamed.
   effects: {}
-  art: "/hires/grace-o-malley"
+  art: /hires/grace-o-malley
   guid: b5d6525a-00de-4ceb-8d2b-b40abb569643
   name: Grace O'Malley
   power: 5
@@ -636,17 +645,17 @@
   lore: His valor is etched in the rhythms of the Balkan winds, his tales sung by
     the earth.
   effects: {}
-  art: "/krali-marko"
+  art: /krali-marko
   guid: 192c559c-42a3-4dc1-9a43-ae6bb293fc03
   name: Krali Marko
   power: 5
 - id: 2580
   slug: generic_a_505
-  lore: Brimbling with murkitude in the duskish dim, skraggling with its blibberous
-    eyes and grinfanging jaws, hurling a frumious shiver of dread into the heart of
-    the most bandersome quester.
+  lore: Brimbling with murkitude in the duskish dim, skraggling with its
+    blibberous eyes and grinfanging jaws, hurling a frumious shiver of dread
+    into the heart of the most bandersome quester.
   effects: {}
-  art: "/d3/jabberwock"
+  art: /d3/jabberwock
   guid: 909d13fc-6ba0-4cc5-8df7-5274bb95bb8e
   name: Jabberwock
   power: 5
@@ -654,7 +663,7 @@
   slug: generic_a_506
   lore: Evoked by love’s undying flame, he faced kingdoms and gods in his name.
   effects: {}
-  art: "/frithiof"
+  art: /frithiof
   guid: cc7858ae-a334-4a01-a22f-757fbdd00039
   name: Frithiof
   power: 5
@@ -662,16 +671,16 @@
   slug: generic_a_507
   lore: Guided by the divine charioteer, rides the hero in celestial gear.
   effects: {}
-  art: "/arjuna"
+  art: /arjuna
   guid: ba61e1b4-e02d-4cdf-92ca-c94c39b7c5aa
   name: Arjuna
   power: 5
 - id: 2583
   slug: generic_a_508
-  lore: Her beguiling charm belies a grisly hunger, obscured by the blush of eternal
-    youth.
+  lore: Her beguiling charm belies a grisly hunger, obscured by the blush of
+    eternal youth.
   effects: {}
-  art: "/hires/carmilla"
+  art: /hires/carmilla
   guid: 2f2347d7-0083-47e9-83ec-43d1bc32098d
   name: Carmilla
   power: 5
@@ -679,7 +688,7 @@
   slug: generic_b_101
   lore: A regal hand metes out justice, her whim enough to make heads roll.
   effects: {}
-  art: "/hires/queen-of-hearts"
+  art: /hires/queen-of-hearts
   guid: b909bde6-9c60-4a68-af68-602b92fb4118
   name: Queen of Hearts
   power: 1
@@ -688,7 +697,7 @@
   lore: Around her, thorns grow into walls, protecting a beauty untouched by time
     yet bound by a spell.
   effects: {}
-  art: "/hires/briar-rose"
+  art: /hires/briar-rose
   guid: 83c68685-5119-4285-a450-81cd029f94f9
   name: Briar Rose
   power: 1
@@ -697,7 +706,7 @@
   lore: His gaze seers into the inky veil of tomorrow, writing the world's unwoven
     tapestry.
   effects: {}
-  art: "/hires/nostradamus"
+  art: /hires/nostradamus
   guid: dbfe5f92-327e-46c6-bf84-fbceb2628d29
   name: Nostradamus
   power: 1
@@ -705,16 +714,16 @@
   slug: generic_b_104
   lore: Her relentless spirit - a beacon alight, propelling injustice into the night.
   effects: {}
-  art: "/hires/rebecca"
+  art: /hires/rebecca
   guid: 7401e027-33f2-4950-8cf0-480f70a2b348
   name: Rebecca
   power: 1
 - id: 2596
   slug: generic_b_201
-  lore: Her knitting needles orchestrate a symphony of rebellion, each loop echoing
-    the heartbeat of revolution.
+  lore: Her knitting needles orchestrate a symphony of rebellion, each loop
+    echoing the heartbeat of revolution.
   effects: {}
-  art: "/hires/madame-defarge"
+  art: /hires/madame-defarge
   guid: b7991bac-fbc6-4ecf-94ba-ec8f13747202
   name: Madame Defarge
   power: 2
@@ -723,16 +732,16 @@
   lore: Behind the veiled eyes, a mind as sharp as any detective's resonates with
     intelligent defiance.
   effects: {}
-  art: "/hires/irene-adler"
+  art: /hires/irene-adler
   guid: 06b54c89-0298-48b8-b9b7-010a7256eb19
   name: Irene Adler
   power: 3
 - id: 2598
   slug: generic_b_302
-  lore: His chilling laughter lends an eerie resonance to each echoing step on blood-soaked
-    stone.
+  lore: His chilling laughter lends an eerie resonance to each echoing step on
+    blood-soaked stone.
   effects: {}
-  art: "/hires/bluebeard"
+  art: /hires/bluebeard
   guid: 8fe4da2d-de78-4f03-bc30-db61727ba978
   name: Bluebeard
   power: 3
@@ -741,16 +750,16 @@
   lore: Her story is a crimson thread woven through the woolly fabric of childhood
     cautionary tales.
   effects: {}
-  art: "/hires/little-red-riding-hood"
+  art: /hires/little-red-riding-hood
   guid: 4ff78fba-1664-4ada-86e8-9620d2f3b963
   name: Little Red Riding Hood
   power: 3
 - id: 2600
   slug: generic_b_401
-  lore: His name, a song of bravery, echoes in every warrior's heart pledging fealty
-    to honor.
+  lore: His name, a song of bravery, echoes in every warrior's heart pledging
+    fealty to honor.
   effects: {}
-  art: "/hires/guillaume-d-orange"
+  art: /hires/guillaume-d-orange
   guid: d165a257-766f-4788-a6f4-51be57571b1d
   name: Guillaume D'Orange
   power: 4
@@ -758,7 +767,7 @@
   slug: generic_b_402
   lore: Defender of his homeland, his might stemmed the foreign hand.
   effects: {}
-  art: "/d3/alexander-nevsky"
+  art: /d3/alexander-nevsky
   guid: a8f91c3d-6f38-4c7c-9de8-7e7121b26654
   name: Alexander Nevsky
   power: 4
@@ -766,16 +775,16 @@
   slug: generic_b_403
   lore: Cheerful and rosy, heart wild as a doe, she marvels at nature's ebb and flow.
   effects: {}
-  art: "/hires/rose-red"
+  art: /hires/rose-red
   guid: 8d303d0b-c1b2-42ea-ba4e-69cd1204a829
   name: Rose Red
   power: 4
 - id: 2603
   slug: generic_b_404
-  lore: In war or peace, his wisdom plays the test, a ruler's heart beats within his
-    chest.
+  lore: In war or peace, his wisdom plays the test, a ruler's heart beats within
+    his chest.
   effects: {}
-  art: "/bran-the-blessed"
+  art: /bran-the-blessed
   guid: 3feee9ce-56ae-429f-9dcd-7ef54e2dee5c
   name: Bran the Blessed
   power: 4
@@ -783,7 +792,7 @@
   slug: generic_b_502
   lore: With courage swelling in his chest, he lays monsters and dragons to rest.
   effects: {}
-  art: "/beowulf"
+  art: /beowulf
   guid: f172c5a4-334d-4b39-836f-10c4e0c4a637
   name: Beowulf
   power: 5
@@ -791,7 +800,7 @@
   slug: generic_b_501
   lore: In her glass castle of eternal winter, she rules with an icy splinter.
   effects: {}
-  art: "/hires/snow-queen"
+  art: /hires/snow-queen
   guid: 6ed631db-6be8-4f67-b23d-9851359aee4f
   name: Snow Queen
   power: 5
@@ -799,42 +808,43 @@
   slug: generic_b_503
   lore: Wordsmith of the divine, his eloquent speech enchants gods and mortals alike.
   effects: {}
-  art: "/hires/ogma"
+  art: /hires/ogma
   guid: 4b31c109-ecb9-4c8d-973f-86c595a39bdc
   name: Ogma
   power: 5
 - id: 2611
   slug: generic_b_504
-  lore: Master of all skills, step forth, illuminate the world with your radiant worth.
+  lore: Master of all skills, step forth, illuminate the world with your radiant
+    worth.
   effects: {}
-  art: "/lugh"
+  art: /lugh
   guid: c0bfcc2b-0288-41c9-983f-a9b8b79f7bbf
   name: Lugh
   power: 5
 - id: 2612
   slug: generic_b_505
-  lore: Fearless dragon slayer, with heart as pure as his blade, by his honor he'll
-    never be swayed.
+  lore: Fearless dragon slayer, with heart as pure as his blade, by his honor
+    he'll never be swayed.
   effects: {}
-  art: "/hires/siegfried"
+  art: /hires/siegfried
   guid: a35a9e5f-cf05-4a28-b0d9-028d35c29a4e
   name: Siegfried
   power: 5
 - id: 2613
   slug: generic_b_506
-  lore: Samurai warrior maiden, her blade, as swift as cherry blossoms in the wind,
-    was a beacon of grace and terror on the battlefield.
+  lore: Samurai warrior maiden, her blade, as swift as cherry blossoms in the
+    wind, was a beacon of grace and terror on the battlefield.
   effects: {}
-  art: "/tomoe-gozen"
+  art: /tomoe-gozen
   guid: 7b39dfd3-3443-40fb-a0f6-d9c260a8e402
   name: Tomoe Gozen
   power: 5
 - id: 2614
   slug: generic_b_507
-  lore: In slumber awakened, the knight grows tall, answering unquestioningly Kiev’s
-    call.
+  lore: In slumber awakened, the knight grows tall, answering unquestioningly
+    Kiev’s call.
   effects: {}
-  art: "/ilya-muromets"
+  art: /ilya-muromets
   guid: 2f46f4c5-ea4e-454c-a8cf-599ab39e4d52
   name: Ilya Muromets
   power: 5
@@ -842,33 +852,36 @@
   slug: generic_b_508
   lore: Vanquished by a divine flute, surrendered to a youth's firm refute.
   effects: {}
-  art: "/kaliya-the-naga"
+  art: /kaliya-the-naga
   guid: 5a0bcc5c-9ba6-49ff-afbb-b3de22581b85
   name: Kaliya the Naga
   power: 5
 - id: 2413
-  slug: "$depowerer2"
-  description: 'Combat-Flip: -2{{power}} to enemy unit here'
-  notes: 'REDACTED #97, Lich'
+  slug: $depowerer2
+  description: "Combat-Flip: -2{{power}} to enemy unit here"
+  notes: "REDACTED #97, Lich"
   tags:
-  - sneak
+    - sneak
   effects:
     flip:
       manner: combat
-      perform: "const debuff = 2\nconst foe = get.opposingUnit(card)\nop.addTempFx(foe,
-        \n  gt => gt.pass.lowerPower(foe, debuff))"
+      perform: |-
+        const debuff = 2
+        const foe = get.opposingUnit(card)
+        op.addTempFx(foe, 
+          gt => gt.pass.lowerPower(foe, debuff))
   guid: 2875d608-e153-2e48-ebe2-e71a8f5b7b22
   power: 1
   name: The Sandman
-  art: "/redacted/generic_80"
+  art: /redacted/generic_80
 - id: 2412
-  slug: "$depowerer"
+  slug: $depowerer
   description: |-
     -4{{power}} to enemy unit here
     while I'm in play
-  notes: 'REDACTED #98'
+  notes: "REDACTED #98"
   tags:
-  - sneak
+    - sneak
   effects:
     passive:
       condition: get.opposingUnit(card)
@@ -877,17 +890,17 @@
         const foe = get.opposingUnit(card)
         pass.lowerPower(foe, debuff)
       allowedLots:
-      - unit-field
+        - unit-field
   guid: 2875d608-e153-2e48-ebe2-e71a8f5b7b22
   power: 1
   name: Huldra
-  art: "/redacted/generic_22"
+  art: /redacted/generic_22
 - id: 2515
-  slug: "$pierced"
+  slug: $pierced
   description: Enemy unit here has PIERCING
-  lore: Cloaked in the shadows of Sherwood, he is the wolf hunting justice's outlawed
-    fleet.
-  notes: 'REDACTED #13'
+  lore: Cloaked in the shadows of Sherwood, he is the wolf hunting justice's
+    outlawed fleet.
+  notes: "REDACTED #13"
   effects:
     passive:
       condition: get.opposingUnit(card)
@@ -895,17 +908,17 @@
         const foe = get.opposingUnit(card)
         pass.addTag(foe, Tag.PIERCING)
       allowedLots:
-      - unit-field
+        - unit-field
   guid: ae1e9d1b-592a-c50b-55c2-9230d6c2fd28
   power: 6
   name: Sir Guy of Gisbourne
-  art: "/redacted/generic_81"
+  art: /redacted/generic_81
 - id: 2396
-  slug: "$both-draw"
+  slug: $both-draw
   description: |-
     Both players draw
     when I'm played
-  notes: 'REDACTED #12'
+  notes: "REDACTED #12"
   effects:
     active:
       eventName: DeployUnit
@@ -915,25 +928,26 @@
         op.draw(player)
         op.draw(opponent)
       allowedLots:
-      - unit-field
+        - unit-field
   guid: 15f64461-95cc-c62e-ca23-11dc1495fba7
-  art: "/redacted/generic_15"
+  art: /redacted/generic_15
   name: Glinda
   power: 4
 - id: 2513
   slug: hervor
-  description: "+5{{power}} against a GRAND unit"
-  lore: Amidst spectres, she walks, her courage casting ripples in the echoing silence.
+  description: +5{{power}} against a GRAND unit
+  lore: Amidst spectres, she walks, her courage casting ripples in the echoing
+    silence.
   effects:
     passive:
       condition: get.opposingUnit(card)?.hasTag('grand')
       perform: pass.raisePower(card, 10)
       allowedLots:
-      - unit-field
+        - unit-field
   guid: 1eef8f4d-e56d-2825-8210-b80f3188c944
   name: Hervor
   power: 4
-  art: "/d3/hervor"
+  art: /d3/hervor
 - id: 2344
   slug: brainy-mallard
   description: |-
@@ -944,86 +958,86 @@
   name: brainy-mallard
 - id: 2553
   slug: genius-marmoset
-  notes: 'chivalry: 6/8'
+  notes: "chivalry: 6/8"
   effects: {}
   guid: fd7f2c27-8760-5606-bcb0-03b0bdd13214
   name: Sir Gareth
-  art: "/b2/sir-gareth"
+  art: /b2/sir-gareth
   power: 5
 - id: 2552
   slug: old-fashioned-dragonfly
-  notes: 'chivalry: 7/8'
+  notes: "chivalry: 7/8"
   effects: {}
   guid: e1c26025-ac25-5f3c-22b2-a8a01259f4ec
   name: Sir Bors
-  art: "/b2/sir-bors"
+  art: /b2/sir-bors
   power: 5
 - id: 2554
   slug: clever-locust
-  notes: 'chivalry: 6/8'
+  notes: "chivalry: 6/8"
   effects: {}
   guid: ae8ce28a-c504-a98c-0c86-a3610603d6fa
   name: Sir Erec
   power: 5
-  art: "/b2/sir-erec"
+  art: /b2/sir-erec
 - id: 2556
   slug: tough-robert
-  description: "+4{{power}} while not facing enemy unit"
-  notes: 'chivalry: 3/8'
+  description: +4{{power}} while not facing enemy unit
+  notes: "chivalry: 3/8"
   effects:
     passive:
       condition: "!get.opposingUnit(card)"
       perform: ss.raisePower(card, 10)
       allowedLots:
-      - unit-field
+        - unit-field
   guid: b1a580c7-b1ee-d449-70c3-1bd81d961926
   power: 2
   name: Sir Agravain
-  art: "/b2/sir-agravain"
+  art: /b2/sir-agravain
 - id: 2551
   slug: childly-queenconch
-  notes: 'chivalry: 7/8'
+  notes: "chivalry: 7/8"
   effects: {}
   guid: 87f0e7d9-7d30-0f9a-7ea4-74e78a3a04bf
   name: Sir Bedivere
   power: 5
-  art: "/b2/sir-bedivere"
+  art: /b2/sir-bedivere
 - id: 2557
   slug: adventurous-noah
-  notes: 'chivalry: 5/8'
+  notes: "chivalry: 5/8"
   effects: {}
   guid: d1078c96-c578-8c40-c3ba-3964a7253b07
   name: Sir Kay
   power: 4
-  art: "/b2/sir-kay"
+  art: /b2/sir-kay
 - id: 2550
   slug: evil-cuckoo
-  notes: 'chivalry: 2/8'
+  notes: "chivalry: 2/8"
   effects: {}
   guid: ef35ac40-74fc-ea86-3e5a-121d58c8a5a4
   name: Sir Mordred
   power: 6
-  art: "/b2/sir-mordred"
+  art: /b2/sir-mordred
 - id: 2555
   slug: filthy-crow
-  notes: 'chivalry: 7/8'
+  notes: "chivalry: 7/8"
   effects: {}
   guid: 0b8a269b-4c70-3536-22ae-8d4c761f1e69
   name: Sir Percival
   power: 5
-  art: "/b2/sir-percival"
+  art: /b2/sir-percival
 - id: 2547
   slug: sir-tristan
-  notes: 'chivalry: 6/8  ((Sir Tristan))'
+  notes: "chivalry: 6/8  ((Sir Tristan))"
   effects: {}
   guid: 42511fb5-e0c2-435a-472a-a1b726b015cf
   name: Sir Tristram
   power: 8
-  art: "/b2/sir-tristan"
+  art: /b2/sir-tristan
 - id: 2544
   slug: sir-lancelot
   description: Return me to your hand if no foe is facing me as your turn ends
-  notes: 'chivalry: 5/8'
+  notes: "chivalry: 5/8"
   effects:
     active:
       eventName: TurnEnd
@@ -1033,15 +1047,15 @@
         !get.opposingUnit(card)
       perform: op.addToHand(card, player)
       allowedLots:
-      - unit-field
+        - unit-field
   guid: 4923e18b-2a7a-83e8-e321-a2f534895d67
   name: Sir Lancelot
   power: 9
-  art: "/b2/sir-lancelot"
+  art: /b2/sir-lancelot
 - id: 2546
   slug: sir-lamorak
   description: Return me to your hand if no foe is facing me as your turn begins
-  notes: 'chivalry: 6/8'
+  notes: "chivalry: 6/8"
   effects:
     active:
       eventName: TurnBegin
@@ -1051,51 +1065,51 @@
         !get.opposingUnit(card)
       perform: op.addToHand(card, player)
       allowedLots:
-      - unit-field
+        - unit-field
   guid: 4923e18b-2a7a-83e8-e321-a2f534895d67
   name: Sir Lamorak
   power: 8
-  art: "/b2/sir-lamorak"
+  art: /b2/sir-lamorak
 - id: 2545
   slug: sir-galahad
-  lore: A paragon of chivalry, his deeds are woven into the vivid tapestry of knightly
-    valor.
-  notes: 'chivalry: 8/8'
+  lore: A paragon of chivalry, his deeds are woven into the vivid tapestry of
+    knightly valor.
+  notes: "chivalry: 8/8"
   tags:
-  - noattack
+    - noattack
   pdc: -1
   status: 2
   priority: 8
   effects: {}
   guid: 00064144-b333-3249-8dbf-72397801491f
-  art: "/b2/sir-galahad"
+  art: /b2/sir-galahad
   name: Sir Galahad
   power: 8
 - id: 2391
-  slug: "$copy-strongest-foe"
+  slug: $copy-strongest-foe
   description: |-
     Has the power of the strongest foe
     in play
-  notes: 'REDACTED #7B Doppelgänger'
+  notes: "REDACTED #7B Doppelgänger"
   tags:
-  - grand
+    - grand
   effects:
     passive:
-      condition: 'true'
+      condition: "true"
       perform: |-
         const candidates = [...opponent.units];
         candidates.sort((a, b) => b.power - a.power)
         const power = candidates[0]?.power || 0;
         pass.raisePower(card, power)
       allowedLots:
-      - unit-field
-      - hand
-      - grave
+        - unit-field
+        - hand
+        - grave
   guid: 6b09bd92-79ab-ceec-f426-497dcd1aa5c5
   name: Doppelganger
-  art: "/redacted/generic_05"
+  art: /redacted/generic_05
 - id: 2315
-  slug: "$copy-weakest"
+  slug: $copy-weakest
   description: |-
     Has the power of the weakest unit
     in play
@@ -1103,24 +1117,29 @@
   notes: Broken by power calculation!
   effects:
     passive:
-      condition: 'true'
-      perform: "const candidates = [\n  ...opponent.units, \n  ...player.units\n].filter(c
-        => c !== card);\ncandidates.sort((a, b) => a.power - b.power)\nconst power
-        = candidates[0]?.power || 0;\npass.raisePower(card, power)"
+      condition: "true"
+      perform: |-
+        const candidates = [
+          ...opponent.units, 
+          ...player.units
+        ].filter(c => c !== card);
+        candidates.sort((a, b) => a.power - b.power)
+        const power = candidates[0]?.power || 0;
+        pass.raisePower(card, power)
       allowedLots:
-      - unit-field
-      - hand
-      - grave
+        - unit-field
+        - hand
+        - grave
   guid: 6b09bd92-79ab-ceec-f426-497dcd1aa5c5
-  name: 'REDACTED #7A'
-  art: "/redacted/generic_45"
+  name: "REDACTED #7A"
+  art: /redacted/generic_45
 - id: 2378
   slug: wandering-stephen
   description: |-
     Take your grave's top card, if it's a trap
     when I'm played
   tags:
-  - grand
+    - grand
   effects:
     active:
       eventName: DeployUnit
@@ -1132,46 +1151,48 @@
         const c = player.grave.topCard
         op.addToHand(c, player)
       allowedLots:
-      - unit-field
+        - unit-field
   guid: ebbc0f6d-a161-e837-fd36-ea2cdbba123c
-  name: 'REDACTED #102'
-  art: "/redacted/generic_96"
+  name: "REDACTED #102"
+  art: /redacted/generic_96
 - id: 2523
   slug: loki
-  description: "All units gain #swapper \nwhile I'm in play"
+  description: |-
+    All units gain #swapper 
+    while I'm in play
   lore: Mischief is his mother tongue, spun from silvered web cunningly strung.
   notes: 81? 64? 50?
   tags:
-  - grand
+    - grand
   effects:
     passive:
-      condition: 'true'
+      condition: "true"
       perform: |-
         const all = [
           ...player.units, ...opponent.units]
         all.forEach(u => pass.addTag(u, Tag.SWAPPER))
       allowedLots:
-      - unit-field
+        - unit-field
   guid: 19fe6c19-e34d-8ca6-92fc-798133db3662
   name: Loki
   power: 9
-  art: "/d3/loki"
+  art: /d3/loki
 - id: 2385
-  slug: "$zero-rush"
-  notes: 'REDACTED #00'
+  slug: $zero-rush
+  notes: "REDACTED #00"
   tags:
-  - rush
+    - rush
   effects: {}
   guid: 45f5588b-4b20-155b-63bd-e9de7b9c9e62
   name: Click Beetle
-  art: "/redacted/generic_10"
+  art: /redacted/generic_10
 - id: 2376
-  slug: "$steal-with-unit"
+  slug: $steal-with-unit
   type: 1
   description: |-
     Swap enemy unit deployed here with your own
     You must also have a unit here
-  notes: "\U0001F937‍♂️..."
+  notes: 🤷‍♂️...
   effects:
     active:
       eventName: DeployUnit
@@ -1186,7 +1207,7 @@
         op.forceSwap(cardA, cardB)
   guid: c27322f1-17a5-cb53-c4b8-1b602e73bbd0
   name: Prisoners of War
-  art: "/traps/war-prison"
+  art: /traps/war-prison
 - id: 2342
   slug: lucky-randy
   type: 1
@@ -1203,12 +1224,12 @@
   guid: a6a58c63-d0fe-6a7f-d55c-77406c8b17ce
   name: reversible-squamata
 - id: 2375
-  slug: "$mass-discardo"
+  slug: $mass-discardo
   description: |-
     Players discard their hands when I die.
     Both the enemy and you
   tags:
-  - grand
+    - grand
   effects:
     active:
       eventName: UnitDie
@@ -1222,25 +1243,25 @@
         emptyHand(opponent)
         emptyHand(player)
       allowedLots:
-      - unit-field
-      - grave
+        - unit-field
+        - grave
   guid: 343ead69-d7f7-fa83-a2f3-6b5289f07b9d
   power: 9
-  name: 'REDACTED #101'
-  art: "/redacted/generic_53"
+  name: "REDACTED #101"
+  art: /redacted/generic_53
 - id: 2389
-  slug: "$only-one-in-hand"
+  slug: $only-one-in-hand
   description: Must be your only card in hand to play me
-  notes: 'REDACTED #6B'
+  notes: "REDACTED #6B"
   effects:
     overrides:
       blockDeploymentTo: player.hand.cards.some(c => c !== card)
   guid: 0bf83fa5-e3bb-7bca-f0a3-56c94d85014b
   power: 7
   name: Atalanta
-  art: "/redacted/generic_60"
+  art: /redacted/generic_60
 - id: 2369
-  slug: "$grow-on-move"
+  slug: $grow-on-move
   description: |-
     +2 after I move
     every time
@@ -1255,11 +1276,11 @@
         op.addTempFx(
           card, tg => tg.pass.raisePower(card, 2))
       allowedLots:
-      - unit-field
+        - unit-field
   guid: e4a4712c-a40b-912a-5507-2def8b8a6dfd
   power: 1
   name: The Pony Engine
-  art: "/d3/little-engine"
+  art: /d3/little-engine
 - id: 2498
   slug: sir-breuse-sans-pite
   description: I only attack directly
@@ -1272,17 +1293,17 @@
       condition: get.opposingUnit( card )
       perform: pass.addTag(card, Tag.NOATTACK)
       allowedLots:
-      - unit-field
+        - unit-field
   guid: 00064144-b333-3249-8dbf-72397801491f
-  art: "/b2/breuse-sans-pite"
+  art: /b2/breuse-sans-pite
   name: Sir Breuse Sans Pite
   power: 7
 - id: 2549
   slug: sir-geraint
   description: I can only be played against a foe
-  lore: A paragon of chivalry, his deeds are woven into the vivid tapestry of knightly
-    valor.
-  notes: 'chivalry: 6/8'
+  lore: A paragon of chivalry, his deeds are woven into the vivid tapestry of
+    knightly valor.
+  notes: "chivalry: 6/8"
   pdc: -1
   status: 2
   priority: 8
@@ -1290,14 +1311,14 @@
     overrides:
       blockDeploymentTo: "!get.opposingUnit(field)"
   guid: 00064144-b333-3249-8dbf-72397801491f
-  art: "/b2/sir-geraint"
+  art: /b2/sir-geraint
   name: Sir Geraint
   power: 6
 - id: 2387
-  slug: "$pricy-deploy"
-  description: "-8{{hp}} for you when I'm played"
-  lore: A cunning imp, forever bound to his word, known for turning straw into gold
-    and names into curses.
+  slug: $pricy-deploy
+  description: -8{{hp}} for you when I'm played
+  lore: A cunning imp, forever bound to his word, known for turning straw into
+    gold and names into curses.
   effects:
     active:
       eventName: DeployUnit
@@ -1305,9 +1326,9 @@
       condition: event.card === card
       perform: op.damage(player, 5)
       allowedLots:
-      - unit-field
+        - unit-field
   guid: b3e4bf61-fc6d-148a-ce61-9ad3fcc33bb5
-  art: "/rumpelstiltskin"
+  art: /rumpelstiltskin
   name: Rumpelstiltskin v2
   power: 8
 - id: 2311
@@ -1322,7 +1343,7 @@
   name: enthusiastic-mark
 - id: 2501
   slug: rani-lakshmibai
-  description: "+1 to allies after I die"
+  description: +1 to allies after I die
   lore: Her defiance against annexation, a saga written in the heart of the nation.
   effects:
     active:
@@ -1335,16 +1356,16 @@
             u, tg => tg.pass.raisePower(u,1))
         }
       allowedLots:
-      - grave
+        - grave
   guid: 2cbcf528-4359-b374-a54a-80733cbdcc2e
   name: Rani Lakshmibai
   power: 3
-  art: "/b2/rani-lakshmibai"
+  art: /b2/rani-lakshmibai
 - id: 2500
   slug: boudica2
-  description: "+1 to units you deploy while I'm on top of your grave"
-  lore: Carved from the ancient spirit of the land, she's a storm that leaves empires
-    quaking.
+  description: +1 to units you deploy while I'm on top of your grave
+  lore: Carved from the ancient spirit of the land, she's a storm that leaves
+    empires quaking.
   effects:
     active:
       eventName: DeployUnit
@@ -1356,14 +1377,14 @@
         const u = event.card
         op.addTempFx(u, tg => tg.pass.raisePower(u,1))
       allowedLots:
-      - grave
+        - grave
   guid: 2cbcf528-4359-b374-a54a-80733cbdcc2e
   name: Boudica
   power: 4
-  art: "/d3/boudica"
+  art: /d3/boudica
 - id: 2499
   slug: nathan-hale
-  description: "+2 to units you deploy while I'm on top of your grave"
+  description: +2 to units you deploy while I'm on top of your grave
   lore: A patriot's choice, the ultimate price; his echo remains, rousing spirits
     like dice.
   effects:
@@ -1377,19 +1398,19 @@
         const u = event.card
         op.addTempFx(u, tg => tg.pass.raisePower(u,2))
       allowedLots:
-      - grave
+        - grave
   guid: 2cbcf528-4359-b374-a54a-80733cbdcc2e
   name: Hathan Hale
   power: 1
-  art: "/d3/nathan-hale"
+  art: /d3/nathan-hale
 - id: 2503
   slug: mad-arab
   description: |-
     All allies auto-attack when I die
     I must die in combat
     Auto-attacks are free
-  lore: By the flickering candlelight, he communes with unthinkable horrors in cryptic
-    whispers.
+  lore: By the flickering candlelight, he communes with unthinkable horrors in
+    cryptic whispers.
   effects:
     active:
       eventName: UnitDie
@@ -1401,11 +1422,11 @@
           op.forceAttack(u)
         }
       allowedLots:
-      - unit-field
-      - grave
+        - unit-field
+        - grave
   guid: f1a7812e-96af-5d1c-e694-3fabfae6e2e5
   name: Abdul Alhazred
-  art: "/hires/abdul-alhazred"
+  art: /hires/abdul-alhazred
 - id: 2406
   slug: raijin2
   description: |-
@@ -1418,22 +1439,22 @@
   lore: As the heavens darken, his fury ignites, a power as raw and tempestuous as
     the storm itself.
   tags:
-  - grand
+    - grand
   effects:
     passive:
-      condition: 'true'
+      condition: "true"
       perform: |-
         let mul = card.lot.index
         pass.raisePower(card, 2 ** mul)
       allowedLots:
-      - unit-field
-      - hand
-      - grave
+        - unit-field
+        - hand
+        - grave
   guid: 63c6f0af-4d22-cfa1-6999-386cd74e7f8f
   name: Raijin
 - id: 2346
   slug: sparkling-ferret
-  description: "+1{{power}} whenever a card enters your hand"
+  description: +1{{power}} whenever a card enters your hand
   effects: {}
   guid: 788e5108-566a-9864-de4d-d945ca250f14
   name: sparkling-ferret
@@ -1441,11 +1462,11 @@
   slug: fafnir
   lore: Guardian of stolen hoard, his heart corrupted; he became the overlord.
   tags:
-  - grand
+    - grand
   effects: {}
   guid: 0b1a1099-8775-303c-2309-abff7b4ff062
   name: Fafnir
-  art: "/fafnir"
+  art: /fafnir
   power: 10
 - id: 2458
   slug: ring-of-gyges
@@ -1459,11 +1480,14 @@
       eventName: UnitAttack
       eventStatus: began
       condition: event.card === get.opposingUnit(card)
-      perform: "const ally = get.sameLaneUnit(card)\nop.addTempFx(\n  ally, \n  tg
-        => tg.pass.addTag(ally, 'incorporeal'))"
+      perform: |-
+        const ally = get.sameLaneUnit(card)
+        op.addTempFx(
+          ally, 
+          tg => tg.pass.addTag(ally, 'incorporeal'))
   guid: c83a662f-67f0-5a72-a872-ce62cbfe39dd
   name: Ring of Gyges
-  art: "/traps/ring-of-gyges"
+  art: /traps/ring-of-gyges
 - id: 2455
   slug: river-lethe
   type: 1
@@ -1488,12 +1512,12 @@
         op.addTempFx(
           foe, tg => tg.pass.lowerPower(foe, DELTA))
   guid: 3ee6755d-845a-f87c-fed7-9594b1e29bcd
-  art: "/traps/river-lethe"
+  art: /traps/river-lethe
   name: River Lethe
 - id: 2370
-  slug: "$all-out-johhny-a"
+  slug: $all-out-johhny-a
   description: Discard your hand when I'm played
-  notes: 'REDACTED #2A'
+  notes: "REDACTED #2A"
   status: 1
   effects:
     active:
@@ -1504,11 +1528,11 @@
         while (player.hand.cards.length)
           op.discard(player.hand.cards[0])
       allowedLots:
-      - unit-field
+        - unit-field
   guid: cb795b5c-f241-e904-0fe7-1394d217b4a1
   name: Krampus
   power: 7
-  art: "/redacted/generic_73"
+  art: /redacted/generic_73
 - id: 2511
   slug: thunderstones
   type: 1
@@ -1523,7 +1547,7 @@
         op.draw(player)
   guid: c2f23ae4-816a-02a6-34f9-cd479f74f62d
   name: Thunderstones
-  art: "/traps/thunderstones"
+  art: /traps/thunderstones
 - id: 2161
   slug: wainamoinen
   lore: His melodies echo in the whisper of the pines, the rustling of the reeds,
@@ -1531,75 +1555,75 @@
   effects: {}
   guid: 27d5557b-d462-8f02-3c4e-273c64130473
   power: 5
-  art: "/wainamoinen"
+  art: /wainamoinen
   name: Wainamoinen
 - id: 2130
   slug: athos
-  lore: The last of the valiant trio, his wisdom runs as deep as his loyalty, a mountain
-    untouched by time's erosion.
+  lore: The last of the valiant trio, his wisdom runs as deep as his loyalty, a
+    mountain untouched by time's erosion.
   effects: {}
   guid: 26d818d3-9f6b-1198-cb6a-12826ee124dd
   name: Athos
   power: 5
-  art: "/hires/aramis"
+  art: /hires/aramis
 - id: 2630
   slug: dwarf7
   effects: {}
   guid: c95360e4-66d3-bd41-c931-2982cf50fad6
   name: Quee the Dwarf
   power: 2
-  art: "/demo/dwarf7"
+  art: /demo/dwarf7
 - id: 2629
   slug: dwarf6
   effects: {}
   guid: c95360e4-66d3-bd41-c931-2982cf50fad6
   name: Whick the Dwarf
   power: 2
-  art: "/demo/dwarf6"
+  art: /demo/dwarf6
 - id: 2628
   slug: dwarf5
   effects: {}
   guid: c95360e4-66d3-bd41-c931-2982cf50fad6
   name: Plick the Dwarf
   power: 2
-  art: "/demo/dwarf5"
+  art: /demo/dwarf5
 - id: 2627
   slug: dwarf4
   effects: {}
   guid: c95360e4-66d3-bd41-c931-2982cf50fad6
   name: Snick the Dwarf
   power: 2
-  art: "/demo/dwarf4"
+  art: /demo/dwarf4
 - id: 2626
   slug: dwarf3
   effects: {}
   guid: c95360e4-66d3-bd41-c931-2982cf50fad6
   name: Glick the Dwarf
   power: 2
-  art: "/demo/dwarf3"
+  art: /demo/dwarf3
 - id: 2625
   slug: dwarf2
   effects: {}
   guid: c95360e4-66d3-bd41-c931-2982cf50fad6
   name: Flick the Dwarf
   power: 2
-  art: "/demo/dwarf2"
+  art: /demo/dwarf2
 - id: 2624
   slug: dwarf1
   effects: {}
   guid: c95360e4-66d3-bd41-c931-2982cf50fad6
   name: Blick the Dwarf
   power: 2
-  art: "/demo/dwarf1"
+  art: /demo/dwarf1
 - id: 2211
   slug: viracocha
-  lore: Out of the primordial waters, the creator disperses, his work bringing life
-    to all corners.
+  lore: Out of the primordial waters, the creator disperses, his work bringing
+    life to all corners.
   tags:
-  - grand
+    - grand
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a597
-  art: "/viracocha"
+  art: /viracocha
   power: 10
   name: Viracocha
 - id: 2249
@@ -1607,27 +1631,27 @@
   lore: Guided by a doll, through Baba Yaga's hall
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a596
-  art: "/d3/vasilisa"
+  art: /d3/vasilisa
   power: 2
   name: Vasilisa the Beautiful
 - id: 2209
   slug: susanoo
   lore: Storm God, serpent slayer, his tale is wound with divine layer.
   tags:
-  - grand
+    - grand
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a595
-  art: "/susanoo"
+  art: /susanoo
   power: 10
   name: Susanoo
 - id: 2213
   slug: shennong
   lore: Divine farmer, immortal healer, his wisdom mankind's revealer.
   tags:
-  - grand
+    - grand
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a594
-  art: "/shennong"
+  art: /shennong
   power: 10
   name: Shennong
 - id: 2053
@@ -1635,17 +1659,17 @@
   lore: Amiable and shy, preferring poetry to flaming sky.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a593
-  art: "/reluctant-dragon"
+  art: /reluctant-dragon
   power: 1
   name: Reluctant Dragon
 - id: 2217
   slug: nuwa
   lore: Fixer of the sky, creator of all life, her efforts ensured the world rife.
   tags:
-  - grand
+    - grand
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a592
-  art: "/nuwa"
+  art: /nuwa
   power: 10
   name: Nuwa
 - id: 2100
@@ -1653,15 +1677,16 @@
   lore: Born from peach, demons' foe, his story is echoed in summer's glow.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a591
-  art: "/momotaro"
+  art: /momotaro
   power: 4
   name: Momotaro
 - id: 2126
   slug: lugh
-  lore: Master of all skills, step forth, illuminate the world with your radiant worth.
+  lore: Master of all skills, step forth, illuminate the world with your radiant
+    worth.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a590
-  art: "/lugh"
+  art: /lugh
   power: 5
   name: Lugh
 - id: 2125
@@ -1669,7 +1694,7 @@
   lore: Vanquished by a divine flute, surrendered to a youth's firm refute.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a589
-  art: "/kaliya-the-naga"
+  art: /kaliya-the-naga
   power: 5
   name: Kaliya the Naga
 - id: 2049
@@ -1677,7 +1702,7 @@
   lore: Where mischief dances and shadows play, there naughtiness has its way.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a588
-  art: "/imp"
+  art: /imp
   power: 1
   name: Imp
 - id: 2119
@@ -1685,34 +1710,35 @@
   lore: Evoked by love’s undying flame, he faced kingdoms and gods in his name.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a585
-  art: "/frithiof"
+  art: /frithiof
   power: 5
   name: Frithiof
 - id: 2116
   slug: fionn-mac-cumhaill
-  lore: In the wisdom of the Salmon's embrace, he guards Ireland with extraordinary
-    grace.
+  lore: In the wisdom of the Salmon's embrace, he guards Ireland with
+    extraordinary grace.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a584
-  art: "/fionn-mac-cumhaill"
+  art: /fionn-mac-cumhaill
   power: 5
   name: Fionn Mac Cumhaill
 - id: 2103
   slug: dietrich
-  lore: Exiled prince bearing a hero's will, his trials and tribulations essence distilled.
+  lore: Exiled prince bearing a hero's will, his trials and tribulations essence
+    distilled.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a582
-  art: "/dietrich"
+  art: /dietrich
   power: 4
   name: Dietrich
 - id: 2216
   slug: dazhbog
   lore: Son of heaven, ember-eyed, warming the earth in his radiant ride.
   tags:
-  - grand
+    - grand
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a581
-  art: "/dazhbog"
+  art: /dazhbog
   power: 10
   name: Dazhbog
 - id: 2068
@@ -1720,16 +1746,16 @@
   lore: Bringing laughter in his wake, for the world is his vaudevillian stage.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a580
-  art: "/costello"
+  art: /costello
   power: 2
   name: Costello
 - id: 2102
   slug: bran-the-blessed
-  lore: In war or peace, his wisdom plays the test, a ruler's heart beats within his
-    chest.
+  lore: In war or peace, his wisdom plays the test, a ruler's heart beats within
+    his chest.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a579
-  art: "/bran-the-blessed"
+  art: /bran-the-blessed
   power: 4
   name: Bran the Blessed
 - id: 2112
@@ -1737,7 +1763,7 @@
   lore: With courage swelling in his chest, he lays monsters and dragons to rest.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a578
-  art: "/beowulf"
+  art: /beowulf
   power: 5
   name: Beowulf
 - id: 2127
@@ -1745,7 +1771,7 @@
   lore: Guided by the divine charioteer, rides the hero in celestial gear.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a576
-  art: "/arjuna"
+  art: /arjuna
   power: 5
   name: Arjuna
 - id: 2269
@@ -1753,7 +1779,7 @@
   lore: Defender of his homeland, his might stemmed the foreign hand.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a574
-  art: "/d3/alexander-nevsky"
+  art: /d3/alexander-nevsky
   power: 4
   name: Alexander Nevsky
 - id: 2056
@@ -1761,7 +1787,7 @@
   lore: Across realms and dreams it flits, leaving traces of sparks as it wits.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a573
-  art: "/hires/zhar-ptitsa"
+  art: /hires/zhar-ptitsa
   power: 1
   name: Zhar Ptitsa
 - id: 2115
@@ -1769,27 +1795,27 @@
   lore: In heart, on skin, the Emperor’s call, his unwavering loyalty inspiring all.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a572
-  art: "/hires/yue-fei"
+  art: /hires/yue-fei
   power: 5
   name: Yue Fei
 - id: 2215
   slug: yemaya
   lore: Mother of waters deep, her healing touch cradles the world to sleep
   tags:
-  - grand
+    - grand
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a571
-  art: "/hires/yemaya"
+  art: /hires/yemaya
   power: 10
   name: Yemaya
 - id: 2214
   slug: ukko
   lore: Upon his chariot of fire, steers the tempestuous weather's choir.
   tags:
-  - grand
+    - grand
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a570
-  art: "/hires/ukko"
+  art: /hires/ukko
   power: 10
   name: Ukko
 - id: 2064
@@ -1797,7 +1823,7 @@
   lore: Upon his chariot of fire, steers the tempestuous weather's choir.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a569
-  art: "/hires/tsarevna"
+  art: /hires/tsarevna
   power: 2
   name: Tsarevna
 - id: 2067
@@ -1805,27 +1831,27 @@
   lore: Of tales and riddles are her dwelt, a legacy weaving an ever-changing pelt.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a568
-  art: "/hires/tawaddud"
+  art: /hires/tawaddud
   power: 2
   name: Tawaddud
 - id: 2208
   slug: tangra
   lore: Beneath a sky divine, the cosmic dance of creation is outlined.
   tags:
-  - grand
+    - grand
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a567
-  art: "/hires/tangra"
+  art: /hires/tangra
   power: 10
   name: Tangra
 - id: 2212
   slug: stribog
   lore: Keeper of gusts and gale, he conducts the symphony of every squall and hail.
   tags:
-  - grand
+    - grand
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a566
-  art: "/stribog"
+  art: /stribog
   power: 10
   name: Stribog
 - id: 2066
@@ -1833,7 +1859,7 @@
   lore: Defying the jealous queen, a princess finds union in dwarven hearts serene.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a565
-  art: "/hires/snow-white"
+  art: /hires/snow-white
   power: 2
   name: Snow White
 - id: 2120
@@ -1841,7 +1867,7 @@
   lore: In her glass castle of eternal winter, she rules with an icy splinter.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a564
-  art: "/hires/snow-queen"
+  art: /hires/snow-queen
   power: 5
   name: Snow Queen
 - id: 2081
@@ -1850,7 +1876,7 @@
     deadly yet airy.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a563
-  art: "/hires/rusalka"
+  art: /hires/rusalka
   power: 3
   name: Rusalka
 - id: 2099
@@ -1858,7 +1884,7 @@
   lore: Cheerful and rosy, heart wild as a doe, she marvels at nature's ebb and flow.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a562
-  art: "/hires/rose-red"
+  art: /hires/rose-red
   power: 4
   name: Rose Red
 - id: 2051
@@ -1866,7 +1892,7 @@
   lore: Her relentless spirit - a beacon alight, propelling injustice into the night.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a561
-  art: "/hires/rebecca"
+  art: /hires/rebecca
   power: 1
   name: Rebecca
 - id: 2194
@@ -1874,18 +1900,19 @@
   lore: Beneath the roaring waves she gleefully hides, enticing seafarers with her
     hypnotic tides.
   tags:
-  - grand
+    - grand
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a560
-  art: "/hires/ran"
+  art: /hires/ran
   power: 10
   name: Ran
 - id: 2104
   slug: queen-tomyris
-  lore: In revenge, her enemies' blood she sought, and brought a tyrant king to nought.
+  lore: In revenge, her enemies' blood she sought, and brought a tyrant king to
+    nought.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a559
-  art: "/hires/queen-tomyris"
+  art: /hires/queen-tomyris
   power: 4
   name: Queen Tomyris
 - id: 2052
@@ -1893,7 +1920,7 @@
   lore: A regal hand metes out justice, her whim enough to make heads roll.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a558
-  art: "/hires/queen-of-hearts"
+  art: /hires/queen-of-hearts
   power: 1
   name: Queen of Hearts
 - id: 2128
@@ -1901,7 +1928,7 @@
   lore: Under his jolly demeanor lie a loyal heart and a quick blade.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a557
-  art: "/hires/porthos"
+  art: /hires/porthos
   power: 5
   name: Porthos
 - id: 2267
@@ -1910,18 +1937,18 @@
     all who enter.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a556
-  art: "/d3/pippi"
+  art: /d3/pippi
   power: 4
   name: Pippi
 - id: 2193
   slug: oshun
-  lore: Her liquid gold essence soothes and nurtures, bestowing the sweetest of life's
-    gifts.
+  lore: Her liquid gold essence soothes and nurtures, bestowing the sweetest of
+    life's gifts.
   tags:
-  - grand
+    - grand
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a555
-  art: "/hires/oshun"
+  art: /hires/oshun
   power: 10
   name: Oshun
 - id: 2118
@@ -1929,7 +1956,7 @@
   lore: Wordsmith of the divine, his eloquent speech enchants gods and mortals alike.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a554
-  art: "/hires/ogma"
+  art: /hires/ogma
   power: 5
   name: Ogma
 - id: 2054
@@ -1938,25 +1965,25 @@
     tapestry.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a553
-  art: "/hires/nostradamus"
+  art: /hires/nostradamus
   power: 1
   name: Nostradamus
 - id: 2084
   slug: moriarty
-  lore: As the puppet master behind society's curtain, chaos is but a plucked string
-    away.
+  lore: As the puppet master behind society's curtain, chaos is but a plucked
+    string away.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a552
-  art: "/hires/moriarty"
+  art: /hires/moriarty
   power: 3
   name: Moriarty
 - id: 2086
   slug: madame-defarge
-  lore: Her knitting needles orchestrate a symphony of rebellion, each loop echoing
-    the heartbeat of revolution.
+  lore: Her knitting needles orchestrate a symphony of rebellion, each loop
+    echoing the heartbeat of revolution.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a550
-  art: "/hires/madame-defarge"
+  art: /hires/madame-defarge
   power: 3
   name: Madame Defarge
 - id: 2098
@@ -1965,7 +1992,7 @@
     cautionary tales.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a549
-  art: "/hires/little-red-riding-hood"
+  art: /hires/little-red-riding-hood
   power: 4
   name: Little Red Riding Hood
 - id: 2055
@@ -1974,7 +2001,7 @@
     crimson.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a548
-  art: "/hires/lady-macbeth"
+  art: /hires/lady-macbeth
   power: 1
   name: Lady Macbeth
 - id: 2048
@@ -1983,16 +2010,16 @@
     against chilling absence of feeling.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a547
-  art: "/hires/kai"
+  art: /hires/kai
   power: 1
   name: Kai
 - id: 2147
   slug: jengu-sawa
-  lore: Amidst the river's melodious flow, they dance, their frolic carrying the rhythm
-    of healing and prosperity."
+  lore: Amidst the river's melodious flow, they dance, their frolic carrying the
+    rhythm of healing and prosperity."
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a546
-  art: "/hires/jengu-sawa"
+  art: /hires/jengu-sawa
   power: 5
   name: Jengu Sawa
 - id: 2082
@@ -2001,7 +2028,7 @@
     intelligent defiance.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a545
-  art: "/hires/irene-adler"
+  art: /hires/irene-adler
   power: 3
   name: Irene Adler
 - id: 2070
@@ -2010,16 +2037,16 @@
     deeds rather than ink.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a543
-  art: "/hires/hasan-of-basra"
+  art: /hires/hasan-of-basra
   power: 2
   name: Hasan of Basra
 - id: 2101
   slug: guillaume-d-orange
-  lore: His name, a song of bravery, echoes in every warrior's heart pledging fealty
-    to honor.
+  lore: His name, a song of bravery, echoes in every warrior's heart pledging
+    fealty to honor.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a541
-  art: "/hires/guillaume-d-orange"
+  art: /hires/guillaume-d-orange
   power: 4
   name: Guillaume D'Orange
 - id: 2113
@@ -2027,45 +2054,45 @@
   lore: Fierce as the untamed winds, she sails not as a queen but as a tempest tamed.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a540
-  art: "/hires/grace-o-malley"
+  art: /hires/grace-o-malley
   power: 5
   name: Grace O'Malley
 - id: 2271
   slug: gerda
-  lore: Frost-kissed determination guides her through the realm of eternal winter—a
-    thawing warmth against chilling despair.
+  lore: Frost-kissed determination guides her through the realm of eternal
+    winter—a thawing warmth against chilling despair.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a539
-  art: "/d3/gerda"
+  art: /d3/gerda
   power: 3
   name: Gerda
 - id: 2180
   slug: freyr
-  lore: In his hands, the otherwise barren fields bloom into lush landscapes of ripe
-    abundance.
+  lore: In his hands, the otherwise barren fields bloom into lush landscapes of
+    ripe abundance.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a538
-  art: "/hires/freyr"
+  art: /hires/freyr
   power: 5
   name: Freyr
 - id: 2210
   slug: coyolxauhqui
-  lore: From disassembly came her eternal reign over the night sky, a fragmented goddess
-    illuminating the darkness.
+  lore: From disassembly came her eternal reign over the night sky, a fragmented
+    goddess illuminating the darkness.
   tags:
-  - grand
+    - grand
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a537
-  art: "/hires/coyolxauhqui"
+  art: /hires/coyolxauhqui
   power: 10
   name: Coyolxauhqui
 - id: 2114
   slug: carmilla
-  lore: Her beguiling charm belies a grisly hunger, obscured by the blush of eternal
-    youth.
+  lore: Her beguiling charm belies a grisly hunger, obscured by the blush of
+    eternal youth.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a536
-  art: "/hires/carmilla"
+  art: /hires/carmilla
   power: 5
   name: Carmilla
 - id: 2050
@@ -2074,25 +2101,25 @@
     yet bound by a spell.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a535
-  art: "/hires/briar-rose"
+  art: /hires/briar-rose
   power: 1
   name: Briar Rose
 - id: 2069
   slug: bluebeard
-  lore: His chilling laughter lends an eerie resonance to each echoing step on blood-soaked
-    stone.
+  lore: His chilling laughter lends an eerie resonance to each echoing step on
+    blood-soaked stone.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a533
-  art: "/hires/bluebeard"
+  art: /hires/bluebeard
   power: 2
   name: Bluebeard
 - id: 2129
   slug: aramis
-  lore: His faith mingles with daring gambits, teaching lessons in valor both in sermons
-    and swordplay.
+  lore: His faith mingles with daring gambits, teaching lessons in valor both in
+    sermons and swordplay.
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a532
-  art: "/hires/aramis"
+  art: /hires/aramis
   power: 5
   name: Aramis
 - id: 2224
@@ -2100,24 +2127,24 @@
   lore: Reveling in brilliance, she brings the light that even the darkest corners
     cannot repel.
   tags:
-  - grand
+    - grand
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a531
-  art: "/hires/aglea"
+  art: /hires/aglea
   power: 10
   name: Aglea
 - id: 2675
   slug: generic4
   effects: {}
   guid: 53de8275-75a6-0b72-584f-ec52a6b7a425
-  art: "/temp/she4"
+  art: /temp/she4
   power: 4
   name: Generic4
 - id: 2674
   slug: generic3
   effects: {}
   guid: b7bbfa47-a32a-a87f-f9b5-f0da096c4cb0
-  art: "/temp/she3"
+  art: /temp/she3
   power: 3
   name: Generic3
 - id: 2673
@@ -2125,22 +2152,22 @@
   effects: {}
   guid: cd11bc5e-b2e4-c4fe-e8aa-ae1643c9e6b4
   power: 2
-  art: "/temp/she2"
+  art: /temp/she2
   name: Generic2
 - id: 2672
   slug: generic1
   effects: {}
   guid: 5318668b-0ec7-8803-e561-44108ff70063
   power: 1
-  art: "/temp/she1"
+  art: /temp/she1
   name: Generic1
 - id: 2459
   slug: gretel
   description: |-
     Move "Hansel" from your deck to your hand when I enter play
     if possible
-  lore: In the belly of despair, her courage ignites, burning brighter than any witches'
-    oven.
+  lore: In the belly of despair, her courage ignites, burning brighter than any
+    witches' oven.
   effects:
     active:
       eventName: DeployUnit
@@ -2156,10 +2183,10 @@
           c => c.slug === PARTNER_NAME)
         op.moveTo(partner, player.hand)
       allowedLots:
-      - unit-field
+        - unit-field
   guid: a21ea10a-6e3c-d9d1-5d6e-42031a246f8a
   name: Gretel
-  art: "/d3/gretel"
+  art: /d3/gretel
   power: 4
 - id: 2443
   slug: hansel
@@ -2183,25 +2210,35 @@
           c => c.slug === PARTNER_NAME)
         op.moveTo(partner, player.hand)
       allowedLots:
-      - unit-field
+        - unit-field
   guid: 7af22b9f-1fdd-0dab-e195-624964e11a87
   name: Hansel
-  art: "/d3/hansel"
+  art: /d3/hansel
   power: 4
 - id: 2313
   slug: kombinato
-  description: "+X{{power}}, the sum from adjacent ally units"
+  description: +X{{power}}, the sum from adjacent ally units
   notes: Effect broken by bug!
   tags:
-  - grand
+    - grand
   effects:
     passive:
-      condition: 'true'
-      perform: "const powL = get.leftUnit(card)?.power || 0\nconst powR = get.rightUnit(card)?.power
-        || 0\n\nconsole.log(\n`\U0001F9F6`, \nget.leftUnit(card),\nget.leftUnit(card)?.power,\nget.rightUnit(card),\nget.rightUnit(card)?.power,\n)\n\npass.raisePower(card,
-        powL + powR)"
+      condition: "true"
+      perform: |-
+        const powL = get.leftUnit(card)?.power || 0
+        const powR = get.rightUnit(card)?.power || 0
+
+        console.log(
+        `🧶`, 
+        get.leftUnit(card),
+        get.leftUnit(card)?.power,
+        get.rightUnit(card),
+        get.rightUnit(card)?.power,
+        )
+
+        pass.raisePower(card, powL + powR)
       allowedLots:
-      - unit-field
+        - unit-field
   guid: d925b49a-7704-a851-02c2-3b706f9d6e9a
   name: Kombinato
 - id: 2444
@@ -2209,7 +2246,8 @@
   description: |-
     Draw 1 card from the enemy deck
     when I'm played
-  lore: A curious blend of mischief and innocence paints her path through the unexpected
+  lore: A curious blend of mischief and innocence paints her path through the
+    unexpected
   effects:
     active:
       eventName: DeployUnit
@@ -2221,30 +2259,30 @@
         const topCard = opponent.deck.topCard
         op.addToHand(topCard, player)
       allowedLots:
-      - unit-field
+        - unit-field
   guid: d4c10c3c-a82c-f92c-b878-67f96bb9a9ee
-  art: "/d3/goldilocks"
+  art: /d3/goldilocks
   name: Goldilocks
   power: 2
 - id: 2163
   slug: siegfried
-  lore: Fearless dragon slayer, with heart as pure as his blade, by his honor he'll
-    never be swayed.
-  notes: "= Sigurd"
+  lore: Fearless dragon slayer, with heart as pure as his blade, by his honor
+    he'll never be swayed.
+  notes: = Sigurd
   effects: {}
   guid: 56d82a3c-ca92-6ef6-6a6c-617c196146ce
   name: Siegfried
-  art: "/hires/siegfried"
+  art: /hires/siegfried
   power: 5
 - id: 2460
   slug: roadrunner
   lore: Its cackle echoes across the desert, a dancer whose stage is the shifting
     dunes.
   tags:
-  - swift
+    - swift
   effects: {}
   guid: af67858d-402b-2a05-95b9-b96040f3e4cb
-  art: "/roadrunner"
+  art: /roadrunner
   name: Roadrunner
   power: 1
 - id: 2351
@@ -2261,7 +2299,7 @@
         player.healthPoints < opponent.healthPoints
       perform: op.heal(player, 1)
       allowedLots:
-      - unit-field
+        - unit-field
   guid: 8bdde938-89d1-e143-937a-d3328c41e324
   power: 4
   name: Thoughtful Whale
@@ -2279,7 +2317,7 @@
         op.draw(opponent)
         op.draw(opponent)
       allowedLots:
-      - unit-field
+        - unit-field
   guid: 344a4e78-3776-3d55-ba32-b9776f413354
   power: 7
   name: Crowded Justin
@@ -2295,7 +2333,7 @@
       condition: event.card === card
       perform: op.draw(opponent)
       allowedLots:
-      - unit-field
+        - unit-field
   guid: 8224d3df-2ce1-f969-8b9d-d0aa82813ddd
   power: 6
   name: Delightful Hyena
@@ -2316,7 +2354,7 @@
         const foe = get.opposingUnit(card)
         op.forceAttack(card)
       allowedLots:
-      - unit-field
+        - unit-field
   guid: 626f3b6b-e52b-6c43-143d-12e9702f9177
   power: 4
   name: Vivacious Benjamin
@@ -2324,53 +2362,55 @@
   slug: sigurd
   lore: Unyielding in spirit, his steel slashes through legends, his valor echoed
     in dragon's roars.
-  notes: "= Siegfried"
+  notes: = Siegfried
   effects: {}
   guid: 964bb188-f3ee-18da-b3aa-dcb13f933767
   power: 5
   name: Sigurd
-  art: "/sigurd"
+  art: /sigurd
 - id: 2407
   slug: raijin
   lore: As the heavens darken, his fury ignites, a power as raw and tempestuous as
     the storm itself.
   tags:
-  - grand
+    - grand
   effects: {}
   guid: 6c4b89e9-58ff-dcb9-2f20-cb6f93c0e512
   power: 10
-  art: "/raijin"
+  art: /raijin
   name: Raijin
 - id: 2176
   slug: camazotz
-  lore: Under the cloak of darkness, the bat god swoops, an embodiment of primal fears.
+  lore: Under the cloak of darkness, the bat god swoops, an embodiment of primal
+    fears.
   notes: In cryptic shadows lurk fearsome eyes, heralding the night's unwholesome
     surprise...
   tags:
-  - grand
+    - grand
   effects: {}
   guid: 309dac11-cb4b-37e1-a15c-f57ef6eee5dc
   power: 10
   name: Camazotz
-  art: "/d3/camazotz"
+  art: /d3/camazotz
 - id: 2177
   slug: angra-mainyu
   lore: His essence, a chilling wind tearing through creation, a herald of eternal
     night.
   tags:
-  - grand
+    - grand
   effects: {}
   guid: 171e761b-9041-f508-09c8-2cc503195444
   name: Angra Mainyu
   power: 10
-  art: "/angra-mainyu"
+  art: /angra-mainyu
 - id: 2248
   slug: anne-dieu-le-veut
-  lore: One bullet ends a disgrace, beginning a legacy fierce as the Caribbean embrace.
+  lore: One bullet ends a disgrace, beginning a legacy fierce as the Caribbean
+    embrace.
   effects: {}
   guid: f2f83d34-df98-f80f-6f66-baf7eb377921
   name: Anne Dieu Le Veut
-  art: "/d3/anne-dieu-le-veut"
+  art: /d3/anne-dieu-le-veut
   power: 3
 - id: 2085
   slug: tatterhood
@@ -2378,7 +2418,7 @@
   effects: {}
   guid: c4b8f04d-ea8b-59ee-d26d-1409140b1a37
   power: 3
-  art: "/tatterhood"
+  art: /tatterhood
   name: Tatterhood
 - id: 2160
   slug: krali-marko
@@ -2388,14 +2428,14 @@
   guid: c4b8f04d-ea8b-59ee-d26d-1409140b1a37
   power: 5
   name: Krali Marko
-  art: "/krali-marko"
+  art: /krali-marko
 - id: 2446
   slug: jekyll
   description: |-
     9{{powered}} Lv2 token spawns in your hand when I'm played
     Only I can be the tribute for it
-  lore: Though a man of science, he veers closer to the monstrous, revealing the dichotomy
-    of human nature.
+  lore: Though a man of science, he veers closer to the monstrous, revealing the
+    dichotomy of human nature.
   effects:
     active:
       eventName: DeployUnit
@@ -2403,10 +2443,10 @@
       condition: event.card === card
       perform: op.spawnToken(player.hand, 'hyde-token')
       allowedLots:
-      - unit-field
+        - unit-field
   guid: e6c78403-aba6-00c4-3616-66a924d4c43c
   name: Dr Jekyll
-  art: "/hires/jekyll"
+  art: /hires/jekyll
   power: 2
 - id: 2360
   slug: hyde-token
@@ -2414,11 +2454,11 @@
     I can only be played over Dr Jekyll
     already in play on your side
     Discard me if Dr Jekyll is in the grave
-  lore: Where control surrenders to instinct, there he thrives, baring the beast lurking
-    within each man.
+  lore: Where control surrenders to instinct, there he thrives, baring the beast
+    lurking within each man.
   tags:
-  - token
-  - grand
+    - token
+    - grand
   effects:
     active:
       eventName: Any
@@ -2427,13 +2467,15 @@
         const BASE = 'jekyll'
         player.grave.cards.some(c => c.slug === BASE)
       allowedLots:
-      - hand
+        - hand
     overrides:
-      blockDeploymentTo: "let tribute = field.topCard\r\ntribute?.slug != 'jekyll'"
+      blockDeploymentTo: "let tribute = field.topCard\r
+
+        tribute?.slug != 'jekyll'"
   guid: fa49b33e-53d4-3730-0c31-86dc9244ce2f
   name: Mr Hyde
   power: 13
-  art: "/hires/hyde"
+  art: /hires/hyde
 - id: 2447
   slug: c-auguste-dupin
   description: Have a peek at all enemy face-down cards
@@ -2447,28 +2489,32 @@
         event.card === card &&
           [...opponent.traps, ...opponent.units]
           .filter(c => !c.isFaceUp).length > 0
-      perform: "const secrets = \n  [...opponent.traps, ...opponent.units]\n  .filter(c
-        => !c.isFaceUp)\nop.display(secrets)"
+      perform: |-
+        const secrets = 
+          [...opponent.traps, ...opponent.units]
+          .filter(c => !c.isFaceUp)
+        op.display(secrets)
       allowedLots:
-      - unit-field
-      - hand
+        - unit-field
+        - hand
   guid: 4aa069ff-6ddc-e8c7-8d1a-ab03e38a0e0e
   name: C. Auguste Dupin
-  art: "/hires/dupin"
+  art: /hires/dupin
   power: 2
 - id: 2419
   slug: kobold
-  description: 'Combat-Flip: Set enemy{{ap}} to 0'
-  lore: In mines deep, or aboard sea-bound ships, playful menace always upon his lips.
+  description: "Combat-Flip: Set enemy{{ap}} to 0"
+  lore: In mines deep, or aboard sea-bound ships, playful menace always upon his
+    lips.
   tags:
-  - sneak
+    - sneak
   effects:
     flip:
       manner: combat
       perform: opponent.actionPoints = 0
   guid: 330d7a66-d220-9e61-1941-9e78e53495ab
   power: 2
-  art: "/kobold"
+  art: /kobold
   name: Kobold
 - id: 2428
   slug: zany-squirrel
@@ -2500,7 +2546,7 @@
       condition: opponent.deck.hasCards
       perform: pass.setFaceUp(opponent.deck.topCard, true)
       allowedLots:
-      - unit-field
+        - unit-field
   guid: 6df4249c-c165-b329-a9c7-4df9d6d96749
   power: 3
   name: Spying James2
@@ -2518,11 +2564,11 @@
         pass.setFaceUp(opponent.deck.topCard, true)
         pass.setFaceUp(player.deck.topCard, true)
       allowedLots:
-      - unit-field
+        - unit-field
   guid: 6df4249c-c165-b329-a9c7-4df9d6d96749
   power: 3
   name: Mother Shipton
-  art: "/d3/mother-shipton"
+  art: /d3/mother-shipton
 - id: 2347
   slug: outstanding-owl
   description: When I kill a unit, add its power to mine
@@ -2530,21 +2576,27 @@
     active:
       eventName: UnitDie
       eventStatus: ended
-      condition: "faq.isInPlay(card) &&\nevent.card.prevLot === \n  get.opposingUnitField(card)"
-      perform: "const bonus = event.card.power\nop.addTempFx(card, \n  tg => tg.pass.raisePower(card,
-        bonus))"
+      condition: |-
+        faq.isInPlay(card) &&
+        event.card.prevLot === 
+          get.opposingUnitField(card)
+      perform: |-
+        const bonus = event.card.power
+        op.addTempFx(card, 
+          tg => tg.pass.raisePower(card, bonus))
       allowedLots:
-      - unit-field
+        - unit-field
   guid: d38ee873-3770-9842-e907-764dcedcbbc4
   power: 3
   name: Outstanding Owl
 - id: 2506
   slug: huitzilopochtli-v3
   description: When ally unit dies in combat, add its power to mine
-  lore: A hummingbird's heart beating the war drum, his existence keeps darkness overcome.
+  lore: A hummingbird's heart beating the war drum, his existence keeps darkness
+    overcome.
   notes: Huītzilōpōchtli?
   tags:
-  - grand
+    - grand
   effects:
     active:
       eventName: UnitDie
@@ -2552,36 +2604,39 @@
       condition: |-
         event.card.controller === card.controller &&
         event.death_type === 'combat'
-      perform: "const bonus = event.card.power\nop.addTempFx(card, \n  tg => tg.pass.raisePower(card,
-        bonus))"
+      perform: |-
+        const bonus = event.card.power
+        op.addTempFx(card, 
+          tg => tg.pass.raisePower(card, bonus))
       allowedLots:
-      - unit-field
+        - unit-field
   guid: 2e097143-f758-0153-ed1d-75821f0a2347
   name: Huitzilopochtli V3
-  art: "/huitzilopochtli"
+  art: /huitzilopochtli
 - id: 2484
   slug: gremlin
-  description: 'Combat-Flip: Set enemy{{ap}} to 0'
+  description: "Combat-Flip: Set enemy{{ap}} to 0"
   lore: Spawned in the darkest corners of annoyance, their impish laughter echoes
     in the din.
   notes: "#oldschool"
   tags:
-  - sneak
+    - sneak
   effects:
     flip:
       manner: combat
       perform: opponent.actionPoints = 0
   guid: 330d7a66-d220-9e61-1941-9e78e53495ab
   power: 1
-  art: "/gremlin"
+  art: /gremlin
   name: Gremlin
 - id: 2423
   slug: huitzilopochtli-v2
   description: I kill and take the power of any unit you play face up
-  lore: A hummingbird's heart beating the war drum, his existence keeps darkness overcome.
+  lore: A hummingbird's heart beating the war drum, his existence keeps darkness
+    overcome.
   notes: Huītzilōpōchtli?
   tags:
-  - grand
+    - grand
   effects:
     active:
       eventName: DeployUnit
@@ -2589,21 +2644,24 @@
       condition: |-
         event.card.controller === card.controller &&
         event.card != card
-      perform: "const bonus = event.card.power\nop.kill(event.card)\nop.addTempFx(card,
-        \n  tg => tg.pass.raisePower(card, bonus))"
+      perform: |-
+        const bonus = event.card.power
+        op.kill(event.card)
+        op.addTempFx(card, 
+          tg => tg.pass.raisePower(card, bonus))
       allowedLots:
-      - unit-field
+        - unit-field
   guid: 0b849789-9d28-adb8-5d30-f63f2fb61675
   name: Huitzilopochtli V2
-  art: "/huitzilopochtli"
+  art: /huitzilopochtli
 - id: 2422
   slug: huitzilopochtli
-  description: When I enter play, I destroy all ally units and take their current
-    power.
-  lore: A hummingbird's heart beating the war drum, his existence keeps darkness overcome.
+  description: When I enter play, I destroy all ally units and take their current power.
+  lore: A hummingbird's heart beating the war drum, his existence keeps darkness
+    overcome.
   notes: Huītzilōpōchtli?
   tags:
-  - grand
+    - grand
   effects:
     active:
       eventName: DeployUnit
@@ -2612,24 +2670,30 @@
         event.card === card &&
         faq.isInPlay(card) &&
         player.units.length > 1
-      perform: "const otherUnits = player.units.filter(\n  u => u !== card)\nfor (const
-        u of otherUnits) {\n  const bonus = u.power;\n  op.kill(u)\n  op.addTempFx(card,
-        \n    tg => tg.pass.raisePower(card, bonus))\n}"
+      perform: |-
+        const otherUnits = player.units.filter(
+          u => u !== card)
+        for (const u of otherUnits) {
+          const bonus = u.power;
+          op.kill(u)
+          op.addTempFx(card, 
+            tg => tg.pass.raisePower(card, bonus))
+        }
       allowedLots:
-      - unit-field
+        - unit-field
   guid: 43adbf73-8c1c-e269-13aa-4d761a548e3e
   name: Huitzilopochtli V1
-  art: "/huitzilopochtli"
+  art: /huitzilopochtli
 - id: 2359
   slug: clay-golem-token
   lore: From earth to life, he strides, a testament to the mystery of creation.
   tags:
-  - token
+    - token
   effects: {}
   guid: fd012f20-363d-6a76-d1c0-ccc5aca9868f
   power: 10
   name: Clay Golem
-  art: "/d3/golem-of-prague"
+  art: /d3/golem-of-prague
 - id: 2497
   slug: rabbi-loew
   description: 10{{powered}} token spawns in my place after I relocate
@@ -2649,11 +2713,11 @@
         const TOKEN = 'clay-golem-token'
         op.spawnToken(card.prevLot, TOKEN)
       allowedLots:
-      - unit-field
-      - grave
-      - hand
+        - unit-field
+        - grave
+        - hand
   guid: e053ce66-d442-4da5-9d05-c4098cf6f191
-  art: "/rabbi-loew"
+  art: /rabbi-loew
   name: Rabbi Loew
   power: 1
 - id: 2462
@@ -2661,8 +2725,8 @@
   description: |-
     If the enemy grave's top card is a trap, take it
     when I'm played
-  lore: Anansi's quick wit and cunning turn threats into triumphs, making him a formidable
-    adversary amidst the tapestry of deception.
+  lore: Anansi's quick wit and cunning turn threats into triumphs, making him a
+    formidable adversary amidst the tapestry of deception.
   effects:
     active:
       eventName: DeployUnit
@@ -2674,19 +2738,19 @@
         const c = opponent.grave.topCard
         op.addToHand(c, player)
       allowedLots:
-      - unit-field
+        - unit-field
   guid: 4718eaac-6e8a-2cc5-9ee2-5622a89813e7
   name: Anansi
   power: 3
-  art: "/anansi"
+  art: /anansi
 - id: 2504
   slug: mars-ultor
   description: ALL units auto-attack as their player's turn starts
   lore: When the battlefield churns with unbridled aggression, madness painted on
-    the faces of friends and foes alike, one can sense the insidious influence of
-    the Avenger's command.
+    the faces of friends and foes alike, one can sense the insidious influence
+    of the Avenger's command.
   tags:
-  - grand
+    - grand
   effects:
     active:
       eventName: TurnBegin
@@ -2698,21 +2762,21 @@
           op.forceAttack(u)
         }
       allowedLots:
-      - unit-field
+        - unit-field
   guid: 4e48f677-2c40-f391-8d32-bed911b09c20
   name: Mars Ultor
-  art: "/d3/mars"
+  art: /d3/mars
   power: 8
 - id: 2358
   slug: animal-token
-  lore: Humanity shed under her gaze, now echoes in the wilderness, longing for the
-    moon.
+  lore: Humanity shed under her gaze, now echoes in the wilderness, longing for
+    the moon.
   tags:
-  - token
+    - token
   effects: {}
   guid: 49c7dde2-6c7c-f993-4fa7-f9dec1ea91a7
   power: 4
-  art: "/tokens/tiger"
+  art: /tokens/tiger
   name: Wild Animal
 - id: 2416
   slug: circe
@@ -2720,7 +2784,7 @@
     Destroy opposing enemy unit and spawn a 5{{powered}} token in their place
     when I enter play
   tags:
-  - grand
+    - grand
   effects:
     active:
       eventName: DeployUnit
@@ -2734,53 +2798,63 @@
         const lot = get.opposingUnitField(card)
         op.spawnToken(lot, 'animal-token')
       allowedLots:
-      - unit-field
+        - unit-field
   guid: 3333ae13-1e75-d843-e1ec-cfbda098cb8d
   name: Circe
   power: 6
-  art: "/circe"
+  art: /circe
 - id: 2505
   slug: discordia
-  description: "+5{{power}} to units on both sides"
+  description: +5{{power}} to units on both sides
   lore: With a devilish grin, she sprinkles chaos into the hearts of all, stoking
-    their power into a blazing inferno, fanning the flames of conflict, before stepping
-    back to savor the pandemonium.
+    their power into a blazing inferno, fanning the flames of conflict, before
+    stepping back to savor the pandemonium.
   tags:
-  - grand
+    - grand
   effects:
     passive:
-      condition: 'true'
-      perform: "const bonus = 5\nconst allUnits = [\n  ...player.units, \n  ...opponent.units\n]\nfor
-        (const u of allUnits) {\n  pass.raisePower(u, 5)\n}"
+      condition: "true"
+      perform: |-
+        const bonus = 5
+        const allUnits = [
+          ...player.units, 
+          ...opponent.units
+        ]
+        for (const u of allUnits) {
+          pass.raisePower(u, 5)
+        }
       allowedLots:
-      - unit-field
+        - unit-field
   guid: d03b95de-425a-65a4-06fa-14efa5cc6a37
   name: Discordia
   power: 5
-  art: "/discordia"
+  art: /discordia
 - id: 2467
   slug: the-green-knight
   description: I return to your hand if I'm on top of your grave as your turn begins
-  lore: |-
-    As unyielding as the ancient oaks, the Green Knight endures, his vitality a riddle wrapped in nature's everlasting green.
+  lore: >-
+    As unyielding as the ancient oaks, the Green Knight endures, his vitality a
+    riddle wrapped in nature's everlasting green.
+
 
     Bertilak de Hautdesert
   effects:
     active:
       eventName: TurnBegin
       eventStatus: ended
-      condition: "card.controller.grave.topCard === card && \ncard.controller ===
-        get.currentPlayer"
+      condition: |-
+        card.controller.grave.topCard === card && 
+        card.controller === get.currentPlayer
       perform: op.addToHand( card, player )
       allowedLots:
-      - grave
+        - grave
   guid: daf9dcb2-0b3e-772b-1538-1d88ab4dafcf
-  art: "/the-green-knight"
+  art: /the-green-knight
   name: the Green Knight
   power: 4
 - id: 2418
-  slug: "$depower-on-die"
-  description: "-2{{power}} to enemy unit here when I die"
+  slug: $depower-on-die
+  description: -2{{power}} to enemy unit here when I die
   effects:
     active:
       eventName: UnitDie
@@ -2788,31 +2862,35 @@
       condition: |-
         event.card === card &&
         get.opposingUnit(card)
-      perform: "const foe = get.opposingUnit(card)\nop.addTempFx(\n  foe, \n  tg =>
-        tg.pass.lowePower(foe, 2)\n)"
+      perform: |-
+        const foe = get.opposingUnit(card)
+        op.addTempFx(
+          foe, 
+          tg => tg.pass.lowePower(foe, 2)
+        )
       allowedLots:
-      - unit-field
+        - unit-field
   guid: 767a8487-8298-efb4-a42d-a5ebf4d6e611
   power: 2
   name: Elegant Walter
 - id: 2495
   slug: joan-of-arc
-  description: "+2 to allies while I am on top of your grave"
-  lore: Her torch, extinguished in this world, shines brightly in the hearts of the
-    brave.
+  description: +2 to allies while I am on top of your grave
+  lore: Her torch, extinguished in this world, shines brightly in the hearts of
+    the brave.
   effects:
     passive:
-      condition: 'true'
+      condition: "true"
       perform: |-
         for (const u of card.controller.units) {
           pass.raisePower(u, 2)
         }
       allowedLots:
-      - grave
+        - grave
   guid: 00a2376c-237e-025a-b712-deb56e3352b6
   name: Jeanne d'Arc
   power: 2
-  art: "/joan-of-arc"
+  art: /joan-of-arc
 - id: 2400
   slug: mythical-hoki
   description: |-
@@ -2823,33 +2901,35 @@
       eventName: DeployUnit
       eventStatus: ended
       condition: event.card === card
-      perform: "const bonus = \n  opponent.units.length - player.units.length\nplayer.actionPoints
-        += bonus"
+      perform: |-
+        const bonus = 
+          opponent.units.length - player.units.length
+        player.actionPoints += bonus
       allowedLots:
-      - unit-field
+        - unit-field
   guid: 1f3367be-04db-e6bb-c2cb-2f4cb0af2818
   name: Mythical Hoki
 - id: 2373
-  slug: "$only-one-in-play"
+  slug: $only-one-in-play
   description: Can't be deployed with allies in play
-  notes: 'REDACTED #6A'
+  notes: "REDACTED #6A"
   effects:
     overrides:
       blockDeploymentTo: player.units.length > 0
   guid: 0bf83fa5-e3bb-7bca-f0a3-56c94d85014b
   power: 8
   name: Andraste
-  art: "/redacted/generic_17"
+  art: /redacted/generic_17
 - id: 2270
   slug: jabberwock
-  lore: Brimbling with murkitude in the duskish dim, skraggling with its blibberous
-    eyes and grinfanging jaws, hurling a frumious shiver of dread into the heart of
-    the most bandersome quester.
+  lore: Brimbling with murkitude in the duskish dim, skraggling with its
+    blibberous eyes and grinfanging jaws, hurling a frumious shiver of dread
+    into the heart of the most bandersome quester.
   effects: {}
   guid: 8b7c3d76-d0d0-da77-e613-eb44e270b548
   name: Jabberwock
   power: 5
-  art: "/d3/jabberwock"
+  art: /d3/jabberwock
 - id: 2427
   slug: fools-fire
   type: 1
@@ -2867,7 +2947,7 @@
         const field = get.sameLaneUnitField(card)
         op.spawnToken(field, 'wisp-token')
   guid: 7b56a5c5-71bc-d653-3098-2dd6e8e17b3b
-  art: "/temp/beartrap"
+  art: /temp/beartrap
   name: Fool's Fire
 - id: 2357
   slug: mephisto-token
@@ -2875,25 +2955,25 @@
     the promise of power could metamorphose into a deadly backlash.
   effects: {}
   guid: 4dc76f1f-fb9f-74d5-fa88-d3aa11b98e1c
-  art: "/tokens/mephistopheles"
+  art: /tokens/mephistopheles
   name: Mephistopheles
   power: 9
 - id: 2356
   slug: grendels-mom-token
-  lore: A lurking terror in the deep, Grendel's Mother rises to exact vengeance, her
-    monstrous retribution a nightmare awakened by her offspring's demise.
+  lore: A lurking terror in the deep, Grendel's Mother rises to exact vengeance,
+    her monstrous retribution a nightmare awakened by her offspring's demise.
   tags:
-  - token
+    - token
   effects: {}
   guid: d26957ec-b0c6-3977-0135-0752bcb7abc8
   name: Grendel's Mother
-  art: "/grendel-mom"
+  art: /grendel-mom
   power: 7
 - id: 2437
   slug: grendel
   description: 7{{powered}} token spawns in your hand when I die from combat
-  lore: Be on guard dispatching this particular foe, for you are bound to invite the
-    wrath of his vengeful mother!
+  lore: Be on guard dispatching this particular foe, for you are bound to invite
+    the wrath of his vengeful mother!
   effects:
     active:
       eventName: UnitDie
@@ -2905,11 +2985,11 @@
         op.spawnToken(
           player.hand, 'grendels-mom-token')
       allowedLots:
-      - grave
-      - unit-field
+        - grave
+        - unit-field
   guid: e6c78403-aba6-00c4-3616-66a924d4c43c
   name: Grendel
-  art: "/grendel"
+  art: /grendel
   power: 3
 - id: 2335
   slug: spatial-pygmy
@@ -2921,17 +3001,17 @@
       condition: "!get.opposingUnit(card)"
       perform: op.addToHand(card, player)
       allowedLots:
-      - unit-field
+        - unit-field
   guid: 4923e18b-2a7a-83e8-e321-a2f534895d67
   name: Spatial Pygmy
   power: 9
 - id: 2487
   slug: helm-of-awe
   type: 1
-  description: "+3{{power}} to your unit when attacked"
-  lore: Among the clamor of war, a silent symbol of victory emerges, its protective
-    aura cloaked in an aura of dread, turning the bearer into a specter of awe-inspiring
-    strength.
+  description: +3{{power}} to your unit when attacked
+  lore: Among the clamor of war, a silent symbol of victory emerges, its
+    protective aura cloaked in an aura of dread, turning the bearer into a
+    specter of awe-inspiring strength.
   pdc: -1
   priority: 3
   effects:
@@ -2939,17 +3019,19 @@
       eventName: UnitAttackCombat
       eventStatus: began
       condition: event.attacker === get.opposingUnit(card)
-      perform: "op.addTempFx(\n  event.defender, \n  tg => tg.pass.raisePower(event.defender,
-        3))"
+      perform: |-
+        op.addTempFx(
+          event.defender, 
+          tg => tg.pass.raisePower(event.defender, 3))
   guid: e3b41aa1-0f98-ec62-7c2b-2f8414025180
   name: Helm of Awe
-  art: "/traps/helm-of-awe"
+  art: /traps/helm-of-awe
 - id: 2445
   slug: anne-bonny
   description: Enemy draws 1 card when I attack
-  lore: Swashbuckling through the high seas, Anne Bonny personifies the wild and daring
-    spirit of a pirate, fearlessly charting her own course amidst life's turbulent
-    waters.
+  lore: Swashbuckling through the high seas, Anne Bonny personifies the wild and
+    daring spirit of a pirate, fearlessly charting her own course amidst life's
+    turbulent waters.
   effects:
     active:
       eventName: UnitAttack
@@ -2957,34 +3039,34 @@
       condition: event.card === card
       perform: op.draw(opponent)
       allowedLots:
-      - unit-field
+        - unit-field
   guid: dbac58dc-3398-249b-d14e-b2d02f3e8ffd
   name: Anne Bonny
   power: 6
-  art: "/d3/anne-bonny"
+  art: /d3/anne-bonny
 - id: 2461
   slug: david
-  description: "+10{{power}} against a GRAND unit"
-  lore: No giant is too towering, no obstacle too vast for David, whose strength shines
-    brightest when faced with formidable foes.
+  description: +10{{power}} against a GRAND unit
+  lore: No giant is too towering, no obstacle too vast for David, whose strength
+    shines brightest when faced with formidable foes.
   effects:
     passive:
       condition: get.opposingUnit(card)?.hasTag('grand')
       perform: pass.raisePower(card, 10)
       allowedLots:
-      - unit-field
+        - unit-field
   guid: 1eef8f4d-e56d-2825-8210-b80f3188c944
   name: David
   power: 2
-  art: "/david"
+  art: /david
 - id: 2441
   slug: siren-song
   type: 1
   description: Enemy unit beginning an attack anywhere, moves here first
-  lore: A haunting melody winds its way to your ears, its irresistible lure pulling
-    you towards an unseen source.
+  lore: A haunting melody winds its way to your ears, its irresistible lure
+    pulling you towards an unseen source.
   tags:
-  - global
+    - global
   effects:
     active:
       eventName: UnitAttack
@@ -2997,28 +3079,28 @@
         op.forceRelocate(event.card, lot)
   guid: 2b3c5ad4-935f-69ce-200f-bc4da7d40911
   name: Siren Song
-  art: "/traps/siren"
+  art: /traps/siren
 - id: 2355
   slug: wisp-token
   notes: better fits a trap
   tags:
-  - token
+    - token
   effects: {}
   guid: 8536fda6-014b-efa4-02a6-748ff457c472
   name: Will O' the Wisp
   power: 5
-  art: "/d3/wisp"
+  art: /d3/wisp
 - id: 2354
   slug: nisse-token
   lore: Emerging from the quiet corners, the Nisse springs into action when least
     expected, their helpful nature a surprise boon in troubled times.
   tags:
-  - token
+    - token
   effects: {}
   guid: af573ebb-4f47-3a73-bfb5-73c25190d4c1
   name: Nisse
   power: 5
-  art: "/d3/nisse"
+  art: /d3/nisse
 - id: 2433
   slug: puss
   description: |-
@@ -3036,8 +3118,8 @@
       condition: event.card === card && faq.hasTurn(player)
       perform: player.actionPoints += 1
       allowedLots:
-      - unit-field
-  art: "/puss"
+        - unit-field
+  art: /puss
   guid: d733ae6a-414f-023c-4992-e99fea422de6
   name: Puss in Boots
   power: 3
@@ -3055,14 +3137,14 @@
         op.draw( player )
         op.draw( player )
       allowedLots:
-      - unit-field
-  art: "/reynard-the-fox"
+        - unit-field
+  art: /reynard-the-fox
   guid: 15f64461-95cc-c62e-ca23-11dc1495fba7
   name: Reynard the Fox
   power: 2
 - id: 2421
   slug: puss-in-boots-v2
-  description: "+2{{ap}} when you deploy me"
+  description: +2{{ap}} when you deploy me
   lore: With a sly purr and an unerring knack for opportunity, this dapper feline
     brings fortune to his master.
   pdc: -1
@@ -3075,15 +3157,15 @@
       condition: event.card === card
       perform: player.actionPoints += 2
       allowedLots:
-      - unit-field
+        - unit-field
   guid: d733ae6a-414f-023c-4992-e99fea422de6
   name: Puss in Boots V2
   power: 2
 - id: 2436
   slug: cu-chulainn
-  description: "+2 while facing an enemy trap"
-  lore: A titan against contraptions, he stands, fearless and invincible, a tempest
-    amidst the trickery.
+  description: +2 while facing an enemy trap
+  lore: A titan against contraptions, he stands, fearless and invincible, a
+    tempest amidst the trickery.
   notes: |-
     Cú Chulainn
     ...
@@ -3092,18 +3174,18 @@
       condition: "!!get.opposingTrap(card)"
       perform: pass.raisePower(card, 2)
       allowedLots:
-      - unit-field
+        - unit-field
   guid: 4718eaac-6e8a-2cc5-9ee2-5622a89813e7
   name: Cu Chulainn
   power: 4
-  art: "/cuchulainn"
+  art: /cuchulainn
 - id: 2478
   slug: will-o-the-wisp
   description: |-
     Move enemy unit here when deployed anywhere
     if possible
-  lore: Leading wayward travelers astray, its elusive light a tantalizing trickster
-    in the twilight.
+  lore: Leading wayward travelers astray, its elusive light a tantalizing
+    trickster in the twilight.
   effects:
     active:
       eventName: DeployUnit
@@ -3116,18 +3198,18 @@
         let lot = get.opposingUnitField(card)
         op.forceRelocate(event.card, lot)
       allowedLots:
-      - unit-field
+        - unit-field
   guid: c234e201-18a9-99f7-377d-69606c728a40
   name: Will O' the Wisp
   power: 1
-  art: "/wisp"
+  art: /wisp
 - id: 2480
   slug: selfless-sparrow
   description: |-
     I automatically move in front of enemy unit attacking anywhere
     if possible
-  lore: With tiny wings and a big heart, the Selfless Sparrow flies beyond its humble
-    stature, carrying hope on its featherlight wings.
+  lore: With tiny wings and a big heart, the Selfless Sparrow flies beyond its
+    humble stature, carrying hope on its featherlight wings.
   pdc: -1
   status: 2
   priority: 1
@@ -3142,8 +3224,8 @@
         let lot = get.opposingUnitField( event.card )
         op.forceRelocate( card, lot )
       allowedLots:
-      - unit-field
-  art: "/d3/selfless-sparrow"
+        - unit-field
+  art: /d3/selfless-sparrow
   guid: e156e58b-3903-0196-a55c-cef515c0dcdd
   name: Selfless Sparrow
   power: 1
@@ -3156,18 +3238,19 @@
     2 Energy = 4 Power
     3 Energy = 8 power
     and so on...
-  lore: With every equation solved, Ada Lovelace uncovers the hidden power in numbers,
-    using the calculus of logic to chart a course toward unrivaled strength.
+  lore: With every equation solved, Ada Lovelace uncovers the hidden power in
+    numbers, using the calculus of logic to chart a course toward unrivaled
+    strength.
   effects:
     passive:
-      condition: 'true'
+      condition: "true"
       perform: |-
         let mul = card.lot.index
         pass.raisePower(card, 2 ** mul)
       allowedLots:
-      - unit-field
-      - hand
-      - grave
+        - unit-field
+        - hand
+        - grave
   guid: 63c6f0af-4d22-cfa1-6999-386cd74e7f8f
   name: Ada Lovelace
 - id: 2353
@@ -3175,9 +3258,9 @@
   lore: Ntikuma, Anansi's son in some tales
   notes: Ntikuma?
   tags:
-  - token
+    - token
   effects: {}
-  art: "/tokens/tiger"
+  art: /tokens/tiger
   guid: afe2f4b6-3b5a-e47f-8ac1-fddbe4836fff
   name: Tiger
   power: 5
@@ -3186,39 +3269,41 @@
   description: |-
     +X{{power}}, equal to the enemy grave's top card
     +0{{power}} if not a unit
-  lore: Emerging from the underworld's darkest shadows, Lilith spins a web of intrigue,
-    her mysteries as alluring as they are dangerous.
+  lore: Emerging from the underworld's darkest shadows, Lilith spins a web of
+    intrigue, her mysteries as alluring as they are dangerous.
   effects:
     passive:
-      condition: 'true'
-      perform: "const amount = \n  opponent.grave.topCard?.power || 0\npass.raisePower(card,
-        amount)"
+      condition: "true"
+      perform: |-
+        const amount = 
+          opponent.grave.topCard?.power || 0
+        pass.raisePower(card, amount)
       allowedLots:
-      - unit-field
-      - hand
-      - grave
-  art: "/lilith"
+        - unit-field
+        - hand
+        - grave
+  art: /lilith
   guid: da711770-5ed0-4617-0f2a-b520d56d8912
   name: Lilith
 - id: 2482
   slug: horatius-cocles
-  description: "+2{{power}} per enemy unit in play"
-  lore: Rome's one-eyed sentinel, he stood undaunted on the Tiber bridge, his singular
-    courage becoming the bulwark against the advancing horde.
+  description: +2{{power}} per enemy unit in play
+  lore: Rome's one-eyed sentinel, he stood undaunted on the Tiber bridge, his
+    singular courage becoming the bulwark against the advancing horde.
   pdc: -1
   status: 2
   priority: 7
   effects:
     passive:
-      condition: 'true'
+      condition: "true"
       perform: |-
         const count = opponent.units.length;
         pass.raisePower(card, count * 2)
       allowedLots:
-      - hand
-      - unit-field
-      - grave
-  art: "/d3/horatius-cocles"
+        - hand
+        - unit-field
+        - grave
+  art: /d3/horatius-cocles
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   name: Horatius Cocles
   power: 1
@@ -3231,22 +3316,22 @@
   notes: Toussaint L'Ouverture?
   effects:
     passive:
-      condition: 'true'
+      condition: "true"
       perform: |-
         for (const u of player.units) {
           if (u === card) continue
           pass.raisePower(u, 1)
         }
       allowedLots:
-      - unit-field
-  art: "/d3/geronimo"
+        - unit-field
+  art: /d3/geronimo
   guid: e848b4d8-311f-6eaa-e803-b3c88677863a
   name: Geronimo
   power: 3
 - id: 2439
   slug: poison-apple
   type: 1
-  description: "-4{{power}} to enemy unit attacking here"
+  description: -4{{power}} to enemy unit attacking here
   lore: An emblem of fatal deceit, poised to drain life essence with a single bite.
   effects:
     active:
@@ -3255,9 +3340,11 @@
       condition: |-
         event.card === get.opposingUnit(card) &&
         event.card.isFaceUp
-      perform: "op.addTempFx(\n  event.card, \n  tg => tg.pass.lowerPower(event.card,
-        4))"
-  art: "/traps/poison-apple"
+      perform: |-
+        op.addTempFx(
+          event.card, 
+          tg => tg.pass.lowerPower(event.card, 4))
+  art: /traps/poison-apple
   guid: 3ee6755d-845a-f87c-fed7-9594b1e29bcd
   name: Poison Apple
 - id: 2352
@@ -3267,44 +3354,46 @@
     The Grin Without a Cat?
     Disappearing Grin?
   tags:
-  - token
+    - token
   effects: {}
-  art: "/tokens/grin"
+  art: /tokens/grin
   guid: afe2f4b6-3b5a-e47f-8ac1-fddbe4836fff
   name: Disappearing Grin
 - id: 2374
-  slug: "$soft-grand"
+  slug: $soft-grand
   description: I do not require a sacrifice while no allies are in play
-  notes: 'REDACTED #100'
+  notes: "REDACTED #100"
   tags:
-  - grand
+    - grand
   effects:
     passive:
       condition: player.units.length === 0
       perform: pass.removeTag(card, 'grand')
       allowedLots:
-      - hand
+        - hand
   guid: 847fc569-a396-f9da-3422-837392c88113
   name: Lady of the Lake
   power: 7
-  art: "/redacted/generic_40"
+  art: /redacted/generic_40
 - id: 2508
   slug: ereshkigal
-  description: "+1{{power}} for each card in your graveyard"
+  description: +1{{power}} for each card in your graveyard
   lore: The dreaded queen of the underworld, rules over death's silent realm, her
     dark throne a testament to the inevitability of fate.
   tags:
-  - grand
+    - grand
   effects:
     passive:
-      condition: 'true'
-      perform: "const deadSoulsCount = \n  player.grave.cards.length || 0\npass.raisePower(card,
-        deadSoulsCount)"
+      condition: "true"
+      perform: |-
+        const deadSoulsCount = 
+          player.grave.cards.length || 0
+        pass.raisePower(card, deadSoulsCount)
       allowedLots:
-      - unit-field
-      - hand
-      - grave
-  art: "/ereshkigal"
+        - unit-field
+        - hand
+        - grave
+  art: /ereshkigal
   guid: b4a87403-430f-7687-e001-98dc71c53a73
   name: Ereshkigal
 - id: 2676
@@ -3319,8 +3408,8 @@
 - id: 2469
   slug: porcupine-spirit
   description: I deal 3 damage the the enemy player when attacked.
-  lore: The porcupine is a mammal with sharp quills that can cause pain to predators
-    that attack it.
+  lore: The porcupine is a mammal with sharp quills that can cause pain to
+    predators that attack it.
   effects:
     active:
       eventName: UnitAttackCombat
@@ -3328,11 +3417,11 @@
       condition: event.defender === card
       perform: op.damage(opponent, 3)
       allowedLots:
-      - unit-field
+        - unit-field
   guid: 210ddd9a-a696-6689-4ea8-00dba7b272f6
   name: Porcupine Spirit
   power: 1
-  art: "/porcupine"
+  art: /porcupine
 - id: 2411
   slug: duelista
   description: While both player have only one unit in play each, both have +10{{power}}
@@ -3342,50 +3431,50 @@
   power: 4
 - id: 2519
   slug: diomedes
-  description: "-1{{power}} to all enemy units"
-  lore: With a warrior's heart and an unyielding spirit, Diomedes strikes fear into
-    the hearts of enemies, his mere presence a herald of impending doom.
-  notes: "??"
+  description: -1{{power}} to all enemy units
+  lore: With a warrior's heart and an unyielding spirit, Diomedes strikes fear
+    into the hearts of enemies, his mere presence a herald of impending doom.
+  notes: ??
   effects:
     passive:
-      condition: 'true'
+      condition: "true"
       perform: |-
         for (const u of opponent.units) {
           pass.lowerPower(u, 1)
         }
       allowedLots:
-      - unit-field
+        - unit-field
   guid: e848b4d8-311f-6eaa-e803-b3c88677863a
   name: Diomedes
-  art: "/diomedes"
+  art: /diomedes
   power: 1
 - id: 2520
   slug: king-leonidas-i
   description: |-
     +X{{power}} to ally units, equal to the number of enemy units
     in play
-  lore: Against overwhelming odds, King Leonidas I valiantly led his Spartan warriors
-    at Thermopylae, holding back an immense Persian force and etching his name into
-    history as the embodiment of defiance and courage.
+  lore: Against overwhelming odds, King Leonidas I valiantly led his Spartan
+    warriors at Thermopylae, holding back an immense Persian force and etching
+    his name into history as the embodiment of defiance and courage.
   tags:
-  - grand
+    - grand
   pdc: -1
   status: 2
   priority: 7
   effects:
     passive:
-      condition: 'true'
+      condition: "true"
       perform: |-
         const bonus = opponent.units.length
         for (const u of player.units) {
           pass.raisePower(u, bonus)
         }
       allowedLots:
-      - unit-field
+        - unit-field
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   name: King Leonidas I
   power: 5
-  art: "/b2/leonidas"
+  art: /b2/leonidas
 - id: 2409
   slug: fafnir-0
   description: |-
@@ -3394,7 +3483,7 @@
     Destroy opposing creature and take damage equal to its power.
   notes: King Pyrrhus?
   tags:
-  - sneak
+    - sneak
   effects:
     flip:
       manner: combat
@@ -3405,30 +3494,30 @@
           op.kill(foe)
           op.damage(player, hpcost)
         }
-  art: "/redacted/generic_39"
+  art: /redacted/generic_39
   guid: bb757a5a-ddfa-73e6-9da0-0526faf78c3e
-  name: 'REDACTED #99'
+  name: "REDACTED #99"
   power: 1
 - id: 2438
   slug: nyx
-  description: "-2{{power}} to all enemy units"
+  description: -2{{power}} to all enemy units
   lore: With a whisper soft as the falling night, Nyx weaves dreams into reality,
     drawing the wakeful into her soothing, starlit slumber.
   tags:
-  - grand
+    - grand
   pdc: -1
   status: 2
   priority: 7
   effects:
     passive:
-      condition: 'true'
+      condition: "true"
       perform: |-
         for (const u of opponent.units) {
           pass.lowerPower(u, 2)
         }
       allowedLots:
-      - unit-field
-  art: "/nyx"
+        - unit-field
+  art: /nyx
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   name: Nyx
   power: 6
@@ -3440,7 +3529,7 @@
   lore: In his unquenchable thirst for knowledge and power, Faust summons a demon
     of his own making, bartering his soul for a taste of power.
   tags:
-  - rush
+    - rush
   effects:
     active:
       eventName: DeployUnit
@@ -3455,9 +3544,9 @@
         const field = get.opposingUnitField(dest)
         op.spawnToken(field, 'mephisto-token')
       allowedLots:
-      - unit-field
-      - hand
-  art: "/faust"
+        - unit-field
+        - hand
+  art: /faust
   guid: 2b0ed5c3-5521-ca41-f2bb-ff7607b08fea
   name: Faust
   power: 5
@@ -3472,26 +3561,26 @@
   power: 1
 - id: 2493
   slug: gideon2
-  description: "+3{{power}} during enemy turn"
-  lore: From a wellspring of faith amidst weakness and poverty, Gideon summons strength,
-    his spirit shining brightly in the darkest of trials.
+  description: +3{{power}} during enemy turn
+  lore: From a wellspring of faith amidst weakness and poverty, Gideon summons
+    strength, his spirit shining brightly in the darkest of trials.
   tags:
-  - sneak
+    - sneak
   effects:
     passive:
       condition: get.currentPlayer === opponent
       perform: pass.raisePower(card, 3)
       allowedLots:
-      - unit-field
-      - hand
-      - grave
-  art: "/gideon"
+        - unit-field
+        - hand
+        - grave
+  art: /gideon
   guid: 549b8197-538b-0a31-673d-e0b8e59fcc32
   name: Gideon
   power: 3
 - id: 2450
   slug: joan-the-hatchet
-  description: "+2{{power}} to adjacent ally units"
+  description: +2{{power}} to adjacent ally units
   lore: Her courage shining like a beacon, Jeanne Hachette stands tall, inspiring
     others to embrace valor, even against overwhelming odds.
   pdc: -1
@@ -3499,62 +3588,62 @@
   priority: 7
   effects:
     passive:
-      condition: 'true'
+      condition: "true"
       perform: |-
         for (const u of get.adjacentUnits(card)) {
           pass.raisePower(u, 2)
         }
       allowedLots:
-      - unit-field
-  art: "/joan-the-hatchet"
+        - unit-field
+  art: /joan-the-hatchet
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   name: Jeanne Hachette
   power: 2
 - id: 2470
   slug: hanuman
-  description: "+10{{power}} during your turn"
-  lore: Shifting in size as effortlessly as the wind changes direction, Hanuman embodies
-    divine power, once shifting a mountain with his indomitable will.
+  description: +10{{power}} during your turn
+  lore: Shifting in size as effortlessly as the wind changes direction, Hanuman
+    embodies divine power, once shifting a mountain with his indomitable will.
   tags:
-  - grand
+    - grand
   effects:
     passive:
       condition: faq.hasTurn(card)
       perform: pass.raisePower(card, 10)
       allowedLots:
-      - unit-field
-      - hand
-      - grave
-  art: "/hanuman"
+        - unit-field
+        - hand
+        - grave
+  art: /hanuman
   guid: 9d913bd6-cf60-e796-d57d-ef6d9465f77d
   name: Hanuman
   power: 2
 - id: 2465
   slug: bacchus
-  description: "-2{{power}} per card in your hand"
-  lore: With a hearty laugh and a swirling goblet, Bacchus intoxicates the game, his
-    presence compelling you to dance to the tunes of impulse.
+  description: -2{{power}} per card in your hand
+  lore: With a hearty laugh and a swirling goblet, Bacchus intoxicates the game,
+    his presence compelling you to dance to the tunes of impulse.
   effects:
     passive:
-      condition: 'true'
+      condition: "true"
       perform: |-
         let count = player.hand.cardCount
         pass.lowerPower(card, count * 2)
       allowedLots:
-      - unit-field
-      - grave
-      - hand
-  art: "/bacchus"
+        - unit-field
+        - grave
+        - hand
+  art: /bacchus
   guid: 5449b2b3-6f26-8acd-e5f8-3318420ca29f
   name: Bacchus
   power: 8
 - id: 2377
-  slug: "$steal-with-blood"
+  slug: $steal-with-blood
   type: 1
   description: |-
     Steal enemy unit deployed here, but take damage equal to its power
     You must have no unit here
-  notes: "\U0001F937‍♂️ ..."
+  notes: 🤷‍♂️ ...
   pdc: -1
   priority: 3
   effects:
@@ -3570,7 +3659,7 @@
         op.moveTo(event.card, myField)
   guid: ecf87384-4b2b-ceed-ffb1-c510eea1a14e
   name: Blood Oath
-  art: "/traps/blood-spiral"
+  art: /traps/blood-spiral
 - id: 2380
   slug: cookable-mammal
   type: 1
@@ -3583,8 +3672,8 @@
   slug: rubber-tree
   type: 1
   description: On direct attack by enemy unit here, first heal by its power
-  lore: Like a wellspring of endurance, a steadfast shield in nature's form absorbs
-    and repels the mightiest attacks.
+  lore: Like a wellspring of endurance, a steadfast shield in nature's form
+    absorbs and repels the mightiest attacks.
   effects:
     active:
       eventName: UnitAttackDirect
@@ -3593,28 +3682,28 @@
         event.card === get.opposingUnit(card) &&
         !get.sameLaneUnit( card )
       perform: op.heal(player, event.card.power)
-  art: "/traps/rubber-tree"
+  art: /traps/rubber-tree
   guid: 32e847e6-dce8-b39e-db65-c218a4e5bf5f
   name: Rubber Tree
 - id: 2477
   slug: karna
-  description: "-2{{power}} per enemy unit in play"
-  lore: Brave and valiant, Karna stands tall against any foe, but falters amidst the
-    multitude, his strength tested by the overwhelming odds.
+  description: -2{{power}} per enemy unit in play
+  lore: Brave and valiant, Karna stands tall against any foe, but falters amidst
+    the multitude, his strength tested by the overwhelming odds.
   pdc: -1
   status: 2
   priority: 7
   effects:
     passive:
-      condition: 'true'
+      condition: "true"
       perform: |-
         const count = opponent.units.length;
         pass.lowerPower(card, 2 * count)
       allowedLots:
-      - unit-field
-      - hand
-      - grave
-  art: "/karna"
+        - unit-field
+        - hand
+        - grave
+  art: /karna
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   name: Karna
   power: 9
@@ -3624,24 +3713,28 @@
   description: |-
     Deploy enemy grave's top card when your unit dies in combat here
     if that card is a unit
-  lore: A sacrifice made, the curse is now unleashed, wrenching a fallen enemy from
-    the grave's grip to twist into our own ghostly puppet.
+  lore: A sacrifice made, the curse is now unleashed, wrenching a fallen enemy
+    from the grave's grip to twist into our own ghostly puppet.
   notes: Bone Flute?
   effects:
     active:
       eventName: UnitDie
       eventStatus: ended
-      condition: "event.card.prevLot === \n  get.sameLaneUnitField(card) &&\nevent.death_type
-        === 'combat' &&\nopponent.grave.topCard?.isUnitType &&\n!get.sameLaneUnitField(card).hasCards"
+      condition: |-
+        event.card.prevLot === 
+          get.sameLaneUnitField(card) &&
+        event.death_type === 'combat' &&
+        opponent.grave.topCard?.isUnitType &&
+        !get.sameLaneUnitField(card).hasCards
       perform: |-
         const target = opponent.grave.topCard;
         const field = get.sameLaneUnitField(card)
         op.deploy(target, field)
-  art: "/traps/draugr-curse"
+  art: /traps/draugr-curse
   guid: d168768c-2363-2cf9-e031-231ae5b6f749
   name: Draugr's Curse
 - id: 2527
-  slug: "$token-after-attack"
+  slug: $token-after-attack
   type: 1
   description: After enemy direct attack here, deploy a 9 power token here
   effects:
@@ -3657,12 +3750,12 @@
         op.spawnToken(field, token)
   guid: 7b56a5c5-71bc-d653-3098-2dd6e8e17b3b
   name: Release
-  art: "/traps/kraken"
+  art: /traps/kraken
 - id: 2526
-  slug: "$token-on-attack"
+  slug: $token-on-attack
   type: 1
   description: Spawn a 0{{powered}} token on enemy attack here
-  notes: "$token-on-attack"
+  notes: $token-on-attack
   effects:
     active:
       eventName: UnitAttackDirect
@@ -3681,8 +3774,8 @@
   description: |-
     Spawn a 5{{powered}} token to your side when opposing enemy unit is deployed
     if possible
-  lore: In the quietest of moments, a sudden bustle signals unseen allies, their timely
-    aid turning the tide.
+  lore: In the quietest of moments, a sudden bustle signals unseen allies, their
+    timely aid turning the tide.
   effects:
     active:
       eventName: DeployUnit
@@ -3693,7 +3786,7 @@
       perform: |-
         const field = get.sameLaneUnitField(card)
         op.spawnToken(field, 'nisse-token')
-  art: "/traps/nisse"
+  art: /traps/nisse
   guid: 7b56a5c5-71bc-d653-3098-2dd6e8e17b3b
   name: Call of the Nisse
 - id: 2457
@@ -3702,8 +3795,9 @@
   description: |-
     On direct attack, first bring your unit on the left here
     if there is any
-  lore: Against all odds, as the first light of dawn pierced the winter sky, the Continental
-    Army descended upon the Hessian garrison, a surprise attack from seemingly nowhere
+  lore: Against all odds, as the first light of dawn pierced the winter sky, the
+    Continental Army descended upon the Hessian garrison, a surprise attack from
+    seemingly nowhere
   effects:
     active:
       eventName: UnitAttack
@@ -3712,8 +3806,12 @@
         get.opposingUnit(card) === event.card &&
         get.leftUnit(card) &&
         !get.sameLaneUnit(card)
-      perform: "op.forceRelocate(\n  get.leftUnit(card), \n  get.sameLaneUnitField(card)\n)"
-  art: "/traps//battle-of-trenton"
+      perform: |-
+        op.forceRelocate(
+          get.leftUnit(card), 
+          get.sameLaneUnitField(card)
+        )
+  art: /traps//battle-of-trenton
   guid: 294447b1-beb2-1618-5d29-8182eee4f481
   name: the Battle of Trenton
 - id: 2424
@@ -3733,16 +3831,20 @@
         get.opposingUnit(card) === event.card &&
         get.rightUnit(card) &&
         !get.sameLaneUnit(card)
-      perform: "op.forceRelocate(\n  get.rightUnit(card), \n  get.sameLaneUnitField(card)\n)"
+      perform: |-
+        op.forceRelocate(
+          get.rightUnit(card), 
+          get.sameLaneUnitField(card)
+        )
   guid: 294447b1-beb2-1618-5d29-8182eee4f481
   name: The Trident
-  art: "/traps/trident"
+  art: /traps/trident
 - id: 2510
   slug: the-nightingale
   type: 1
   description: End the turn immediately after enemy attack attack finishes here
   lore: Legendary bird whose song is said to have the power to induce sleep.
-  notes: 'Alt: Somnus''s touch?'
+  notes: "Alt: Somnus's touch?"
   effects:
     active:
       eventName: UnitAttack
@@ -3751,7 +3853,7 @@
         get.currentPlayer === opponent &&
         event.card === get.opposingUnit(card)
       perform: op.endTurn()
-  art: "/traps/nightingale"
+  art: /traps/nightingale
   guid: 6be64973-5e35-cd68-924a-1e49d0446c86
   name: the Nightingale
 - id: 2481
@@ -3766,12 +3868,15 @@
     active:
       eventName: UnitAttackCombat
       eventStatus: ended
-      condition: "faq.isInPlay(card) && (\n  event.attacker === card || \n  event.defender
-        === card\n)"
+      condition: |-
+        faq.isInPlay(card) && (
+          event.attacker === card || 
+          event.defender === card
+        )
       perform: op.kill(card)
       allowedLots:
-      - unit-field
-  art: "/d3/salamander"
+        - unit-field
+  art: /d3/salamander
   guid: c75dbcf9-9f9a-a55f-c949-5b59b076e58a
   name: Salamander
   power: 7
@@ -3781,80 +3886,83 @@
     Combat-Flip:
     Add the top card in your graveyard to the top of your deck.
   tags:
-  - sneak
+    - sneak
   effects: {}
   guid: 72f43226-a6c8-d6ac-305c-c59c581c7fc3
   name: Time Reverser
   power: 3
 - id: 2483
   slug: banshee
-  description: 'Combat-Flip: Return enemy unit here to the hand'
+  description: "Combat-Flip: Return enemy unit here to the hand"
   lore: With a chilling wail that tears through the silence, the Banshee's scream
     sends even the bravest souls fleeing in pure, icy fear.
   tags:
-  - sneak
+    - sneak
   effects:
     flip:
       manner: combat
       perform: |-
         const foe = get.opposingUnit(card)
         op.addToHand(foe, opponent)
-  art: "/banshee"
+  art: /banshee
   guid: 8e2d8db0-129c-bb90-5203-0ef032b79e93
   name: Banshee
   power: 1
 - id: 2496
   slug: ajax-the-great
-  description: "+1{{power}} per enemy unit in play."
-  lore: A towering colossus of war, embodies indomitable strength and unwavering loyalty.
-    With his mighty shield and relentless courage, he carves his name into the annals
-    of history as a legendary hero, forever remembered for his unparalleled might
-    on the battlefield.
+  description: +1{{power}} per enemy unit in play.
+  lore: A towering colossus of war, embodies indomitable strength and unwavering
+    loyalty. With his mighty shield and relentless courage, he carves his name
+    into the annals of history as a legendary hero, forever remembered for his
+    unparalleled might on the battlefield.
   pdc: -1
   status: 2
   priority: 7
   effects:
     passive:
-      condition: 'true'
+      condition: "true"
       perform: |-
         const count = opponent.units.length;
         pass.raisePower(card, count)
       allowedLots:
-      - hand
-      - unit-field
-      - grave
-  art: "/d3/ajax"
+        - hand
+        - unit-field
+        - grave
+  art: /d3/ajax
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   name: Ajax
   power: 4
 - id: 2512
-  slug: "$buff-per-unit"
-  description: "+1{{power}} per ANY unit in play."
-  lore: Where the patriot's heart beats, uncrowned kings will rise, shaping kingdoms
-    in their defiant stride.
+  slug: $buff-per-unit
+  description: +1{{power}} per ANY unit in play.
+  lore: Where the patriot's heart beats, uncrowned kings will rise, shaping
+    kingdoms in their defiant stride.
   pdc: -1
   status: 2
   priority: 7
   effects:
     passive:
-      condition: 'true'
-      perform: "const count = \n  player.units.length + \n  opponent.units.length;\npass.raisePower(card,
-        count)"
+      condition: "true"
+      perform: |-
+        const count = 
+          player.units.length + 
+          opponent.units.length;
+        pass.raisePower(card, count)
       allowedLots:
-      - unit-field
-      - hand
-      - grave
+        - unit-field
+        - hand
+        - grave
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   name: Robert the Bruce
   power: 1
-  art: "/d3/robert-the-bruce"
+  art: /d3/robert-the-bruce
 - id: 2485
   slug: the-cheshire-cat
   description: 0{{powered}} token spawns in my place after I die in combat
-  lore: The Cheshire Cat, grinning from ear to ear, an enigmatic figure leaving trails
-    of mystery in its wake.
+  lore: The Cheshire Cat, grinning from ear to ear, an enigmatic figure leaving
+    trails of mystery in its wake.
   tags:
-  - sneak
+    - sneak
   effects:
     active:
       eventName: UnitDie
@@ -3865,33 +3973,33 @@
         card.prevLot?.isUnitField
       perform: op.spawnToken(card.prevLot, 'grin-token')
       allowedLots:
-      - unit-field
-      - grave
-      - hand
-  art: "/the-cheshire-cat"
+        - unit-field
+        - grave
+        - hand
+  art: /the-cheshire-cat
   guid: e053ce66-d442-4da5-9d05-c4098cf6f191
   name: the Cheshire Cat
   power: 3
 - id: 2507
   slug: mercury
-  lore: Swift as thought and unpredictable as the wind, Mercury's strikes come from
-    all angles, his speed the heart of his relentless pursuit.
+  lore: Swift as thought and unpredictable as the wind, Mercury's strikes come
+    from all angles, his speed the heart of his relentless pursuit.
   tags:
-  - swift
-  - grand
+    - swift
+    - grand
   effects: {}
-  art: "/d3/mercury"
+  art: /d3/mercury
   guid: a9fb5b3c-0c8a-a10c-6a8c-8ed91952bc46
   name: Mercury
   power: 5
 - id: 2434
   slug: brer-rabbit
-  lore: As nimble as the wind and as elusive as a thought, Br'er Rabbit darts through
-    life's mazes, always a hop ahead of trouble.
+  lore: As nimble as the wind and as elusive as a thought, Br'er Rabbit darts
+    through life's mazes, always a hop ahead of trouble.
   tags:
-  - swapper
+    - swapper
   effects: {}
-  art: "/brer-rabbit"
+  art: /brer-rabbit
   guid: 2c064020-07e5-d2da-ed69-734025104d9f
   name: Br'er Rabbit
   power: 3
@@ -3905,11 +4013,11 @@
 - id: 2435
   slug: thumbelina
   description: I return to your hand after your turn
-  lore: Tiny but swift, Thumbelina flutters through life, her nimble size making her
-    as elusive as a feather in the wind.
+  lore: Tiny but swift, Thumbelina flutters through life, her nimble size making
+    her as elusive as a feather in the wind.
   tags:
-  - rush
-  - notribute
+    - rush
+    - notribute
   pdc: -1
   status: 4
   priority: 9
@@ -3917,11 +4025,11 @@
     active:
       eventName: TurnEnd
       eventStatus: ended
-      condition: 'true'
+      condition: "true"
       perform: op.addToHand( card, player )
       allowedLots:
-      - unit-field
-  art: "/thumbelina"
+        - unit-field
+  art: /thumbelina
   guid: f0a1e712-dc0d-feca-4096-4ebcb8253d43
   name: Thumbelina
   power: 1
@@ -3930,8 +4038,8 @@
   description: |-
     I automatically attack as your turn starts
     This counts as a manual attack
-  lore: Unleashed fury incarnate, Fenrir rampages with raw aggression, a tempest of
-    claws and teeth that knows no chains nor fear.
+  lore: Unleashed fury incarnate, Fenrir rampages with raw aggression, a tempest
+    of claws and teeth that knows no chains nor fear.
   notes: Berserker?
   pdc: -1
   status: 4
@@ -3943,8 +4051,8 @@
       condition: event.player === player
       perform: op.forceAttack(card)
       allowedLots:
-      - unit-field
-  art: "/fenrir"
+        - unit-field
+  art: /fenrir
   guid: 880e607b-9629-b54e-5e35-2789092bac94
   name: Fenrir
   power: 6
@@ -3958,19 +4066,26 @@
     multiple effects:
     kill on no sword...
   tags:
-  - noattack
+    - noattack
   effects:
     active:
       eventName: DeployUnit
       eventStatus: ended
-      condition: "event.card === card && \n! get.rightUnit( card ) &&\n!! get.rightUnitField(
-        card ) &&\n!! get.cardBySlug( \n       'knightmare-sword', \n       player.deck,
-        player.hand )"
-      perform: "const field = get.rightUnitField( card )\nconst buddy = get.cardBySlug(
-        \n                  'knightmare-sword', \n                  player.deck, player.hand
-        )\nop.deploy( buddy, field )"
+      condition: |-
+        event.card === card && 
+        ! get.rightUnit( card ) &&
+        !! get.rightUnitField( card ) &&
+        !! get.cardBySlug( 
+               'knightmare-sword', 
+               player.deck, player.hand )
+      perform: |-
+        const field = get.rightUnitField( card )
+        const buddy = get.cardBySlug( 
+                          'knightmare-sword', 
+                          player.deck, player.hand )
+        op.deploy( buddy, field )
       allowedLots:
-      - unit-field
+        - unit-field
   guid: b9184642-b505-f7e6-c6c7-71c4e84a7065
   name: Knightmare Shield
   power: 3
@@ -3984,26 +4099,33 @@
     multiple effects:
     kill on no shield...
   tags:
-  - notribute
+    - notribute
   effects:
     active:
       eventName: DeployUnit
       eventStatus: ended
-      condition: "event.card === card && \n! get.leftUnit( card ) &&\n!! get.leftUnitField(
-        card ) &&\n!! get.cardBySlug( \n       'knightmare-shield', \n       player.deck,
-        player.hand )"
-      perform: "const field = get.leftUnitField( card )\nconst buddy = get.cardBySlug(
-        \n                  'knightmare-shield', \n                  player.deck,
-        player.hand )\nop.deploy( buddy, field )"
+      condition: |-
+        event.card === card && 
+        ! get.leftUnit( card ) &&
+        !! get.leftUnitField( card ) &&
+        !! get.cardBySlug( 
+               'knightmare-shield', 
+               player.deck, player.hand )
+      perform: |-
+        const field = get.leftUnitField( card )
+        const buddy = get.cardBySlug( 
+                          'knightmare-shield', 
+                          player.deck, player.hand )
+        op.deploy( buddy, field )
       allowedLots:
-      - unit-field
+        - unit-field
   guid: b9184642-b505-f7e6-c6c7-71c4e84a7065
   name: Knightmare Sword
   power: 3
 - id: 2509
   slug: cactus
   type: 1
-  description: "-4{{hp}} to the enemy, when their unit attacks here directly"
+  description: -4{{hp}} to the enemy, when their unit attacks here directly
   lore: Ouch!
   effects:
     active:
@@ -4011,7 +4133,7 @@
       eventStatus: ended
       condition: event.card === get.opposingUnit( card )
       perform: op.damage(opponent, 4)
-  art: "/traps/cactus"
+  art: /traps/cactus
   guid: dceeae8a-f8bd-7dbd-7168-11394f7e0f8d
   name: Cactus
 - id: 2440
@@ -4020,8 +4142,8 @@
   description: |-
     On direct attack, deploy the top card in your grave here
     if it's a unit
-  lore: Even death is but a whisper against its potent brew, stirring the fallen back
-    to life.
+  lore: Even death is but a whisper against its potent brew, stirring the fallen
+    back to life.
   effects:
     active:
       eventName: UnitAttackDirect
@@ -4034,7 +4156,7 @@
       perform: |-
         const lot = get.sameLaneUnitField( card )
         op.deploy( player.grave.topCard, lot )
-  art: "/traps/cauldron-of-rebirth"
+  art: /traps/cauldron-of-rebirth
   guid: 32e847e6-dce8-b39e-db65-c218a4e5bf5f
   name: Cauldron of Rebirth
 - id: 2524
@@ -4043,25 +4165,26 @@
     All ally units gain #swapper
     while I'm in play
   tags:
-  - grand
+    - grand
   effects:
     passive:
-      condition: 'true'
-      perform: "player.units.forEach( unit => \n  pass.addTag( unit, Tag.SWAPPER )
-        )"
+      condition: "true"
+      perform: |-
+        player.units.forEach( unit => 
+          pass.addTag( unit, Tag.SWAPPER ) )
       allowedLots:
-      - unit-field
+        - unit-field
   guid: 19fe6c19-e34d-8ca6-92fc-798133db3662
   name: Merlin
   power: 5
-  art: "/tokens/wisp"
+  art: /tokens/wisp
 - id: 2453
   slug: puck
   description: |-
     Discard me as your turn ends
     if I'm still in your hand
-  lore: Impulsive as a summer storm and impatient as the wind, Puck brings an unpredictable
-    energy, leaving a trail of chaos and merriment in his wake.
+  lore: Impulsive as a summer storm and impatient as the wind, Puck brings an
+    unpredictable energy, leaving a trail of chaos and merriment in his wake.
   effects:
     active:
       eventName: TurnEnd
@@ -4071,22 +4194,22 @@
         card.lot.isHand
       perform: op.discard(card)
       allowedLots:
-      - hand
-      - unit-field
-      - grave
+        - hand
+        - unit-field
+        - grave
   guid: 73cf32c1-03b7-71e9-fb27-80d33fcc163d
   name: Robin Goodfellow
   power: 7
-  art: "/puck"
+  art: /puck
 - id: 2394
-  slug: "$kamikaze"
+  slug: $kamikaze
   description: I die after attacking
   notes: |-
     Dying is specific to worker bees in Apis mellifera colonies...
     (European honey bee)
   tags:
-  - rush
-  - notribute
+    - rush
+    - notribute
   pdc: -1
   status: 3
   priority: 8
@@ -4097,13 +4220,13 @@
       condition: event.card === card
       perform: op.kill( card )
       allowedLots:
-      - unit-field
+        - unit-field
   guid: da1d63dc-c3a5-7c69-49c4-148a17a842e0
   name: Worker Bee
   power: 1
-  art: "/hires/worker-bee"
+  art: /hires/worker-bee
 - id: 2379
-  slug: "$bosstrap"
+  slug: $bosstrap
   type: 1
   description: Kill enemy unit with 10{{power}} or above attacking here directly
   effects:
@@ -4116,30 +4239,31 @@
       perform: op.kill(get.opposingUnit(card))
   guid: 53828163-ed73-e387-3634-8cf87831dff2
   name: Bosstrap
-  art: "/traps/icarus-wings"
+  art: /traps/icarus-wings
 - id: 2415
   slug: powerdown-1
   description: On deploy - opposite enemy unit loses 6{{power}}
   tags:
-  - grand
+    - grand
   effects: {}
   guid: e3408a9d-23a7-7c8e-a252-7aa5cc2a32c7
   name: Powerdown 1
   power: 5
 - id: 2452
   slug: morgiana2
-  description: "+5{{power}} while the enemy has a trap here"
-  lore: With ever watchful eyes and swift, deft steps, she turns peril into salvation.
+  description: +5{{power}} while the enemy has a trap here
+  lore: With ever watchful eyes and swift, deft steps, she turns peril into
+    salvation.
   effects:
     passive:
       condition: "!!get.opposingTrap(card)"
       perform: pass.raisePower(card, 5)
       allowedLots:
-      - unit-field
+        - unit-field
   guid: a8bcec64-adb7-7e49-03de-bb12bc83ea71
   name: Morgiana
   power: 2
-  art: "/d3/morgiana"
+  art: /d3/morgiana
 - id: 2488
   slug: muleta
   type: 1
@@ -4157,7 +4281,7 @@
         event.card === get.opposingUnit(card) &&
         event.card.isFaceUp
       perform: op.forceAttack(event.card)
-  art: "/traps/muleta"
+  art: /traps/muleta
   guid: bdaf0351-9f2b-859c-d4e7-7b35dcae8645
   name: Muleta
 - id: 2382
@@ -4166,10 +4290,10 @@
   description: |-
     Move enemy unit here when deployed anywhere
     if possible
-  lore: Leading wayward travelers astray, its elusive light a tantalizing trickster
-    in the twilight.
+  lore: Leading wayward travelers astray, its elusive light a tantalizing
+    trickster in the twilight.
   tags:
-  - global
+    - global
   pdc: -1
   priority: 3
   effects:
@@ -4199,7 +4323,7 @@
     When ANY trap is about to activate on this lane, destroy me and that trap.
     This goes for both yours and the enemy's traps.
   tags:
-  - grand
+    - grand
   pdc: -1
   priority: 3
   effects:
@@ -4213,14 +4337,14 @@
         op.dispose(card)
         op.kill(card)
       allowedLots:
-      - unit-field
+        - unit-field
   guid: 875977e2-407a-791e-f59c-e0846bdd7ddb
   name: Grand Disarmer
   power: 7
 - id: 2471
   slug: the-evil-eye
   type: 1
-  description: "-5{{power}} to enemy unit deployed here face-up"
+  description: -5{{power}} to enemy unit deployed here face-up
   lore: The Evil Eye casts its baleful gaze, draining strength and casting shadows
     of superstition, a reminder that some fears are born from belief.
   pdc: -1
@@ -4232,15 +4356,17 @@
       condition: |-
         event.card === get.opposingUnit(card) &&
         event.card.isFaceUp
-      perform: "op.addTempFx(\n  event.card, \n  tg => tg.pass.lowerPower(event.card,
-        5))"
-  art: "/traps/evil-eye"
+      perform: |-
+        op.addTempFx(
+          event.card, 
+          tg => tg.pass.lowerPower(event.card, 5))
+  art: /traps/evil-eye
   guid: e3b41aa1-0f98-ec62-7c2b-2f8414025180
   name: the Evil Eye
 - id: 2393
-  slug: "$autoatk"
+  slug: $autoatk
   description: I perform a free attack when deployed
-  notes: "\U0001F937‍♂️ ..."
+  notes: 🤷‍♂️ ...
   pdc: -1
   status: 2
   priority: 3
@@ -4251,17 +4377,17 @@
       condition: event.card === card
       perform: op.forceAttack( card )
       allowedLots:
-      - unit-field
+        - unit-field
   guid: 9d9d8250-25d2-e17b-5fc6-7dc75993e29c
   name: Mongoose
   power: 1
-  art: "/redacted/generic_08"
+  art: /redacted/generic_08
 - id: 2442
   slug: nemesiss-strike
   type: 1
   description: Kill enemy unit here after direct attack
-  lore: When fury is unbridled, an unseen force prepares, its retribution swift and
-    relentless
+  lore: When fury is unbridled, an unseen force prepares, its retribution swift
+    and relentless
   pdc: -1
   status: 2
   priority: 3
@@ -4273,16 +4399,17 @@
       perform: op.kill(event.card)
   guid: e649a142-6fe2-e540-60e4-3615f222370a
   name: Nemesis's Strike!
-  art: "/traps/gungnir"
+  art: /traps/gungnir
 - id: 2486
   slug: zhu-bajie
   description: |-
     I return to your hand after I am attacked
     if still in play
-  lore: A boar-headed hero of muddled courage, ever teetering between battle and retreat,
-    his legendary journey is driven by a love for indulgence and a fearful heart.
+  lore: A boar-headed hero of muddled courage, ever teetering between battle and
+    retreat, his legendary journey is driven by a love for indulgence and a
+    fearful heart.
   tags:
-  - grand
+    - grand
   pdc: -1
   priority: 3
   effects:
@@ -4294,51 +4421,51 @@
         faq.isInPlay(card)
       perform: op.addToHand(card, player)
       allowedLots:
-      - unit-field
-  art: "/d3/zhu-bajie"
+        - unit-field
+  art: /d3/zhu-bajie
   guid: c4e29441-a2d6-5d2e-e90d-67c1d4b90213
   name: Zhu Bajie
   power: 10
 - id: 2417
   slug: count-dracula
-  description: "-3{{power}} per other friendly unit in play"
+  description: -3{{power}} per other friendly unit in play
   lore: Exceptionally strong, but doesn't like crowds.
   notes: DUPLICATE (The Hermit)
   pdc: -1
   priority: 3
   effects:
     passive:
-      condition: 'true'
+      condition: "true"
       perform: |-
         let units = player.units
         let allies = units.filter( c => c !== card )
         pass.lowerPower( card, allies.length * 3 )
       allowedLots:
-      - unit-field
-      - hand
-      - grave
-  art: "/dracula"
+        - unit-field
+        - hand
+        - grave
+  art: /dracula
   guid: 0e0640e1-917e-9491-34ca-bb8f8a8a4e45
-  name: 'REDrACulTED #8'
+  name: "REDrACulTED #8"
   power: 9
 - id: 2399
-  slug: "$spearhead"
+  slug: $spearhead
   tags:
-  - piercing
+    - piercing
   pdc: -1
   priority: 3
   effects: {}
   guid: 1dceec66-3bae-a21b-2d2c-dac0160cbc43
   name: Spearhead
   power: 1
-  art: "/redacted/generic_86"
+  art: /redacted/generic_86
 - id: 2476
   slug: zorro
   description: |-
     I move in front any new enemy unit
     if possible
-  lore: Swift as a shadow and nimble as a cat, Zorro darts through danger, his blade
-    always ready to dance with a worthy opponent.
+  lore: Swift as a shadow and nimble as a cat, Zorro darts through danger, his
+    blade always ready to dance with a worthy opponent.
   pdc: -1
   status: 2
   priority: 1
@@ -4346,14 +4473,15 @@
     active:
       eventName: DeployUnit
       eventStatus: ended
-      condition: "let lot = get.opposingUnitField( event.card )\r\nfaq.canRelocateTo(
-        card, lot )"
+      condition: "let lot = get.opposingUnitField( event.card )\r
+
+        faq.canRelocateTo( card, lot )"
       perform: |-
         let lot = get.opposingUnitField( event.card )
         op.forceRelocate( card, lot )
       allowedLots:
-      - unit-field
-  art: "/d3/zorro"
+        - unit-field
+  art: /d3/zorro
   guid: e156e58b-3903-0196-a55c-cef515c0dcdd
   name: Zorro
   power: 4
@@ -4362,12 +4490,12 @@
   description: |-
     I die after combat
     if still in play
-  lore: The White Buffalo Maiden, an emissary of peace, walks softly upon the earth,
-    her presence a gentle hymn to harmony and balance.
+  lore: The White Buffalo Maiden, an emissary of peace, walks softly upon the
+    earth, her presence a gentle hymn to harmony and balance.
   tags:
-  - sneak
-  - noattack
-  - nomove
+    - sneak
+    - noattack
+    - nomove
   pdc: -1
   status: 2
   priority: 7
@@ -4375,19 +4503,21 @@
     active:
       eventName: UnitAttackCombat
       eventStatus: ended
-      condition: "event.attacker === card || \nevent.defender === card"
+      condition: |-
+        event.attacker === card || 
+        event.defender === card
       perform: op.kill( card )
       allowedLots:
-      - unit-field
-  art: "/white-buffalo"
+        - unit-field
+  art: /white-buffalo
   guid: 76fbd7d3-ade6-5f68-6c2b-4814e6ca0a31
   name: White Buffalo Maiden
   power: 8
 - id: 2548
   slug: sir-gawain
   description: I will not attack without a foe here
-  lore: A paragon of chivalry, his deeds are woven into the vivid tapestry of knightly
-    valor.
+  lore: A paragon of chivalry, his deeds are woven into the vivid tapestry of
+    knightly valor.
   notes: |-
     chivalry: 7/8
     Might be cool to have them all arthurian
@@ -4400,8 +4530,8 @@
       condition: "! get.opposingUnit( card )"
       perform: pass.addTag( card, Tag.NOATTACK )
       allowedLots:
-      - unit-field
-  art: "/gawain"
+        - unit-field
+  art: /gawain
   guid: 00064144-b333-3249-8dbf-72397801491f
   name: Sir Gawain
   power: 7
@@ -4409,8 +4539,8 @@
   slug: quicksand
   type: 1
   description: Kill enemy unit relocating here
-  lore: Beneath your feet, the Quicksand lies in wait, transforming solid ground into
-    a perilous pitfall with a single misstep.
+  lore: Beneath your feet, the Quicksand lies in wait, transforming solid ground
+    into a perilous pitfall with a single misstep.
   pdc: -1
   status: 3
   priority: 6
@@ -4422,25 +4552,25 @@
       perform: |-
         const foe = get.opposingUnit( card )
         op.kill( foe )
-  art: "/traps/quicksand"
+  art: /traps/quicksand
   guid: bb422769-ee65-6180-d9d9-504f4d30a7ef
   name: Quicksand
 - id: 2164
   slug: tomoe-gozen
-  lore: Samurai warrior maiden, her blade, as swift as cherry blossoms in the wind,
-    was a beacon of grace and terror on the battlefield.
+  lore: Samurai warrior maiden, her blade, as swift as cherry blossoms in the
+    wind, was a beacon of grace and terror on the battlefield.
   pdc: -1
   status: 7
   priority: 3
   effects: {}
-  art: "/tomoe-gozen"
+  art: /tomoe-gozen
   guid: a0537d41-fb40-021c-e3bf-43de93a71b4d
   name: Tomoe Gozen
   power: 5
 - id: 2386
-  slug: "$all-out-johhny-b"
+  slug: $all-out-johhny-b
   description: Discard your hand as your turn ends
-  notes: 'REDACTED #2B'
+  notes: "REDACTED #2B"
   status: 1
   effects:
     active:
@@ -4451,18 +4581,18 @@
         while ( player.hand.cards.length )
           op.discard( player.hand.cards[ 0 ] )
       allowedLots:
-      - unit-field
+        - unit-field
   guid: cb795b5c-f241-e904-0fe7-1394d217b4a1
   name: Minotaur
   power: 9
-  art: "/redacted/generic_70"
+  art: /redacted/generic_70
 - id: 2429
   slug: time-bug
   description: |-
     Combat-Flip:
     If it's the enemy's turn - after the attack finishes, end their turn.
   tags:
-  - sneak
+    - sneak
   effects: {}
   guid: e65414f2-2351-6421-c0f1-980a5cc7b591
   name: Time Bug
@@ -4480,17 +4610,18 @@
         op.draw(player)
         op.draw(player)
       allowedLots:
-      - unit-field
-      - grave
+        - unit-field
+        - grave
   guid: 15f64461-95cc-c62e-ca23-11dc1495fba7
   name: Mike
   power: 3
 - id: 2312
   slug: brain-leech-0
-  description: "Safe-Flip\nDie.\rIf there is an opposing enemy creature - move it
-    to your side."
+  description: "Safe-Flip
+
+    Die.\rIf there is an opposing enemy creature - move it to your side."
   tags:
-  - sneak
+    - sneak
   effects: {}
   guid: bdcaedca-25c5-01a4-da74-26a664483ce7
   name: Brain Leech
@@ -4500,7 +4631,7 @@
   description: The moment there are no adjacent friendly creatures I return to my
     controller's hand.
   tags:
-  - grand
+    - grand
   effects:
     active:
       eventName: CardChangeLot
@@ -4508,7 +4639,7 @@
       condition: get.adjacentUnits( card ).length < 1
       perform: op.addToHand( card, player )
       allowedLots:
-      - unit-field
+        - unit-field
   guid: bbf5bfbc-a43d-d5dc-4b43-32b1119bee40
   name: Mega Chicken
   power: 18
@@ -4518,8 +4649,8 @@
   description: |-
     Your unit here performs a free attack, when opposing enemy unit is played
     You must have a unit here
-  lore: 'The Night Attack at Târgoviște: Vlad the Impaler, also known as Dracula,
-    launched a surprise night attack against the invading Ottoman forces.'
+  lore: "The Night Attack at Târgoviște: Vlad the Impaler, also known as Dracula,
+    launched a surprise night attack against the invading Ottoman forces."
   notes: |-
     Qin's trap?
     The Battle of Trenton?
@@ -4532,13 +4663,13 @@
         event.card === get.opposingUnit( card ) &&
         !! get.sameLaneUnit( card )
       perform: op.forceAttack( get.sameLaneUnit( card ) )
-  art: "/traps/night-attack"
+  art: /traps/night-attack
   guid: ca3a6d1f-f089-4c7e-42ec-0a7a9ea6f384
   name: the Night Attack
 - id: 2372
-  slug: "$die-on-enemy-damage"
+  slug: $die-on-enemy-damage
   description: I die once the enemy takes damage
-  notes: 'REDACTED #5'
+  notes: "REDACTED #5"
   effects:
     active:
       eventName: PlayerDamage
@@ -4546,75 +4677,79 @@
       condition: event.player === opponent
       perform: op.kill(card)
       allowedLots:
-      - unit-field
+        - unit-field
   guid: 7ee79cb2-1be0-9ebd-ae6f-c788563f701d
   name: Sir Balin
   power: 8
-  art: "/redacted/generic_66"
+  art: /redacted/generic_66
 - id: 2319
   slug: nasreddin
   description: If your current AP is 0, you can summon me for no mana cost.
-  lore: "(Middle Eastern and Central Asian Folklore): A satirical Sufi figure known
-    for his humorous anecdotes and stories, teaching lessons in unconventional ways
-    and often revealing profound wisdom."
+  lore: "(Middle Eastern and Central Asian Folklore): A satirical Sufi figure
+    known for his humorous anecdotes and stories, teaching lessons in
+    unconventional ways and often revealing profound wisdom."
   effects: {}
   guid: bab4499d-f430-1bce-43d6-1d22d350599b
   name: Nasreddin
   power: 4
 - id: 2463
   slug: wayland-the-smith
-  description: "+1{{power}} per card in your hand"
-  lore: His hammer strikes the anvil like lightning, forging from fire and metal tales
-    of heroism and strength echoed in every creation.
+  description: +1{{power}} per card in your hand
+  lore: His hammer strikes the anvil like lightning, forging from fire and metal
+    tales of heroism and strength echoed in every creation.
   notes: |-
     Wēland in Old English?
     Völundr in Old Norse?
   effects:
     passive:
-      condition: 'true'
+      condition: "true"
       perform: |-
         let count = player.hand.cardCount
         pass.raisePower( card, count )
       allowedLots:
-      - unit-field
-      - hand
-      - grave
-  art: "/wayland"
+        - unit-field
+        - hand
+        - grave
+  art: /wayland
   guid: 5449b2b3-6f26-8acd-e5f8-3318420ca29f
   name: Wayland the Smith
 - id: 2314
   slug: achilles
-  description: "+1 every time an ally dies"
-  lore: He mourns not in silence, but in thunderous fury, his sorrow echoing through
-    each enemy's defeat.
+  description: +1 every time an ally dies
+  lore: He mourns not in silence, but in thunderous fury, his sorrow echoing
+    through each enemy's defeat.
   notes: How to reset after atk!?
   effects:
     active:
       eventName: UnitDie
       eventStatus: ended
       condition: event.card.controller === card.controller
-      perform: "const bonus = 1\nop.addTempFx(\n  card, \n  tg => tg.pass.raisePower(card,
-        bonus))"
+      perform: |-
+        const bonus = 1
+        op.addTempFx(
+          card, 
+          tg => tg.pass.raisePower(card, bonus))
       allowedLots:
-      - unit-field
+        - unit-field
   guid: aa43b737-6193-cb9d-3ebe-7bea5a77302a
   name: Achilles
   power: 4
-  art: "/achilles"
+  art: /achilles
 - id: 2318
   slug: banana-b
-  description: |-
+  description: >-
     IN-HAND
+
     When you draw me, from your deck show me to the enemy and if possible add @banana_a from your deck to your hand.
   effects: {}
   guid: 3f4c1954-540b-cae3-d990-3b6e8be4e8f2
   name: Banana B
   power: 4
 - id: 2388
-  slug: "$pricy-attack"
-  description: "-5{{hp}} to you before I attack"
-  lore: A cunning imp, forever bound to his word, known for turning straw into gold
-    and names into curses.
+  slug: $pricy-attack
+  description: -5{{hp}} to you before I attack
+  lore: A cunning imp, forever bound to his word, known for turning straw into
+    gold and names into curses.
   effects:
     active:
       eventName: UnitAttack
@@ -4622,15 +4757,16 @@
       condition: event.card === card
       perform: op.damage(player, 5)
       allowedLots:
-      - unit-field
-  art: "/rumpelstiltskin"
+        - unit-field
+  art: /rumpelstiltskin
   guid: b3e4bf61-fc6d-148a-ce61-9ad3fcc33bb5
   name: Rumpelstiltskin
   power: 7
 - id: 2317
   slug: banana-a
-  description: |-
+  description: >-
     IN-HAND
+
     When you draw me, from your deck show me to the enemy and if possible add @banana_b from your deck to your hand.
   effects: {}
   guid: 24dadd9e-55ab-a369-c64f-4eaa7541ee75
@@ -4641,8 +4777,8 @@
   description: |-
     Draw a card after my attack
     if I'm still in play
-  lore: His court, a beacon of enlightenment, where knowledge flows freely, irrigating
-    the thirsty fields of human intellect.
+  lore: His court, a beacon of enlightenment, where knowledge flows freely,
+    irrigating the thirsty fields of human intellect.
   effects:
     active:
       eventName: UnitAttack
@@ -4650,16 +4786,16 @@
       condition: event.card === card
       perform: op.draw(player)
       allowedLots:
-      - unit-field
+        - unit-field
   guid: d3652985-d44b-8bc4-a4af-e6be3f556199
   name: Harun al-Rashid
   power: 3
-  art: "/hires/harun-al-rasahid"
+  art: /hires/harun-al-rasahid
 - id: 2468
   slug: tithonus
   description: Every time the enemy draws a card, decrease my power by 1.
-  lore: Blessed with immortality but cursed to wither, Tithonus fades over time, his
-    strength ebbing away with each passing moment like a shadow at dawn.
+  lore: Blessed with immortality but cursed to wither, Tithonus fades over time,
+    his strength ebbing away with each passing moment like a shadow at dawn.
   effects:
     active:
       eventName: Draw
@@ -4671,11 +4807,11 @@
           tg => tg.pass.lowerPower(card, 1)
         )
       allowedLots:
-      - unit-field
+        - unit-field
   guid: bac2dd35-ae73-6040-bd9f-b3118c58bde7
   name: Tithonus
   power: 8
-  art: "/d3/tithonus"
+  art: /d3/tithonus
 - id: 2492
   slug: bennu
   description: I return to your hand if I'm on top of your grave as your turn begins
@@ -4683,32 +4819,33 @@
     awe-inspiring spectacle of rebirth that defies the finality of the end.
   notes: From ashes rises back to life, the sun-bringing fire bird, ending strife...
   tags:
-  - sneak
+    - sneak
   effects:
     active:
       eventName: TurnBegin
       eventStatus: ended
-      condition: "card.controller.grave.topCard === card && \ncard.controller ===
-        get.currentPlayer"
+      condition: |-
+        card.controller.grave.topCard === card && 
+        card.controller === get.currentPlayer
       perform: op.addToHand( card, player )
       allowedLots:
-      - grave
-  art: "/d3/benu"
+        - grave
+  art: /d3/benu
   guid: daf9dcb2-0b3e-772b-1538-1d88ab4dafcf
   name: The Benu Bird
   power: 2
 - id: 2309
   slug: zig
-  description: At the beginning of your turn if a card named @zag is in your graveyard
-    - add it to your hand.
+  description: At the beginning of your turn if a card named @zag is in your
+    graveyard - add it to your hand.
   effects: {}
   guid: 1978d04a-dacb-fdaa-01c3-e09c8cd3bf69
   name: Zig
   power: 2
 - id: 2310
   slug: zag
-  description: At the beginning of your turn if a card named @zig is in your graveyard
-    - add it to your hand.
+  description: At the beginning of your turn if a card named @zig is in your
+    graveyard - add it to your hand.
   effects: {}
   guid: c71385bf-38cc-443d-884c-d1e0780b5ab3
   name: Zag
@@ -4719,15 +4856,21 @@
     Revive Orpheus to my RIGHT
     when I'm played,
     if possible
-  lore: Eurydice's spirit, a testament to a bond that transcends death, illuminates
-    love's enduring power, making each heartbeat a love song to Orpheus.
+  lore: Eurydice's spirit, a testament to a bond that transcends death,
+    illuminates love's enduring power, making each heartbeat a love song to
+    Orpheus.
   effects:
     active:
       eventName: DeployUnit
       eventStatus: ended
-      condition: "const PARTNER_NAME = 'orpheus'\nconst destination = get.rightUnitField(card)\nevent.card
-        === card &&\n!!destination && \n!destination.hasCards &&\nplayer.grave.cards\n
-        \ .some(c => c.slug === PARTNER_NAME)"
+      condition: |-
+        const PARTNER_NAME = 'orpheus'
+        const destination = get.rightUnitField(card)
+        event.card === card &&
+        !!destination && 
+        !destination.hasCards &&
+        player.grave.cards
+          .some(c => c.slug === PARTNER_NAME)
       perform: |-
         const PARTNER_NAME = 'orpheus'
         const destination = get.rightUnitField(card)
@@ -4735,8 +4878,8 @@
           .find(c => c.slug === PARTNER_NAME)
         op.moveTo(partner, destination)
       allowedLots:
-      - unit-field
-  art: "/eurydice"
+        - unit-field
+  art: /eurydice
   guid: 6522a282-a424-a7cc-a462-d4dc93f446a2
   name: Eurydice
   power: 4
@@ -4746,8 +4889,8 @@
     Revive Eurydice to my LEFT
     when I'm played,
     if possible
-  lore: Bound by a love that outlasts life itself, Orpheus would cross even the doors
-    of death, his melody a pledge to his beloved Eurydice.
+  lore: Bound by a love that outlasts life itself, Orpheus would cross even the
+    doors of death, his melody a pledge to his beloved Eurydice.
   effects:
     active:
       eventName: DeployUnit
@@ -4767,36 +4910,38 @@
           .find(c => c.slug === PARTNER_NAME)
         op.moveTo(partner, destination)
       allowedLots:
-      - unit-field
-  art: "/orpheus"
+        - unit-field
+  art: /orpheus
   guid: 69e94d75-3b59-c2c5-3551-5b0e401031ee
   name: Orpheus
   power: 4
 - id: 2371
-  slug: "$necropy-2"
+  slug: $necropy-2
   description: |-
     +X{{power}}, equal to your grave's top card
     +0{{power}} if not a unit
-  notes: "$necropy-2"
+  notes: $necropy-2
   effects:
     passive:
-      condition: 'true'
-      perform: "const amount = \n  player.grave.topCard?.power || 0\npass.raisePower(card,
-        amount)"
+      condition: "true"
+      perform: |-
+        const amount = 
+          player.grave.topCard?.power || 0
+        pass.raisePower(card, amount)
       allowedLots:
-      - unit-field
-      - hand
-      - grave
-  art: "/redacted/generic_82"
+        - unit-field
+        - hand
+        - grave
+  art: /redacted/generic_82
   guid: da711770-5ed0-4617-0f2a-b520d56d8912
   name: Dybbuk
 - id: 2494
-  slug: "$spike"
+  slug: $spike
   description: |-
     Combat-Flip
     -2{{hp}} to the enemy
   tags:
-  - sneak
+    - sneak
   effects:
     flip:
       manner: combat
@@ -4809,10 +4954,10 @@
   description: |-
     I move right after attacking
     if possible
-  lore: Gracefully riding the capricious waves, Amphitrite commands the sea's rhythms,
-    making the vast ocean her whimsical dance floor.
+  lore: Gracefully riding the capricious waves, Amphitrite commands the sea's
+    rhythms, making the vast ocean her whimsical dance floor.
   tags:
-  - grand
+    - grand
   effects:
     active:
       eventName: UnitAttack
@@ -4826,16 +4971,16 @@
         const lot = get.rightUnitField(card)
         op.forceRelocate(card, lot)
       allowedLots:
-      - unit-field
-  art: "/amphitrite"
+        - unit-field
+  art: /amphitrite
   guid: aed48434-2260-dce3-9f4c-1afd8ba8f782
   name: Amphitrite
   power: 9
 - id: 2381
   slug: mana-drain
   type: 1
-  description: Activate when opposing enemy creature is summoned manually. The enemy's
-    mana is depleted instantly.
+  description: Activate when opposing enemy creature is summoned manually. The
+    enemy's mana is depleted instantly.
   effects: {}
   guid: 1ff775c2-57cb-d1ef-2854-2d934dd2fc02
   name: Mana Drain
@@ -4845,14 +4990,14 @@
   description: |-
     When enemy unit comes here, return it to the hand
     All methods count, like deployment, relocation and effects
-  lore: Through the shimmering air, false landscapes beckon, their enticing yet elusive
-    promise leading only to confusion.
+  lore: Through the shimmering air, false landscapes beckon, their enticing yet
+    elusive promise leading only to confusion.
   effects:
     active:
       eventName: CardChangeLot
       eventStatus: ended
       condition: event.card === get.opposingUnit(card)
       perform: op.addToHand(event.card, event.card.owner)
-  art: "/traps/fata-morgana"
+  art: /traps/fata-morgana
   guid: df830212-fd3c-40f8-9430-688259d6bd32
   name: Fata Morgana
