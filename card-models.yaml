@@ -3,30 +3,27 @@
   description: |-
     Has the power of the strongest foe
     in play
-  notes: "REDACTED #7B Doppelgänger"
   tags:
     - grand
   effects:
     passive:
       condition: "true"
       perform: |-
-        const candidates = [...opponent.units];
-        candidates.sort((a, b) => b.power - a.power)
-        const power = candidates[0]?.power || 0;
-        pass.raisePower(card, power)
+        const bonusL = get.leftUnit(card)?.power||0
+        const bonusR = get.rightUnit(card)?.power||0
+        pass.raisePower(card, bonusL + bonusR)
       allowedLots:
         - unit-field
-        - hand
-        - grave
   guid: 6b09bd92-79ab-ceec-f426-497dcd1aa5c5
-  name: Doppelganger
-  art: /redacted/generic_05
+  name: ...
+  art: /redacted/generic_06
 - id: 2404
   slug: clumsy-opossum
   description: +3{{power}} while against enemy unit
   effects: {}
   guid: a85d4bc8-3c9c-2f12-cde9-35717b46e69d
   power: 3
+  name: clumsy-opossum
 - id: 2321
   slug: real-sean
   effects: {}
