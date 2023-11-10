@@ -1,3 +1,17 @@
+- id: 2167
+  slug: mad-gasser-of-mattoon
+  effects: {}
+  guid: 6bf6761c-4b44-3f33-d6a5-e8bc1c87481d
+  name: Mad Gasser of Mattoon
+  power: 5
+  art: /d3/mad-gasser-of-mattoon
+- id: 2166
+  slug: britomart
+  effects: {}
+  guid: 6bf6761c-4b44-3f33-d6a5-e8bc1c87481d
+  name: Britomart
+  power: 5
+  art: /d3/britomart
 - id: 2408
   slug: friendly-sheep
   description: +{{hp}} before I'm killed by stronger unit, equal to our power difference
