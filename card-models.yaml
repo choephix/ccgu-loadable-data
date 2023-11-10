@@ -2,6 +2,7 @@
   slug: real-sean
   effects: {}
   guid: eb70ebd3-afe5-fe14-c9bd-05bd5eef88de
+  name: real-sean
 - id: 2402
   slug: fine-kyle
   notes: empty shell
@@ -285,7 +286,7 @@
   guid: 309dac11-cb4b-37e1-a15c-f57ef6eee5dc
   power: 10
   name: Camazotz
-  art: /camazotz
+  art: /d3/camazotz
 - id: 7
   slug: --superkamikaze
   effects:
@@ -2408,7 +2409,7 @@
   guid: 309dac11-cb4b-37e1-a15c-f57ef6eee5dc
   power: 10
   name: Camazotz
-  art: /camazotz
+  art: /d3/camazotz
 - id: 2177
   slug: angra-mainyu
   lore: His essence, a chilling wind tearing through creation, a herald of eternal
@@ -4352,7 +4353,7 @@
   guid: c67cb778-6bc1-80de-8192-fdb60c2090e8
   name: Robert the Bruce
   power: 1
-  art: /b2/robert-the-bruce
+  art: /d3/robert-the-bruce
 - id: 2485
   slug: the-cheshire-cat
   description: 0{{powered}} token spawns in my place after I die in combat
