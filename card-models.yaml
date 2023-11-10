@@ -1,3 +1,10 @@
+- id: 2168
+  slug: lobisomem
+  effects: {}
+  guid: ccf3a287-0c50-15b3-d120-8177e612fb3e
+  name: Lobisomem
+  art: /d3/lobisomem
+  power: 5
 - id: 2167
   slug: mad-gasser-of-mattoon
   effects: {}
