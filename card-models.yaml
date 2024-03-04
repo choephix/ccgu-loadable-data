@@ -3062,7 +3062,9 @@
     active:
       eventName: DeployUnit
       eventStatus: ended
-      condition: event.card === card
+      condition: |-
+        event.card === card &&
+        opponent.units.length > player.units.length
       perform: |-
         const bonus = 
           opponent.units.length - player.units.length
