@@ -4296,7 +4296,7 @@
 - id: 2510
   slug: the-nightingale
   type: 1
-  description: End the turn immediately after enemy attack attack finishes here
+  description: End the turn immediately after an enemy attack here
   lore: Legendary bird whose song is said to have the power to induce sleep.
   notes: "Alt: Somnus's touch?"
   effects:
