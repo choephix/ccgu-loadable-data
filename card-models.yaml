@@ -2,7 +2,7 @@
   slug: mad-arab2
   description: |-
     All foes auto-attack when I die
-    I must die in combat
+    I must die in combat, on enemy turn
     Auto-attacks are free
   lore: By the flickering candlelight, he communes with unthinkable horrors in
     cryptic whispers.
@@ -10,9 +10,11 @@
     active:
       eventName: UnitDie
       eventStatus: ended
-      condition: event.card === card
+      condition: |-
+        event.card === card &&
+        event.card.controller === opponent
       perform: |-
-        for (const u of get.currentPlayer.units) {
+        for (const u of opponent.units) {
           if (!u.isFaceUp) continue
           op.forceAttack(u)
         }
@@ -1488,7 +1490,7 @@
   slug: mad-arab
   description: |-
     All allies auto-attack when I die
-    I must die in combat
+    I must die in combat, on enemy turn
     Auto-attacks are free
   lore: By the flickering candlelight, he communes with unthinkable horrors in
     cryptic whispers.
@@ -1496,9 +1498,11 @@
     active:
       eventName: UnitDie
       eventStatus: ended
-      condition: event.card === card
+      condition: |-
+        event.card === card &&
+        event.card.controller === opponent
       perform: |-
-        for (const u of get.currentPlayer.units) {
+        for (const u of card.controller.units) {
           if (!u.isFaceUp) continue
           op.forceAttack(u)
         }
