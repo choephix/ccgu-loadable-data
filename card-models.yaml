@@ -1,3 +1,27 @@
+- id: 2519
+  slug: mad-arab2
+  description: |-
+    All allies auto-attack when I die
+    I must die in combat
+    Auto-attacks are free
+  lore: By the flickering candlelight, he communes with unthinkable horrors in
+    cryptic whispers.
+  effects:
+    active:
+      eventName: UnitDie
+      eventStatus: ended
+      condition: event.card === card
+      perform: |-
+        for (const u of get.currentPlayer.units) {
+          if (!u.isFaceUp) continue
+          op.forceAttack(u)
+        }
+      allowedLots:
+        - unit-field
+        - grave
+  guid: f1a7812e-96af-5d1c-e694-3fabfae6e2e5
+  name: Abdul Alhazred
+  art: /hires/abdul-alhazred
 - id: 2168
   slug: lobisomem
   effects: {}
