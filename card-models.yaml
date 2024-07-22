@@ -1,3 +1,24 @@
+- id: 2543
+  slug: hermit2
+  description: -2{{power}} per ally in play
+  lore: Within the silence of his solitude, wisdom's whispers echo through the ages.
+  pdc: -1
+  priority: 3
+  effects:
+    passive:
+      condition: player.units.some(c => c !== card)
+      perform: |-
+        let units = player.units
+        let allies = units.filter( c => c !== card )
+        pass.lowerPower( card, allies.length * 3 )
+      allowedLots:
+        - unit-field
+        - hand
+        - grave
+  guid: 0e0640e1-917e-9491-34ca-bb8f8a8a4e45
+  art: /b2/hermit
+  name: The Hermit V2
+  power: 8
 - id: 2519
   slug: mad-arab2
   description: |-
@@ -200,7 +221,7 @@
   name: Vasilisa's Lantern
   power: 5
   art: /d3/vasilisa-skull
-- id: 2531
+- id: 2530
   slug: vasilisa-evil
   lore: Guided by a doll, through Baba Yaga's hall
   effects:
