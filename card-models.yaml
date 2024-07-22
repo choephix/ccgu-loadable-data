@@ -10,7 +10,7 @@
       perform: |-
         let units = player.units
         let allies = units.filter( c => c !== card )
-        pass.lowerPower( card, allies.length * 3 )
+        pass.lowerPower( card, allies.length * 2 )
       allowedLots:
         - unit-field
         - hand
